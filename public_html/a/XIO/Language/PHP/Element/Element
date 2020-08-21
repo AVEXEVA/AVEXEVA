@@ -1,0 +1,23 @@
+<?php 
+class Element {
+	//Variables
+	public $ID;
+	public $Name;
+	public $Class;
+	public $Rel;
+	public $HTML;
+	//Traits
+	use \magic\methods;
+	//Functions
+	protected function HTML(){echo $this->HTML;}
+	protected function Attributes(){
+		$strings = [];
+		foreach(get_object_vars($this) as $key=>$value){
+			if(is_array($value) || is_object($value)){continue;}
+			elseif(in_array($value, array('HTML')){continue;}
+			$strings[] = "{$key}='{$value}'";
+		}
+		echo implode($delimiter, $strings);
+	}
+}
+?>

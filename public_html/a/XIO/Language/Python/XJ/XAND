@@ -1,0 +1,22 @@
+XS = {}
+n = 0
+for X in XS:
+  XS[ X ] = {}
+  for XE in XS:
+     if XE[ len(XE) - 3 : ] == '.py' and XE[0:2] != '__':
+        XE = XE[  : len(XE) - 3]
+        try:
+           XS[ X ][ XE ] = X(XS/X/XE).XQ
+           continue
+        except:
+           print( 'Failed : ' + X + ' / ' + XE )
+           continue
+XQ = XS['XC']['Prompt'][0:1]
+X( XS['XC'].get(X(XS['XC']['!H']).get( t(X(XQ[0:1])) )))
+
+<@XS = Xs'
+<@n = Number
+<@XE = Electricity
+<@XQ = Y
+<@XC = Commed
+<@t = Sec

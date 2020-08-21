@@ -1,0 +1,189 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id tFnYJRG+B1/SOAAABSAGJw
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	for <avex@avexeva.com>; Thu, 09 Jul 2020 21:02:09 -0400
+Return-path: <account-security-noreply@accountprotection.microsoft.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 09 Jul 2020 21:02:09 -0400
+Received: from mail-dm6nam11on2060.outbound.protection.outlook.com ([40.107.223.60]:54368 helo=NAM11-DM6-obe.outbound.protection.outlook.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.93)
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	id 1jthQO-0003oE-0v
+	for avex@avexeva.com; Thu, 09 Jul 2020 21:02:09 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=R7UkZmGo/68Dg2hA4EKDIulQrawCLoMQN2YkFAVMUb+HQuejWgXZTYmu/O2y2PApPlI0pmq73sKMUDNNJ4dUkWgvTn1oa0SJcWtWKjx9jbOIDIINyXzIoZA3bVlK/LxUWhJxD/xlHBtBYwgo25MkGwaadT/7KNJDI0X6esNyT13K9WaYKvkNgDDx8wpPYs77XVC0fFr5XKrhsJDFBXH/37uV38+FIyYE5Jcm7g0O3EPpRe/h0sjO9twXimqAwE9wfUILPxMjRVwiLFUkvRFwswR483oUQZu4j8+Niv9vVQX3nQKXCgsd6otZZjqa7LW7G67/+KsE8aZjPTQ7HEudnA==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2Acs1I3iZc41oogQBLlv5fNl3tR2SpDA5hLDkhOrhWY=;
+ b=Rr3TlPCoxn2fUvKAZhEGbXndgho5Q6vzBxA+Nn2836NAAQDi3U6a+pVpiqlCdLUMU+NF3PgkG0rwdmRorxzLNTUDYIeVCgMOP3fWZt44l1ei1qxsFxlD2KRePAHCTbruEcmFUuGsOJVNAu5RcIW9GTeZ8Itub01SyyyTPmaexwhv/S5inENaeXYdqHJ/0eYZ2yn6IDgMnIVX1P6tUSQ9WbSzApiVXDrEaVpfGNEGXk7ofN3SGwZYAIrjW2MwmX97j8dgeFmIYgOcMY0bSrMr9CdmRAaI0yRFihsqVT7687JcIciLxkFChJpYsDplCXc/qOlqIxr2arJKUpBxTEwM1A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 65.52.110.208) smtp.rcpttodomain=avexeva.com
+ smtp.mailfrom=accountprotection.microsoft.com; dmarc=pass (p=reject sp=reject
+ pct=100) action=none header.from=accountprotection.microsoft.com; dkim=none
+ (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=2Acs1I3iZc41oogQBLlv5fNl3tR2SpDA5hLDkhOrhWY=;
+ b=Q1n2pT2r7JLQj5ha0UGdDQuGyeWYM2Niu04Nc5GA5v/i3pADcGVacDSeXntQM29CUWjMUUsmXSpMjNY8EK9AdD1i5TZzYdKhnHchPr0SjZ1GykXpAuPruLJzIeWMbfKXdPDWueMza++Hw00ll5MtN99OagVlHiWf3p1C/FCXEVc=
+Received: from DM5PR06CA0027.namprd06.prod.outlook.com (2603:10b6:3:5d::13) by
+ DM6PR16MB3291.namprd16.prod.outlook.com (2603:10b6:5:191::23) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3174.20; Fri, 10 Jul 2020 01:01:58 +0000
+Received: from DM6NAM11FT062.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:3:5d:cafe::b2) by DM5PR06CA0027.outlook.office365.com
+ (2603:10b6:3:5d::13) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3174.21 via Frontend
+ Transport; Fri, 10 Jul 2020 01:01:58 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 65.52.110.208)
+ smtp.mailfrom=accountprotection.microsoft.com; avexeva.com; dkim=none
+ (message not signed) header.d=none;avexeva.com; dmarc=pass action=none
+ header.from=accountprotection.microsoft.com;
+Received-SPF: Pass (protection.outlook.com: domain of
+ accountprotection.microsoft.com designates 65.52.110.208 as permitted sender)
+ receiver=protection.outlook.com; client-ip=65.52.110.208;
+ helo=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (65.52.110.208) by
+ DM6NAM11FT062.mail.protection.outlook.com (10.13.173.40) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3174.21 via Frontend Transport; Fri, 10 Jul 2020 01:01:58 +0000
+From: Microsoft account team
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Thu, 09 Jul 2020 18:01:58 -0700
+Subject: Microsoft account security code
+To: avex@avexeva.com
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <1HILMJXO3BU4.E8JS1GJPLKLD3@BN3SCH030020321>
+X-Partner-Original-IP: 25.127.109.87
+X-TenantID: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-SystemMessage: true
+X-MSAMetaData:
+ =?us-ascii?q?DWQ!bqXv4kPxYjCzdeacw62mtIvQUZTpTqzc9LEOKbMTdvV5i!CuG1LpnkPHl?=
+ =?us-ascii?q?Y8fGOIY21wGdS0!73O!bphw7Zh9JyozrG3CvF1HV7Rwvs8QPSvWJDnrzaa94x?=
+ =?us-ascii?q?!8G7sZhA$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-BBpNEWME4fZavjPOjfaIWw=="
+X-EOPAttributedMessage: 0
+X-Forefront-Antispam-Report:
+	CIP:65.52.110.208;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:msnbot-65-52-110-208.search.msn.com;CAT:NONE;SFTY:;SFS:(7916004)(346002)(136003)(376002)(34036004)(39860400002)(396003)(47530400004)(47690400004)(3480700007)(15650500001)(316002)(336012)(956004)(6916009)(36736006)(86362001)(83380400001)(8936002)(118246002)(8676002)(81166007)(33656002)(166002)(82310400002)(356005)(10290500003)(2906002)(6486002)(966005)(574094003)(9686003)(70206006)(70586007)(33716001)(52230400001)(508600001)(6512007)(26005)(5660300002)(121820200001)(186003);DIR:OUT;SFP:1101;
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 72704442-10cd-4ef8-9ad8-08d8246cd8e0
+X-MS-TrafficTypeDiagnostic: DM6PR16MB3291:
+X-Microsoft-Antispam-PRVS:
+	<DM6PR16MB3291D3CEEA5BA55E34EFB93489650@DM6PR16MB3291.namprd16.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	aeiVQHx5KfBq/q1s1ukxOIzsSboCiQ2hTViEMCHWBTdpWx60O9AUH/Jus+0AmfQg1sfBJRKe+Z5rWdb6Ga2wYoreHo7OxnbImswZUuajIsgMdBsVux2kTSiTWrBNiOddyb0+2lfh7ReNVcAwfoV3CNQGilxo/SnMKRlapu5goY6oWpfzZKpZ7X/cfLebA23msW8U0NPHnYaXH7f+IewZdQu7BY0HwY+DGbEjImNniOQJd5n3/BT4VUDKLRUfQ2KLKpBzzib3mLcHAxl0Wm1X5Htw69kCmCqOigpHK9BUQPPyHXfxRiwnGP1VymsCsUSFRHWatGnV8ddwpUKqK165p5ffQSirhGRDxzgqa7MNzKSukeFtb0FD19yWZSROM3Ygxb4qGjgJ3vVMoT+mIjMF4Q==
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 10 Jul 2020 01:01:58.5152
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 72704442-10cd-4ef8-9ad8-08d8246cd8e0
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[65.52.110.208];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthSource:
+	DM6NAM11FT062.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DM6PR16MB3291
+X-Spam-Status: No, score=-15.6
+X-Spam-Score: -155
+X-Spam-Bar: ---------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Please use the following security code for the Microsoft account
+    av*****@avexeva.com. Security code: 8963661 If you don't recognize the Microsoft
+    account av*****@avexeva.com, you can click https://account.live.com/dp?ft=DYZ1sHClQhFWzAIu4LDx7bdMCtPeMq9cZ1ecFzZZQar3U9mhH6OQUiQoQKmxEHCwGrnfXSuQ5dA1JNl*O9PJr*2E
+    [...] 
+ Content analysis details:   (-15.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: live.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [40.107.223.60 listed in wl.mailspike.net]
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+X-Spam-Flag: NO
+
+--=-BBpNEWME4fZavjPOjfaIWw==
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+
+Please use the following security code for the Microsoft account av*****@avexeva.com.
+
+Security code: 8963661
+
+
+                If you don't recognize the Microsoft account av*****@avexeva.com, you can click https://account.live.com/dp?ft=DYZ1sHClQhFWzAIu4LDx7bdMCtPeMq9cZ1ecFzZZQar3U9mhH6OQUiQoQKmxEHCwGrnfXSuQ5dA1JNl*O9PJr*2EoL2Z6mrexJYDZJjs9dHnweYKAp4zw7bUPM4czlT7*3EH6XWWH12U5TZDgTl!4*CijsUaFpeLR5NCDAXwhEtz44D8shedcnnm0LH0HD0AL2c52Ui4DixIKPI*i1qoFyuVnx0UsiP5d95wjEm3cX6MliqbifA!n4IApz0r7YeJBdJxem7ee7Mbvluu4IL3F5PJGsiwAz456kRXyf9woFIpPa0pKH85uSqEAMAJJ7krvw%24%24 to remove your email address from that account.
+            
+
+Thanks,
+The Microsoft account team 
+--=-BBpNEWME4fZavjPOjfaIWw==
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:17px; color:#707070;">Microsoft account</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:41px; color:#2672ec;">Security code</td></tr>
+      <tr><td id="i3" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">
+                
+                Please use the following security code for the Microsoft account <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:av*****@avexeva.com">av*****@avexeva.com</a>.
+            </td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">
+                
+                Security code: <span style="font-family:'Segoe UI Bold', 'Segoe UI Semibold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:14px; font-weight:bold; color:#2a2a2a;">8963661</span>
+            </td></tr>
+      <tr><td id="i5" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">
+                
+                If you don't recognize the Microsoft account <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:av*****@avexeva.com">av*****@avexeva.com</a>, you can <a id="iLink2" class="link" style="color:#2672ec; text-decoration:none" href="https://account.live.com/dp?ft=DYZ1sHClQhFWzAIu4LDx7bdMCtPeMq9cZ1ecFzZZQar3U9mhH6OQUiQoQKmxEHCwGrnfXSuQ5dA1JNl*O9PJr*2EoL2Z6mrexJYDZJjs9dHnweYKAp4zw7bUPM4czlT7*3EH6XWWH12U5TZDgTl!4*CijsUaFpeLR5NCDAXwhEtz44D8shedcnnm0LH0HD0AL2c52Ui4DixIKPI*i1qoFyuVnx0UsiP5d95wjEm3cX6MliqbifA!n4IApz0r7YeJBdJxem7ee7Mbvluu4IL3F5PJGsiwAz456kRXyf9woFIpPa0pKH85uSqEAMAJJ7krvw%24%24">click here</a> to remove your email address from that account.
+            </td></tr>
+      <tr><td id="i6" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Thanks,</td></tr>
+      <tr><td id="i7" style="padding:0; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">The Microsoft account team</td></tr>
+</table>
+</body>
+</html>
+--=-BBpNEWME4fZavjPOjfaIWw==--

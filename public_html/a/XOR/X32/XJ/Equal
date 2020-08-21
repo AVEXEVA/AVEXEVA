@@ -1,0 +1,2 @@
+Arg = Out Value, Access In ( Out Arg In Input( ',', '=' ) )
+Args = lambda Args: return {V : A for i in string.regex('(?:((.*)[ ]*[^=][ ]*(.*))*)[@]{1,1}')}

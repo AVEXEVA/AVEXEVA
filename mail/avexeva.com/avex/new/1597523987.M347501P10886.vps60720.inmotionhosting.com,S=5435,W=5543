@@ -1,0 +1,108 @@
+Return-Path: <psperanza@nouveauelevator.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id NE0wFBNIOF+GKgAABSAGJw
+	(envelope-from <psperanza@nouveauelevator.com>)
+	for <avex@avexeva.com>; Sat, 15 Aug 2020 16:39:47 -0400
+Return-path: <psperanza@nouveauelevator.com>
+Envelope-to: avexeva@avexeva.com
+Delivery-date: Sat, 15 Aug 2020 16:39:47 -0400
+Received: from mail-oi1-f170.google.com ([209.85.167.170]:45771)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.93)
+	(envelope-from <psperanza@nouveauelevator.com>)
+	id 1k72xn-0002rm-He
+	for avexeva@avexeva.com; Sat, 15 Aug 2020 16:39:47 -0400
+Received: by mail-oi1-f170.google.com with SMTP id o21so11339789oie.12
+        for <avexeva@avexeva.com>; Sat, 15 Aug 2020 13:39:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=nouveauelevator-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=fKBUH17A1/ncMkQ4SvuYDb2kooGzKL13WIY9jGoXJ+s=;
+        b=YeyM/98bDnZiG4Njnglw3bS/Fe/iMnkopPhNzHcvkRTbSCVN8cHD9F7eKX7K7tVd8a
+         CRtURvVZzaqCNMR0d65mhwUSDOMo5Sd8mSdHm1eUT00jEgC3eLw+Z0Oqa/KMth8YqN5o
+         Y0QkyWeQ0HWPfGp9c4rBcISl2MR9eRCV3RhtlmBOJhCMqJCXvjBuhTD0aZPbNKdCV+DS
+         CUETZRqt1qi4E92wc94akyhEkr5j/bPvqs8ysULSqBLzjEULrWhPE+oDKNFKFS3RC4bw
+         MKZYAUHod/iJup1bsbT9TGCTEPUrBBlV64/6C5YCESvdlIm1O4kyeY8RI0K4d01u4NVg
+         p43w==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=fKBUH17A1/ncMkQ4SvuYDb2kooGzKL13WIY9jGoXJ+s=;
+        b=OrAEH+uOQDdEp6ZKWMxuilFohF9h7VTQGdKjJBwI+xK+rEAQJ39DJxW30BwLpUkxkf
+         Wm31KmZXdxzE3s5l0Xlz12/gybi3PvMzGF41OpgRMFUH6IkkxePppx8E37rxLiip2mdt
+         qHa1n0BMHd970WcDl5F6YtRCjhtYMdiDgKWsLo3bdAJCdFI1uE2qf3m0sqPz3+xhsbUD
+         ACTdteNLwA4XvYaQJjgOMC7NjzfnPcf/Hxlxh/3jD9cxTog9f/eZTf2ZCkW6LfrtcTIi
+         hwB7guDOYoW/lPgA+SvF9QSuyibEkwWbUixojgb8ofgFXcArcrRWAaDDEi6ifNEgeUIS
+         tuOg==
+X-Gm-Message-State: AOAM532nnn3oFcTQLO+sHxi20he3KKO4blGKYT0E/pJrCQs6asrakcR9
+	BTq3tuzaLhx9sKHZxrk2l2Uw9b5sfxhLBGFY4l6aPo5C7Numlw+cGH4SGvO3O3ATu6w7I57/2s3
+	PmMK2BuB3o/a2ykIjUI2VnXuV6xeWBqQcXSFo/9hvZ9Mz8rolISoDTTjNdH/L4D+xyeZZaLSQOf
+	7TpYoTsJZRNfnGq7Eq3Zv5HwYm3N+PhDyfOV99coQ=
+X-Google-Smtp-Source: ABdhPJxTBZnbI2E9JbCPN/jvDjRPFHALAlFVDjWNJXM0xvBmX6KanaHVG7HTJMncho9k3TztyA7oCCLYd1L2M8KciOA=
+X-Received: by 2002:aca:aa8e:: with SMTP id t136mr5093977oie.154.1597523978014;
+ Sat, 15 Aug 2020 13:39:38 -0700 (PDT)
+MIME-Version: 1.0
+From: Peter Speranza <psperanza@nouveauelevator.com>
+Date: Sat, 15 Aug 2020 16:39:26 -0400
+Message-ID: <CANEDzi8ZfV9WqNvBz=95Ys+GwbcGKmvkszTBFQEAqYmb=J+qAA@mail.gmail.com>
+Subject: test
+To: avexeva@avexeva.com
+Content-Type: multipart/alternative; boundary="0000000000003aeee105acf089fa"
+X-Spam-Status: No, score=1.8
+X-Spam-Score: 18
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  -- *Peter Speranza* *IT Department* *Phone: (718) 349-4877*
+    
+ Content analysis details:   (1.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: nouveauelevator.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [209.85.167.170 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  1.8 HTML_IMAGE_ONLY_08     BODY: HTML: images with 400-800 bytes of
+                             words
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+--0000000000003aeee105acf089fa
+Content-Type: text/plain; charset="UTF-8"
+
+-- 
+
+
+*Peter Speranza*
+*IT Department*
+
+*Phone: (718) 349-4877*
+
+--0000000000003aeee105acf089fa
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><br clear=3D"all"><div><br></div>-- <br><div dir=3D"ltr" c=
+lass=3D"gmail_signature" data-smartmail=3D"gmail_signature"><div dir=3D"ltr=
+"><div><div dir=3D"ltr"><div><img src=3D"http://www.nouveauelevator.com/ima=
+ge/logo.png" width=3D"200" height=3D"75"><br></div><div><br></div><b>Peter =
+Speranza</b></div><div dir=3D"ltr"><b style=3D"font-size:12.8px"><i>IT Depa=
+rtment</i></b><b><br></b></div><div dir=3D"ltr"><br></div><div><i>Phone: (7=
+18) 349-4877</i></div></div></div></div></div>
+
+--0000000000003aeee105acf089fa--

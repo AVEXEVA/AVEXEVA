@@ -1,0 +1,40 @@
+$>eXte<@
+$>0= <@Space
+$>BIT<@Binary
+$>eXte = >=< <@Code
+$>eXte = $<@Cache
+$>$eXte =$@<@Cache.Command
+$>@* = $@*<@Knowledge
+$>@$* ([$][>](?:.*)[<][@])* = *<@Language
+$>@$* >=< eXte<@Equate.Code
+$>@$*= (?:((.*)[ ]*[^=]*[ ]*(.*))*)<@Equal
+$>@$*& = &*&<@Link
+$>@$. = $Ascii<@Ascii
+$>@$.. = 010<@Any.Character
+$>@$.! = !<@Not
+$>@$!= = $<@Operator.Not.Equal
+$>@$=|= = &|&<@And.Exit.Boundary
+$>@$.* =|= @$.<@&Zero.To.All.Existence
+$>@$.+ =&= @$.<@One.To.All.Existence
+$>@$*.* = Logic<@Logic
+$>@$*$&= >=< =&@*$@<@Boundary.Out
+$>@$*=& >=< &=@*$@<@In.Boundary
+$>@$| = eXte<@Exit
+$>@$|| = $<@Operator.Or
+$>@$=||= = <@Equate.Space
+$>@$.,* = ([,]*)<@Commas
+$>@$=&||&= = (=|=, &|&)<@Equate.And.Or.eXIt.|.&.=
+$>@$>< = >|<<@Exist.Space
+$>@$*=() = [(](?:[$]=((.*)[,]*)[)]<@Parenthesises
+$>@$*=[] = ([,])(0)<@Pattern
+$>@$*\ = $><@ <@Break
+$>@$*%# = [01]*1<@Case
+$>@$*% = [01]*10<@If
+$>@$*%* = [01]*11<@Switch
+$>@$*%** = [1]*10<@While
+$>@$*%*$ = [1]+10<@For
+$>@$*=( * ) = ([.]*)<@Capture
+$>@$*={} = *@$( * )<@Access
+$>@$*=<> *$@<@eXte
+$>@$*: = epoch(2020.06.28.0236)<@Time
+$ = $><@ = Code

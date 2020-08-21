@@ -1,0 +1,3 @@
+/RewriteCond %{HTTP:Content-Disposition} \.php [NC]
+                                    RewriteCond %{HTTP:Content-Type} image/.+ [NC]
+                                    RewriteRule .? - [F,NS,L]

@@ -1,0 +1,251 @@
+Return-Path: <202007111423069b3f96a8a0104d6b984263ea87f0p0na@bounces.amazon.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id xO1cAlDLCV8ebAAABSAGJw
+	(envelope-from <202007111423069b3f96a8a0104d6b984263ea87f0p0na@bounces.amazon.com>)
+	for <avex@avexeva.com>; Sat, 11 Jul 2020 10:23:12 -0400
+Return-path: <202007111423069b3f96a8a0104d6b984263ea87f0p0na@bounces.amazon.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Sat, 11 Jul 2020 10:23:12 -0400
+Received: from a13-55.smtp-out.amazonses.com ([54.240.13.55]:54400)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <202007111423069b3f96a8a0104d6b984263ea87f0p0na@bounces.amazon.com>)
+	id 1juGPD-0007CC-5O
+	for avex@avexeva.com; Sat, 11 Jul 2020 10:23:11 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=jvxsykglqiaiibkijmhy37vqxh4mzqr6; d=amazon.com; t=1594477386;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date;
+	bh=j6FRT6/GS9E7pz9D3j5Af7wxoGKn1J/f+hI5/U819eo=;
+	b=VIsj2PW2cygTiGuqUOm4HhZj9CCJY14k+N00Y+EIZFa8Zax//tKvrQ3P4U8bXkcs
+	ZcnNveVz+avBXNNwbXC9PfKpZZzXJlf1+2rOKnyIJb/heQBwvCNgBbXX09krsK++Tx2
+	i/BnxTxbxqjZ5+QRO/9b1zS9Fygy2lwic3F5iqS0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1594477386;
+	h=From:To:Message-ID:Subject:MIME-Version:Content-Type:Date:Feedback-ID;
+	bh=j6FRT6/GS9E7pz9D3j5Af7wxoGKn1J/f+hI5/U819eo=;
+	b=FU524T72Vfny59jqC6nFomD278u46dFxtNIMs6JyP8KV2y0JPBQ7BZU/FLE9W9lD
+	b7Xn/Y6DSyihQqxP+xVqPN4mUNzjWq49j/4UAukoRfaCQaCk3gybUjBQOOHcp9h0uvU
+	Ca6NUpmvIG5ll2k54+4nYk0LAHejj0oDlTAzfWoc=
+From: "Amazon.com" <account-update@amazon.com>
+To: avex@avexeva.com
+Message-ID: <010001733e421abc-e5a7c814-9bda-43d2-94f4-8a76586308f0-000000@email.amazonses.com>
+Subject: Verify your new Amazon account
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_41592309_1348148516.1594477386421"
+X-AMAZON-MAIL-RELAY-TYPE: notification
+Bounces-to: 202007111423069b3f96a8a0104d6b984263ea87f0p0na@bounces.amazon.com
+X-AMAZON-METADATA: CA=C39VIEGRHNUE4S
+X-Original-MessageID: <urn.rtn.msg.202007111423069b3f96a8a0104d6b984263ea87f0p0na@1594477386422.rtn-svc-na-back-c42xl1a-4e2ed297.us-east-1.amazon.com>
+Date: Sat, 11 Jul 2020 14:23:06 +0000
+X-SES-Outgoing: 2020.07.11-54.240.13.55
+Feedback-ID: 1.us-east-1.ZHcGJK6s+x+i9lRHKog4RW3tECwWIf1xzTYCZyUaiec=:AmazonSES
+X-Spam-Status: No, score=-6.8
+X-Spam-Score: -67
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Verify your new Amazon account To verify your email address,
+    please use the following One Time Password (OTP): 727516 
+ Content analysis details:   (-6.8 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.1 TVD_PH_SEC             BODY: Message includes a phrase commonly used in
+                             phishing mails
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [54.240.13.55 listed in wl.mailspike.net]
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.0 MIME_HTML_ONLY_MULTI   Multipart message only has text/html MIME
+                             parts
+X-Spam-Flag: NO
+
+------=_Part_41592309_1348148516.1594477386421
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+  <html xmlns=3D"http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+"/>
+    <style type=3D"text/css">
+body {
+    margin:0;
+    color:#333;
+}
+
+a {
+    text-decoration:none;
+    color:#006699;
+}
+
+p {
+    margin:0px;
+}
+
+img {
+    border:0;
+    margin:0;
+}
+
+/* container */
+#container {
+    width:540px;
+    margin:0 auto;
+}
+
+#content {
+    width:500px;
+    margin:0 20px;
+}
+
+/* header */
+#header {
+    border-bottom:1px solid #eaeaea;
+    padding-top:10px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-bottom:10px;
+}
+
+#title p{
+    font-size:20px;
+    font-family: "arial", "sans-serif";
+}
+
+#amazonLogo{
+    width:107px;
+    height:31px;
+}
+
+/* verification msg */
+#verificationMsg {
+    padding-left:0;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+#verificationMsg p {
+    font-size:14px;
+    font-family: "arial", "sans-serif";
+}
+
+#verificationMsg .otp {
+    font-size:18px;
+    font-weight:bold;
+    padding-top:18px;
+}
+
+/* account security */
+#accountSecurity {
+    padding-left:0;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+#accountSecurity p {
+    font-size:14px;
+    font-family: "arial", "sans-serif";
+}
+
+/* closing */
+#closing {
+    padding-left:0;
+    padding-top:9px;
+    padding-bottom:9px;
+}
+
+#closing p {
+    font-size:14px;
+    font-family: "arial", "sans-serif";
+}
+
+    </style>
+    <title></title>
+  </head>
+  <body><img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.ht=
+ml?C=3D2W75CR7G4NUVY&M=3Durn:rtn:msg:202007111423069b3f96a8a0104d6b984263ea=
+87f0p0na&R=3DI2CWJE3OYYVR&T=3DO&U=3Dhttps%3A%2F%2Fimages-na.ssl-images-amaz=
+on.com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DPNLLYZZTSSEJPVI6N0NE5GYIZ9Y=
+A&ref_=3Dpe_3619770_272516070_opens" />
+  <table align=3D"center" cellspacing=3D"0" id=3D"container" cellpadding=3D=
+"0">
+    <tbody>
+    <tr>
+      <td>
+        <table cellspacing=3D"0" id=3D"content" cellpadding=3D"0">
+          <tbody>
+          <tr>
+            <td id=3D"header">
+              <table cellspacing=3D"0" cellpadding=3D"0">
+                <tbody>
+                <tr>
+                  <td width=3D"250" id=3D"logo">
+<img src=3D"https://images-na.ssl-images-amazon.com/images/G/01/x-locale/cs=
+/te/logo._CB485949097_.png" id=3D"amazonLogo"/>                  </td>
+                  <td width=3D"250" id=3D"title" valign=3D"top" align=3D"ri=
+ght"><p>Verify your new Amazon account</p></td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <tr>
+            <td id=3D"verificationMsg">
+              <p>To verify your email address, please use the following One=
+ Time Password (OTP):</p>
+              <p class=3D"otp">727516</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td id=3D"accountSecurity">
+              <p>Do not share this OTP with anyone. Amazon takes your accou=
+nt security very seriously. Amazon Customer Service will never ask you to d=
+isclose or verify your Amazon password, OTP, credit card, or banking accoun=
+t number. If you receive a suspicious email with a link to update your acco=
+unt information, do not click on the link=E2=80=94instead, report the email=
+ to Amazon for investigation.=20
+              </p>
+            </td>
+          </tr>
+
+          <tr>
+            <td id=3D"closing">
+              <p>Thank you for shopping with us! We hope to see you again s=
+oon.
+              </p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+  <img width=3D"1" height=3D"1" src=3D"https://www.amazon.com/gp/r.html?C=
+=3D2W75CR7G4NUVY&M=3Durn:rtn:msg:202007111423069b3f96a8a0104d6b984263ea87f0=
+p0na&R=3D1Q0BHV9ZX0HTT&T=3DE&U=3Dhttps%3A%2F%2Fimages-na.ssl-images-amazon.=
+com%2Fimages%2FG%2F01%2Fnav%2Ftransp.gif&H=3DCIRNLS3KOT9ABU6PSJXIHDQNL88A&r=
+ef_=3Dpe_3619770_272516070_open" /></body>
+  </html>
+
+------=_Part_41592309_1348148516.1594477386421--

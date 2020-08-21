@@ -1,0 +1,849 @@
+Return-Path: <camp@mail.adobe.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id udJCOZVkDF+9fwAABSAGJw
+	(envelope-from <camp@mail.adobe.com>)
+	for <avex@avexeva.com>; Mon, 13 Jul 2020 09:41:41 -0400
+Return-path: <camp@mail.adobe.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 13 Jul 2020 09:41:41 -0400
+Received: from r38.info.adobesystems.com ([192.243.226.38]:58929)
+	by vps60720.inmotionhosting.com with esmtp (Exim 4.93)
+	(envelope-from <camp@mail.adobe.com>)
+	id 1juyi3-0008TV-Fs
+	for avex@avexeva.com; Mon, 13 Jul 2020 09:41:41 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	s=neolane;
+	d=mail.adobe.com;
+	h=domainkey-signature:from:subject:date:to:reply-to:mime-version:x-mailer:message-id:list-unsubscribe:x-csa-complaints:list-id:precedence:tenantheader:affinity:x-cust_messageid:x-cust_deliveryid:x-cust_instancename:messagemaxretry:messageretryperiod:messagewebvalidityduration:messagevalidityduration:x-cust_imsorgid:content-type;
+	bh=iSCtPSh+7zl9lUjdgDx61J5tBJNrwsytjmTsoZRArPw=;
+	b=PC2MJV9jWEg0UOfMBruDq0wTTq7LQxcEMKHRhajfP02yzUBjJhfjafO5U7biJLxNcuyfRzerL+6ytHNNfEDtD1jdFwKLIxJ0T4enobZDhsJkSOvYcIXzOXF2KkprGNKJ47ZIpJ697qpp9AaYXFQ/pYkm2Mm7MoV9ZB3KmLF8r5g=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns;
+	s=neolane;
+	d=mail.adobe.com;
+	h=From:Subject:Date:To:Reply-To:MIME-Version:X-mailer:Message-ID:List-Unsubscribe:X-CSA-Complaints:List-Id:Precedence:TenantHeader:Affinity:X-cust_MessageID:X-cust_DeliveryID:X-cust_InstanceName:MessageMaxRetry:MessageRetryPeriod:MessageWebValidityDuration:MessageValidityDuration:X-cust_IMSOrgID:Content-Type;
+	b=rNQkGP3K5luywxt2S0z29l6swJzmJE2GESc9QyI/MjPeYDrWMEQHOCePSajJyXfcQGRBXGY4rpAod6L3fD6acxyw1euDUW/PO93v6hDVLkqIEmEzCroI/MJ0Pgqs43OylmRxpQgN97EEPkQ/tPGhudrDOLVSn9TFMOlgSf7qtkM=
+From: "Adobe Creative Cloud" <mail@mail.adobe.com>
+Subject: Save 25% on all the apps
+Date: Mon, 13 Jul 2020 06:34:37 -0700
+To: <avex@avexeva.com>
+Reply-To: "Adobe Creative Cloud" <mail@mail.adobe.com>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 6.7.0
+Message-ID: <NM6782C8A4901A24BEBadobein_mid_prod5@mail.adobe.com>
+List-Unsubscribe: List-Unsubscribe: <mailto: camp@mail.adobe.com?subject=unsubscribe%3CNM6782C8A4901A24BEBadobein_mid_prod5@mail.adobe.com%3E>
+X-CSA-Complaints: whitelist-complaints@eco.de
+List-Id: <-1533513465.neolane.client.com>
+Precedence: bulk
+TenantHeader: 1d0e6311-6f98-4c5b-8b0e-8df80d5b7739
+Affinity: mid.b2cmarketing
+X-cust_MessageID: 491394432
+X-cust_DeliveryID: 27413483
+X-cust_InstanceName: aci_prod
+MessageMaxRetry: 2
+MessageRetryPeriod: 3600
+MessageWebValidityDuration: 2592000
+MessageValidityDuration: 432000
+X-cust_IMSOrgID: 
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_280_8895E520.8895E520"
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  View Web Version: https://t-info.mail.adobe.com/r/?id=t1d4a1580,bcd8f49e,bc221012&p1=%402NzpBEw1bGaacDCoGi3KR86EETO2RC8PP15fp%2FfcaWM%3D
+    Unfortunately, your email client cannot display HTML or your settings are
+    turned off. To view this email, please click or copy and paste the link above
+    into your browser. 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: scene7.com]
+ -0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [192.243.226.38 listed in wl.mailspike.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -1.0 MAILING_LIST_MULTI     Multiple indicators imply a widely-seen list
+                             manager
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_280_8895E520.8895E520
+Content-Type: text/plain;
+	charset="windows-1252"
+Content-Transfer-Encoding: 8bit
+
+View Web Version:
+https://t-info.mail.adobe.com/r/?id=t1d4a1580,bcd8f49e,bc221012&p1=%402NzpBEw1bGaacDCoGi3KR86EETO2RC8PP15fp%2FfcaWM%3D
+
+Unfortunately, your email client cannot display HTML or your
+settings are turned off. To view this email, please click or 
+copy and paste the link above into your browser.
+
+******************************************************************
+
+This is a marketing email from Adobe Inc., 345 Park Avenue, San Jose, CA 95110 USA. Click below to unsubscribe: https://t-info.mail.adobe.com/r/?id=t1d4a1580,bcd8f49e,bc221013&p1=avex@avexeva.com&p2=%40ihGYYKZOV1%2FsBHFqdtywzTorQxiXAz4167rcguh%2BD7w%3D&p3= 
+
+To ensure future delivery of email, please add mail@mail.adobe.com
+https://t-info.mail.adobe.com/r/?id=t1d4a1580,bcd8f49e,bc221014
+to your address book, contacts, or safe sender list.
+
+Your privacy is important to us. Please review Adobe's 
+Privacy Policy:
+https://t-info.mail.adobe.com/r/?id=t1d4a1580,bcd8f49e,bc221015
+
+
+
+
+
+------=_NextPart_280_8895E520.8895E520
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+
+
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+<head>
+<link rel=3D"icon" href=3D"https://www.adobe.com/favicon.ico" type=3D"image=
+/x-icon">
+<link rel=3D"shortcut icon" href=3D"https://www.adobe.com/favicon.ico" type=
+=3D"image/x-icon">
+<meta name=3D"x-apple-disable-message-reformatting">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width,initial-scale=3D1.0=
+">
+<meta name=3D"format-detection" content=3D"telephone=3Dno">
+<meta name=3D"format-detection" content=3D"date=3Dno">
+<meta name=3D"format-detection" content=3D"address=3Dno">
+<meta name=3D"format-detection" content=3D"email=3Dno">
+<title>Adobe</title>
+  
+<script type=3D"application/ld+json">
+[{
+  "@context": "http://schema.org/",
+  "@type": "Organization",
+  
+  // WARNING: Before sending email, either point the logo
+  // at your own image or delete the logo annotation.
+  //
+  // If showing a logo, we recommend using an https URL.
+  // It's not a requirement today, but may be in the future.
+  "logo": "https://landing.adobe.com/dam/global/images/adobe-logo.gmail.100=
+x100.png"
+},
+{
+  "@context": "http://schema.org/",
+  "@type": "EmailMessage",
+  "subjectLine": "Save 25% on all the apps"
+},
+{
+  "@context": "http://schema.org/",
+  "@type": "DiscountOffer",
+  
+  // Describe your discount, this will be shown as a badge (eg "25% off" or=
+ "free shipping")
+  "description": "Save 25%",
+  "availabilityStarts": "2020-07-13
+  T08:00:00-07:00",
+  "availabilityEnds": "2020-07-17T23:59:59-07:00"
+},{
+  // Promotion card with single image.
+  // We recommend using an https URL.  It's not a requirement today, but ma=
+y be in the future.
+  // Any image size will work and will just be cropped automatically.
+  // GIF & WEBP images are not supported and will be filtered out.
+  // Sample image is 538x138, 3.9 aspect ratio
+  "@context": "http://schema.org/",
+  "@type": "PromotionCard",
+  "image": "https://landing.adobe.com/dam/2020/images/ctir-10837e.en.cc-25o=
+ff-all-apps-promo.538x138.jpg"
+}]
+</script>
+
+<!--[if mso]>
+<style type=3D"text/css">
+body, table, td, .mobile-text {
+font-family:Helvetica Neue, Helvetica, Verdana, Arial, sans-serif !importan=
+t;
+}
+</style>
+<xml>
+  <o:OfficeDocumentSettings>
+    <o:AllowPNG/>
+    <o:PixelsPerInch>96</o:PixelsPerInch>
+  </o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+
+<style type=3D"text/css">
+@import url("https://use.typekit.net/onr8tbr.css");
+=2EReadMsgBody { width:100%;}
+=2EExternalClass {width:100%;}
+table {border-collapse:collapse; margin:0 auto;}
+a, a:visited {color:#1473E6; text-decoration:none;}
+=2Elegal a {text-decoration:underline;}
+/* iOS BLUE LINKS */
+a[x-apple-data-detectors] {color:inherit !important; text-decoration:none !=
+important; font-size:inherit !important; font-family:inherit !important; fo=
+nt-weight:inherit !important; line-height:inherit !important;}
+
+=2Emobile {border-spacing:0;display:none!important;height:0;max-height:0;ms=
+o-hide:all;overflow:hidden;visibility:hidden;width:0;}
+  
+  @media only screen and (max-width:480px) {
+    u ~ div {
+      min-width:100vw;
+    }
+    div > u ~ div {
+          min-width: 100%;
+    }
+    .web {
+       display:none !important;
+       }
+     
+     .mobile {
+       display:block !important;
+       width:auto !important;
+       overflow:visible !important;
+       height:auto !important;
+       max-height:inherit !important;
+       font-size:15px !important;
+       line-height:21px !important;
+       visibility:visible !important;
+       }
+     
+     .email-width {
+       width:86% !important;
+       }
+     
+     .full-width {
+       width:100% !important;
+       }
+     
+     .mobile-image {
+       height:auto !important;
+       width:100% !important;
+       }
+    
+    .social {
+      float:left !important;
+      padding-top:100px !important;
+      text-align:left !important;
+    }
+    
+    .header {
+      font-size:28px !important;
+      line-height:32px !important;
+=3D    }
+  }
+</style>
+</head>
+
+<body bgcolor=3D"#E4E4E4" style=3D"background-color:#E4E4E4; margin:0; padd=
+ing:0;-webkit-font-smoothing:antialiased;width:100% !important;-webkit-text=
+-size-adjust:none;" topmargin=3D"0"><div style=3D"font-size:1px; color:#E4E=
+4E4; display:none; overflow:hidden; visibility:hidden;">Get every app in Cr=
+eative Cloud and make something amazing. &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwn=
+j;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&=
+nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbs=
+p;&zwnj;&nbsp;</div>
+
+<table width=3D"100%" bgcolor=3D"#E4E4E4" style=3D"background-color:#E4E4E4=
+;" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation">
+  <tr>
+    <td>
+      <table class=3D"full-width" align=3D"center" width=3D"600" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"width=
+:600px;">
+    <tr>
+           <td bgcolor=3D"#ffffff" style=3D"background-color:#ffffff;">
+           
+            <!-- pod1 -->
+            <table class=3D"email-width" align=3D"center" width=3D"500" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=
+=3D"#ffffff" style=3D"background-color:#ffffff; width:500px;">
+       <tr>
+              <td style=3D"color:#505050; font-family:adobe-clean, Helvetic=
+a Neue, Helvetica, Verdana, Arial, sans-serif; font-size:18px; line-height:=
+26px; padding-top:50px;">
+          <table align=3D"left" width=3D"auto" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" role=3D"presentation">
+            <tr>
+            <td valign=3D"middle" style=3D"color:#000000; font-family:adobe=
+-clean, Arial, Helvetica, sans-serif; font-size:14px; line-height:20px;"><i=
+mg alt=3D"" src=3D"http://landing.adobe.com/dam/global/images/creative-clou=
+d.icon.240x234.png" width=3D"auto" height=3D"30" border=3D"0" hspace=3D"0" =
+vspace=3D"0" style=3D"display:block; vertical-align:top;"/></td>
+            <td width=3D"10" style=3D"width:10px;">&nbsp;</td>
+            <td valign=3D"top" style=3D"color:#FA0F00; font-family:adobe-cl=
+ean, Arial, Helvetica, sans-serif; font-size:14px; line-height:20px;"><img =
+alt=3D"Adobe Creative Cloud" src=3D"http://s7d9.scene7.com/is/image/AdobeDe=
+mandCreative/=3Ffmt=3Dpng-alpha&size=3D400,60&wid=3D400&textAttr=3D144,stro=
+ng&resolution=3D200&textPs=3D%7B%5C*%5Ciscolortbl%3BFA0F00%3B%5Cfonttbl%7B%=
+5Cf0%20Adobe%20Clean%20ExtraBold%3B%7D%7D%5Cf0%5Cfs40%5Csl-400%5Cvertalc%5C=
+kerningoptical%5Ccf1Adobe%20Creative%20Cloud" width=3D"200" height=3D"30" b=
+order=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; font-family:a=
+dobe-clean, Arial, Helvetica, sans-serif; font-size:14px; line-height:20px;=
+ display:block; vertical-align:top;"/></td>
+            </tr>
+          </table>
+        </td>
+             </tr>
+       <tr>
+              <td class=3D"header" style=3D"color:#000000; font-family:adob=
+e-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:4=
+0px; font-weight:800; line-height:46px; padding-top:70px;">Get the All Apps=
+ plan for just US$39.99/month.</td>
+             </tr>
+       <tr>
+              <td style=3D"color:#000000; font-family:adobe-clean, Helvetic=
+a Neue, Helvetica, Verdana, Arial, sans-serif; font-size:18px; line-height:=
+26px; padding-top:20px;">Offer ends July&nbsp;17.</td>
+             </tr>
+       <tr>
+              <td style=3D"color:#1473E6; font-family:adobe-clean, Arial, H=
+elvetica, sans-serif; font-size:15px; line-height:20px; padding-top:40px;">=
+<div><!--[if mso]>
+          <table class=3D"full-width" align=3D"left" width=3D"200" border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"w=
+idth:200px;">
+          <tr>
+          <td height=3D"40" valign=3D"middle" style=3D"background-color:#14=
+73E6; font-family:Arial, Helvetica, sans-serif; height:40px;">
+          <center>
+          <![endif]-->
+          <a class=3D"button" href=3D"https://t-info.mail.adobe.com/r/=3Fid=
+=3Dh1d4a1580,bcd8f49e,bc220d79&p1=3DFVYPZ3FY" target=3D"_blank" style=3D"ba=
+ckground-color:#1473E6;border-radius:20px;color:#ffffff;display:inline-bloc=
+k;font-size:16px;line-height:40px;text-align:center;text-decoration:none;wi=
+dth:200px;-webkit-text-size-adjust:none;"><strong>Save now</strong></a>
+          <!--[if mso]>
+          </center>
+          </td>
+          </tr>
+          </table>
+        <![endif]--></div>
+        </td>
+             </tr>
+            </table>
+            <!-- END pod1 -->
+         
+      
+         
+      <!-- pod1 marquee -->
+            <table class=3D"full-width" align=3D"center" width=3D"600" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=
+=3D"#ffffff" style=3D"background-color:#ffffff; width:600px;">
+             <tr>
+              <td style=3D"color:#000000; font-family:adobe-clean, Helvetic=
+a Neue, Helvetica, Verdana, Arial, sans-serif; font-size:22px; line-height:=
+28px; padding-top:60px;"><a href=3D"https://t-info.mail.adobe.com/r/=3Fid=
+=3Dh1d4a1580,bcd8f49e,bc220d7a&p1=3DFVYPZ3FY" target=3D"_blank" style=3D"co=
+lor:#1473E6;"><img class=3D"mobile-image" 
+                alt=3D"Get the All Apps plan for just US$39.99/month."
+                 src=3D"http://landing.adobe.com/dam/2020/images/ctir-10837=
+e.en.cc-25off-all-apps-promo.1200z740.jpg"
+        srcset=3D"http://landing.adobe.com/dam/2020/images/ctir-10837e.en.c=
+c-25off-all-apps-promo.800x494.jpg 621w,
+        http://landing.adobe.com/dam/2020/images/ctir-10837e.en.cc-25off-al=
+l-apps-promo.1200z740.jpg 1200w"
+        sizes=3D"(max-width: 480px) 50vw"
+        width=3D"600" height=3D"auto" 
+        border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; font=
+-family:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif;=
+ font-size:22px; line-height:28px; display:block; vertical-align:top;"/>
+        </a></td>
+             </tr>
+            </table>
+            <!-- END pod1 marquee -->
+         
+      <!-- headline -->
+            <table class=3D"email-width" align=3D"center" width=3D"500" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"width:500px; background-color:#ffffff;">
+              <tr>
+                <td style=3D"color:#000000; font-family:adobe-clean, Arial,=
+ Helvetica, sans-serif; font-size:28px; line-height:32px; padding-top:80px;=
+">See what you can do with some of the 20+&nbsp;apps in Adobe Creative&nbsp=
+;Cloud.</td>
+              </tr>
+            </table>
+            <!-- END headline --> 
+            
+            <!-- 2columns -->
+            <table class=3D"full-width" align=3D"center" width=3D"540" bord=
+er=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=
+=3D"#ffffff" style=3D"background-color:#ffffff; width:540px;">
+              <tr>
+                <td valign=3D"top" style=3D"margin:0 auto; "><div style=3D"=
+font-size:0;"> 
+                    <!--[if mso]>
+          <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"p=
+resentation" ><tr><td valign=3D"top" width=3D"50%">
+          <![endif]-->
+                    <div style=3D"display:inline-block; vertical-align:top;=
+ width:50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - =
+48000%); min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-wi=
+dth:calc(50%);"> 
+                      <!-- left -->
+                      <table class=3D"email-width" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td align=3D"left" style=3D"color:#000000; font-f=
+amily:adobe-clean, Arial, Helvetica, sans-serif; font-size:12px; line-heigh=
+t:16px; padding-top:100px;">
+                <table align=3D"left" width=3D"auto" border=3D"0" cellpaddi=
+ng=3D"0" cellspacing=3D"0" role=3D"presentation">
+                              <tr>
+                                <td align=3D"left" valign=3D"middle" style=
+=3D"color:#000000; font-family:adobe-clean, Arial, Helvetica, sans-serif; f=
+ont-size:14px; line-height:20px;"><img alt=3D"Pr" src=3D"http://landing.ado=
+be.com/dam/global/images/premiere-pro-cc.mnemonic.240x234.png" width=3D"30"=
+ height=3D"auto" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000=
+000; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:12px;=
+ line-height:16px; display:inline-block; vertical-align:top;"/></td>
+                                <td width=3D"10" style=3D"width:10px;">&nbs=
+p;</td>
+                                <td align=3D"left" valign=3D"middle" style=
+=3D"color:#000000; font-family:adobe-clean, Arial, Helvetica, sans-serif; f=
+ont-size:14px; line-height:20px;"><img alt=3D"Adobe Premiere Pro" src=3D"ht=
+tp://s7d9.scene7.com/is/image/AdobeDemandCreative/=3Ffmt=3Dpng-alpha&size=
+=3D380,60&wid=3D360&textAttr=3D144,strong&resolution=3D200&textPs=3D%7B%5C*=
+%5Ciscolortbl%3B000000%3B%5Cfonttbl%7B%5Cf0%20Adobe%20Clean%20ExtraBold%3B%=
+7D%7D%5Cf0%5Cfs40%5Csl-400%5Cvertalc%5Ckerningoptical%5Ccf1Adobe%20Premiere=
+%20Pro" width=3D"180" height=3D"30" border=3D"0" hspace=3D"0" vspace=3D"0" =
+style=3D"color:#000000; font-family:adobe-clean, Arial, Helvetica, sans-ser=
+if; font-size:14px; line-height:20px; display:block; vertical-align:top;"/>=
+</td>
+                              </tr>
+                            </table></td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#505050; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:18px; line-height:26px; padding=
+-top:25px;">Power your creative journey with video&nbsp;tools.</td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                      <!-- END left --> 
+                    </div>
+                    <!--[if mso]>
+          </td><td valign=3D"top" width=3D"50%">
+          <![endif]-->
+                    <div style=3D"display:inline-block; vertical-align:top;=
+ width:50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - =
+48000%); min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-wi=
+dth:calc(50%);"> 
+                      <!-- right -->
+                      <table class=3D"email-width" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+                        
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#000000; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; padding=
+-top:100px;"><table align=3D"left" width=3D"auto" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation">
+                              <tr>
+                                <td align=3D"left" valign=3D"middle" style=
+=3D"color:#000000; font-family:adobe-clean, Arial, Helvetica, sans-serif; f=
+ont-size:14px; line-height:20px;"><img alt=3D"Acrobat" src=3D"http://landin=
+g.adobe.com/dam/global/images/acrobat-pro-dc.mnemonic.480x468.png" width=3D=
+"30" height=3D"auto" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:=
+#000000; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:1=
+2px; line-height:16px; display:inline-block; vertical-align:top;"/></td>
+                                <td width=3D"10" style=3D"width:10px;">&nbs=
+p;</td>
+                                <td valign=3D"middle" style=3D"color:#00000=
+0; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; l=
+ine-height:20px;"><img alt=3D"Adobe Acrobat Pro DC" src=3D"http://s7d9.scen=
+e7.com/is/image/AdobeDemandCreative/=3Ffmt=3Dpng-alpha&size=3D380,60&wid=3D=
+360&textAttr=3D144,strong&resolution=3D200&textPs=3D%7B%5C*%5Ciscolortbl%3B=
+000000%3B%5Cfonttbl%7B%5Cf0%20Adobe%20Clean%20ExtraBold%3B%7D%7D%5Cf0%5Cfs4=
+0%5Csl-400%5Cvertalc%5Ckerningoptical%5Ccf1Adobe%20Acrobat%20Pro%20DC" widt=
+h=3D"180" height=3D"30" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"col=
+or:#000000; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-siz=
+e:14px; line-height:20px; display:block; vertical-align:top;"/></td>
+                              </tr>
+                            </table></td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#505050; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:18px; line-height:26px; padding=
+-top:25px;">Work from anywhere when you unlock the power of&nbsp;PDFs.</td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                      <!-- END right --> 
+                    </div>
+                    <!--[if mso]>
+          </td></tr></table>
+          <![endif]--> 
+                  </div></td>
+              </tr>
+              <tr>
+                <td valign=3D"top" style=3D"margin:0 auto;"><div style=3D"f=
+ont-size:0;"> 
+                    <!--[if mso]>
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" rol=
+e=3D"presentation"><tr><td valign=3D"top" width=3D"50%">
+                <![endif]-->
+                    <div style=3D"display:inline-block; vertical-align:top;=
+ width:50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - =
+48000%); min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-wi=
+dth:calc(50%);"> 
+                      <!-- left -->
+                      <table class=3D"email-width" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%">
+                        
+                         <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#000000; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; padding=
+-top:100px;"><table align=3D"left" width=3D"auto" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation">
+                              <tr>
+                                <td valign=3D"middle" style=3D"color:#00000=
+0; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; l=
+ine-height:20px;"><img alt=3D"Ps" src=3D"http://landing.adobe.com/dam/globa=
+l/images/photoshop-cc.mnemonic.mobile.240x234.png" width=3D"30" height=3D"a=
+uto" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; font-fa=
+mily:adobe-clean, Arial, Helvetica, sans-serif; font-size:12px; line-height=
+:16px; display:inline-block; vertical-align:top;"/></td>
+                                <td width=3D"10" style=3D"width:10px;">&nbs=
+p;</td>
+                                <td valign=3D"middle" style=3D"color:#00000=
+0; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; l=
+ine-height:20px;"><img alt=3D"Adobe Photoshop" src=3D"http://s7d9.scene7.co=
+m/is/image/AdobeDemandCreative/=3Ffmt=3Dpng-alpha&size=3D380,60&wid=3D360&t=
+extAttr=3D144,strong&resolution=3D200&textPs=3D%7B%5C*%5Ciscolortbl%3B00000=
+0%3B%5Cfonttbl%7B%5Cf0%20Adobe%20Clean%20ExtraBold%3B%7D%7D%5Cf0%5Cfs40%5Cs=
+l-400%5Cvertalc%5Ckerningoptical%5Ccf1Adobe%20Photoshop" width=3D"180" heig=
+ht=3D"30" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; fo=
+nt-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; line-h=
+eight:20px; display:block; vertical-align:top;"/></td>
+                              </tr>
+                            </table></td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                         <td style=3D"color:#505050; font-family:adobe-clea=
+n, Arial, Helvetica, sans-serif; font-size:18px; line-height:26px; padding-=
+top:25px;">Transform photos on your desktop and&nbsp;iPad.</td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                      </table> 
+                      <!-- END left --> 
+                    </div>
+                    <!--[if mso]>
+                </td><td valign=3D"top" width=3D"50%">
+                <![endif]-->
+                    <div style=3D"display:inline-block; vertical-align:top;=
+ width:50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - =
+48000%); min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-wi=
+dth:calc(50%);"> 
+                      <!-- right -->
+                    
+             <table class=3D"email-width" border=3D"0" cellpadding=3D"0" ce=
+llspacing=3D"0" role=3D"presentation" width=3D"100%">
+                        
+                         <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#000000; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; padding=
+-top:100px;"><table align=3D"left" width=3D"auto" border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" role=3D"presentation">
+                              <tr>
+                                <td valign=3D"middle" style=3D"color:#00000=
+0; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; l=
+ine-height:20px;"><img alt=3D"Ai" src=3D"http://landing.adobe.com/dam/globa=
+l/images/illustrator-cc.mnemonic.240x234.png" width=3D"30" height=3D"auto" =
+border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; font-family:=
+adobe-clean, Arial, Helvetica, sans-serif; font-size:12px; line-height:16px=
+; display:inline-block; vertical-align:top;"/></td>
+                                <td width=3D"10" style=3D"width:10px;">&nbs=
+p;</td>
+                                <td valign=3D"middle" style=3D"color:#00000=
+0; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; l=
+ine-height:20px;"><img alt=3D"Adobe Illustrator" src=3D"http://s7d9.scene7.=
+com/is/image/AdobeDemandCreative/=3Ffmt=3Dpng-alpha&size=3D380,60&wid=3D360=
+&textAttr=3D144,strong&resolution=3D200&textPs=3D%7B%5C*%5Ciscolortbl%3B000=
+000%3B%5Cfonttbl%7B%5Cf0%20Adobe%20Clean%20ExtraBold%3B%7D%7D%5Cf0%5Cfs40%5=
+Csl-400%5Cvertalc%5Ckerningoptical%5Ccf1Adobe%20Illustrator" width=3D"180" =
+height=3D"30" border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000=
+; font-family:adobe-clean, Arial, Helvetica, sans-serif; font-size:14px; li=
+ne-height:20px; display:block; vertical-align:top;"/></td>
+                              </tr>
+                            </table></td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                          <td style=3D"color:#505050; font-family:adobe-cle=
+an, Arial, Helvetica, sans-serif; font-size:18px; line-height:26px; padding=
+-top:25px;">Create beautiful vector graphics for logos, icons, and&nbsp;mor=
+e.</td>
+                          <td class=3D"mobile-spacer" width=3D"20" style=3D=
+"width:20px;">&nbsp;</td>
+                        </tr>
+                      </table>
+                      <!-- END right --> 
+                    </div>
+                    <!--[if mso]>
+              </td></tr></table>
+              <![endif]--> 
+                  </div></td>
+              </tr>
+            </table>
+            <!-- END 2columns --> 
+            
+            <!-- cta -->
+            <table class=3D"email-width" align=3D"center" width=3D"500" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=
+=3D"width:500px; background-color:#ffffff;">
+              <tr>
+              <td style=3D"color:#747474; font-family:adobe-clean, Helvetic=
+a Neue, Helvetica, Verdana, Arial, sans-serif; font-size:16px; line-height:=
+20px; padding-top:100px; padding-bottom:100px;"><a href=3D"https://t-info.m=
+ail.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,bc220d7b&p1=3DFVYPZ3FY" target=
+=3D"_blank" style=3D"border:2px solid #747474;border-radius:20px;color:#747=
+474;display:inline-block;font-size:16px;line-height:16px;padding:10px;outli=
+ne:none;text-align:center;text-decoration:none;width:180px;-webkit-text-siz=
+e-adjust:none;"><strong>Save now</strong></a></td>
+              </tr>
+            </table>
+            
+            <!-- END cta -->
+            
+           <!-- END email content -->
+           </td>
+        </tr>
+    <tr>
+    <td bgcolor=3D"#F4F4F4" style=3D"background-color:#F4F4F4;">
+      
+    <!-- banner -->
+    <table class=3D"full-width" align=3D"center" width=3D"600" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=3D"#F4F4=
+F4" style=3D"background-color:#F4F4F4; width:600px;">
+     <tr>
+      <td style=3D"color:#000000; font-family:adobe-clean, Helvetica Neue, =
+Helvetica, Verdana, Arial, sans-serif; font-size:15px; line-height:20px;"><=
+img class=3D"mobile-image" 
+      alt=3D"Creativity for all."
+      src=3D"http://landing.adobe.com/dam/global/images/creativity-for-all.=
+footer.desktop.1200x600.png"
+      srcset=3D"http://landing.adobe.com/dam/global/images/creativity-for-a=
+ll.footer.mobile.800x600.png 621w,
+      http://landing.adobe.com/dam/global/images/creativity-for-all.footer.=
+desktop.1200x600.png 1200w"
+      sizes=3D"(max-width: 480px) 50vw"
+      width=3D"600" height=3D"auto" 
+      border=3D"0" hspace=3D"0" vspace=3D"0" style=3D"color:#000000; font-f=
+amily:adobe-clean, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; f=
+ont-size:15px; line-height:20px display:block; vertical-align:top;"/></td>
+     </tr>
+    </table>
+    <!-- END banner -->
+      
+      <!-- logo & social -->
+      <table class=3D"email-width" align=3D"center" width=3D"500" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=3D"#F=
+4F4F4" style=3D"background-color:#F4F4F4; width:500px;">
+     <tr>
+      <td valign=3D"middle" style=3D"padding-top:50px;">
+        <div style=3D"font-size:0;">
+          <!--[if mso]>
+          <table class=3D"email-width" align=3D"center" width=3D"500" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"=
+width:500px;"><tr><td align=3D"left" valign=3D"middle" width=3D"50%">
+          <![endif]-->
+          <div style=3D"display:inline-block; vertical-align:middle; width:=
+50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - 48000%)=
+; min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-width:cal=
+c(50%);">
+          <!-- left -->
+          <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" role=3D"presentation" width=3D"100%">
+           <tr>
+            <td style=3D"color:#FF3C00; font-family:adobe-clean, Helvetica =
+Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:18=
+px;"><img alt=3D"Adobe" src=3D"http://landing.adobe.com/dam/global/images/a=
+dobe-logo.classic.160x222.png" width=3D"30" height=3D"auto" border=3D"0" hs=
+pace=3D"0" vspace=3D"0" style=3D"color:#FF3C00; font-family:adobe-clean, He=
+lvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-h=
+eight:18px; display:block; vertical-align:top;"/></td>
+           </tr>
+          </table>
+          <!-- END left -->
+          </div>
+          <!--[if mso]>
+          </td><td align=3D"right" valign=3D"middle" width=3D"50%">
+          <![endif]-->
+          <div style=3D"display:inline-block; vertical-align:middle; width:=
+50%; min-width:250px; max-width:100%; width:-webkit-calc(230400px - 48000%)=
+; min-width:-webkit-calc(50%); width:calc(230400px - 48000%); min-width:cal=
+c(50%);">
+          <!-- right -->
+          <table class=3D"social" align=3D"right" width=3D"auto" border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"float=
+:right;">
+           <tr>
+            <td style=3D"color:#959595; font-family:adobe-clean, Helvetica =
+Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:12=
+px;"><a href=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,=
+bc220d7c" alias=3D"Facebook" target=3D"_blank"><img class=3D"social" alt=3D=
+"Facebook" src=3D"http://landing.adobe.com/dam/global/images/social/faceboo=
+k.959595.png" width=3D"9" height=3D"auto" border=3D"0" hspace=3D"0" vspace=
+=3D"0" style=3D"display:block; vertical-align:top;"/></a></td>
+            <td width=3D"30" style=3D"width:30px;">&nbsp;</td>
+            <td style=3D"color:#959595; font-family:adobe-clean, Helvetica =
+Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:12=
+px;"><a href=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,=
+bc220d7d" alias=3D"Instagram" target=3D"_blank"><img class=3D"social" alt=
+=3D"Instagram" src=3D"http://landing.adobe.com/dam/global/images/social/ins=
+tagram.959595.png" width=3D"19" height=3D"auto" border=3D"0" hspace=3D"0" v=
+space=3D"0" style=3D"display:block; vertical-align:top;"/></a></td>
+            <td width=3D"30" style=3D"width:30px;">&nbsp;</td>
+            <td style=3D"color:#959595; font-family:adobe-clean, Helvetica =
+Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; line-height:12=
+px;"><a href=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,=
+bc220d7e" alias=3D"Twitter" target=3D"_blank"><img class=3D"social" alt=3D"=
+Twitter" src=3D"http://landing.adobe.com/dam/global/images/social/twitter.9=
+59595.png" width=3D"19" height=3D"auto" border=3D"0" hspace=3D"0" vspace=3D=
+"0" style=3D"display:block; vertical-align:top;"/></a></td>
+           </tr>
+          </table>
+          <!-- END right -->
+          </div>
+        <!--[if mso]>
+        </td></tr></table>
+        <![endif]-->
+        </div>
+      </td>
+       </tr>
+      </table>      
+      <!-- END logo & social -->
+      
+      <!-- legal-->
+      <table class=3D"email-width" align=3D"center" width=3D"500" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" bgcolor=3D"#F=
+4F4F4" style=3D"background-color:#F4F4F4; width:500px;">
+      <tr>
+        <td class=3D"legal" style=3D"color:#959595; font-family:adobe-clean=
+, Helvetica Neue, Helvetica, Verdana, Arial, sans-serif; font-size:12px; li=
+ne-height:18px; padding-top:50px; padding-bottom:50px;">*Offer starts on Ju=
+ly 13, 2020 and expires on July 17, 2020. Offer available to first-time sub=
+scribers in the US, Mexico, and Canada (excluding Quebec). Purchase an Adob=
+e Creative Cloud All Apps membership for $479.88/year ($39.99/month, plus a=
+pplicable taxes) from the Adobe Store or by calling a regional Adobe Call C=
+enter. Regular price for Creative Cloud All Apps is $635.88/year ($52.99/mo=
+nth). Limit: one per customer. A 12-month commitment, and at the end of you=
+r offer term, your membership will be automatically billed at the standard =
+rate unless you elect to change or cancel your membership. Offer not availa=
+ble to education, OEM or volume licensing customers.<br/><br/>
+          
+General Terms: Valid only for eligible persons who are 13 or older. Residen=
+ts or persons in embargoed countries or countries subject to U.S. or local =
+export restrictions are not eligible. Offer and prices subject to change wi=
+thout notice due to unforeseen circumstances. Offer may not be assigned, ex=
+changed, sold, transferred, combined, or redeemed for cash or other goods a=
+nd services not expressly stated here as included. Subject to availability =
+where the recipient resides. Additional terms and conditions may apply. VOI=
+D WHERE PROHIBITED OR RESTRICTED BY LAW.<br/><br/>
+Adobe services, like Adobe Creative Cloud, are available only to users 13 a=
+nd older. Use of Adobe services and applications requires agreement with th=
+e applicable <a href=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a1580,b=
+cd8f49e,bc220d7f" alias=3D"FOOTER - Terms" target=3D"_blank" style=3D"color=
+:#959595;">Terms&nbsp;of&nbsp;Use</a> and the <a href=3D"https://t-info.mai=
+l.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,bc220d80" alias=3D"FOOTER - Privac=
+y Policy" target=3D"_blank" style=3D"color:#959595;">Adobe&nbsp;Privacy&nbs=
+p;Policy</a>.<br/><br/>
+Adobe, the Adobe logo, Acrobat, the Adobe PDF logo, Adobe Premiere, Creativ=
+e Cloud, the Creative Cloud logo, Illustrator, Photoshop, and the Photoshop=
+ logo are either registered trademarks or trademarks of Adobe in the United=
+ States and/or other countries. All other trademarks are the property of th=
+eir respective owners.<br/><br/>
+      This is a marketing email from Adobe Inc., 345 Park Avenue, San Jose,=
+ CA 95110 USA. Click here to    <a href=3D"https://t-info.mail.adobe.com/r/=
+=3Fid=3Dh1d4a1580,bcd8f49e,bc220d81&p1=3Davex@avexeva.com&p2=3D%40ihGYYKZOV=
+1%2FsBHFqdtywzTorQxiXAz4167rcguh%2BD7w%3D&p3=3D" _label=3D"Opt-out link" _t=
+ype=3D"optout" alias=3D"Unsubscribe" target=3D"_blank" style=3D"text-decora=
+tion: underline; color: #a1a1a1;">unsubscribe.</a>  Please review the <a hr=
+ef=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a1580,bcd8f49e,bc220d82" =
+alias=3D"FOOTER - Privacy Policy" target=3D"_blank" style=3D"color:#959595;=
+">Adobe&nbsp;Privacy&nbsp;Policy</a>.<br/><br/>
+      To ensure email delivery, add <a href=3D"https://t-info.mail.adobe.co=
+m/r/=3Fid=3Dh1d4a1580,bcd8f49e,bc220d83" alias=3D"Add to address book - mai=
+l@mail.adobe.com" target=3D"_blank" style=3D"color:#959595;">mail@mail.adob=
+e.com</a> to your address book, contacts, or safe sender&nbsp;list.
+      <br/><br/><a href=3D"https://t-info.mail.adobe.com/r/=3Fid=3Dh1d4a158=
+0,bcd8f49e,bc220d84&p1=3D%402NzpBEw1bGaacDCoGi3KR86EETO2RC8PP15fp%2FfcaWM%3=
+D" alias=3D"Read Online" target=3D"_blank" style=3D"color:#959595;">READ ON=
+LINE</a></td>
+      </tr>
+      </table>
+      <!-- END legal-->
+      
+    </td>
+    </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<img height=3D'0' width=3D'0' alt=3D'' src=3D'https://t-info.mail.adobe.com=
+/r/=3Fid=3Dh1d4a1580,bcd8f49e,1'/><img height=3D'0' width=3D'0' alt=3D'' sr=
+c=3D'https://adobe.demdex.net/event=3Fc_syncplacement=3Demail&d_cid=3D813%0=
+12c9e6d125dc1baf30a495e1a'/></body>
+</html>
+
+------=_NextPart_280_8895E520.8895E520--
+

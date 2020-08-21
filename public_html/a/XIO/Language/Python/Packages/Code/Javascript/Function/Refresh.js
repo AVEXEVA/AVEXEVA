@@ -1,0 +1,1 @@
+function Refresh(){location.reload();}

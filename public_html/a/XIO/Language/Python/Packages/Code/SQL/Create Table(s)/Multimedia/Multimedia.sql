@@ -1,0 +1,8 @@
+CREATE TABLE Multimedia (
+  ID INT NOT NULL AUTO_INCREMENT,
+  File INT NOT NULL,
+  Name VARCHAR(256),
+  Description TEXT,
+  CONSTRAINT PK_Multimedia_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Multimedia_File FOREIGN KEY (File) REFERENCES File(ID),
+);
