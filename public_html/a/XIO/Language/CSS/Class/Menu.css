@@ -1,0 +1,26 @@
+UL.Menu  {
+	position:relative;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	grid-gap:15px;
+}
+UL.Menu LI {margin:0;}
+UL.Menu LI a {text-decoration:none;}
+UL.Menu LI a:hover {text-decoration:underline;}
+UL.Menu LI {
+	position:absolute;
+}
+UL.Menu LI {
+	text-align:center;
+	justify-content:center;
+	align-items:center;
+}
+UL.Menu LI.Parent, UL.Menu LI.Folder, UL.Menu Li.File {
+	width:100px;
+	height:25px;
+	text-align:center;
+}
+UL.Menu LI.Line {
+	background-color:black;
+}

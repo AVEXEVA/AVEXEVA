@@ -117,8 +117,8 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 		}
 	</STYLE>
 </HEAD>
-<SCRIPT SRC='a/XIO/Language/Javascript/Function/loadMenu.js'></script>
-<script>
+<SCRIPT SRC='a/XIO/Language/Javascript/Function/loadMenu.js'></SCRIPT>
+<SCRIPT>
 		var animate = true;
 		var idt = 0;
 		var idc = 0;
@@ -244,7 +244,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 				} else {setTimeout(function(){phaseCharacters(false);}, 25);}
 			}
 		}
-</script>	
+</SCRIPT>	
 <BODY STYLE='margin:0px;background-color:white;overflow:hidden;' onKeyPress='keyPress(e);' onload='animateCharacters();'>
 	<HEADER id='Header' style='text-align:center;vertical-align:middle;float:left;height:50%;width:100%;display:grid;'>
 		<DIV style='grid-column:4 / span 1'>G</DIV>

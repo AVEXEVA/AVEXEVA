@@ -1,0 +1,7 @@
+CREATE TABLE `avexeva_ROOT`.`IP`
+  (
+    `Id` INT NOT NULL AUTO_INCREMENT,
+    `IP` VARCHAR(15) NOT NULL,
+    `Agents` VARCHAR(256) NOT NUL,
+    PRIMARY KEY (`ID`)
+  ) ENGINE = MyISAM;
