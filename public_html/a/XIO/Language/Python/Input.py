@@ -34,14 +34,9 @@ def Execute(var):
 
 i = 0
 
-print('~~~AveXteVaX~~~')
-while i == 0:
-  Input = input("avext3@")
-  if i == 1 or Input == '1':
-    break
-  else:
-    Commands = Parse(Input)
-    Execute(Commands)
 
+print('~~~AveXteVaX~~~')
+Commands = Parse(sys.args[0])
+Execute(Commands)
 print('~\/_I<>t<>I¯/\~')
 print('~~~\|>Et3<|/~~~')
