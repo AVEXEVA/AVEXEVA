@@ -18,7 +18,7 @@ none /dev devtmpfs rw,nosuid,mode=755 0 0
 tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
 devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
 tmpfs /run tmpfs rw,nosuid,nodev,mode=755 0 0
-systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=31,pipe_ino=3447977677,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=3447977677 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=20,pipe_ino=481694766,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=481694766 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
 tmpfs /run/user/0 tmpfs rw,nosuid,nodev,relatime,size=419432k,mode=700 0 0
 tmpfs /run/user/996 tmpfs rw,nosuid,nodev,relatime,size=419432k,mode=700,uid=996,gid=994 0 0

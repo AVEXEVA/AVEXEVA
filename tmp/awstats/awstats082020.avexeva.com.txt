@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2007                
-POS_TIME 2673                
-POS_VISITOR 18736               
-POS_DAY 22926               
-POS_DOMAIN 3600                
-POS_LOGIN 4160                
-POS_ROBOT 4315                
-POS_WORMS 4969                
-POS_EMAILSENDER 5100                
-POS_EMAILRECEIVER 5243                
-POS_SESSION 23637               
-POS_SIDER 23844               
-POS_FILETYPES 5378                
-POS_DOWNLOADS 5609                
-POS_OS 5755                
-POS_BROWSER 6001                
-POS_SCREENSIZE 7202                
-POS_UNKNOWNREFERER 7276                
-POS_UNKNOWNREFERERBROWSER 7538                
-POS_ORIGIN 7732                
-POS_SEREFERRALS 7874                
-POS_PAGEREFS 8037                
-POS_SEARCHWORDS 8237                
-POS_KEYWORDS 8389                
-POS_MISC 2337                
-POS_ERRORS 8448                
-POS_CLUSTER 4016                
-POS_SIDER_404 8589                
+POS_TIME 2676                
+POS_VISITOR 19031               
+POS_DAY 23382               
+POS_DOMAIN 3604                
+POS_LOGIN 4192                
+POS_ROBOT 4347                
+POS_WORMS 5001                
+POS_EMAILSENDER 5132                
+POS_EMAILRECEIVER 5275                
+POS_SESSION 24115               
+POS_SIDER 24322               
+POS_FILETYPES 5410                
+POS_DOWNLOADS 5641                
+POS_OS 5787                
+POS_BROWSER 6033                
+POS_SCREENSIZE 7246                
+POS_UNKNOWNREFERER 7320                
+POS_UNKNOWNREFERERBROWSER 7650                
+POS_ORIGIN 7844                
+POS_SEREFERRALS 7986                
+POS_PAGEREFS 8149                
+POS_SEARCHWORDS 8386                
+POS_KEYWORDS 8538                
+POS_MISC 2340                
+POS_ERRORS 8597                
+POS_CLUSTER 4048                
+POS_SIDER_404 8738                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,85 +46,87 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20200830081513 65 15520 19345913270101
+LastLine 20200901000213 102 19918 10334634990328
 FirstTime 0
-LastTime 20200829123558
-LastUpdate 20200830081533 65 0 65 0 0
-TotalVisits 126                 
-TotalUnique 102                 
+LastTime 20200831143914
+LastUpdate 20200901080645 102 0 101 0 0
+TotalVisits 130                 
+TotalUnique 106                 
 MonthHostsKnown 0                   
-MonthHostsUnknown 102                 
+MonthHostsUnknown 106                 
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-JavascriptDisabled 0 0 0
 QuickTimeSupport 0 0 0
-AddToFavourites 0 0 0
-DirectorSupport 0 0 0
 PDFSupport 0 0 0
-TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
 JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
 RealPlayerSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 200 204 36252053 155 170 9828687
-1 356 365 35142821 259 276 25427146
+0 200 204 36252053 157 173 10039420
+1 363 372 35881129 260 277 25533257
 2 361 403 35451686 217 254 21286018
-3 79 82 8111894 186 213 19693445
-4 51 61 5312219 155 180 10918265
-5 9 31 978582 285 300 29558473
-6 76 78 7905389 145 225 11833878
+3 80 83 8217364 189 216 19904308
+4 51 61 5312219 156 181 11023725
+5 9 31 978582 286 302 29664242
+6 76 78 7905389 146 226 11939040
 7 9 9 952399 105 109 10076871
-8 8 8 830786 103 114 10765438
-9 5 9 523949 135 139 11832448
-10 3 8 318126 109 118 11158898
-11 5 5 530271 226 242 22234707
-12 14 14 1497568 154 162 14246373
-13 4 4 410021 256 260 23210882
-14 29 46 3635793 134 172 12414721
-15 14 16 1301215 161 182 13027687
+8 8 8 830786 107 120 11187085
+9 5 9 523949 137 142 12053671
+10 3 8 318126 113 123 11581302
+11 5 5 530271 228 244 22444834
+12 14 14 1497568 166 174 15300946
+13 4 4 410021 265 270 24170320
+14 30 47 3635793 137 181 12732223
+15 14 16 1301215 165 187 13449829
 16 8 8 831901 268 289 25002997
-17 2 2 210940 167 186 13164805
-18 14 16 1280540 142 155 13367107
-19 59 60 1032302 219 225 15877094
-20 171 194 728214170 112 129 10492448
-21 474 497 91732571 196 532 11664989
-22 94 113 12856415 286 315 28507615
-23 232 246 41057236 282 308 26869932
+17 2 2 210940 173 193 13795687
+18 14 16 1280540 153 170 14420495
+19 59 60 1032302 232 239 17248811
+20 171 194 728214170 125 143 11872557
+21 474 497 91732571 206 542 12724801
+22 94 113 12856415 302 332 30195957
+23 232 246 41057236 296 322 28345793
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 24
-us 2206 2406 1008860032
+BEGIN_DOMAIN 26
+us 2207 2407 1008860032
 ru 13 13 1392098
 hn 8 8 846417
 gb 7 7 728427
+fr 6 6 632539
+lt 6 6 632838
 se 6 6 634632
-fr 5 5 527069
 br 4 4 421932
-ca 3 3 304551
 de 3 3 316410
 bz 3 3 316596
+ca 3 3 304551
 ma 3 3 318906
-mu 2 2 210940
 gr 2 2 210940
 ua 2 2 212690
-za 1 1 101517
-cn 1 1 105470
-sc 1 1 105522
-sr 1 1 105522
-nl 1 1 97797
-tr 1 3 134520
-it 1 1 105470
-in 1 1 106388
-au 1 1 101531
+mu 2 2 210940
 ch 1 1 105470
+au 1 1 101531
+in 1 1 106388
+sr 1 1 105522
+ir 1 1 105470
+nl 1 1 97797
+za 1 1 101517
+it 1 1 105470
+sc 1 1 105522
+cn 1 1 105470
+tr 1 3 134520
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -139,15 +141,15 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
 BEGIN_ROBOT 12
-Googlebot/ 3399 357990526 20200830081513 0
-AhrefsBot/ 293 31189551 20200829193721 0
-YandexBot/ 57 6188780 20200829215203 0
+Googlebot/ 3451 363479497 20200831231655 0
+AhrefsBot/ 358 38046960 20200831235620 0
+YandexBot/ 60 6504881 20200831220443 0
 no_user_agent 21 2237410 20200825120927 0
+SemrushBot/ 18 1931275 20200831155125 0
 bot[\s_+:,\.\;\/\\-] 14 1476580 20200829212807 0
-SemrushBot/ 11 1172827 20200829220230 0
-bingbot/ 7 530698 20200828205639 0
+bingbot/ 8 636168 20200830082420 0
 (firefox/)([0-9]\.|[0-1][0]\.) 5 527350 20200825120629 0
-bingpreview 3 108818 20200822025944 0
+bingpreview 4 110492 20200830092530 0
 facebookexternalhit/ 3 303252 20200811231641 0
 Mediapartners-Google 2 218997 20200804205424 0
 Googlebot\-Image/ 1 27376 20200813082155 0
@@ -171,96 +173,97 @@ END_EMAILRECEIVER
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 9
 png 25 4560295 0 0
-html 472 54718952 0 0
-txt 3 22324 0 0
 jpg 81 1595723 0 0
 py 13 1594 0 0
-php 1777 955349923 0 0
 Unknown 15 96994 0 0
 js 41 17322 0 0
+php 1782 955877291 0 0
 css 52 7720 0 0
+txt 3 22324 0 0
+html 476 55035362 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
 BEGIN_DOWNLOADS 3
-/v/Green%20Book.txt 1 0 12749
-/v/Black%20and%20Red%20Book.txt 1 0 8629
 /v/Misc%20Book.txt 1 0 946
+/v/Black%20and%20Red%20Book.txt 1 0 8629
+/v/Green%20Book.txt 1 0 12749
 END_DOWNLOADS
 
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 14
+macosx12 5 5
 winvista 1 1
-linux 78 74
-macosx10 3 3
-macosx 3 1
-winxp 13 13
-win10 2334 2138
-macosx8 3 3
-Unknown 17 17
-linuxandroid 5 5
 macosx11 2 2
-win7 10 10
 macosx9 2 2
+macosx8 3 3
+macosx10 3 3
+linuxandroid 5 5
+linux 78 74
+Unknown 18 18
+macosx 3 1
 win8.1 4 4
-macosx12 4 4
+win7 10 10
+winxp 20 20
+win10 2334 2138
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 53
-chrome81.0.4044.129 5 5
-chrome41.0.2228.0 1 1
-chrome80.0.3987.122 1 1
-chrome76.0.3809.132 2 2
-Unknown 11 11
-chrome41.0.2225.0 2 2
-chrome68.0.3440.106 1 1
-firefox50.0 5 5
-chrome41.0.2224.3 2 2
-firefox79.0 275 195
-chrome74.0.3729.169 2 2
-chrome79.0 4 4
-chrome75.0.3770.100 2 2
-chrome80.0.3987.149 6 6
-firefox46.0 1 1
+BEGIN_BROWSER 54
 chrome80.0.3987.163 3 1
-chrome58.0.3029.110 4 4
-chrome71.0.3578.98 1 1
-chrome35.0.1916.47 2 2
-chrome78.0.3889.0 1 1
-chrome46.0.2490.80 2 2
-chrome84.0.4147.135 30 27
-chrome41.0.2227.0 1 1
-opera54.0.2952.71 1 1
-chrome39.0.2171.95 2 2
-chrome22.0.1207.1 1 1
-chrome80.0.3987.132 1 1
-chrome63.0.3239.132 2 2
-chrome35.0.2309.372 1 1
-chrome83.0.4103.97 1 1
+firefox79.0 275 195
 chrome84.0.4147.89 3 3
-msie6.0 1 1
-chrome81.0.4044.92 3 1
-chrome5.0.375.99 4 4
-chrome79.0.3945.130 24 24
-chrome50.0.2661.89 1 1
-netscape5.0 1 1
-chrome41.0.2226.0 1 1
-msie8.0 4 4
-chrome72.0.3626.119 1 1
-chrome68.0.3550.0 1 1
-chrome72.0.3626.121 6 6
-chrome49.0.2627.88 1 1
-firefox59.0 1 1
-chrome84.0.4147.105 1973 1866
-msie9.0 1 1
-chrome65.0.3325.109 56 56
-chrome26.0.1410.65 2 2
-chrome74.0.3729.131 1 1
+chrome68.0.3440.106 1 1
+chrome74.0.3729.169 2 2
 chrome67.0.3396.99 2 2
-opera9.27 5 5
+chrome76.0.3809.132 2 2
+msie6.0 8 8
+chrome75.0.3770.100 2 2
+firefox50.0 5 5
+chrome79.0 4 4
+msie9.0 1 1
+chrome39.0.2171.95 2 2
+chrome84.0.4147.135 30 27
+chrome50.0.2661.89 1 1
+chrome80.0.3987.132 1 1
+chrome81.0.4044.129 5 5
+chrome5.0.375.99 4 4
+chrome35.0.1916.47 2 2
+chrome49.0.2627.88 1 1
+chrome65.0.3325.109 56 56
+mozilla 1 1
+chrome71.0.3578.98 1 1
+chrome22.0.1207.1 1 1
+chrome41.0.2228.0 1 1
+firefox46.0 1 1
+chrome35.0.2309.372 1 1
+chrome81.0.4044.92 3 1
+netscape5.0 1 1
+chrome68.0.3550.0 1 1
 opera62.0.3331.99 2 2
+chrome63.0.3239.132 2 2
+chrome72.0.3626.121 6 6
+msie8.0 4 4
+opera54.0.2952.71 1 1
+chrome78.0.3889.0 1 1
+chrome83.0.4103.97 1 1
 chrome84.0.4147.125 12 4
+chrome46.0.2490.80 2 2
+firefox59.0 1 1
+chrome74.0.3729.131 1 1
+chrome80.0.3987.122 1 1
+chrome79.0.3945.130 24 24
+chrome58.0.3029.110 5 5
+chrome41.0.2226.0 1 1
+chrome26.0.1410.65 2 2
+chrome41.0.2225.0 2 2
+chrome41.0.2227.0 1 1
+chrome41.0.2224.3 2 2
+opera9.27 5 5
+Unknown 11 11
+chrome80.0.3987.149 6 6
+chrome72.0.3626.119 1 1
+chrome84.0.4147.105 1973 1866
 END_BROWSER
 
 # Screen size - Hits
@@ -268,27 +271,28 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 5
-Opera/9.27 20200825120923
-Go-http-client/1.1 20200824173737
-Mozilla/5.0_zgrab/0.x 20200806070616
-python-requests/2.24.0 20200821125520
+BEGIN_UNKNOWNREFERER 6
 Python/3.8_aiohttp/3.6.2 20200819110542
+Mozilla/5.0_zgrab/0.x 20200806070616
+Go-http-client/1.1 20200824173737
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20200831143914
+Opera/9.27 20200825120923
+python-requests/2.24.0 20200821125520
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
 BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/1.1 20200824173737
 Python/3.8_aiohttp/3.6.2 20200819110542
 python-requests/2.24.0 20200821125520
-Go-http-client/1.1 20200824173737
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 1108 1160
+From0 1116 1168
 From1 4 4
 From2 1 1
-From3 4 4
+From3 5 5
 From4 1160 1310
 From5 0 0
 END_ORIGIN
@@ -300,8 +304,9 @@ END_SEREFERRALS
 
 # External page referers - Pages - Hits
 # The 25 first Pages must be first (order not required for others)
-BEGIN_PAGEREFS 2
+BEGIN_PAGEREFS 3
 http://avexeva.it 3 3
+https://www.netcraft.com/survey/ 1 1
 http://xn--avexva-68b.com 1 1
 END_PAGEREFS
 
@@ -317,347 +322,350 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 5
-404 1167 275412
-500 129 8092
-206 2 183183
-406 72 21600
+404 1189 280604
 301 2 472
+500 129 8092
+406 72 21600
+206 2 183183
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 326
-/meta.php 1 http://avexeva.com/meta.php
-//.env 1 -
-/TmoXK/ 1 -
-/blog/wp-includes/wlwmanifest.xml 5 -
-/ads.txt 33 http://avexeva.it/ads.txt
-/sites/.env 1 -
-/aveXtE/Xt/XN/XN 1 -
-/laravel/.env 1 -
-/wp-info.php 1 http://avexeva.com/wp-info.php
-/aveXtE/t 1 -
-/aveXtE/XOR/X2/t 1 -
-/aveXtE/X 1 -
-/public/.env 4 -
-/pflktmzxnabjc.html 1 -
-/info/wp-login.php 1 -
-/aveXtE/XOR/X5/@ 1 -
-/web/wp-login.php 1 -
-/portal/wp-includes/wlwmanifest.xml 1 -
-/aveXtE/Xt/XM/XM 1 -
-/admin.php 2 http://avexeva.com/admin.php
-//vendor/phpunit/phpunit/src/Util/PHP/kill.php 2 -
-/news/wp-login.php 1 -
-/aveXtE/XIO/It/Windows 1 -
-/.env 8 -
-/aveXtE/Xt/XF/Prompt 1 -
-/aveXtE/XOR/X4/' 1 -
-/error.php 1 http://avexeva.com/error.php
-/js/header-rollup-554.js 2 -
-/aveXtE/Xt/XW/XW 1 -
-/database/print.css 1 -
-/portal/wp-login.php 1 -
-/server.php 1 http://avexeva.com/server.php
-/blog/profile/register/ 1 -
-/js/admin.js 1 -
-/demo/profile/register/ 1 -
-/aveXtE/XOR/X2/() 1 -
-/aveXtE/Xt/XF/Snake 1 -
-/wp-on.php 1 http://avexeva.com/wp-on.php
-/mysql/print.css 1 -
-/aveXtE/Xt/XY 1 -
-/aveXtE/XOR/X 1 -
-/wp/wp-includes/wlwmanifest.xml 5 -
-/aveXtE/Xit/TV/TV 1 -
-/aveXtE/XOR/X8/& 1 -
-/theme1.php 1 http://avexeva.com/theme1.php
-/aveXtE/Xt/Xt/01.Sought 1 -
-/administrator/ 2 -
-/phpMyAdmin/index.php 1 -
-/english/wp-login.php 1 -
-/aveXtE/Xt/XH/XTABLE 1 -
-/cgi-bin/libraries/slider/slider-noui.css 3 http://avexeva.com/index.php
-/aveXtE/XOR/X5/() 1 -
-/aveXtE/XOR/X3/= 1 -
-/aveXtE/XOR/X4/, 1 -
-/wordpress/wp-login.php 1 -
-/old/profile/register/ 1 -
-/aveXtE/Xt/XV/XV 1 -
-//profile/register/ 1 -
-/aveXtE/Xt/XF/Module 1 -
-/aveXtE/XOR/X3/- 1 -
-/api/.env 1 -
-/wp/wp-login.php 1 -
-/adminer-3.3.4.php 1 -
-/aveXtE/Xt/XR 1 -
-/log.php 1 http://avexeva.com/log.php
-/aveXtE/Xt/XI/XN 1 -
-/user/register/ 1 -
-/wp-mains.php 1 http://avexeva.com/wp-mains.php
-/sitio/wp-login.php 1 -
-/aveXtE/XIO/Node/SQL/Rule 1 -
-/info.php 1 http://avexeva.com/info.php
-/aveXtE/XOR/X5/ 2 -
-/cron.php 1 http://avexeva.com/cron.php
-/aveXtE/XOR/X7/t.txt 1 -
-/aveXtE/Xit/Motherboard/PowerButton 1 -
-/images.php 1 http://avexeva.com/images.php
-/wpmu/wp-login.php 1 -
-/adm.php 1 -
-/aveXtE/XIO/Language/PHP/Class/Elevator/Location.php 1 -
-/blog/xmlrpc.php 3 -
-/pma/print.css 1 -
-/new/wp-login.php 1 -
-/aveXtE/XOR/X5/$@ 1 -
-/media/wp-includes/wlwmanifest.xml 3 -
-/aveXtE/Xt/XI/XA 1 -
-/aveXtE/XOR/X7/- 1 -
-/admin/ 4 -
-/www/wp-includes/wlwmanifest.xml 1 -
-/plugins/system/debug/debug.xml 2 -
-//wp-login.php 2 -
-/phpinfo.php 1 http://avexeva.com/phpinfo.php
-/e/Picture/12443150.png.jpg 6 http://avexeva.com/
-/ftp.php 1 http://avexeva.com/ftp.php
-/main/wp-includes/wlwmanifest.xml 1 -
-/TRfUW/ 1 -
-/wp-links.php 1 http://avexeva.com/wp-links.php
-/theme.php 1 http://avexeva.com/theme.php
-/aveXtE/XOR/X2/ 2 -
-/aveXtE/Xt/XE/XIP/X 1 -
-/aveXtE/XOR/X5/~ 1 -
-/wp-admin/install.php 1 -
-/aveXtE/XOR/X3/+ 1 -
-/aveXtE/Xt/XF/X 1 -
-/site/wp-includes/wlwmanifest.xml 5 -
-/website/wp-includes/wlwmanifest.xml 5 -
-/aveXtE/XOR/X3/! 1 -
-/wordpress/wp-includes/wlwmanifest.xml 5 -
-/aveXtE/XIO/Language/PHP/Element/HTML 1 -
-/aveXtE/Xt/XJ/XJ 1 -
-/aveXtE/Xt/XP 1 -
-/aveXtE/XOR/X8/^ 1 -
-/robots.txt 177 -
-/ab0ut.php 1 http://avexeva.com/ab0ut.php
-/aveXtE/Xt/XE/X 2 -
-/adminer-4.0.2.php 1 -
-/aveXtE/XOR/X6/() 1 -
-/e/Picture/Teaching.png 1 http://avexeva.com/index.php
-/wp-anyconf.php 1 http://avexeva.com/wp-anyconf.php
-/aveXtE/Xt/X 1 -
-/blog/wp-admin/setup-config.php 1 -
-/aveXtE/Xt/Xt/01.Xt 1 -
-/aveXtE/Xit/Controller/Controller 1 -
-/aveXtE/XVID/XZJ/Humanity/Team 1 -
-/wp2/wp-includes/wlwmanifest.xml 4 -
-/storage/.env 4 -
-/test/wp-admin/setup-config.php 1 -
-/aveXtE/Xt/Xat 1 -
-/aveXtE/XOR/X3/$ 1 -
-/aveXtE/Xit/Dispatcher/Dispatcher 1 -
-/aveXtE/Xt/XD 1 -
-/wp-admine.php 1 http://avexeva.com/wp-admine.php
-/aveXtE/XVID/XZJ/Humanity/X 1 -
-/aveXtE/XIO/Language/PHP/Class/HTML/SECTION.php 1 -
-/aveXtE/XOR/X4/~ 1 -
-/aveXtE/XOR/X8/+ 1 -
-/aveXtE/Xt/XE/XIP/Spider 1 -
-/demo/wp-includes/wlwmanifest.xml 1 -
-/aveXtE/XOR/X8/! 1 -
-/aveXtE/Xt/Xt/Cosine/Cosine 1 -
-/aveXtE/Xt/Xt/0.VI 1 -
-/backup/wp-includes/wlwmanifest.xml 1 -
-/e/Picture/XXXNULLXLUNNXXX 11 http://avexeva.com/
-/site/wp-admin/setup-config.php 1 -
-/blogs/wp-includes/wlwmanifest.xml 1 -
-/aveXtE/Xt/XI/XI 1 -
-/admin/includes/general.js 2 -
-/aveXtE/XOR/X4/ 1 -
-/aveXtE/Xt/Xt/Angle/Loop 1 -
-/images/editor/separator.gif 2 -
-/base.php 1 http://avexeva.com/base.php
-/e/Picture/...jpg 4 http://avexeva.com/
-/aveXtE/Xt/Xt/011.Law 2 -
-/phpMyAdmin/print.css 1 -
-/aveXtE/Xt/Xx/Xx 1 -
-/403.php 1 http://avexeva.com/403.php
-/admin/.env 1 -
-/index2.php 1 http://avexeva.com/index2.php
-/aveXtE/XOR/X5/$ 1 -
-/aveXtE/XOR/X6/- 1 -
-/admin/login.html 1 -
-/404.php 1 http://avexeva.com/404.php
-/robots.php 1 http://avexeva.com/robots.php
-/old/wp-login.php 1 -
-/sito/wp-includes/wlwmanifest.xml 4 -
-/2018/wp-includes/wlwmanifest.xml 3 -
-/vendor/.env 5 -
-/page.php 1 http://avexeva.com/page.php
-/wp-upload.php 1 http://avexeva.com/wp-upload.php
-/forum.php 1 http://avexeva.com/forum.php
-/aveXtE/XDICT/Religion/Genesis/Adam 1 -
-/aveXtE/Xt/XH/XH 1 -
-/home.php 1 -
-/administrator.html 1 -
-/cgi-bin/libraries/slider/slider-noui.js 3 http://avexeva.com/index.php
-/aveXtE/XOR/X4/+ 1 -
-/e/Picture/XXXNULLXLUNNXXX.png.jpg 6 http://avexeva.com/
-/aveXtE/XOR/X4/! 1 -
-/edit.php 1 http://avexeva.com/edit.php
-/aveXtE/XOR/X2/$ 1 -
-/about.php 1 http://avexeva.com/about.php
-/aveXtE/Xt/XEL 1 -
-/aveXtE/XOR/X2/^ 1 -
-/neogoughsq.html 1 -
-/aveXtE/readme 1 -
-/adminer-3.6.0.php 1 -
-/aveXtE/Xt/XE/XIP/Web 1 -
-/aveXtE/XIO/Language/PHP/Class/Elevator/Bearing.php 1 -
-/aveXtE/XIO/Language/PHP/Class/Elevator/Unit.php 1 -
-/aveXtE/Xt/XL 1 -
-/wso.php 1 http://avexeva.com/wso.php
-/demo/wp-login.php 2 -
-/blog/wp-login.php 2 -
-/test/wp-login.php 2 -
-/bd.php 1 http://avexeva.com/bd.php
-/aveXtE/XOR/X5/Itx 1 -
-/aveXtE/XOR/X6/& 1 -
-/aveXtE/XOR/X2/+ 1 -
-/blogs/wp-login.php 1 -
-/press/wp-login.php 1 -
-/flbwnjxuuv.html 1 -
-/index.php.php 7 http://avexeva.com/
-/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
-/aveXtE/Xt/Xt/Cosine/7r 1 -
-/license.php 1 http://avexeva.com/license.php
-//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
-/wordpress/wp-admin/setup-config.php 1 -
-/old/wp-includes/wlwmanifest.xml 1 -
-/misc/ajax.js 2 -
-/aveXtE/Xt/XE/XIP/XHT/XH 1 -
+BEGIN_SIDER_404 329
 /aveXtE/Xt/Xt/Sought/Out 1 -
-/aveXtE/XOR/X3/ 1 -
+/aveXtE/XOR/X7/t.txt 1 -
+/wp-login.php 33 -
+/wp-action.php 1 http://avexeva.com/wp-action.php
+/aveXtE/XIO/Language/PHP/Trait/Bootstrap_Methods.php 1 -
+/aveXtE/XOR/X4/, 1 -
+/blog/profile/register/ 1 -
+/admin/view/javascript/common.js 2 -
+/aveXtE/XDICT/Religion/Genesis/Adam 1 -
+/misc/ajax.js 2 -
+/system.php 1 http://avexeva.com/system.php
+/page.php 1 http://avexeva.com/page.php
+/js/admin.js 1 -
+/e/Picture/XXXNULLXLUNNXXX 11 http://avexeva.com/
+/vendor/phpunit/phpunit/build.xml 2 -
+/aveXtE/Xt/Xt/Cosine/Cosine 1 -
+/aveXtE/Xt/Xt/Sin/Sin 2 -
+/aveXtE/XOR/X4/& 1 -
+/aveXtE/XOR/X3/, 1 -
+/aveXtE/Xt/XV/XV 1 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/aveXtE/XIO/Language/PHP/Class/Elevator/Location.php 1 -
+/wp/wp-login.php 1 -
+/e/Picture/...jpg 4 http://avexeva.com/
+/edit.php 1 http://avexeva.com/edit.php
+/aveXtE/Xt/XS/Time/Schedule 1 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/blogs/wp-login.php 1 -
+/phpMyAdmin/index.php 1 -
+/api/.env 1 -
+/aveXtE/Xt/Xt/Cosine/7r 1 -
+/.subaccounts 1 http://avexeva.com/home.php
+/aveXtE/XOR/X8/() 1 -
+/e/Picture/12443150.png.jpg 6 http://avexeva.com/
+/aveXtE/XOR/X8/+ 1 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
 /e/Picture/Peter.png.jpg 6 http://avexeva.com/
+/info/wp-login.php 1 -
+/aveXtE/Xt/XF/Trait 1 -
+/web/wp-includes/wlwmanifest.xml 4 -
+/english/wp-login.php 1 -
+/aveXtE/Xt/XF/Prompt 1 -
+/aveXtE/XVID/XZJ/Humanity/X 1 -
+/aveXtE/Xt/XC 1 -
+/aveXtE/Xt/Xt/01.Tangent 1 -
+/js/header-rollup-554.js 2 -
+/news/wp-login.php 1 -
+/forum.php 1 http://avexeva.com/forum.php
+/phpmyadmin/index.php 1 -
+/laravel/.env 1 -
+/aveXtE/XOR/X4/! 1 -
+/e/Picture/~!~.PNG.jpg 6 http://avexeva.com/
+/old/wp-login.php 1 -
+/site/wp-login.php 1 -
+/aveXtE/XOR/X3/~ 1 -
+/aveXtE/Xt/XF/X 1 -
+/wp-admine.php 1 http://avexeva.com/wp-admine.php
+/user/register/ 1 -
+/info.php 1 http://avexeva.com/info.php
+/images.php 1 http://avexeva.com/images.php
+/robots.php 1 http://avexeva.com/robots.php
+/TRfUW/ 1 -
+/adm.php 1 -
+/xmlrpz.php 1 http://avexeva.com/xmlrpz.php
+/admin/login.html 1 -
+/aveXtE/Xt/XR 1 -
+/ads.txt 35 http://avexeva.it/ads.txt
+/aveXtE/XOR/X3/! 1 -
+/0.php 1 http://avexeva.com/0.php
+/aveXtE/Xt/Xt/Angle/Loop 1 -
+/test/.env 1 -
+/wp-adm.php 1 http://avexeva.com/wp-adm.php
+/database/print.css 1 -
+/aveXtE/XOR/X5/= 1 -
+/aveXtE/XOR/X7/- 1 -
+/aveXtE/XOR/X3/@ 1 -
+/123.php 1 http://avexeva.com/123.php
+/e/Picture/XXXNULLXLUNNXXX.png.jpg 6 http://avexeva.com/
+/site/wp-includes/wlwmanifest.xml 5 -
+/aveXtE/Xt/XW/XW 1 -
+/pflktmzxnabjc.html 1 -
+/demo/wp-includes/wlwmanifest.xml 1 -
+/ab0ut.php 1 http://avexeva.com/ab0ut.php
+/aveXtE/XOR/X2/X 1 -
+/site/wp-admin/setup-config.php 1 -
+/aveXtE/Xt/XI/XN 1 -
+/aveXtE/XOR/X4/~ 1 -
+/flbwnjxuuv.html 1 -
+/aveXtE/XOR/X2/ 2 -
+/aveXtE/XIO/Language/PHP/Class/Elevator/Bearing.php 1 -
+/aveXtE/XOR/X8/' 1 -
+/blog/wp-includes/wlwmanifest.xml 5 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/e/Picture/avexeva.PNG.jpg 6 http://avexeva.com/
+/%5E/avextE 1 https://vps60720.inmotionhosting.com:2083/
+//vendor/phpunit/phpunit/phpunit.xsd 6 -
+/aveXtE/XVID/XZJ/Humanity/Team 1 -
+/aveXtE/Xt/XIot 1 -
+/images/editor/separator.gif 2 -
+/wpmu/wp-login.php 1 -
+/pma/print.css 1 -
+/aveXtE/XOR/X6/! 1 -
+/portal/wp-login.php 1 -
+/aveXtE/Xt/XV%C9%85 1 -
+/wp-blog-mail.php 1 http://avexeva.com/wp-blog-mail.php
+/aveXtE/Xt/XEL 1 -
+/test/wp-includes/wlwmanifest.xml 5 -
+/aveXtE/t 1 -
+/wp-on.php 1 http://avexeva.com/wp-on.php
+/dev/wp-login.php 1 -
+/aveXtE/XOR/X5/$ 1 -
+/mysql/print.css 1 -
+/sites/.env 1 -
+/aveXtE/Xt/XI/XA 1 -
+/aveXtE/XDICT/Capitalist/Currency 1 -
+/aveXtE/XOR/X5/() 1 -
+/test/wp-admin/setup-config.php 1 -
+/press/wp-login.php 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 2 -
+/wp-conf.php 1 http://avexeva.com/wp-conf.php
+/wso.php 1 http://avexeva.com/wso.php
+/aveXtE/Xt/XH/XH 1 -
+/wp-admin/setup-config.php 1 -
+/aveXtE/XOR/X5/+ 1 -
+/wp-includes/js/jquery/jquery.js 2 -
+/403.php 1 http://avexeva.com/403.php
+/en/wp-login.php 1 -
+/aveXtE/Xt/Xt/011.Law 2 -
+/TmoXK/ 1 -
+/home/wp-login.php 1 -
+/aveXtE/Xt/XN/XN 1 -
+/aveXtE/XIO/Language/PHP/Class/Elevator/Combplate.php 1 -
+/wp-includes/wlwmanifest.xml 5 -
+/aveXtE/XOR/X2/+ 1 -
+/myadmin/print.css 1 -
+/new/profile/register/ 1 -
+/wordpress/wp-login.php 1 -
+/yjobodtcfhjqxize.html 1 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/home.php 1 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/admin-area/login.php 1 -
+/aveXtE/XOR/X2/$ 1 -
+/wp-admin/install.php 1 -
+/aveXtE/XOR/X2/() 1 -
+/aveXtE/Xit/Prototype/Prototype 1 -
+/aveXtE/Xt/XI/XI 1 -
+/vendor/.env 5 -
+/blog/.env 1 -
+/wp-mains.php 1 http://avexeva.com/wp-mains.php
+/humans.txt 8 http://avexeva.it/humans.txt
+/theme.php 1 http://avexeva.com/theme.php
+/adminer-3.6.2.php 1 -
+/aveXtE/Xt/XE/XIP/X 1 -
+//.env 1 -
+/demo/profile/register/ 1 -
+/admin/ 4 -
+/aveXtE/XOR/X5/ 2 -
+/aveXtE/Xt/XF/Definition 1 -
+/e/Picture/..jpg 4 http://avexeva.com/
+/aveXtE/Xit/Dispatcher/Dispatcher 1 -
+/aveXtE/Xt/XE/XIP/Web 1 -
+/aveXtE/XOR/X6/& 1 -
+/index2.php 1 http://avexeva.com/index2.php
+/aveXtE/Xit/TV/TV 1 -
+/wp-links.php 1 http://avexeva.com/wp-links.php
+/wordpress/wp-includes/wlwmanifest.xml 5 -
+/2019/wp-includes/wlwmanifest.xml 4 -
+/aveXtE/XIO/Language/PHP/Class/Elevator/Unit.php 1 -
+/blogs/wp-includes/wlwmanifest.xml 1 -
+/wp-content/plugins/ioptimization/IOptimize.php 1 www.google.com
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/aveXtE/XIO/Language/PHP/Class/HTML/SECTION.php 1 -
+/blog/xmlrpc.php 3 -
+/base.php 1 http://avexeva.com/base.php
+/wordpress/wp-admin/setup-config.php 1 -
+/aveXtE/Xt/Xat 1 -
+/.env 8 -
+/aveXtE/XOR/X4/ 1 -
+/aveXtE/Xt/Xt/01.Sought 1 -
+/storage/.env 4 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/admin/admin.php 1 -
+/e/Picture/Teaching.png 1 http://avexeva.com/index.php
+/2018/wp-includes/wlwmanifest.xml 3 -
+/blog/wp-login.php 2 -
+/aveXtE/XOR/X3/- 1 -
+/PlmkZ/VaoVZ/TmoXK/ 1 -
+/aveXte 1 -
+/phpMyAdmin/print.css 1 -
+/log.php 1 http://avexeva.com/log.php
 /en/wp-includes/wlwmanifest.xml 1 -
+/administrator/ 2 -
+/aveXtE/XOR/X3/ 1 -
+/wordpress/profile/register/ 1 -
+/aveXtE/Xt/XF/Snake 1 -
+//vendor/phpunit/phpunit/src/Util/PHP/kill.php 2 -
+/admin/.env 1 -
+/aveXtE/Xt/Xt/01.Xt 1 -
+/aveXtE/XOR/X8/! 1 -
+/aveXtE/XOR/X4/Ix 1 -
+/config.php 1 http://avexeva.com/config.php
+/wp-404.php 1 http://avexeva.com/wp-404.php
+//profile/register/ 1 -
+/aveXtE/Xt/XE/XIP/Ghost 1 -
+/meta.php 1 http://avexeva.com/meta.php
+/aveXtE/Xt/XE/X 2 -
+/aveXtE/Xt/XJ/X 1 -
+/xmlrpc.php 9 -
+/aveXtE/XOR/X8/^ 1 -
+/web/wp-login.php 1 -
+/phpmyadmin/print.css 1 -
+/admin/includes/general.js 2 -
+/aveXtE/XOR/X4/+ 1 -
+/portal/wp-includes/wlwmanifest.xml 1 -
+/aveXtE/Xt/XY 1 -
+/phpinfo.php 1 http://avexeva.com/phpinfo.php
+/3.php 1 http://avexeva.com/3.php
+/neogoughsq.html 1 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/aveXtE/Xt/XI/X6Y9 1 -
+/aveXtE/Xt/Xt/Exception/BI 1 -
+/aveXtE/XOR/X4/$ 1 -
+/aveXtE/Xt/XF/Module 1 -
+/aveXtE/XOR/X8/& 1 -
+/aveXtE/Xt/XL 1 -
+/aveXtE/XOR/X3/+ 1 -
+/aveXtE/XIO/Node/SQL/Rule 1 -
+/wos.php 1 http://avexeva.com/wos.php
+/aveXtE/readme 1 -
+/wp-blog.php 1 http://avexeva.com/wp-blog.php
+/m/wp-login.php 1 -
+/website/wp-includes/wlwmanifest.xml 5 -
+/sites/wp-login.php 1 -
+/old/profile/register/ 1 -
+/aveXtE/XOR/X3/$ 1 -
+/aveXtE/XOR/X8/, 1 -
+/wp-anyconf.php 1 http://avexeva.com/wp-anyconf.php
+//wp-login.php 2 -
+/e/Picture/Fawkes.jpg.jpg 6 http://avexeva.com/
+/header.php 1 http://avexeva.com/header.php
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/aveXtE/XIO/It/Windows 1 -
+/aveXtE/XOR/X3/() 1 -
+/theme1.php 1 http://avexeva.com/theme1.php
+/wwos.php 1 http://avexeva.com/wwos.php
+/aveXtE/XOR/X5/~ 1 -
+/index.php.php 7 http://avexeva.com/
+/aveXtE/XOR/X5/Itx 1 -
+/wp/profile/register/ 1 -
+/aveXtE/XOR/X6/() 1 -
+/aveXtE/Xt/XP 1 -
+/cms/wp-includes/wlwmanifest.xml 5 -
+/robots.txt 193 -
+/blog/wp-admin/setup-config.php 1 -
+/aveXtE/XOR/X5/$@ 1 -
+/about.php 1 http://avexeva.com/about.php
+/aveXtE/XOR/X6/$ 1 -
+/aveXtE/Xt/Xx/Xx 1 -
+/test/wp-login.php 2 -
+/error.php 1 http://avexeva.com/error.php
+/adminer-3.3.4.php 1 -
+/aveXtE/Xt/XE/XIP/Spider 1 -
+/aveXtE/XDICT/Communication/Text 1 -
+/aveXtE/Xt/XE/XIP/XHT/XH 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/aveXtE/Xit/Controller/Controller 1 -
+/license.php 1 http://avexeva.com/license.php
+/e/Picture/XXXNULLXLUNNXXX.png 420 http://avexeva.com/
+/wp-info.php 1 http://avexeva.com/wp-info.php
+/aveXtE/XOR/X 1 -
 /aveXtE/Xit/Elektra/Elektra 1 -
 /aveXtE/XOR/X8/[] 1 -
-/aveXtE/XOR/X5/+ 1 -
-/login.html 1 -
-/e/Picture/~!~.PNG.jpg 6 http://avexeva.com/
-/phpmyadmin/print.css 1 -
-/m/wp-login.php 1 -
-/aveXtE/XOR/X5/! 1 -
-/wp/profile/register/ 1 -
+/adminer-4.0.2.php 1 -
 /staging/wp-includes/wlwmanifest.xml 1 -
-/%5E/avextE 1 https://vps60720.inmotionhosting.com:2083/
-/wp-login.php 32 -
 /wp/wp-admin/setup-config.php 1 -
-/vendor/phpunit/phpunit/build.xml 2 -
-/aveXtE/Xt/XF/Trait 1 -
-/myadmin/print.css 1 -
-/system.php 1 http://avexeva.com/system.php
-/aveXtE/Xt/XV%C9%85 1 -
-/xmlrpc.php 9 -
-/.subaccounts 1 http://avexeva.com/home.php
-/aveXtE/Xt/XIot 1 -
-/aveXtE/Xt/XS/Time/Schedule 1 -
-/wp-blog.php 1 http://avexeva.com/wp-blog.php
-/admin/admin.php 1 -
-/admin-area/login.php 1 -
-/shop/wp-includes/wlwmanifest.xml 4 -
-/wp1/wp-includes/wlwmanifest.xml 4 -
-/aveXtE/XOR/X4/$ 1 -
-/aveXtE/Xt/XJ/X 1 -
-/aveXtE/XOR/X3/~ 1 -
-/new/wp-includes/wlwmanifest.xml 1 -
-/news/wp-includes/wlwmanifest.xml 4 -
-/site/wp-login.php 1 -
-/wp-admin/setup-config.php 1 -
-/wp-includes/js/jquery/jquery.js 2 -
-/aveXtE/Xt/Xt/01.Tangent 1 -
-/aveXtE/Xit/Ethernet/Ethernet 1 -
-/wwos.php 1 http://avexeva.com/wwos.php
-/v2/wp-includes/wlwmanifest.xml 1 -
-/wp-adm.php 1 http://avexeva.com/wp-adm.php
-/%7B$href%7D 1 -
-/aveXtE/XOR/X4/Ix 1 -
-/wsi.php 1 http://avexeva.com/wsi.php
-/aveXtE/XOR/X3/' 1 -
-/aveXtE/XDICT/Capitalist/Currency 1 -
-/aveXtE/Xt/XN/XB 1 -
-/aveXtE/XOR/X4/& 1 -
-/blog/.env 1 -
-/e/Picture/XXXNULLXLUNNXXX.png 420 http://avexeva.com/
-/wos.php 1 http://avexeva.com/wos.php
-/wp-blog-mail.php 1 http://avexeva.com/wp-blog-mail.php
-/administrator/language/en-GB/install.xml 2 -
-/aveXtE/XOR/X8/, 1 -
-/dev/wp-login.php 1 -
-/aveXtE/XOR/X6/$ 1 -
-/en/wp-login.php 1 -
-/yjobodtcfhjqxize.html 1 -
-/aveXtE/Xt/XF/Loop 1 -
-/test/.env 1 -
-/aveXtE/Xt/XE/XIP/Ghost 1 -
+/sitio/wp-login.php 1 -
 /e/Picture/Peter.jpg.jpg 6 http://avexeva.com/
-/123.php 1 http://avexeva.com/123.php
-/aveXtE/XOR/X5/= 1 -
-/aveXtE/XIO/Language/PHP/Trait/Bootstrap_Methods.php 1 -
-/aveXtE/Xt/XF/Definition 1 -
-/aveXtE/XOR/X3/() 1 -
-/vendor/phpunit/phpunit/LICENSE 1 -
-/wp-conf.php 1 http://avexeva.com/wp-conf.php
-/wordpress/xmlrpc.php 1 -
-/header.php 1 http://avexeva.com/header.php
-/wp-includes/wlwmanifest.xml 5 -
-/home/wp-login.php 1 -
-/aveXtE/Xt/Xt/Cosine/Leviathan 1 -
-/v1/wp-includes/wlwmanifest.xml 1 -
-/oldsite/wp-includes/wlwmanifest.xml 1 -
-/e/Picture/Fawkes.jpg.jpg 6 http://avexeva.com/
-/aveXtE/XOR/X6/! 1 -
-/3.php 1 http://avexeva.com/3.php
-/administrator/help/en-GB/toc.json 2 -
-/2019/wp-includes/wlwmanifest.xml 4 -
-/test/wp-includes/wlwmanifest.xml 5 -
-/e/Picture/avexeva.PNG.jpg 6 http://avexeva.com/
-/aveXtE/XOR/X3/, 1 -
-/aveXtE/Xit/Prototype/Prototype 1 -
-/humans.txt 8 http://avexeva.it/humans.txt
-/web/wp-includes/wlwmanifest.xml 4 -
+/wp/wp-includes/wlwmanifest.xml 5 -
+/administrator.html 1 -
+/aveXtE/Xt/XH/XTABLE 1 -
+/aveXtE/Xt/XJ/XJ 1 -
+/aveXtE/XOR/X5/! 1 -
+/public/.env 4 -
+/aveXtE/XOR/X2/^ 1 -
+/aveXtE/Xt/Xt/0.VI 1 -
+/aveXtE/XOR/X5/@ 1 -
+/aveXtE/XOR/X3/= 1 -
+/adminer-3.6.0.php 1 -
+/%7B$href%7D 1 -
+/aveXtE/Xt/X 1 -
+/aveXtE/Xt/XN/XB 1 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/aveXtE/Xit/Motherboard/PowerButton 1 -
+/bd.php 1 http://avexeva.com/bd.php
+/aveXtE/XIO/Language/PHP/Element/HTML 1 -
+/aveXtE/Xt/XF/Loop 1 -
+/plugins/system/debug/debug.xml 2 -
 /forum1.php 1 http://avexeva.com/forum1.php
-/pma/index.php 1 -
-/aveXtE/XOR/X8/() 1 -
-/config.php 1 http://avexeva.com/config.php
-/cms/wp-includes/wlwmanifest.xml 5 -
-/admin/view/javascript/common.js 2 -
-/xmlrpz.php 1 http://avexeva.com/xmlrpz.php
-/0.php 1 http://avexeva.com/0.php
-/wp-404.php 1 http://avexeva.com/wp-404.php
-/e/Picture/..jpg 4 http://avexeva.com/
-/aveXtE/XOR/X2/X 1 -
-/aveXtE/Xt/Xt/Exception/BI 1 -
-/aveXtE/XDICT/Communication/Text 1 -
-/aveXtE/XOR/X3/@ 1 -
-/aveXte 1 -
-//vendor/phpunit/phpunit/phpunit.xsd 6 -
-/wp-action.php 1 http://avexeva.com/wp-action.php
-/aveXtE/XOR/X8/' 1 -
-/aveXtE/Xt/XC 1 -
-/sites/wp-login.php 1 -
-/new/profile/register/ 1 -
-/wordpress/profile/register/ 1 -
-/PlmkZ/VaoVZ/TmoXK/ 1 -
-/aveXtE/Xt/Xt/Sin/Sin 2 -
-/phpmyadmin/index.php 1 -
-/aveXtE/Xt/XI/X6Y9 1 -
+/server.php 1 http://avexeva.com/server.php
+/backup/wp-includes/wlwmanifest.xml 1 -
+/administrator/language/en-GB/install.xml 2 -
+/login.html 1 -
+/aveXtE/XOR/X2/t 1 -
+/aveXtE/XOR/X3/' 1 -
+/aveXtE/Xt/XM/XM 1 -
+/wp-upload.php 1 http://avexeva.com/wp-upload.php
+/new/wp-login.php 1 -
+/aveXtE/XOR/X6/- 1 -
+/ftp.php 1 http://avexeva.com/ftp.php
+/aveXtE/Xit/Ethernet/Ethernet 1 -
+/cgi-bin/libraries/slider/slider-noui.js 3 http://avexeva.com/index.php
+/admin.php 2 http://avexeva.com/admin.php
+/administrator/help/en-GB/toc.json 2 -
+/cgi-bin/libraries/slider/slider-noui.css 3 http://avexeva.com/index.php
+/cron.php 1 http://avexeva.com/cron.php
+/aveXtE/XOR/X4/' 1 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/demo/wp-login.php 2 -
+/404.php 1 http://avexeva.com/404.php
+/aveXtE/X 1 -
 /aveXtE/Xt/XG 1 -
+/aveXtE/Xt/XD 1 -
+/wsi.php 1 http://avexeva.com/wsi.php
+/wordpress/xmlrpc.php 1 -
+/aveXtE/Xt/Xt/Cosine/Leviathan 1 -
+/pma/index.php 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 102
+BEGIN_VISITOR 106
 108.6.58.149 1282 1338 910845871 20200807235804
 69.126.159.110 658 769 69682975 20200805030936
 72.69.3.103 114 136 12555685 20200829034448
@@ -665,105 +673,109 @@ BEGIN_VISITOR 102
 69.160.160.58 26 28 2787187 20200826013506
 104.223.31.59 17 17 1869239 20200825045537
 104.227.121.182 8 8 844220 20200818065349
-173.234.151.211 7 7 738384 20200826063423
 172.58.228.219 7 8 641028 20200812041459
 191.102.156.74 7 7 738384 20200828142907
+173.234.151.211 7 7 738384 20200826063423
+88.119.171.198 6 6 632838 20200831010705
 5.53.16.153 5 5 548338 20200825120923
-188.165.225.146 4 4 425552 20200808072201
 206.189.94.176 4 4 439334 20200827050227
-212.227.174.175 3 3 316410 20200816003510
-158.69.38.243 3 3 304551 20200805132125
-40.84.215.84 3 3 314932 20200816134237
-179.127.71.179 3 3 316410 20200826165054
+188.165.225.146 4 4 425552 20200808072201
 52.152.166.156 3 3 316410 20200823233753
-64.227.45.230 2 2 210940 20200825120628
+40.84.215.84 3 3 314932 20200816134237
+158.69.38.243 3 3 304551 20200805132125
+212.227.174.175 3 3 316410 20200816003510
+179.127.71.179 3 3 316410 20200826165054
 66.205.156.117 2 2 210940 20200827204534
 34.221.162.233 2 2 210940 20200826120144
 45.227.255.224 2 2 212604 20200807100449
-35.198.246.156 2 2 210940 20200817175249
-5.188.62.140 2 2 210940 20200820190733
-199.244.88.132 2 2 207967 20200811111425
-138.99.216.147 1 1 106302 20200807105335
-83.149.37.165 1 1 105470 20200823004640
-138.99.216.171 1 1 106302 20200807074303
-192.71.42.108 1 1 105470 20200815143033
-54.39.216.184 1 1 105522 20200825101118
-91.217.76.11 1 1 105470 20200820121417
-95.179.241.61 1 1 105470 20200816063128
-80.82.64.229 1 1 97797 20200804090342
-91.224.178.81 1 1 106388 20200808084118
-178.136.123.39 1 1 106302 20200807152239
-46.173.6.87 1 1 105470 20200814022155
-78.184.199.45 1 3 134520 20200814022954
-35.247.128.202 1 1 105470 20200828230023
-138.197.144.119 1 1 0 20200827225901
-54.36.115.93 1 1 105470 20200819031120
-192.71.23.211 1 1 105470 20200824173737
-195.176.3.23 1 1 105470 20200823062418
-190.98.14.183 1 1 105522 20200821204102
-163.172.152.212 1 1 101517 20200805162212
-45.57.152.44 1 1 105075 20200821203138
-201.28.187.217 1 1 105522 20200818201617
-45.72.45.130 1 1 131021 20200821203145
-196.52.84.19 1 1 101517 20200806015256
-45.72.85.178 1 1 125310 20200821203142
-192.186.178.117 1 1 105470 20200821203123
-138.197.174.217 1 1 0 20200827225901
-168.151.124.199 1 1 105470 20200816125624
-185.217.0.138 1 1 105470 20200813041517
-138.36.92.209 1 1 108033 20200821203152
-45.57.203.73 1 1 106724 20200821203146
-45.72.81.148 1 1 113987 20200821203152
-45.72.81.33 1 1 106102 20200821203128
-192.36.71.133 1 1 105470 20200822112930
-64.246.165.50 1 1 105470 20200819045836
-192.71.12.140 1 1 105470 20200817203633
-212.47.249.199 1 1 101517 20200805160602
-74.89.8.101 1 3 134520 20200821054930
-18.237.243.26 1 1 106450 20200810111932
-18.220.232.164 1 1 106450 20200810070136
-129.146.202.236 1 1 105470 20200827210834
-54.74.143.149 1 1 97797 20200804141756
-45.129.223.42 1 1 106388 20200809203205
-196.196.216.136 1 1 105522 20200828085256
-172.245.207.34 1 1 105210 20200821203131
-23.250.83.91 1 1 105457 20200821203126
-161.35.154.38 1 1 105470 20200813192302
-129.78.110.131 1 1 101531 20200806070616
-109.234.34.254 1 1 105470 20200822030710
-195.210.105.77 1 1 105470 20200823214946
-35.239.245.75 1 1 105451 20200819110542
-45.57.203.211 1 1 105513 20200821203132
-104.227.119.76 1 1 105470 20200821203157
-52.188.105.206 1 1 105470 20200812153841
-192.36.70.176 1 1 106302 20200807185624
-23.250.46.23 1 1 106618 20200821203150
-45.72.81.243 1 1 105471 20200821203130
-138.197.148.246 1 1 0 20200804065240
-192.36.248.249 1 1 106450 20200811080902
-95.179.254.125 1 1 105470 20200821125520
-52.24.61.216 1 1 106450 20200810112040
-172.245.207.69 1 1 122781 20200821203149
-51.77.52.160 2 2 210940 20200829123558
-138.197.208.90 1 1 105470 20200812213749
-45.227.255.233 1 1 106302 20200807095430
 198.12.68.33 2 2 210940 20200815034112
+35.198.246.156 2 2 210940 20200817175249
 154.16.85.219 2 2 210940 20200818163939
+74.89.8.101 1 3 134520 20200821054930
+138.197.148.246 1 1 0 20200804065240
+201.28.187.217 1 1 105522 20200818201617
+192.36.248.249 1 1 106450 20200811080902
 45.72.85.32 1 1 105836 20200821203134
-51.158.126.223 1 1 101517 20200805164942
-37.195.178.123 1 1 105470 20200815090956
-138.99.216.112 1 1 103992 20200807040526
+138.99.216.147 1 1 106302 20200807105335
+163.172.152.212 1 1 101517 20200805162212
+18.237.243.26 1 1 106450 20200810111932
+196.196.216.136 1 1 105522 20200828085256
+45.57.203.73 1 1 106724 20200821203146
+168.151.124.199 1 1 105470 20200816125624
+45.57.152.44 1 1 105075 20200821203138
+83.149.37.165 1 1 105470 20200823004640
+138.197.174.217 1 1 0 20200827225901
+78.184.199.45 1 3 134520 20200814022954
+45.57.203.211 1 1 105513 20200821203132
+45.129.223.42 1 1 106388 20200809203205
+172.245.207.69 1 1 122781 20200821203149
+195.210.105.77 1 1 105470 20200823214946
+45.72.81.148 1 1 113987 20200821203152
+52.188.105.206 1 1 105470 20200812153841
 222.242.128.137 1 1 105470 20200812122736
-51.38.48.186 1 1 101553 20200805043731
-69.160.160.55 1 3 134520 20200817063547
-159.203.56.92 1 1 0 20200804065239
-38.18.39.162 1 1 106450 20200811201058
+192.186.178.117 1 1 105470 20200821203123
 209.127.171.103 1 1 105161 20200821203125
+52.24.61.216 1 1 106450 20200810112040
+192.71.23.211 1 1 105470 20200824173737
+185.217.0.138 1 1 105470 20200813041517
+35.247.128.202 1 1 105470 20200828230023
+80.82.64.229 1 1 97797 20200804090342
+192.36.71.133 1 1 105470 20200822112930
+69.160.160.55 1 3 134520 20200817063547
+109.234.34.254 1 1 105470 20200822030710
+45.227.255.233 1 1 106302 20200807095430
+138.99.216.171 1 1 106302 20200807074303
+45.72.81.33 1 1 106102 20200821203128
+37.195.178.123 1 1 105470 20200815090956
+51.158.126.223 1 1 101517 20200805164942
+178.173.242.214 1 1 105470 20200831031359
+45.72.81.243 1 1 105471 20200821203130
+35.239.245.75 1 1 105451 20200819110542
+190.98.14.183 1 1 105522 20200821204102
+95.179.241.61 1 1 105470 20200816063128
+172.245.207.34 1 1 105210 20200821203131
+192.71.12.140 1 1 105470 20200817203633
+159.203.56.92 1 1 0 20200804065239
+129.146.202.236 1 1 105470 20200827210834
+176.31.252.167 1 1 105470 20200831011226
+104.131.125.160 1 1 0 20200831143914
+64.227.45.230 2 2 210940 20200825120628
+95.179.254.125 1 1 105470 20200821125520
+23.250.46.23 1 1 106618 20200821203150
+45.72.85.178 1 1 125310 20200821203142
+129.78.110.131 1 1 101531 20200806070616
+138.197.208.90 1 1 105470 20200812213749
+5.188.62.140 2 2 210940 20200820190733
+212.47.249.199 1 1 101517 20200805160602
+23.250.83.91 1 1 105457 20200821203126
+45.72.45.130 1 1 131021 20200821203145
+18.220.232.164 1 1 106450 20200810070136
+138.99.216.112 1 1 103992 20200807040526
+54.39.216.184 1 1 105522 20200825101118
+54.74.143.149 1 1 97797 20200804141756
 51.178.60.145 2 2 212900 20200810092658
+138.36.92.209 1 1 108033 20200821203152
+51.38.48.186 1 1 101553 20200805043731
+91.217.76.11 1 1 105470 20200820121417
+138.197.144.119 1 1 0 20200827225901
+192.36.70.176 1 1 106302 20200807185624
+192.71.42.108 1 1 105470 20200815143033
+54.36.115.93 1 1 105470 20200819031120
+195.176.3.23 1 1 105470 20200823062418
+104.227.119.76 1 1 105470 20200821203157
+38.18.39.162 1 1 106450 20200811201058
+161.35.154.38 1 1 105470 20200813192302
+178.136.123.39 1 1 106302 20200807152239
+199.244.88.132 2 2 207967 20200811111425
+51.77.52.160 2 2 210940 20200829123558
+64.246.165.50 1 1 105470 20200819045836
+91.224.178.81 1 1 106388 20200808084118
+46.173.6.87 1 1 105470 20200814022155
+196.52.84.19 1 1 101517 20200806015256
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 27
+BEGIN_DAY 28
 20200803 301 301 754520448 2
 20200804 1017 1088 119754111 9
 20200805 271 314 27128893 7
@@ -791,57 +803,58 @@ BEGIN_DAY 27
 20200827 9 9 755744 5
 20200828 9 9 949376 3
 20200829 21 22 2232798 2
+20200831 9 9 843778 4
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 7
+0s-30s 104
 1h+ 6
-5mn-15mn 5
-30mn-1h 3
-2mn-5mn 4
-0s-30s 101
-30s-2mn 5
+30s-2mn 6
 15mn-30mn 2
+30mn-1h 3
+5mn-15mn 5
+2mn-5mn 4
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 37
-/index.php 957 142886114 25 39
+/index.php 962 143413482 25 40
 /home.php 658 796269475 1 0
-/ 462 54695227 99 85
+/ 466 55011637 103 88
 /test.php 156 15554408 1 1
 /asdf.php 6 639926 0 1
 /aveXtE/ 3 6445 0 0
 /aveXtE/RC/Copyleft.py 3 47 0 0
 /aveXtE/XIO/ 2 5094 0 0
 /a/XIO/Language/Python/Prompt.py 2 1503 0 0
-/a/X 1 95227 0 0
-/a/ 1 2309 0 0
-/a/XDICT/Ascii 1 1577 0 0
-/aveXtE/XIO/It/VR 1 8 0 0
-/aveXtE/XIO/Language/PHP/ 1 2234 0 0
 /a/XIO/Language/PHP/Element/Form/TextArea/TextArea 1 167 0 0
 /aveXtE/XDICT/Axiom/Box 1 0 0 0
-/aveXtE/XDICT/Axiom/Axiom 1 0 0 0
-/aveXtE/XIO/Language/ 1 1860 0 0
-/a/XOR/X2/ 1 4 0 0
-/aveXtE/XDICT/Axiom/Ajax 1 0 0 0
-/a/RC/Copyright.py 1 21 0 0
-/aveXtE/RC/Idea.py 1 0 0 0
-/aveXtE/XDICT/Axiom/Avex 1 0 0 0
-/aveXtE/RC/Copyright.py 1 0 0 0
-/aveXtE/RC/Paton.py 1 0 0 0
-/a/XDICT/Axiom/Axis 1 0 0 0
-/a/XDICT/Axiom/Coax 1 0 0 0
-/a/RC/Paton.py 1 0 0 0
 /a/XDICT/Axiom/Axiom 1 0 0 0
-/a/XDICT/Axiom/Ajax 1 0 0 0
 /a/Xt/X%C9%85/XV 1 15 0 0
-/a/RC/Idea.py 1 0 0 0
-/a/RC/Copyleft.py 1 23 0 0
 /a/XDICT/Axiom/Avex 1 0 0 0
-/a/XDICT/Axiom/Axe 1 0 0 0
 /aveXtE/XIO/Language/PHP/Class/ 1 5779 0 0
+/aveXtE/XDICT/Axiom/Ajax 1 0 0 0
+/aveXtE/RC/Idea.py 1 0 0 0
+/a/XDICT/Axiom/Axe 1 0 0 0
+/a/RC/Paton.py 1 0 0 0
+/a/RC/Idea.py 1 0 0 0
+/a/XDICT/Axiom/Coax 1 0 0 0
+/aveXtE/XIO/Language/ 1 1860 0 0
+/a/XDICT/Axiom/Axis 1 0 0 0
+/a/XDICT/Ascii 1 1577 0 0
+/a/X 1 95227 0 0
+/aveXtE/XIO/It/VR 1 8 0 0
+/aveXtE/RC/Paton.py 1 0 0 0
+/aveXtE/XDICT/Axiom/Axiom 1 0 0 0
+/a/ 1 2309 0 0
+/aveXtE/XDICT/Axiom/Avex 1 0 0 0
+/a/RC/Copyleft.py 1 23 0 0
+/a/XDICT/Axiom/Ajax 1 0 0 0
+/a/XOR/X2/ 1 4 0 0
+/a/RC/Copyright.py 1 21 0 0
+/aveXtE/XIO/Language/PHP/ 1 2234 0 0
+/aveXtE/RC/Copyright.py 1 0 0 0
 /a/RC/Trademark.py 1 0 0 0
 END_SIDER

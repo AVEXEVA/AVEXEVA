@@ -18,30 +18,27 @@ for package in os.listdir('Packages'):
            continue
 
 #Functions
-def Parse(String, Input = ''):
+def Execute(String):
   Symbols = eval(Packages['Command']['Symbols'])
-  Input = String[0:1]
-  if String == '':return
-  elif ord(String[0:1]) in Symbols:
-    return {String[0:1] : [Symbols.get(ord(String[0:1])), Parse(String[1:])]}
-  else:
-    return Parse(String[1:], Input + String[0:1])
-
-def Execute(var):
-  if type(var) is dict:
-    Command = var.pop()
-    eval(var[0] + '\n' + Execute(var[1]), globals(), locals())
-
+  if ord(String[0:1]) not in Symbols:
+    return
+  index = 1
+  Strings = ''
+  while index < len(String[1:]):
+    if ord(String[index:index+1]) in Symbols:
+      break
+    else:
+      Strings = Strings + String[index:index+1]
+    index = index + 1
+  exec(Packages['Command'][Symbols.get(ord(String[0:1]))], {}, {'Input' : Strings})
+  if index != len(String[1:]):
+    return Execute(String[index:index+1])
+  
 i = 0
 
-print('~~~AveXteVaX~~~')
 while i == 0:
-  Input = input("avext3@")
+  Input = raw_input("avext3@")
   if i == 1 or Input == '1':
     break
   else:
-    Commands = Parse(Input)
-    Execute(Commands)
-
-print('~\/_I<>t<>I¯/\~')
-print('~~~\|>Et3<|/~~~')
+    Execute(Input)

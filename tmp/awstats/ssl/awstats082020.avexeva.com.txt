@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2011                
-POS_TIME 2689                
-POS_VISITOR 6584                
-POS_DAY 7090                
-POS_DOMAIN 3321                
-POS_LOGIN 3612                
-POS_ROBOT 3767                
-POS_WORMS 4112                
-POS_EMAILSENDER 4243                
-POS_EMAILRECEIVER 4386                
-POS_SESSION 7350                
-POS_SIDER 7497                
-POS_FILETYPES 4521                
-POS_DOWNLOADS 4605                
-POS_OS 4653                
-POS_BROWSER 4795                
-POS_SCREENSIZE 5026                
-POS_UNKNOWNREFERER 5100                
-POS_UNKNOWNREFERERBROWSER 5312                
-POS_ORIGIN 5434                
-POS_SEREFERRALS 5566                
-POS_PAGEREFS 5710                
-POS_SEARCHWORDS 5858                
-POS_KEYWORDS 6010                
-POS_MISC 2353                
-POS_ERRORS 6069                
-POS_CLUSTER 3468                
-POS_SIDER_404 6177                
+POS_TIME 2688                
+POS_VISITOR 6598                
+POS_DAY 7104                
+POS_DOMAIN 3335                
+POS_LOGIN 3626                
+POS_ROBOT 3781                
+POS_WORMS 4126                
+POS_EMAILSENDER 4257                
+POS_EMAILRECEIVER 4400                
+POS_SESSION 7364                
+POS_SIDER 7511                
+POS_FILETYPES 4535                
+POS_DOWNLOADS 4619                
+POS_OS 4667                
+POS_BROWSER 4809                
+POS_SCREENSIZE 5040                
+POS_UNKNOWNREFERER 5114                
+POS_UNKNOWNREFERERBROWSER 5326                
+POS_ORIGIN 5448                
+POS_SEREFERRALS 5580                
+POS_PAGEREFS 5724                
+POS_SEARCHWORDS 5872                
+POS_KEYWORDS 6024                
+POS_MISC 2352                
+POS_ERRORS 6083                
+POS_CLUSTER 3482                
+POS_SIDER_404 6191                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,10 +46,10 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20200830070823 21 3539 11479521526420
+LastLine 20200901004039 16 2522 9848370561250
 FirstTime 20200801033603
 LastTime 20200829232214
-LastUpdate 20200830081533 21 0 21 0 0
+LastUpdate 20200901080645 16 0 15 0 0
 TotalVisits 16                  
 TotalUnique 11                  
 MonthHostsKnown 0                   
@@ -58,44 +58,44 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-TotalMisc 0 0 0
-JavaEnabled 0 0 0
-DirectorSupport 0 0 0
-FlashSupport 0 0 0
 JavascriptDisabled 0 0 0
-PDFSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
-QuickTimeSupport 0 0 0
-RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
 AddToFavourites 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
 0 0 0 0 1 1 105470
-1 5 5 343921 6 7 318056
+1 5 5 343921 9 11 634064
 2 0 0 0 4 8 421984
-3 1 1 12290 2 3 212121
+3 1 1 12290 3 5 317885
 4 1 1 12294 3 4 249436
 5 1 1 12293 7 11 394049
-6 2 2 0 3 4 250068
+6 2 2 0 6 8 566205
 7 0 0 0 6 8 515947
 8 1 1 105470 4 4 76624
-9 0 0 0 2 2 87
+9 0 0 0 4 6 211543
 10 2 2 38260 3 3 38330
-11 1 1 105470 8 11 786929
-12 0 0 0 0 0 0
+11 1 1 105470 9 13 892259
+12 0 0 0 1 2 105881
 13 1 1 0 5 6 287956
-14 1 1 0 5 9 183016
-15 0 0 0 1 11 107830
+14 1 1 0 6 15 290176
+15 0 0 0 3 14 319707
 16 2 2 210940 4 34 266376
 17 5 5 340983 7 17 458943
-18 0 0 0 2 3 211219
-19 0 0 0 3 3 105146
-20 1 1 12289 2 3 105693
-21 0 0 0 1 1 35
+18 0 0 0 3 4 316689
+19 0 0 0 4 5 210407
+20 1 1 12289 3 4 211033
+21 0 0 0 5 6 316217
 22 0 0 0 4 5 357468
-23 1 1 0 1 2 108269
+23 1 1 0 3 6 319125
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
@@ -121,10 +121,10 @@ END_LOGIN
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
 BEGIN_ROBOT 5
-SemrushBot/ 29 3135612 20200830070823 0
+SemrushBot/ 50 5348817 20200831235921 0
 bot[\s_+:,\.\;\/\\-] 28 1877884 20200829110953 0
+no_user_agent 3 316410 20200831185543 0
 [\s_+:,\.\;\/\\-]bot 2 211772 20200820155550 0
-no_user_agent 2 210940 20200825225428 0
 AhrefsBot/ 1 105470 20200827041922 0
 END_ROBOT
 
@@ -155,25 +155,25 @@ END_DOWNLOADS
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 7
 linux 14 14
-win7 4 4
-macosx10 1 1
+win10 2 2
 winxp 1 1
 win8.1 1 1
-win10 2 2
+win7 4 4
+macosx10 1 1
 Unknown 2 2
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 9
-mozilla 1 1
-chrome41.0.2225.0 1 1
-chrome40.0.2214.85 4 4
 Unknown 1 1
-chrome79.0.3945.79 10 10
 chrome74.0.3729.169 2 2
+mozilla 1 1
 chrome78.0.3904.108 4 4
-safari10.1.2 1 1
+chrome40.0.2214.85 4 4
 chrome41.0.2224.3 1 1
+chrome79.0.3945.79 10 10
+safari10.1.2 1 1
+chrome41.0.2225.0 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -182,8 +182,8 @@ END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 2
-Python/3.8_aiohttp/3.6.2 20200819110822
 Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20200807104528
+Python/3.8_aiohttp/3.6.2 20200819110822
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
@@ -222,18 +222,18 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 3
-404 79 18644
 500 3 0
-401 16 730
+401 17 765
+404 96 22656
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
 BEGIN_SIDER_404 5
-/.well-known/assetlinks.json 2 -
-/ads.txt 25 -
 /sitemap.xml 1 -
+/ads.txt 27 -
+/.well-known/assetlinks.json 2 -
+/robots.txt 65 -
 /js/admin.js 1 -
-/robots.txt 50 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
@@ -242,14 +242,14 @@ END_SIDER_404
 BEGIN_VISITOR 11
 131.220.6.156 10 10 684904 20200815173959
 138.246.253.15 4 4 0 20200829232214
-51.158.109.172 2 2 24583 20200801200735
 154.16.85.219 2 2 210940 20200818163939
-81.173.112.207 1 1 105470 20200826084010
-163.172.164.113 1 1 12293 20200801051306
+51.158.109.172 2 2 24583 20200801200735
 142.93.157.43 1 1 0 20200804065239
-104.131.81.154 1 1 38260 20200807104528
-138.197.160.158 1 1 0 20200804065239
 51.158.114.198 1 1 12290 20200801033603
+104.131.81.154 1 1 38260 20200807104528
+163.172.164.113 1 1 12293 20200801051306
+138.197.160.158 1 1 0 20200804065239
+81.173.112.207 1 1 105470 20200826084010
 35.226.134.205 1 1 105470 20200819110822
 END_VISITOR
 
