@@ -1,9 +1,6 @@
 <?php
 namespace Data;
-if(!trait_exists('Traits\Magic_Methods')){require('cgi-bin/PHP/Traits/Magic_Methods.php');}
-Class Object {
-  //Traits
-  use Traits\Magic_Methods;
+Class Object extends \Magic {
   //Variables
   protected $Object = NULL;
   //Functions

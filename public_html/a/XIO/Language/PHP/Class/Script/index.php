@@ -1,5 +1,5 @@
 <?php
 namespace Script;
-class Script extends Magic {
+class Script extends \Magic {
 	public $Name;
 }?>
