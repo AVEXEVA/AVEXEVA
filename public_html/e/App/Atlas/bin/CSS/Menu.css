@@ -1,0 +1,70 @@
+#Menu .Button:nth-child(odd), #Home .Button:nth-child(odd), .Menu .Button:nth-child(odd) { background-color:#2e2e2e; }
+#Menu .Button:nth-child(even), #Home .Button:nth-child(even), .Menu .Button:nth-child(even) { background-color:#1d1d1d; }
+
+@media screen and (max-width:1000px) {
+  #Menu>div {display:flex;}
+  #Menu .Button {
+    flex:1;
+    text-align:center;
+    padding:10px;
+  }
+  #Menu .Screen { display:none; }
+}
+
+.Menu { display:flex; }
+.Menu .Button {
+  flex:1;
+  text-align:center;
+  padding:10px;
+  transition: 0.7s;
+}
+
+.Button {
+  cursor:pointer;
+}
+
+@media screen and (min-width:1000px){
+  #page-wrapper { display:flex; }
+  #page-wrapper:not(.no-menu)>div { box-sizing:border-box; }
+  /*#page-wrapper:not(.no-menu)>:first-child { width:20%; }
+  #page-wrapper:not(.no-menu)>:nth-child(2) {
+    width:80%;
+    padding:35px;
+  }*/
+  #page-wrapper:last-child::after { content:'&nbsp;' clear:both; }
+
+  #Menu {
+    font-size:22px;
+    font-family:courier,arial,helvetica;
+  }
+
+  #Menu .Mobile { display: none; }
+
+  #Menu>.card-body>.Button {
+    box-sizing:border-box;
+    border:1px solid black;
+    text-align:center;
+  }
+  /*Active and Hovers*/
+  #Menu .Button:hover, #Menu .Button.Active { background-color:gold; color:black; }
+  #Menu .Buttons .Button:hover, #Menu .Buttons .Button.Active { background-color:#72bcd4; color:black; }
+  #Menu .Buttons .Button .Buttons .Button:hover, #Menu .Buttons .Button .Buttons .Button.Active { background-color:#FF3232; color:black; }
+  #Menu .Button .Buttons { color:white; }
+
+  /*Flex*/
+  #Menu .Button>div:first-child {display:flex; }
+  #Menu .Button>div:first-child>div { padding:10px; }
+
+  /*Displays*/
+  #Menu .Button>div.Buttons { display: none; }
+  #Menu .Button.Active div.Buttons { display : block; }
+  #Menu .Button:hover div.Buttons { display: block; }
+  #Menu .Button.Active>.Buttons>.Button.Data-Object { display:block; }
+  #Menu .Button.Data-Object { display:none; }
+
+  /*Paddings*/
+  #Menu .Buttons { padding-left:10px; }
+  #Menu .Buttons .Buttons { padding-left:10px; }
+  #Menu .Buttons .Buttons .Buttons{ padding-left:10px; }
+
+}

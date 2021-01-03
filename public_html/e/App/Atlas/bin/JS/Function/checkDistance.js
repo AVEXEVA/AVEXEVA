@@ -1,0 +1,1 @@
+function checkDistance(lat, long){return distance(lat, long, clat, clong) <= .75 || clat == 0 || clong == 0 || lat == 0 || long == 0;}

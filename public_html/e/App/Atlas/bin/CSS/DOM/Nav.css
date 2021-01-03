@@ -1,0 +1,12 @@
+nav {
+  color:white;
+  max-width:2400px;
+  margin:auto;
+  height:35px;
+}
+nav>div.row>div.col:first-child { text-align:left; }
+nav>div.row>div.col:last-child {
+  text-align:left;
+  font-size:32px;
+  cursor:pointer;
+}

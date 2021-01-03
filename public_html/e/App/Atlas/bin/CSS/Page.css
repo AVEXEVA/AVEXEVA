@@ -1,0 +1,33 @@
+
+
+@media only screen and (min-width:1000px) {
+  .Page {
+    font-size:18px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .Page.Object .card {
+    min-width:400px;
+  }
+  .Page .card-header {
+    font-size:22px;
+  }
+  .Page .card-title {
+    font-size:20px;
+  }
+  .Page>.card>.card-body {
+    padding:25px;
+  }
+}
+.Page.Object .card .card-body .row .col {
+  padding:5px;
+}
+
+.Page.Object .card .card-body .row.Button .col {
+  text-align:Center;
+}
+@media only screen and (min-width:1000px){
+  .Page.card {}
+}

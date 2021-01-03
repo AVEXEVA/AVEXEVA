@@ -1,15 +1,15 @@
 <?php
-if(!class_exists('\Singleton')){
-	abstract class Singleton {
-		protected function  __construct(){}
-    final public static function getInstance(){
-			static $instances = array();
-			$calledClass = get_called_class();
-			if (!isset($instances[$calledClass])){
-				$instances[$calledClass] = new $calledClass();
-      }
-			return $instances[$calledClass];
+class Singleton
+{
+    private static $instances = [];
+    protected function __construct() { }
+    protected function __clone() { }
+    public function __wakeup(){throw new \Exception("Cannot unserialize a singleton.");}
+    public static function getInstance(): Singleton{
+        $cls = static::class;
+        if (!isset(self::$instances[$cls])) {self::$instances[$cls] = new static();}
+        return self::$instances[$cls];
     }
-		final private function __clone(){}
-	}
-}?>
+}
+?>
+

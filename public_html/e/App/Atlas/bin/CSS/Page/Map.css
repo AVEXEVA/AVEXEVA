@@ -1,0 +1,17 @@
+.map-icon-label .map-icon {
+  font-size: 24px;
+  color: #000;
+  line-height: 48px;
+  text-align: center;
+  white-space: nowrap;
+  padding:0px;
+  margin:0px;
+  }
+  .map-icon-label .map-icon.Modernization {color:black !important;}
+  .map-icon-label .map-icon.New-GPS {color:green !important;}
+  .map-icon-label .map-icon.Old-GPS {color:yellow !important;}
+  .map-icon-label .map-icon.Ancient-GPS {color:red !important;}
+
+div#Timeline.card-body {
+  overflow-y:scroll;
+}

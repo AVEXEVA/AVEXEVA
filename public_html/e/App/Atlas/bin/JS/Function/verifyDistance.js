@@ -1,0 +1,1 @@
+function verifyDistance(lat, long, clat, clong, dist){return distance(lat, long, clat, clong) <= dist || clat == 0 || clong == 0 || lat == 0 || long == 0;}
