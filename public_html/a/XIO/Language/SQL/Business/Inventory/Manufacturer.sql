@@ -1,0 +1,5 @@
+CREATE TABLE Manufacturer (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Entity INT NOT NULL,
+  CONSTRAINT PK_Manufacturer_ID PRIMARY KEY (ID)
+);

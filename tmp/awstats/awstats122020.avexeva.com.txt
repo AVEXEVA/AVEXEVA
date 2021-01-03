@@ -1,0 +1,800 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202012 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2689                
+POS_VISITOR 15280               
+POS_DAY 21321               
+POS_DOMAIN 3643                
+POS_LOGIN 4234                
+POS_ROBOT 4389                
+POS_WORMS 5037                
+POS_EMAILSENDER 5168                
+POS_EMAILRECEIVER 5311                
+POS_SESSION 22111               
+POS_SIDER 22319               
+POS_FILETYPES 5446                
+POS_DOWNLOADS 5696                
+POS_OS 5827                
+POS_BROWSER 6117                
+POS_SCREENSIZE 7779                
+POS_UNKNOWNREFERER 7853                
+POS_UNKNOWNREFERERBROWSER 8334                
+POS_ORIGIN 8573                
+POS_SEREFERRALS 8715                
+POS_PAGEREFS 8878                
+POS_SEARCHWORDS 9173                
+POS_KEYWORDS 9325                
+POS_MISC 2353                
+POS_ERRORS 9384                
+POS_CLUSTER 4090                
+POS_SIDER_404 9505                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210101001323 277 71928 19385333615472
+FirstTime 20201201052513
+LastTime 20201231201248
+LastUpdate 20210101071039 277 0 276 0 0
+TotalVisits 181                 
+TotalUnique 140                 
+MonthHostsKnown 17                  
+MonthHostsUnknown 123                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 26 93 6127876 187 222 17937367
+1 76 132 6390201 150 173 15319038
+2 177 206 2374828 169 191 17159306
+3 62 115 4431037 209 235 18240354
+4 202 301 6668882 198 238 20441409
+5 159 176 1905828 169 191 17324723
+6 147 194 3244118 182 206 18904589
+7 6 6 632820 199 226 20344528
+8 23 25 2520400 176 195 18363138
+9 25 25 2596511 260 276 25247238
+10 40 78 5825805 218 246 22032360
+11 53 279 14987394 242 280 24777143
+12 203 1101 35510394 254 308 25290746
+13 597 1589 39053177 227 264 23356500
+14 284 405 10714265 216 323 22382430
+15 22 37 1915950 221 234 19775331
+16 15 41 5873374 189 216 19612860
+17 25 73 5984035 149 183 14980177
+18 8 8 763834 178 200 18088397
+19 46 104 8851546 202 230 21207312
+20 20 83 6333960 198 221 20134846
+21 16 46 6335353 215 242 22238331
+22 118 144 8231077 256 298 23459142
+23 86 186 4662129 164 199 17442588
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 25
+us 2214 5026 162576691
+ip 65 220 12027923
+de 29 31 3154023
+gb 27 41 3064999
+ru 22 26 2383586
+ua 10 14 1118507
+ca 10 26 1287100
+cn 9 9 952622
+se 9 9 949230
+in 9 9 978648
+zz 7 7 739593
+br 5 5 529507
+fr 4 4 421880
+it 4 4 421880
+gr 2 2 210940
+pl 1 1 105470
+cl 1 1 105470
+ec 1 3 134520
+kr 1 1 105470
+lt 1 1 105470
+nz 1 1 109685
+be 1 1 105470
+at 1 1 106120
+au 1 3 134520
+id 1 1 105470
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+AhrefsBot/ 2496 265186102 20201231220347 0
+SemrushBot/ 966 102643016 20201225030811 0
+bot[\s_+:,\.\;\/\\-] 650 67153223 20201231235901 0
+YandexBot/ 206 21434964 20201230000450 0
+bingbot/ 103 10992270 20201231074906 0
+Googlebot/ 85 8335027 20201231105830 0
+no_user_agent 62 6549307 20201228172859 0
+(firefox/)([0-9]\.|[0-1][0]\.) 8 632801 20201227015058 0
+facebookexternalhit/ 6 536972 20201229021403 0
+bingpreview 5 112166 20201230161253 0
+Python\-urllib/ 2 210940 20201204190345 0
+spider 1 105470 20201217134155 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jfif 135 383617 0 0
+html 230 15226512 0 0
+js 345 3599991 0 0
+css 485 462458 0 0
+png 373 11087338 0 0
+Unknown 1030 13655315 0 0
+csv 5 205 0 0
+jpg 1803 125646942 0 0
+php 1041 21872416 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/xmas/gifts/index.csv 1 0 22
+/xmas/amounts.csv 1 0 148
+/xmas/throwbacks.csv 1 0 35
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 17
+win7 35 21
+linux 135 131
+win8 2 2
+macosx9 5 5
+macosx12 5 5
+linuxandroid 1258 882
+winxp 4 4
+win10 1465 948
+macosx10 2 2
+macosx8 2 2
+Unknown 74 72
+macosx6 1 1
+win8.1 1 1
+winvista 2 2
+winlong 2 1
+ios_iphone 2449 352
+macosx 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 78
+firefox28.0 36 36
+firefox81.0 4 2
+chrome88.0.4240.193 8 8
+firefox52.0 1 1
+chrome63.0.3239.132 2 2
+opera9.27 15 15
+chrome80.0.3987.106 1 1
+chrome75.0.3770.100 1 1
+chrome66.0.3359.126 1 1
+chrome76.0.3809.100 1 1
+firefox63.0 9 3
+chrome87.0.4280.101 296 122
+chrome83.0.4103.0 1 1
+firefox82.0 2 2
+chrome80.0.3987.149 4 4
+chrome41.0.2225.0 2 2
+msie9.0 20 10
+chrome78.0.3904.108 6 6
+opera53.0.2907.68 1 1
+opera35.0.2066.37 1 1
+chrome76.0.3809.71 3 1
+chrome84.0.4147.105 1 1
+chrome79.0.3945.88 1 1
+chrome45.0.2454.94 1 1
+safari5.1 1 1
+firefox80.0 2 2
+chrome70.0.3538.102 18 6
+chrome67.0.3396.87 1 1
+firefox59.0 1 1
+safari14.0.1 2117 311
+android 2 2
+chrome83.0.4103.61 3 2
+edge17 15 5
+firefox50.0 7 7
+opera72.0.3815.459 11 7
+chrome39.0.2171.95 1 1
+chrome83.0.4086.0 1 1
+chrome80.0.3987.122 1 1
+msie6.0 1 1
+chrome26.0.1410.65 2 2
+firefox70.0 2 2
+chrome75.0.3770.143 1 1
+chrome76.0.3809.87 1 1
+chrome58.0.3029.110 4 4
+chrome65.0.2413.91 1 1
+chrome85.0.4183.121 3 3
+chrome68.0.3440.91 1 1
+firefox79.0 1 1
+chrome86.0.4240.183 3 1
+chrome80.0.3987 2 2
+opera46.0.2597.57 1 1
+firefox45.0 1 1
+chrome81.0.4044.129 9 9
+firefox75.0 2 2
+mozilla 17 15
+chrome75.0.3770.145 1 1
+Unknown 42 42
+msie7.0 2 2
+chrome35.0.2117.157 1 1
+chrome65.0.3325.109 75 75
+chrome34.0.1847.137 4 4
+chrome35.0.1916.47 1 1
+chrome86.0.4240.198 3 1
+chrome79.0.3945.79 3 1
+firefox73.0.1 1 1
+firefox54.0 1 1
+chrome71.0.3563.0 6 2
+firefox73.0 1 1
+safari 1 1
+chrome87.0.4280.88 2307 1628
+chrome56.0.2924.87 6 6
+chrome71.0.3578.99 1 1
+chrome66.0.3359.181 2 2
+firefox72.0 1 1
+chrome74.0.3729.157 1 1
+safari14.0.2 332 41
+chrome76.0.3809.89 1 1
+chrome87.0.4280.66 3 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 9
+webtech/1.2.8 20201219155327
+Opera/9.27 20201215210333
+AngleSharp/0.14.0.0 20201224182805
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20201231063119
+IDBTE4M_CODE87 20201201222844
+panscient.com 20201209194434
+Mozilla/5.0_(compatible;_Dataprovider.com) 20201228235902
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20201229165510
+Go-http-client/1.1 20201230030633
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+Go-http-client/1.1 20201230030633
+AngleSharp/0.14.0.0 20201224182805
+webtech/1.2.8 20201219155327
+IDBTE4M_CODE87 20201201222844
+panscient.com 20201209194434
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 845 850
+From1 0 0
+From2 6 6
+From3 22 22
+From4 1563 4569
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://xn--avexva-68b.com 13 13
+http://avexeva.it 6 6
+http://xn--avexva-68b.com 1 1
+http://www.avexeva.it 1 1
+https://www.netcraft.com/survey/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+301 4 947
+406 30 9000
+500 2 0
+404 930 157648
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 200
+/apple-touch-icon-precomposed.png 2 -
+/html.zip 1 -
+/file.zip 1 -
+/christmas/splash.php 1 -
+/bit.js 1 -
+/xmlrpc.php 11 -
+/2019/wp-includes/wlwmanifest.xml 6 -
+/bitcoin.js 1 -
+/Speranza/bin/JS/jquery.min.js 9 http://avexeva.com/Speranza/
+/user/register/ 1 -
+/Speranza/media/giftcard.jpg 2 http://avexeva.com/Speranza/index.php
+/backup.zip 1 -
+/public/.env 1 -
+/site/wp-includes/wlwmanifest.xml 7 -
+/shop/wp-includes/wlwmanifest.xml 6 -
+/administrator/language/en-GB/install.xml 2 -
+/Speranza/media/cryptocurrencies.jpg 1 http://avexeva.com/Speranza/
+/christmas/splash 1 -
+/app.js 2 -
+/app/etc/local.xml 1 -
+/server.js 1 -
+/fckeditor/editor/filemanager/connectors/php/upload.php 1 -
+/.git/HEAD 1 -
+/bitcoin.zip 1 -
+/Speranza/css/card.css 1 http://avexeva.com/Speranza/
+/vendor/phpunit/phpunit/composer.json 1 -
+/2019.zip 1 -
+/aveXtE/Xt/Xx/Xx 1 -
+/wp2/wp-includes/wlwmanifest.xml 6 -
+/apple-touch-icon.png 2 -
+/system/.env 1 -
+/wordpress/wp-includes/wlwmanifest.xml 7 -
+/all.zip 1 -
+/main.zip 1 -
+/magmi-importer/conf/magmi.ini 1 -
+/.svn/wc.db 1 -
+/wp/wp-includes/wlwmanifest.xml 7 -
+/admin/view/javascript/common.js 2 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/christmas/vincent 1 -
+/exchange.zip 1 -
+/.ftpconfig 1 -
+/christmas/media/massage.png 2 http://avexeva.com/christmas/mom
+/app.zip 1 -
+/.git/config 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/database.sql 1 -
+/.vscode/ftp-sync.json 1 -
+/.env 17 -
+/config.zip 1 -
+/administrator/ 2 -
+/application/.env 1 -
+/media/system/js/core.js 1 -
+/images/editor/separator.gif 1 -
+/backup2.zip 1 -
+/christmas/peter 7 -
+/dump.rdb 1 -
+/Images/Favicons/ico.ico 1 -
+/Speranza/css/tree.css 1 http://avexeva.com/Speranza/
+/magmi/web/download_file.php 1 -
+/private.pem 1 -
+/admin/index.php 1 -
+/functions/index.js 1 -
+/api/app.js 1 -
+/ads.txt 40 -
+/storage/logs/laravel.log 1 -
+/christmas/Peter 3 -
+/api/.env 1 -
+/backup/ 2 -
+/docker-compose.yml 1 -
+/cdqmvimmkfpxc.html 1 -
+/sites/.env 1 -
+/christmas/pattern/black.jpg 8 http://avexeva.com/christmas/peter
+/christmas/steals.php 1 http://avexeva.com/christmas/mom
+/wp-admin/admin-ajax.php 1 -
+/avexevacom.zip 2 -
+/wallet.js 1 -
+/app/.env 1 -
+/ssh.pem 1 -
+/cms/wp-includes/wlwmanifest.xml 7 -
+/temp.zip 1 -
+/ 4 -
+/magmi/conf/magmi.ini 1 -
+/wp-includes/css/buttons.css 1 -
+/humans.txt 8 -
+/e/Picture/XXXNULLXLUNNXXX.png 1 -
+/christmas/media/box.png 31 http://avexeva.com/christmas/mom
+/christmas/jordan 1 -
+/christmas/media/mystery.png 1 http://avexeva.com/christmas/peter
+/data.zip 1 -
+/Speranza/media/box.png 24 http://avexeva.com/Speranza/index.php
+/wallets.zip 1 -
+/wp-login.php 11 -
+/Speranza/css/snow.css 1 http://avexeva.com/Speranza/
+/backend.zip 1 -
+/vendor/phpunit/phpunit/LICENSE 1 -
+/vnc/ 1 -
+/laravel-filemanager/download 1 -
+/eth.js 1 -
+/1.zip 1 -
+/wp-content/plugins/downloads-manager/img/unlock.gif 1 -
+/a/XIO/Language/Javascript/Function/loadMenu.js 1 http://www.avexeva.com/index.php
+/xvvsbhmrbdrouuk.html 1 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/trade.zip 2 -
+/wp-content/uploads/simple-file-list/readme.txt 1 -
+/adminer.php 1 -
+/admin/.env 1 -
+/text.zip 1 -
+/wp1/wp-includes/wlwmanifest.xml 6 -
+/database.zip 1 -
+/wp-content/plugins/wp-file-manager/readme.txt 1 -
+/a.zip 1 -
+/kcfinder/browse.php 1 -
+/ethereum.zip 1 -
+/laravel/.env 1 -
+/website/wp-includes/wlwmanifest.xml 6 -
+/root.zip 1 -
+/../../../../../../../../../../../../../../../../../../../../../etc/passwd 1 -
+/index.zip 1 -
+/avexeva.zip 1 -
+/blog/.env 1 -
+/btc.js 1 -
+/config/prod.env.js 1 -
+/dump/ 1 -
+/robots.txt 423 -
+/vendor/.env 1 -
+/christmas/media/cryptocurrency.jpg 40 http://avexeva.com/christmas/peter
+/.vscode/sftp.json 1 -
+/christmas/index.php 2 -
+/christmas/steal.php 2 http://avexeva.com/christmas/mom
+/wallet.dat 2 -
+/www.zip 1 -
+/blog/xmlrpc.php 1 -
+/blog/wp-includes/wlwmanifest.xml 7 -
+/magmi-importer/web/download_file.php 1 -
+/application.zip 1 -
+/sftp-config.json 1 -
+/test/wp-includes/wlwmanifest.xml 6 -
+/ckfinder/ckfinder.html 1 -
+/db.zip 1 -
+/avexeva.com.zip 1 -
+/admin/includes/general.js 1 -
+/wallet.zip 1 -
+/public_html.zip 1 -
+/btc.zip 1 -
+/plugins/system/debug/debug.xml 2 -
+/shop/.env 1 -
+/sitemap.xml 1 -
+/mnemonic.zip 1 -
+/application-backup.zip 1 -
+/avexeva.gz 1 -
+/backups.zip 1 -
+/dump.zip 1 -
+/index.js 1 -
+/core/.env 1 -
+/wp-includes/wlwmanifest.xml 6 -
+/server.zip 1 -
+/christmas/media/book.jpg 1 http://avexeva.com/christmas/peter
+/wp-content/plugins/ioptimization/IOptimize.php 2 www.google.com
+/prod.env.js 1 -
+/avexevabackup.zip 1 -
+/admin/ 1 -
+/test/.env 1 -
+/vendor/phpunit/phpunit/build.xml 1 -
+/ex.zip 1 -
+/Speranza/media/amazon_gift_card.jpg 1 http://avexeva.com/Speranza/index.php
+/ftpsync.settings 1 -
+/oscfwhgfprgu.html 1 -
+/js/header-rollup-554.js 1 -
+/api/server.js 1 -
+/ekjmiswuccbtr.html 1 -
+/administrator/help/en-GB/toc.json 2 -
+/putty.pem 1 -
+/news/wp-includes/wlwmanifest.xml 6 -
+/archive.zip 1 -
+/christmas/media/homedepot.jpg 1 http://avexeva.com/christmas/peter
+/2020.zip 1 -
+/env 1 -
+/dump.sql 1 -
+/2020/wp-includes/wlwmanifest.xml 3 -
+/avexeva.pem 1 -
+/home.php 1 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+/config.json 1 -
+/wp-includes/js/jquery/jquery.js 1 -
+/bitcoin/ 1 -
+/coin.js 1 -
+/wwwroot.zip 1 -
+/files.zip 1 -
+/Speranza/css/columns.css 1 http://avexeva.com/Speranza/
+/web/wp-includes/wlwmanifest.xml 6 -
+/config/.env 1 -
+/coin.zip 1 -
+/inetpub.zip 1 -
+/Speranza/index.php 2 http://avexeva.com/Speranza/index.php
+/misc/ajax.js 1 -
+/christmas/ 4 -
+/.remote-sync.json 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 140
+ool-4a590865.dyn.optonline.net 1158 2997 66189630 20201225164314
+141.149.32.195 500 650 5844199 20201224141636
+pool-141-149-32-195.nycmny.fios.verizon.net 240 450 29421303 20201230181503
+ue.tmodns.net 65 220 12027923 20201231201248
+cpe-72-227-176-230.nyc.res.rr.com 43 152 1780992 20201229205045
+130.sub-174-197-145.myvzw.com 36 228 5483168 20201225121608
+74.124.213.114 22 22 2320340 20201224121056
+138.201.220.92 17 17 1858221 20201209032944
+23.95.219.106 17 17 1858221 20201222092851
+209.127.175.24 15 15 1647590 20201214085639
+40.124.42.96 15 15 1582830 20201208100019
+23.95.219.171 15 15 1644718 20201221191433
+72.79.58.112 14 14 1476739 20201209194434
+51.222.43.126 12 12 1276845 20201228235844
+101.sub-174-197-130.myvzw.com 12 89 3464901 20201225122645
+23.100.232.233 10 20 1071440 20201218145130
+104.219.136.19 8 36 4979299 20201231200210
+91.200.52.187 7 11 801178 20201226131610
+23.250.118.41 6 6 632914 20201223144117
+192.99.225.98 6 18 807120 20201222144727
+109.69.66.99 6 6 632820 20201219155308
+6.sub-174-197-135.myvzw.com 6 9 851569 20201225124724
+153.sub-174-204-138.myvzw.com 6 19 2955721 20201225105149
+51.161.119.104 6 18 807120 20201222132226
+123.56.129.67 5 5 530742 20201215200718
+100.24.17.40 1 1 0 20201203093820
+45.170.162.11 3 3 331093 20201214181620
+128.90.133.22 1 1 105470 20201208124248
+84.17.60.218 1 1 105470 20201201052513
+193.106.96.221 1 1 105470 20201221173122
+rrcs-69-193-155-82.nyc.biz.rr.com 3 31 4889976 20201230130631
+181.196.73.97 1 3 134520 20201203123636
+37.187.28.22 1 1 105470 20201225055722
+185.143.229.197 1 1 105470 20201223231710
+192.241.96.61 1 1 105470 20201215032503
+134.122.3.28 1 1 0 20201229165510
+1.238.159.59 1 1 105470 20201229173536
+161.97.128.124 1 1 105470 20201219200352
+74.119.238.38 5 5 528653 20201212044014
+18.232.38.148 2 2 210940 20201219185342
+google-proxy-66-249-83-84.google.com 2 2 19244 20201230130640
+64.145.76.63 1 1 105470 20201202191610
+192.241.150.153 1 1 105470 20201201083104
+23.82.165.241 1 1 105470 20201207101829
+134.122.0.47 1 1 105470 20201231063119
+179.127.71.32 3 3 316410 20201210092004
+23.250.118.30 3 3 325203 20201223144223
+167.114.181.146 2 6 269040 20201222143058
+170.254.148.94 1 1 105470 20201230115115
+194.87.237.198 1 1 105470 20201224182805
+cpe-68-173-127-228.nyc.res.rr.com 5 60 5218668 20201226000649
+89.76.56.217 1 1 105470 20201216234232
+51.91.35.169 5 5 530104 20201202222103
+93.177.116.73 1 1 105522 20201229024353
+199.249.230.144 1 3 134520 20201231115714
+205.169.39.171 2 5 241664 20201202231607
+5.188.48.12 1 1 105470 20201224182700
+94.103.95.137 1 1 105470 20201219225446
+175.111.119.42 1 1 105470 20201230163930
+199.244.88.132 1 1 105470 20201207033345
+54.221.27.173 1 1 105470 20201201104236
+34.83.85.230 1 1 0 20201227012726
+107.77.70.34 1 1 9622 20201225142522
+51.89.228.207 1 1 105470 20201218205012
+11.sub-174-204-143.myvzw.com 5 16 608260 20201225123201
+51.15.184.151 1 1 105470 20201230102442
+153.107.48.158 1 3 134520 20201213214526
+3.237.44.124 1 1 105470 20201201222844
+51.91.218.49 1 3 134520 20201228235902
+50.116.78.109 2 2 210940 20201230141650
+178.128.181.136 2 2 210940 20201207035909
+178.45.152.177 4 4 421880 20201213171131
+45.145.131.45 1 1 105522 20201210213252
+74.89.8.101 2 5 241664 20201225164346
+128.90.133.34 2 2 236544 20201220145300
+168.119.161.101 1 1 105470 20201226054804
+108.61.103.112 1 1 105470 20201217155016
+178.159.107.165 1 1 106388 20201229024352
+97.sub-174-248-245.myvzw.com 2 11 19702 20201225123614
+188.225.24.87 5 5 530742 20201215210333
+107.77.106.125 1 11 2175235 20201225130158
+109.69.66.101 4 4 421880 20201219155315
+54.91.171.1 1 1 105470 20201215121916
+66.204.28.49 1 3 134520 20201202134040
+45.66.209.96 1 1 109685 20201210213248
+134.175.228.189 2 2 210940 20201209082911
+3.139.70.216 1 1 105470 20201224122100
+192.71.10.105 1 1 105470 20201230030633
+54.203.194.90 2 2 210940 20201225131932
+149.202.67.223 2 2 210940 20201219160445
+192.71.36.158 3 3 316410 20201214001352
+google-proxy-66-249-83-85.google.com 1 1 9622 20201230130640
+158.46.54.189 1 3 136222 20201206064606
+185.215.105.25 1 1 105470 20201222093924
+122.sub-174-246-198.myvzw.com 3 31 4889963 20201227114040
+116.203.81.97 1 1 105470 20201226162035
+179.61.185.79 1 1 105470 20201213220118
+159.224.255.154 2 2 210941 20201206112028
+51.89.207.245 1 1 105470 20201202122809
+175.24.232.97 1 1 105470 20201210110559
+42.83.147.202 1 1 105470 20201220042118
+31.220.108.130 1 1 105470 20201227063002
+37.9.13.68 1 1 105470 20201203022925
+192.36.248.249 1 1 105470 20201205210521
+92.223.89.149 1 1 106120 20201228195523
+104.211.30.116 3 3 316410 20201221095557
+42.194.204.97 2 2 210940 20201207075230
+104.248.33.132 2 2 210940 20201226133424
+195.133.59.36 1 1 105470 20201214085624
+192.71.12.140 2 2 210940 20201219120945
+138.122.234.230 1 1 106388 20201202191600
+45.170.162.99 4 4 436563 20201212165657
+185.220.102.249 1 3 134520 20201212205643
+185.236.200.43 1 1 105470 20201203021856
+47.254.68.12 2 2 210940 20201207220805
+209.127.38.28 1 1 105470 20201223144035
+192.71.2.171 1 1 105470 20201206085818
+91.sub-174-197-128.myvzw.com 3 31 5201704 20201226011316
+89.145.163.86 3 3 316410 20201217153516
+205.169.39.13 1 3 134520 20201201084826
+104.131.168.234 1 1 105470 20201201225531
+129.213.19.98 3 3 316410 20201222034358
+45.95.21.122 1 1 105470 20201228012836
+40.124.30.229 3 3 316410 20201205000209
+207.222.212.43 1 1 105470 20201214132427
+52.251.114.233 1 1 105470 20201222080603
+109.69.66.105 1 1 105470 20201219155327
+192.71.42.108 1 1 105470 20201223211905
+68.183.64.4 2 2 210940 20201226133614
+google-proxy-66-249-83-83.google.com 3 3 28866 20201230130632
+92.74.43.180 1 3 135632 20201218111419
+35.197.31.4 1 1 0 20201227012725
+20.55.26.138 3 3 316410 20201212220404
+149.202.223.47 1 1 105470 20201206093726
+193.221.200.93 1 1 105470 20201207155851
+5.188.48.33 1 1 105470 20201218104122
+191.5.102.55 1 1 106709 20201217181211
+3.93.147.231 1 1 105470 20201218135006
+64.246.165.180 1 1 105470 20201222084231
+128.90.165.146 2 2 210940 20201213071434
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20201201 6 8 661870 6
+20201202 11 16 1223616 7
+20201203 7 10 663544 7
+20201204 1 2 107144 1
+20201205 5 6 529024 3
+20201206 6 9 665247 5
+20201207 9 9 949230 7
+20201208 17 18 1795444 3
+20201209 34 36 3680420 4
+20201210 7 8 744231 5
+20201212 16 19 1734230 6
+20201213 7 10 769014 5
+20201214 22 23 2402237 6
+20201215 13 13 1377894 5
+20201216 1 1 105470 1
+20201217 5 5 528589 3
+20201218 6 9 664656 6
+20201219 17 17 1792990 9
+20201220 3 3 342014 2
+20201221 19 19 2066598 4
+20201222 37 65 4374321 8
+20201223 12 12 1274527 5
+20201224 779 1015 20635348 8
+20201225 1110 3241 75128282 16
+20201226 32 175 17148208 9
+20201227 6 34 4995433 4
+20201228 84 197 4887585 10
+20201229 28 55 851064 9
+20201230 122 313 29467856 13
+20201231 14 99 10368708 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 146
+15mn-30mn 3
+2mn-5mn 7
+1h+ 4
+30s-2mn 13
+30mn-1h 2
+5mn-15mn 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 38
+/christmas/peter 440 5997595 3 2
+/Speranza/index.php 293 1212399 0 0
+/christmas/open.php 272 260 1 0
+/index.php 189 20294989 28 37
+/ 147 15082210 112 102
+/christmas/mom 139 1580651 4 1
+/Speranza/open.php 126 135 0 0
+/christmas/media/cornstar.jfif 91 281543 0 9
+/christmas/jordan 73 973625 0 1
+/Speranza/ 68 122809 0 0
+/christmas/splash 57 632334 0 0
+/christmas/hayley 53 557986 1 0
+/christmas/steal.php 52 37 0 0
+/christmas/cyle 50 649477 4 1
+/christmas/dad 45 791602 4 4
+/xmas/olivia 43 418413 10 11
+/xmas-prototype/vincent 41 672455 2 2
+/christmas/media/corn.jfif 36 64660 0 0
+/xmas-prototype/peter 34 580142 1 2
+/christmas/mike 34 481795 2 2
+/christmas/preview.php 30 100 0 0
+/xmas/index.php 29 320991 1 1
+/christmas/ 15 21493 2 0
+/christmas/sam 14 216660 3 3
+/christmas/throwback.php 12 0 0 0
+/christmas/index.php 7 32026 0 1
+/xmas-prototype/preview.php 2 10 0 0
+/xmas-prototype/open.php 5 21 0 0
+/xmas/throwback.php 6 0 0 0
+/christmas/vincent 7 102580 2 0
+/xmas/steal.php 2 0 0 0
+/christmas/jordan.php 2 11400 1 1
+/xmas/open.php 9 37 0 0
+/xmas-prototype/throwback.php 1 0 0 0
+/xmas-prototype/media/corn.jfif 2 12932 0 0
+/xmas/preview.php 3 11 0 0
+/xmas-prototype/media/cornstar.jfif 6 24482 0 1
+/xmas-prototype/steal.php 1 0 0 0
+END_SIDER

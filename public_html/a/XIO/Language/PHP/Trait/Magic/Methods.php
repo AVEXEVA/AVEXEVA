@@ -1,9 +1,8 @@
 <?php
 namespace magic;
 trait methods {
- public function __construct($array = Null){
-  self::__set($array);
- }
+ public function __call($function, $arguments){if(method_exists($this, $function)){$this->$function($arguments);}}
+ public function __construct($array = Null){self::__set($array);}
  public function __toString($delimiter = null){
   $strings = [];
   foreach(get_object_vars($this) as $key=>$value){

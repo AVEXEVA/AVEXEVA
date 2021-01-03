@@ -1,0 +1,5 @@
+CREATE TABLE Sentence (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Paragraph INT NOT NULL,
+  Number INT NOT NULL,
+);

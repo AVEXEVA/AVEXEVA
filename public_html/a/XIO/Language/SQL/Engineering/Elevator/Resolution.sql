@@ -1,0 +1,54 @@
+CREATE TABLE Resolution (
+	ID 									INT 			NOT NULL 	identity(1, 1)		PRIMARY KEY,
+	[Name]								VARCHAR(MAX)	NOT NULL,
+	[Description]						TEXT
+);
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Added Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Adjusted Floor Levels');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Adjusted Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Asseseds Damage to Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Assisted Contractor');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Burnished Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Checked Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Cleaned Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Device Shutdown');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Disabled Device');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Fixed Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Inspected Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Installed Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Modernized Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Moved Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Observed Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Other');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Painted Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Performed Hatch-Opening');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Performed Maintenance');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Performed Category Five');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Performed Category One');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Put Car On Independent');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Put On Sabbath Service');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Realigned Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Released Person(s) From Entrapment');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Remedied Water Damage to Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Removed Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Removed The Device From The Dead Zone');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Removed Vandalism');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Repaired Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Replaced Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Reseted Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Resolved Error Code');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Restarted Device');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Restarted Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Restored Car To Automatic');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Returned Device to Service');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Rewired Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Ride-Along');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Safe Move');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Secured Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Test Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Tightened Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Top of Car Move');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Turned Off Sabbath Service');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Turned On Sabbath Service');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Turned Off Item(s)');
+INSERT INTO Portal.dbo.Resolution([Name]) VALUES('Turned On Item(s)');

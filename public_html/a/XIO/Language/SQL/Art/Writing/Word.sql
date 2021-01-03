@@ -1,0 +1,5 @@
+CREATE TABLE Word (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Sentence INT NOT NULL,
+  Number INT NOT NULL,
+);

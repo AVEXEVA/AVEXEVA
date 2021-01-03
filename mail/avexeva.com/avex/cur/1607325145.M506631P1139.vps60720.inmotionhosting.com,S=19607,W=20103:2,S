@@ -1,0 +1,496 @@
+Return-Path: <010001763c0b4f9b-65fdbf04-af7d-4d1a-b932-0c6604e58f72-000000@amazonses.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id DymVHdnVzV9zBAAABSAGJw
+	(envelope-from <010001763c0b4f9b-65fdbf04-af7d-4d1a-b932-0c6604e58f72-000000@amazonses.com>)
+	for <avex@avexeva.com>; Mon, 07 Dec 2020 02:12:25 -0500
+Return-path: <010001763c0b4f9b-65fdbf04-af7d-4d1a-b932-0c6604e58f72-000000@amazonses.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 07 Dec 2020 02:12:25 -0500
+Received: from a11-129.smtp-out.amazonses.com ([54.240.11.129]:39429)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <010001763c0b4f9b-65fdbf04-af7d-4d1a-b932-0c6604e58f72-000000@amazonses.com>)
+	id 1kmAh5-0000ID-QD
+	for avex@avexeva.com; Mon, 07 Dec 2020 02:12:24 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=l4p4f353vhipbt4ey6ekvlqc6ohmemoo; d=bethesda.net; t=1607325143;
+	h=From:To:Subject:MIME-Version:Content-Type:Message-ID:Date;
+	bh=sG3rhwQ08YtE9Cn21rQTyuVROi5APD0JIuOE6AZSTys=;
+	b=EQklQ4aK2TJFclphPuACEDQGadaC5EkHBdhfh8o2qnN5xCrS9nIzaeSTMlTwSErd
+	jh5ILy/9S70z2bdhy9BRoxOczBmeDcr5rqSjcwbljznyFIsnjL9cdtoUpCSHJuNf/pz
+	vxgXpn9D0Sd0vPB7O2cxVFjtHsaKPXxdywjCPTS4=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1607325143;
+	h=From:To:Subject:MIME-Version:Content-Type:Message-ID:Date:Feedback-ID;
+	bh=sG3rhwQ08YtE9Cn21rQTyuVROi5APD0JIuOE6AZSTys=;
+	b=gGqfb1oXSplTiZOxjbws7t6M4yNfVXZeaAN/YeB1ZxVM70UuCa6Lra5rTAw5AyOB
+	Uxd9IRaCWwbL0Zx+gRgRWB+kDTkdFJK7cslEcK+27FTWMa7Iwj+nY05n9oOf0WpuktY
+	gQ0z7OcvEtCTiwIgFb3Kb4JDPe4IHQtiJAmU9OI4=
+From: "Bethesda.net" <noreply@bethesda.net>
+To: avex@avexeva.com
+Subject: Bethesda.net | Your Password
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_9676235_215788369.1607325142941"
+Message-ID: <010001763c0b4f9b-65fdbf04-af7d-4d1a-b932-0c6604e58f72-000000@email.amazonses.com>
+Date: Mon, 7 Dec 2020 07:12:23 +0000
+X-SES-Outgoing: 2020.12.07-54.240.11.129
+Feedback-ID: 1.us-east-1./sDR4aGZlkorcCcOgaiKpeYtM+ULw7Ghl+RYVtfBHvw=:AmazonSES
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  none Bethesda.net | Your Password Your Bethesda.net Password
+    
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: ctfassets.net]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+X-Spam-Flag: NO
+
+------=_Part_9676235_215788369.1607325142941
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+none
+------=_Part_9676235_215788369.1607325142941
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang=3D"en">
+<head>
+=09<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"=
+>
+=09<title>Bethesda.net | Your Password</title>
+=09<style type=3D"text/css">
+=09body{
+=09=09-webkit-font-smoothing: antialiased;
+=09=09width:100% !important;
+=09=09background:#e4e4e4;
+=09=09-webkit-text-size-adjust:none;
+=09=09border-spacing:0;
+=09=09margin:0;
+=09=09padding:0;
+=09=09min-width: 100%;
+=09=09font-family: Arial, sans-serif;
+=09=09mso-line-height-rule: exactly;
+=09=09}
+=09=09table {
+=09=09=09border-spacing: 0;
+=09=09=09color: #333333;
+=09=09=09font-family: Arial, sans-serif;
+=09=09}
+=09=09.wrapper {
+=09=09=09width: 100%;
+=09=09=09table-layout: fixed;
+=09=09=09-webkit-text-size-adjust: 100%;
+=09=09=09-ms-text-size-adjust: 100%;
+=09=09}
+=09=09.webkit {
+=09=09=09max-width: 550px;
+=09=09}
+=09=09.outer {
+=09=09=09Margin: 0 auto;
+=09=09=09width: 100%;
+=09=09=09max-width: 550px;
+=09=09}
+=09=09.full-width-image img {
+=09=09=09width: 100%;
+=09=09=09max-width: 550px;
+=09=09=09height: auto;
+=09=09}
+=09=09.inner {
+=09=09=09padding: 10px;
+=09=09}
+
+=09=09.contents {
+=09=09=09width: 100%;
+=09=09}
+=09a:hover {
+=09=09text-decoration: underline !important;
+=09}
+=09a:link{
+=09=09color: #7e7e7e;
+=09}
+=09td.contentblock h4 {
+=09=09color:#444444;
+=09=09font-size:36px;
+=09=09line-height:36px;
+=09=09font-family: Arial, sans-serif;
+=09=09margin-top:0;
+=09=09margin-bottom:10px;
+=09=09padding-top:0;
+=09=09padding-bottom:0;
+=09=09font-weight:normal;
+=09=09text-align:left;
+=09}
+=09td.contentblock h4 a {
+=09=09color:#444444;
+=09=09text-decoration:none;
+=09}
+=09td.contentblock p {
+=09  =09color:#606060;
+=09=09font-size:14px;
+=09=09line-height:19px;
+=09=09font-family: Arial, sans-serif;
+=09=09margin-top:0;
+=09=09margin-bottom:0px;
+=09=09padding-top:0;
+=09=09padding-bottom:0;
+=09=09font-weight:normal;
+=09=09text-align:left;
+=09}
+=09td.contentblock p a {
+=09  =09color:#3db8c0;
+=09=09text-decoration:none;
+=09}
+
+=09td.contentblocksmall p {
+=09=09font-size: 11px!important;
+=09=09line-height: 15px;
+=09=09color:#888888;
+=09=09font-family: Arial, sans-serif;
+=09=09margin-top:0;
+=09=09margin-bottom:12px;
+=09=09padding-top:0;
+=09=09padding-bottom:0;
+=09=09font-weight:normal;
+=09=09text-align:left;
+=09}
+
+=09td.contentblocksmall p a{
+=09=09font-size: 11px!important;
+=09=09line-height: 15px;
+=09}
+
+=09td.button{
+=09=09background-color: #444444;
+=09=09-moz-border-radius: 2px;
+=09=09-webkit-border-radius: 2px;
+=09=09border-radius: 2px;
+=09}
+
+=09td.button h5 a{
+=09=09color:#fff !important;
+=09=09font-size:13px;
+=09=09line-height:13px;
+=09=09font-family: Arial, sans-serif;
+=09=09margin: 0;
+=09=09padding: 0;
+=09=09font-weight:bold;
+=09=09text-decoration: none;
+=09=09text-align:center;
+=09}
+
+=09td.button h5{
+=09=09-webkit-margin-before: 0;
+    =09-webkit-margin-after: 0;
+    =09margin:0; padding:0;
+    =09text-align:center;
+    =09color:#fff !important;
+    =09font-size:13px;
+    =09line-height:13px;
+    =09font-family: Arial, sans-serif;
+    =09margin: 0;
+    =09padding: 0;
+    =09font-weight:bold;
+    =09text-decoration: none;
+=09}
+
+=09img{
+=09=09display: block;
+=09}
+
+=09td.footer p{
+=09=09color:#7e7e7e;
+=09=09font-size:10px;
+=09=09font-family: Arial, sans-serif;
+=09=09margin-top:0;
+=09=09margin-bottom:15px;
+=09=09padding-top:0;
+=09=09padding-bottom:0;
+=09=09line-height:18px;
+=09}
+=09</style>
+</head>
+<body bgcolor=3D"#e4e4e4" style=3D"-webkit-font-smoothing: antialiased; !im=
+portant;background:#e4e4e4;-webkit-text-size-adjust:none;border-spacing:0;M=
+argin:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;min-w=
+idth:100%;">
+<center class=3D"wrapper" style=3D"width:100%;table-layout:fixed;-webkit-te=
+xt-size-adjust:100%;-ms-text-size-adjust:100%;background-color:#e4e4e4;">
+<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" bgco=
+lor=3D"#e4e4e4" style=3D"min-width:100%; border-spacing:0;margin:0;padding:=
+0;background-color:#e4e4e4;">
+<tr>
+<td bgcolor=3D"#e4e4e4" width=3D"100%" align=3D"center" style=3D"min-width:=
+100%; border-spacing:0;margin:0;padding:0;">
+
+=09<div class=3D"webkit" style=3D"max-width:550px; margin: 0 auto;">
+=09=09<!--[if (gte mso 9)|(IE)]>
+
+=09=09<table width=3D"550" align=3D"center" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" style=3D"border-spacing:0;font-family: Arial, sans-seri=
+f; color:#333333;" >
+=09=09=09<tr>
+=09=09=09=09<td style=3D"padding-top:0;padding-bottom:0;padding-right:0;pad=
+ding-left:0;" >
+=09=09=09=09=09<table width=3D"540" align=3D"center" cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" style=3D"margin: 5px auto; border-spacing:0;font=
+-family: Arial, sans-serif; color:#333333;" >
+=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09<td style=3D"padding-top:0;padding-bottom:0;padding-ri=
+ght:0;padding-left:0;" >
+=09=09<![endif]-->
+
+
+=09<table class=3D"outer" align=3D"center" cellpadding=3D"5" cellspacing=3D=
+"0" border=3D"0" style=3D"border-spacing:0;font-family: Arial, sans-serif;c=
+olor:#333333;Margin:5px auto;width:100%;max-width:540px;">
+=09<tr>
+=09=09<td align=3D"center" style=3D"border-spacing:0;">
+=09   =09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"c=
+enter" width=3D"100%" style=3D"width:100%; max-width:540px;border-spacing:0=
+;padding-bottom:20px; padding-top:10px;">
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#e4e4e4" align=3D"left" style=3D"border-spacing:=
+0;">
+=09=09=09=09=09<a href=3D"https://bethesda.net/en/dashboard"><img src=3D"ht=
+tps://images.ctfassets.net/rporu91m20dc/63NKlMVRtYC40ECeYGiWeo/346ce5cec3d2=
+43b70f7cfdc2738a93f8/bethesda-square.png" width=3D"32" alt=3D"Bethesda" sty=
+le=3D"max-width:32px; display:block; align:left;"></a>
+
+=09=09=09=09</td>
+=09=09=09=09<td bgcolor=3D"#e4e4e4" align=3D"right" style=3D"border-spacing=
+:0;">
+=09=09=09=09=09<a href=3D"https://bethesda.net/en/dashboard"><img src=3D"ht=
+tps://images.ctfassets.net/rporu91m20dc/1wCG9rArXWYq40wkWe4MSY/676f3fa79f6b=
+b85caadb362ee0bdb562/Bethesda_Logo.png" width=3D"132" alt=3D"Bethesda" styl=
+e=3D"max-width:132px; display:block; align:right;"></a></td>
+=09=09=09</tr>
+=09=09</table>
+
+=09=09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cent=
+er" width=3D"100%" style=3D"width:100%; max-width:540px; border-spacing:0; =
+border: 1px solid #b0b0b0;">
+=09=09=09<tr>
+=09=09=09<td bgcolor=3D"#ffffff" style=3D"border-spacing:0;text-align:cente=
+r;" align=3D"center">
+=09=09=09=09<table border=3D"0" cellpadding=3D"20" cellspacing=3D"0" width=
+=3D"100%" style=3D"border-spacing:0;">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td bgcolor=3D"#ffffff" class=3D"contentblock" style=3D"b=
+order-spacing:0;">
+
+=09=09=09=09=09=09=09<h4 align=3D"left" style=3D"color:#444444!important;fo=
+nt-size:28px;line-height:28px;font-family: Arial, sans-serif;margin-top:0;m=
+argin-bottom:30px;padding-top:0;padding-bottom:0;font-weight:normal;text-al=
+ign:left;"><strong>Your Bethesda.net Password</strong></h4>
+=09=09=09=09=09=09=09<p align=3D"left" style=3D"color:#606060;font-size:14p=
+x;line-height:19px;font-family: Arial, sans-serif;margin-top:0;margin-botto=
+m:20px;padding-top:0;padding-bottom:0;font-weight:normal;text-align:left;">=
+<strong>Greetings xiotoix</strong></p>
+=09=09=09=09=09=09=09<p align=3D"left" style=3D"color:#606060;font-size:14p=
+x;line-height:19px;font-family: Arial, sans-serif;margin-top:0;margin-botto=
+m:20px;padding-top:0;padding-bottom:0;font-weight:normal;text-align:left;">=
+We recently received a request to reset your Bethesda.net account password.=
+</p>
+=09=09=09=09=09=09=09<p align=3D"left" style=3D"color:#606060;font-size:14p=
+x;line-height:19px;font-family: Arial, sans-serif;margin-top:0;margin-botto=
+m:0px;padding-top:0;padding-bottom:0;font-weight:normal;text-align:left;">I=
+f you made this request please click the "Reset My Password" link or copy a=
+nd paste the URL into your browser.</p>
+=09=09=09=09<center>
+=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=
+=3D"100%">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td align=3D"center">
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td height=3D"20" width=3D"100%" style=3D"fon=
+t-size: 20px; line-height: 20px;">&nbsp;
+
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09<table border=3D"0" align=3D"center" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"Margin:0 auto;">
+=09=09=09=09=09=09=09=09=09<tbody>
+=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center">
+=09=09=09=09=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" style=3D"Margin:0 auto;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09<td align=3D"center" bgcolor=3D"#=
+444444" width=3D"200" style=3D"-moz-border-radius: 4px; -webkit-border-radi=
+us: 4px; border-radius: 4px;">
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09=09<a href=3D"https://bethesda.ne=
+t/en/account/reset-password?t=3D75491e8b92b34b6ebc7399e7e7a52f99" style=3D"=
+padding: 10px;width:200px;display: block;text-decoration: none;border:0;tex=
+t-align: center;font-weight: bold;font-size: 14px;font-family: Arial, sans-=
+serif;color: #ffffff;background: #444444;border: 1px solid #444444;-moz-bor=
+der-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;line-height=
+:25px;text-transform:uppercase;">RESET MY PASSWORD</a>
+=09=09=09=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09=09</tbody>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09=09=09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0">
+=09=09=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09=09=09<td height=3D"20" width=3D"100%" style=3D"fon=
+t-size: 20px; line-height: 20px;">&nbsp;
+
+=09=09=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09</center>
+=09=09=09=09=09=09=09<p style=3D"color:#606060;font-size:11px;line-height:1=
+9px;font-family: Arial, sans-serif;margin-top:0;margin-bottom:20px;padding-=
+top:0;padding-bottom:0;font-weight:normal;text-align:center;"><a href=3D"ht=
+tps://bethesda.net/en/account/reset-password?t=3D75491e8b92b34b6ebc7399e7e7=
+a52f99" style=3D"color:#3db8c0;text-decoration:none;"><strong>https://bethe=
+sda.net/en/account/reset-password?t=3D75491e8b92b34b6ebc7399e7e7a52f99</str=
+ong></a></p>
+=09=09=09=09=09=09=09<p align=3D"left" style=3D"color:#606060;font-size:14p=
+x;line-height:19px;font-family: Arial, sans-serif;margin-top:0;margin-botto=
+m:20px;padding-top:0;padding-bottom:0;font-weight:normal;text-align:left;">=
+If you did not request to change your password for Bethesda.net or if you n=
+eed assistance with your account, please visit our support center at <a hre=
+f=3D"http://help.bethesda.net" style=3D"color:#3db8c0;text-decoration:none;=
+"><strong>http://help.bethesda.net</strong></a>.</p>
+=09=09=09=09=09=09=09<p align=3D"left" style=3D"color:#606060;font-size:14p=
+x;line-height:19px;font-family: Arial, sans-serif;margin-top:0;margin-botto=
+m:10px;padding-top:0;padding-bottom:0;font-weight:normal;text-align:left;">=
+Warm regards,<br />
+      <em>Bethesda.net Team</em></p>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09</td>
+=09=09=09</tr>
+=09=09</table>
+=09=09</td>
+=09</tr>
+=09</table>
+
+=09<table width=3D"100%" cellpadding=3D"5" cellspacing=3D"0" border=3D"0" a=
+lign=3D"center" style=3D"max-width:540px;border-spacing:0;margin-top:30px;"=
+>
+=09=09=09<tr>
+=09=09=09=09<td bgcolor=3D"#e4e4e4" align=3D"center" style=3D"border-spacin=
+g:0;">
+
+=09=09=09=09=09<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" bo=
+rder=3D"0" align=3D"center" style=3D"border-spacing:0;">
+=09=09=09=09=09<tr>
+=09=09=09=09=09=09<td valign=3D"top" style=3D"border-spacing:0;" class=3D"f=
+ooter">
+=09=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" width=3D"100%" style=3D"border-spacing:0;">
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td width=3D"100%" style=3D"border-spacing:0;">
+=09=09=09=09=09=09=09=09=09<p style=3D"color:#7e7e7e;font-size:10px;font-fa=
+mily: Arial, sans-serif;margin-top:0;margin-bottom:15px;padding-top:0;paddi=
+ng-bottom:0;line-height:18px;">To help ensure that you receive emails from =
+us, please add  <a href=3D"mailto:noreply@bethesda.net" style=3D"color:#7e7=
+e7e;text-decoration:none;"><strong>noreply@bethesda.net</strong></a> to you=
+r address book.<br />
+This is a transactional email and is sent from an automated address =E2=80=
+=93 please do not reply to this message.<br />
+Need additional assistance? Contact us at:  <strong><a href=3D"http://help.=
+bethesda.net" style=3D"color:#7e7e7e;text-decoration:none;">http://help.bet=
+hesda.net</a></strong><br />
+
+&copy;2020 Bethesda Softworks, a ZeniMax Media company. All Rights Reserved=
+.</p>
+<p style=3D"color:#7e7e7e;font-size:10px;font-family: Arial, sans-serif;mar=
+gin-top:0;margin-bottom:15px;padding-top:0;padding-bottom:0;line-height:18p=
+x;"><a href=3D"https://bethesda.net/en/document/terms-of-service" style=3D"=
+color:#7e7e7e;text-decoration:none;"><strong>TERMS OF SERVICE</strong></a> =
+&nbsp;&nbsp;&nbsp;&nbsp; <a href=3D"https://bethesda.net/en/document/privac=
+y-policy" style=3D"color:#7e7e7e;text-decoration:none;"><strong>PRIVACY POL=
+ICY</strong></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href=3D"https://bethesda.net/e=
+n/document/code-of-conduct"  style=3D"color:#7e7e7e;text-decoration:none;">=
+<strong>CODE OF CONDUCT</strong></a></p>
+<p style=3D"color:#7e7e7e;font-size:10px;font-family: Arial, sans-serif;mar=
+gin-top:0;margin-bottom:15px;padding-top:0;padding-bottom:0;line-height:18p=
+x;">This email was sent by: Bethesda Softworks, a ZeniMax Media company - 1=
+370 Piccard Dr, Rockville, MD 20850, UNITED STATES</p>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09=09<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" w=
+idth=3D"94" style=3D"border-spacing:0;margin-bottom:30px;" align=3D"right">
+=09=09=09=09=09=09=09<tr>
+=09=09=09=09=09=09=09=09<td width=3D"94" style=3D"max-width:94px;">
+=09=09=09=09=09=09=09=09=09<a href=3D"https://bethesda.net/en/dashboard"><i=
+mg border=3D"0" src=3D"https://images.ctfassets.net/rporu91m20dc/1wCG9rArXW=
+Yq40wkWe4MSY/676f3fa79f6bb85caadb362ee0bdb562/Bethesda_Logo.png" width=3D"9=
+4" alt=3D"Bethesda" style=3D"display:block; max-width:94px; height:auto;"><=
+/a>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09=09</table>
+=09=09=09=09=09=09</td>
+=09=09=09=09=09</tr>
+=09=09=09=09=09</table>
+
+=09=09=09=09</td>
+=09=09=09</tr>
+=09   =09=09</table>
+=09   =09=09<!--[if (gte mso 9)|(IE)]>
+=09=09=09=09=09=09=09=09</td>
+=09=09=09=09=09=09=09</tr>
+=09=09=09=09=09=09</table>
+=09=09=09=09=09</td>
+=09=09=09=09</tr>
+=09=09=09</table>
+=09=09=09<![endif]-->
+=09   =09=09</div>
+=09   =09</td>
+=09</tr>
+=09</table>
+<custom name=3D"opencounter" type=3D"tracking"/>
+</center>
+</body>
+</html>
+------=_Part_9676235_215788369.1607325142941--

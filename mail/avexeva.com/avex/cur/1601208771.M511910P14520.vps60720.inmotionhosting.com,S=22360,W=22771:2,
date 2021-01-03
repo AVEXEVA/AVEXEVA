@@ -1,0 +1,411 @@
+Return-Path: <01000174cf7abee3-bf6874bc-3b7d-4bf2-908c-50911ed4f90b-000000@amazonses.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id fo7cHcOBcF+4OAAABSAGJw
+	(envelope-from <01000174cf7abee3-bf6874bc-3b7d-4bf2-908c-50911ed4f90b-000000@amazonses.com>)
+	for <avex@avexeva.com>; Sun, 27 Sep 2020 08:12:51 -0400
+Return-path: <01000174cf7abee3-bf6874bc-3b7d-4bf2-908c-50911ed4f90b-000000@amazonses.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Sun, 27 Sep 2020 08:12:51 -0400
+Received: from a10-55.smtp-out.amazonses.com ([54.240.10.55]:43490)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.93)
+	(envelope-from <01000174cf7abee3-bf6874bc-3b7d-4bf2-908c-50911ed4f90b-000000@amazonses.com>)
+	id 1kMVXm-0003m8-Sa
+	for avex@avexeva.com; Sun, 27 Sep 2020 08:12:51 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=xilmjaesmk3m6dhldmzc75r7654i2ch4; d=redditmail.com; t=1601208762;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date;
+	bh=fR/vlp+2zlU10jLHWCflBJWLy/Gb8UnFy8XbCiKms8A=;
+	b=YdYg/tkG3KdEf3xAaVZzQf+vU0axKgaIdqdc13RkYz3q+ZIeGnyNa7U4v8SaFwZh
+	w8+m88iNbHzhNiPhDjtkOC1JyBg2DPmJWr/Uz1j4qKUisUFi+GLbL/qMHZ1fQ43CJX4
+	CdcsQLP19ECr6bJw5PEHrPPOs0nlEFmVn9J5hLds=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=224i4yxa5dv7c2xz3womw6peuasteono; d=amazonses.com; t=1601208762;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=fR/vlp+2zlU10jLHWCflBJWLy/Gb8UnFy8XbCiKms8A=;
+	b=EWrybu14XRPrP2NcnoH+FQ7Zl+bsZGbxkLY6aJEqiP7p71Zjr/cRkAmM+jDZOrbd
+	EsOwTI8zCFQmpuESqasjKrQ7ruKOz9PtWaxZbJqpEBH0TZLeXtk/TlykX4qC3kHA73T
+	XwuVp6vm6U9rTnh7XviUxjoyWfnJSOtYE/1UoMqQ=
+From: Reddit <noreply@redditmail.com>
+To: avex@avexeva.com
+Subject: Updates to Reddit's User Agreement, Privacy Policy, and Additional
+ Terms
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <01000174cf7abee3-bf6874bc-3b7d-4bf2-908c-50911ed4f90b-000000@email.amazonses.com>
+Date: Sun, 27 Sep 2020 12:12:42 +0000
+X-SES-Outgoing: 2020.09.27-54.240.10.55
+Feedback-ID: 1.us-east-1.UqlFplRllIQtiw+Kq2b87y7uRSu9p66fMici2AQNsMU=:AmazonSES
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Email Template Reddit Updates to Reddit's User Agreement,
+   Privacy Policy, and Additional Terms Privacy is core to our DNA, our culture,
+    and our values. We are committed to making our policies clear and focused
+    on empoweri [...] 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: reddit.com]
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                              domains in spam/malware
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+  <head>
+    <!--[if gte mso 9]>
+    <xml>
+      <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+    <meta http-equiv=3D"Content-type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1, maximum-scale=3D1" />
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <meta name=3D"format-detection" content=3D"date=3Dno" />
+    <meta name=3D"format-detection" content=3D"address=3Dno" />
+    <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+    <meta name=3D"x-apple-disable-message-reformatting" />
+    <!--[if !mso]><!-->
+    <!--<![endif]-->
+    <title>Email Template</title>
+    <!--[if gte mso 9]>
+    <style type=3D"text/css" media=3D"all">
+      sup { font-size: 100% !important; }
+    </style>
+    <![endif]-->
+   =20
+    <style type=3D"text/css" media=3D"screen">
+      body { padding:0 !important; margin:0 auto !important; display:block =
+!important; min-width:100% !important; width:100% !important; background:#f=
+fffff; -webkit-text-size-adjust:none }
+      a { color:#ff0000; text-decoration:none }
+      p { padding:0 !important; margin:0 !important }
+      img { margin: 0 !important; -ms-interpolation-mode: bicubic; /* Allow=
+ smoother rendering of resized image in Internet Explorer */ }
+      a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: inherit !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+      }
+     =20
+      .btn-12 a { display: block; padding: 4px; text-decoration: none; }
+      .btn-14 a { display: block; padding: 8px; text-decoration: none; }
+      .btn-14-4 a { display: block; padding: 8px; text-decoration: none; }
+      .l-red a { color: #ff0000; }
+     =20
+         =20
+      /* Mobile styles */
+      @media only screen and (max-device-width: 480px), only screen and (ma=
+x-width: 480px) {
+        .mpx-16 { padding-left: 16px !important; padding-right: 16px !impor=
+tant; }
+        .mpb-20 { padding-bottom: 20px !important; }
+        .mpb-40 { padding-bottom: 40px !important; }
+        .mfz-14 { font-size: 14px !important; }
+        .mlh-16 { line-height: 16px !important; }
+        .mpb-28 { padding-bottom: 28px !important; }
+        .mlh-18 { line-height: 18px !important; }
+        .mpb-34 { padding-bottom: 34px !important; }
+        .mpt-16 { padding-top: 16px !important; }
+        .mpt-34 { padding-top: 34px !important; }
+        .mpx-12 { padding-left: 12px !important; padding-right: 12px !impor=
+tant; }
+        .mfz-12 { font-size: 12px !important; }
+        .mpb-8 { padding-bottom: 8px !important; }
+        u + .body .gwfw { width:100% !important; width:100vw !important; }
+        .td,
+        .m-shell { width: 100% !important; min-width: 100% !important; }
+       =20
+        .mt-left { text-align: left !important; }
+        .mt-center { text-align: center !important; }
+        .mt-right { text-align: right !important; }
+       =20
+        .me-left { margin-right: auto !important; }
+        .me-center { margin: 0 auto !important; }
+        .me-right { margin-left: auto !important; }
+        .h-auto { height: auto !important; }
+        .w-auto { width: auto !important; }
+        .fluid-img img { width: 100% !important; max-width: 100% !important=
+; height: auto !important; }
+        .column,
+        .column-top,
+        .column-dir,
+        .column-dir-top { float: left !important; width: 100% !important; d=
+isplay: block !important; }
+        .m-hide { display: none !important; width: 0 !important; height: 0 =
+!important; font-size: 0 !important; line-height: 0 !important; min-height:=
+ 0 !important; }
+        .m-block { display: block !important; }
+        /*Width*/
+        .w-15 { width: 15px !important; }
+        .w-8 { width: 8px !important; height: auto !important; }
+        .w-12 { width: 12px !important; height: auto !important; }
+        .w-60 { width: 60px !important; height: auto !important; }
+        .w-54 { width: 54px !important; height: auto !important; }
+        .w-54 img { width: 54px !important; height: auto !important; }
+        .w-104 { width: 104px !important; height: auto !important; }
+        .w-104 img { width: 104px !important; height: auto !important; }
+        .w-114 { width: 114px !important; height: auto !important; }
+        .w-114 img { width: 114px !important; height: auto !important; }
+        .btn-14-4 { font-size: 12px !important; line-height: 16px !importan=
+t; }
+        .btn-14-4 a { padding: 4px !important; }
+        .w-2p { width: 2% !important; }
+        .w-32p { width: 32% !important; }
+        .w-49p { width: 49% !important; }
+        .w-50p { width: 50% !important; }
+        .w-100p { width: 100% !important; }
+        /*Text*/
+       =20
+      }
+    </style>
+  </head>
+  <body class=3D"body" style=3D"padding:0 !important; margin:0 auto !import=
+ant; display:block !important; min-width:100% !important; width:100% !impor=
+tant; background:#ffffff; -webkit-text-size-adjust:none;">
+    <center>
+    <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"margin: 0; padding: 0; width: 100%;" bgcolor=3D"#ffffff" class=3D"=
+gwfw">
+      <tr>
+        <td style=3D"margin: 0; padding: 0; width: 100%;" align=3D"center">
+          <table width=3D"600" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" class=3D"m-shell">
+            <tr>
+              <td class=3D"td" style=3D"width:600px; min-width:600px; font-=
+size:0pt; line-height:0pt; padding:0; margin:0; font-weight:normal;">
+                <table width=3D"100%" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0">
+                  <tr>
+                    <td class=3D"img" style=3D"font-size:0pt; line-height:0=
+pt; text-align:left;">
+                      <table width=3D"100%" border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0">
+                        <tr>
+                          <td class=3D"px-32 mpx-16" style=3D"padding-left:=
+ 32px; padding-right: 32px;">
+                            <table width=3D"100%" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0">
+                              <tr>
+                                <td class=3D"pt-25 pt-16 pb-28 mpb-20" styl=
+e=3D"padding-top: 16px; padding-bottom: 28px;">
+                                  <table width=3D"100%" border=3D"0" cellsp=
+acing=3D"0" cellpadding=3D"0">
+                                    <tr>
+                                      <td class=3D"pb-34 mpb-28" style=3D"p=
+adding-bottom: 34px;">
+                                        <table width=3D"100%" border=3D"0" =
+cellspacing=3D"0" cellpadding=3D"0">
+                                          <tr>
+                                            <td class=3D"img w-104" width=
+=3D"112" style=3D"font-size:0pt; line-height:0pt; text-align:left;"><a href=
+=3D"https://www.reddit.com/" target=3D"_blank"><img src=3D"https://images.t=
+rendline.email/mts/reddit/logo.png" width=3D"112" height=3D"39" border=3D"0=
+" alt=3D"" /></a></td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                    <tr>
+                                      <td class=3D"text-16 mfz-14 mlh-16 pb=
+-40 mpb-34" style=3D"font-size:16px; line-height:18px; color:#000000; font-=
+family:Helvetica, Arial, sans-serif; text-align:left; min-width:auto !impor=
+tant">
+                                      <!DOCTYPE html PUBLIC "-//W3C//DTD XH=
+TML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> <h=
+tml xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-microsoft=
+-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office" lang=3D"en" x=
+ml:lang=3D"en" style=3D"width: 100%;"><head> <meta http-equiv=3D"Content-Ty=
+pe" content=3D"text/html; charset=3Dutf-8"> <meta http-equiv=3D"X-UA-Compat=
+ible" content=3D"IE=3Dedge" /> <!--[if !mso><!-- --> <meta http-equiv=3D"X-=
+UA-Compatible" content=3D"IE=3Dedge" /> <!--<![endif--> <meta content=3D"wi=
+dth=3Ddevice-width; initial-scale=3D1.0; maximum-scale=3D1.0; user-scalable=
+=3Dno;" name=3D"viewport"> <meta name=3D"viewport" content=3D"width=3Ddevic=
+e-width"> <META NAME=3D"ROBOTS" CONTENT=3D"NOINDEX, NOFOLLOW"> <meta name=
+=3D"x-apple-disable-message-reformatting"><title>Reddit</title><style type=
+=3D"text/css"> .ExternalClass { width:100%; } .ExternalClass, .ExternalClas=
+s p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .External=
+Class div { line-height: 100%; } table td { border-collapse: collapse; mso-=
+table-lspace: 0pt; mso-table-rspace: 0pt; } h1, h2, h3, h4, h5, h6 { font-s=
+ize: inherit; padding: 0; margin: 0; color: black; line-height: 100%; } .ap=
+plelinks a { text-decoration: none; color: inherit !important; } a, a:link,=
+ a:visited { color: #006CBF; text-decoration: none; } span.MsoHyperlink { m=
+so-style-priority: 99; color: inherit; } span.MsoHyperlinkFollowed { mso-st=
+yle-priority: 99; color: inherit; } img { border: 0px !important; }body { f=
+ont-family: Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif; font-si=
+ze: 14px; -webkit-text-size-adjust: none; -ms-text-size-adjust: none; -webk=
+it-font-smoothing: antialiased; margin: 0; padding: 0; width: 100% !importa=
+nt; }.button:hover { background-color: red !important; } .opacity:hover { o=
+pacity: 0.8 !important; } </style><!--[if mso> <style type=3D"text/css"> bo=
+dy { margin: 0 !important; padding: 0 !important; font-family: Segoe UI, Ar=
+ial, sans-serif; }table, td, div, p { font-family: Segoe UI, Arial, sans-se=
+rif; line-height: normal; } </style> <xml> <o:OfficeDocumentSettings> <o:Al=
+lowPNG/> <o:PixelsPerInch>96</o:PixelsPerInch> </o:OfficeDocumentSettings> =
+</xml> <![endif--></head><body><table border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"font-size: 14px;"> <tr> <td style=3D"font-size: 21px; =
+line-height: 30px; padding-bottom: 20px;"> Updates to Reddit's User Agreeme=
+nt, Privacy Policy, and Additional Terms </td> </tr> <tr> <td> <table borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0"> <tr> <td style=3D"padding-bott=
+om: 20px;">Privacy is core to our DNA, our culture, and our values. We are =
+committed to making our policies clear and focused on empowering users to b=
+e masters of their identities=E2=80=93and their data.</td> </tr> <tr> <td s=
+tyle=3D"padding-bottom: 20px;">Periodically, we update our Privacy Policy, =
+User Agreement, and additional terms to keep up with new Reddit features. F=
+or example, since we last announced updates, we launched <a href=3D"https:/=
+/www.reddit.com/rpan/">RPAN</a>, made big changes to Reddit <a href=3D"http=
+s://www.reddit.com/coins">Coins</a> and <a href=3D"https://www.reddit.com/p=
+remium">Premium</a>, enabled subreddits to offer <a href=3D"https://www.red=
+dit.com/r/announcements/comments/chdx1h/introducing_community_awards/">Comm=
+unity Awards</a>, and much more. We have also made updates specific to <a h=
+ref=3D"https://www.redditgifts.com/">Reddit Gifts</a>.</td> </tr> <tr> <td =
+style=3D"padding-bottom: 20px;">Here are some of the highlights:</td> </tr>=
+ </table> </td> </tr> <tr> <td style=3D"padding-bottom: 20px;"> <table bord=
+er=3D"0" cellspacing=3D"0" cellpadding=3D"0"> <tr> <td style=3D"padding-rig=
+ht: 10px; padding-left: 20px; vertical-align: top;">&bull;</td> <td>We made=
+ small updates throughout our policies and terms to make them clearer, more=
+ specific, and easier to reference.</td> </tr> <tr> <td style=3D"margin-rig=
+ht: 10px; padding-left: 20px; vertical-align: top;">&bull;</td> <td>We upda=
+ted our Privacy Policy to include additional details on how we handle your =
+information and added a new <a href=3D"https://redditinc.com/policies/cooki=
+es">notice</a> that describes how we use cookies on Reddit.</td> </tr> <tr>=
+ <td style=3D"margin-right: 10px; padding-left: 20px; vertical-align: top;"=
+>&bull;</td> <td>We added new terms to our Reddit Premium and Virtual Goods=
+ Agreement related to cancellation and refunds.</td> </tr> <tr> <td style=
+=3D"margin-right: 10px; padding-left: 20px; vertical-align: top;">&bull;</t=
+d> <td>We deleted references to Reddit Marketplace, which is no longer a pa=
+rt of our services.</td> </tr> <tr> <td style=3D"margin-right: 10px; paddin=
+g-left: 20px; vertical-align: top;">&bull;</td> <td>We updated usage rules =
+to better specify things you cannot do on Reddit and Reddit Gifts.</td> </t=
+r> </table> </td> </tr> <tr> <td style=3D"padding-bottom: 20px;">These upda=
+ted terms will take effect on October 15, 2020. They will apply to you if y=
+ou use Reddit or Reddit Gifts after October 15, 2020.</td> </tr> <tr> <td s=
+tyle=3D"padding-bottom: 20px;"> <table border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0"> <tr> <td style=3D"padding-right: 10px; padding-left: 20px; ve=
+rtical-align: top;">&bull;</td> <td><a href=3D"https://www.redditinc.com/po=
+licies/user-agreement">Reddit User Agreement</a></td> </tr> <tr> <td style=
+=3D"margin-right: 10px; padding-left: 20px; vertical-align: top;">&bull;</t=
+d> <td><a href=3D"https://www.redditinc.com/policies/privacy-policy">Reddit=
+ Privacy Policy</a></td> </tr> <tr> <td style=3D"margin-right: 10px; paddin=
+g-left: 20px; vertical-align: top;">&bull;</td> <td><a href=3D"https://www.=
+redditinc.com/policies/premium-and-virtual-goods-agreement">Reddit Premium =
+and Virtual Goods Agreement</a></td> </tr> <tr> <td style=3D"margin-right: =
+10px; padding-left: 20px; vertical-align: top;">&bull;</td> <td><a href=3D"=
+https://www.redditgifts.com/terms/">Reddit Gifts User Agreement</a></td> </=
+tr> <tr> <td style=3D"margin-right: 10px; padding-left: 20px; vertical-alig=
+n: top;">&bull;</td> <td><a href=3D"https://www.redditgifts.com/privacy/">R=
+eddit Gifts Privacy Notice</a></td> </tr> </table> </td> </tr> <tr> <td sty=
+le=3D"padding-bottom: 20px;">For more information about privacy on Reddit, =
+visit the <a href=3D"https://www.reddithelp.com/en/categories/privacy">Priv=
+acy Help Center</a>. And, if you would like to review your privacy controls=
+, visit Reddit=E2=80=99s <a href=3D"https://new.reddit.com/settings/privacy=
+">Privacy and Security account settings</a>.</td> </tr> <tr> <td style=3D"p=
+adding-bottom: 20px;">If you have questions, please visit <a href=3D"https:=
+//www.reddithelp.com/hc/en-us">Reddit Help.</a></td> </tr> <tr> <td style=
+=3D"padding-bottom: 20px;">- Reddit</td> </tr> </table><img alt=3D"" src=3D=
+"http://ql9whnmm.r.us-east-1.awstrack.me/I0/01000174cf7abee3-bf6874bc-3b7d-=
+4bf2-908c-50911ed4f90b-000000/1yuSmrjo3FLXjTof5rI0DNO4rYE=3D181" style=3D"d=
+isplay: none; width: 1px; height: 1px;">
+</body></html>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- Footer - 2 -->
+                <tr>
+                  <td class=3D"pb-34 mpb-20" bgcolor=3D"#f1f5f6" style=3D"p=
+adding-bottom: 34px;">
+                    <table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+                      <tr>
+                        <td class=3D"fluid-img mpb-8" style=3D"font-size:0p=
+t; line-height:0pt; text-align:left;"><a href=3D"https://www.reddit.com/" t=
+arget=3D"_blank"><img src=3D"https://redditstatic.s3.amazonaws.com/emaildig=
+est/footer_logo_8_8.png" width=3D"600" height=3D"125" border=3D"0" alt=3D""=
+ /></a></td>
+                      </tr>
+                      <tr>
+                        <td class=3D"pb-40 mpb-20" align=3D"center" style=
+=3D"padding-bottom: 40px;">
+                          <table border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0">
+                            <tr>
+                              <td class=3D"img w-114" valign=3D"top" style=
+=3D"font-size:0pt; line-height:0pt; text-align:left;"><a href=3D"https://ap=
+ps.apple.com/us/app/reddit/id1064216828" target=3D"_blank"><img src=3D"http=
+s://redditstatic.s3.amazonaws.com/emaildigest/app_store_8_8.png" width=3D"1=
+24" height=3D"37" border=3D"0" alt=3D"" /></a></td>
+                              <td class=3D"img w-8" width=3D"10" style=3D"f=
+ont-size:0pt; line-height:0pt; text-align:left;"></td>
+                              <td class=3D"img w-114" valign=3D"top" style=
+=3D"font-size:0pt; line-height:0pt; text-align:left;"><a href=3D"https://pl=
+ay.google.com/store/apps/details?id=3Dcom.reddit.frontpage" target=3D"_blan=
+k"><img src=3D"https://redditstatic.s3.amazonaws.com/emaildigest/google_pla=
+y_8_8.png" width=3D"124" height=3D"37" border=3D"0" alt=3D"" /></a></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class=3D"text-16-8 mfz-12 mlh-18 c-dark-8-8 a-c=
+enter px-24 mpx-12" style=3D"font-size:16px; line-height:18px; font-family:=
+Helvetica, Arial, sans-serif; min-width:auto !important; color:#222222; tex=
+t-align:center; padding-left: 24px; padding-right: 24px;">548 Market Street=
+, #16093, San Francisco, CA 94104=E2=80=935401</td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <!-- END Footer - 2 -->
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  </center>
+</body>
+</html>

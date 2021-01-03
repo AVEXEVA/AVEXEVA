@@ -1,0 +1,7 @@
+CREATE TABLE Apartment (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  Building INT NOT NULL,
+  CONSTRAINT PK_Apartment_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Apartment_Building FOREIGN KEY (Building) REFERENCES Building(ID)
+);

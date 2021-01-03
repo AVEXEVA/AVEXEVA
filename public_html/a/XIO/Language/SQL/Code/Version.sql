@@ -1,0 +1,5 @@
+CREATE TABLE Version (
+  `ID`        INT NOT NULL AUTO_INCREMENT,
+  `Sequence`  VARCHAR(256)
+  CONSTRAINT `PK_Version_ID` PRIMARY KEY (`ID`)
+);

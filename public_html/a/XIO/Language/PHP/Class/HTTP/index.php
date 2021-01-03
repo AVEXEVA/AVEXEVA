@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace XE;
 class HTTP extends XIO {
 	//Variable
@@ -18,10 +18,10 @@ class HTTP extends XIO {
 			'GET'		=>	$_GET,
 			'POST'		=>	$_POST,
 			'SERVER'	=>	$_SERVER,
-			'SESSION'	=>	$_SESSION	
+			'SESSION'	=>	$_SESSION
 		));
 		foreach($array as $key=>$value){
-			$Function = '__' . $KEY;	
+			$Function = '__' . $KEY;
 			if(in_array($key, array(
 				'FILES',
 				'GET',

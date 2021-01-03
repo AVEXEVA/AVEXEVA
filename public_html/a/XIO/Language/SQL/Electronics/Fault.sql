@@ -1,0 +1,8 @@
+CREATE TABLE Fault (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  Description TEXT,
+  Device INT,
+  CONSTRAINT PK_Fault_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Fault_Device FOREIGN KEY (Device) REFERENCES Device(ID)
+);

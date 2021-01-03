@@ -1,0 +1,5 @@
+CREATE TABLE Month (
+  ID INT NOT NULL,
+  Number INT,
+  CONSTRAINT PK_Month_ID PRIMARY KEY (ID)
+);

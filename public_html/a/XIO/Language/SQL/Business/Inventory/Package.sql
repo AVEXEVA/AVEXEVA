@@ -1,0 +1,7 @@
+CREATE TABLE Package (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Product INT,
+  Parent INT,
+  CONSTRAINT PK_Package_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Package_Parent FOREIGN KEY (Parent) REFERENCES Package(ID)
+);

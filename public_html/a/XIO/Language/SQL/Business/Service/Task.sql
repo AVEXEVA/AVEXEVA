@@ -1,0 +1,8 @@
+CREATE TABLE Task (
+  ID INT NOT NULL,
+  Name VARCHAR(256),
+  Description TEXT,
+  Parent INT,
+  CONSTRAINT PK_Task_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Task_Parent FOREIGN KEY (Parent) REFERENCES Task(ID)
+);

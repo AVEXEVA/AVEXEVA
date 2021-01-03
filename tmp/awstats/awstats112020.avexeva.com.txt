@@ -1,0 +1,1494 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202011 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2689                
+POS_VISITOR 32192               
+POS_DAY 37678               
+POS_DOMAIN 3602                
+POS_LOGIN 4154                
+POS_ROBOT 4309                
+POS_WORMS 4970                
+POS_EMAILSENDER 5101                
+POS_EMAILRECEIVER 5244                
+POS_SESSION 38422               
+POS_SIDER 38629               
+POS_FILETYPES 5379                
+POS_DOWNLOADS 5557                
+POS_OS 5752                
+POS_BROWSER 6005                
+POS_SCREENSIZE 7521                
+POS_UNKNOWNREFERER 7595                
+POS_UNKNOWNREFERERBROWSER 9457                
+POS_ORIGIN 9850                
+POS_SEREFERRALS 9992                
+POS_PAGEREFS 10181               
+POS_SEARCHWORDS 10398               
+POS_KEYWORDS 10583               
+POS_MISC 2353                
+POS_ERRORS 10675               
+POS_CLUSTER 4010                
+POS_SIDER_404 10818               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20201201001652 243 49036 17944801356742
+FirstTime 20201101010638
+LastTime 20201130110334
+LastUpdate 20201201070602 243 0 242 0 0
+TotalVisits 166                 
+TotalUnique 133                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 135                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 316410 180 203 18852143
+1 18 20 1936459 234 268 22777990
+2 3 3 316410 197 242 20365690
+3 44 47 4249524 9960 10351 23312495
+4 3 6 348381 200 223 21164393
+5 26 27 2809124 631 656 66432267
+6 23 27 2523439 203 236 19865946
+7 9 11 952578 198 228 20013352
+8 8 13 877377 244 275 22836623
+9 15 23 1672892 281 326 27608374
+10 30 36 3291939 219 248 22662574
+11 13 15 1382006 269 324 28689519
+12 46 53 4956337 242 275 24165970
+13 25 25 2596056 239 262 24820113
+14 6 11 692594 243 274 25132435
+15 13 17 1222106 242 267 25676940
+16 79 79 8486128 206 239 21349365
+17 6 10 673659 221 244 22329323
+18 11 13 1250555 340 374 35897161
+19 5 5 527350 270 299 27554974
+20 6 7 634494 300 322 27507305
+21 10 12 1066707 215 242 22163332
+22 23 55 2678683 460 494 48206349
+23 21 22 2281775 210 249 21999069
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 23
+us 342 407 36268816
+ru 26 34 2872543
+ca 19 19 2069161
+gb 15 20 1656630
+br 12 16 1323989
+fr 7 7 738290
+ua 4 4 423171
+de 3 3 316463
+tr 3 3 316410
+mx 2 6 269040
+th 1 1 105470
+in 1 1 105470
+ve 1 3 134520
+vn 1 1 105470
+se 1 3 134520
+eu 1 1 105470
+bz 1 1 105470
+id 1 3 135680
+cz 1 1 105470
+es 1 1 105470
+nl 1 1 105470
+cn 1 1 105470
+ph 1 3 134520
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+AhrefsBot/ 3014 319896704 20201130235935 0
+SemrushBot/ 1547 164021712 20201130235634 0
+YandexBot/ 906 95798849 20201130235416 0
+Googlebot/ 341 35618236 20201130185014 0
+bingbot/ 129 12151759 20201130171927 0
+bot[\s_+:,\.\;\/\\-] 66 3351652 20201127123732 0
+crawl 30 3053236 20201101113819 0
+no_user_agent 27 2857002 20201130173119 0
+(firefox/)([0-9]\.|[0-1][0]\.) 9 843304 20201124112750 0
+DuckDuckGo\-Favicons\-Bot/ 3 316410 20201112123623 0
+bingpreview 3 117714 20201125153636 0
+facebookexternalhit/ 2 210940 20201127153051 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+jpg 26 711776 0 0
+js 51 85374 0 0
+php 249 26905237 0 0
+txt 17 1296 0 0
+Unknown 4 210940 0 0
+html 193 19828360 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/.well-known/pki-validation/8B768A9F1B0AAEBA8A8C98BACE75BAA9.txt 16 0 1232
+/.well-known/pki-validation/CD69854E68747A18BFCB9CC6C35DCA1A.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+macosx10 2 2
+macosx11 67 67
+win8.1 5 5
+macosx9 3 3
+winxp 6 6
+macosx12 9 9
+linux 121 115
+unix 12 4
+Unknown 89 70
+winlong 40 26
+linuxandroid 5 3
+win8 1 1
+win10 121 99
+macosx 1 1
+win7 58 35
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 69
+chrome40.0.2214.93 1 1
+minefield 1 1
+chrome80.0.3987.132 3 1
+firefox52.0 73 73
+chrome86.0.4240.198 3 1
+mozilla 15 13
+chrome87.0.4280.67 3 1
+chrome68.0.3440.106 1 1
+firefox28.0 2 2
+chrome41.0.2225.0 3 3
+chrome81.0.4044.129 8 8
+chrome55.0.2883.95 3 3
+chrome35.0.1916.47 3 3
+chrome83.0.4103.97 2 2
+chrome34.0.1847.116 7 7
+edge16 1 1
+Unknown 32 15
+chrome75.0.3770.100 2 2
+chrome83.0.4103.112 3 1
+chrome45.0.2454.94 1 1
+chrome86.0.4240.193 15 11
+chrome84.0.4147.105 2 2
+msie6.0 5 5
+chrome41.0.2227.1 2 2
+firefox81.0 3 1
+firefox79.0 1 1
+chrome79.0.3945.130 24 24
+chrome22.0.1207.1 1 1
+chrome86.0.4240.112 3 1
+chrome86.0.4240.110 3 1
+chrome72.0.3626.121 2 2
+opera54.0.2952.64 1 1
+chrome83.0.4103.14 1 1
+chrome80.0.3987.149 4 4
+opera53.0.2907.106 1 1
+chrome86.0.4240.75 1 1
+chrome76.0.3809.71 9 3
+firefox54.0 1 1
+chrome86.0.4240.185 3 1
+chrome67.0.3396.99 2 2
+chrome81.0.4044.138 1 1
+firefox59.0 2 2
+chrome87.0.4280.66 3 1
+opera9.27 5 5
+chrome86.0.4240.111 27 21
+chrome70.0.3538.77 1 1
+chrome41.0.2224.3 2 2
+chrome80.0.3987.122 1 1
+chrome86.0.4240.183 13 7
+opera54.0.2952.51 1 1
+chrome41.0.2228.0 1 1
+chrome78.0.3904.108 3 3
+chrome28.0.1467.0 1 1
+chrome84.0.4147.125 1 1
+chrome80.0.3987.163 3 1
+chrome65.0.3325.109 93 93
+chrome58.0.3029.110 6 6
+chrome88.0.4240.193 5 5
+msie9.0 50 25
+chrome41.0.2227.0 1 1
+firefox58.0 3 3
+chrome85.0.4183.121 10 6
+firefox50.0 5 5
+android 1 1
+netscape5.00 37 37
+firefox82.0 7 3
+firefox22.0 1 1
+chrome74.0.3729.169 2 2
+chrome63.0.3239.132 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 29
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:origin_reflection) 20201119030839
+python-requests/2.18.4 20201121123857
+COMODO_DCV 20201128223127
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:httpoptions:_OPTIONS_*) 20201119030839
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:000053) 20201119030843
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:multiple_index) 20201119030839
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:favicon) 20201119030838
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:map_codes) 20201119030834
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:000445) 20201119030849
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:paths) 20201119030835
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:000093) 20201119030844
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:httpoptions:_OPTIONS_/) 20201119030839
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:strutshock) 20201119030840
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:getinfo) 20201119030831
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:headers:_BREACH_Test) 20201119030839
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20201129135919
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:Port_Check) 20201119030831
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:000037) 20201119030843
+Mozilla/5.0_(compatible;_Dataprovider.com) 20201128220622
+Sectigo_DCV 20201128223132
+python-requests/2.23.0 20201117052122
+Go-http-client/1.1 20201125174453
+python-requests/2.25.0 20201128092405
+IDBTE4M_CODE87 20201127054100
+Embarcadero_URI_Client/1.0 20201129125457
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:parked_detection) 20201119030838
+Opera/9.27 20201124212842
+python-requests/2.24.0 20201109222932
+Mozilla/5.00_(Nikto/2.1.6)_(Evasions:None)_(Test:003097) 20201119030942
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+COMODO_DCV 20201128223127
+python-requests/2.18.4 20201121123857
+python-requests/2.25.0 20201128092405
+IDBTE4M_CODE87 20201127054100
+python-requests/2.23.0 20201117052122
+Sectigo_DCV 20201128223132
+Embarcadero_URI_Client/1.0 20201129125457
+python-requests/2.24.0 20201109222932
+Go-http-client/1.1 20201125174453
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 282 299
+From1 0 0
+From2 15 15
+From3 25 25
+From4 124 201
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+bing 2 2
+duckduckgo 1 1
+www_google_com 12 12
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://xn--avexva-68b.com 24 24
+https://www.netcraft.com/survey/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+0111010101110 1
+01110101011101 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+01110101011101 1
+0111010101110 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 258 58824
+500 2 578
+417 2 782
+406 8733 2619900
+404 2013 466100
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 922
+/splashAdmin.php 2 -
+/mambo/index.php 2 -
+/ngSbMQxc.TPF 1 -
+/cgi-bin/photo/protected/manage.cgi 2 -
+/avexeva_com.sql 2 -
+/ngSbMQxc.ida 1 -
+/backup.egg 2 -
+/..%2F..%2F..%2F..%2F..%2F../winnt/repair/sam 1 -
+/ngSbMQxc.cfg 1 -
+/lTLm8bJW.properties 1 -
+/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php 1 -
+/admin.htm 1 -
+/ngSbMQxc.php 1 -
+/lTLm8bJW.pdf 1 -
+/ngSbMQxc.inc+ 1 -
+/ngSbMQxc.iso8859-8 1 -
+/accesson.php 1 -
+/cgi-bin/formmail.pl 2 -
+/com.war 2 -
+/~bin 2 -
+/..%2F..%2F..%2F..%2F..%2F../winnt/repair/sam._ 1 -
+/scripts/tools/ctss.idc 2 -
+/ngSbMQxc.nsconfig 1 -
+/vgn/previewer 2 -
+/demo/wp-includes/wlwmanifest.xml 2 -
+/ngSbMQxc.cwr 1 -
+/backup.cer 2 -
+/guestbook/admin.php 2 -
+/lTLm8bJW.js 1 -
+/.git/config 1 -
+/lTLm8bJW.sys 1 -
+/lTLm8bJW.chl+ 1 -
+/wu-moadmin/moadmin.php 2 -
+/website/wp-includes/wlwmanifest.xml 6 -
+/cgi-bin/lwgate.cgi 2 -
+/config.php 1 -
+/media/wp-includes/wlwmanifest.xml 2 -
+/login.asp 2 -
+/new/wp-includes/wlwmanifest.xml 1 -
+/ngSbMQxc.asp+ 1 -
+/ngSbMQxc.PRINT 1 -
+/ngSbMQxc.koi8-r 1 -
+/lTLm8bJW.php4 1 -
+/vgn/performance/TMT/Report/XML 2 -
+/ngSbMQxc.swf 1 -
+/lTLm8bJW.nl 1 -
+/cgi-bin/gm-cplog.cgi 2 -
+/lTLm8bJW.blt 1 -
+/backup.jks 2 -
+/ngSbMQxc.listprint 1 -
+/.lTLm8bJW 1 -
+/ngSbMQxc.iso8859-2 1 -
+/ngSbMQxc.gz 1 -
+/cgi-bin/mt/mt-check.cgi 2 -
+/cgi-bin/flexform 2 -
+/Mem/dynaform/Login.htm 2 -
+/xmlrpc.php 6 -
+/lTLm8bJW.et 1 -
+/moadmin.php 2 -
+/lTLm8bJW.btr 1 -
+/ngSbMQxc.ASP 1 -
+/cgi-bin/ss 2 -
+/lTLm8bJW.dk 1 -
+/lTLm8bJW.el 1 -
+/c99.php 1 -
+/lTLm8bJW.adjunct 1 -
+/cgi-bin/guestbook.pl 2 -
+/lTLm8bJW.5-mysqlphp 1 -
+/test/.env 2 -
+/site.tar.lzma 2 -
+/cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%49%4E%4E%54%2F%73%79%73%74%65%6D%33%32%2Fping.exe%20127.0.0.1 1 -
+/index.cgi 2 -
+/backup/wp-includes/wlwmanifest.xml 1 -
+/ngSbMQxc.mdb 1 -
+/lTLm8bJW.do 1 -
+/avexeva.com.sql 2 -
+/%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc%2fpasswd 2 -
+/lTLm8bJW.bas:ShowVolume 1 -
+/ngSbMQxc.list 1 -
+/cgi-bin/pollit/Poll_It_SSI_v2.0.cgi 2 -
+/lTLm8bJW.stat 1 -
+/lTLm8bJW.cs 1 -
+/wp-admin 1 -
+/ngSbMQxc.cgi+ 1 -
+/com.cer 2 -
+/lTLm8bJW.cobalt 1 -
+/lTLm8bJW.js0x70 1 -
+/axis/axis2-admin/login 1 -
+/lTLm8bJW.sh 1 -
+/ngSbMQxc.tcl 1 -
+/ngSbMQxc.tml 1 -
+/ngSbMQxc.net 1 -
+/../config.dat 1 -
+/lTLm8bJW.utf8 1 -
+/site.tar.bz2 2 -
+/news/wp-includes/wlwmanifest.xml 6 -
+/avexevacom.tar.bz2 2 -
+/ngSbMQxc.xls 1 -
+/lTLm8bJW.printer 1 -
+/aveXtE/Xt/XI/XA 1 -
+/ngSbMQxc.conf 1 -
+/cgi-bin/lwgate 2 -
+/lTLm8bJW.2 1 -
+/lTLm8bJW 1 -
+/ngSbMQxc.bat 1 -
+/vgn/vr/Saving 2 -
+/lTLm8bJW.iso-ru 1 -
+/lTLm8bJW.epl 1 -
+/ngSbMQxc.jsp+ 1 -
+/lTLm8bJW.show_query_columns 1 -
+/ngSbMQxc.CGI 1 -
+/nikto-test-rllI6iGd.html 1 -
+/avexeva.com.jks 2 -
+/js/header-rollup-554.js 1 -
+/avexeva_com.zip 2 -
+/wp/wp-includes/wlwmanifest.xml 5 -
+/ngSbMQxc.ml 1 -
+/admin.html 1 -
+/ngSbMQxc.java 1 -
+/images/editor/separator.gif 1 -
+/ngSbMQxc.cfm 1 -
+/vendor/.env 3 -
+/lTLm8bJW.lic 1 -
+/ngSbMQxc.TXT 1 -
+/lTLm8bJW.dat 1 -
+/junk999.asp 2 -
+/apoczuitryukdcty.html 1 -
+/lTLm8bJW.SHOW 1 -
+/cgi/ 2 -
+/lTLm8bJW.genpopuplist 1 -
+/avexeva.com.cer 2 -
+/ngSbMQxc.bat|dir 1 -
+/ngSbMQxc.var 1 -
+/lTLm8bJW.xslt 1 -
+/lTLm8bJW.apw 1 -
+/ngSbMQxc.phpp 1 -
+/ngSbMQxc.dbc 1 -
+/ngSbMQxc.SMAIL893 1 -
+/WebServiceImpl/axis2-admin/login 1 -
+/help.html 2 -
+/ngSbMQxc.fr 1 -
+/moadmin/wu-moadmin.php 2 -
+/lTLm8bJW.phtml 1 -
+/lTLm8bJW.cp-1251 1 -
+/ngSbMQxc.pl|dir 1 -
+/cgi-bin/ssi//%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 2 -
+/aveXtE/Xt/Xx/Xx 1 -
+/scripts/ 2 -
+/lTLm8bJW.orig 1 -
+/lTLm8bJW.idc 1 -
+/cfdocs/examples/parks/detail.cfm 2 -
+/lTLm8bJW.class 1 -
+/ngSbMQxc.notes 1 -
+/mpcgi/ 2 -
+/backup.tar.bz2 2 -
+/ngSbMQxc.tw 1 -
+/lTLm8bJW.ncf 1 -
+/avexeva_com.pem 2 -
+/23.235.204.245.tar.gz 2 -
+/wu-moadmin.php 2 -
+/forumdisplay.php 2 -
+/lTLm8bJW.nn 1 -
+/lTLm8bJW.eml 1 -
+/bin/ 2 -
+/search.php 1 -
+/vendor/phpunit/phpunit/build.xml 2 -
+/servlet/custMsg 2 -
+/cgi-bin-sdb/ 2 -
+/lTLm8bJW.x-shop 1 -
+/ticket.php 2 -
+/avexeva_com.cer 2 -
+/lTLm8bJW.it 1 -
+/lTLm8bJW.en 1 -
+/lists/admin/ 2 -
+/lTLm8bJW.lasso 1 -
+/staging/wp-includes/wlwmanifest.xml 2 -
+/ngSbMQxc.zip 1 -
+/private.php 1 -
+/23.235.204.245.tar.bz2 2 -
+/lTLm8bJW.xml 1 -
+/admin4.nsf 2 -
+/avexeva_com.jks 2 -
+/TiVoConnect 4 -
+/default.htm 2 -
+/avexeva.com.zip 2 -
+/ftpsync.settings 1 https://www.google.com/
+/cgi-bin/wrap 2 -
+/ngSbMQxc.config 1 -
+/cgi-bin/guestbook.cgi 2 -
+/lTLm8bJW.00RelNotes 1 -
+/cgi-home/ 2 -
+/ngSbMQxc.back 1 -
+//vendor/phpunit/phpunit/phpunit.xsd 2 -
+/blog/ 3 -
+/main/wp-includes/wlwmanifest.xml 2 -
+/ngSbMQxc.old 1 -
+/admin/browse.asp 2 -
+/global.inc 2 -
+/lTLm8bJW.ini 1 -
+/forums/config.php 2 -
+/ngSbMQxc.dbm 1 -
+/lTLm8bJW.mediawiki 1 -
+/lTLm8bJW.UploadServlet 1 -
+/ngSbMQxc.1 1 -
+/cgi-bin/AT-admin.cgi 2 -
+/admin/.env 2 -
+/blog/robots.txt 1 -
+/ngSbMQxc.cfc 1 -
+/ngSbMQxc.EXE 1 -
+/ngSbMQxc.SSIFilter 1 -
+/lTLm8bJW.rdf+destype=cache+desformat=PDF 1 -
+/com.jks 2 -
+/cgi-bin/book.cgi 2 -
+/lTLm8bJW.json 1 -
+/23.235.204.245.tar.lzma 2 -
+/nonexistent.nsf 2 -
+/ngSbMQxc.gif 1 -
+/avexeva.com.pem 2 -
+/site.zip 2 -
+/laravel/.env 2 -
+/lTLm8bJW.de 1 -
+/ngSbMQxc.shtm 1 -
+/avexevacom.zip 2 -
+/cgi-bin/classified.cgi 2 -
+/ngSbMQxc.cgi 1 -
+/avexeva.egg 2 -
+/23.235.204.245.pem 2 -
+/ngSbMQxc.markdown 1 -
+/ngSbMQxc.MVC 1 -
+/lTLm8bJW.exp 1 -
+/lTLm8bJW.bin 1 -
+/ngSbMQxc.xsl 1 -
+/com.sql 2 -
+/lTLm8bJW.thtml 1 -
+/cgi-bin/formmail 2 -
+/lTLm8bJW.Big5 1 -
+/filemanager/filemanager_forms.php 2 -
+/webcgi/ 2 -
+/lTLm8bJW.sqlite 1 -
+/index.shtml 2 -
+/avexeva.com.war 2 -
+/ngSbMQxc.htw 1 -
+/admin5.nsf 2 -
+/oldsite/wp-includes/wlwmanifest.xml 1 -
+/ngSbMQxc.jsp 1 -
+/ngSbMQxc.org 1 -
+/avexeva.com.tar 2 -
+/cgi-bin/htsearch 2 -
+/lTLm8bJW.dtd 1 -
+/ngSbMQxc.xtp 1 -
+/ngSbMQxc.pw 1 -
+/clientscript/ckeditor/samples/sample_posteddata.php 1 -
+../../../../../../../../../../etc/passw* 1 -
+/ngSbMQxc.pl 1 -
+/lTLm8bJW.showsource 1 -
+/ngSbMQxc.PWD 1 -
+/lTLm8bJW.stm 1 -
+/ngSbMQxc.shm 1 -
+/avexeva.com.egg 2 -
+/avexevacom.tar.gz 2 -
+/lTLm8bJW.signature 1 -
+/ngSbMQxc.pub 1 -
+/ngSbMQxc.pt 1 -
+/backup.pem 2 -
+/lTLm8bJW.backup 1 -
+/ngSbMQxc.priv 1 -
+/lTLm8bJW.cellsprint 1 -
+/backup.alz 2 -
+/ngSbMQxc.py 1 -
+/lTLm8bJW.10:100 1 -
+/cgi-exe/ 2 -
+/23.235.204.245.cer 2 -
+/_vti_bin/shtml.dll/_vti_rpc 1 -
+/ngSbMQxc.xsql 1 -
+/ngSbMQxc.c 1 -
+/cfdocs/expeval/openfile.cfm 2 -
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/ngSbMQxc.mdb+ 1 -
+/../webserver.ini 1 -
+////../../data/config/microsrv.cfg 1 -
+/avexeva_com.war 2 -
+/ganglia/ 2 -
+/site.war 2 -
+/ngSbMQxc.exe 1 -
+/cgi-bin/lastlines.cgi 2 -
+/htbin/ 2 -
+/com.zip 2 -
+/ngSbMQxc.JSP 1 -
+/index.html~ 2 -
+/wp-content/plugins/ckeditor-for-wordpress/ckeditor/samples/sample_posteddata.php 1 -
+/cgi-bin/blog/mt-load.cgi 2 -
+/ngSbMQxc.fhp 1 -
+/ngSbMQxc.cp866 1 -
+/ngSbMQxc.password 1 -
+/cgi-bin/PRN/../../../../../../../../../WINNT/system32/ipconfig.exe 1 -
+/getaccess 2 -
+/cgi-local/ 2 -
+/avexeva_com.tar 2 -
+/lTLm8bJW.bas 1 -
+/deployment-config.json 1 https://www.google.com/
+/scgi-bin/ 2 -
+/fcgi-bin/ 2 -
+/lTLm8bJW.jse 1 -
+/wp-1ogin_bak.php 1 -
+/cgi-bin/horde/test.php 4 -
+/lTLm8bJW.pt-br 1 -
+/ngSbMQxc.csc 1 -
+/phpmyadmin/url.php 1 -
+/administrator/language/en-GB/install.xml 1 -
+/ngSbMQxc.asp 1 -
+/sitemap.xml 1 -
+/ngSbMQxc.csp 1 -
+/cgi-bin/atk/javascript/class.atkdateattribute.js.php 4 -
+/site.alz 2 -
+/favicons/favicon.png 2 -
+/cgjrsuhp.html 1 -
+/lTLm8bJW.se 1 -
+/index.html 2 -
+/lTLm8bJW.tmp 1 -
+/ngSbMQxc.passwd 1 -
+/guestbook/pwd 2 -
+/cgis/ 2 -
+/manager 1 -
+/lTLm8bJW/ 1 -
+/ngSbMQxc.es 1 -
+/lTLm8bJW.render_warning_screen 1 -
+/site.tgz 2 -
+/v1/wp-includes/wlwmanifest.xml 1 -
+/wp/ 3 -
+/wordpresswp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_addgallery_page/static/jquery.filetree/connectors/jqueryFileTree.php 1 -
+/lTLm8bJW.lst 1 -
+/cgibin/ 2 -
+/lTLm8bJW.cmd 1 -
+/admins 1 -
+/adminpanel 1 -
+/ngSbMQxc.box 1 -
+/sites/.env 2 -
+/lTLm8bJW.save 1 -
+/lTLm8bJW.jws 1 -
+/lTLm8bJW.ca 1 -
+/ngSbMQxc.ee 1 -
+/site.tar.gz 2 -
+/avexeva_com.egg 2 -
+/v2/_catalog 2 -
+/ngSbMQxc.inc 1 -
+/../../../../../../../../../../etc/passwd 2 -
+/ngSbMQxc.nlm 1 -
+/ngSbMQxc.php+ 1 -
+/ngSbMQxc.VALIDATE_STMT 1 -
+/robots.txt 599 -
+/ngSbMQxc.log 1 -
+/index.pl 2 -
+/lTLm8bJW.lock 1 -
+/23.235.204.245.alz 2 -
+/avexevacom.jks 2 -
+/lTLm8bJW.txt 1 -
+/forums//administrator/config.php 2 -
+/ngSbMQxc.config~ 1 -
+/.vscode/ftp-sync.json 1 https://www.google.com/
+/cgi-bin/awstats.pl 2 -
+/login 1 -
+/ngSbMQxc.yml 1 -
+/lTLm8bJW.LOG 1 -
+/axis2/axis2-admin/login 1 -
+/com.tar.lzma 2 -
+/lTLm8bJW.AP 1 -
+/lTLm8bJW.show 1 -
+/lTLm8bJW.php= 1 -
+/ngSbMQxc.map 1 -
+/ngSbMQxc.vts 1 -
+/phpmoadmin/wu-moadmin.php 2 -
+/resources/ckeditor/samples/sample_posteddata.php 1 -
+/nikto-test-m8bX1Zq7.html 1 -
+/install.php 1 -
+/avexeva.tar.lzma 2 -
+/cgi-bin/guestbook/passwd 2 -
+/tsweb/ 2 -
+/lTLm8bJW.htr 1 -
+/ngSbMQxc.com 1 -
+/ngSbMQxc.aspx 1 -
+/ngSbMQxc.prf 1 -
+/ngSbMQxc.no 1 -
+/site.egg 2 -
+/../../../../winnt/repair/sam._ 2 -
+/admin/includes/general.js 1 -
+/ngSbMQxc.cnf 1 -
+/lTLm8bJW.bak 1 -
+/lTLm8bJW.db 1 -
+/ngSbMQxc.exe|dir 1 -
+/lTLm8bJW.LCDispatcher 1 -
+/lTLm8bJW.Htm 1 -
+/cgi-bin/wrap.cgi 2 -
+/cgi-bin/html2wml.cgi 2 -
+/vgn/vr/Deleting 2 -
+/cgi-bin/gm.cgi 2 -
+/index.do 2 -
+/lTLm8bJW.jsa 1 -
+/lTLm8bJW.xml+ 1 -
+/avexevacom.war 2 -
+/login.php 1 -
+/%NETHOOD%/ 2 -
+/backup.war 2 -
+/vgn/performance/TMT 2 -
+/ngSbMQxc.htm 1 -
+/index.aspx 4 -
+/index.php5 2 -
+/cgi-bin/get32.exe 2 -
+/store/wp-includes/wlwmanifest.xml 2 -
+/lTLm8bJW.xbb 1 -
+/ngSbMQxc.BBoardServlet 1 -
+/index.php7 2 -
+/lTLm8bJW.pwd 1 -
+/ngSbMQxc.dll 1 -
+/ngSbMQxc.local 1 -
+/ngSbMQxc.iso2022-jp 1 -
+/cgi-win/ 2 -
+/lTLm8bJW.grp 1 -
+/cgi-bin/auth_data/auth_user_file.txt 2 -
+/ws/axis2-admin/login 1 -
+/lTLm8bJW.html+ 1 -
+/htdocs/../../../../../../../../../../../etc/passwd 1 -
+/login.action 2 -
+/ngSbMQxc.pm 1 -
+/ngSbMQxc.asmx 1 -
+/lTLm8bJW.snp 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/ngSbMQxc.INC 1 -
+/../../../../../../../../../boot.ini 2 -
+/cgi-bin/gH.cgi 2 -
+/moadmin/moadmin.php 2 -
+/typo3/dev/translations.php 12 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/contact 1 -
+/ngSbMQxc. 1 -
+/bigconf.cgi 2 -
+/index.htm 2 -
+/lTLm8bJW.types 1 -
+/lTLm8bJW.md 1 -
+/lTLm8bJW.php3 1 -
+/tws/getStatus 1 -
+/com.tar 2 -
+/avexevacom.tgz 2 -
+/lTLm8bJW.sql 1 -
+/lTLm8bJW.shtml 1 -
+/ngSbMQxc.show_query_columns 1 -
+/vgn/performance/TMT/Report 2 -
+/lTLm8bJW.action 1 -
+/lTLm8bJW.php3+ 1 -
+/backup.tar.gz 2 -
+/vsheaiopf.html 1 -
+/23.235.204.245.sql 2 -
+/crossdomain.xml 2 -
+/ngSbMQxc.html~ 1 -
+/lTLm8bJW.access 1 -
+/avexeva.sql 2 -
+/ngSbMQxc.axd 1 -
+/lTLm8bJW.html 1 -
+/ngSbMQxc.* 1 -
+/jvttqdbxdednzdb.html 1 -
+/servlet/CookieExample 2 -
+/lTLm8bJW.idq 1 -
+/lTLm8bJW.ashx 1 -
+/scripts/samples/details.idc 2 -
+/23.235.204.245.tgz 2 -
+/ngSbMQxc.iso2022-kr 1 -
+/vgn/ppstats 2 -
+/cgi-915/ 2 -
+/lTLm8bJW.home 1 -
+/ngSbMQxc._ 1 -
+/ngSbMQxc.dpgs 1 -
+/backup.tgz 2 -
+/lTLm8bJW.asa 1 -
+/lTLm8bJW.SSIFilter 1 -
+/lTLm8bJW.EXE 1 -
+/lTLm8bJW.cfc 1 -
+/ngSbMQxc.json 1 -
+/default.asp 2 -
+/lTLm8bJW.gif 1 -
+/index.jhtml 2 -
+/com.tgz 2 -
+/cgi-bin/ezshopper/loadpage.cgi 2 -
+/ngSbMQxc.de 1 -
+/admin/db.php 1 -
+/lTLm8bJW.shtm 1 -
+/ngSbMQxc.ini 1 -
+/horde/test.php 2 -
+/lTLm8bJW.old 1 -
+/wp-includes/js/jquery/jquery.js 2 -
+/ups.php 1 -
+/ngSbMQxc.mediawiki 1 -
+/ngSbMQxc.render_warning_screen 1 -
+/lTLm8bJW.dbm 1 -
+/vgn/performance/TMT/reset 2 -
+/geeklog/users.php 2 -
+/lTLm8bJW.1 1 -
+/cgi-perl/ 2 -
+/ngSbMQxc.UploadServlet 1 -
+/vgn/record/previewer 2 -
+/jolwtxxgqfcza.html 1 -
+/saxtsakkfjhmeqq.html 1 -
+/avexeva.tar.gz 2 -
+/file/../../../../../../../../etc/ 1 -
+/a%5c.aspx 2 -
+/ngSbMQxc.xml 1 -
+/test/wp-includes/wlwmanifest.xml 6 -
+/avexeva_com.tar.gz 2 -
+/avexeva.tar 2 -
+/lTLm8bJW.back 1 -
+/lTLm8bJW.config 1 -
+/ngSbMQxc.00RelNotes 1 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+/ngSbMQxc.rdf+destype=cache+desformat=PDF 1 -
+/avexeva.com.tar.lzma 2 -
+/sdk/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/etc/vmware/hostd/vmInventory.xml 1 -
+/admin/view/javascript/common.js 1 -
+/ngSbMQxc.en 1 -
+/cgi-bin/gm-authors.cgi 2 -
+/com.tar.gz 2 -
+/phpinfo.php 1 -
+/ngSbMQxc.it 1 -
+/%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f../boot.ini 2 -
+/ngSbMQxc.x-shop 1 -
+/ngSbMQxc.lasso 1 -
+/lTLm8bJW.zip 1 -
+/../../windows/dvr2.ini 1 -
+/backup.zip 2 -
+/.git/HEAD 1 -
+/cfappman/index.cfm 2 -
+/cgi-bin/perlshop.cgi 2 -
+/[SecCheck]/..%2f../ext.ini 2 -
+/samples/sample_posteddata.php 1 -
+/ngSbMQxc.nn 1 -
+/avexeva.tar.bz2 2 -
+/wp_wrong_datlib.php 1 -
+/ngSbMQxc.eml 1 -
+/..%2F..%2F..%2F..%2F..%2F../windows/repair/sam 1 -
+/v2/wp-includes/wlwmanifest.xml 2 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/cgi-bin/echo.bat 2 -
+/lTLm8bJW.pl|dir 1 -
+/main.html 1 -
+/ngSbMQxc.cp-1251 1 -
+/site.jks 2 -
+/ngSbMQxc.phtml 1 -
+////./../.../boot.ini 2 -
+/ngSbMQxc.orig 1 -
+/ngSbMQxc.class 1 -
+/ngSbMQxc.idc 1 -
+/guestbook/guestbookdat 2 -
+/lTLm8bJW.tw 1 -
+/ngSbMQxc.ncf 1 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/wordpress/wp-includes/wlwmanifest.xml 6 -
+/lTLm8bJW.notes 1 -
+/ngSbMQxc.dat 1 -
+/ngSbMQxc.SHOW 1 -
+/ngSbMQxc.lic 1 -
+/lTLm8bJW.TXT 1 -
+/vendor/phpunit/phpunit/composer.json 1 -
+/wp-login.php 4 -
+/ssdefs/ 2 -
+/ngSbMQxc.xslt 1 -
+/lTLm8bJW.var 1 -
+/ngSbMQxc.genpopuplist 1 -
+/lTLm8bJW.bat|dir 1 -
+/wordpress/ 3 -
+/backup.tar 2 -
+/lTLm8bJW.dbc 1 -
+/cgi-bin/bannereditor.cgi 2 -
+/lTLm8bJW.phpp 1 -
+/ngSbMQxc.apw 1 -
+/imcws/axis2-admin/login 1 -
+/lTLm8bJW.fr 1 -
+/authorize 1 -
+/lTLm8bJW.SMAIL893 1 -
+/avexeva.com.tar.gz 2 -
+/cgi-mod/ 2 -
+/avexevacom.egg 2 -
+/cgi-914/ 2 -
+/lTLm8bJW.ml 1 -
+/lTLm8bJW.cfm 1 -
+/cgi-bin/handler.cgi 2 -
+/lTLm8bJW.java 1 -
+/avexeva_com.tar.lzma 2 -
+/cgi.cgi/ 2 -
+/administrator/ 1 -
+/ngSbMQxc.utf8 1 -
+/avexeva.alz 2 -
+/lTLm8bJW.xls 1 -
+/ngSbMQxc.printer 1 -
+/lTLm8bJW.bat 1 -
+/23.235.204.245.jks 2 -
+/admin.nsf 2 -
+/misc/ajax.js 1 -
+/lTLm8bJW.conf 1 -
+/cgi-bin/banner.cgi 2 -
+/ngSbMQxc 1 -
+/ngSbMQxc.2 1 -
+/lTLm8bJW.CGI 1 -
+/lTLm8bJW.jsp+ 1 -
+/ngSbMQxc.epl 1 -
+/ngSbMQxc.iso-ru 1 -
+/favicon.gif 2 -
+/cgi-bin/cart.pl 4 -
+/ngSbMQxc.bas:ShowVolume 1 -
+/lTLm8bJW.list 1 -
+/scgi-bin/platform.cgi 1 -
+/lTLm8bJW.cgi+ 1 -
+/ngSbMQxc.cs 1 -
+/ngSbMQxc.stat 1 -
+/inc/config.php 2 -
+/ngSbMQxc.js0x70 1 -
+/ngSbMQxc.cobalt 1 -
+/gb/index.php 2 -
+/lTLm8bJW.net 1 -
+/lTLm8bJW.tml 1 -
+/lTLm8bJW.tcl 1 -
+/admin.php 1 -
+/ngSbMQxc.sh 1 -
+/avexeva.cer 2 -
+/vgn/login/1,501,,00.html 2 -
+/profile.php 2 -
+/public/.env 1 -
+/html/cgi-bin/cgicso 2 -
+/scripts/iisadmin/bdir.htr 2 -
+/lTLm8bJW.mdb 1 -
+/sites/all/modules/ckeditor/samples/sample_posteddata.php 1 -
+/admin 1 -
+/ngSbMQxc.do 1 -
+/lTLm8bJW.iso8859-2 1 -
+/lTLm8bJW.gz 1 -
+/lTLm8bJW.listprint 1 -
+/ngSbMQxc.blt 1 -
+/ngSbMQxc.et 1 -
+/%2E%2E/%2E%2E/%2E%2E/%2E%2E/%2E%2E/windows/win.ini 2 -
+/cgi-bin/finger.pl 2 -
+/index.html.bak 2 -
+/c/version.js 1 -
+/ngSbMQxc.el 1 -
+/ngSbMQxc.dk 1 -
+/2018/wp-includes/wlwmanifest.xml 4 -
+/23.235.204.245.war 2 -
+/lTLm8bJW.ASP 1 -
+/ngSbMQxc.btr 1 -
+/avexeva.jks 2 -
+/avexeva.com.alz 2 -
+/ngSbMQxc.5-mysqlphp 1 -
+/ngSbMQxc.adjunct 1 -
+/lTLm8bJW.asp+ 1 -
+////////../../../../../../etc/passwd 1 -
+/site/wp-includes/wlwmanifest.xml 5 -
+/media-admin.php 1 -
+/lTLm8bJW.PRINT 1 -
+/cms/wp-includes/wlwmanifest.xml 6 -
+/index.asp 4 -
+/ngSbMQxc.nl 1 -
+/lTLm8bJW.swf 1 -
+/phpmoadmin/moadmin.php 2 -
+/vgn/vr/Editing 2 -
+/lTLm8bJW.koi8-r 1 -
+/ngSbMQxc.php4 1 -
+/.env 17 -
+/newsite/wp-includes/wlwmanifest.xml 2 -
+/avexeva.pem 2 -
+/ngSbMQxc.js 1 -
+/avexevacom.pem 2 -
+/util/login.aspx 1 -
+/23.235.204.245.zip 2 -
+/ngSbMQxc.sys 1 -
+/ngSbMQxc.chl+ 1 -
+/horde/imp/test.php 2 -
+/favicons/favicon.gif 2 -
+/junk988.aspx 2 -
+/lTLm8bJW.inc+ 1 -
+/lTLm8bJW.iso8859-8 1 -
+/lTLm8bJW.php 1 -
+/ngSbMQxc.pdf 1 -
+/cgi-bin/mt-static/mt-check.cgi 2 -
+/wp-content/plugins/augmented-reality/readme.txt 1 -
+/avexeva_com.alz 2 -
+/lTLm8bJW.cwr 1 -
+/kboard/ 2 -
+/lTLm8bJW.nsconfig 1 -
+/lTLm8bJW.TPF 1 -
+/cgi-bin/formmail.cgi 2 -
+/cgi-bin/html2chtml.cgi 2 -
+/ngSbMQxc.properties 1 -
+/aveXtE/Xt/XI/XN 1 -
+/lTLm8bJW.cfg 1 -
+/lTLm8bJW.ida 1 -
+/cgi-bin/visadmin.exe 2 -
+/com.pem 2 -
+/ngSbMQxc.ashx 1 -
+/ngSbMQxc.idq 1 -
+../../../../../../../../../../etc/* 1 -
+/lTLm8bJW.iso2022-kr 1 -
+/ngSbMQxc.home 1 -
+/dswsbobje/axis2-admin/login 1 -
+/cgi-bin/LWGate.cgi 2 -
+/ngSbMQxc.asa 1 -
+/lTLm8bJW._ 1 -
+/lTLm8bJW.dpgs 1 -
+/sshome/ 2 -
+/ngSbMQxc.php3+ 1 -
+/guestbook/guestbook.html 2 -
+/tiki/ 2 -
+/ngSbMQxc.action 1 -
+/cgi-bin/finger 2 -
+/ngSbMQxc.sql 1 -
+/ngSbMQxc.shtml 1 -
+/cgi-bin/post-query 2 -
+/cgi-bin/blog/mt.cfg 2 -
+/23.235.204.245.egg 2 -
+/lTLm8bJW.html~ 1 -
+/avexevacom.cer 2 -
+/web/wp-includes/wlwmanifest.xml 5 -
+/2019/wp-includes/wlwmanifest.xml 6 -
+/ngSbMQxc.html 1 -
+/lTLm8bJW.* 1 -
+/avexeva.war 2 -
+/avexeva_com.tgz 2 -
+/lTLm8bJW.axd 1 -
+/ngSbMQxc.access 1 -
+/aveXtE/Xt/XF/Loop 1 -
+/lTLm8bJW.asmx 1 -
+/index.php4 2 -
+/ngSbMQxc.html+ 1 -
+/lTLm8bJW.pm 1 -
+/billing/billing.apw 2 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/index.jsp 2 -
+/%a%s%p%d 2 -
+/lTLm8bJW.INC 1 -
+/ngSbMQxc.snp 1 -
+/lTLm8bJW. 1 -
+/index.action 2 -
+/inc/common.load.php 2 -
+/cgi-bin/architext_query.pl 2 -
+/ngSbMQxc.md 1 -
+/ngSbMQxc.php3 1 -
+/ngSbMQxc.types 1 -
+/avexevacom.sql 2 -
+/cfdocs/examples/cvbeans/beaninfo.cfm 2 -
+/_vti_bin/shtml.exe 2 -
+/ngSbMQxc.xbb 1 -
+/lTLm8bJW.BBoardServlet 1 -
+/lTLm8bJW.iso2022-jp 1 -
+/blog/.env 2 -
+/lTLm8bJW.dll 1 -
+/lTLm8bJW.local 1 -
+/ads.txt 31 -
+/ngSbMQxc.pwd 1 -
+/avexeva.com.tar.bz2 2 -
+/.remote-sync.json 1 https://www.google.com/
+/ngSbMQxc.grp 1 -
+/cgi-bin/awstats/awstats.pl 2 -
+/avexevacom.tar.lzma 2 -
+/site.pem 2 -
+/login.aspx 2 -
+/ngSbMQxc.xml+ 1 -
+/ngSbMQxc.jsa 1 -
+/wu-moadmin/wu-moadmin.php 2 -
+/avexeva.com.tgz 2 -
+/lTLm8bJW.htm 1 -
+/cgi-bin/NUL/../../../../../../../../../WINNT/system32/ipconfig.exe 1 -
+/lTLm8bJW.no 1 -
+/magento_version 1 -
+/lTLm8bJW.aspx 1 -
+/lTLm8bJW.prf 1 -
+/avexevacom.alz 2 -
+/index.cfm 2 -
+/ngSbMQxc.bak 1 -
+/lTLm8bJW.cnf 1 -
+/avexeva.zip 2 -
+/scripts/iisadmin/ism.dll 2 -
+/ngSbMQxc.db 1 -
+/blogs/wp-includes/wlwmanifest.xml 3 -
+/sftp-config.json 1 https://www.google.com/
+/cgi-bin/cart32.exe 2 -
+/ngSbMQxc.LCDispatcher 1 -
+/ngSbMQxc.Htm 1 -
+/storage/.env 1 -
+/cgi-bin/LWGate 2 -
+/favicon.png 2 -
+/lTLm8bJW.exe|dir 1 -
+/woghluzsfgmhw.html 1 -
+/lTLm8bJW.vts 1 -
+/1/wp-includes/wlwmanifest.xml 2 -
+/new/ 2 -
+/ngSbMQxc.htr 1 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/%2f/ 6 -
+/avexeva_com.tar.bz2 2 -
+/lTLm8bJW.com 1 -
+/cgi-bin/../../../../../../../../../../WINNT/system32/ipconfig.exe 1 -
+/cgi-bin/%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%2E%2E%2F%57%69%6E%64%6F%77%73%2Fping.exe%20127.0.0.1 1 -
+/ngSbMQxc.txt 1 -
+/wp-xmlrpc.php 1 -
+/lTLm8bJW.yml 1 -
+/ngSbMQxc.LOG 1 -
+/lTLm8bJW.config~ 1 -
+/ngSbMQxc.AP 1 -
+/index.php3 2 -
+/index.xml 2 -
+/plugins/system/debug/debug.xml 1 -
+/lTLm8bJW.map 1 -
+/admin/ckeditor/samples/sample_posteddata.php 1 -
+/ngSbMQxc.show 1 -
+/ngSbMQxc.php= 1 -
+/index 2 -
+/cgi-bin/download.cgi 2 -
+/lTLm8bJW.ee 1 -
+/ngSbMQxc.ca 1 -
+/lTLm8bJW.nlm 1 -
+/lTLm8bJW.php+ 1 -
+/lTLm8bJW.inc 1 -
+/lTLm8bJW.VALIDATE_STMT 1 -
+/lTLm8bJW.log 1 -
+/ngSbMQxc.lock 1 -
+/page.cmd 3 -
+/com.egg 2 -
+/ngSbMQxc/ 1 -
+/ckeditor/samples/sample_posteddata.php 1 -
+/ows-bin/ 2 -
+/test/ 2 -
+/.vscode/sftp.json 1 https://www.google.com/
+/rqghjyfrnrw.html 1 -
+/lTLm8bJW.es 1 -
+/domcfg.nsf 2 -
+/ngSbMQxc.lst 1 -
+/.ngSbMQxc 1 -
+/ngSbMQxc.jws 1 -
+/lTLm8bJW.box 1 -
+/ngSbMQxc.save 1 -
+/ngSbMQxc.cmd 1 -
+/cgi-bin/bizdb1-search.cgi 2 -
+/ngSbMQxc.jse 1 -
+/clientaccesspolicy.xml 2 -
+/cgi-bin/flexform.cgi 2 -
+/lTLm8bJW.asp 1 -
+/site.sql 2 -
+/lTLm8bJW.csc 1 -
+/ngSbMQxc.pt-br 1 -
+/ngSbMQxc.se 1 -
+/ziqcfambfu.html 1 -
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd 2 -
+/lTLm8bJW.csp 1 -
+/wp-includes/wlwmanifest.xml 5 -
+/.ftpconfig 1 https://www.google.com/
+/old/ 2 -
+/lTLm8bJW.passwd 1 -
+/forums//adm/config.php 2 -
+/ngSbMQxc.tmp 1 -
+/view2.html 1 -
+/lTLm8bJW.exe 1 -
+/cgi-bin/blog/ 2 -
+/assets/images/accesson.php 1 -
+/lTLm8bJW.JSP 1 -
+/en/wp-includes/wlwmanifest.xml 1 -
+/lTLm8bJW.cp866 1 -
+/lTLm8bJW.password 1 -
+/lTLm8bJW.fhp 1 -
+/site.tar 2 -
+/help/ 2 -
+/ngSbMQxc.bas 1 -
+/com.tar.bz2 2 -
+/api/.env 2 -
+/lTLm8bJW.py 1 -
+/backup.sql 3 -
+/ngSbMQxc.cellsprint 1 -
+/avexeva.tgz 2 -
+/ngSbMQxc.10:100 1 -
+/lTLm8bJW.c 1 -
+/lTLm8bJW.xsql 1 -
+/lTLm8bJW.mdb+ 1 -
+/avexevacom.tar 2 -
+/lTLm8bJW.shm 1 -
+/ngSbMQxc.stm 1 -
+/lTLm8bJW.PWD 1 -
+/ngSbMQxc.showsource 1 -
+/backup.tar.lzma 2 -
+/lTLm8bJW.pl 1 -
+/vgn/stylepreviewer 2 -
+/administrator/help/en-GB/toc.json 1 -
+/imp/horde/test.php 4 -
+/lTLm8bJW.pub 1 -
+/ngSbMQxc.signature 1 -
+/old/wp-includes/wlwmanifest.xml 2 -
+/default.aspx 2 -
+/lTLm8bJW.priv 1 -
+/ngSbMQxc.backup 1 -
+/DomainFiles/*//../../../../../../../../../../etc/passwd 2 -
+/../../../../../../../../../../../../etc/shadow 2 -
+/lTLm8bJW.pt 1 -
+/ngSbMQxc.sqlite 1 -
+/ngSbMQxc.thtml 1 -
+//wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/ngSbMQxc.Big5 1 -
+/com.alz 2 -
+/hola/admin/cms/htmltags.php 2 -
+/lTLm8bJW.htw 1 -
+/inc/dbase.php 2 -
+/lTLm8bJW.jsp 1 -
+/wp2/wp-includes/wlwmanifest.xml 5 -
+/lTLm8bJW.org 1 -
+/lTLm8bJW.pw 1 -
+/lTLm8bJW.xtp 1 -
+/forums//admin/config.php 2 -
+/ngSbMQxc.dtd 1 -
+/webadmin.nsf 2 -
+/lTLm8bJW.cgi 1 -
+/vgn/vr/Select 2 -
+/help/../../../../../../../../../../../../../../../../etc/shadow 1 -
+/lTLm8bJW.MVC 1 -
+/lTLm8bJW.markdown 1 -
+/site.cer 2 -
+/23.235.204.245.tar 2 -
+/ngSbMQxc.bin 1 -
+/tiki/tiki-install.php 2 -
+/ngSbMQxc.exp 1 -
+/axis2-admin/login 1 -
+/lTLm8bJW.xsl 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 135
+104.155.108.67 65 65 7000608 20201112163255
+72.69.3.103 61 65 6296695 20201119030942
+69.160.160.58 26 28 2786914 20201127123704
+23.100.232.233 25 50 2688128 20201127111044
+162.253.129.211 17 17 1858221 20201121063223
+45.61.162.195 17 17 1858221 20201116101605
+107.158.93.88 16 16 1752751 20201124133551
+104.227.88.114 16 16 1752751 20201102234132
+209.127.39.220 12 12 1330560 20201125053812
+51.222.43.123 12 12 1310939 20201128220559
+177.154.85.26 10 12 1083999 20201117124411
+207.244.118.200 10 10 1063587 20201109163257
+159.65.24.22 7 7 798170 20201114183546
+5.188.62.140 5 5 527350 20201126075615
+185.216.113.190 5 5 536009 20201124212842
+54.37.191.172 4 4 420060 20201109091356
+52.173.255.63 4 4 421880 20201102145651
+34.66.140.24 3 3 316410 20201117092620
+18.217.52.45 3 3 316410 20201110204451
+104.227.247.100 3 3 316720 20201125053739
+176.31.182.58 2 2 210940 20201121034435
+95.217.250.108 2 2 212231 20201129150037
+142.44.146.252 2 2 210940 20201114061448
+18.236.7.105 2 2 210940 20201117090941
+137.135.119.221 2 2 210940 20201121025852
+77.222.115.97 1 1 105470 20201120122022
+95.55.176.189 1 3 136222 20201110041130
+177.54.133.170 1 1 105470 20201117135913
+77.83.186.206 1 1 105470 20201120102421
+54.185.44.213 1 1 105470 20201113100902
+159.203.30.140 1 1 0 20201107035024
+44.242.149.46 1 1 105470 20201113100941
+18.206.254.242 1 1 105470 20201105161235
+141.149.32.195 1 3 134520 20201125091059
+112.211.11.199 1 3 134520 20201111035155
+73.160.123.17 1 3 134520 20201117090940
+107.173.141.163 1 1 105470 20201124105140
+195.154.182.72 1 1 105470 20201122005526
+38.123.149.87 1 1 105470 20201129125457
+185.156.73.64 1 1 105470 20201119115020
+45.81.27.95 1 1 105470 20201109092230
+190.198.56.70 1 3 134520 20201117220306
+217.126.166.205 1 1 105470 20201119232143
+129.146.190.190 1 1 105470 20201120133833
+40.121.111.97 1 1 105470 20201101030246
+34.86.236.204 1 1 105470 20201117052122
+35.203.177.53 1 1 0 20201126151613
+34.210.19.80 1 1 105470 20201115065217
+205.169.39.22 1 3 134520 20201128223457
+192.255.75.35 1 1 105470 20201130012011
+188.162.64.49 1 1 105470 20201101171957
+216.151.183.111 1 1 105015 20201109041640
+188.165.211.23 1 1 105470 20201118195246
+51.15.191.81 1 1 105470 20201130110026
+5.189.131.202 1 1 105470 20201104195315
+204.38.156.254 1 3 134520 20201119124506
+54.172.44.57 1 1 105470 20201102223659
+37.9.13.156 1 1 105470 20201124054116
+34.217.60.204 1 1 105470 20201120100619
+188.119.127.112 1 1 105470 20201106113340
+69.50.239.106 1 1 105470 20201112132424
+64.246.161.42 1 1 105470 20201127091413
+138.199.18.63 1 1 105470 20201127182600
+113.172.136.204 1 1 105470 20201104131339
+192.3.138.13 2 2 210940 20201121123857
+213.139.198.82 1 1 105470 20201102050027
+168.213.7.142 1 3 134520 20201113141440
+209.127.40.252 1 1 105470 20201125053738
+73.39.148.83 1 3 134520 20201104140804
+109.228.239.230 1 1 105470 20201111091743
+179.176.232.42 1 3 134520 20201105220441
+165.22.223.152 1 1 105470 20201129193243
+82.165.117.55 1 1 105470 20201128092405
+79.142.64.205 1 1 105470 20201105201341
+104.155.24.144 1 1 105470 20201128221941
+159.69.187.191 1 1 105470 20201117234444
+23.235.204.245 0 14 1065 
+20.151.2.142 1 1 105470 20201102052843
+34.83.120.238 1 1 0 20201126151614
+54.36.115.93 1 1 105470 20201101085930
+178.176.74.152 1 1 105470 20201109010943
+46.187.84.161 1 3 135774 20201104224454
+104.236.5.15 1 1 0 20201129135919
+199.244.88.132 2 2 210940 20201110213906
+185.253.218.243 2 2 210940 20201126115636
+217.138.206.214 1 1 105470 20201125174453
+51.77.129.165 1 3 134520 20201128220621
+23.97.97.16 1 1 105470 20201104202137
+77.35.160.172 1 3 135774 20201125155045
+3.137.181.237 1 1 105470 20201117193803
+92.38.15.135 1 1 105470 20201103071833
+45.80.107.58 2 2 212231 20201128154656
+165.90.116.169 1 3 135975 20201106183545
+54.221.27.173 1 1 105470 20201129083008
+69.160.160.52 1 3 134520 20201103060353
+64.246.165.140 1 1 105470 20201102083639
+70.42.131.189 1 3 134520 20201128223338
+40.74.143.31 1 1 105470 20201112192303
+65.154.226.165 1 3 134520 20201128223433
+174.140.213.93 1 1 105470 20201124073721
+45.150.11.73 1 1 105470 20201105152750
+185.232.21.145 1 1 105470 20201118134459
+87.96.236.204 1 3 134520 20201116084452
+104.227.202.187 1 1 105470 20201110130941
+177.227.40.36 2 6 269040 20201103103309
+46.4.71.37 1 1 105523 20201124161250
+34.223.91.128 1 1 105470 20201112104710
+68.183.104.51 2 2 210940 20201117184903
+34.222.211.124 1 1 105470 20201127054100
+199.249.230.69 1 1 105470 20201120210041
+209.251.21.106 1 1 105470 20201102234119
+3.235.85.7 1 1 105470 20201105073339
+68.183.205.153 1 1 0 20201107035023
+159.192.114.235 1 1 105470 20201128020533
+102.42.224.241 1 3 135680 20201116100754
+149.28.46.213 1 1 105470 20201119122933
+198.23.169.157 1 1 105470 20201121021948
+64.137.34.178 1 1 105470 20201115101446
+138.99.216.171 1 1 105470 20201120051734
+62.4.14.206 2 2 210940 20201130110334
+5.164.157.72 1 3 135774 20201125094716
+94.76.92.10 1 1 105470 20201108210928
+192.227.231.159 1 1 105470 20201111134219
+42.83.147.202 1 1 105470 20201109053308
+35.193.24.167 1 1 105470 20201109222932
+91.241.19.243 1 1 105470 20201104162209
+109.234.37.227 1 1 105470 20201114055147
+91.199.212.132 0 3 231 
+20.55.235.104 1 1 105015 20201101171331
+195.154.185.170 1 1 105470 20201122123918
+37.9.13.68 1 1 105470 20201116164236
+95.217.207.28 1 1 105470 20201116233210
+34.222.200.44 1 1 105470 20201120100557
+18.236.8.168 1 1 105470 20201119124506
+130.211.96.27 1 1 105470 20201129005403
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20201101 23 25 2470270 6
+20201102 26 28 2836501 9
+20201103 4 8 479980 4
+20201104 7 11 797644 7
+20201105 10 14 1087098 8
+20201106 11 19 1226421 5
+20201107 3 3 105470 3
+20201108 7 11 744076 5
+20201109 17 17 1800512 8
+20201110 9 14 985004 7
+20201111 3 5 345460 3
+20201112 68 68 7317018 4
+20201113 5 9 559748 5
+20201114 11 12 1221724 4
+20201115 2 2 210940 2
+20201116 23 28 2551975 7
+20201117 23 30 2514883 11
+20201118 2 2 210940 2
+20201119 44 48 4462138 8
+20201120 7 7 738290 7
+20201121 23 23 2491041 5
+20201122 2 2 210940 2
+20201124 26 27 2817837 7
+20201125 22 30 2488104 9
+20201126 6 7 423554 5
+20201127 30 33 3210468 5
+20201128 21 46 2378956 9
+20201129 7 7 634111 6
+20201130 4 4 421880 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 6
+30mn-1h 2
+0s-30s 152
+1h+ 2
+2mn-5mn 1
+15mn-30mn 2
+5mn-15mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/index.php 249 26905237 26 34
+/ 191 19617420 140 132
+/index.php/123 2 210940 0 0
+* 2 0 0 0
+/./ 2 210940 0 0
+END_SIDER

@@ -1,0 +1,7 @@
+CREATE TABLE Paragraph (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Chapter INT NOT NULL,
+  Number INT NOT NULL,
+  Sentence INT NOT NULL,
+  CONSTRAINT PK_Primary_ID
+);
