@@ -1,8 +1,0 @@
-<?php Class Section extends Element {
-	public $Elements = array();
-	public function Section(){?><Section <?php parent::Attributes();?>><?php
-		if(is_object($this->Elements[$i])){
-			$this->Elements[$i]->get_class($this->Elements[$i])();
-		} else {echo $this->Element[$i];}
-	?></Section><?php }
-}?>

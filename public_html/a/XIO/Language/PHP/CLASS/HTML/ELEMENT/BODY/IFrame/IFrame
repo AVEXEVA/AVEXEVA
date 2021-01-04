@@ -1,8 +1,0 @@
-<?php Class IFRAME extends Element {
-	//Variables
-	public $SRC;
-	public $Width;
-	public $Height;
-	//Functions
-	public function IFRAME(){?><IFRAME <?php parent::Attributes();?>></IFRAME><?php }
-}?>
