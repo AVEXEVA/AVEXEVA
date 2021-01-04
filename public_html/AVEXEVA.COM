@@ -1,12 +1,12 @@
-<?php 
+<?php
 $_GET['Folder'] = $_GET['Folder'] == 'a' ? 'a/' : $_GET['Folder'];
 $_GET['Folder'] = $_GET['Folder'] == 'v' ? 'v/' : $_GET['Folder'];
 if(isset($_GET['File'])){if(strpos($_GET['File'], '.') && strpos($_GET['File'], '.') < strrpos($_GET['File'], '/')){unset($_GET['File']);}}
 if(isset($_GET['Image'])){if(strpos($_GET['Image'], '.') && strpos($_GET['Image'], '.') < strrpos($_GET['Image'], '/')){unset($_GET['Image']);}}
 if(isset($_GET['Folder'])){if(strpos($_GET['Folder'], '.')){unset($_GET['Folder']);}}
 
-require('a/XIO/Language/PHP/Function/Directory/combineFiles.php');
-require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
+require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/combineFiles.php');
+require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 
 ?><HTML>
 <HEAD>
@@ -124,7 +124,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 		var idc = 0;
 		var phases = Array(
 			'laser',
-			'vex' 
+			'vex'
 		);
 		var phase = 'cross';
 		var phase_homed = true;
@@ -146,7 +146,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 			} else if(keyCode == 62){
 				phased = phase;
 				phase = phases.pop();
-				phases.unshift(phased);	
+				phases.unshift(phased);
 				consoleKey('Phase:' + phase);
 			} else if(keyCode == 63){
 				phase_homed = !phase_homed;
@@ -176,21 +176,21 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 			node.style.bottom  = Math.floor(Math.random() * parseInt(document.getElementById('Header').offsetHeight));
 			document.getElementById('Header').appendChild(node);
 		}
-		function animateCharacters(){ 
+		function animateCharacters(){
 			if(animate == true){
 				var children = document.getElementById('Header').children;
 				var i = 0;
 				while(child = children[i++]){
 					if(child.nodeName == 'SPAN'){
-						left = parseInt(child.style.left); 
+						left = parseInt(child.style.left);
 						bottom  = parseInt(child.style.bottom);
 						child.style.left = left == 0 ? 1 : left == parseInt(document.getElementById('Header').offsetWidth)   ? left - 1 : left + Math.floor((Math.random() * 3) - 1);
 						child.style.bottom  = bottom  == 0 ? 1 : bottom  == parseInt(document.getElementById('Header').offsetHeight)  ? bottom - 1  : bottom  + Math.floor((Math.random() * 3) - 1);
 					}
-				} 
-				setTimeout(function(){animateCharacters();}, 60); 
+				}
+				setTimeout(function(){animateCharacters();}, 60);
 			}
-			
+
 		}
 		function phasePoint(center, point){return point < center / 2 - 8 ? point + 8 : point - 8 ;}
 		function phaseCharacters(b = false){
@@ -231,7 +231,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 						child.style.left = left;
 						child.style.bottom = bottom;
 						if(     (left > (parseInt(document.getElementById('Header').offsetWidth)  / 2) - 16    && left < (parseInt(document.getElementById('Header').offsetWidth)  / 2))
-							&&  (bottom   > (parseInt(document.getElementById('Header').offsetHeight) / 2) - 16 && bottom   < (parseInt(document.getElementById('Header').offsetHeight) / 2))){ 
+							&&  (bottom   > (parseInt(document.getElementById('Header').offsetHeight) / 2) - 16 && bottom   < (parseInt(document.getElementById('Header').offsetHeight) / 2))){
 								document.getElementById(child.id).remove();
 								i = i - 1;
 						}
@@ -244,14 +244,14 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 				} else {setTimeout(function(){phaseCharacters(false);}, 25);}
 			}
 		}
-</SCRIPT>	
+</SCRIPT>
 <BODY STYLE='margin:0px;background-color:white;overflow:hidden;' onKeyPress='keyPress(e);' onload='animateCharacters();'>
 	<HEADER id='Header' style='text-align:center;vertical-align:middle;float:left;height:50%;width:100%;display:grid;'>
 		<DIV style='grid-column:4 / span 1'>G</DIV>
-		<DIV style='grid-column:4 / span 1'>e</DIV> 
+		<DIV style='grid-column:4 / span 1'>e</DIV>
 		<DIV style='grid-column:1 / span 1' onClick="toggle('a');">a</DIV>
 		<DIV style='grid-column:2 / span 1' onClick="toggle('v');">v</DIV>
-		<DIV style='grid-column:3 / span 1' onClick="toggle('e');">e</DIV> 
+		<DIV style='grid-column:3 / span 1' onClick="toggle('e');">e</DIV>
 		<DIV style='grid-column:4 / span 1'>X</DIV>
 		<DIV style='grid-column:5 / span 1'>Ǝ</DIV>
 		<DIV style='grid-column:6 / span 1'>V</DIV>
@@ -263,22 +263,22 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 		<UL Class='Menu'>
 			<?php ListFiles('a');?>
 		</UL>
-		<DIV Class='Container'><PRE><?php 
+		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a'){
 				$f = fopen($_GET['File'], 'r');
 				echo fread($f, filesize($_GET['File']));
 				fclose($f);
 			} elseif(in_array($_GET['Folder'], array('a/XOR', 'a//XOR'))){
 				echo implode(',', combineFiles($_GET['Folder']));
-			} 
+			}
 
 		?></PRE></DIV>
 	</DIV>
 	<DIV ID='v' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'v') ? 'block' : 'none';?>;'>
 		<UL Class='Menu'>
 			<?php ListFiles('v');?>
-		</UL> 
-		<DIV Class='Container'><PRE><?php 
+		</UL>
+		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
 				$f = fopen($_GET['File'], 'r');
 				echo fread($f, filesize($_GET['File']));
@@ -291,7 +291,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 	</DIV>
 	<!--<DIV ID='v' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'v') ? 'block' : 'none';?>;'>
 		<DIV Class='Menu'><?php ListFiles('v');?></DIV>
-		<DIV Class='Container'><PRE><?php 
+		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
 				$f = fopen($_GET['File'], 'r');
 				echo fread($f, filesize($_GET['File']));
@@ -303,7 +303,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 	<DIV ID='e' class='Browser' style='display:<?php echo isset($_GET['Image']) ? 'block' : 'none';?>;'>
 		<DIV Class='Menu'>
 			<?php foreach(scandir('e/Picture/') as $Picture){
-				if($Picture == '..'){continue;} 
+				if($Picture == '..'){continue;}
 				if($Picture == '.'){continue;}
 				?><DIV><a href='index.php?Image=<?php echo $Picture;?>'><?php echo $Picture;?></a></DIV>
 			<?php }?></DIV>
@@ -1520,7 +1520,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 0111
 01111
 011111
-0111111 
+0111111
 01111111
 011111111
 0111111111
@@ -1528,14 +1528,14 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 011111111111
 0111111111111
 01111111111111
-011111111111111 
+011111111111111
 0111111111111111
 01111111111111111
 0111111111111111101
 011111111111111110101
 011111111111111110101t1
 011111111111111110101t11
-011111111111111110101t111 
+011111111111111110101t111
 011111111111111110101t1111
 011111111111111110101t11111
 011111111111111110101t111111
@@ -1544,7 +1544,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 011111111111111110101t111111V111
 011111111111111110101t111111V1111
 011111111111111110101t111111V11111
-011111111111111110101t111111V111111 
+011111111111111110101t111111V111111
 011111111111111110101t111111V1111111
 011111111111111110101t111111V11111111
 011111111111111110101t111111V11111111X1
@@ -1552,7 +1552,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 011111111111111110101t111111V11111111X111
 011111111111111110101t111111V11111111X1111
 011111111111111110101t111111V11111111X11111
-011111111111111110101t111111V11111111X111111 
+011111111111111110101t111111V11111111X111111
 011111111111111110101t111111V11111111X111111
 011111111111111110101t111111V11111111X1111111
 011111111111111110101t111111V11111111X11111111
@@ -1560,14 +1560,14 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 011111111111111110101t111111V1t111111X1111111111
 011111111111111110101t111111V11111111X11111111111
 011111111111111110101t111111V11111111X111111111111
-011111111111111110101t111111V11111111X1111111111111 
+011111111111111110101t111111V11111111X1111111111111
 011111111111111110101t111111V11111111X11111111111111
 011111111111111110101t111111V1t111111X111111111111111
 011111111111111110101t111111V11111111X1111111111111111
 011111111111111110101t111111V11111111X11111111111111111
 011111111111111110101t111111V11111111X111111111111111111
 011111111111111110101t111111V11111111X1111111111111111111
-011111111111111110101t111111V11111111X11111111111111111111 
+011111111111111110101t111111V11111111X11111111111111111111
 011111111111111110101t111111V11111111X111111111111111111111
 011111111111111110101t111111V11111111X1111111111111111111111
 011111111111111110101t111111V11111111X11111111111111111111111
@@ -1575,14 +1575,14 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 011111111111111110101t111111V11111111X11111111111111111111111111
 011111111111111110101t111111V11111111X111111111111111111111111111
 011111111111111110101t111111V11111111X1111111111111111111111111111
-011111111111111110101t111111V11111111X11111111111111111111111111111 
+011111111111111110101t111111V11111111X11111111111111111111111111111
 011111111111111110101t111111V11111111X111111111111111111111111111111
 011111111111111110101t111111V11111111X1111111111111111111111111111111
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1
-011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1x1Ǝ1 
+011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1x1Ǝ1
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1x1Ǝ1/1
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1x1Ǝ1/11
 011111111111111110101t111111V11111111X1111111111111111111111111111111a1v1e1\1x1Ǝ1/1A1
@@ -1593,7 +1593,7 @@ require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
 		var Character = 0;
 		function toggle(C){
 			if(C == 'a' && C != Character){
-				
+
 				document.getElementById('eXte').style.display='none';
 				document.getElementById('a').style.display='block';
 				document.getElementById('v').style.display='none';

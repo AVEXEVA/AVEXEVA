@@ -1,6 +1,5 @@
-<?php 
-
-require('a/XIO/Language/PHP/Function/Directory/combineFiles.php');
-require('a/XIO/Language/PHP/Function/Directory/ListFiles.php');
-
+<?php
+require('VAR/index.php');
+require('CONFIG/index.php');
+require('CLASS/index.php');
 ?>

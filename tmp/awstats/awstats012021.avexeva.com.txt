@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2007                
-POS_TIME 2690                
-POS_VISITOR 7461                
-POS_DAY 7779                
-POS_DOMAIN 3367                
-POS_LOGIN 3651                
-POS_ROBOT 3806                
-POS_WORMS 4102                
-POS_EMAILSENDER 4233                
-POS_EMAILRECEIVER 4376                
-POS_SESSION 7882                
-POS_SIDER 8039                
-POS_FILETYPES 4511                
-POS_DOWNLOADS 4642                
-POS_OS 4690                
-POS_BROWSER 4822                
-POS_SCREENSIZE 4961                
-POS_UNKNOWNREFERER 5035                
-POS_UNKNOWNREFERERBROWSER 5160                
-POS_ORIGIN 5280                
-POS_SEREFERRALS 5412                
-POS_PAGEREFS 5575                
-POS_SEARCHWORDS 5723                
-POS_KEYWORDS 5875                
-POS_MISC 2354                
-POS_ERRORS 5934                
-POS_CLUSTER 3507                
-POS_SIDER_404 6019                
+POS_TIME 2689                
+POS_VISITOR 7888                
+POS_DAY 8409                
+POS_DOMAIN 3409                
+POS_LOGIN 3707                
+POS_ROBOT 3862                
+POS_WORMS 4198                
+POS_EMAILSENDER 4329                
+POS_EMAILRECEIVER 4472                
+POS_SESSION 8537                
+POS_SIDER 8705                
+POS_FILETYPES 4607                
+POS_DOWNLOADS 4741                
+POS_OS 4789                
+POS_BROWSER 4943                
+POS_SCREENSIZE 5197                
+POS_UNKNOWNREFERER 5271                
+POS_UNKNOWNREFERERBROWSER 5474                
+POS_ORIGIN 5632                
+POS_SEREFERRALS 5766                
+POS_PAGEREFS 5929                
+POS_SEARCHWORDS 6107                
+POS_KEYWORDS 6259                
+POS_MISC 2353                
+POS_ERRORS 6318                
+POS_CLUSTER 3563                
+POS_SIDER_404 6413                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,66 +46,67 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20210102070104 482 116735 18302426316593
+LastLine 20210103065959 333 81121 16683629044463
 FirstTime 20210101034648
-LastTime 20210102043026
-LastUpdate 20210102070537 482 0 482 0 0
-TotalVisits 6                   
-TotalUnique 6                   
+LastTime 20210103053720
+LastUpdate 20210103070033 333 0 333 0 0
+TotalVisits 12                  
+TotalUnique 11                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 6                   
+MonthHostsUnknown 11                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
 PDFSupport 0 0 0
-TotalMisc 0 0 0
-AddToFavourites 0 0 0
-RealPlayerSupport 0 0 0
-JavaEnabled 0 0 0
+FlashSupport 0 0 0
 JavascriptDisabled 0 0 0
-QuickTimeSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
 DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 0 0 0 18 21 1905105
-1 0 0 0 28 30 3017399
-2 0 0 0 40 40 4245150
-3 1 1 105470 108 108 3821025
-4 17 17 1858221 26 26 2764064
-5 0 0 0 21 22 2244783
-6 0 0 0 24 24 2539388
-7 1 1 105470 10 10 1056340
-8 0 0 0 3 4 316738
-9 0 0 0 6 6 640844
-10 0 0 0 13 14 1373238
-11 0 0 0 3 3 316580
-12 0 0 0 8 8 852518
-13 0 0 0 125 125 13227951
-14 0 0 0 5 5 527803
-15 2 2 210940 8 8 846284
-16 0 0 0 7 7 738585
-17 0 0 0 2 2 211840
-18 0 0 0 10 10 951408
-19 0 0 0 12 16 1160678
-20 0 0 0 37 38 3925563
-21 0 0 0 13 13 1374220
-22 0 0 0 15 16 1687618
-23 2 4 239990 15 17 1587007
+0 0 0 0 27 31 2860991
+1 0 0 0 47 50 4815635
+2 8 10 875373 50 50 5300022
+3 4 4 424443 114 115 4463657
+4 17 17 1858221 36 37 3819450
+5 4 4 421880 29 30 3119366
+6 0 0 0 37 37 3912001
+7 2 4 241244 26 26 2749425
+8 1 3 135774 8 9 845301
+9 0 0 0 23 24 2439507
+10 2 3 212614 32 38 3388531
+11 0 0 0 23 23 2430069
+12 0 0 0 26 26 2657802
+13 0 0 0 139 139 14714966
+14 0 0 0 15 16 1586333
+15 2 2 210940 18 18 1903439
+16 0 0 0 13 13 1376004
+17 0 0 0 15 15 1586488
+18 0 0 0 24 24 2429335
+19 0 0 0 22 27 2217677
+20 0 0 0 50 51 5298297
+21 0 0 0 22 22 2329896
+22 0 0 0 29 31 3066190
+23 2 4 239990 26 28 2755875
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
-BEGIN_DOMAIN 5
-us 19 21 2098211
-zz 1 1 105470
-gb 1 1 105470
-ca 1 1 105470
+BEGIN_DOMAIN 6
+us 35 40 3821581
+ru 2 6 271548
+gb 2 2 210940
 cn 1 1 105470
+zz 1 1 105470
+ca 1 1 105470
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -119,11 +120,12 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 4
-AhrefsBot/ 296 31373739 20210102070044 0
-bot[\s_+:,\.\;\/\\-] 179 19080526 20210102070104 0
-Googlebot/ 7 742690 20210102004639 0
-bingbot/ 2 135174 20210101100739 0
+BEGIN_ROBOT 5
+AhrefsBot/ 452 47908403 20210103065025 0
+bot[\s_+:,\.\;\/\\-] 301 32004682 20210103065959 0
+Googlebot/ 17 1802582 20210103053519 0
+bingbot/ 3 243207 20210102163552 0
+bingpreview 2 107144 20210102105206 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -143,10 +145,10 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 4
-php 17 1858221 0 0
-jpg 1 27376 0 0
-html 6 632820 0 0
-js 1 1674 0 0
+js 5 8370 0 0
+html 21 2214870 0 0
+php 21 2287735 0 0
+jpg 4 109504 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -154,22 +156,30 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 6
-winxp 1 1
+BEGIN_OS ID - Hits - Pages 8
+win10 22 15
+linux 18 18
 macosx 1 1
+win8.1 1 1
+win7 3 1
+winxp 1 1
+Unknown 4 4
 macosx9 1 1
-win10 4 2
-Unknown 1 1
-linux 17 17
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 5
-Unknown 1 1
-chrome87.0.4280.88 5 3
-chrome65.0.3325.109 17 17
+BEGIN_BROWSER 11
+chrome87.0.4280.88 18 14
+chrome85.0.4183.121 3 1
 msie6.0 1 1
+firefox82.0 3 1
+firefox68.0 2 1
+chrome65.0.3325.109 17 17
+Unknown 3 3
+chrome75.0.3770.100 1 1
+firefox33.0 1 1
 firefox66.0 1 1
+firefox47.0 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -177,22 +187,25 @@ BEGIN_SCREENSIZE 0
 END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
-BEGIN_UNKNOWNREFERER 1
+BEGIN_UNKNOWNREFERER 3
+python-requests/2.25.0 20210103053719
 python-requests/2.24.0 20210101034648
+Mozilla/5.0_Firefox/33.0 20210103053720
 END_UNKNOWNREFERER
 
 # Unknown referer Browser - Last visit date
-BEGIN_UNKNOWNREFERERBROWSER 1
+BEGIN_UNKNOWNREFERERBROWSER 2
 python-requests/2.24.0 20210101034648
+python-requests/2.25.0 20210103053719
 END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 6 6
+From0 22 22
 From1 0 0
 From2 1 1
-From3 0 0
-From4 16 18
+From3 1 1
+From4 18 27
 From5 0 0
 END_ORIGIN
 
@@ -203,7 +216,8 @@ END_SEREFERRALS
 
 # External page referers - Pages - Hits
 # The 25 first Pages must be first (order not required for others)
-BEGIN_PAGEREFS 0
+BEGIN_PAGEREFS 1
+http://xn--avexva-68b.com 1 1
 END_PAGEREFS
 
 # Search keyphrases - Number of search
@@ -217,113 +231,123 @@ BEGIN_KEYWORDS 0
 END_KEYWORDS
 
 # Errors - Hits - Bandwidth
-BEGIN_ERRORS 1
-404 85 0
+BEGIN_ERRORS 2
+301 1 239
+404 98 0
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 72
-/sqlmanager 1 -
-/WebSql 1 -
-/PhpManager 1 -
-/WebDb 1 -
-/admin 1 -
-/Pma2019 1 -
-/php-myadmin/ 1 -
-/DbAdmin 1 -
-/phpMyAdmin2018/ 2 -
-/MySqlDatabase 1 -
-/adminer/ 1 -
-/sqlweb 1 -
-/database 1 -
-/phpmyadmin2 1 -
-/phpMyAdmin-2 1 -
-/sql 1 -
-/phpMyAdmin2016 1 -
-/adminer.php 1 -
-/MYSQL 1 -
-/Pma2014 1 -
-/phpmyadmin18 1 -
-/websql 1 -
-/phpmyadmin2018 1 -
-/MySql-Admin 1 -
-/pma 1 -
-/phpmanager 1 -
-/mysqlmanager 1 -
-/adm.php 1 -
-/Mysql-Admin 1 -
-/mysql-adminer.php 1 -
-/MySql 1 -
-/Pma2015 1 -
-/phpmyadmin2016/ 1 -
-/mysqladmin 1 -
-/mysqldatabase 1 -
-/webadmin/ 1 -
-/phpMyAdmin2 1 -
-/wp-login.php 1 -
-/mysql-admin 1 -
-/Pma2017 1 -
-/php-my-admin 1 -
-/sitemap.xml 1 -
-/mysql 1 -
-/phpmyadmin2017 1 -
-/Pma2016 1 -
-/PMA 1 -
-/MySqlAdmin 1 -
-/phpMyAdmin2015/ 1 -
-/ads.txt 2 -
-/phpmy-admin/ 1 -
-/SqlManager 1 -
-/robots.txt 9 -
-/Database 1 -
-/phpMyAdmin-2.2.3 2 -
-/phpmyadmin19 1 -
-/admin.php 1 -
-/webdb 1 -
-/phpmyadmin2019 1 -
-/phpMyAdmin 1 -
-/sql.php 1 -
-/dbadmin 1 -
-/phpMyAdmin2017 2 -
-/pma.php 1 -
-/phpmyadmin.php 1 -
-/mysql.php 1 -
-/adminer-4.7.6.php 1 -
-/MySqlDataBase 1 -
-/myadmin 1 -
-/p/m/a/ 1 -
-/phpMyAdmin2019 2 -
+BEGIN_SIDER_404 74
 /phpmyadmin 1 -
+/php-my-admin 1 -
+/websql 1 -
+/sitemap.xml 1 -
+/Pma2019 1 -
+/admin.php 1 -
+/mysql.php 1 -
+/phpmyadmin2017 1 -
+/phpmyadmin2 1 -
+/phpMyAdmin2016 1 -
+/sql 1 -
+/phpMyAdmin2015/ 1 -
+/adminer/ 1 -
+/php-myadmin/ 1 -
+/mysql-admin 1 -
+/admin 1 -
+/mysql 1 -
+/myadmin 1 -
+/WebSql 1 -
+/mysqlmanager 1 -
+/webdb 1 -
+/sqlmanager 1 -
+/sqlweb 1 -
+/adminer-4.7.6.php 1 -
+/phpmyadmin19 1 -
+/phpMyAdmin-2 1 -
+/adm.php 1 -
+/robots.txt 18 -
+/phpmyadmin2019 1 -
+/Mysql-Admin 1 -
+/wp-login.php 2 -
+/ads.txt 3 -
+/phpmyadmin2016/ 1 -
+/dbadmin 1 -
+/phpMyAdmin-2.2.3 2 -
+/Pma2016 1 -
+/MySqlAdmin 1 -
+/e/App/Atlas/ 1 -
+/Pma2015 1 -
+/webadmin/ 1 -
+/sql.php 1 -
+/SqlManager 1 -
+/WebDb 1 -
+/Pma2017 1 -
+/MySql-Admin 1 -
+/database 1 -
+/phpMyAdmin2018/ 2 -
+/PhpManager 1 -
+/pma.php 1 -
+/MySqlDatabase 1 -
+/phpMyAdmin2019 2 -
+/adminer.php 1 -
+/DbAdmin 1 -
+/Pma2014 1 -
+/MYSQL 1 -
+/Database 1 -
+/phpmy-admin/ 1 -
+/mysqldatabase 1 -
 /Pma2018 1 -
+/MySql 1 -
+/p/m/a/ 1 -
+/phpmyadmin18 1 -
+/phpmyadmin2018 1 -
+/phpmanager 1 -
+/MySqlDataBase 1 -
+/phpMyAdmin2 1 -
+/phpMyAdmin2017 2 -
+/mysql-adminer.php 1 -
+/home.php 1 -
+/phpMyAdmin 1 -
+/mysqladmin 1 -
+/phpmyadmin.php 1 -
+/pma 1 -
+/PMA 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 6
+BEGIN_VISITOR 11
 173.232.226.9 17 17 1858221 20210102043026
-151.205.174.243 2 4 239990 20210101231640
-64.44.32.76 1 1 105470 20210101153236
-213.166.69.250 1 1 105470 20210101152512
+151.205.174.243 13 17 1434336 20210103032453
+104.236.21.126 4 4 421880 20210103053720
 36.255.46.242 1 1 105470 20210101034648
+46.17.106.61 1 1 105470 20210102105033
+5.129.183.63 1 3 135774 20210102082717
+213.166.69.250 1 1 105470 20210101152512
 135.181.145.118 1 1 105470 20210101071542
+171.33.255.57 1 3 135774 20210102074645
+64.44.32.76 1 1 105470 20210101153236
+18.224.246.85 1 2 107144 20210102103234
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 2
+BEGIN_DAY 3
 20210101 6 8 661870 5
-20210102 17 17 1858221 1
+20210102 21 26 2342383 5
+20210103 15 17 1616226 2
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 2
-0s-30s 5
+BEGIN_SESSION 3
+30mn-1h 1
 5mn-15mn 1
+0s-30s 10
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 2
-/index.php 17 1858221 1 2
-/ 6 632820 5 4
+/ 21 2214870 9 8
+/index.php 21 2287735 3 4
 END_SIDER

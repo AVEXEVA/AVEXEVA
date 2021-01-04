@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2011                
-POS_TIME 2689                
-POS_VISITOR 6016                
-POS_DAY 6264                
-POS_DOMAIN 3186                
-POS_LOGIN 3437                
-POS_ROBOT 3592                
-POS_WORMS 3771                
-POS_EMAILSENDER 3902                
-POS_EMAILRECEIVER 4045                
-POS_SESSION 6362                
-POS_SIDER 6518                
-POS_FILETYPES 4180                
-POS_DOWNLOADS 4281                
-POS_OS 4329                
-POS_BROWSER 4415                
-POS_SCREENSIZE 4530                
-POS_UNKNOWNREFERER 4604                
-POS_UNKNOWNREFERERBROWSER 4691                
-POS_ORIGIN 4773                
-POS_SEREFERRALS 4905                
-POS_PAGEREFS 5049                
-POS_SEARCHWORDS 5197                
-POS_KEYWORDS 5349                
-POS_MISC 2353                
-POS_ERRORS 5408                
-POS_CLUSTER 3293                
-POS_SIDER_404 5501                
+POS_TIME 2684                
+POS_VISITOR 6074                
+POS_DAY 6305                
+POS_DOMAIN 3181                
+POS_LOGIN 3432                
+POS_ROBOT 3587                
+POS_WORMS 3766                
+POS_EMAILSENDER 3897                
+POS_EMAILRECEIVER 4040                
+POS_SESSION 6403                
+POS_SIDER 6570                
+POS_FILETYPES 4175                
+POS_DOWNLOADS 4276                
+POS_OS 4324                
+POS_BROWSER 4410                
+POS_SCREENSIZE 4525                
+POS_UNKNOWNREFERER 4599                
+POS_UNKNOWNREFERERBROWSER 4686                
+POS_ORIGIN 4768                
+POS_SEREFERRALS 4900                
+POS_PAGEREFS 5044                
+POS_SEARCHWORDS 5192                
+POS_KEYWORDS 5344                
+POS_MISC 2348                
+POS_ERRORS 5403                
+POS_CLUSTER 3288                
+POS_SIDER_404 5496                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,11 +46,11 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20210102070509 29 4638 10543734491474
+LastLine 20210103064537 7 812 5260372877092
 FirstTime 20210101020300
-LastTime 20210102070509
-LastUpdate 20210102070538 29 0 29 0 0
-TotalVisits 5                   
+LastTime 20210102185231
+LastUpdate 20210103070034 7 0 7 0 0
+TotalVisits 6                   
 TotalUnique 4                   
 MonthHostsKnown 0                   
 MonthHostsUnknown 4                   
@@ -58,16 +58,16 @@ END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
-FlashSupport 0 0 0
-AddToFavourites 0 0 0
-JavaEnabled 0 0 0
-JavascriptDisabled 0 0 0
-DirectorSupport 0 0 0
 QuickTimeSupport 0 0 0
-WindowsMediaPlayerSupport 0 0 0
 PDFSupport 0 0 0
-RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
 TotalMisc 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
@@ -78,23 +78,23 @@ BEGIN_TIME 24
 3 0 0 0 0 0 0
 4 0 0 0 0 0 0
 5 0 0 0 1 1 0
-6 1 1 0 1 3 0
+6 1 1 0 1 4 0
 7 2 2 105470 1 1 105470
 8 0 0 0 0 0 0
 9 1 1 0 0 0 0
 10 0 0 0 0 1 0
 11 0 0 0 0 0 0
 12 0 0 0 0 1 0
-13 0 0 0 0 2 0
+13 0 0 0 0 4 0
 14 0 0 0 1 4 0
 15 0 0 0 0 0 0
 16 0 0 0 0 1 0
 17 0 0 0 0 0 0
-18 0 0 0 0 0 0
+18 1 1 0 0 0 0
 19 0 0 0 0 0 0
 20 0 0 0 0 1 0
 21 0 0 0 0 0 0
-22 9 9 992761 0 0 0
+22 9 9 992761 0 3 0
 23 0 0 0 0 0 0
 END_TIME
 
@@ -102,7 +102,7 @@ END_TIME
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 3
 se 18 18 1985522
-de 3 3 0
+de 4 4 0
 ca 1 1 105470
 END_DOMAIN
 
@@ -139,7 +139,7 @@ END_EMAILRECEIVER
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 2
 php 16 1774582 0 0
-html 6 316410 0 0
+html 7 316410 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -149,14 +149,14 @@ END_DOWNLOADS
 # OS ID - Hits
 BEGIN_OS ID - Hits - Pages 2
 win10 19 19
-win7 3 3
+win7 4 4
 END_OS
 
 # Browser ID - Hits - Pages
 BEGIN_BROWSER 3
-chrome40.0.2214.85 3 3
-chrome75.0.3729.169 18 18
 firefox84.0 1 1
+chrome40.0.2214.85 4 4
+chrome75.0.3729.169 18 18
 END_BROWSER
 
 # Screen size - Hits
@@ -173,7 +173,7 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 22 22
+From0 23 23
 From1 0 0
 From2 0 0
 From3 0 0
@@ -202,23 +202,27 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 2
-404 15 0
 401 2 0
+404 21 0
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 12
+BEGIN_SIDER_404 16
+/BTC.zip 1 -
+/balance.zip 1 -
+/ads.txt 3 -
+/base.zip 2 -
+/sitemap.xml 1 -
+/crypto.zip 1 -
 /administrator.zip 1 -
 /cryptocurrency.zip 1 -
-/robots.txt 2 -
-/userdb.zip 1 -
-/admin.zip 1 -
 /support.zip 1 -
-/base.zip 2 -
-/ads.txt 2 -
-/sitemap.xml 1 -
-/balance.zip 1 -
-/crypto.zip 1 -
+/userdb.zip 1 -
+/Bitcoin.zip 1 -
+/Backup.zip 1 -
+/robots.txt 3 -
+/Avexeva.zip 1 -
+/admin.zip 1 -
 /wallets.zip 1 -
 END_SIDER_404
 
@@ -226,27 +230,28 @@ END_SIDER_404
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
 BEGIN_VISITOR 4
-130.255.162.178 9 9 992761 20210101020533
 93.158.90.87 9 9 992761 20210101225638
-138.246.253.24 3 3 0 20210102070509 20210102065519 /
+130.255.162.178 9 9 992761 20210101020533
+138.246.253.24 4 4 0 20210102185231
 135.181.145.118 1 1 105470 20210101071542
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
 BEGIN_DAY 2
 20210101 20 20 2090992 4
-20210102 2 2 0 1
+20210102 3 3 0 2
 END_DAY
 
 # Session range - Number of visits
-BEGIN_SESSION 2
+BEGIN_SESSION 3
+0s-30s 3
+5mn-15mn 1
 2mn-5mn 2
-0s-30s 2
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 2
 /index.php 16 1774582 0 2
-/ 6 316410 5 2
+/ 7 316410 6 4
 END_SIDER
