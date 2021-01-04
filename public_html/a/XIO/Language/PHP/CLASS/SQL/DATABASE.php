@@ -1,30 +1,31 @@
 <?php
-class Database extends \Magic {
-  //Variables
-  protected $RESOURCE = NULL;
-  //Arguments
-  protected $ID       = NULL;
-  protected $Server   = NULL;
-  protected $Username = NULL;
-  protected $Password = NULL;
-  protected $IP       = NULL;
-  protected $Name     = NULL;
-  //Tables
+NAMESPACE SQL;
+CLASS DATABASE EXTENDS \SQL\INDEX {
+  //VARIABLES
+  PROTECTED $RESOURCE = NULL;
+  //ARGUMENTS
+  PROTECTED $ID       = NULL;
+  PROTECTED $SERVER   = NULL;
+  PROTECTED $USERNAME = NULL;
+  PROTECTED $PASSWORD = NULL;
+  PROTECTED $IP       = NULL;
+  PROTECTED $NAME     = NULL;
+  //RELATED
   protected $TABLES   = Array();
   protected $VIEWS    = Array();
-  //Functions
-  ///Magic
-  public function __construct( $_ARGS = NULL ){
-    parent::__construct( $_ARGS );
-    self::__connect( );
+  //FUNCTIONS
+  ///MAGIC
+  PUBLIC FUNCTION __construct( $_ARGS = NULL ){
+    PARENT::__construct( $_ARGS );
+    SELF::__connect( );
   }
-  private function __connect( ){
-    self::__RESOURCE( );
-    self::__TABLES( );
+  PRIVATE FUNCTION __connect( ){
+    SELF::__RESOURCE( );
+    SELF::__TABLES( );
   }
   //Constructors
-  private function __RESOURCE(){
-    parent::__set( 
+  PRIVATE FUNCTION __RESOURCE(){
+    PARENT::__set( 
       'RESOURCE',
       new \SQL\RESOURCE( array ( 
         'DATABASE' => $this,
@@ -32,8 +33,8 @@ class Database extends \Magic {
       ) );
     );
   }
-  private function __TABLE( $TABLE = NULL ){ return new \SQL\TABLE ( $TABLE ); }
-  private function __TABLES( ){
+  PRIVATE FUNCTION __TABLE( $TABLE = NULL ){ return new \SQL\TABLE ( $TABLE ); }
+  PRIVATE FUNCTION __TABLES( ){
     switch( parent::__get( 'RESOURCE' )->__get( 'TYPE' ) ){
       case 'SQLSRV' : self::__TABLES_SQLSRV( ); break;
       case 'MYSQLI' : self::__TABLES_MYSQLI( ); break;

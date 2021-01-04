@@ -6,5 +6,5 @@ CLASS CELL EXTENDS \SQL\INDEX {i
   PROTECTED $NAME = NULL;
   PROTECTED $VALUE = NULL;
   //FUNCTIONS
-  PUBLIC FUNCTION __construct( $_ARGS ){ PARENT::__construct( $_ARGS ); }
+  PUBLIC FUNCTION __construct( $_ARGS = NULL ){ PARENT::__construct( $_ARGS ); }
 }?>

@@ -1,63 +1,68 @@
 <?php
-namespace magic;
-trait methods {
- public function __call($function, $arguments){if(method_exists($this, $function)){$this->$function($arguments);}}
- public function __construct($array = Null){self::__set($array);}
- public function __toString($delimiter = null){
-  $strings = [];
-  foreach(get_object_vars($this) as $key=>$value){
-   if(is_array($value) || is_object($value)){continue;}
-   $strings[] = "{$key}='{$value}'";
-  }
-  echo implode($delimiter, $strings);
- }
- public function __sleep($data = Null){
-  if(is_null($data)){
-   return self::__sleep(self::__get('toSleep'));
-  } elseif(is_array($data)){
-   if(count($data) > 0){
-    foreach($data as $k=>$v){
-     if(self::__isset($k)){$data[$k] = self::__get($k);}
+NAMESPACE MAGIC;
+TRAIT METHODS {
+  PUBLIC FUNCTION __call( $FUNCTION, $_ARGS){
+    if( method_exists( $this, $FUNCTION ) ){ 
+      $this->$FUNCTION($_ARGS);
     }
-   }
-   return data;
-  } elseif(self::__isset($data)){
-   return array($data => self::__get($data));
   }
- }
- public function __get($key){
-  if(is_array($key)){
-   if(count($key) > 0){
-    $keys = array();
-    foreach($key as $i=>$k){
-     $keys[] = self::__isset($k) ? self::__get($k) : '';
+  PUBLIC FUNCTION __construct( $ARRAY = NULL ){
+    SELF::__set( $ARRAY );
+  }
+  PUBLIC FUNCTION __toString( $DELIMETER = '&'){
+    $STRINGS = [];
+    FOREACH( get_object_vars( $this ) AS $KEY=>$VALUE ){
+      IF( is_array( $VALUE ) || is_object( $VALUE ) ){ CONTINUE; }
+      $STRINGS[ ] = "{$KEY}='{$VALUE}'";
     }
-    return $keys;
-   }
-  } elseif(self::__isset($key)) {
-   return $this->$key;
+    RETURN implode( $DELIMTER, $STRINGS );
   }
- }
- public function __set($key, $value = Null){
-  if(is_array($key)){
-   if(count($key) > 0){
-    foreach($key as $k=>$v){
-     if(self::__isset($k)){
-      $this->$k = $v;
-     }
+  PUBLIC FUNCTION __sleep( $_ARGS = NULL ){
+    IF( is_null( $_ARGS ) ){ RETURN SELF::__sleep( SELF::__get( 'toSleep' ) ); } 
+    ELSEIF( is_array( $_ARGS ) ){
+      IF( count( $_ARGS ) > 0 ){
+        FOREACH( $_ARGS AS $KEY=>$VALUE ){
+          IF( SELF::__isset( $KEY ) ){ $_ARGS[ $KEY ] = SELF::__get( $KEY ); }
+        }
+      }
+      RETURN $_ARGS; } 
+    ELSEIF(SELF::__isset( $_ARGS )){
+      RETURN ARRAY( $_ARGS => SELF::__get( $_ARGS ) );
     }
-   }
-  } elseif(self::__isset($key)){
-    $this->$key = $value;
   }
- }
- public function __isset($key){
-  return property_exists($this, $key);
- }
- public function __destroy(){}
- public function __echo($key){
-  if(self::__isset($key)){echo self::__get($key);}
-  else{echo NULL;}
- }
+  PUBLIC FUNCTION __get( $_ARGS = NULL ){
+    IF( is_array( $_ARGS ) ){
+      $ARRAY = ARRAY();
+      IF(count( $_ARGS ) > 0){
+        FOREACH( $_ARGS AS $INDEX => $KEY ){
+          $ARRAY[ ] = self::__isset( $KEY ) 
+            ? self::__get( $KEY ) 
+            : '';
+        }
+      }
+      RETURN $ARRAY; } 
+    ELSEIF(self::__isset( $KEY ) ) {
+      RETURN $this->$KEY;
+    }
+  }
+  PUBLIC FUNCTION __set( $KEY, $VALUE = NULL ){
+    IF( is_array( $KEY ) ){
+      IF( count( $KEY ) > 0){
+        FOREACH( $KEY AS $K=>$V){
+          IF( self::__isset($K)){
+            $this->$K = $V;
+          }}}} 
+    ELSEIF( SELF::__isset( $KEY ) ){
+      $this->$KEY = $VALUE;
+    }
+  }
+  PUBLIC FUNCTION __isset( $KEY ){
+    RETURN property_exists( $this, $KEY );
+  }
+  PUBLIC FUNCTION __destroy( ){ }
+  PUBLIC FUNCTION __echo( $KEY ){
+    IF( SELF::__isset( $KEY ) ){ ECHO SELF::__get( $KEY ); }
+    ELSE{ ECHO NULL;}
+  }
 }
 ?>

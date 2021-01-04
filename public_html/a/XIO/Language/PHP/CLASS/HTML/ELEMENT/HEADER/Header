@@ -1,5 +1,0 @@
-<?php 
-class Header extends Element {
-	public function __construct(){?><header <?php parent::__toString(' ');?>><?php echo parent::__get('Name');?></header><?php }
-}
-?>

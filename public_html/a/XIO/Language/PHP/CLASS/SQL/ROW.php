@@ -1,10 +1,12 @@
-<?php
+<?PHP
 namespace SQL;
-Class Row extends \Magic {
-  //Variables
-  ///Arguments 
-  protected $CELLS = NULL;
-  //Functions
-  ///Magic
-  public function __construct( $_ARGS ){ }
+Class ROW extends \SQL\INDEX {
+  //VARIABLES
+  ///ARGUMENTS
+  PROTECTED $CELLS = NULL;
+  //FUNCTIONS
+  ///MAGIC
+  PUBLIC FUNCTION __construct( $_ARGS = NULL ){
+    PARENT::__construct( $_ARGS );
+  }
 }?>

@@ -1,16 +1,16 @@
 <?PHP
-namespace SQL;
-class COLUMN extends \SQL\INDEX {
-  //Variables
-  protected $RESOURCE = NULL;
-  //Arguments
-  protected $ID;
-  protected $Name;
-  protected $Datatype;
-  protected $Position;
-  //Functions
-  ///Magic
-  public function __construct( $_ARGS = NULL ){ parent::__construct( $_ARGS ); }
+NAMESPACE SQL;
+CLASS COLUMN EXTENDS \SQL\INDEX {
+  //VARIABLES
+  PROTECTED $RESOURCE = NULL;
+  ///ARGUMENTS
+  PROTECTED $ID       = NULL;
+  PROTECTED $Name     = NULL;
+  PROTECTED $Datatype = NULL;
+  PROTECTED $Position = NULL;
+  //FUNCTIONS
+  ///MAGIC
+  PUBLIC FUNCTION __construct( $_ARGS = NULL ){ parent::__construct( $_ARGS ); }
   ///SQL
-  private function __connect( ){ }
+  PRIVATE FUNCTION __connect( ){ }
 }?>

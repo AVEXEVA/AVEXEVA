@@ -4855,3 +4855,10 @@
 [04-Jan-2021 02:06:46 UTC] PHP Warning:  require(a/XIO/Language/PHP/FUNCTION/Directory/combineFiles.php): failed to open stream: No such file or directory in /home/avexeva/public_html/AVEXEVA.COM on line 8
 [04-Jan-2021 02:06:46 UTC] PHP Warning:  require(a/XIO/Language/PHP/FUNCTION/Directory/combineFiles.php): failed to open stream: No such file or directory in /home/avexeva/public_html/AVEXEVA.COM on line 8
 [04-Jan-2021 02:06:46 UTC] PHP Fatal error:  require(): Failed opening required 'a/XIO/Language/PHP/FUNCTION/Directory/combineFiles.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/avexeva/public_html/AVEXEVA.COM on line 8
+[04-Jan-2021 03:44:27 UTC] PHP Warning:  fopen(a/XIO/Language/PHP/Class/Singleton/index.php): failed to open stream: No such file or directory in /home/avexeva/public_html/AVEXEVA.COM on line 268
+[04-Jan-2021 03:44:27 UTC] PHP Warning:  filesize(): stat failed for a/XIO/Language/PHP/Class/Singleton/index.php in /home/avexeva/public_html/AVEXEVA.COM on line 269
+[04-Jan-2021 03:44:27 UTC] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/avexeva/public_html/AVEXEVA.COM on line 269
+[04-Jan-2021 03:44:27 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/avexeva/public_html/AVEXEVA.COM on line 270
+[04-Jan-2021 05:35:00 UTC] PHP Warning:  scandir(a/XIO/Language/PHP/Class/HTML/ELEMENT/FORM/FieldSet): failed to open dir: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php on line 10
+[04-Jan-2021 05:35:00 UTC] PHP Warning:  scandir(): (errno 2): No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php on line 10
+[04-Jan-2021 05:35:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/avexeva/public_html/a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php on line 10

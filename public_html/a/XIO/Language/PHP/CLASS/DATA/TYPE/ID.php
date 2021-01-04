@@ -1,4 +1,3 @@
-<?php
-namespace \Data\Type;
-Class ID extends \Data\Type\Integer { }
-?>
+<?PHP
+NAMESPACE \DATA\TYPE;
+CLASS ID EXTENDS \DATA\TYPE\INTEGER { }?>
