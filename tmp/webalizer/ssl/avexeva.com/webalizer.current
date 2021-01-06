@@ -1,10 +1,13 @@
-# Webalizer V2.23-08 Incremental Data - 01/03/2021 06:45:37
-2021 1 3 6 45 37
-47 24 14 1 1 8 2196462 26 9 0
-1 1 9 1 3
+# Webalizer V2.23-08 Incremental Data - 01/06/2021 05:37:36
+2021 1 6 5 37 36
+135 86 33 1 1 11 8860539 92 26 0
+9 12 12 1 6
 33 21 2196462 9 23 7
 13 3 0 6 3 2
-1 0 0 1 0 0
+14 1 105470 8 2 2
+28 19 2090126 6 19 2
+22 20 2195922 6 20 4
+25 22 2272559 9 25 9
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -30,29 +33,26 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
+12 9 992518 9
 0 0 0 0
-0 0 0 0
-12 9 992761 9
-0 0 0 0
-0 0 0 0
-1 0 0 1
+13 10 1098204 10
+2 2 143703 2
+2 1 105478 2
+13 10 1030860 13
 5 1 0 1
-3 3 210940 3
-0 0 0 0
-1 1 0 1
+13 13 1308548 13
 1 0 0 0
-0 0 0 0
+10 10 992518 10
 1 0 0 0
+5 0 0 1
+8 1 105443 1
 4 0 0 0
-4 0 0 1
-0 0 0 0
+13 9 992518 10
+1 1 105470 1
 1 0 0 0
 0 0 0 0
 1 1 0 1
-0 0 0 0
+17 9 992518 9
 1 0 0 0
 0 0 0 0
 12 9 992761 9
@@ -60,7 +60,7 @@
 0
 0
 0
-24
+86
 0
 0
 0
@@ -75,10 +75,10 @@
 0
 0
 0
-2
+6
 0
 0
-21
+43
 0
 0
 0
@@ -100,9 +100,12 @@
 0
 # -urls- 
 /
-0 24 3417233155821823354 2196462 9 4
+0 86 3417233155821823354 8860434 26 5
 # End Of Table - urls
 # -sites- (monthly)
+45.55.44.52
+0 1 1 105443 1 1609901125
+/
 crawl-66-249-66-94.googlebot.com
 0 1 0 0 0 0
 -
@@ -112,64 +115,148 @@ crawl-66-249-66-94.googlebot.com
 185.17.184.2
 0 10 0 0 0 0
 -
+jobqueue-listener.jobqueue.netcraft.com-u37a2fc5a501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 1 38260 1 1609904687
+/
+167.71.172.8
+0 1 0 35 1 1609909960
+/
 crawl-66-249-66-92.googlebot.com
 0 1 0 0 0 0
 -
+192.36.137.125
+0 9 9 992518 1 1609874591
+/
+jobqueue-listener.jobqueue.netcraft.com-u28c6e086501211eb9abdb7fc828d6ab1u-digitalocean
+0 1 1 38272 1 1609911001
+/
+prod-nyc3.qencode-encoder-f7e16fae501111ebba8e76050b26adc7
+0 1 0 35 1 1609909960
+/
 crawl-66-249-70-49.googlebot.com
-0 1 0 0 0 0
+0 4 0 0 0 0
 -
+prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
+0 1 1 105443 1 1609906235
+/
 crawl-66-249-70-47.googlebot.com
 0 1 0 0 0 0
 -
 80.255.7.119
 0 1 0 0 0 0
 -
+mail-162-173.rch003.net
+0 9 9 992518 1 1609838919
+/
 crawl-66-249-70-45.googlebot.com
+0 4 0 0 0 0
+-
+jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 0 35 1 1609908210
+/
+52.158.230.150
 0 1 0 0 0 0
 -
+ppp58.dyptt.sd.cn
+0 1 1 105443 1 1609848273
+/
+mail-162-168.rch003.net
+0 9 9 992518 1 1609911456
+/
 mail-162-178.rch003.net
 0 9 9 992761 1 1609466733
+/
+192.36.136.246
+0 9 9 992518 1 1609771087
 /
 static.118.145.181.135.clients.your-server.de
 0 1 1 105470 1 1609485342
 /
 planetlab24.net.in.tum.de
-0 6 4 0 5 1609613551
+0 7 4 0 6 1609673039
+/
+93.158.90.102
+0 9 9 992518 1 1609893596
 /
 185.17.184.1
-0 3 0 0 0 0
+0 11 0 0 0 0
 -
+80.255.7.107
+0 4 0 0 0 0
+-
+64.225.10.174
+0 1 1 105470 1 1609686751
+/
 209.17.96.10.rdns.cloudsystemnetworks.com
 0 1 1 105470 1 1609486902
 /
 93.158.90.87
 0 9 9 992761 1 1609541798
 /
+209.17.96.82.rdns.cloudsystemnetworks.com
+0 1 1 105443 1 1609816337
+/
+h-217.114.218.28.keyweb.de
+0 3 0 0 0 0
+-
+93.158.90.75
+0 10 10 1097608 1 1609743792
+/
 # End Of Table - sites (monthly)
 # -sites- (daily)
-80.255.7.119
-0 1 0 0 0 0
--
+45.55.44.52
+0 1 1 105443 1 1609901125
+/
+jobqueue-listener.jobqueue.netcraft.com-u37a2fc5a501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 1 38260 1 1609904687
+/
+167.71.172.8
+0 1 0 35 1 1609909960
+/
+jobqueue-listener.jobqueue.netcraft.com-u28c6e086501211eb9abdb7fc828d6ab1u-digitalocean
+0 1 1 38272 1 1609911001
+/
+prod-nyc3.qencode-encoder-f7e16fae501111ebba8e76050b26adc7
+0 1 0 35 1 1609909960
+/
+prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
+0 1 1 105443 1 1609906235
+/
+jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 0 35 1 1609908210
+/
+mail-162-168.rch003.net
+0 9 9 992518 1 1609911456
+/
+93.158.90.102
+0 9 9 992518 1 1609893596
+/
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 47
+0 135
 # End Of Table - referrers
 # -agents- 
-Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+Mozilla/5.0
 0 1
+Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
+0 2
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
 0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 8
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 5
+0 11
+python-requests/2.25.0
+0 1
 Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3729.169 Safari/537.36
-0 18
+0 73
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
-0 6
+0 7
 Python-urllib/2.7
-0 14
+0 29
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
 0 1
 # End Of Table - agents
