@@ -1,0 +1,4 @@
+<?php
+LOAD('VAR/CONSTANT/INDEX.php');
+LOAD('VAR/GLOBAL/INDEX.php');
+?>

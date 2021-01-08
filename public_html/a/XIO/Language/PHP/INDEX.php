@@ -1,0 +1,6 @@
+<?php
+ECHO "<DIV>AVEXEVA.COM</DIV>";
+REQUIRE( __DIR__ . '/FUNCTION/INDEX.php' );
+LOAD('CLASS/INDEX.php');
+//new \ATLAS\INDEX( );
+?>

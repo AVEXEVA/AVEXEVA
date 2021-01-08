@@ -1,14 +1,14 @@
-# Webalizer V2.23-08 Incremental Data - 01/06/2021 05:37:36
-2021 1 6 5 37 36
-135 86 33 1 1 11 8860539 92 26 0
-9 12 12 1 6
+# Webalizer V2.23-08 Incremental Data - 01/07/2021 02:18:50
+2021 1 7 2 18 50
+147 96 35 1 1 12 9958500 102 28 0
+1 9 12 1 7
 33 21 2196462 9 23 7
 13 3 0 6 3 2
 14 1 105470 8 2 2
 28 19 2090126 6 19 2
 22 20 2195922 6 20 4
-25 22 2272559 9 25 9
-0 0 0 0 0 0
+28 23 2378002 11 26 10
+9 9 992518 1 9 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -35,7 +35,7 @@
 0 0 0 0 0 0
 12 9 992518 9
 0 0 0 0
-13 10 1098204 10
+22 19 2090722 19
 2 2 143703 2
 2 1 105478 2
 13 10 1030860 13
@@ -45,8 +45,8 @@
 10 10 992518 10
 1 0 0 0
 5 0 0 1
-8 1 105443 1
-4 0 0 0
+9 2 210886 2
+6 0 0 0
 13 9 992518 10
 1 1 105470 1
 1 0 0 0
@@ -60,7 +60,7 @@
 0
 0
 0
-86
+96
 0
 0
 0
@@ -78,7 +78,7 @@
 6
 0
 0
-43
+45
 0
 0
 0
@@ -100,7 +100,7 @@
 0
 # -urls- 
 /
-0 86 3417233155821823354 8860434 26 5
+0 96 3417233155821823354 9958395 28 5
 # End Of Table - urls
 # -sites- (monthly)
 45.55.44.52
@@ -117,6 +117,9 @@ crawl-66-249-66-94.googlebot.com
 -
 jobqueue-listener.jobqueue.netcraft.com-u37a2fc5a501411eb9abdb7fc828d6ab1u-digitalocean
 0 1 1 38260 1 1609904687
+/
+mail-162-175.rch003.net
+0 9 9 992518 1 1609985930
 /
 167.71.172.8
 0 1 0 35 1 1609909960
@@ -140,7 +143,7 @@ prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
 0 1 1 105443 1 1609906235
 /
 crawl-66-249-70-47.googlebot.com
-0 1 0 0 0 0
+0 3 0 0 0 0
 -
 80.255.7.119
 0 1 0 0 0 0
@@ -151,12 +154,12 @@ mail-162-173.rch003.net
 crawl-66-249-70-45.googlebot.com
 0 4 0 0 0 0
 -
-jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
-0 1 0 35 1 1609908210
-/
 52.158.230.150
 0 1 0 0 0 0
 -
+jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 0 35 1 1609908210
+/
 ppp58.dyptt.sd.cn
 0 1 1 105443 1 1609848273
 /
@@ -184,6 +187,9 @@ planetlab24.net.in.tum.de
 80.255.7.107
 0 4 0 0 0 0
 -
+ec2-52-91-79-112.compute-1.amazonaws.com
+0 1 1 105443 1 1609936685
+/
 64.225.10.174
 0 1 1 105470 1 1609686751
 /
@@ -204,37 +210,13 @@ h-217.114.218.28.keyweb.de
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-45.55.44.52
-0 1 1 105443 1 1609901125
-/
-jobqueue-listener.jobqueue.netcraft.com-u37a2fc5a501411eb9abdb7fc828d6ab1u-digitalocean
-0 1 1 38260 1 1609904687
-/
-167.71.172.8
-0 1 0 35 1 1609909960
-/
-jobqueue-listener.jobqueue.netcraft.com-u28c6e086501211eb9abdb7fc828d6ab1u-digitalocean
-0 1 1 38272 1 1609911001
-/
-prod-nyc3.qencode-encoder-f7e16fae501111ebba8e76050b26adc7
-0 1 0 35 1 1609909960
-/
-prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
-0 1 1 105443 1 1609906235
-/
-jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
-0 1 0 35 1 1609908210
-/
-mail-162-168.rch003.net
-0 9 9 992518 1 1609911456
-/
-93.158.90.102
-0 9 9 992518 1 1609893596
+mail-162-175.rch003.net
+0 9 9 992518 1 1609985930
 /
 # End Of Table - sites (daily)
 # -referrers- 
 - (Direct Request)
-0 135
+0 147
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0
@@ -246,13 +228,15 @@ Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrom
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 8
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 11
+0 13
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 1
 python-requests/2.25.0
 0 1
 Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
 0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3729.169 Safari/537.36
-0 73
+0 82
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
 0 7
 Python-urllib/2.7

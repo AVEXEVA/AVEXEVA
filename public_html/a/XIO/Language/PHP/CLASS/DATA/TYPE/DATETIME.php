@@ -15,10 +15,10 @@ CLASS DATETIME EXTENDS \DATA\TYPE\STRING {
       preg_match(
         '/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})/',
         parent::__get( 'STRING' ),
-        $MATCHES 
+        $MATCHES
       );
-      parent::__set( 
-        'DATE', 
+      parent::__set(
+        'DATE',
         new \DATA\TYPE\DATE( ARRAY(
           'STRING' => $MATCHES[ 1 ] . '-' . $MATCHES[ 2 ] . '-' . $MATCHES[ 3 ],
           'YEAR'   => $MATCHES[ 1 ],
@@ -37,9 +37,21 @@ CLASS DATETIME EXTENDS \DATA\TYPE\STRING {
       );
     }
   }
-  PUBLIC FUNCTION __check( ){ 
-    return    parent::__check( ) 
-           && preg_match("/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/", parent::__get( 'STRING' ) ); 
+  PUBLIC FUNCTION __check( ){
+    return    parent::__check( )
+           && preg_match("/^([0-9]{4})-([0-9]{2})-([0-9]{2})$/", parent::__get( 'STRING' ) );
+  }
+  PUBLIC FUNCTION __strtotime( $STRING = NULL ){
+    if( is_string( $STRING ) ){
+      self::__construct(
+        ARRAY(
+          'STRING' => date(
+            parent::__get( 'STRING' ),
+            strtotime( $STRING )
+          )
+        )
+      );
+    }
   }
 }
 ?>

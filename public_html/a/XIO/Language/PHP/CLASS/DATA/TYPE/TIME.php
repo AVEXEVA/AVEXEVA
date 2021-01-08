@@ -7,7 +7,7 @@ Class TIME extends \DATA\TYPE\STRING {
   PROTECTED $MINUTE = NULL;
   PROTECTED $SECOND = NULL;
   //FUNCTIONS
-  PUBLIC FUNCTION __construt( $_ARGS = NULL ){
+  PUBLIC FUNCTION __construct( $_ARGS = NULL ){
     PARENT::__construct( $_ARGS );
     self::__constructor( );
   }
@@ -21,6 +21,18 @@ Class TIME extends \DATA\TYPE\STRING {
       parent::__set( 'HOUR', $MATCHES[ 1 ];
       parent::__set( 'MINUTE', $MATCHES[ 2 ];
       parent::__set( 'SECOND', $MATCHES[ 3 ];
+    }
+  }
+  PUBLIC FUNCTION __strtotime( $STRING = NULL ){
+    if( is_string( $STRING ) ){
+      self::__construct(
+        ARRAY(
+          'STRING' => date(
+            parent::__get( 'STRING' ),
+            strtotime( $STRING )
+          )
+        )
+      );
     }
   }
 }?>

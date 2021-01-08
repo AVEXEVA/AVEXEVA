@@ -1,10 +1,22 @@
-
+RewriteEngine on
 
 RedirectMatch 301 ^/avextE /a
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
 
 # php -- BEGIN cPanel-generated handler, do not edit
 # Set the “ea-php72” package as the default “PHP” programming language.
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
 </IfModule>
+
+<FILES "atlas.php">
+  AuthUserFile /home/avexeva/.htpasswd
+  AuthType Basic
+  AuthName "Authentication"
+  Require valid-user
+</FILES>
+
 # php -- END cPanel-generated handler, do not edit

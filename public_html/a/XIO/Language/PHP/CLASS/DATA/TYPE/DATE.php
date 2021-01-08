@@ -1,6 +1,6 @@
 <?PHP
 NAMESPACE \DATA\TYPE;
-Class DATE extends \DATA\TYPE\STRING { 
+Class DATE extends \DATA\TYPE\STRING {
   //TRAITS
   //VARIABLES
   ///COMPUTED
@@ -22,6 +22,18 @@ Class DATE extends \DATA\TYPE\STRING {
       parent::__set( 'YEAR', $MATCHES[ 1 ] );
       parent::__set( 'MONTH', $MATCHES[ 2 ] );
       parent::__set( 'DAY', $MATCHES[ 3 ] );
+    }
+  }
+  PUBLIC FUNCTION __strtotime( $STRING = NULL ){
+    if( is_string( $STRING ) ){
+      self::__construct(
+        ARRAY(
+          'STRING' => date(
+            parent::__get( 'STRING' ),
+            strtotime( $STRING )
+          )
+        )
+      );
     }
   }
 }?>
