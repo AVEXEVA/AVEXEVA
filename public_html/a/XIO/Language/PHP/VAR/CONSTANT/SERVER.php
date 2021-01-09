@@ -1,6 +1,6 @@
-<?php 
+<?PHP 
 define(
-  SERVER,
+  'DOMAIN', 
   Array( 
     'NAME'        => 'AVEX3VA',
     'DESCRIPTION' => NULL,

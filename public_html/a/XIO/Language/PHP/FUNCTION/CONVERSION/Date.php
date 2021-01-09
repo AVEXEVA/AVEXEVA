@@ -10,5 +10,4 @@ function convertDate($Date = Null){
   return date("Y-m-d H:i:s");
  }
 }
-
 ?>

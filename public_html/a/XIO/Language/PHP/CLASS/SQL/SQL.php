@@ -1,6 +1,4 @@
 <?php 
 namespace SQL;
-Class index extends \Magic {
-
-}
+Class index extends \Magic {}
 ?>

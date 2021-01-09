@@ -1,4 +1,4 @@
-<?php
+<?PHP
 function convertCurrency($number){
  if(is_numeric($number)){
   return "$ ".number_format($number, 2);

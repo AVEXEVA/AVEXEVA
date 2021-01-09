@@ -1,0 +1,4 @@
+<?php
+LOAD('VAR/CONSTANT/SERVER.php');
+LOAD('VAR/CONSTANT/AUTHOR.php');
+?>

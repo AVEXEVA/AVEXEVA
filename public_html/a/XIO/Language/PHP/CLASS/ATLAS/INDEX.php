@@ -1,24 +1,26 @@
 <?PHP
 NAMESPACE ATLAS;
-CLASS INDEX EXTENDS \MAGIC {
+CLASS INDEX EXTENDS \INDEX {
   //VARIABLES
   PROTECTED $SESSION = NULL;
   //FUNCTIONS
-  PUBLIC FUNCTION __construct( $_ARGS = NULL ){
-    PARENT::__construct( $_ARGS );
-    $this->__constructor( );
-    IF( !SELF::__validate( ) ){ return; }
-    $this->__construction( );
+  PUBLIC FUNCTION __CONSTRUCT( $_ARGS = NULL ){
+    PARENT::__CONSTRUCT( $_ARGS );
+    $this->__CONSTRUCTOR( );
+    IF( !SELF::__VALIDATE( ) ){ return; }
+    $this->__CONSTRUCTION( );
   }
-  PUBLIC FUNCTION __constructor( ){
-    IF( is_array( PARENT::__get( 'SESSION' ) ) ){
-      PARENT::__set( 'SESSION', new \HTTP\SESSION\INDEX( PARENT::__get( 'SESSION' ) ) );
+  PUBLIC FUNCTION __CONSTRUCTOR( ){
+    IF( IS_ARRAY( PARENT::__get( 'SESSION' ) ) ){
+      PARENT::__SET( 'SESSION', NEW \HTTP\SESSION\INDEX( PARENT::__GET( 'SESSION' ) ) );
+    } ELSE {
+      PARENT::__SET( 'SESSION', NEW \HTTP\SESSION\INDEX( ARRAY( ) ) );
     }
   }
-  PUBLIC FUNCTION __validate( ){
-    RETURN is_a( PARENT::__get( 'SESSION' ), '\HTTP\SESSION\INDEX' ) && PARENT::__get( 'SESSION' )->__validate( );
+  PUBLIC FUNCTION __VALIDATE( ){
+    RETURN IS_A( PARENT::__GET( 'SESSION' ), '\HTTP\SESSION\INDEX' ) && PARENT::__GET( 'SESSION' )->__validate( );
   }
-  PUBLIC FUNCTION __construction( ){
-    new \ATLAS\HOME( $this->__sleep() );
+  PUBLIC FUNCTION __CONSTRUCTION( ){
+    new \ATLAS\HOME( $this->__SLEEP( ) );
   }
 }?>

@@ -1,6 +1,6 @@
 <?php
-include('cgi-bin/php/Functions/Session/Initialize');
-include('cgi-bin/php/Functions/Session/Login.php');
-include('cgi-bin/php/Functions/Session/Firewall.php');
-include('cgi-bin/php/Functions/Session/Hash.php');
+LOAD('FUNCTION/SESSION/INITIALIZE.php');
+LOAD('FUNCTION/SESSION/LOGIN.php');
+LOAD('FUNCTION/SESSION/FIREWALL.php');
+LOAD('FUNCTION/SESSION/HASH.php');
 ?>

@@ -2,17 +2,16 @@
 NAMESPACE SQL;
 CLASS DATABASE EXTENDS \SQL\INDEX {
   //VARIABLES
-  PROTECTED $RESOURCE = NULL;
-  //ARGUMENTS
-  PROTECTED $ID       = NULL;
-  PROTECTED $SERVER   = NULL;
-  PROTECTED $USERNAME = NULL;
-  PROTECTED $PASSWORD = NULL;
-  PROTECTED $IP       = NULL;
-  PROTECTED $NAME     = NULL;
-  //RELATED
-  protected $TABLES   = Array();
-  protected $VIEWS    = Array();
+  ///LINKS
+  PROTECTED $RESOURCE     = NULL;
+  ///ARGUMENTS
+  PROTECTED $ID           = NULL;
+  PROTECTED $DATASERVER   = NULL;
+  PROTECTED $USER         = NULL;
+  PROTECTED $IP           = NULL;
+  PROTECTED $NAME         = NULL;
+  ///CHILDREN
+  protected $DATATABLES   = Array();
   //FUNCTIONS
   ///MAGIC
   PUBLIC FUNCTION __construct( $_ARGS = NULL ){
@@ -30,7 +29,7 @@ CLASS DATABASE EXTENDS \SQL\INDEX {
       new \SQL\RESOURCE( array ( 
         'DATABASE' => $this,
         'TYPE' => 'DEFAULT'
-      ) );
+      ) )
     );
   }
   PRIVATE FUNCTION __TABLE( $TABLE = NULL ){ return new \SQL\TABLE ( $TABLE ); }
@@ -56,7 +55,7 @@ CLASS DATABASE EXTENDS \SQL\INDEX {
     );
     mysqli_stmt_execute( $STATEMENT );
     $RESULT = mysqli_stmt_get_result( $STATEMENT );
-    if( $QUERY ){while( $ROW = mysqli_fetch_row( $RESULT ){ $TABLES[] = self::__TABLE( $ROW ); }}
+    if( $QUERY ){while( $ROW = mysqli_fetch_row( $RESULT )){ $TABLES[] = self::__TABLE( $ROW ); }}
     parent::__set( 'TABLES', $TABLES );
   }
 }

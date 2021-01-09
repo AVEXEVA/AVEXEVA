@@ -1,4 +1,4 @@
 <?php
-include('cgi-bin/php/Functions/SQL/myssql_escape.php');
-include('cgi-bin/php/Functions/SQL/sqlsrv_errors.php');
+LOAD('FUNCTION/SQL/mssql_escape.php');
+LOAD('FUNCTION/SQL/sqlsrv_errors.php');
 ?>

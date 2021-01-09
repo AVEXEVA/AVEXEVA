@@ -1,6 +1,5 @@
-<?php
-ECHO "<DIV>AVEXEVA.COM</DIV>";
+<?PHP
 REQUIRE( __DIR__ . '/FUNCTION/INDEX.php' );
-LOAD('CLASS/INDEX.php');
-//new \ATLAS\INDEX( );
+LOAD('VAR/INDEX.php');
+new ATLAS\INDEX( );
 ?>

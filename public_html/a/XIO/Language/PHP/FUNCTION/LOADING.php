@@ -1,0 +1,16 @@
+<?PHP 
+FUNCTION LOADING ( $MESSAGE = '', $OUTPUT = 'CONSOLE' ){
+  IF( IS_STRING( $MESSAGE ) ){
+    SWITCH( $OUTPUT ){
+      CASE 'HTML':
+        ECHO "<LI CLASS='ERROR' STYLE='BACKGROUND-COLOR:#00EAFF;COLOR:BLACK;PADDING:5PX;MARGIN:5PX;'>{$MESSAGE}</LI>";
+        BREAK;
+      CASE 'CONSOLE':
+        ECHO "<SCRIPT>console.log('{$MESSAGE}');</SCRIPT>";
+        BREAK;
+      DEFAULT:
+        BREAK;
+    }
+  }
+}
+?>
