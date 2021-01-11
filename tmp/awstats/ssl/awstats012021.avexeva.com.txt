@@ -8,33 +8,33 @@ AWSTATS DATA FILE 7.7 (build 20180105)
 # update).
 BEGIN_MAP 28
 POS_GENERAL 2011                
-POS_TIME 2685                
-POS_VISITOR 6671                
-POS_DAY 7607                
-POS_DOMAIN 3254                
-POS_LOGIN 3533                
-POS_ROBOT 3688                
-POS_WORMS 3867                
-POS_EMAILSENDER 3998                
-POS_EMAILRECEIVER 4141                
-POS_SESSION 7849                
-POS_SIDER 8017                
-POS_FILETYPES 4276                
-POS_DOWNLOADS 4379                
-POS_OS 4427                
-POS_BROWSER 4535                
-POS_SCREENSIZE 4737                
-POS_UNKNOWNREFERER 4811                
-POS_UNKNOWNREFERERBROWSER 5044                
-POS_ORIGIN 5160                
-POS_SEREFERRALS 5292                
-POS_PAGEREFS 5436                
-POS_SEARCHWORDS 5584                
-POS_KEYWORDS 5736                
-POS_MISC 2349                
-POS_ERRORS 5795                
-POS_CLUSTER 3389                
-POS_SIDER_404 5890                
+POS_TIME 2688                
+POS_VISITOR 6952                
+POS_DAY 7895                
+POS_DOMAIN 3293                
+POS_LOGIN 3572                
+POS_ROBOT 3727                
+POS_WORMS 3948                
+POS_EMAILSENDER 4079                
+POS_EMAILRECEIVER 4222                
+POS_SESSION 8176                
+POS_SIDER 8344                
+POS_FILETYPES 4357                
+POS_DOWNLOADS 4476                
+POS_OS 4524                
+POS_BROWSER 4649                
+POS_SCREENSIZE 4874                
+POS_UNKNOWNREFERER 4948                
+POS_UNKNOWNREFERERBROWSER 5181                
+POS_ORIGIN 5297                
+POS_SEREFERRALS 5431                
+POS_PAGEREFS 5594                
+POS_SEARCHWORDS 5742                
+POS_KEYWORDS 5894                
+POS_MISC 2352                
+POS_ERRORS 5953                
+POS_CLUSTER 3428                
+POS_SIDER_404 6049                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -46,54 +46,54 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20210108005100 8 1088 8161674406992
+LastLine 20210111055907 10 1012 7916793002174
 FirstTime 20210101020300
-LastTime 20210108005100
-LastUpdate 20210108071130 8 0 8 0 0
-TotalVisits 24                  
+LastTime 20210110144651
+LastUpdate 20210111071331 10 0 10 0 0
+TotalVisits 28                  
 TotalUnique 21                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 21                  
+MonthHostsUnknown 22                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
 BEGIN_MISC 10
 WindowsMediaPlayerSupport 0 0 0
-RealPlayerSupport 0 0 0
 AddToFavourites 0 0 0
-TotalMisc 0 0 0
-DirectorSupport 0 0 0
-FlashSupport 0 0 0
-PDFSupport 0 0 0
-QuickTimeSupport 0 0 0
-JavascriptDisabled 0 0 0
 JavaEnabled 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
 END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 10 10 1097961 0 3 0
-1 0 0 0 0 0 0
-2 19 19 2090722 0 3 0
+0 10 10 1097961 1 4 38272
+1 0 0 0 1 1 105443
+2 20 20 2090722 0 3 0
 3 1 1 38260 1 1 105443
-4 1 1 105443 1 1 35
-5 10 10 1030790 3 3 70
+4 1 1 105443 2 2 105478
+5 10 10 1030790 3 4 70
 6 1 1 0 1 4 0
 7 12 12 1203078 1 1 105470
-8 0 0 0 0 1 0
-9 10 10 992518 0 0 0
+8 0 0 0 2 3 70
+9 10 10 992518 1 1 0
 10 2 2 210886 0 2 0
-11 0 0 0 1 5 0
-12 2 2 210886 0 7 0
-13 0 0 0 0 8 0
-14 9 9 992518 1 4 0
-15 1 1 105470 0 0 0
-16 0 0 0 0 1 0
+11 0 0 0 4 8 181963
+12 2 2 210886 1 8 0
+13 0 0 0 1 9 35
+14 11 11 992518 1 4 0
+15 1 1 105470 0 6 0
+16 1 1 0 0 1 0
 17 0 0 0 0 0 0
 18 1 1 0 0 0 0
-19 10 10 992518 1 8 0
-20 0 0 0 0 1 0
-21 0 0 0 0 0 0
+19 10 11 1021590 2 9 105443
+20 0 0 0 1 2 0
+21 0 0 0 11 31 1342441
 22 9 9 992761 0 3 0
 23 0 0 0 1 1 0
 END_TIME
@@ -101,11 +101,11 @@ END_TIME
 # Domain - Pages - Hits - Bandwidth
 # The 25 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 5
-se 82 82 9038238
+se 82 83 9067310
 us 9 9 814660
-de 5 5 0
-ca 1 1 105470
+de 9 9 0
 cn 1 1 105443
+ca 1 1 105470
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -119,8 +119,9 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 25 first Hits must be first (order not required for others)
-BEGIN_ROBOT 1
-bot[\s_+:,\.\;\/\\-] 2 210913 20210105031217 0
+BEGIN_ROBOT 2
+bot[\s_+:,\.\;\/\\-] 23 1658762 20210110045625 0
+no_user_agent 6 431121 20210110114657 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -139,9 +140,10 @@ BEGIN_EMAILRECEIVER 0
 END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
-BEGIN_FILETYPES 2
-html 25 1974614 0 0
+BEGIN_FILETYPES 3
 php 73 8089197 0 0
+jpg 1 29072 0 0
+html 29 1974614 0 0
 END_FILETYPES
 
 # Downloads - Hits - Bandwidth
@@ -149,23 +151,25 @@ BEGIN_DOWNLOADS 0
 END_DOWNLOADS
 
 # OS ID - Hits
-BEGIN_OS ID - Hits - Pages 4
-win10 84 84
-win7 5 5
-linux 2 2
+BEGIN_OS ID - Hits - Pages 5
 Unknown 7 7
+linux 2 2
+linuxandroid 1 0
+win10 84 84
+win7 9 9
 END_OS
 
 # Browser ID - Hits - Pages
-BEGIN_BROWSER 8
-netscape5.0 1 1
-chrome40.0.2214.85 5 5
-Unknown 1 1
-chrome83.0.4103.97 1 1
+BEGIN_BROWSER 9
 chrome58.0.3029.110 1 1
-firefox84.0 2 2
 mozilla 5 5
+chrome83.0.4103.97 1 1
+firefox84.0 2 2
+netscape5.0 1 1
+chrome86.0.4240.75 1 0
 chrome75.0.3729.169 82 82
+chrome40.0.2214.85 9 9
+Unknown 1 1
 END_BROWSER
 
 # Screen size - Hits
@@ -174,8 +178,8 @@ END_SCREENSIZE
 
 # Unknown referer OS - Last visit date
 BEGIN_UNKNOWNREFERER 3
-Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210106053001
 Go-http-client/1.1 20210107101017
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210106053001
 Mozilla/5.0 20210105120433
 END_UNKNOWNREFERER
 
@@ -186,16 +190,17 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 98 98
+From0 102 102
 From1 0 0
-From2 0 0
+From2 0 1
 From3 0 0
 From4 0 0
 From5 0 0
 END_ORIGIN
 
 # Search engine referers ID - Pages - Hits
-BEGIN_SEREFERRALS 0
+BEGIN_SEREFERRALS 1
+www_google_com 0 1
 END_SEREFERRALS
 
 # External page referers - Pages - Hits
@@ -215,72 +220,76 @@ END_KEYWORDS
 
 # Errors - Hits - Bandwidth
 BEGIN_ERRORS 2
-401 7 105
-404 47 0
+401 13 245
+404 65 0
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referrer
-BEGIN_SIDER_404 29
-/Exchange.zip 2 -
-/Wallet.zip 1 -
-/robots.txt 8 -
-/admin.zip 1 -
+BEGIN_SIDER_404 32
 /sitemap.xml 1 -
-/Bitcoin.zip 1 -
-/BTC.zip 1 -
-/WWW.zip 1 -
-/support.zip 1 -
-/config.bak.php 1 -
-/Web.zip 1 -
-/crypto.zip 1 -
-/cryptocurrency.zip 1 -
-/Index.zip 2 -
-/AVEXEVA.COM.zip 1 -
-/ads.txt 8 -
-/Bit.zip 2 -
-/Data.zip 1 -
-/wallets.zip 1 -
-/balance.zip 1 -
-/AVEXEVA.zip 1 -
-/Backup.zip 1 -
-/Page.zip 1 -
-/administrator.zip 1 -
-/Files.zip 1 -
-/userdb.zip 1 -
-/base.zip 2 -
 /Coin.zip 1 -
+/Wallet.zip 1 -
+/AVEXEVA.COM.zip 1 -
+/support.zip 1 -
 /Avexeva.zip 1 -
+/Backup.zip 1 -
+/a/XIO/Language/Javascript/Function/loadMenu.js 10 https://www.avexeva.com/
+/balance.zip 1 -
+/Bit.zip 2 -
+/Exchange.zip 2 -
+/cgi-bin/ 1 -
+/AVEXEVA.zip 1 -
+/Files.zip 1 -
+/.well-known/security.txt 1 -
+/ads.txt 11 -
+/base.zip 2 -
+/BTC.zip 1 -
+/crypto.zip 1 -
+/administrator.zip 1 -
+/Index.zip 2 -
+/robots.txt 11 -
+/WWW.zip 1 -
+/Data.zip 1 -
+/admin.zip 1 -
+/Web.zip 1 -
+/userdb.zip 1 -
+/config.bak.php 1 -
+/Page.zip 1 -
+/cryptocurrency.zip 1 -
+/Bitcoin.zip 1 -
+/wallets.zip 1 -
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 25 first Hits must be first (order not required for others)
-BEGIN_VISITOR 21
+BEGIN_VISITOR 22
 93.158.90.75 10 10 1097608 20210104070312
 130.255.162.178 9 9 992761 20210101020533
-130.255.162.173 9 9 992518 20210105092839
-93.158.90.87 9 9 992761 20210101225638
 192.36.136.246 9 9 992518 20210104143807
-93.158.90.102 9 9 992518 20210106003956
 130.255.162.168 9 9 992518 20210106053736
-130.255.162.175 9 9 992518 20210107021850
+93.158.90.102 9 9 992518 20210106003956
+130.255.162.173 9 9 992518 20210105092839
 192.36.137.125 9 9 992518 20210105192311
-138.246.253.24 5 5 0 20210107194856
-64.225.10.174 1 1 105470 20210103151231
-167.99.45.26 1 1 105443 20210108005100 20210108005100 /
-134.122.10.216 1 1 38260 20210106034447
-135.181.145.118 1 1 105470 20210101071542
-52.91.79.112 1 1 105443 20210106123805
-159.203.124.41 1 1 105443 20210106041035
-161.35.136.79 1 1 38272 20210106053001
-54.149.38.188 1 1 105443 20210107101017
-52.41.179.82 1 1 105443 20210107100953
-202.102.144.121 1 1 105443 20210105120433
+93.158.90.87 9 9 992761 20210101225638
+130.255.162.175 9 9 992518 20210107021850
+138.246.253.24 9 9 0 20210110144651
 45.55.44.52 1 1 105443 20210106024525
+52.41.179.82 1 1 105443 20210107100953
+135.181.145.118 1 1 105470 20210101071542
+54.149.38.188 1 1 105443 20210107101017
+52.91.79.112 1 1 105443 20210106123805
+202.102.144.121 1 1 105443 20210105120433
+64.225.10.174 1 1 105470 20210103151231
+161.35.136.79 1 1 38272 20210106053001
+167.99.45.26 1 1 105443 20210108005100
+159.203.124.41 1 1 105443 20210106041035
+134.122.10.216 1 1 38260 20210106034447
+83.187.191.4 0 1 29072 
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 8
+BEGIN_DAY 10
 20210101 20 20 2090992 4
 20210102 3 3 0 2
 20210103 1 1 105470 1
@@ -288,19 +297,21 @@ BEGIN_DAY 8
 20210105 19 19 2090479 3
 20210106 23 23 2377897 7
 20210107 12 12 1203404 4
-20210108 1 1 105443 1
+20210108 2 2 105443 2
+20210109 1 2 29072 1
+20210110 2 2 0 2
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 3
-5mn-15mn 1
 2mn-5mn 9
-0s-30s 13
+5mn-15mn 1
+0s-30s 18
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 25 first Pages must be first (order not required for others)
 BEGIN_SIDER 2
 /index.php 73 8089197 0 9
-/ 25 1974614 24 14
+/ 29 1974614 28 19
 END_SIDER

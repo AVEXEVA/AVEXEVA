@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 01/08/2021 00:51:00
-2021 1 8 0 51 0
-155 100 39 1 1 14 10274829 107 33 0
-1 1 12 1 8
+# Webalizer V2.23-08 Incremental Data - 01/11/2021 05:59:07
+2021 1 11 5 59 7
+211 132 53 3 4 17 12183011 135 52 0
+1 1 31 1 11
 33 21 2196462 9 23 7
 13 3 0 6 3 2
 14 1 105470 8 2 2
@@ -9,7 +9,10 @@
 22 20 2195922 6 20 4
 28 23 2378002 11 26 10
 16 12 1203404 5 13 5
-1 1 105443 1 1 1
+39 23 1553362 8 17 8
+4 2 29072 4 1 1
+13 8 431191 10 11 11
+1 0 0 1 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -30,37 +33,34 @@
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-0 0 0 0 0 0
-13 10 1097961 10
-0 0 0 0
-22 19 2090722 19
+14 11 1136233 11
+1 1 105443 1
+23 20 2090722 20
 2 2 143703 2
-2 1 105478 2
-13 10 1030860 13
+3 2 210921 3
+14 10 1030860 13
 5 1 0 1
 13 13 1308548 13
-1 0 0 0
-10 10 992518 10
+3 0 70 2
+11 10 992518 11
 4 2 210886 2
-5 0 0 1
-9 2 210886 2
-8 0 0 0
-13 9 992518 10
-1 1 105470 1
-1 0 0 0
+8 3 181963 4
+10 2 210886 3
+9 0 35 1
+15 11 992518 12
+7 1 105470 1
+2 1 0 1
 0 0 0 0
 1 1 0 1
-18 10 992518 10
-1 0 0 0
-0 0 0 0
+20 12 1127033 11
+2 0 0 1
+31 20 1342441 11
 12 9 992761 9
 1 0 0 1
 0
 0
 0
-100
+132
 0
 0
 0
@@ -75,10 +75,10 @@
 0
 0
 0
-7
+13
 0
 0
-48
+66
 0
 0
 0
@@ -99,10 +99,20 @@
 0
 0
 # -urls- 
+/e/Picture/E.jpg
+0 1 3417233155821823354 29072 0 0
 /
-0 100 3417233155821823354 10274724 33 7
+0 121 7146771100715608163 11879934 51 14
+/e/Picture/XXXNULLXLUNNXXX.jpg
+0 10 3256726164893349937 273760 0 0
 # End Of Table - urls
 # -sites- (monthly)
+duckduckbot.duckduckgo.com
+0 30 20 1342406 1 1610142242
+/
+m83-187-191-4.cust.tele2.se
+0 1 1 29072 0 0
+-
 45.55.44.52
 0 1 1 105443 1 1609901125
 /
@@ -112,9 +122,18 @@ crawl-66-249-66-94.googlebot.com
 206.189.50.91
 0 2 0 0 0 0
 -
+119-127-158-51.instances.scw.cloud
+0 2 1 105478 2 1610276926
+/
 185.17.184.2
 0 10 0 0 0 0
 -
+3-205-15-51.instances.scw.cloud
+0 1 1 105443 1 1610133831
+/
+209.17.96.98.rdns.cloudsystemnetworks.com
+0 1 1 105443 1 1610254585
+/
 jobqueue-listener.jobqueue.netcraft.com-u37a2fc5a501411eb9abdb7fc828d6ab1u-digitalocean
 0 1 1 38260 1 1609904687
 /
@@ -130,6 +149,9 @@ mail-162-175.rch003.net
 167.71.172.8
 0 1 0 35 1 1609909960
 /
+45.55.60.131
+0 1 0 0 0 0
+-
 crawl-66-249-66-92.googlebot.com
 0 1 0 0 0 0
 -
@@ -143,13 +165,13 @@ prod-nyc3.qencode-encoder-f7e16fae501111ebba8e76050b26adc7
 0 1 0 35 1 1609909960
 /
 crawl-66-249-70-49.googlebot.com
-0 4 0 0 0 0
+0 5 0 0 0 0
 -
 prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
 0 1 1 105443 1 1609906235
 /
 crawl-66-249-70-47.googlebot.com
-0 3 0 0 0 0
+0 6 0 0 0 0
 -
 80.255.7.119
 0 1 0 0 0 0
@@ -158,17 +180,17 @@ mail-162-173.rch003.net
 0 9 9 992518 1 1609838919
 /
 crawl-66-249-70-45.googlebot.com
-0 4 0 0 0 0
+0 6 0 0 0 0
 -
 crawl-66-249-73-61.googlebot.com
 0 2 0 0 0 0
 -
-jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
-0 1 0 35 1 1609908210
-/
 52.158.230.150
 0 1 0 0 0 0
 -
+jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
+0 1 0 35 1 1609908210
+/
 ppp58.dyptt.sd.cn
 0 1 1 105443 1 1609848273
 /
@@ -187,8 +209,14 @@ mail-162-178.rch003.net
 static.118.145.181.135.clients.your-server.de
 0 1 1 105470 1 1609485342
 /
+143-251-15-51.instances.scw.cloud
+0 1 0 35 1 1610268713
+/
 planetlab24.net.in.tum.de
-0 9 5 0 8 1610060577
+0 15 9 0 14 1610290011
+/
+83-66-158-51.instances.scw.cloud
+0 1 0 35 1 1610113725
 /
 93.158.90.102
 0 9 9 992518 1 1609893596
@@ -202,17 +230,35 @@ planetlab24.net.in.tum.de
 ec2-52-91-79-112.compute-1.amazonaws.com
 0 1 1 105443 1 1609936685
 /
+77-108-158-51.instances.scw.cloud
+0 1 1 38272 1 1610238166
+/
+80.255.7.118
+0 1 0 0 1 1610282343
+-
 64.225.10.174
 0 1 1 105470 1 1609686751
 /
 209.17.96.10.rdns.cloudsystemnetworks.com
 0 1 1 105470 1 1609486902
 /
+247-103-158-51.instances.scw.cloud
+0 1 1 105443 1 1610241692
+/
+246-195-15-51.instances.scw.cloud
+0 1 1 38260 1 1610279217
+/
 93.158.90.87
 0 9 9 992761 1 1609541798
 /
+3-109-158-51.instances.scw.cloud
+0 1 1 38260 1 1610277886
+/
 209.17.96.82.rdns.cloudsystemnetworks.com
 0 1 1 105443 1 1609816337
+/
+25-180-172-163.instances.scw.cloud
+0 1 0 35 1 1610140299
 /
 h-217.114.218.28.keyweb.de
 0 3 0 0 0 0
@@ -222,25 +268,35 @@ h-217.114.218.28.keyweb.de
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-167.99.45.26
-0 1 1 105443 1 1610067060
-/
+45.55.60.131
+0 1 0 0 0 0
+-
 # End Of Table - sites (daily)
 # -referrers- 
+https://www.avexeva.com/index.php
+0 18
+https://www.google.com/
+0 1
 - (Direct Request)
-0 155
+0 190
+https://www.avexeva.com/
+0 2
 # End Of Table - referrers
 # -agents- 
 Mozilla/5.0
 0 1
+Mozilla/5.0 (Linux; Android 10; I4113) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Mobile Safari/537.36
+0 1
 Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)
-0 2
+0 3
 Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36
 0 1
 Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 0 8
+'Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'
+0 30
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 15
+0 21
 Go-http-client/1.1
 0 2
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
@@ -254,9 +310,11 @@ Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83
 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3729.169 Safari/537.36
 0 82
 Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.85 Safari/537.36
-0 9
+0 15
 Python-urllib/2.7
-0 29
+0 30
+security_txt_analysis/1.0
+0 1
 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
 0 2
 # End Of Table - agents
