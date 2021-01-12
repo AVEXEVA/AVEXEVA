@@ -1,7 +1,7 @@
-# Webalizer V2.23-08 Incremental Data - 01/11/2021 05:59:07
-2021 1 11 5 59 7
-211 132 53 3 4 17 12183011 135 52 0
-1 1 31 1 11
+# Webalizer V2.23-08 Incremental Data - 01/12/2021 04:28:20
+2021 1 12 4 28 20
+214 132 54 3 4 17 12183046 136 53 0
+1 1 31 1 12
 33 21 2196462 9 23 7
 13 3 0 6 3 2
 14 1 105470 8 2 2
@@ -12,8 +12,8 @@
 39 23 1553362 8 17 8
 4 2 29072 4 1 1
 13 8 431191 10 11 11
-1 0 0 1 0 0
-0 0 0 0 0 0
+3 0 0 3 0 0
+1 0 35 1 1 1
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
@@ -37,7 +37,7 @@
 1 1 105443 1
 23 20 2090722 20
 2 2 143703 2
-3 2 210921 3
+4 2 210956 4
 14 10 1030860 13
 5 1 0 1
 13 13 1308548 13
@@ -48,7 +48,7 @@
 10 2 210886 3
 9 0 35 1
 15 11 992518 12
-7 1 105470 1
+9 1 105470 1
 2 1 0 1
 0 0 0 0
 1 1 0 1
@@ -75,10 +75,10 @@
 0
 0
 0
-13
+14
 0
 0
-66
+68
 0
 0
 0
@@ -102,9 +102,9 @@
 /e/Picture/E.jpg
 0 1 3417233155821823354 29072 0 0
 /
-0 121 7146771100715608163 11879934 51 14
+0 121 0 11879934 52 14
 /e/Picture/XXXNULLXLUNNXXX.jpg
-0 10 3256726164893349937 273760 0 0
+0 10 0 273760 0 0
 # End Of Table - urls
 # -sites- (monthly)
 duckduckbot.duckduckgo.com
@@ -171,7 +171,7 @@ prod-nyc3.qencode-encoder-f582dff6501411ebbaf076050b26adc7
 0 1 1 105443 1 1609906235
 /
 crawl-66-249-70-47.googlebot.com
-0 6 0 0 0 0
+0 7 0 0 0 0
 -
 80.255.7.119
 0 1 0 0 0 0
@@ -180,17 +180,20 @@ mail-162-173.rch003.net
 0 9 9 992518 1 1609838919
 /
 crawl-66-249-70-45.googlebot.com
-0 6 0 0 0 0
+0 7 0 0 0 0
 -
+24-98-158-51.instances.scw.cloud
+0 1 0 35 1 1610425700
+/
 crawl-66-249-73-61.googlebot.com
 0 2 0 0 0 0
--
-52.158.230.150
-0 1 0 0 0 0
 -
 jobqueue-listener.jobqueue.netcraft.com-u3696c45e501411eb9abdb7fc828d6ab1u-digitalocean
 0 1 0 35 1 1609908210
 /
+52.158.230.150
+0 1 0 0 0 0
+-
 ppp58.dyptt.sd.cn
 0 1 1 105443 1 1609848273
 /
@@ -268,9 +271,9 @@ h-217.114.218.28.keyweb.de
 /
 # End Of Table - sites (monthly)
 # -sites- (daily)
-45.55.60.131
-0 1 0 0 0 0
--
+24-98-158-51.instances.scw.cloud
+0 1 0 35 1 1610425700
+/
 # End Of Table - sites (daily)
 # -referrers- 
 https://www.avexeva.com/index.php
@@ -278,7 +281,7 @@ https://www.avexeva.com/index.php
 https://www.google.com/
 0 1
 - (Direct Request)
-0 190
+0 193
 https://www.avexeva.com/
 0 2
 # End Of Table - referrers
@@ -296,7 +299,7 @@ Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
 'Mozilla/5.0 (compatible; DuckDuckBot-Https/1.1; https://duckduckgo.com/duckduckbot)'
 0 30
 Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
-0 21
+0 23
 Go-http-client/1.1
 0 2
 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36

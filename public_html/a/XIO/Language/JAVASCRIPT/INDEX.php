@@ -5,7 +5,7 @@ LOAD( '../JAVASCRIPT/EVENT/INDEX.php' );
 IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen( $_SERVER['SCRIPT_NAME'] ) - 5 ) . '/INDEX.php') ){
   LOAD( '../JAVASCRIPT/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen( $_SERVER['SCRIPT_NAME'] ) - 5 ) . '/INDEX.php' );
 }?>
-<SCRIPT SRC='a/XIO/Language/JAVASCRIPT/FUNCTION/loadMenu.js'></SCRIPT>
+<SCRIPT SRC='a/XIO/Language/JAVASCRIPT/FUNCTION/loadMenu.js?<?PHP ECHO RAND(0,99999999);?>'></SCRIPT>
 <SCRIPT>
   var animate = true;
   var idt = 0;
@@ -83,7 +83,7 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
   function phaseCharacters(b = false){
     if(b == false){
       animate = false;
-      var Header = document.body.children[0];
+      var Header = document.getElementById('Header');
       var children = Header.children;
       var count = 0;
       var removed = 0;
@@ -130,8 +130,6 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
        } else {setTimeout(function(){phaseCharacters(false);}, 25);}
     }
   }
-</SCRIPT>
-<script>
   var Character = 0;
   function toggle(C){
     if(C == 'a' && C != Character){
@@ -163,3 +161,4 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
     }
   }
 </script>
+<SCRIPT></SCRIPT>

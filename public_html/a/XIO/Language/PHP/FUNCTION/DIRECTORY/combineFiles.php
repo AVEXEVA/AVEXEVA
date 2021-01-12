@@ -11,7 +11,7 @@ function combineFiles($f){
       $data[] = fread($file, filesize($f . "/" . $fs));
       fclose($file);
     }
-  }	
-  return highlight_string( $data );
+  }
+  return $data;
 }
 ?>

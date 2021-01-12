@@ -33,7 +33,7 @@ DIV#AVEXƎVA {
 div.Browser
 {
   position:absolute;
-  text-align:center;
+  /*text-align:center;*/
   top:50%;
   z-index:1;
   width:100%;
@@ -47,12 +47,14 @@ div.Browser>:first-child {
   width:30%;
   height:100%;
   float:left;
+  position:fixed;
 }
 div.Browser>:nth-child(2) {
-  width:40%;
+  width:70%;
   height:100%;
   float:left;
-  text-align:center;
+  /*text-align:center;*/
+  margin-left:30%;
   font-size:12px;
 }
 PRE#eXte {
@@ -71,31 +73,33 @@ FOOTER {
   z-index:0;
   height:50%;
 }
-</STYLE>
-<STYLE>
-UL.Menu  {
+UL.MENU  {
   position:relative;
   list-style-type:none;
   margin:0;
   padding:0;
   grid-gap:15px;
+  padding:0px;
 }
-UL.Menu LI {margin:0;}
-UL.Menu LI a {text-decoration:none;}
-UL.Menu LI a:hover {text-decoration:underline;}
-UL.Menu LI {
+UL.MENU LI {margin:0;}
+UL.MENU LI a {text-decoration:none;}
+UL.MENU LI a:hover {text-decoration:underline;}
+UL.MENU LI {
   position:absolute;
 }
-UL.Menu LI {
+UL.MENU LI {
   text-align:center;
   justify-content:center;
   align-items:center;
 }
-UL.Menu LI.Parent, UL.Menu LI.Folder, UL.Menu Li.File {
-  width:100px;
+UL.MENU LI.Parent, UL.Menu LI.Folder, UL.Menu Li.File {
+  width:50px;
   height:25px;
   text-align:center;
 }
-UL.Menu LI.Line {
+UL.MENU LI.Line {
   background-color:black;
+}
+CODE {
+  FONT-SIZE:12px;
 }
