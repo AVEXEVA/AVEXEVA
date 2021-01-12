@@ -7,12 +7,12 @@ CLASS CONTAINER EXTENDS \INDEX {
         <?php \DIRECTORY\ListFiles('a');?>
       </UL>
       <DIV Class='Container'><PRE><?php
-        if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a'){
-          $f = fopen($_GET['File'], 'r');
-          echo fread($f, filesize($_GET['File']));
-          fclose($f);
-        } elseif(in_array($_GET['Folder'], array('a/XOR', 'a//XOR'))){
-          echo implode(',',  \DIRECTORY\combineFiles($_GET['Folder']));
+        IF(ISSET($_GET['File']) && SUBSTR($_GET['File'], 0, 1) == 'a'){
+          $f = FOPEN($_GET['File'], 'r');
+          echo HIGHLIGHT_STRING( FREAD( $f, FILESIZE( $_GET[ 'File' ] ) ) );
+          FCLOSE($f);
+        } ELSEIF(IN_ARRAY($_GET['Folder'], ARRAY('a/XOR', 'a//XOR'))){
+          echo IMPLODE(',',  \DIRECTORY\combineFiles($_GET['Folder']));
         }
 
       ?></PRE></DIV>
