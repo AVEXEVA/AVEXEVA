@@ -12,7 +12,7 @@ RewriteRule ^(.*)$ $1.php
   AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
 </IfModule>
 
-<FILES "atlas.php">
+<FILES "ATLAS.php">
   AuthUserFile /home/avexeva/.htpasswd
   AuthType Basic
   AuthName "Authentication"

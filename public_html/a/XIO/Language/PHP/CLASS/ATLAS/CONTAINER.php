@@ -2,7 +2,7 @@
 NAMESPACE ATLAS;
 CLASS CONTAINER EXTENDS \INDEX {
   PUBLIC FUNCTION __CONSTRUCT( $_ARGS = NULL ){
-    ?><DIV ID='a' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'a') ? 'block' : 'none';?>;'>
+    ?><DIV ID='a' class='BROWSER' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'a') ? 'block' : 'none';?>;'>
       <UL Class='Menu'>
         <?php \DIRECTORY\ListFiles('a');?>
       </UL>
@@ -17,13 +17,14 @@ CLASS CONTAINER EXTENDS \INDEX {
 
       ?></PRE></DIV>
     </DIV>
+    <SCRIPT>LOAD("a");</SCRIPT>
     <DIV ID='v' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'v') ? 'block' : 'none';?>;'>
-  		<UL Class='Menu'>
-  			<?php  \DIRECTORY\ListFiles('v');?>
-  		</UL>
-  		<DIV Class='Container'><PRE><?php
-  			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
-  				$f = fopen($_GET['File'], 'r');
+      <UL Class='Menu'>
+        <?php  \DIRECTORY\ListFiles('v');?>
+      </UL>
+      <DIV Class='Container'><PRE><?php
+        if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
+  	  $f = fopen($_GET['File'], 'r');
   				echo fread($f, filesize($_GET['File']));
   				fclose($f);
   			} elseif(in_array($_GET['Folder'], array('a/XOR', 'a//XOR'))){
