@@ -13,7 +13,7 @@ CLASS BROWSERS EXTENDS \INDEX {
   			<?php foreach(scandir('e/Picture/') as $Picture){
   				if($Picture == '..'){continue;}
   				if($Picture == '.'){continue;}
-  				?><DIV><a href='ATLAS.php?Image=<?php echo $Picture;?>'><?php echo $Picture;?></a></DIV>
+  				?><DIV><a href='index.php?Image=<?php echo $Picture;?>'><?php echo $Picture;?></a></DIV>
   			<?php }?></DIV>
   		<DIV Class='Container' style='height:100%;<?php echo isset($_GET['Image']) && substr($_GET['Image'], strlen($_GET['Image']) - 3, 3) == 'png' ? 'background-color:black;' : null;?>'><img src='e/Picture/<?php echo isset($_GET['Image']) ? $_GET['Image'] : 'XXXNULLXLUNNXXX.jpg';?>' style='object-fit:contain;height:100%;width:100%;object-position:top;' /></DIV>
   		<DIV Class='Space' style='height:100%;<?php echo isset($_GET['Image']) && substr($_GET['Image'], strlen($_GET['Image']) - 3, 3) == 'png' ? 'background-color:black;' : null;?>'>&nbsp;</DIV>
@@ -21,8 +21,9 @@ CLASS BROWSERS EXTENDS \INDEX {
   }
   PRIVATE FUNCTION eXte(){
     ?><PRE ID='eXte' style='display:<?php
-      echo  !  (isset($_GET['File']) || isset($_GET['Folder']))
+      echo  FALSE
+            && (!  (isset($_GET['File']) || isset($_GET['Folder']))
             || (isset($_GET['File']) && !in_array(substr($_GET['File'], 0, 1), array('a','v')) && !isset($_GET['Folder']))
-            || !in_array(substr($_GET['Folder'], 0, 1), array('a','v')) ? 'block' : 'none';?>;'><?PHP REQUIRE('a/Xt/X');?></PRE><?PHP
+            || !in_array(substr($_GET['Folder'], 0, 1), array('a','v'))) ? 'block' : 'none';?>;'><?PHP REQUIRE('a/Xt/X');?></PRE><?PHP
   }
 }?>

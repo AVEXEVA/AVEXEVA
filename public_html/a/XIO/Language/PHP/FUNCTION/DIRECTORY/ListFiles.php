@@ -1,12 +1,12 @@
 <?php
 NAMESPACE DIRECTORY;
-FUNCTION ListFiles($f, $page = 'ATLAS'){
+FUNCTION ListFiles($f, $page = 'index'){
   IF(isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == $f){
     ListFiles($_GET['Folder']);
   } ELSE {
-    IF(   isset($_GET['File']) 
-       && strrpos($_GET['File'], '/') > 0 
-       && strlen(substr($_GET['File'], 0, strrpos($_GET['File'], '/'))) > 0 
+    IF(   isset($_GET['File'])
+       && strrpos($_GET['File'], '/') > 0
+       && strlen(substr($_GET['File'], 0, strrpos($_GET['File'], '/'))) > 0
        && substr($_GET['File'], 0, strrpos($_GET['File'], '/')) != $f){
               ListFiles(substr($_GET['File'], 0, strrpos($_GET['File'], '/')));
     } ELSE {

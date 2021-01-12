@@ -7,10 +7,11 @@ CLASS BROWSER EXTENDS \INDEX {
     ?><DIV ID='<?PHP ECHO PARENT::__GET( 'NAME' );?>'
            CLASS='BROWSER'
            STYLE='display:<?php
-             echo (    isset($_GET['File'])
+             echo (ISSET($_GET['Folder']) || ISSET($_GET['File'])) &&
+                  ((    isset($_GET['File'])
                     && substr($_GET['File'], 0, 1) == PARENT::__GET( 'NAME' ) )
                   || (    isset($_GET['Folder'])
-                      &&  substr($_GET['Folder'], 0, 1) == PARENT::__GET( 'NAME' ) )
+                      &&  substr($_GET['Folder'], 0, 1) == PARENT::__GET( 'NAME' ) ) )
                           ? 'block'
                           : 'none';?>;'>
       <UL Class='MENU'>
