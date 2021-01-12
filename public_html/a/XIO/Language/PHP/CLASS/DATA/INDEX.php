@@ -1,6 +1,6 @@
 <?php 
-NAMESPACE \DATA;
-Class INDEX extends \Magic {
+NAMESPACE DATA;
+Class INDEX extends \INDEX {
   //TRAITS
   //VARIABLES
   //FUNCTIONS

@@ -1,17 +1,17 @@
 <?php
 NAMESPACE MAGIC;
 TRAIT __SLEEP {
-  PUBLIC FUNCTION __sleep( $_ARGS = NULL ){
-    IF( is_null( $_ARGS ) ){ RETURN SELF::__sleep( SELF::__get( 'toSleep' ) ); } 
-    ELSEIF( is_array( $_ARGS ) ){
-      IF( count( $_ARGS ) > 0 ){
+  PUBLIC FUNCTION __SLEEP( $_ARGS = NULL ){
+    IF( IS_NULL( $_ARGS ) ){ RETURN SELF::__SLEEP( GET_CLASS_VARS( GET_CLASS( $this  ) ) ); } 
+    ELSEIF( IS_ARRAY( $_ARGS ) ){
+      IF( COUNT( $_ARGS ) > 0 ){
         FOREACH( $_ARGS AS $KEY=>$VALUE ){
-          IF( SELF::__isset( $KEY ) ){ $_ARGS[ $KEY ] = SELF::__get( $KEY ); }
+          IF( SELF::__ISSET( $KEY ) ){ $_ARGS[ $KEY ] = SELF::__GET( $KEY ); }
         }
       }
       RETURN $_ARGS; } 
-    ELSEIF(SELF::__isset( $_ARGS )){
-      RETURN ARRAY( $_ARGS => SELF::__get( $_ARGS ) );
+    ELSEIF(SELF::__ISSET( $_ARGS )){
+      RETURN ARRAY( $_ARGS => SELF::__GET( $_ARGS ) );
     }
   }
 }?>

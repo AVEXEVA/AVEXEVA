@@ -1,16 +1,11 @@
 <?php
-namespace Network;
-if(!trait_exists('Traits\Magic_Methods')){require('cgi-bin/PHP/Traits/Magic_Methods.php');}
-Class IP {
-  //Traits
-  use Traits\Magic_Methods;
-  //Variables
-  protected $ID = NULL;
-  protected $Address = NULL;
-  //Functions
-  public function __toString(){return $this->__get('Address');}
-  public function __insert(){
-
+NAMESPACE NETWORK;
+CLASS IP EXTENDS \DATA\_STRING {
+  //VARIABLES
+  //FUNCTIONS
+  PUBLIC FUNCTION __CONSTRUCT( $_ARGS = NULL ){
+    PARENT::__CONSTRUCT( $_ARGS );
   }
+  PUBLIC FUNCTION __VALIDATE( ){ RETURN FILTER_VAR( PARENT::__GET( 'STRING' ), FILTER_VALIDATE_IP ); }
 }
 ?>

@@ -30,7 +30,7 @@ CLASS INDEX EXTENDS \INDEX {
     PARENT::__SET( 
       'DATASERVER', 
       ARRAY( 
-        'LOCALHOST' => new \SQL\DATASERVER( $this->__SLEEP( ) )
+        'LOCALHOST' => new \SQL\DATASERVER( ARRAY( 'SESSION' => $this->__SLEEP()  ))
       )
     ); 
   }

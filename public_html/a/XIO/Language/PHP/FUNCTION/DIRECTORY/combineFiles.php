@@ -1,4 +1,5 @@
 <?php
+NAMESPACE DIRECTORY;
 function combineFiles($f){
 	$data = array();
 	foreach(scandir($f) as $fs){

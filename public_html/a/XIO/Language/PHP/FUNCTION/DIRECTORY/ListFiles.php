@@ -1,4 +1,5 @@
 <?php
+NAMESPACE DIRECTORY;
 function ListFiles($f, $page = 'index'){
 	if(isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == $f){
 		ListFiles($_GET['Folder']);

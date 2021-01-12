@@ -5,7 +5,9 @@ CLASS BODY EXTENDS \INDEX {
     PARENT::__CONSTRUCT( $_ARGS );
     SELF::__CONSTRUCTION( );
   }
-  PRIVATE FUNCTION __CONSTRUCTION(){?><BODY><?PHP
-    NEW \SQL\SERVER( );
-  ?><BODY><?PHP } 
+  PRIVATE FUNCTION __CONSTRUCTION(){
+    ?><BODY STYLE='margin:0px;background-color:white;overflow:hidden;' ONKEYPRESS='keyPress(this);' onload='animateCharacters();'><?PHP
+      NEW \ATLAS\HEADER( );
+      NEW \ATLAS\CONTAINER( );
+    ?></BODY><?PHP }
 }?>

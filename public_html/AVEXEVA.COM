@@ -117,7 +117,7 @@ require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 		}
 	</STYLE>
 </HEAD>
-<SCRIPT SRC='a/XIO/Language/Javascript/Function/loadMenu.js'></SCRIPT>
+<SCRIPT SRC='a/XIO/Language/JAVASCRIPT/FUNCTION/loadMenu.js'></SCRIPT>
 <SCRIPT>
 		var animate = true;
 		var idt = 0;
@@ -245,7 +245,7 @@ require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 			}
 		}
 </SCRIPT>
-<BODY STYLE='margin:0px;background-color:white;overflow:hidden;' onKeyPress='keyPress(e);' onload='animateCharacters();'>
+<BODY STYLE='margin:0px;background-color:white;overflow:hidden;' onKeyPress='keyPress( this );' onload='animateCharacters();'>
 	<HEADER id='Header' style='text-align:center;vertical-align:middle;float:left;height:50%;width:100%;display:grid;'>
 		<DIV style='grid-column:4 / span 1'>G</DIV>
 		<DIV style='grid-column:4 / span 1'>e</DIV>
@@ -261,7 +261,7 @@ require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 	</HEADER>
 	<DIV ID='a' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'a') ? 'block' : 'none';?>;'>
 		<UL Class='Menu'>
-			<?php ListFiles('a');?>
+			<?php  \DIRECTORY\ListFiles('a');?>
 		</UL>
 		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'a'){
@@ -269,14 +269,14 @@ require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 				echo fread($f, filesize($_GET['File']));
 				fclose($f);
 			} elseif(in_array($_GET['Folder'], array('a/XOR', 'a//XOR'))){
-				echo implode(',', combineFiles($_GET['Folder']));
+				echo implode(',',  \DIRECTORY\combineFiles($_GET['Folder']));
 			}
 
 		?></PRE></DIV>
 	</DIV>
 	<DIV ID='v' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'v') ? 'block' : 'none';?>;'>
 		<UL Class='Menu'>
-			<?php ListFiles('v');?>
+			<?php  \DIRECTORY\ListFiles('v');?>
 		</UL>
 		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
@@ -284,13 +284,13 @@ require('a/XIO/Language/PHP/FUNCTION/DIRECTORY/ListFiles.php');
 				echo fread($f, filesize($_GET['File']));
 				fclose($f);
 			} elseif(in_array($_GET['Folder'], array('a/XOR', 'a//XOR'))){
-				echo implode(',', combineFiles($_GET['Folder']));
+				echo implode(',',  \DIRECTORY\combineFiles($_GET['Folder']));
 			}
 
 		?></PRE></DIV>
 	</DIV>
 	<!--<DIV ID='v' class='Browser' style='display:<?php echo (isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v') || (isset($_GET['Folder']) && substr($_GET['Folder'], 0, 1) == 'v') ? 'block' : 'none';?>;'>
-		<DIV Class='Menu'><?php ListFiles('v');?></DIV>
+		<DIV Class='Menu'><?php  \DIRECTORY\ListFiles('v');?></DIV>
 		<DIV Class='Container'><PRE><?php
 			if(isset($_GET['File']) && substr($_GET['File'], 0, 1) == 'v'){
 				$f = fopen($_GET['File'], 'r');

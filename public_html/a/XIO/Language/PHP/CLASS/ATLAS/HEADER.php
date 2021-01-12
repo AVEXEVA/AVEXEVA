@@ -1,0 +1,20 @@
+<?PHP
+NAMESPACE ATLAS;
+CLASS HEADER EXTENDS \INDEX {
+  PUBLIC FUNCTION __CONSTRUCT( $_ARGS = NULL ){
+    PARENT::__CONSTRUCT( $_ARGS );
+    ?><HEADER id='Header' style='text-align:center;vertical-align:middle;float:left;height:50%;width:100%;display:grid;'>
+  		<DIV style='grid-column:4 / span 1'>G</DIV>
+  		<DIV style='grid-column:4 / span 1'>e</DIV>
+  		<DIV style='grid-column:1 / span 1' onClick="toggle('a');">a</DIV>
+  		<DIV style='grid-column:2 / span 1' onClick="toggle('v');">v</DIV>
+  		<DIV style='grid-column:3 / span 1' onClick="toggle('e');">e</DIV>
+  		<DIV style='grid-column:4 / span 1'>X</DIV>
+  		<DIV style='grid-column:5 / span 1'>Ǝ</DIV>
+  		<DIV style='grid-column:6 / span 1'>V</DIV>
+  		<DIV style='grid-column:7 / span 1'>A</DIV>
+  		<DIV style='grid-column:4 / span 1'>d</DIV>
+  		<DIV style='grid-column:4 / span 1'>S</DIV>
+  	</HEADER><?PHP
+  }
+}?>

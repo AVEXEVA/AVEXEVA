@@ -1,0 +1,101 @@
+HTML, PRE {
+  scrollbar-width:none;
+  -ms-overflow-STYLE:none;
+  overflow:-moz-scrollbars-none;
+}
+HTML::-webkit-scrollbar, PRE::-webkit-scrollbar {
+  display:none;
+}
+HEADER {
+  width:100%;
+  height:50%;
+  z-index:0;
+  background-color:black;
+  text-align:center;
+  color:white;
+  position:relative;
+  vertical-align:middle;
+}
+Header>div {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+DIV#AVEXƎVA {
+  position:absolute;
+  top:22.5%;
+  text-align:center;
+  z-index:1;
+  height:27.5%;
+  width:100%;
+  color:white;
+}
+div.Browser
+{
+  position:absolute;
+  text-align:center;
+  top:50%;
+  z-index:1;
+  width:100%;
+  height:0%;
+  overflow:auto;
+  height:50%;
+  margin:0;
+}
+div.Browser>:first-child {
+  text-align:right;
+  width:30%;
+  height:100%;
+  float:left;
+}
+div.Browser>:nth-child(2) {
+  width:40%;
+  height:100%;
+  float:left;
+  text-align:center;
+  font-size:12px;
+}
+PRE#eXte {
+  position:absolute;
+  top:50%;
+  z-index:1;
+  width:100%;
+  text-align:center;
+  height:0%;
+  overflow:auto;
+  height:50%;
+  margin:0;
+}
+FOOTER {
+  width:100%;
+  z-index:0;
+  height:50%;
+}
+</STYLE>
+<STYLE>
+UL.Menu  {
+  position:relative;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  grid-gap:15px;
+}
+UL.Menu LI {margin:0;}
+UL.Menu LI a {text-decoration:none;}
+UL.Menu LI a:hover {text-decoration:underline;}
+UL.Menu LI {
+  position:absolute;
+}
+UL.Menu LI {
+  text-align:center;
+  justify-content:center;
+  align-items:center;
+}
+UL.Menu LI.Parent, UL.Menu LI.Folder, UL.Menu Li.File {
+  width:100px;
+  height:25px;
+  text-align:center;
+}
+UL.Menu LI.Line {
+  background-color:black;
+}
