@@ -11,12 +11,4 @@ RewriteRule ^(.*)$ $1.php
 <IfModule mime_module>
   AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
 </IfModule>
-
-<FILES "ATLAS.php">
-  AuthUserFile /home/avexeva/.htpasswd
-  AuthType Basic
-  AuthName "Authentication"
-  Require valid-user
-</FILES>
-
 # php -- END cPanel-generated handler, do not edit

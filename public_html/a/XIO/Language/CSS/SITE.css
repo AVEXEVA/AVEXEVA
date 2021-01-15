@@ -44,17 +44,17 @@ div.Browser
 }
 div.Browser>:first-child {
   text-align:right;
-  width:30%;
+  width:40%;
   height:100%;
   float:left;
   position:fixed;
 }
 div.Browser>:nth-child(2) {
-  width:70%;
+  width:60%;
   height:100%;
   float:left;
   /*text-align:center;*/
-  margin-left:30%;
+  margin-left:40%;
   font-size:12px;
 }
 PRE#eXte {
@@ -82,10 +82,13 @@ UL.MENU  {
   padding:0px;
 }
 UL.MENU LI {margin:0;}
-UL.MENU LI a {text-decoration:none;background-color:white;}
+UL.MENU LI a {
+  text-decoration:none;
+  background-color:transparent;
+}
 UL.MENU LI a:hover {text-decoration:underline;}
 UL.MENU LI {
-  background-color:white;
+  background-color:transparent;
   position:absolute;
 }
 UL.MENU LI {
@@ -99,7 +102,7 @@ UL.MENU LI.Parent, UL.Menu LI.Folder, UL.Menu Li.File {
   text-align:center;
 }
 UL.MENU LI.Line {
-  background-color:black;
+  background-color:rgba(0, 0, 0, .1);
 }
 CODE {
   FONT-SIZE:12px;

@@ -4,7 +4,8 @@ CLASS BROWSERS EXTENDS \INDEX {
   PUBLIC FUNCTION __CONSTRUCT( $_ARGS = NULL ){
     NEW \ATLAS\BROWSER( ARRAY( 'NAME' => 'a' ) );
     NEW \ATLAS\BROWSER( ARRAY( 'NAME' => 'v' ) );
-    SELF::e();
+    NEW \ATLAS\BROWSER( ARRAY( 'NAME' => 'e' ) );
+    //SELF::e();
     SELF::eXte();
   }
   PRIVATE FUNCTION e(){

@@ -17,6 +17,55 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
   var phase = 'cross';
   var phase_homed = true;
   var audio = false;
+  function getAngleDegrees(fromX,fromY,toX,toY,force360 = false) {
+    let deltaX = fromX - toX;
+    let deltaY = fromY - toY;
+    let radians = Math.atan2(deltaY, deltaX)
+    let degrees = ((radians * 180) / Math.PI) - 90;
+    if (force360) { degrees  = (degrees + 360) % 360; }
+    return degrees;
+  }
+  function is_in_circle(circle_x, circle_y, r, x, y){
+    var d = Math.sqrt((circle_x - x)^2 + (circle_y - y)^2);
+    return d <= r;
+  }
+  function FOCUSMENU ( event ){
+    var BROWSER = event.currentTarget;
+    var MENU = BROWSER.children[0];
+    var LIS = MENU.children;
+    var i = 0;
+    var O0 = LIS[0].getBoundingClientRect();
+    var X0 = parseFloat( O0.left );
+    var Y0 = parseFloat( O0.top );
+    //alert( X0 + ' / ' + Y0 );
+    var X1 = parseFloat( event.clientX );
+    var Y1 = parseFloat( event.clientY );
+    //alert( X1 + ' / ' + Y1 );
+    while( LI = LIS[ i++ ] ){
+      if( LI.classList.contains ( 'Parent' ) ){ continue; }
+      var O2 = LI.getBoundingClientRect();
+      var X2 = parseFloat( O2.left );
+      var Y2 = parseFloat( O2.top );
+      var ANGLE = getAngleDegrees ( X2, Y2, X1 - 25 , Y1 - 10);
+      LINES = LI.children;
+      LI.style.transform = "rotate(" + ANGLE + "deg)";
+      var i2 = 0;
+      while ( LINE = LINES[ i2++ ] ){
+        if( LINE.nodeName == 'A' ){
+          continue;
+        }
+        var O3 = LINE.getBoundingClientRect();
+        var X3 = parseFloat( O3.left );
+        var Y3 = parseFloat( O3.top );
+        if( LINE.offsetTop >= -10){
+          LINE.style.display = 'none';
+          continue;
+        } else {
+          LINE.style.display = 'block';
+        }
+      }
+    }
+  }
   function keyPress(e){
     var keyCode = window.event ? event.keyCode : e.which ;
     var phased;
