@@ -1,12 +1,14 @@
 <?PHP
 NAMESPACE HTTP\SESSION;
 CLASS INDEX EXTENDS \INDEX {
+  //TRAITS
+  USE \MAGIC\METHODS\__CONSTRUCTORS;
   //VARIABLES
   ///ARGUMENTS
   PROTECTED $SESSION    = NULL;
   PROTECTED $GET        = NULL;
   PROTECTED $POST       = NULL;
-  PROTECTED $DATA       = NULL;
+  PROTECTED $ARGS       = NULL;
   ///SECURITY
   PROTECTED $USER       = NULL;
   PROTECTED $CONNECTION = NULL;
@@ -18,21 +20,29 @@ CLASS INDEX EXTENDS \INDEX {
     IF( SESSION_ID( ) == '' || !ISSET( $_SESSION )) { SESSION_START( ); }
     PARENT::__CONSTRUCT( 
       ARRAY(
-        'SESSION' => $_SESSION,
-        'POST'    => $_POST,
-        'GET'     => $_GET,
-        'DATA'    => $_ARGS
+        'SESSION'    => ARRAY( 
+          'NAME'  => 'SESSION',
+          'TYPE'  => '\DATA\_SESSION',
+          'VALUE' => $_SESSION
+        ),
+        'POST'    => ARRAY( 
+          'NAME'  => 'POST',
+          'TYPE'  => '\DATA\_POST',
+          'VALUE' => $_POST
+        ),
+        'GET'    => ARRAY( 
+          'NAME'  => 'GET',
+          'TYPE'  => '\DATA\_GET',
+          'VALUE' => $_GET
+        ),
+        'ARGS'    => ARRAY( 
+          'NAME'  => 'POST',
+          'TYPE'  => '\DATA\_ARGS',
+          'VALUE' => $_ARGS
+        )
       )
     );
-    SELF::__CONSTRUCTORS();
-  }
-  PRIVATE FUNCTION __CONSTRUCTORS( ){ 
-    PARENT::__SET( 
-      'DATASERVER', 
-      ARRAY( 
-        'LOCALHOST' => new \SQL\DATASERVER( ARRAY( 'SESSION' => $this->__SLEEP()  ))
-      )
-    ); 
+    SELF::__CONSTRUCTORS( );
   }
 }?>
 

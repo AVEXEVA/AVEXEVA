@@ -1,8 +1,0 @@
-<?php
-NAMESPACE MAGIC;
-TRAIT __ISSET {
-  PUBLIC FUNCTION __ISSET( $KEY ){
-    RETURN PROPERTY_EXISTS( $this, $KEY );
-  }
-}
-?>

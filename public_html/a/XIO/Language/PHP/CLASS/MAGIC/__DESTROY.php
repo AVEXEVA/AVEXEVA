@@ -1,6 +1,0 @@
-<?php
-NAMESPACE MAGIC;
-TRAIT __DESTROY {
-  PUBLIC FUNCTION __DESTROY( ){ }
-}
-?>

@@ -1,9 +1,6 @@
 <?php
-namespace Database;
-if(!trait_exists('Traits\Magic_Methods')){require('cgi-bin/PHP/Traits/Magic_Methods.php');}
-Class URL {
-  //Traits
-  use Traits\Magic_Methods;
+namespace NETWORK;
+CLASS URL EXTENDS \INDEX {
   //Variables
   public $ID = NULL;
   public $Address = NULL;

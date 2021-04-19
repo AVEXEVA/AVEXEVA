@@ -39,6 +39,7 @@ function loadMenu(Menu, angled = -0){
 		Line.style.left     = -radius * Math.cos(angled*Math.PI/180) / 2 - 25;
 		Line.style.top      = radius * Math.sin(angled*Math.PI/180) / 2 + 12;
 		Line.style.transform = "rotate(" + -angled + "deg";
+		Line.setAttribute( 'rel', -angled );
 		child.appendChild(Line);
 		angled = angled + angle;
 	}
@@ -55,7 +56,7 @@ function loadMenu(Menu, angled = -0){
 		loops++;*/
 		//dir = loops >= children.length;
 		angled = oangled;
-		setTimeout(function(){loadMenu( Menu, angled - ( angle ) )}, 100);
+		setTimeout(function(){loadMenu( Menu, angled - ( angle ) )}, 10);
 	//}
 	//animateMenu(Menu);
 }

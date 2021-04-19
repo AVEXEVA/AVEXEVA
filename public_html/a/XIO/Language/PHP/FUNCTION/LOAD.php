@@ -1,6 +1,6 @@
 <?PHP
 FUNCTION LOAD( $PATH = NULL, $DIR = 'a/XIO/Language/PHP' ){
-  $OUTPUT = 'CONSOLE';
+  $OUTPUT = 'NULL';
   TRY {
     IF( FILE_EXISTS( $DIR . '/' . $PATH ) ){
       LOADING("LOADING \PROCEDURE\LOAD : {$DIR}/{$PATH})", $OUTPUT );

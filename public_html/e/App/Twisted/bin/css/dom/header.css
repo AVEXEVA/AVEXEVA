@@ -1,0 +1,19 @@
+header {
+	background-color:black;
+	padding:25px;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+}
+ul#header_menu {
+	float:right;
+	list-style-type:none;
+	display:flex;
+	color:white;
+	vertical-align:bottom;
+}
+ul#header_menu>li {
+	width:150px;
+}
+ul#header_menu>li>a {
+	color:white;
+}

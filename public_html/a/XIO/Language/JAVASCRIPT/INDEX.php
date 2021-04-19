@@ -2,6 +2,7 @@
 LOAD( '../JAVASCRIPT/FUNCTION/INDEX.php' );
 LOAD( '../JAVASCRIPT/DOM/INDEX.php' );
 LOAD( '../JAVASCRIPT/EVENT/INDEX.php' );
+LOAD( '../JAVASCRIPT/GUI/INDEX.php' );
 IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen( $_SERVER['SCRIPT_NAME'] ) - 5 ) . '/INDEX.php') ){
   LOAD( '../JAVASCRIPT/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen( $_SERVER['SCRIPT_NAME'] ) - 5 ) . '/INDEX.php' );
 }?>
@@ -34,9 +35,9 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
     var MENU = BROWSER.children[0];
     var LIS = MENU.children;
     var i = 0;
-    var O0 = LIS[0].getBoundingClientRect();
-    var X0 = parseFloat( O0.left );
-    var Y0 = parseFloat( O0.top );
+    //var O0 = LIS[0].getBoundingClientRect();
+    //var X0 = parseFloat( O0.left );
+    //var Y0 = parseFloat( O0.top );
     //alert( X0 + ' / ' + Y0 );
     var X1 = parseFloat( event.clientX );
     var Y1 = parseFloat( event.clientY );
@@ -48,18 +49,20 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
       var Y2 = parseFloat( O2.top );
       var ANGLE = getAngleDegrees ( X2, Y2, X1 - 25 , Y1 - 10);
       LINES = LI.children;
-      LI.style.transform = "rotate(" + ANGLE + "deg)";
+      //LI.style.transform = "rotate(" + ANGLE + "deg)";
       var i2 = 0;
       while ( LINE = LINES[ i2++ ] ){
         if( LINE.nodeName == 'A' ){
           continue;
         }
+        accumulatedAngle = ANGLE + parseFloat( LINE.getAttribute( 'rel' ) );
+        LINE.style.transform = "rotate(" + accumulatedAngle + "deg)";
         var O3 = LINE.getBoundingClientRect();
         var X3 = parseFloat( O3.left );
         var Y3 = parseFloat( O3.top );
         if( LINE.offsetTop >= -10){
-          LINE.style.display = 'none';
-          continue;
+          //LINE.style.display = 'none';
+          //continue;
         } else {
           LINE.style.display = 'block';
         }
