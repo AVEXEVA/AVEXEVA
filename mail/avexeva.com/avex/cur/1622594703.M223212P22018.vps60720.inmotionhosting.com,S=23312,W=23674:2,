@@ -1,0 +1,362 @@
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id FmYtDI/UtmACVgAABSAGJw
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Tue, 01 Jun 2021 20:45:03 -0400
+Return-path: <n_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 01 Jun 2021 20:45:03 -0400
+Received: from msbadger14107.apple.com ([17.179.250.188]:56274 helo=rn2-msbadger14107.apple.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	id 1loF0I-0005ih-5r
+	for avex@avexeva.com; Tue, 01 Jun 2021 20:45:03 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1622594661;
+	bh=YCBU2aAoAV6upOXqOYONPVGCg0jQ0gIf3TPMahrX0pI=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=sw7UFDZNGJa6Ueo0AWSKYClu8ihF7dAU8NQssmXL+yzjRrbkbq3UdFD2fJJltjv2i
+	 GZzb8oVmL2Sn0RseUoa16u0X6RtI+9AfF0m++qF14RbLX9XKvhgIAbgemZHfuKhKK1
+	 /9DVz0KAD0g4kiUwF7hrj38qEfb3qJjaJcXnKj26sRaVbT9iT05UueqW3P6iyShDw6
+	 YK0MbZ8ScsfA+lc6uwAw/Do+hCK0AI3jPzf5i93yejdsEqdFVFVw1Bxtu/zn4/QiOm
+	 2ZXQ2krCLJVsXvwOIfi3PaIXN5aq3AZQoexqHo0l4VPiqe4q4bPO8QizARt92Lx+Wk
+	 Iw+QXqePuf8Ag==
+Date: Wed, 2 Jun 2021 00:44:21 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: avex@avexeva.com
+Message-ID: <19180015.546494545.1622594661186@Insideapple.apple.com>
+Subject: One week until WWDC21
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_546494542_976250572.1622594661186"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,fEkLKNObjf7Hs2TrKZ6ArE0sah01wbbEUh1reoeNBT55skiN1822mkFcLytTjrK6OGN63dhPXZfkbpZ8pvBVOu6w12FglSqURxd02d87LtaZ9dhzR8hq9kb%2B1SzaDcYBZYvqurS9xAI1YenugjrC%2BaPdZb8oT0O5g2hATpT6M2C%2FxirauX1o2JJaRRsNqNpY
+X-TXN_ID: c7c3c580-006c-4069-9255-d00966f27f3b
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2207251
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2207251
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=fDk0n4FIVmYrYlzUGzlbW%2FwSFepAoBGmGe%2F5ZrmGEMzTufRBnz0pyS1hDY0k%2BjeCWPN0Nofaso%2FApupfrzAhl%2BCneK%2BXlS7APNel7n3LuFPcev6g7mpJAKse%2BiCNRH8cwBqDV3iu07IJFZA9aJ2uI3dqFWk20%2FfddO5HcR01PIOQzhnIFeBPQ0%2BH8Vw%2B8FGI2zeHVRKIG0ukTZumnFiOHh0ARa6DMBZf6nyNl7wTyec%3D>
+X-mp: d
+X-Spam-Status: No, score=-12.4
+X-Spam-Score: -123
+X-Spam-Bar: ------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  It’s almost time for WWDC21 — starting with an Apple Keynote
+    broadcasting from Apple Park on June 7 at 10 a.m. PDT. Watch the show
+    online at apple.com. June 7, 2021 10:00 a.m. PDT. Add to calendar https://c.apple.com/r?v=2&la=en&lc=usa&a=5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&
+    [...] 
+ Content analysis details:   (-12.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+------=_Part_546494542_976250572.1622594661186
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+It=E2=80=99s almost time for WWDC21 =E2=80=94 starting with an=C2=A0Apple=
+=C2=A0Keynote broadcasting from Apple=C2=A0Park on=C2=A0June=C2=A07 at 10=
+=C2=A0a.m.=C2=A0PDT. Watch=C2=A0the show online=C2=A0at=C2=A0apple.com.
+
+June 7, 2021 10:00=C2=A0a.m. PDT.
+
+Add to calendar
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac0X7V9l2p
+
+-------------------
+
+TM and =C2=A9 2021 Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA=
+=C2=A095014.
+
+All Rights Reserved
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac0X2i5i7h
+
+Privacy=C2=A0Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac0r6q2Y6h
+
+My=C2=A0Apple=C2=A0ID
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac0r8L2k2v
+
+-------------------
+
+If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email address, please click=C2=A0here.
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DfDk0n4FIVmYrYlz=
+UGzlbWw3BhNHc8%2Bt2xWnQ7eubtrZj%2BsCOl0BSFAk%2B00ftchJuK%2BLzlnImp1kWKa5Dam=
+JhkwBY8Wzg5oiybJVChnK90TOyu%2FKGlNGiiszQA733ICN6vydkJzVZSvkgatNWqjOb4z45Tkx=
+UYhQg6qyWTnY3PhXtptyXfUUMPh0Ko0k1Ui8uF7nxfMmN7p1ENOOOwrqSF95fjm35GZWlKiKsxE=
+154CM%3D
+
+-------------------
+------=_Part_546494542_976250572.1622594661186
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html><html><head> <title>P0021169-477636</title> <meta content=3D=
+"width=3Ddevice-width,initial-scale=3D1" name=3Dviewport> <meta content=3D"=
+text/html;charset=3Dutf-8" http-equiv=3Dcontent-type> <meta content=3D"date=
+=3Dno" name=3Dformat-detection> <meta content=3D"address=3Dno" name=3Dforma=
+t-detection> <meta content=3D"email=3Dno" name=3Dformat-detection> <style t=
+ype=3Dtext/css>@media only screen and (max-device-width:568px){.m0{display:=
+none!important}.m1{display:block!important;width:100%!important;height:inhe=
+rit!important;overflow:visible!important}}</style><style type=3Dtext/css>.m=
+0,.m1,td{font-size:17px;font-weight:400;line-height:25px}.m1,.m1 div{box-si=
+zing:border-box}.m2{white-space:nowrap}.m1 .m3,img{max-width:100%}.m0,.m1,.=
+m4,a,p,td{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI'=
+,'Helvetica Neue',Helvetica,Arial,sans-serif,'SF Pro Icons'}*{-webkit-font-=
+smoothing:antialiased;text-rendering:optimizelegibility}.m0,.m1{width:100%!=
+important}table{border-spacing:0}b{font-weight:600}.m1{display:none;margin:=
+0 auto;max-width:100%}img{display:block}.m1 .m3 .m5{max-width:414px;margin:=
+0 auto}.m1 .m6{font-size:0;line-height:0;margin:0 auto}.m1 .m7,.m1 .m8{font=
+-size:17px;line-height:25px}.m9 img{display:inline-block}.m10,.m3{margin:0 =
+auto}.m11{text-align:center}.m11 img,img.m11{margin-left:auto;margin-right:=
+auto}.m12{text-align:left}.m12 img{margin-left:0;margin-right:auto}.m13 a,.=
+m14 a{border:0;outline:0}.m15>p,.m14 .m6,.m16>p{font-size:12px;line-height:=
+16px}.m17,.m0,.m1{background-color:#000}.m17{color:#f5f5f7}.m17{border-colo=
+r:#000}.m17 a,.m17 a:hover,.m17 a:visited{color:#2997ff}.m17.m13,.m17.m14,.=
+m18 .m17{color:#6e6e73;background-color:#1d1d1f}.m17.m13 .m9,.m17.m13 a,.m1=
+7.m13 a.m9,.m17.m14 .m9,.m17.m14 a,.m17.m14 a.m9,.m18 .m17 .m9,.m18 .m17 a,=
+.m18 .m17 a.m9,.m18 .m17 a:hover,.m18 .m17 a:visited{color:#a1a1a6}.m9,a:li=
+nk{text-decoration:none}.m9+.m19,a img{display:inline-block}.m4 a[x-apple-d=
+ata-detectors],a[x-apple-data-detectors],p a[x-apple-data-detectors]{text-d=
+ecoration:none!important}.m4 a,a,p a{cursor:pointer;text-decoration:none}.m=
+20,.m15,.m16,.m21{padding-right:6.25%;padding-left:6.25%}img.m12{margin-rig=
+ht:auto;margin-left:0}a img{border:0;outline:0}.m22{vertical-align:top}.m23=
+{vertical-align:bottom}.m4,p{font-size:17px;font-weight:400;line-height:25p=
+x;margin:0}.m4 a:focus,.m4 a:hover,a.m9:hover,a:focus,a:hover,a[x-apple-dat=
+a-detectors]:hover,p a:focus,p a:hover{text-decoration:underline!important}=
+a>span{letter-spacing:inherit}.m9+.m19{font-size:12px;padding:0 4px}.m14 .m=
+9{display:inline}.m24{line-height:0;vertical-align:-4px}.m25,.m25>p{font-si=
+ze:14px;line-height:20px}.m26,.m27,body{background-color:#000!important}.m2=
+8 .m29 .m30{overflow:hidden;width:100%;margin:0;background-image:url(https:=
+//www.apple.com/dm/us/21/5218614A-9CB6-43D2-900C-A767BE260EDD/i/m_hero_2x.j=
+pg)!important;background-size:414px 233px;background-position:center top;ba=
+ckground-repeat:no-repeat;max-width:414px;height:233px}.m25 .m31 a,.m32 .m3=
+1 a,.m33 .m31 a,.m34 .m31 a{color:#f5f5f7!important}.m25{color:#f5f5f7;padd=
+ing-top:20px;max-width:306px}.m25 a,.m32 a{color:#f5f5f7;font-size:14px}.m3=
+2 a{font-size:17px}.m25,.m25>p{font-weight:400}.m32,.m32>p{font-size:17px;l=
+ine-height:21px;font-weight:400}.m35{padding-top:21px}.m32{color:#f5f5f7;pa=
+dding-top:8px}.m36{padding-top:11px;padding-bottom:48px;font-size:14px;font=
+-weight:400;line-height:20px}.m36 img{width:20px;height:18px}.m26 .m5,.m27 =
+.m5{background-color:#000!important;max-width:414px}.m15,.m16{color:#86868b=
+;font-size:12px;line-height:16px}.m21,.m21>p{font-size:12px;line-height:20p=
+x}.m15 a,.m16 a,.m21 a{color:#86868b;font-size:12px}.m37{padding-top:10px;p=
+adding-bottom:9px}.m21{color:#86868b}.m38{padding-top:9px;padding-bottom:25=
+px}.m27{padding-bottom:30px}.m39.m39.m39{border:0;outline:0;text-decoration=
+:none;color:#86868b}.m40.m40.m40{color:#86868b}</style><!--[if gte mso 9]>
+        <style type=3D"text/css">
+  =09=09=09=09table,td,tr,a,span,b,sup{line-height:normal !important; mso-l=
+ine-height-rule: exactly;}
+  =09=09=09=09sup{font-size:100% !important;}
+  =09=09=09=09h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-fami=
+ly:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weigh=
+t: 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}
+  =09=09=09=09h1 sup,h2 sup,h3 sup,h4 sup,h5 sup,h6 sup, .outSemiBold sup, =
+.outBold sup{font-size:90% !important;}
+  =09=09=09=09b,strong {line-height: inherit !important; font-family:'Segoe=
+ UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight: 400 !i=
+mportant; mso-line-height-rule: exactly; }
+  =09=09=09=09.outBold { font-family: 'Segoe UI', Arial, sans-serif !import=
+ant; font-weight: 600 !important; }
+          .outSemiBold { font-family: 'Segoe UI SemiBold','Segoe UI', Arial=
+, sans-serif !important; font-weight: 400 !important;line-height: inherit !=
+important;mso-text-raise: 2px; }
+  =09=09=09=09.outBold {overflow:visible;line-height: inherit !important;ms=
+o-line-height-rule: exactly;mso-text-raise: 2px; }
+  =09=09=09=09.fallback { display: block !important}
+  =09=09=09=09.animated { display: none !important}
+  =09=09=09=09li {margin-bottom: 9px;}
+  =09=09=09=09ol {margin-left: 0 !important; }
+  =09=09=09</style>
+  =09=09=09<xml>
+  =09=09=09=09<o:OfficeDocumentSettings>
+  =09=09=09=09<o:AllowPNG/>
+  =09=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+  =09=09=09=09</o:OfficeDocumentSettings>
+  =09=09=09</xml>
+    =09=09<![endif]--><!--[if gte mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1,h2,h3,h4,h5,h6 {mso-text-raise: 2px;}
+    =09=09=09</style>
+    =09=09<![endif]--><!--[if mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1 {mso-text-raise: 4px;}
+    =09=09=09</style>
+        <![endif]--></head><body id=3Dbody style=3Dmargin:0;padding:0><i st=
+yle=3Doverflow:hidden;position:absolute;max-height:0;font-size:0></i><div c=
+lass=3Dm1 style=3Ddisplay:none;width:0;height:0;overflow:hidden><div class=
+=3D"m17 m3 m26"><div class=3Dm5><div class=3Dm6><div class=3Dm7><div class=
+=3Dm28><div class=3Dm29><div class=3D"m12 m30"><span aria-label=3D"WWDC21, =
+June 7-11" role=3Dimg></span></div></div></div></div></div><div class=3D"m6=
+ m20"><div class=3Dm7><div class=3D"m8 m11 m10 m25"><p class=3Dm4>It=E2=80=
+=99s almost time for WWDC21 =E2=80=94 starting with=C2=A0an Apple=C2=A0Keyn=
+ote broadcasting from <span class=3Dm31>Apple=C2=A0Park on=C2=A0June=C2=A07=
+ at 10=C2=A0a.m.=C2=A0PDT. Watch=C2=A0the show online=C2=A0at=C2=A0apple.co=
+m</span>.</p></div><div class=3Dm35><div class=3Dm11><img alt=3D" " height=
+=3D40 src=3Dhttps://www.apple.com/dm/us/21/5218614A-9CB6-43D2-900C-A767BE26=
+0EDD/i/m_icon_add_to_calendar_2x.png width=3D40 class=3Dm22></div></div><di=
+v class=3D"m8 m11 m32"><p class=3Dm4><span class=3Dm31>June 7, 2021<br> 10:=
+00=C2=A0a.m. PDT.</span></p></div><div class=3D"m11 m10 m36"><a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue=
+%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v=
+9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac0r6q1K9N" class=3Dm9>Add to <span=
+ class=3Dm2>calendar<span class=3Dm24><img alt=3D" " height=3D18 src=3Dhttp=
+s://www.apple.com/dm/us/21/5218614A-9CB6-43D2-900C-A767BE260EDD/i/14_downlo=
+ad_2997ff_2x.png width=3D20 style=3Ddisplay:inline;margin:0></span></span><=
+/a></div></div></div></div></div><div class=3D"m17 m3 m14 m27"><div class=
+=3Dm5><div class=3D"m6 m37"><div class=3D"m7 m11"><div class=3D"m8 m16"><p =
+class=3Dm4>TM and =C2=A9 2021 Apple Inc. One Apple Park Way, <span class=3D=
+m2 style=3Dwhite-space:nowrap>MS 96-DM</span>, Cupertino, CA=C2=A095014.</p=
+></div></div></div><div class=3D"m6 m12"><div class=3D"m7 m11"><div class=
+=3D"m8 m21"><p class=3Dm4><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8=
+Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&=
+ct=3Dac0X0G3N7M" class=3Dm39 data-footer-legal=3Dlegal>All Rights Reserved<=
+/a>=C2=A0 =C2=A0<span class=3D"m19 m40">|</span>=C2=A0 =C2=A0<a href=3D"htt=
+ps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue=
+%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v=
+9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac0X5w8Q9T" class=3Dm39 data-footer=
+-legal=3Dlegal>Privacy=C2=A0Policy</a>=C2=A0 =C2=A0<span class=3D"m19 m40">=
+|</span>=C2=A0 =C2=A0<a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dus=
+a&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM=
+4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3D=
+ac0r7l9N5T" class=3Dm39 data-footer-legal=3Dlegal>My=C2=A0Apple=C2=A0ID</a>=
+</p></div></div></div><div class=3D"m6 m38"><div class=3D"m7 m11"><div clas=
+s=3D"m8 m15"><p class=3Dm4>If you prefer not to receive commercial email fr=
+om Apple, or if you=E2=80=99ve changed your email address, please <a href=
+=3Dhttps://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DfDk0n4FIVmYr=
+YlzUGzlbW%2FwSFepAoBGmGe%2F5ZrmGEMzTufRBnz0pyS1hDY0k%2BjeCWPN0Nofaso%2FApup=
+frzAhl%2BCneK%2BXlS7APNel7n3LuFPcev6g7mpJAKse%2BiCNRH8cwBqDV3iu07IJFZA9aJ2u=
+I3dqFWk20%2FfddO5HcR01PIOQzhnIFeBPQ0%2BH8Vw%2B8FGI2zeHVRKIG0ukTZumnFiOHh0AR=
+a6DMBZf6nyNl7wTyec%3D class=3Dm39>click=C2=A0here</a>.</p></div></div></div=
+></div></div></div><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=
+=3Dpresentation width=3D100% align=3Dcenter><tr><td><div class=3Dm0><table =
+border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100%=
+ align=3Dcenter><tr><td style=3Dtext-align:center align=3Dcenter><table bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% al=
+ign=3Dcenter><tr class=3Dm3><td class=3Dm17 style=3Dbackground-color:#000;p=
+adding-bottom:10px align=3Dcenter><table border=3D0 cellpadding=3D0 cellspa=
+cing=3D0 role=3Dpresentation width=3D736 align=3Dcenter style=3Dbackground-=
+color:#000;width:736px><tr class=3Dm6><td><table border=3D0 cellpadding=3D0=
+ cellspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><td cl=
+ass=3Dm7 width=3D100%><table border=3D0 cellpadding=3D0 cellspacing=3D0 rol=
+e=3Dpresentation width=3D100% class=3Dm7><tr><td><img alt=3D"WWDC21, June 7=
+-11" height=3D407 src=3Dhttps://www.apple.com/dm/us/21/5218614A-9CB6-43D2-9=
+00C-A767BE260EDD/i/hero_2x.jpg width=3D736 style=3Ddisplay:block border=3D0=
+ class=3Dm12></td></tr></table></td></tr></table></td></tr><tr class=3Dm6><=
+td><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation wi=
+dth=3D100% align=3Dcenter><tr><td class=3Dm7 width=3D100%><table border=3D0=
+ cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm=
+7><tr><td class=3D"m8 m33" style=3D"color:#f5f5f7;text-align:center;padding=
+:19px 40px 0"><p style=3D"color:#f5f5f7;font-size:18px;font-weight:400;line=
+-height:24px;margin:0 auto">It=E2=80=99s almost time for WWDC21 =E2=80=94 s=
+tarting with an=C2=A0Apple=C2=A0Keynote <br>broadcasting from <span class=
+=3Dm31>Apple=C2=A0Park on=C2=A0June=C2=A07 at 10=C2=A0a.m.=C2=A0PDT.<br> Wa=
+tch=C2=A0the show online=C2=A0at=C2=A0apple.com</span>.</p></td></tr><tr><t=
+d style=3Dpadding-top:71px;text-align:center align=3Dcenter><img alt=3D" " =
+height=3D37 src=3Dhttps://www.apple.com/dm/us/21/5218614A-9CB6-43D2-900C-A7=
+67BE260EDD/i/ical_2x.png width=3D37 style=3Ddisplay:block border=3D0 class=
+=3Dm11 data-include-alt-export=3Dalt-include-export data-include-url-export=
+=3Dtrue></td></tr><tr><td class=3D"m8 m34" style=3D"color:#f5f5f7;text-alig=
+n:center;padding:10px 0 0"><p style=3D"color:#f5f5f7;font-size:19px;font-we=
+ight:400;line-height:23px;margin:0 auto"><span class=3Dm31>June 7, 2021<br>=
+ 10:00=C2=A0a.m. PDT.</span></p></td></tr><tr><td class=3Dm11 style=3Dpaddi=
+ng-top:26px;text-align:center;font-size:17px;font-weight:400;line-height:21=
+px><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReC=
+O2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKs=
+Y3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac0r7c4H9v" class=
+=3D"m4 m9" style=3Dfont-size:17px;font-weight:400;line-height:21px;color:#2=
+997ff>Add to <span style=3Dwhite-space:nowrap>calendar<span style=3Dline-he=
+ight:0;vertical-align:-4px><img alt=3D" " height=3D20 src=3Dhttps://www.app=
+le.com/dm/us/21/5218614A-9CB6-43D2-900C-A767BE260EDD/i/17_download_2997ff_2=
+x.png width=3D24 style=3Dfont-size:0;display:inline-block;margin:0 border=
+=3D0></span></span></a></td></tr></table></td></tr></table></td></tr></tabl=
+e></td></tr><tr class=3D"m3 m18"><td class=3D"m17 m13" style=3Dbackground-c=
+olor:#000;padding-top:40px align=3Dcenter><table border=3D0 cellpadding=3D0=
+ cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dcenter style=3Dbac=
+kground-color:#000;width:712px><tr class=3Dm6><td><table border=3D0 cellpad=
+ding=3D0 cellspacing=3D0 role=3Dpresentation width=3D660 align=3Dcenter><tr=
+><td style=3Dpadding-top:10px;padding-bottom:9px><table border=3D0 cellpadd=
+ing=3D0 cellspacing=3D0 role=3Dpresentation width=3D660 align=3Dcenter><tr>=
+<td class=3Dm7 width=3D100%><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0 role=3Dpresentation width=3D100% class=3Dm7 style=3Dtext-align:center>=
+<tr><td class=3Dm8 style=3D"color:#86868b;padding:0 12px"><p style=3Dcolor:=
+#86868b;font-size:12px;line-height:16px>TM and =C2=A9 2021 Apple Inc. One A=
+pple Park Way, <span class=3Dm2 style=3Dwhite-space:nowrap>MS 96-DM</span>,=
+ Cupertino, CA=C2=A095014.</p></td></tr></table></td></tr></table></td></tr=
+></table></td></tr><tr class=3Dm6><td><table border=3D0 cellpadding=3D0 cel=
+lspacing=3D0 role=3Dpresentation width=3D660 align=3Dcenter><tr><td style=
+=3Dpadding-bottom:9px><table border=3D0 cellpadding=3D0 cellspacing=3D0 rol=
+e=3Dpresentation width=3D660 align=3Dcenter><tr><td class=3Dm7 width=3D100%=
+><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation widt=
+h=3D100% class=3Dm7 style=3Dtext-align:center><tr><td class=3Dm8 style=3Dco=
+lor:#86868b;padding:0><p style=3Dcolor:#86868b;font-size:12px;line-height:1=
+6px><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpRe=
+CO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFK=
+sY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac0X0G3N7M" data-=
+footer-legal=3Dlegal style=3Dborder:0;outline:0;text-decoration:none;color:=
+#86868b>All Rights Reserved</a>=C2=A0 =C2=A0<span class=3Dm19 style=3Dcolor=
+:#86868b>|</span>=C2=A0 =C2=A0<a href=3D"https://c.apple.com/r?v=3D2&la=3De=
+n&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i=
+%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kq=
+fua&ct=3Dac0X5w8Q9T" data-footer-legal=3Dlegal style=3Dborder:0;outline:0;t=
+ext-decoration:none;color:#86868b>Privacy=C2=A0Policy</a>=C2=A0 =C2=A0<span=
+ class=3Dm19 style=3Dcolor:#86868b>|</span>=C2=A0 =C2=A0<a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2Fdw=
+FlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1eg=
+KAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac0r7l9N5T" data-footer-legal=3Dlegal st=
+yle=3Dborder:0;outline:0;text-decoration:none;color:#86868b>My=C2=A0Apple=
+=C2=A0ID</a></p></td></tr></table></td></tr></table></td></tr></table></td>=
+</tr><tr class=3Dm6><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 r=
+ole=3Dpresentation width=3D660 align=3Dcenter><tr><td style=3Dpadding-botto=
+m:75px><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentatio=
+n width=3D660 align=3Dcenter><tr><td class=3Dm7 width=3D100%><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=
+=3Dm7 style=3Dtext-align:center><tr><td class=3Dm8 style=3Dcolor:#86868b;pa=
+dding:0;text-align:center><p style=3D"color:#86868b;font-size:12px;line-hei=
+ght:16px;font-weight:400;margin:0 auto">If you prefer not to receive commer=
+cial email from Apple, or if you=E2=80=99ve changed your email address, ple=
+ase <a href=3Dhttps://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3Df=
+Dk0n4FIVmYrYlzUGzlbW%2FwSFepAoBGmGe%2F5ZrmGEMzTufRBnz0pyS1hDY0k%2BjeCWPN0No=
+faso%2FApupfrzAhl%2BCneK%2BXlS7APNel7n3LuFPcev6g7mpJAKse%2BiCNRH8cwBqDV3iu0=
+7IJFZA9aJ2uI3dqFWk20%2FfddO5HcR01PIOQzhnIFeBPQ0%2BH8Vw%2B8FGI2zeHVRKIG0ukTZ=
+umnFiOHh0ARa6DMBZf6nyNl7wTyec%3D style=3Dborder:0;outline:0;text-decoration=
+:none;color:#86868b>click=C2=A0here</a>.</p></td></tr></table></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr></table></td></tr></tabl=
+e></div></td></tr><tr><td></td></tr></table> </body></html>
+------=_Part_546494542_976250572.1622594661186--

@@ -1,0 +1,486 @@
+Return-Path: <01010178b69e39e4-b66aa0db-9c13-45a4-ac1a-56ce9f503d12-000000@bounce-west.twitch.tv>
+Delivered-To: peter@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id CxBmKkhJcGBCXAAABSAGJw
+	(envelope-from <01010178b69e39e4-b66aa0db-9c13-45a4-ac1a-56ce9f503d12-000000@bounce-west.twitch.tv>)
+	for <peter@avexeva.com>; Fri, 09 Apr 2021 08:32:08 -0400
+Return-path: <01010178b69e39e4-b66aa0db-9c13-45a4-ac1a-56ce9f503d12-000000@bounce-west.twitch.tv>
+Envelope-to: peter@avexeva.com
+Delivery-date: Fri, 09 Apr 2021 08:32:08 -0400
+Received: from a26-67.smtp-out.us-west-2.amazonses.com ([54.240.26.67]:39783)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.94)
+	(envelope-from <01010178b69e39e4-b66aa0db-9c13-45a4-ac1a-56ce9f503d12-000000@bounce-west.twitch.tv>)
+	id 1lUqIx-00068s-Od
+	for peter@avexeva.com; Fri, 09 Apr 2021 08:32:08 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=dh6r6vaod6penm5x6ufsnymrqcq2rt3a; d=twitch.tv; t=1617971526;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date;
+	bh=5B6cm2KJXlIu8I7hdntCjTxSPIafgvQyzxo4Sfgy3P8=;
+	b=jsc0zJp78/KPtaXGbOU9b9kkISl6OWIbay8pqm+HB56rCdlAA/Oy7FZb85pS49Xq
+	C9HVfXLSRHfJia36R85S9XKsm0qlnREFzoDYrL7C32qeRcwl/ZHzPzfZZ3lx39215vH
+	fsPFpyHegsHNc9RYgJb8cRPQr4+RCZ064dilJA/w=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1617971526;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=5B6cm2KJXlIu8I7hdntCjTxSPIafgvQyzxo4Sfgy3P8=;
+	b=LGwBzWzjI+/vnNJxFcvEOFNGe0/ipgNS0R9IvU4P95Sk7llcab6Z5dffSOWSK/cH
+	fVBHkBN4o8gh0P8S+bw2f3dhbfeCMCInpw/3Z3YV73XpzxDF2sKwb/laOCArCRGiKCJ
+	glLGPDuvDsEBpJF6z2geVxVfzi58ex/F8ZdOfQIo=
+From: Twitch <no-reply@twitch.tv>
+To: peter@avexeva.com
+Subject: =?UTF-8?Q?541458_=E2=80=93_Your_Twitch_Verification_Code?=
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <01010178b69e39e4-b66aa0db-9c13-45a4-ac1a-56ce9f503d12-000000@us-west-2.amazonses.com>
+Date: Fri, 9 Apr 2021 12:32:06 +0000
+Feedback-ID: 1.us-west-2.6if1qLlyPRc8dOFaAhyZ7qPPGGxp441EVJenuzKlcvQ=:AmazonSES
+X-SES-Outgoing: 2021.04.09-54.240.26.67
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hey xoctaviahx Please verify your Twitch account. Verify
+   your account 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: twitch.tv]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+<!doctype html><html xmlns=3Dhttp://www.w3.org/1999/xhtml style=3D"backgrou=
+nd-color: #efeef1"><head><base target=3D=E2=80=9C_blank=E2=80=9D><meta char=
+set=3Dutf-8><meta name=3Dviewport content=3D"width=3Ddevice-width"><style>@=
+media only screen{
+html {
+min-height: 100% !important;
+background: #E5E5E5 !important
+}
+}
+@media only screen and (max-width:600px){
+.small-float-center {
+margin: 0 auto !important;
+float: none !important;
+text-align: center !important
+}
+}
+@media only screen and (max-width:600px){
+.hide-for-large {
+display: block !important;
+width: auto !important;
+overflow: visible !important;
+max-height: none !important;
+font-size: inherit !important;
+line-height: inherit !important
+}
+}
+@media only screen and (max-width:600px){
+table.body table.container .hide-for-large,table.body table.container .row.=
+hide-for-large {
+display: table !important;
+width: 100% !important
+}
+}
+@media only screen and (max-width:600px){
+table.body table.container .show-for-large {
+display: none !important;
+width: 0 !important;
+mso-hide: all !important;
+overflow: hidden !important
+}
+}
+@media only screen and (max-width:600px){
+table.body img {
+width: auto !important;
+height: auto !important
+}
+table.body center {
+min-width: 0 !important
+}
+table.body .container {
+width: 90% !important
+}
+table.body .columns {
+height: auto !important;
+-moz-box-sizing: border-box !important;
+-webkit-box-sizing: border-box !important;
+box-sizing: border-box !important;
+padding-left: 20px !important;
+padding-right: 20px !important
+}
+table.body .columns .columns {
+padding-left: 0 !important;
+padding-right: 0 !important
+}
+table.body .collapse .columns {
+padding-left: 0 !important;
+padding-right: 0 !important
+}
+th.small-4 {
+display: inline-block !important;
+width: 33.33333% !important
+}
+th.small-6 {
+display: inline-block !important;
+width: 50% !important
+}
+th.small-8 {
+display: inline-block !important;
+width: 66.66667% !important
+}
+th.small-12 {
+display: inline-block !important;
+width: 100% !important
+}
+.columns th.small-12 {
+display: block !important;
+width: 100% !important
+}
+table.button.small-expanded {
+width: 100% !important
+}
+table.button.small-expanded table {
+width: 100% !important
+}
+table.button.small-expanded table a {
+text-align: center !important;
+width: 100% !important;
+padding-left: 0 !important;
+padding-right: 0 !important
+}
+}
+@media screen and (max-width:596px){
+.header-v2 {
+margin: 0 0 10px 0 !important
+}
+.header-v2 .columns {
+display: table-cell !important
+}
+}
+@media only screen and (max-width:596px) and (orientation:landscape){
+.app-store-section {
+display: block !important
+}
+}
+@media screen and (max-width:596px){
+.pd-x-75 {
+padding: inherit !important
+}
+}
+@media screen and (max-width:596px){
+.pd-x-55 {
+padding: inherit !important
+}
+}
+@media screen and (max-width:596px){
+.small-40-to-60 {
+width: 65px !important;
+height: 65px !important
+}
+}
+</style></head><body><div class=3Dpreview-text style=3Ddisplay:none;font-si=
+ze:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0=
+;overflow:hidden></div><div style=3D"background-color:#E5E5E5;background-im=
+age:none;background-repeat:repeat;background-position:top left;background-a=
+ttachment:scroll;color:#333;font-family:Helvetica, Arial, sans-serif;line-h=
+eight:1.25;-webkit-text-size-adjust:100%;"><span class=3Dpreheader style=3D=
+color:#e5e3e8;display:none!important;font-size:1px;line-height:1px;max-heig=
+ht:0;max-width:0;mso-hide:all!important;opacity:0;overflow:hidden;visibilit=
+y:hidden></span><table class=3Dbody style=3DMargin:0;background:#E5E5E5!imp=
+ortant;border-collapse:collapse;border-spacing:0;color:#E5E5E5;font-family:=
+Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;height:100%;line-=
+height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;width:100%=
+><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top><td class=
+=3Dcenter align=3Dcenter valign=3Dtop style=3D-moz-hyphens:auto;-webkit-hyp=
+hens:auto;Margin:0;border-collapse:collapse!important;color:#E5E5E5;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto=
+;line-height:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word=
+-wrap:break-word><center data-parsed style=3Dmin-width:580px;width:100%><ta=
+ble class=3D"spacer float-center" style=3D"Margin:0 auto;border-collapse:co=
+llapse;border-spacing:0;float:none;margin:0 auto;padding:0;text-align:cente=
+r;vertical-align:top;width:100%"><tbody><tr style=3Dpadding:0;text-align:le=
+ft;vertical-align:top><td height=3D15px style=3D-moz-hyphens:auto;-webkit-h=
+yphens:auto;Margin:0;border-collapse:collapse!important;color:#322F37;font-=
+family:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:au=
+to;line-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-al=
+ign:left;vertical-align:top;word-wrap:break-word>=C2=A0</td></tr></tbody></=
+table><table align=3Dcenter class=3D"container float-center" style=3D"Margi=
+n:0 auto;background:#fff;border-collapse:collapse;border-spacing:0;float:no=
+ne;margin:0 auto;padding:10px;text-align:center;vertical-align:top;width:58=
+0px;margin-left:10px!important;margin-right:10px!important;"><tbody><tr sty=
+le=3Dpadding:0;text-align:left;vertical-align:top><td style=3D-moz-hyphens:=
+auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color=
+:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:=
+400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertica=
+l-align:top;word-wrap:break-word><table class=3D"row header-v2 white border=
+-bottom" style=3D"background-attachment:scroll;background-color:#fff;backgr=
+ound-image:none;background-position:top left;background-repeat:repeat;borde=
+r-bottom:1px solid #EFEEF1;border-collapse:collapse;border-spacing:0;displa=
+y:table;margin:10px 0 15px 0;padding:0;position:relative;text-align:left;ve=
+rtical-align:top;width:100%;z-index:1"><tbody><tr style=3Dpadding:0;text-al=
+ign:left;vertical-align:top><th class=3D"flush small-12 large-12 columns fi=
+rst last" style=3D"Margin:0 auto;color:#322F37;font-family:Helvetica,Arial,=
+sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;pad=
+ding:0;padding-bottom:0!important;padding-left:20px;padding-right:20px;padd=
+ing-top:0!important;text-align:left;width:560px"><table style=3Dborder-coll=
+apse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top=
+;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top=
+><th style=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;=
+font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-alig=
+n:left><a href=3D"https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6ImxvZ28iLCJlbWF=
+pbF9pZCI6IjEwODExMWVjLWE3ZTgtNDQ2Ni1hODNlLTU5ZWNkMDRmYWZjZiIsIm5hbWUiOiJlbW=
+FpbF92YWxpZGF0aW9uX3JlcXVlc3RfY29kZV9pbnRlcm5hbCIsImN0YV92YWx1ZSI6IiJ9/6735=
+90340/3d5dd809b9b6ad749b5b326748dcf68bf622e208?ignore_query=3Dtrue&tt_conte=
+nt=3Demail_validation_request_code_internal&tt_email_id=3D108111ec-a7e8-446=
+6-a83e-59ecd04fafcf&tt_medium=3Demail" style=3DMargin:0;color:#9147ff;font-=
+family:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;=
+padding:0;text-align:left;text-decoration:none><img class=3Dfloat-center sr=
+c=3Dhttps://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv alt=3DT=
+witch style=3D"-ms-interpolation-mode:bicubic;Margin:0 auto;border:none;bor=
+der-bottom:1px solid #9147ff;clear:both;display:block;float:none;margin:0 a=
+uto;margin-bottom:-1px;max-width:100%;outline:0;padding:25px 0;position:rel=
+ative;text-align:center;text-decoration:none;width:114px!important;z-index:=
+2"></a></th><th class=3Dexpander style=3DMargin:0;color:#322F37;font-family=
+:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;=
+margin:0;padding:0!important;text-align:left;visibility:hidden;width:0></th=
+></tr></tbody></table></th></tr></tbody></table><table class=3Dspacer style=
+=3Dborder-collapse:collapse;border-spacing:0;padding:0;text-align:left;vert=
+ical-align:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vert=
+ical-align:top><td height=3D15px style=3D-moz-hyphens:auto;-webkit-hyphens:=
+auto;Margin:0;border-collapse:collapse!important;color:#322F37;font-family:=
+Helvetica,Arial,sans-serif;font-size:15px;font-weight:400;hyphens:auto;line=
+-height:15px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:lef=
+t;vertical-align:top;word-wrap:break-word>=C2=A0</td></tr></tbody></table><=
+table class=3Drow style=3Dborder-collapse:collapse;border-spacing:0;display=
+:table;padding:0;position:relative;text-align:left;vertical-align:top;width=
+:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top><th c=
+lass=3D"flush small-12 large-12 columns first last" style=3D"Margin:0 auto;=
+color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-we=
+ight:500;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0!important=
+;padding-left:20px;padding-right:20px;padding-top:0!important;text-align:le=
+ft;width:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;pa=
+dding:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dpa=
+dding:0;text-align:left;vertical-align:top><th style=3DMargin:0;color:#322F=
+37;font-family:Helvetica,Arial,sans-serif;font-size:18px;font-weight:500;li=
+ne-height:1.3;margin:0;padding:0;text-align:left><h6 class=3D"text-center m=
+b-0 title" style=3DMargin:0;Margin-bottom:10px;color:inherit;font-family:He=
+lvetica,Arial,sans-serif;font-size:18px;font-weight:500;line-height:1.3;mar=
+gin:0;margin-bottom:0;padding:0;padding-bottom:0;text-align:center;word-wra=
+p:normal;color:#9147ff>Hey xoctaviahx</h6></th><th class=3Dexpander style=
+=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:=
+16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-alig=
+n:left;visibility:hidden;width:0></th></tr></tbody></table></th></tr></tbod=
+y></table><table class=3Drow style=3Dborder-collapse:collapse;border-spacin=
+g:0;display:table;padding:0;position:relative;text-align:left;vertical-alig=
+n:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-alig=
+n:top><th class=3D"editable small-12 large-12 columns first last" style=3D"=
+Margin:0 auto;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-siz=
+e:16px;font-weight:300;line-height:1.3;margin:0 auto;padding:0;padding-bott=
+om:16px;padding-left:20px;padding-right:20px;padding-top:10px;text-align:le=
+ft;width:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;pa=
+dding:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dpa=
+dding:0;text-align:left;vertical-align:top><th style=3DMargin:0;color:#322F=
+37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;li=
+ne-height:1.3;margin:0;padding:0;text-align:left><p class=3D"mb-0 text-cent=
+er sz-13" style=3D"Margin:0;Margin-bottom:10px;font-family:Helvetica,Arial,=
+Verdana,'Trebuchet MS';font-size:16px;font-weight:300;line-height:24px;marg=
+in:0;margin-bottom:0;padding:0;padding-bottom:0;text-align:center">Please v=
+erify your Twitch account.</p><table class=3Dspacer style=3Dborder-collapse=
+:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;wid=
+th:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top><td=
+ height=3D20px style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;bord=
+er-collapse:collapse!important;color:#322F37;font-family:Helvetica,Arial,sa=
+ns-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;margi=
+n:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-align:t=
+op;word-wrap:break-word>=C2=A0</td></tr></tbody></table><center data-parsed=
+ style=3Dmin-width:520px;width:100%><table class=3D"button large float-cent=
+er" style=3D"Margin:0 0 16px 0;border-collapse:collapse;border-spacing:0;cu=
+rsor:hand;float:none;font-weight:600;margin:0 0 16px 0;margin-bottom:0;padd=
+ing:0;padding-bottom:0;text-align:center;vertical-align:top;width:auto"><tb=
+ody><tr style=3Dpadding:0;text-align:left;vertical-align:top><td style=3D-m=
+oz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!impo=
+rtant;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;f=
+ont-weight:600;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:l=
+eft;vertical-align:top;word-wrap:break-word><table style=3Dborder-spacing:0=
+;padding:0;text-align:left;vertical-align:top;width:100%;border:none><tbody=
+><tr style=3Dpadding:0;text-align:left;vertical-align:top><td style=3D"-moz=
+-hyphens:auto;-webkit-hyphens:auto;Margin:0;background:#9147ff;border:2px s=
+olid #9147ff;border-collapse:collapse!important;color:#fff;font-family:Helv=
+etica,Arial,sans-serif;font-size:16px;font-weight:600;hyphens:auto;line-hei=
+ght:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:bre=
+ak-word;border-radius:2px;overflow:hidden"><a href=3D"https://www.twitch.tv=
+/r/e/eyJsb2NhdGlvbiI6InZlcmlmeV9idXR0b24iLCJlbWFpbF9pZCI6IjEwODExMWVjLWE3ZT=
+gtNDQ2Ni1hODNlLTU5ZWNkMDRmYWZjZiIsIm5hbWUiOiJlbWFpbF92YWxpZGF0aW9uX3JlcXVlc=
+3RfY29kZV9pbnRlcm5hbCIsImN0YV92YWx1ZSI6IiJ9/673590340/60caa7194c10d582c6e4c=
+7cbb51969b792230101/email-verification/cfb9nN0b03M8qthrMLiJ0mfmJCgqBGos?ign=
+ore_query=3Dtrue&tt_content=3Demail_validation_request_code_internal&tt_ema=
+il_id=3D108111ec-a7e8-4466-a83e-59ecd04fafcf&tt_medium=3Demail&user_id=3D67=
+3590340&verify_code=3D541458" style=3D"Margin:0;border:0 solid #9147ff;bord=
+er-radius:3px;color:#fff;display:inline-block;font-family:Helvetica,Arial,s=
+ans-serif;font-size:14px;font-weight:600;line-height:1.3;margin:0;padding:1=
+0px 55px 10px 55px;text-align:left;text-decoration:none">Verify your accoun=
+t</a></td></tr></tbody></table></td></tr></tbody></table></center><br></th>=
+<th class=3Dexpander style=3DMargin:0;color:#322F37;font-family:Helvetica,A=
+rial,sans-serif;font-size:14px;font-weight:400;line-height:1.3;margin:0;pad=
+ding:0!important;text-align:left;visibility:hidden;width:0></th></tr></tbod=
+y></table></th></tr></tbody></table><table class=3D"row hide-for-large app-=
+store-section" style=3D"border-collapse:collapse;border-spacing:0;border-to=
+p:#EFEEF1 1px solid;font-size:0;line-height:0;max-height:0;mso-hide:all;ove=
+rflow:hidden;padding:0;position:relative;text-align:left;vertical-align:top=
+;width:100%"><tbody style=3Dmso-hide:all><tr style=3Dmso-hide:all;padding:0=
+;text-align:left;vertical-align:top><th class=3D"small-12 large-12 columns =
+first last" style=3D"Margin:0 auto;font-family:Helvetica,Arial,sans-serif;f=
+ont-size:16px;font-weight:300;line-height:1.3;margin:0 auto;mso-hide:all;pa=
+dding:0;padding-bottom:16px;padding-left:20px;padding-right:20px;padding-to=
+p:27px;text-align:left;width:560px"><table style=3Dborder-collapse:collapse=
+;border-spacing:0;mso-hide:all;padding:0;text-align:left;vertical-align:top=
+;width:100%><tbody><tr style=3Dmso-hide:all;padding:0;text-align:left;verti=
+cal-align:top><th style=3DMargin:0;color:#322F37;font-family:Helvetica,Aria=
+l,sans-serif;font-size:16px;font-weight:300;line-height:1.3;margin:0;mso-hi=
+de:all;padding:0;text-align:left><p class=3D"mb-0 text-center sz-14" style=
+=3D"Margin:0;Margin-bottom:10px;font-family:Helvetica,Arial,Verdana,'Trebuc=
+het MS';font-size:14px;font-weight:300;line-height:24px;margin:0;margin-bot=
+tom:0;mso-hide:all;padding:0;padding-bottom:10px;text-align:center">You can=
+ also enter this verification code:</p><div class=3D"text-center mb-0" styl=
+e=3D"Margin:0;Margin-bottom:10px;color:#322F37;font-family:Helvetica,Arial,=
+Verdana,'Trebuchet MS';font-size:24px;font-weight:400;line-height:24px;marg=
+in:0;margin-bottom:0;mso-hide:all;padding:0;padding-bottom:0;text-align:cen=
+ter;padding-top:5px"><p style=3D"background:#FAF9FA;border:1px solid;border=
+-style:solid;border-color:#DAD8DE;display:inline;padding-bottom:5px;padding=
+-left:5px;padding-right:5px;padding-top:5px">541458</p></div><table class=
+=3Dspacer style=3Dborder-collapse:collapse;border-spacing:0;mso-hide:all;pa=
+dding:0;text-align:left;vertical-align:top;width:100%><tbody style=3Dmso-hi=
+de:all><tr style=3Dmso-hide:all;padding:0;text-align:left;vertical-align:to=
+p><td height=3D10px style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0=
+;border-collapse:collapse!important;color:#322F37;font-family:Helvetica,Ari=
+al,sans-serif;font-size:10px;font-weight:400;hyphens:auto;line-height:10px;=
+margin:0;mso-hide:all;mso-line-height-rule:exactly;padding:0;text-align:lef=
+t;vertical-align:top;word-wrap:break-word>=C2=A0</td></tr></tbody></table><=
+/th></tr></tbody></table></th></tr></tbody></table></td></tr></tbody></tabl=
+e><table align=3Dcenter class=3D"container transparent float-center" style=
+=3D"Margin:0 auto;background:0 0!important;border-collapse:collapse;border-=
+spacing:0;float:none;margin:0 auto;padding:0;text-align:center;vertical-ali=
+gn:top;width:580px"><tbody><tr style=3Dpadding:0;text-align:left;vertical-a=
+lign:top><td style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border=
+-collapse:collapse!important;color:#322F37;font-family:Helvetica,Arial,sans=
+-serif;font-size:12px;font-weight:300;hyphens:auto;line-height:1.3;margin:0=
+;padding:0;text-align:left;vertical-align:top;word-wrap:break-word><table c=
+lass=3Drow style=3Dborder-collapse:collapse;border-spacing:0;display:table;=
+padding:0;position:relative;text-align:left;vertical-align:top;width:100%><=
+tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top><th class=3D=
+"small-12 large-12 columns first last" style=3D"Margin:0 auto;color:#322F37=
+;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-weight:300;line=
+-height:1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:20px;p=
+adding-right:20px;padding-top:28px;text-align:left;width:560px"><table styl=
+e=3Dborder-collapse:collapse;border-spacing:0;padding:0;text-align:left;ver=
+tical-align:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;ver=
+tical-align:top><th style=3DMargin:0;color:#322F37;font-family:Helvetica,Ar=
+ial,sans-serif;font-size:12px;font-weight:300;line-height:1.3;margin:0;padd=
+ing:0;text-align:left></th><td align=3Dcenter valign=3Dtop><table class=3Dr=
+ow style=3Dborder-collapse:collapse;border-spacing:0;display:table;padding:=
+0;position:relative;text-align:left;vertical-align:top;width:100%><tbody><t=
+r style=3Dpadding:0;text-align:left;vertical-align:top><th class=3D"small-1=
+2 large-12 columns first last" style=3D"Margin:0 auto;color:#322F37;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:=
+1.3;margin:0 auto;padding:0;padding-bottom:16px;padding-left:20px;padding-r=
+ight:20px;padding-top:20px;text-align:left;width:560px"><table style=3Dbord=
+er-collapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-al=
+ign:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-al=
+ign:top><th style=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,sans=
+-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;te=
+xt-align:left><p class=3Dtext-center style=3D"Margin:0;Margin-bottom:10px;c=
+olor:#322F37;font-family:Helvetica,Arial,Verdana,'Trebuchet MS';font-size:1=
+6px;font-weight:400;line-height:24px;margin:0;margin-bottom:10px;padding:0;=
+padding-bottom:10px;text-align:center"><small style=3Dcolor:#706a7c;font-si=
+ze:14px>If you did not register this account, please <a href=3D"https://www=
+.twitch.tv/r/e/eyJsb2NhdGlvbiI6InN1cHBvcnRfbGluayIsImVtYWlsX2lkIjoiMTA4MTEx=
+ZWMtYTdlOC00NDY2LWE4M2UtNTllY2QwNGZhZmNmIiwibmFtZSI6ImVtYWlsX3ZhbGlkYXRpb25=
+fcmVxdWVzdF9jb2RlX2ludGVybmFsIiwiY3RhX3ZhbHVlIjoiIn0=3D/673590340/05b960f7d=
+c5d3dd23ebd0136052163148b77eb29/user/not-me/cfb9nN0b03M8qthrMLiJ0mfmJCgqBGo=
+s?ignore_query=3Dtrue&tt_content=3Demail_validation_request_code_internal&t=
+t_email_id=3D108111ec-a7e8-4466-a83e-59ecd04fafcf&tt_medium=3Demail" class=
+=3Dlink style=3DMargin:0;color:#9147ff;font-family:Helvetica,Arial,sans-ser=
+if;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-=
+decoration:none>report it</a>.<br></small></p><table align=3Dcenter style=
+=3D"background:0 0!important;border-collapse:collapse;border-spacing:0;marg=
+in:20px auto 0 auto;padding:0;text-align:inherit;vertical-align:top;width:5=
+80px"><tbody><tr><th><table style=3Dborder-collapse:collapse;border-spacing=
+:0;display:table;padding:0;text-align:left;vertical-align:top;width:100%><t=
+body><tr style=3Dpadding:0;text-align:left;vertical-align:top><th style=3D"=
+Margin:0 auto;color:#322f37;font-family:Helvetica,Arial,sans-serif;font-siz=
+e:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bott=
+om:0!important;padding-left:20px;padding-right:10px;padding-top:0!important=
+;text-align:left;width:270px"><a href=3Dhttps://twitter.com/twitch/ style=
+=3DMargin:0;color:#9147ff;font-family:Helvetica,Arial,sans-serif;font-weigh=
+t:400;line-height:1.3;margin:0;padding:0;text-align:left;text-decoration:no=
+ne target=3D_blank data-saferedirecturl=3D"https://www.google.com/url?q=3Dh=
+ttps://twitter.com/twitch/&source=3Dgmail&ust=3D1572048946414000&usg=3DAFQj=
+CNEJEY5NkmTnXd5Q9wprWPiE2ITgvw"><img src=3D"https://ci5.googleusercontent.c=
+om/proxy/NjrXjBJfWd_KVMGC2RlzLVYSFdY3i6I4jo6h9CG3zyai6S3SMsqcK-Ufc_rmmpLKtv=
+pfpaRsWgDHJkCrfBUEW5JH_9uJelJhBdIka6mmYQM-bLJT95fgwlxWuqjvgUt_bWmNUq1B=3Ds0=
+-d-e1-ft#https://s.jtvnw.net/jtv_user_pictures/hosted_images/email-twitter-=
+logo-20171115.png" width=3D20 height=3D20 alt=3Dtwitch-twitter style=3Dbord=
+er:none;clear:both;display:block;float:right;max-width:100%;outline:0;text-=
+align:right;text-decoration:none;width:auto class=3DCToWUd></a></th><th sty=
+le=3D"Margin:0 auto;color:#322f37;font-family:Helvetica,Arial,sans-serif;fo=
+nt-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:0;paddin=
+g-bottom:0!important;padding-left:10px;padding-right:20px;padding-top:0!imp=
+ortant;text-align:left;width:270px"><a href=3Dhttps://www.facebook.com/twit=
+ch/ style=3DMargin:0;color:#9147ff;font-family:Helvetica,Arial,sans-serif;f=
+ont-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-deco=
+ration:none target=3D_blank data-saferedirecturl=3D"https://www.google.com/=
+url?q=3Dhttps://www.facebook.com/twitch/&source=3Dgmail&ust=3D1572048946414=
+000&usg=3DAFQjCNHrvpLubLbeJxTMWxqMwwLU9J64aA"><img src=3D"https://ci4.googl=
+eusercontent.com/proxy/XHffVu34DLJFd5BgnT-FmR1sO6U8aNYtqIngRIAczxlyKN1dB0Fe=
+-00F3bXbo3fVQ4PlEIpJVQrCAsfuBto15Y4neEJHUxd2v0z7gy41unT3YDbJg6bTUgmWOcju7HC=
+KeL18r1pH8A=3Ds0-d-e1-ft#https://s.jtvnw.net/jtv_user_pictures/hosted_image=
+s/email-facebook-logo-20171115.png" width=3D20 height=3D20 alt=3Dtwitch-fac=
+ebook style=3Dborder:none;clear:both;display:block;float:left;max-width:100=
+%;outline:0;text-align:left;text-decoration:none;width:auto class=3DCToWUd>=
+</a></th></tr></tbody></table></th></tr><tr style=3Dpadding:0;vertical-alig=
+n:top><th style=3Dcolor:#322F37;font-family:Helvetica,Arial,sans-serif;font=
+-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;><p style=3D"=
+color:#322F37;font-family:Helvetica,Arial,Verdana,'Trebuchet MS';font-size:=
+16px;font-weight:400;line-height:24px;margin:0;margin-top:5px;margin-bottom=
+:10px;padding:0;padding-bottom:10px;text-align:center"><small style=3Dcolor=
+:#706a7c;font-size:14px>=C2=A9 2021 Twitch, All Rights Reserved<br>350 Bush=
+ Street, 2nd Floor, San Francisco, CA, 94104 - USA</small></p></th><th clas=
+s=3Dexpander style=3Dcolor:#322F37;font-family:Helvetica,Arial,sans-serif;f=
+ont-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;=
+text-align:left;visibility:hidden;width:0></th></tr></tbody></table><p></p>=
+</th><th class=3Dexpander style=3DMargin:0;color:#322F37;font-family:Helvet=
+ica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:=
+0;padding:0!important;text-align:left;visibility:hidden;width:0></th></tr><=
+/tbody></table></th></tr></tbody></table></td><th class=3Dexpander style=3D=
+Margin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16p=
+x;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-align:l=
+eft;visibility:hidden;width:0></th></tr></tbody></table></th></tr></tbody><=
+/table></td></tr></tbody></table></center></td></tr></tbody></table><div st=
+yle=3D"display:none;white-space:nowrap;font:15px courier;line-height:0">=C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</div></div><img=
+ src=3D"https://spade.twitch.tv/track?data=3DeyJldmVudCI6ImVtYWlsX29wZW4iLC=
+Jwcm9wZXJ0aWVzIjp7Im5vdGlmaWNhdGlvbl9pZCI6IjEwODExMWVjLWE3ZTgtNDQ2Ni1hODNlL=
+TU5ZWNkMDRmYWZjZiJ9fQ%3D%3D&img=3D1&ua=3D1" width=3D1 height=3D1></body></h=
+tml>

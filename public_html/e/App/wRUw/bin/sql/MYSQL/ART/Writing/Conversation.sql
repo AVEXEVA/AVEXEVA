@@ -1,0 +1,5 @@
+CREATE TABLE Conversation (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Subject VARCHAR(256),
+  CONSTRAINT PK_Covnersation_ID PRIMARY KEY (ID)
+);

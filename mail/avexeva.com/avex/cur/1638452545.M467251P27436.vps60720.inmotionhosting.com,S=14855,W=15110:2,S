@@ -1,0 +1,255 @@
+Return-Path: <dse_NA4@docusign.net>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id X5vAG0HNqGEsawAABSAGJw
+	(envelope-from <dse_NA4@docusign.net>)
+	for <avex@avexeva.com>; Thu, 02 Dec 2021 08:42:25 -0500
+Return-path: <dse_NA4@docusign.net>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 02 Dec 2021 08:42:25 -0500
+Received: from mailsea.docusign.net ([64.207.219.9]:61554)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <dse_NA4@docusign.net>)
+	id 1msmLw-00077t-7V
+	for avex@avexeva.com; Thu, 02 Dec 2021 08:42:25 -0500
+Received: from SE3FE13.corp.docusign.net (unknown [10.101.101.11])
+	by mailsea.docusign.net (Postfix) with ESMTP id 55C1E20F1D
+	for <avex@avexeva.com>; Thu,  2 Dec 2021 13:41:43 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=docusign.net;
+	s=mail1; t=1638452503;
+	bh=C4E2PN7aHp7eATzD0CsrE30hYNZvhjxTj1beAB0aOk4=;
+	h=Reply-To:From:To:Date:Subject;
+	b=sDHNuBLQS/plz8vIIJgulw2OxZdrfKPb23D/niBdnoqreJwAEKHJYJryxgFSzLX4B
+	 1KCVWh7MZFZB+lfVqNl7LbA/RHArN+9o9F79h9773Wufj8z87RTZ7iDfvslmG0VVFN
+	 C9c6Yspj22+d1DlQNrKvImhSSJutHhAPT+9viLBynG5b4r5VuQqLAKvnRnwteL4pXp
+	 AfCrmX87QnGniC0yTkZKtW89cUGuoZgPa7TvaZN88VOeThcmsTTPENs/caC8LswP2t
+	 6XrJzD1mzgakKunhUfJCCq7jevx+g5EITPsfuuokG3R+dchj44C86V1pXPYHHh+md5
+	 mU2xU7/j5E33Q==
+Received: from docusign.net ([127.0.0.1]) by SE3FE13.corp.docusign.net with Microsoft SMTPSVC(10.0.17763.1697);
+	 Thu, 2 Dec 2021 05:41:43 -0800
+Sender: DocuSign NA4 System  <dse_NA4@docusign.net>
+Reply-To: "Peter Speranza"  <thinksperanza@gmail.com>
+Recipient-Id: 71620786-1a6e-4b91-b743-d088b2f1cb85
+X-Debug: False
+X-Email-Rejection-Mode: LearningMode
+X-Api-Host: na4.docusign.net
+Site-Id: 7
+X-BounceEmailVersion: 1
+From: "Peter Speranza via DocuSign" <dse_NA4@docusign.net>
+To: "Peter Speranza" <avex@avexeva.com>
+Message-ID: <e657c9080e5f4e82bcf376c4659899c5@docusign.net>
+Date: Thu, 02 Dec 2021 05:41:43 -0800
+Subject: Please DocuSign: This Software Developer Agreement.doc
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_NextPart_B187B0D0_49A4_46C3_9C02_46D1F8D5E0C5"
+X-OriginalArrivalTime: 02 Dec 2021 13:41:43.0239 (UTC) FILETIME=[579CFD70:01D7E782]
+X-Spam-Status: No, score=-13.2
+X-Spam-Score: -131
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello Peter Speranza, Peter Speranza has sent you a new DocuSign
+    document to view and sign. Please click on the link below to begin signing.
+    REVIEW DOCUMENT 
+ Content analysis details:   (-13.2 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: docusign.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+X-Spam-Flag: NO
+
+------=_NextPart_B187B0D0_49A4_46C3_9C02_46D1F8D5E0C5
+Content-type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Peter Speranza,
+
+Peter Speranza has sent you a new DocuSign document to view and sign=2E=
+ Please click on the link below to begin signing=2E
+
+   =20
+
+REVIEW DOCUMENT
+
+https://na4=2Edocusign=2Enet/Member/EmailStart=2Easpx?a=3Da3ebeb5a-a714=
+-42ed-a619-8cb3b2d93983&acct=3D2faf1add-d0a7-4b27-b062-4533038da667&er=3D=
+71620786-1a6e-4b91-b743-d088b2f1cb85
+
+If clicking the link does not work, you can highlight and copy the enti=
+re line above and paste it into your browser to get started=2E
+
+This message was sent to you by Peter Speranza who is using the DocuSig=
+n Electronic Signature Service=2E If you would rather not receive email=
+ from this sender you may contact the sender with your request=2E
+
+Do Not Share This Email
+This email contains a secure link to DocuSign=2E Please do not share th=
+is email, link, or access code with others=2E
+
+Questions about the Document?
+If you need to modify the document or have questions about the details =
+in the document, please reach out to the sender by emailing them direct=
+ly=2E
+
+Stop receiving this email
+Report this email https://protect=2Edocusign=2Enet/report-abuse?e=3DAUt=
+omjpFak9GlbPL0zFFi130zxbq2EhN4ULZK175qtTAa42slsv4SugVb67-jKJESDYbqZfRhj=
+-u0PH7b13_-Z-SUnk-aLL0XL1S3Bq_p9Ky603t_Z60k1ItTbi0bUlW0_PO-C3Jg2RueNWIu=
+Q7CMZNdu6FIybeuz85zVI1o0aP2CTChoy86Exy0TGpwSGfqBvs3A1pK-222IaI9SykBjPcA=
+BSPZF6knAcpwaEhfOP-j6ATpQmlwqb2RqStjQcSlketsdneFfRRzw0t9oGmAIVD5E8S7546=
+MKff464G_io1bNwlZU4Sp4teJ2OnGWaZk5xZuGvgPHXoAISxnX2SdLwYZgIg1GMBxbfwiAr=
+MebAo0zCqtk-jsurbZyll7cDxYdCr7szOaXNVWPplOlmZlX60p2ZPO7B5M4eXfKyGX2nZya=
+fJMymsQlKzFlI07oUV6sQ&lang=3Den
+Declining to sign=20
+Managing notifications=20
+
+If you are having trouble signing the document, please visit the Help w=
+ith Signing page on our Support Center=2E
+https://support=2Edocusign=2Ecom/articles/How-do-I-sign-a-DocuSign-docu=
+ment-Basic-Signing
+------=_NextPart_B187B0D0_49A4_46C3_9C02_46D1F8D5E0C5
+Content-type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html lang=3D"en"><head><meta http-equiv=3D"Content-Type" content=3D"te=
+xt/html; charset=3DUTF-8"/><meta name=3D"viewport" content=3D"initial-s=
+cale=3D1=2E0"/><meta name=3D"format-detection" content=3D"telephone=3Dn=
+o"/><title>EnvelopeActivation</title></head><body style=3D"background-c=
+olor:#EAEAEA;padding:2%;font-family:Helvetica,Arial,Sans Serif;"><table=
+ role=3D'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0'=
+ align=3D'center' width=3D"100%" dir=3D""><tr><td></td><td width=3D"640=
+"><table style=3D"mso-table-lspace:0pt;mso-table-rspace:0pt;border-coll=
+apse:collapse;background-color:#ffffff;max-width:640px;"><tr><td style=3D=
+"padding:10px 24px;"><img style=3D"border:none;" width=3D"116" src=3D"h=
+ttps://NA4=2Edocusign=2Enet/Signing/Images/email/Email_Logo=2Epng" alt=3D=
+"DocuSign"/></td></tr><tr><td style=3D"padding:0px 24px 30px 24px;"><ta=
+ble role=3D'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D=
+'0' width=3D'100%' align=3D'center' style=3D'background-color:#1e4ca1;c=
+olor:#ffffff;'><tr><td style=3D"padding:28px 36px 36px 36px;border-radi=
+us:2px;background-color:#1e4ca1;color:#ffffff;font-size:16px;font-famil=
+y:Helvetica,Arial,Sans Serif;width:100%;text-align:center;" align=3D"ce=
+nter"><img width=3D"75" height=3D"75" src=3D"https://NA4=2Edocusign=2En=
+et/member/Images/email/docInvite-white=2Epng" style=3D"width:75px;heigh=
+t:75px;" alt=3D"" /><table role=3D'presentation' border=3D'0' cellspaci=
+ng=3D'0' cellpadding=3D'0' width=3D'100%'><tr><td style=3D"padding-top:=
+24px;font-size:16px;font-family:Helvetica,Arial,Sans Serif;border:none;=
+text-align:center;color:#ffffff" align=3D"center"> Peter Speranza sent =
+you a document to review and sign=2E </td></tr></table><table role=3D'p=
+resentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0' width=3D'=
+100%'><tr><td align=3D"center" style=3D"padding-top:30px;"><div><table =
+cellspacing=3D"0" cellpadding=3D"0"><tr><td align=3D"center" height=3D"=
+44" style=3D"font-size:15px;color:#333333;background-color:#ffc423;font=
+-family:Helvetica,Arial,Sans Serif;font-weight:bold;text-align:center;t=
+ext-decoration:none;;border-radius:2px;background-color:#ffc423;;displa=
+y: block;"><a href=3D"https://na4=2Edocusign=2Enet/Member/EmailStart=2E=
+aspx?a=3Da3ebeb5a-a714-42ed-a619-8cb3b2d93983&acct=3D2faf1add-d0a7-4b27=
+-b062-4533038da667&er=3D71620786-1a6e-4b91-b743-d088b2f1cb85" style=3D"=
+font-size:15px;color:#333333;background-color:#ffc423;font-family:Helve=
+tica,Arial,Sans Serif;font-weight:bold;text-align:center;text-decoratio=
+n:none;;border-radius:2px;background-color:#ffc423;;display:inline-bloc=
+k"><span style=3D"padding:0px 24px;;line-height:44px;"><!--[if mso]>&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--> REVIEW DOCUMENT <!--[if m=
+so]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--></span></a></td></t=
+r></table></div></td></tr></table></td></tr></table></td></tr><tr><td s=
+tyle=3D"padding:0px 24px 24px 24px;color:#000000;font-size:16px;font-fa=
+mily:Helvetica,Arial,Sans Serif;background-color:white;"><table role=3D=
+'presentation' border=3D'0' cellspacing=3D'0' cellpadding=3D'0'><tr><td=
+ style=3D"padding-bottom:20px;"><div style=3D"font-family:Helvetica,Ari=
+al,Sans Serif;font-weight:bold;line-height:18px;font-size:15px;color:#3=
+33333;"> Peter Speranza </div><div style=3D"font-family:Helvetica,Arial=
+,Sans Serif;line-height:18px;font-size:15px;color:#666666;">thinksperan=
+za@gmail=2Ecom</div></td></tr></table><span style=3D"font-size:15px;col=
+or:#333333;font-family:Helvetica,Arial,Sans Serif;line-height:20px;">Pe=
+ter Speranza,<br /><br /> Please DocuSign This Software Developer Agree=
+ment=2Edoc<br /><br /> Thank You, Peter Speranza</span><br /></td></tr>=
+<tr><td style=3D"padding:0px 24px 12px 24px;background-color:#ffffff;fo=
+nt-family:Helvetica,Arial,Sans Serif;font-size:11px;color:#666666;"></t=
+d></tr><tr><td style=3D"padding:30px 24px 45px 24px;background-color:#E=
+AEAEA;"><p style=3D"margin-bottom:1em;font-family:Helvetica,Arial,Sans =
+Serif;font-size:13px;color:#666666;line-height:18px;"><b aria-level=3D"=
+3" role=3D"heading">Do Not Share This Email</b><br/> This email contain=
+s a secure link to DocuSign=2E Please do not share this email, link, or=
+ access code with others=2E<br/></p><p style=3D"margin-bottom:1em;font-=
+family:Helvetica,Arial,Sans Serif;font-size:13px;color:#666666;line-hei=
+ght:18px;"><b aria-level=3D"3" role=3D"heading">Alternate Signing Metho=
+d</b><br/> Visit DocuSign=2Ecom, click 'Access Documents', and enter th=
+e security code:<br /> A3EBEB5AA71442EDA6198CB3B2D939837 </p><p style=3D=
+"margin-bottom:1em;font-family:Helvetica,Arial,Sans Serif;font-size:13p=
+x;color:#666666;line-height:18px;"><b aria-level=3D"3" role=3D"heading"=
+>About DocuSign</b><br/> Sign documents electronically in just minutes=2E=
+ It's safe, secure, and legally binding=2E Whether you're in an office,=
+ at home, on-the-go -- or even across the globe -- DocuSign provides a =
+professional trusted solution for Digital Transaction Management=E2=84=A2=
+=2E </p><p style=3D"margin-bottom:1em;font-family:Helvetica,Arial,Sans =
+Serif;font-size:13px;color:#666666;line-height:18px;"><b aria-level=3D"=
+3" role=3D"heading">Questions about the Document?</b><br /> If you need=
+ to modify the document or have questions about the details in the docu=
+ment, please reach out to the sender by emailing them directly=2E<br />=
+<br /><b aria-level=3D"3" role=3D"heading">Stop receiving this email</b=
+><br /><a href=3D'https://protect=2Edocusign=2Enet/report-abuse?e=3DAUt=
+omjpFak9GlbPL0zFFi130zxbq2EhN4ULZK175qtTAa42slsv4SugVb67-jKJESDYbqZfRhj=
+-u0PH7b13_-Z-SUnk-aLL0XL1S3Bq_p9Ky603t_Z60k1ItTbi0bUlW0_PO-C3Jg2RueNWIu=
+Q7CMZNdu6FIybeuz85zVI1o0aP2CTChoy86Exy0TGpwSGfqBvs3A1pK-222IaI9SykBjPcA=
+BSPZF6knAcpwaEhfOP-j6ATpQmlwqb2RqStjQcSlketsdneFfRRzw0t9oGmAIVD5E8S7546=
+MKff464G_io1bNwlZU4Sp4teJ2OnGWaZk5xZuGvgPHXoAISxnX2SdLwYZgIg1GMBxbfwiAr=
+MebAo0zCqtk-jsurbZyll7cDxYdCr7szOaXNVWPplOlmZlX60p2ZPO7B5M4eXfKyGX2nZya=
+fJMymsQlKzFlI07oUV6sQ&lang=3Den' style=3D'color:#2463d1;' >Report this =
+email</a> or read more about <a href=3D'https://support=2Edocusign=2Eco=
+m/en/guides/Declining-to-sign-DocuSign-Signer-Guide' style=3D'color:#24=
+63d1;' >Declining to sign</a> and <a href=3D'https://support=2Edocusign=
+=2Ecom/en/articles/How-do-I-manage-my-email-notifications' style=3D'col=
+or:#2463d1;' >Managing notifications</a>=2E<br /><br /> If you are havi=
+ng trouble signing the document, please visit the <a href=3D'https://su=
+pport=2Edocusign=2Ecom/articles/How-do-I-sign-a-DocuSign-document-Basic=
+-Signing' style=3D'color:#2463d1;' >Help with Signing</a> page on our <=
+a href=3D'https://www=2Edocusign=2Ecom/support' style=3D'color:#2463d1;=
+' >Support Center</a>=2E<br /><br /></p><p style=3D"margin-bottom:1em;f=
+ont-family:Helvetica,Arial,Sans Serif;font-size:13px;color:#666666;line=
+-height:18px;"><a href=3D"https://www=2Edocusign=2Ecom/features-and-ben=
+efits/mobile" style=3D"color:#2463d1;" ><img style=3D"margin-right:7px;=
+border:none;vertical-align:middle;" width=3D"18" height=3D"18" src=3D"h=
+ttps://NA4=2Edocusign=2Enet/Member/Images/email/icon-DownloadApp-18x18@=
+2x=2Epng" alt=3D"" />Download the DocuSign App </a></p><p style=3D"marg=
+in-bottom:1em;font-family:Helvetica,Arial,Sans Serif;font-size:13px;col=
+or:#666666;line-height:18px;font-size:10px;line-height:14px;">This mess=
+age was sent to you by Peter Speranza who is using the DocuSign Electro=
+nic Signature Service=2E If you would rather not receive email from thi=
+s sender you may contact the sender with your request=2E</p></td></tr><=
+/table></td><td></td></tr></table><span itemscope=3D"" itemtype=3D"http=
+://schema=2Eorg/EmailMessage"><meta itemprop=3D"text" content=3D"Peter =
+Speranza sent you a document to review and sign=2E"/><span itemscope=3D=
+"" itemprop=3D"about" itemtype=3D"http://schema=2Eorg/CreativeWork"><sp=
+an itemscope=3D"" itemprop=3D"action" itemtype=3D"http://schema=2Eorg/V=
+iewAction"><meta itemprop=3D"url" content=3D"https://na4=2Edocusign=2En=
+et/Member/EmailStart=2Easpx?a=3Da3ebeb5a-a714-42ed-a619-8cb3b2d93983&ac=
+ct=3D2faf1add-d0a7-4b27-b062-4533038da667&er=3D71620786-1a6e-4b91-b743-=
+d088b2f1cb85"/><meta itemprop=3D"name" content=3D"View Documents"/></sp=
+an></span></span></body></html>
+------=_NextPart_B187B0D0_49A4_46C3_9C02_46D1F8D5E0C5--
+

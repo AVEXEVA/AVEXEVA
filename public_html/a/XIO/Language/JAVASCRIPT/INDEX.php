@@ -35,9 +35,9 @@ IF( file_exists( __DIR__ . '/PAGE/' . substr( $_SERVER['SCRIPT_NAME'], 1, strlen
     var MENU = BROWSER.children[0];
     var LIS = MENU.children;
     var i = 0;
-    //var O0 = LIS[0].getBoundingClientRect();
-    //var X0 = parseFloat( O0.left );
-    //var Y0 = parseFloat( O0.top );
+    var O0 = LIS[0].getBoundingClientRect();
+    var X0 = parseFloat( O0.left );
+    var Y0 = parseFloat( O0.top );
     //alert( X0 + ' / ' + Y0 );
     var X1 = parseFloat( event.clientX );
     var Y1 = parseFloat( event.clientY );

@@ -1,0 +1,3 @@
+<?php
+NAMESPACE SESSION;
+FUNCTION LOGIN(){ }?>

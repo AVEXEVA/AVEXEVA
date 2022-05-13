@@ -1,0 +1,182 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id jeCZN5YsVGC9fwAABSAGJw
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	for <avex@avexeva.com>; Fri, 19 Mar 2021 00:46:14 -0400
+Return-path: <account-security-noreply@accountprotection.microsoft.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Fri, 19 Mar 2021 00:46:14 -0400
+Received: from mail-eopbgr690074.outbound.protection.outlook.com ([40.107.69.74]:60379 helo=NAM04-CO1-obe.outbound.protection.outlook.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	id 1lN71Z-0008VN-UH
+	for avex@avexeva.com; Fri, 19 Mar 2021 00:46:14 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=RDk5F6fiesfTkw0xHcvwyIHM3ZfBU580ttv80DtdUKzYS1SjPTYLNnNjfNCdXrgOJVFskMmh4pwsVEuNhVSejWFa846N+TRFkzIO5W8sWDeQgh4l19LTBJYVjmGxmUR+1+pFcBl/dOm+4EMdTWApkRlQPr2ATat3csKocv5BycaixNbaQWmAJChqjxO5EYDLPbc+cEJKlpWOOZvJjhSVS/nopzhyL99P2/B2OTRCZvvwmnfUMqx3BfQQcrhxwUgo+RnZB7/lHmHVsp0fkDF2Vexw7OMr+E3kfeAFhfjjTmBYei58osED9mkX9oaiFuA5sMuulWtvYDhnlJkyoqXSdw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=QsgJVGhifZzugJAm/j77y0W4e2CVL61EWGC1Is46ieY=;
+ b=QlNsQSR8IyQ8d5dlyCFHOL8iG0AQL9DFvIM63LUeJBJzZuZxD3GDgaPOWXK0Y3k+DeB03j26bhyBfzSKSPdt7tBaI9igK5vmKmGGA/wiAV18dUuYCoSeuJ5oNU4PoRaT+jHaZTM366+/EHrDIJZ+asuOIa3RSPhk1laUFQEzsGtNcC1iG4QPDuSFdEZM5LkXKI81+8wc0AQIy7tBDap+9JDsfvtGWQCsqCG6sJHV0hlYfazBFaBc/jfkjSXpdxkau5aQASH6jL7LP0lY1UC2ofG854d4dvi540b0d1bQkmZP61Q/8fTVRHouqVdDG9p3V/REGrvV7mVYlIN3LSCO7g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none
+ action=none header.from=accountprotection.microsoft.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=QsgJVGhifZzugJAm/j77y0W4e2CVL61EWGC1Is46ieY=;
+ b=YYOobGIXdZBGe4mOmhi6YwAkDk/I5E41Z0Q22Ao5aEqb4DbmZP+SK6FM45r+HJY36uvkOyqTiw33qjRhxpt2uTq/cJWhjERD6G496MwyVQNzJDywJX1LnNxbPlR0piDbDqK8DWZSfTq3L/9B1M7m9F2frRI2a67Mij37J6U1JmU=
+Received: from DS7PR03CA0271.namprd03.prod.outlook.com (2603:10b6:5:3ad::6) by
+ BYAPR16MB2741.namprd16.prod.outlook.com (2603:10b6:a03:e4::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3955.18; Fri, 19 Mar 2021 04:46:12 +0000
+Received: from DM6NAM11FT029.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:5:3ad:cafe::e1) by DS7PR03CA0271.outlook.office365.com
+ (2603:10b6:5:3ad::6) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3955.18 via Frontend
+ Transport; Fri, 19 Mar 2021 04:46:12 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 52.234.111.146)
+ smtp.mailfrom=accountprotection.microsoft.com; avexeva.com; dkim=none
+ (message not signed) header.d=none;avexeva.com; dmarc=none action=none
+ header.from=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (52.234.111.146) by
+ DM6NAM11FT029.mail.protection.outlook.com (10.13.173.23) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3955.18 via Frontend Transport; Fri, 19 Mar 2021 04:46:11 +0000
+From: Microsoft account team
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Thu, 18 Mar 2021 21:46:11 -0700
+Subject: Microsoft account password change
+To: avex@avexeva.com
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <PNVAK72X8DU4.DB62G5KNHDCE1@BY1PEPF00001B89>
+X-MSAMetaData:
+ =?us-ascii?q?DTq8tQNLn4qxvYBQn7!pwaKLToTjV9CmVBVXrTJsxHZY*kfDBGT8vCARnVUMc?=
+ =?us-ascii?q?dfwJjORCtUwUkM411!Vs2RjVFzmAC45gy2VI3zdj4mfdFDmiMNmTjqlFL8sVi?=
+ =?us-ascii?q?r57Lk!4w$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-CKTPptb1RpXXg1+NvePReg=="
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 800ea7fe-e226-497a-4cd6-08d8ea91ebdf
+X-MS-TrafficTypeDiagnostic: BYAPR16MB2741:FirstParty-MicrosoftAccount-System
+X-Microsoft-Antispam-PRVS:
+	<BYAPR16MB2741CCFFFEB05686B73CB38089689@BYAPR16MB2741.namprd16.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:8273;
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	A2hohUGqXDYWFCFCDmUbEQjPp3FFHh9Q5erjhrOHkFBsDvunD9UeiHnBVSeyLk8YohCAcBcjNU1c6vVcqrjIudg5bv05YPahOR3ZXMX8lhXSHT7LPYqQdXWBvmlgKhRj9NwWt0Zc1UWldAYdNcb3KtENLiMFuiJafgxp7l+9aZcmwjMWZsFAvjoDjz8uyqQ1IBw0mUpHacxmR31wPeoJYZAUj4P9dQDiRUy8tv2d7+uIzjtdGr+JBYXykAXNp+WoBkMDjxHJ/cOirIHKe2KmZtE4clTM/YFUmntLvnBA+1OM6XxkHMoELsgv8ZPsIPqnhT8upXm+nmvcchAgwt0VRxr/T8K4H2KYforj0RGmA6mCqw6p9/6LNX/KNqK38GZDD+9Ol+IuM+QhnvT5O7b3/DWa556GYFbL3EnKYYVDZwwOQfMjFfB0Q3n0kyV4AiT0AH/H0S/DVrkPEBDx3Ccq0U0MUwgjggzZUoeqXGrNaPWtdtRHv+bQddLkbAR98ly3bLSq6+oY3CuM+YTP/6dVeEW6Uoo6KoNlwqPUTxdBYTEFFYLc5AAlkb6YJLK9LgrpDStn5lWo9jC0cmeOxxeKESRq9w0l+8No5th9NM29fYlFQw4zK/HlYujUba+3Hb+DX7qy0PeNXgU+L9umKfRBZDCYZIi18gU90+jGHaEdtNE=
+X-Forefront-Antispam-Report:
+	CIP:52.234.111.146;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData:
+	qMC4P83KahRp0jJQXjyTti1s72B/JrAGMtKWLd/UyxjV6IMn+srQkKEkZZCYhrvmD2+1rDeffj0YXHZe2AdUnv0v792auGgjtW7yXLtTkj2gH6m+HmtHvG6ACGog7xnf3lSK8+bvqImj9pJAL8A+Fq8rbMLM7vt1dxR/s3S+M2E6cm2+Uh1uzXWRDFGLmPQugRoc0tHtaFnfMox1/qa8qVUdlJ9/xw8Z1bo4yKqFJ8Aje0QdLvOfplat8miJBfAj
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 19 Mar 2021 04:46:11.9513
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 800ea7fe-e226-497a-4cd6-08d8ea91ebdf
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[52.234.111.146];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TreatMessagesAsInternal-DM6NAM11FT029.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BYAPR16MB2741
+X-Spam-Status: No, score=-13.6
+X-Spam-Score: -135
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  The password for the Microsoft account av*****@avexeva.com
+    was just changed. If this was you, then you can safely ignore this email.
+    If this wasn't you, your account has been compromised. Please follow these
+    steps: 1. Reset your password https://account.live.com/pw. 2. Learn how to
+    make your account more secure http://go.microsoft. [...] 
+ Content analysis details:   (-13.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: live.com]
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+  0.0 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+X-Spam-Flag: NO
+
+--=-CKTPptb1RpXXg1+NvePReg==
+Content-Type: text/plain; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+
+The password for the Microsoft account av*****@avexeva.com was just changed.
+
+If this was you, then you can safely ignore this email.
+
+If this wasn't you, your account has been compromised. Please follow these steps:
+1. Reset your password https://account.live.com/pw.
+2. Learn how to make your account more secure http://go.microsoft.com/fwlink/?LinkID=324395.
+
+To opt out or change where you receive security notifications, click here https://account.live.com/SecurityNotifications/Update.
+
+Thanks,
+The Microsoft account team 
+--=-CKTPptb1RpXXg1+NvePReg==
+Content-Type: text/html; charset=windows-1252
+Content-Transfer-Encoding: 7bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:17px; color:#707070;">Microsoft account</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:41px; color:#2672ec;">Your password changed</td></tr>
+      <tr><td id="i3" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">The password for the Microsoft account <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:av*****@avexeva.com">av*****@avexeva.com</a> was just changed.</td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">If this was you, then you can safely ignore this email.</td></tr>      
+      <tr><td id="i5" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">If this wasn't you, your account has been compromised. Please follow these steps:</td></tr>      
+      <tr><td id="i6" style="padding:0; padding-top:6px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">        
+         <ol>
+          <li><a id="iLink1" class="link" style="color:#2672ec; text-decoration:none" href="https://account.live.com/pw">Reset your password</a>.</li>
+          <li><a id="iLink2" class="link" style="color:#2672ec; text-decoration:none" href="http://go.microsoft.com/fwlink/?LinkID=324395">Learn how to make your account more secure</a>.</li>
+         </ol>
+      </td></tr>
+      <tr><td id="i7" style="padding:0; padding-top:6px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">To opt out or change where you receive security notifications, <a id="iLink3" class="link" style="color:#2672ec; text-decoration:none" href="https://account.live.com/SecurityNotifications/Update">click here</a>.</td></tr>      
+      <tr><td id="i8" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Thanks,</td></tr>
+      <tr><td id="i9" style="padding:0; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">The Microsoft account team</td></tr>
+</table>
+</body>
+</html>
+--=-CKTPptb1RpXXg1+NvePReg==--

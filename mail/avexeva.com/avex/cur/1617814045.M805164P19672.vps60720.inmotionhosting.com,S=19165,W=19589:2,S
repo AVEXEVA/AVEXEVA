@@ -1,0 +1,424 @@
+Return-Path: <noreply@email.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id 2DXgLx3ibWDYTAAABSAGJw
+	(envelope-from <noreply@email.apple.com>)
+	for <avex@avexeva.com>; Wed, 07 Apr 2021 12:47:25 -0400
+Return-path: <noreply@email.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Wed, 07 Apr 2021 12:47:25 -0400
+Received: from rn2-txn-msbadger02101.apple.com ([17.111.110.52]:14450)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <noreply@email.apple.com>)
+	id 1lUBKu-00057L-O7
+	for avex@avexeva.com; Wed, 07 Apr 2021 12:47:25 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.apple.com;
+	s=email0517; t=1617814043;
+	bh=UczF6J0Kdl5yMZB7LJbENWemRmjHPgqoBeJAGwbCswA=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=Q7J9OjN7S2Y74iIK6o2dfjKYubu555TBiEPA1n0Uthij9NqvQkIWVFzRu5HFdRNsz
+	 QKrAci5qE6fIHbpch0wbK2fJHPjjUSK9TzjSjEQ7ArRkYsHennpsWcCTc8mhOGBzIq
+	 O4lkTF9o1awSvN0kUvksGy2U2QjJx4rvdIBEmX5OdcCd6AfZRLwZBRim8cADWgE6Ls
+	 cBOcF6RaImcTdrKcFh4rGYlfUGR/cZOMpxwr0fO5XIvCTBq64HFXNg9rws9Rv0u5y1
+	 uZoN4gEi7lpUQGvhpQsRpcdUAbRgCxFrqyNXqwjDnBKJmPfhz+BEPbIABSfE0+y4D6
+	 2LLoorjmuCmuQ==
+Date: Wed, 7 Apr 2021 16:47:23 +0000 (GMT)
+From: Apple <noreply@email.apple.com>
+To: avex@avexeva.com
+Message-ID: <379875858.265850586.1617814043751@email.apple.com>
+Subject: =?ISO-8859-1?Q?Your_Apple_ID_was_used_to_sign_i?=
+ =?ISO-8859-1?Q?n_to_iCloud_on_an=A0iPhone=A012=A0Pro.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_265850584_1640325981.1617814043751"
+X-Attach-Flag: N
+X-COMMS-C: N
+X-Reference: iCloudwebSessionID/
+X-Sent-To: avex@avexeva.com,2,H4n%2Fq6WyDjqdGXj%2FwojbaUHv9372ak96KSMM3CHT459IUZNdkxlyJLn4BGgNXpxuHjIxWVD%2FNQPFLpdImCcejScUJv7DWraIWC5i9Af95JWdJyBJYJx7PcjbZLrRhG67YoohFVDbk4tQc8bvuJeVwwCEknu0Azs%2Fuf7q%2FhpKzhvytX4NSo8xpfYP%2FFci%2FxEhfLFLlzTVIZlQfKrDL5Xz171xqKm%2BfwHhxSakN2pBfg6JOjEJCYTtAq1DhX8bt8UGQDr51kYmrfyhLM7%2FBORF2OnIf%2Bpf6ZvMKqlF13pn%2BWCAIj%2FT7cWMzoJAtkaw1zfqZTdIlFkrRIQ%2F87CU0CclVzkECltVdqPZWrxGb08fVLwwtBo2khuxg4%2BumO3tA8fHl0%2F4JCNX%2F4t2OrFo0hGt%2BBn06tZXewjvx9SGdOpLem397%2BgIljbBpxKQgMUIdhkVIU6GjG4P1UpmciNzQQcMCIXbtVb7xrKjJFS2p%2F7ZOMn%2BDQT8kl15PlvYD0gRysOSJQUZ8eqPxNARWJ5%2FbLLMzA%3D%3D
+X-TXN_ID: 8354ddc9-4e09-4ad9-a333-d4da2b359085
+X-DKIM_SIGN_REQUIRED: YES
+X-EmailType-Id: 1000104071
+X-Business-Group: iCloud
+X-Request-UUID: 92372798-6e6b-497c-8b22-9fc828e55001
+X-Country: US
+X-Spam-Status: No, score=-14.5
+X-Spam-Score: -144
+X-Spam-Bar: --------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Dear Peter Speranza, Your Apple ID (avex@avexeva.com) was
+   used to sign in to iCloud on an iPhone 12 Pro. Date and Time: April 7, 2021,
+    4:47 PM UTC 
+ Content analysis details:   (-14.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: icloud.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  1.1 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously
+                              huge http urls
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+X-Spam-Flag: NO
+
+------=_Part_265850584_1640325981.1617814043751
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Dear Peter Speranza,
+
+Your Apple ID (avex@avexeva.com) was used to sign in to iCloud on an=A0iPho=
+ne=A012=A0Pro.
+
+Date and Time: April 7, 2021, 4:47 PM UTC
+
+
+If the information above looks familiar, you can ignore this message.
+
+If you have not recently signed in to an=A0iPhone=A012=A0Pro with your Appl=
+e ID and believe someone may have accessed your account, go to Apple ID (ht=
+tps://appleid.apple.com) and change your password as soon as possible.
+
+Apple Support
+
+
+---
+
+Apple ID:   https://appleid.apple.com/choose-your-country/
+Support:   https://www.apple.com/support/country/
+Privacy Policy:   https://www.apple.com/legal/internet-services/privacy/
+Copyright 2021  Apple Inc. One Apple Park Way, Cupertino, CA 95014 USA.
+All rights reserved.
+------=_Part_265850584_1640325981.1617814043751
+Content-Type: text/html; charset=ISO-8859-1
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<html>
+   =20
+    <head>
+     =20
+      <meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf=
+-8">
+      <meta name=3D"viewport" content=3D"width=3Ddevice-width">
+      <meta name=3D"format-detection" content=3D"address=3Dno" />
+      <meta name=3D"format-detection" content=3D"telephone=3Dno" />
+      <meta name=3D"format-detection" content=3D"email=3Dno" />
+       =20
+       =20
+       =20
+        <style type=3D"text/css">
+         =20
+          body { margin: 0 !important; padding: 0 !important; }
+          a:visited { color: #08c !important; text-decoration: none !import=
+ant; }
+          a:hover { text-decoration: underline !important; }
+          a:active { text-decoration: underline !important; }
+          a:hover.linkbutton { color: #2b2b2b !important; text-decoration: =
+none !important; font-weight: 500 !important; }
+          a:active.linkbutton { color: #2b2b2b !important; text-decoration:=
+ none !important; font-weight: 500 !important; }
+          a:visited.linkbutton { color: #2b2b2b !important; text-decoration=
+: none !important; font-weight: 500 !important; }
+          .nobr {  white-space: nowrap; }
+
+          @media only screen and (min-device-width : 320px) and (max-device=
+-width : 568px) {
+            body[yahoo] {
+            overflow: hidden;
+            width: auto !important;
+            text-align: center !important;
+            margin: 0;
+            -webkit-text-size-adjust:100% !important;
+            }
+            body[yahoo] .mainTable {
+              margin: 0 10px !important;
+            }
+
+            body[yahoo] .heading_logo img {
+              width: 17px !important;
+              height: 21px !important;
+            }
+
+         =20
+           =20
+            body[yahoo] .content_margin {
+            width: 15px !important;
+            }
+            body[yahoo] .footer {
+              background-size: 100%;
+            }
+            body[yahoo] .footer .bottomContent {
+            padding-top: 15px !important;
+            display: block !important;
+            }
+
+            body[yahoo] .footer.content {
+            padding: 0px 10px !important;
+            }
+
+            body[yahoo] .footer .service {
+            display: block !important;
+            }
+
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+
+          }
+
+          @media only screen and (max-device-width: 768px) {
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+          }
+
+          @media only screen and (-webkit-min-device-pixel-ratio: 2) {
+            body[yahoo] .iPhone_font {
+              font-family: 'Helvetica Neue' !important;
+            }
+          }
+
+        </style>
+    </head>
+   =20
+    =20
+          <body style=3D"margin: 0; padding: 0; -webkit-text-size-adjust: 1=
+00%;">
+            <div class=3D"mailwrapper" style=3D"background-color:rgb(255, 2=
+55, 255);font-size: 14px; color: #333; font-smooth: always; -webkit-font-sm=
+oothing: antialiased; "  >
+
+              <table style=3D"table-layout: fixed;width: 100%;"><tr><td>
+
+              <table class=3D"mainTable" align=3D"center" style=3D"margin: =
+0 auto;font-size: inherit; line-height: inherit; text-align: center; border=
+-spacing: 0; border-collapse: collapse; -premailer-cellpadding: 0; -premail=
+er-cellspacing: 0; padding: 0; border: 0;" cellpadding=3D"0" cellspacing=3D=
+"0" >
+                <tr><td class=3D"topPadding" style=3D"font-family: 'Lucida =
+Grande', Helvetica, Arial, sans-serif; height: 16px; -premailer-height: 16;=
+" height=3D"16"></td></tr>
+                <tr>
+                  <td class=3D"centerColumn" style=3D"width: 685px; -premai=
+ler-width: 685;">
+                    <table class=3D"iPhone_font" style=3D"font-family: 'Luc=
+ida Grande', Helvetica, Arial, sans-serif; font-size: inherit; line-height:=
+ 18px; padding: 0px; border: 0px;" >
+                      <tr>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                        <td class=3D"heading_logo" style=3D"               =
+                  text-align: right;
+                           width: 600px;"><img width=3D"22" height=3D"26" a=
+lt=3D"Apple" src=3D"https://statici.icloud.com/emailimages/v4/common/apple_=
+logo_web@2x.png" style=3D"width: 22px; height: 26px;" /></td>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                      </tr>
+                      <tr>
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                       =20
+                       =20
+                           =20
+                            <td class=3D"iPhone_font" style=3D"font-family:=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px; padding-=
+top: 44px;                                 text-align: left;
+                               font-size: 14px; color: #333; font-smooth: a=
+lways; -webkit-font-smoothing: antialiased;">
+                              Dear Peter Speranza,
+                              </td>
+                           =20
+                         =20
+                        <td class=3D"content_margin" style=3D"width: 40px;"=
+></td>
+                        </tr>
+                        <tr>
+                          <td class=3D"content_margin" style=3D"width: 40px=
+;"></td>
+                          <td class=3D"iPhone_font" style=3D"font-family: '=
+Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px;           =
+                       text-align: left;
+                             font-size: 14px; color: #333; padding: 17px 0 =
+0 0; font-smooth: always; -webkit-font-smoothing: antialiased;">
+                           =20
+                              Your Apple ID (<span><a href=3D"mailto:avex@a=
+vexeva.com" style=3D"color: #2b2b2b; text-decoration: none;"><nobr><b>avex@=
+avexeva.com</b></nobr></a></span>) was used to sign in to iCloud on an=A0iP=
+hone=A012=A0Pro.
+                              </td>
+                          <td class=3D"content_margin" style=3D"width: 40px=
+;"></td>
+                          </tr>
+                          <tr>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            <td class=3D"iPhone_font" style=3D"font-family:=
+ 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px;         =
+                         text-align: left;
+                               font-size: 14px; color: #333; padding: 18px =
+0 0 0; font-smooth: always; -webkit-font-smoothing: antialiased;"><div><spa=
+n  >
+                             =20
+                                Date and Time:=20
+                                </span><span >
+                                 =20
+                                    April 7, 2021, 4:47 PM UTC
+                                    </span></div>
+                                   =20
+
+                                   =20
+                                     =20
+                                    </td>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            </tr>
+                              <tr>
+                                <td class=3D"content_margin" style=3D"width=
+: 40px;"></td>
+                                <td class=3D"iPhone_font" style=3D"font-fam=
+ily: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height: 18px; font=
+-smooth: always; -webkit-font-smoothing: antialiased;                      =
+            text-align: left;
+                                   font-size: 14px; color: #333; padding: 1=
+8px 0 0 0;">
+                                 =20
+                                    If the information above looks familiar=
+, you can ignore this message.
+                                    </td>
+                                <td class=3D"content_margin" style=3D"width=
+: 40px;"></td>
+                                </tr>
+                          <tr>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                           =20
+                            <td class=3D"letter_content iPhone_font" style=
+=3D"font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; line-height=
+: 18px; font-smooth: always; -webkit-font-smoothing: antialiased;          =
+                        text-align: left;
+                               font-size: 14px; color: #333; padding: 18px =
+0 15px 0;">
+                              If you have not recently signed in to an=A0iP=
+hone=A012=A0Pro with your Apple ID and believe someone may have accessed yo=
+ur account, go to Apple=A0ID (<a href=3D"https://appleid.apple.com/" style=
+=3D"color: #333; text-decoration: none;"><nobr>https://appleid.apple.com</n=
+obr></a>) and change your password as soon as possible.</td>
+                            <td class=3D"content_margin" style=3D"width: 40=
+px;"></td>
+                            </tr>
+                           =20
+                           =20
+                           =20
+                            <tr>
+                              <td class=3D"content_margin" style=3D"width: =
+40px;"></td>
+                              <td class=3D"iPhone_font" style=3D"          =
+                       text-align: left;
+                                 font-family: 'Lucida Grande', Helvetica, A=
+rial, sans-serif; line-height: 18px; font-size: 14px; font-smooth: always; =
+-webkit-font-smoothing: antialiased; color: #333; padding: 17px 0 13px 0;">
+                               =20
+                                  Apple Support
+                                  </td>
+                              <td class=3D"content_margin" style=3D"width: =
+40px;"></td>
+                              </tr>
+                              </table>
+                            </td>
+                          </tr>
+                         =20
+                          <tr class=3D"footerTopPadding iPhone_font" style=
+=3D"height: 17px; -premailer-height: 17;" height=3D"17"><td style=3D"font-f=
+amily: 'Geneva', Helvetica, Arial, sans-serif;"></td></tr>
+                          <tr>
+                            <td class=3D"footer background iPhone_font" col=
+span=3D"3" background=3D"https://statici.icloud.com/emailimages/v4/common/f=
+ooter_gradient_web.png" style=3D"font-family: 'Geneva', Helvetica, Arial, s=
+ans-serif; font-smooth: always; -webkit-font-smoothing: antialiased; width:=
+ 685px; font-size: 11px; line-height: 14px; color: #888; text-align: center=
+; background-repeat: no-repeat; background-position: center top; padding: 1=
+5px 0 12px; -webkit-text-size-adjust:100%;" align=3D"center">
+                              <span class=3D"footer1" style=3D"white-space:=
+ nowrap;" >
+                                <a href=3D"https://appleid.apple.com/choose=
+-your-country/" style=3D"color: #08c; text-decoration: none;">
+                                Apple ID
+                              </a>
+                            </span> | =20
+                            <span class=3D"footer1" style=3D"white-space: n=
+owrap;">
+                              <a href=3D"https://www.apple.com/support/coun=
+try/" style=3D"color: #08c; text-decoration: none;">
+                              Support
+                            </a>
+                          </span> |=20
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          <a href=3D"https://www.apple.com/legal/internet-s=
+ervices/privacy/" style=3D"color: #08c; text-decoration: none;">
+                          Privacy Policy
+                        </a>
+                      </span>
+                      <br/>
+                   =20
+                      <span class=3D"bottomContent" colspan=3D"3">
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          Copyright =A9 2021
+                        </span>
+                        <span>=20
+                          Apple Inc. <span class=3D "nobr"><a href=3D"#addr=
+ess" id=3D"address" style=3D"color: #888888; text-decoration: none;cursor:t=
+ext;">One Apple Park Way, Cupertino, CA 95014 USA.</a></span>
+                        </span>
+                        <span class=3D"footer1" style=3D"white-space: nowra=
+p;">
+                          All rights reserved.
+                        </span>
+                      </span>
+                   =20
+                    </td>
+                  </tr>
+                  <tr class=3D"footerBottomPadding iPhone_font" style=3D"he=
+ight: 50px; -premailer-height: 50;" height=3D"50"><td style=3D"font-family:=
+ 'Geneva', Helvetica, Arial, sans-serif;">
+                  </td>
+                </tr>
+              </table>
+
+              </td></tr></table>
+            </div>
+          </body>
+        <img src=3D'https://outsideapple.apple.com/img/APPLE_EMAIL_LINK/spa=
+cer4.gif?v=3D2&a=3DH4n%2Fq6WyDjqdGXj%2FwojbaUHv9372ak96KSMM3CHT459IUZNdkxly=
+JLn4BGgNXpxuHjIxWVD%2FNQPFLpdImCcejScUJv7DWraIWC5i9Af95JWdJyBJYJx7PcjbZLrRh=
+G67YoohFVDbk4tQc8bvuJeVwwCEknu0Azs%2Fuf7q%2FhpKzhvytX4NSo8xpfYP%2FFci%2FxEh=
+fLFLlzTVIZlQfKrDL5Xz171xqKm%2BfwHhxSakN2pBfg6JOjEJCYTtAq1DhX8bt8UGQDr51kYmr=
+fyhLM7%2FBORF2OnIf%2Bpf6ZvMKqlF13pn%2BWCAIj%2FT7cWMzoJAtkaw1zfqZTdIlFkrRIQ%=
+2F87CU0CclVzkECltVdqPZWrxGb08fVLwwtBo2khuxg4%2BumO3tA8fHl0%2F4JCNX%2F4t2OrF=
+o0hGt%2BBn06tZXewjvx9SGdOpLem397%2BgIljbBpxKQgMUIdhkVIU6GjG4P1UpmciNzQQcMCI=
+XbtVb7xrKjJFS2p%2F7ZOMn%2BDQT8kl15PlvYD0gRysOSJQUZ8eqPxNARWJ5%2FbLLMzA%3D%3=
+D'/>
+</html>
+------=_Part_265850584_1640325981.1617814043751--

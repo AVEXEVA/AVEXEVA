@@ -1,0 +1,13 @@
+INSERT INTO Department_Type(Name) VALUES('Accounting'),
+                                        ('Sales'),
+                                        ('Human Resources'),
+                                        ('Procurement'),
+                                        ('Service'),
+                                        ('Operations'),
+                                        ('Legal'),
+                                        ('Marketing'),
+                                        ('Compliance'),
+                                        ('Engineering'),
+                                        ('Production'),
+                                        ('Support'),
+                                        ('Information Technology');

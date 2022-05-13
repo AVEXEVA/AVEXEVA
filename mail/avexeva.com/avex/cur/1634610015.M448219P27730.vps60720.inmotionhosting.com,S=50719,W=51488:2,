@@ -1,0 +1,769 @@
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id WnD+GV8rbmFSbAAABSAGJw
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Mon, 18 Oct 2021 22:20:15 -0400
+Return-path: <n_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 18 Oct 2021 22:20:15 -0400
+Received: from msbadger15101.apple.com ([17.179.250.191]:58402 helo=rn2-msbadger15101.apple.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	id 1mcejc-0007Cf-Dd
+	for avex@avexeva.com; Mon, 18 Oct 2021 22:20:15 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1634609971;
+	bh=CAtDE9JzR3GZ0Oy2zTE9Md3lh8NIU53Q1MTD712Enn0=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=zAy5ctKBvhg7xUqAxktLXIBZgoJ8mLq56qNozRZx2QknWXAFxXAitL+aiKSoIp/Bf
+	 LkF56u7+ei+t3/HPWs/RYUi55Cr35r5wLqelvk/KvL6cJtPfOqnztQndyEeN1EMFks
+	 kby4KJ+JIaJUwzdsIF1IuBvUErGWMem4bS2YP4FGViXoKNBBAJizLXKWEfwjJkzm/Q
+	 +cNCNEtKxQD9MRPkIT5hcliZXNNOdShieXJAAXMcBjj7Rgrt1GeLxmdV3elGPBfIgG
+	 AdLRq6H+ToNjBOUPMCFTnE4R/YhOupVMex59NJnOyk4Tr6UPBNOeCallQkVcwnrcms
+	 5+uFUJSv9sPnA==
+Date: Tue, 19 Oct 2021 02:19:31 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: avex@avexeva.com
+Message-ID: <1596462601.614385431.1634609971574@Insideapple.apple.com>
+Subject: =?UTF-8?Q?Here=E2=80=99s_a_recap_of_everything_w?=
+ =?UTF-8?Q?e_announced_at_the_Apple_Event.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_614385429_2031219258.1634609971574"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,yyXgwUinwzguuIsxuLILWgoNxUici8iPgK6yILrNr104aGR53WNQYNqeY5SMfwTX8k5aNqq20Dwa5wyuZqiMGX2XTn7X6Y28o7r9KNxrQ0WEBLxXTB3XA6a7SyIHTYXKCj1IO%2BA4JfC4kvwcKuYZm4h5B5DZYjba7SgQOwRCVB0QvYnWCkNEBNJoLG%2Fu7Y0h
+X-TXN_ID: ab3def02-a308-4d52-9397-0daa5fb3a109
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2276401
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2276401
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=yyXgwUinwzguuIsxuLILWgoNxUici8iPgK6yILrNr104aGR53WNQYNqeY5SMfwTX8k5aNqq20Dwa5wyuZqiMGX2XTn7X6Y28o7r9KNxrQ0WEBLxXTB3XA6a7SyIHTYXKCj1IO%2BA4JfC4kvwcKuYZm4h5B5DZYjba7SgQOwRCVB0QvYnWCkNEBNJoLG%2Fu7Y0h>
+X-mp: d
+X-Spam-Status: No, score=-13.6
+X-Spam-Score: -135
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Unleashed. Introducing the new MacBook Pro with M1 Pro or
+   M1 Max, all-new AirPods, and HomePod mini in five bold colors. Watch the event
+    https://c.apple.com/r?v=2&la=en&lc=usa&a=z2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC
+    [...] 
+ Content analysis details:   (-13.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+X-Spam-Flag: NO
+
+------=_Part_614385429_2031219258.1634609971574
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Unleashed.
+
+Introducing the new MacBook Pro with M1 Pro or M1 Max, all-new AirPods, and=
+ HomePod mini in five bold colors.
+
+Watch the event
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y9a4M2P
+
+-------------------
+
+Available 10.26
+
+MacBook Pro
+
+Supercharged for pros. Incredible performance with the M1=C2=A0Pro or M1=C2=
+=A0Max chip. Amazing battery life. And a 14=E2=80=91inch or 16=E2=80=91inch=
+ Liquid=C2=A0Retina XDR=C2=A0display.
+
+Order
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7U0d7V2P
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y8a4H8p
+
+-------------------
+
+Available 10.26
+
+AirPods
+
+An all-new design with spatial audio, Adaptive EQ, longer battery life, and=
+ sweat and water=C2=A0resistance.
+
+Order
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7A8E6p5p
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y0u0B5v
+
+-------------------
+
+Yellow, orange, and blue available in=C2=A0November
+
+HomePod mini
+
+Room-filling sound. An intelligent assistant. Smart home control. Now in fi=
+ve bold=C2=A0colors.
+
+Shop
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y6w1k9v
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y8b8Q1v
+
+-------------------
+
+Shop Online
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7y1L9P9N
+
+Find a Store
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqEGFitpU%2BEpC9x=
+Odhyb3dJVxvdhh7Z8BGWaq%2B7ATC5WxVOkrQViUOvl7ePrsRSswVjT%2FpjHmCRDI02ddh96P4=
+3k%3D&ct=3Dac7A8x7A8Y
+
+1-800-MY-APPLE
+
+Get=C2=A0the=C2=A0Apple=C2=A0Store=C2=A0App
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7y8G6B2k
+
+-------------------
+
+TM and =C2=A9 2021 Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA 9=
+5014.
+
+-------------------
+
+All=C2=A0Rights=C2=A0Reserved
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7A8b4A7v
+
+Privacy=C2=A0Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7y0c4M0M
+
+My=C2=A0Apple=C2=A0ID
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7y0w7H6v
+
+-------------------
+
+If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email address, please click=C2=A0here.
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DyyXgwUinwzguuIs=
+xuLILWmlXUXRhk0tQFqzVOy%2FOSP8r7hg93B9XqxaWBrtiADC%2B6wQejZXh9LsmnjUbK%2F3R=
+PM2cDFD7NfsthbGWbgI9KHnVgmRTVD7L%2FTlQWGFfn8dxsZt5AL6WmwEcnqvdjlL0pqdGRP69z=
+ivKqXS26wieL1G8IszmiWfSv2zTDxo1wyIW
+
+-------------------
+------=_Part_614385429_2031219258.1634609971574
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html><html><head> <title>P0021510-488763</title> <meta content=3D=
+"width=3Ddevice-width,initial-scale=3D1" name=3Dviewport> <meta content=3D"=
+text/html;charset=3Dutf-8" http-equiv=3Dcontent-type> <meta content=3D"date=
+=3Dno" name=3Dformat-detection> <meta content=3D"address=3Dno" name=3Dforma=
+t-detection> <meta content=3D"email=3Dno" name=3Dformat-detection> <style t=
+ype=3Dtext/css>@media only screen and (max-device-width:2732px){.m32 a,.m33=
+ a[href^=3D"tel:"]{color:inherit!important}.m32 a{text-decoration:none!impo=
+rtant}}</style><style type=3Dtext/css>@media only screen and (max-device-wi=
+dth:568px){.m0{display:none!important}.m1{display:block!important;width:100=
+%!important;height:inherit!important;overflow:visible!important}.m29,.m29 p=
+,.m52{padding:0!important}.m32 a,.m33 a[href^=3D"tel:"],.m33 a[href^=3D'tel=
+:']{color:inherit!important}.m52 table.m33{width:100%!important;max-width:4=
+14px!important;padding-top:0!important}.m53{padding:0 6.25%!important}.m52 =
+table.m54{width:100%!important;max-width:362px!important;padding-top:0!impo=
+rtant}.m29 p{font-size:12px!important;line-height:39px!important}.m29 span.=
+m31{font-size:0;line-height:0;display:block}.m55,.m55 p{line-height:20px!im=
+portant}.m32 a{text-decoration:none!important}.m56 .m33,.m56 .m54,.m56.m57{=
+background-color:#1d1d1f!important}.m56 .m58,.m56 .m58 p,.m56 .m55{text-ali=
+gn:left!important}.m56 .m29{border-top:none!important}.m56 .m29 span.m31{bo=
+rder-top:1px solid #424245}}</style><style type=3Dtext/css>.m0,.m1,td{font-=
+size:17px;font-weight:400;line-height:25px;font-family:system-ui,-apple-sys=
+tem,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-ser=
+if,'SF Pro Icons'}.m1,.m1 div{box-sizing:border-box}.m2,.m2 h1,.m2 h1 a,.m2=
+ h1 a:hover,.m2 h1 a:visited,.m2 h2,.m2 h2 a,.m2 h2 a:hover,.m2 h2 a:visite=
+d,.m2 h3,.m2 h3 a,.m2 h3 a:hover,.m2 h3 a:visited,.m2 h4,.m2 h4 a,.m2 h4 a:=
+hover,.m2 h4 a:visited{color:#1d1d1f}.m3{white-space:nowrap}.m1 .m4,img{max=
+-width:100%}.m0,.m1,.m5,a,p,td{font-family:system-ui,-apple-system,BlinkMac=
+SystemFont,'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif,'SF Pro I=
+cons'}.m6 .m7 .m8,.m9 .m7 .m8,.m10 .m7 .m8,.m11 .m7 .m8{overflow:hidden;bac=
+kground-position:center top;background-repeat:no-repeat;max-width:414px}*{-=
+webkit-font-smoothing:antialiased;text-rendering:optimizelegibility}.m0,.m1=
+{width:100%!important}table{border-spacing:0}b{font-weight:600}.m1{display:=
+none;margin:0 auto;max-width:100%;width:100%}.m1 .m12 img,img{display:block=
+}.m1 .m4 .m13{max-width:414px;margin:0 auto}.m1 .m14{font-size:0;line-heigh=
+t:0;margin:0 auto}.m1 .m15,.m1 .m16{font-size:17px;line-height:25px}.m1 .m1=
+7{font-size:0;line-height:0}.m18 img,.m12 img,.m19,.m1 .m17 .m15{display:in=
+line-block}.m20,.m4,div.m17.m21{margin:0 auto}.m21{text-align:center}.m21 i=
+mg,img.m21{margin-left:auto;margin-right:auto}.m22{text-align:left}.m22 img=
+,div.m17.m22{margin-left:0;margin-right:auto}.m23 img,div.m17.m23,img.m23{m=
+argin-right:0;margin-left:auto}.m23{text-align:right}.m24 a,.m25 a{border:0=
+;outline:0}.m25 .m14{font-size:12px;line-height:16px}.m2{border-color:#fff;=
+background-color:#fff}.m2 a,.m2 a:hover,.m2 a:visited{color:#06c}.m26,.m26 =
+h1,.m26 h1 a,.m26 h1 a:hover,.m26 h1 a:visited,.m26 h2,.m26 h2 a,.m26 h2 a:=
+hover,.m26 h2 a:visited,.m26 h3,.m26 h3 a,.m26 h3 a:hover,.m26 h3 a:visited=
+,.m26 h4,.m26 h4 a,.m26 h4 a:hover,.m26 h4 a:visited{color:#f5f5f7}.m2.m24,=
+.m2.m25{color:#86868b;background-color:#f5f5f7}.m2.m24 .m18,.m2.m24 a,.m2.m=
+24 a.m18,.m2.m25 .m18,.m2.m25 a,.m2.m25 a.m18{color:#515154}.m26{border-col=
+or:#000;background-color:#000}.m26 a,.m26 a:hover,.m26 a:visited{color:#299=
+7ff}.m26.m24,.m26.m25{color:#6e6e73;background-color:#1d1d1f}.m26.m24 .m18,=
+.m26.m24 a,.m26.m24 a.m18,.m26.m25 .m18,.m26.m25 a,.m26.m25 a.m18{color:#a1=
+a1a6}.m27 .m2{color:#6e6e73;background-color:#f5f5f7}.m28 .m29 a,.m27 .m2 .=
+m18,.m27 .m2 a,.m27 .m2 a.m18,.m27 .m2 a:hover,.m27 .m2 a:visited{color:#42=
+4245}.m27 .m26{color:#86868b;background-color:#1d1d1f}.m30 .m29 a,.m27 .m26=
+ .m18,.m27 .m26 a,.m27 .m26 a.m18,.m27 .m26 a:hover,.m27 .m26 a:visited{col=
+or:#d2d2d7}.m18,.m5 a,a,a:link{text-decoration:none}.m18+.m31,a img{display=
+:inline-block}.m5 a[x-apple-data-detectors],a[x-apple-data-detectors],p a[x=
+-apple-data-detectors]{text-decoration:none!important}.m5 a,a,p a{cursor:po=
+inter;text-decoration:none}img.m22{margin-right:auto;margin-left:0}a img{bo=
+rder:0;outline:0}.m34{vertical-align:top}.m35{vertical-align:middle}.m36{ve=
+rtical-align:bottom}.m5,p{font-size:17px;font-weight:400;line-height:25px;m=
+argin:0}.m5 a:focus,.m5 a:hover,a.m18:hover,a:focus,a:hover,a[x-apple-data-=
+detectors]:hover,p a:focus,p a:hover{text-decoration:underline!important}.m=
+37{line-height:inherit}a>span{letter-spacing:inherit}.m18+.m31{font-size:12=
+px;padding:0 4px}.m25 .m18{display:inline}.m38>p,.m39,.m39>p,.m40>p{font-si=
+ze:14px;line-height:17px;font-weight:400}.m11 .m7 .m8{width:100%;margin:0;b=
+ackground-image:url(https://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-=
+38D0D8CC44A7/i/m_hero_2x.jpg)!important;background-size:414px 598px;height:=
+598px}.m10{padding-top:82px}.m10 .m7 .m8{width:100%;margin:0;background-ima=
+ge:url(https://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/=
+i/m_macbookpro_2x.jpg)!important;background-size:414px 136px;height:136px}.=
+m39{color:#86868b;padding-top:10px;padding-bottom:11px}.m38 a,.m39 a,.m40 a=
+{color:#86868b;font-size:14px}.m41,.m42,.m43{font-size:36px;font-weight:600=
+;line-height:40px}.m41 a,.m42 a,.m43 a{font-size:36px}.m41>p,.m42>p,.m43>p{=
+font-size:36px;line-height:40px;font-weight:600}.m44,.m44>p,.m45>p,.m46>p{f=
+ont-size:19px;line-height:23px;font-weight:600}.m44{color:#1d1d1f;max-width=
+:340px;padding:10px 10px 24px}.m44 a,.m45 a,.m46 a{color:#1d1d1f;font-size:=
+19px}.z1,.z1,.z1,.z1,.z1,.z1,.z1,.z1,.z1{width:100%}.m47,.m48{padding-top:1=
+7px;padding-bottom:20px;font-weight:400}.m49 img,.m47 img,.m48 img{width:12=
+px;height:10px}.m6{padding-top:69px}.m6 .m7 .m8{width:100%;margin:0;backgro=
+und-image:url(https://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8=
+CC44A7/i/m_airpods_2x.jpg)!important;background-size:414px 313px;height:313=
+px}.m38{color:#86868b;padding-top:16px;padding-bottom:7px;font-size:14px;fo=
+nt-weight:400;line-height:17px}.m46{color:#1d1d1f;padding-top:10px;padding-=
+bottom:25px;font-size:19px;font-weight:600;line-height:23px;max-width:312px=
+}.m50,.m51{padding-right:6.25%;padding-left:6.25%}.m9{padding-top:61px}.m9 =
+.m7 .m8{width:100%;margin:0;background-image:url(https://www.apple.com/dm/u=
+s/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/m_homepod_2x.jpg)!important;bac=
+kground-size:414px 172px;height:172px}.m40{color:#86868b;padding-top:11px;p=
+adding-bottom:10px;font-size:14px;font-weight:400;line-height:17px}.m45{col=
+or:#1d1d1f;padding-top:9px;padding-bottom:24px;font-size:19px;font-weight:6=
+00;line-height:23px;max-width:292px}.m49{padding-top:17px;padding-bottom:96=
+px;font-weight:400}.m59.m59.m59{display:inline;margin:0}</style><!--[if gte=
+ mso 9]>
+        <style type=3D"text/css">
+  =09=09=09=09table,td,tr,a,span,b,sup{line-height:normal !important; mso-l=
+ine-height-rule: exactly;}
+  =09=09=09=09sup{font-size:100% !important;}
+  =09=09=09=09h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-fami=
+ly:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weigh=
+t: 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}
+  =09=09=09=09h1 sup,h2 sup,h3 sup,h4 sup,h5 sup,h6 sup, .m37 sup, .outBold=
+ sup{font-size:90% !important;}
+  =09=09=09=09b,strong {line-height: inherit !important; font-family:'Segoe=
+ UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight: 400 !i=
+mportant; mso-line-height-rule: exactly; }
+  =09=09=09=09.outBold { font-family: 'Segoe UI', Arial, sans-serif !import=
+ant; font-weight: 600 !important; }
+          .m37 { font-family: 'Segoe UI SemiBold','Segoe UI', Arial, sans-s=
+erif !important; font-weight: 400 !important;line-height: inherit !importan=
+t;mso-text-raise: 2px; }
+  =09=09=09=09.outBold {overflow:visible;line-height: inherit !important;ms=
+o-line-height-rule: exactly;mso-text-raise: 2px; }
+  =09=09=09=09.fallback { display: block !important}
+  =09=09=09=09.animated { display: none !important}
+  =09=09=09=09li {margin-bottom: 9px;}
+  =09=09=09=09ol {margin-left: 0 !important; }
+  =09=09=09</style>
+  =09=09=09<xml>
+  =09=09=09=09<o:OfficeDocumentSettings>
+  =09=09=09=09<o:AllowPNG/>
+  =09=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+  =09=09=09=09</o:OfficeDocumentSettings>
+  =09=09=09</xml>
+    =09=09<![endif]--><!--[if gte mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1,h2,h3,h4,h5,h6 {mso-text-raise: 2px;}
+    =09=09=09</style>
+    =09=09<![endif]--><!--[if mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1 {mso-text-raise: 4px;}
+    =09=09=09</style>
+        <![endif]--></head><body style=3Dmargin:0;padding:0><div style=3Ddi=
+splay:none;max-height:0;overflow:hidden> Introducing the new MacBook Pro wi=
+th M1 Pro or M1 Max, all-new AirPods, and HomePod mini in five bold colors.=
+ </div><!-- Adding spaces to prevent email copy from being visible --> <div=
+ style=3Ddisplay:none;max-height:0;overflow:hidden>=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=
+=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C </div><div class=3Dm1 s=
+tyle=3Ddisplay:none;width:0;height:0;overflow:hidden><div class=3D"m4 m2"><=
+div class=3Dm13><div class=3Dm14><div class=3Dm15><div class=3Dm11><div cla=
+ss=3Dm7><div class=3D"m22 m8"><span aria-label=3D"Unleashed.  Introducing t=
+he new MacBook Pro with M1 Pro or M1 Max, all-new AirPods, and HomePod mini=
+ in five bold colors.  Watch the event" role=3Dimg></span><a href=3D"https:=
+//c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12=
+xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2Fligp=
+HEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1Xo=
+BW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3=
+D&ct=3Dac7y8d6Y1P" style=3Ddisplay:block;max-width:414px;height:598px></a><=
+/div></div></div></div></div></div></div><div class=3D"m4 m2"><div class=3D=
+m13><div class=3Dm14><div class=3D"m15 m21"><div class=3Dm10><div class=3Dm=
+7><div class=3D"m22 m8"><!----></div></div></div><div class=3D"m16 m39"><p =
+class=3Dm5>Available 10.26</p></div><div class=3D"m16 m41"><p class=3Dm5>Ma=
+cBook Pro</p></div><div class=3D"m16 m20 m44"><p class=3Dm5>Supercharged fo=
+r pros. Incredible=C2=A0performance with the M1=C2=A0Pro or M1=C2=A0Max chi=
+p. Amazing battery life. And a 14=E2=80=91inch or 16=E2=80=91inch Liquid=C2=
+=A0Retina XDR=C2=A0display.</p></div><div class=3D"z1 m17"><div class=3D"m1=
+5 z1"><div><div class=3Dm21><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaK=
+XBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKa=
+ViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4=
+tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y2q1J5P"><img alt=3D=
+Order height=3D44 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8=
+530-38D0D8CC44A7/i/order_button_2x.png width=3D98 class=3Dm34></a></div></d=
+iv></div><div class=3D"m15 z1 m21"><div class=3D"m20 m47"><a href=3D"https:=
+//c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12=
+xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2Fligp=
+HEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1Xo=
+BW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3=
+D&ct=3Dac7A8c2w4p" class=3Dm18>Learn <span class=3Dm3>more<img alt=3D" " he=
+ight=3D10 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0=
+D8CC44A7/i/17_chevron_0066cc_2x.png width=3D12 class=3Dm59></span></a></div=
+></div></div></div></div></div></div><div class=3D"m4 m2"><div class=3Dm13>=
+<div class=3Dm14><div class=3Dm15><div class=3Dm6><div class=3Dm7><div clas=
+s=3D"m22 m8"><!----></div></div></div></div></div><div class=3Dm14><div cla=
+ss=3D"m15 m21 m51"><div class=3D"m16 m38"><p class=3Dm5>Available 10.26</p>=
+</div><div class=3D"m16 m42"><p class=3Dm5>AirPods</p></div><div class=3D"m=
+16 m20 m46"><p class=3Dm5>An all-new design with spatial audio, Adaptive EQ=
+, longer battery=C2=A0life, and sweat and water=C2=A0resistance.</p></div><=
+div class=3D"z1 m17"><div class=3D"m15 z1"><div><div class=3Dm21><a href=3D=
+"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJ=
+qOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt=
+%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDP=
+E5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41E=
+FEDYE%3D&ct=3Dac7y7w5D1v"><img alt=3DOrder height=3D44 src=3Dhttps://www.ap=
+ple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/order_button_2x.png=
+ width=3D98 class=3Dm34></a></div></div></div><div class=3D"m15 z1"><div cl=
+ass=3D"m20 m48"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4n=
+roQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISo=
+EmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7E=
+bdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y0I4c2N" class=3Dm18>Learn <sp=
+an class=3Dm3>more<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm=
+/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/17_chevron_0066cc_2x.png widt=
+h=3D12 class=3Dm59></span></a></div></div></div></div></div></div></div><di=
+v class=3D"m4 m2"><div class=3Dm13><div class=3Dm14><div class=3Dm15><div c=
+lass=3Dm9><div class=3Dm7><div class=3D"m22 m8"><!----></div></div></div></=
+div></div><div class=3Dm14><div class=3D"m15 m21 m50"><div class=3D"m16 m40=
+"><p class=3Dm5>Yellow, orange, and blue<br> available in=C2=A0November</p>=
+</div><div class=3D"m16 m43"><p class=3Dm5>HomePod mini</p></div><div class=
+=3D"m16 m20 m45"><p class=3Dm5>Room-filling sound. An intelligent assistant=
+. Smart home=C2=A0control. Now in five bold=C2=A0colors.</p></div><div clas=
+s=3D"z1 m17"><div class=3D"m15 z1"><div><div class=3Dm21><a href=3D"https:/=
+/c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12x=
+bGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpH=
+EyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoB=
+W1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D=
+&ct=3Dac7y1d1l2C"><img alt=3DShop height=3D44 src=3Dhttps://www.apple.com/d=
+m/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/shop_button_2x.png width=3D9=
+8 class=3Dm34></a></div></div></div><div class=3D"m15 z1"><div class=3D"m20=
+ m49"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM=
+1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmSt=
+nqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2=
+BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y1w7C9N" class=3Dm18>Learn <span class=3Dm=
+3>more<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/21/63215=
+C1D-AFAA-446E-8530-38D0D8CC44A7/i/17_chevron_0066cc_2x.png width=3D12 class=
+=3Dm59></span></a></div></div></div></div></div></div></div></div><table bo=
+rder=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% a=
+lign=3Dcenter><tr><td><div class=3Dm0><table border=3D0 cellpadding=3D0 cel=
+lspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><td style=
+=3Dtext-align:center align=3Dcenter><table border=3D0 cellpadding=3D0 cells=
+pacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr class=3Dm4><=
+td style=3Dbackground-color:#fff class=3Dm2 align=3Dcenter><table border=3D=
+0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dc=
+enter style=3Dwidth:712px><tr class=3Dm14><td><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dcenter><tr><td=
+ class=3Dm15 width=3D100%><table border=3D0 cellpadding=3D0 cellspacing=3D0=
+ role=3Dpresentation width=3D100% class=3Dm15><tr><td><a href=3D"https://c.=
+apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGo=
+ofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyh=
+lQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1j=
+wvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=
+=3Dac7A8u0J2v" style=3Ddisplay:inline-block;color:#06c><picture><source med=
+ia=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D"Unleashed.  Int=
+roducing the new MacBook Pro with M1 Pro or M1 Max, all-new AirPods, and Ho=
+mePod mini in five bold colors.  Watch the event" height=3D762 src=3Dhttps:=
+//www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/hero_2x.jpg=
+ width=3D712 class=3Dm22 border=3D0 style=3Dvertical-align:top;display:inli=
+ne-block></picture></a></td></tr></table></td></tr></table></td></tr></tabl=
+e></td></tr><tr class=3Dm4><td style=3Dbackground-color:#fff class=3Dm2 ali=
+gn=3Dcenter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresen=
+tation width=3D712 align=3Dcenter style=3Dwidth:712px><tr class=3Dm14><td><=
+table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=
+=3D100% align=3Dcenter><tr><td style=3Dpadding-bottom:113px class=3Dm15 wid=
+th=3D100%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresenta=
+tion width=3D100% class=3Dm15 style=3Dtext-align:center><tr><td style=3Dpad=
+ding-top:81px;padding-bottom:13px><picture><source media=3D"(max-device-wid=
+th: 568px)" srcset=3Ddata:><img alt=3D" " height=3D253 src=3Dhttps://www.ap=
+ple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/macbookpro_2x.jpg w=
+idth=3D712 class=3Dm22 border=3D0 style=3Ddisplay:block></picture></td></tr=
+><tr><td style=3Dcolor:#86868b;padding:0 class=3Dm16><p style=3Dcolor:#8686=
+8b;font-size:14px;font-weight:400;line-height:17px>Available 10.26</p></td>=
+</tr><tr><td style=3D"padding:10px 0 4px" class=3Dm16><p class=3Dm37 style=
+=3Dfont-size:36px;font-weight:600;line-height:42px;color:#1d1d1f>MacBook Pr=
+o</p></td></tr><tr><td style=3D"color:#1d1d1f;padding:5px 0 36px" class=3Dm=
+16><p class=3Dm37 style=3Dcolor:#1d1d1f;font-weight:600;line-height:21px>Su=
+percharged for pros. Incredible performance<br> with the M1=C2=A0Pro or M1=
+=C2=A0Max chip. Amazing battery life.<br> And a 14=E2=80=91inch or 16=E2=80=
+=91inch Liquid=C2=A0Retina XDR=C2=A0display.</p></td></tr><tr><td align=3Dc=
+enter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation=
+ width=3D100% align=3Dcenter><tr><td style=3Dvertical-align:middle;width:50=
+% class=3Dm15 width=3D50% valign=3Dmiddle><table border=3D0 cellpadding=3D0=
+ cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15><tr><td style=
+=3Dpadding-right:8px;text-align:right class=3Dm23 align=3Dright><a href=3D"=
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%=
+2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE=
+5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EF=
+EDYE%3D&ct=3Dac7y6c8G9M" style=3Ddisplay:inline-block;color:#06c><picture><=
+source media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3DOrder =
+height=3D44 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38=
+D0D8CC44A7/i/order_button_2x.png width=3D98 class=3Dm23 border=3D0 style=3D=
+vertical-align:top;display:inline-block></picture></a></td></tr></table></t=
+d><td style=3Dvertical-align:middle;width:50% class=3Dm15 width=3D50% valig=
+n=3Dmiddle><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresent=
+ation width=3D100% class=3Dm15><tr><td style=3Dpadding-left:8px;font-weight=
+:400><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HW=
+CoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1=
+E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStn=
+qCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2B=
+zUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y8G1W1k" style=3Dfont-weight:400;color:#06c=
+ class=3D"m5 m18">Learn <span style=3Dwhite-space:nowrap>more<img alt=3D" "=
+ height=3D10 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-3=
+8D0D8CC44A7/i/17_chevron_0066cc_2x.png width=3D12 border=3D0 style=3Dfont-s=
+ize:0;display:inline-block;margin:0></span></a></td></tr></table></td></tr>=
+</table></td></tr></table></td></tr></table></td></tr></table></td></tr><tr=
+ class=3Dm4><td style=3Dbackground-color:#fff class=3Dm2 align=3Dcenter><ta=
+ble border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D=
+712 align=3Dcenter style=3Dwidth:712px><tr class=3Dm14><td><table border=3D=
+0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dc=
+enter><tr><td class=3Dm15 width=3D100%><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15><tr><td style=3D=
+text-align:left;vertical-align:top class=3Dm22 align=3Dleft><picture><sourc=
+e media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D" " height=
+=3D447 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8C=
+C44A7/i/airpods_2x.jpg width=3D712 class=3Dm22 border=3D0 style=3Ddisplay:b=
+lock></picture></td></tr></table></td></tr></table></td></tr><tr class=3Dm1=
+4><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation=
+ width=3D100% align=3Dcenter><tr><td style=3Dpadding-bottom:121px;vertical-=
+align:top class=3Dm15 width=3D100% valign=3Dtop><table border=3D0 cellpaddi=
+ng=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15 style=
+=3Dtext-align:center><tr><td style=3D"color:#86868b;padding:1px 0 13px" cla=
+ss=3Dm16><p style=3Dcolor:#86868b;font-size:14px;font-weight:400;line-heigh=
+t:17px>Available 10.26</p></td></tr><tr><td style=3Dpadding:0 class=3Dm16><=
+p class=3Dm37 style=3Dfont-size:36px;font-weight:600;line-height:42px;color=
+:#1d1d1f>AirPods</p></td></tr><tr><td style=3D"color:#1d1d1f;padding:8px 0 =
+38px" class=3Dm16><p class=3Dm37 style=3Dcolor:#1d1d1f;font-weight:600;line=
+-height:21px>An all-new design with spatial audio, Adaptive EQ,<br> longer =
+battery life, and sweat and water=C2=A0resistance.</p></td></tr><tr><td ali=
+gn=3Dcenter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresen=
+tation width=3D100% align=3Dcenter><tr><td style=3Dvertical-align:middle;wi=
+dth:50% class=3Dm15 width=3D50% valign=3Dmiddle><table border=3D0 cellpaddi=
+ng=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15><tr><td=
+ style=3Dpadding-right:8px;text-align:right class=3Dm23 align=3Dright><a hr=
+ef=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbR=
+YNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTr=
+O82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BY=
+PrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01X=
+XW41EFEDYE%3D&ct=3Dac7y0L5x1Y" style=3Ddisplay:inline-block;color:#06c><pic=
+ture><source media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D=
+Order height=3D44 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8=
+530-38D0D8CC44A7/i/order_button_2x.png width=3D98 class=3Dm23 border=3D0 st=
+yle=3Dvertical-align:top;display:inline-block></picture></a></td></tr></tab=
+le></td><td style=3Dvertical-align:middle;width:50% class=3Dm15 width=3D50%=
+ valign=3Dmiddle><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dp=
+resentation width=3D100% class=3Dm15><tr><td style=3Dpadding-left:8px;font-=
+weight:400><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2=
+Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%=
+2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWM=
+JhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2=
+FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y5I1x5k" style=3Dfont-weight:400;colo=
+r:#06c class=3D"m5 m18">Learn <span style=3Dwhite-space:nowrap>more<img alt=
+=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-=
+8530-38D0D8CC44A7/i/17_chevron_0066cc_2x.png width=3D12 border=3D0 style=3D=
+font-size:0;display:inline-block;margin:0></span></a></td></tr></table></td=
+></tr></table></td></tr></table></td></tr></table></td></tr></table></td></=
+tr><tr class=3Dm4><td style=3Dbackground-color:#fff class=3Dm2 align=3Dcent=
+er><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation wi=
+dth=3D712 align=3Dcenter style=3Dwidth:712px><tr class=3Dm14><td><table bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 ali=
+gn=3Dcenter><tr><td class=3Dm15 width=3D100%><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15><tr><td s=
+tyle=3Dtext-align:left;vertical-align:top class=3Dm22 align=3Dleft><picture=
+><source media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D" " =
+height=3D273 src=3Dhttps://www.apple.com/dm/us/21/63215C1D-AFAA-446E-8530-3=
+8D0D8CC44A7/i/homepod_2x.jpg width=3D712 class=3Dm22 border=3D0 style=3Ddis=
+play:block></picture></td></tr></table></td></tr></table></td></tr><tr clas=
+s=3Dm14><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresen=
+tation width=3D100% align=3Dcenter><tr><td style=3Dpadding-bottom:142px;ver=
+tical-align:top class=3Dm15 width=3D100% valign=3Dtop><table border=3D0 cel=
+lpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15 s=
+tyle=3Dtext-align:center><tr><td style=3D"color:#86868b;padding:21px 0 13px=
+" class=3Dm16><p style=3Dcolor:#86868b;font-size:14px;font-weight:400;line-=
+height:17px>Yellow, orange, and blue available in=C2=A0November</p></td></t=
+r><tr><td style=3Dpadding:0 class=3Dm16><p class=3Dm37 style=3Dfont-size:36=
+px;font-weight:600;line-height:42px;color:#1d1d1f>HomePod mini</p></td></tr=
+><tr><td style=3D"color:#1d1d1f;padding:9px 0 38px" class=3Dm16><p class=3D=
+m37 style=3Dcolor:#1d1d1f;font-weight:600;line-height:21px>Room-filling sou=
+nd. An intelligent assistant.<br> Smart home control. Now in five bold=C2=
+=A0colors.</p></td></tr><tr><td align=3Dcenter><table border=3D0 cellpaddin=
+g=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><=
+td style=3Dvertical-align:middle;width:50% class=3Dm15 width=3D50% valign=
+=3Dmiddle><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresenta=
+tion width=3D100% class=3Dm15><tr><td style=3Dpadding-right:8px;text-align:=
+right class=3Dm23 align=3Dright><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpqfAj8SU3l=
+R3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENjZN%2FpgTYdKeCr=
+%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6=
+bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7y0b1y5C" style=
+=3Ddisplay:inline-block;color:#06c><picture><source media=3D"(max-device-wi=
+dth: 568px)" srcset=3Ddata:><img alt=3DShop height=3D44 src=3Dhttps://www.a=
+pple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/shop_button_2x.png=
+ width=3D98 class=3Dm23 border=3D0 style=3Dvertical-align:top;display:inlin=
+e-block></picture></a></td></tr></table></td><td style=3Dvertical-align:mid=
+dle;width:50% class=3Dm15 width=3D50% valign=3Dmiddle><table border=3D0 cel=
+lpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm15><=
+tr><td style=3Dpadding-left:8px;font-weight:400><a href=3D"https://c.apple.=
+com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA=
+7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpENj=
+ZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD%2=
+FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Dac7=
+y1i5I9P" style=3Dfont-weight:400;color:#06c class=3D"m5 m18">Learn <span st=
+yle=3Dwhite-space:nowrap>more<img alt=3D" " height=3D10 src=3Dhttps://www.a=
+pple.com/dm/us/21/63215C1D-AFAA-446E-8530-38D0D8CC44A7/i/17_chevron_0066cc_=
+2x.png width=3D12 border=3D0 style=3Dfont-size:0;display:inline-block;margi=
+n:0></span></a></td></tr></table></td></tr></table></td></tr></table></td><=
+/tr></table></td></tr></table></td></tr></table></td></tr></table></div></t=
+d></tr><tr><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpre=
+sentation width=3D100% class=3D"m30 m56 m57" style=3Dbackground-color:#1d1d=
+1f bgcolor=3D#1D1D1F><tr class=3Dm4><td class=3Dm52><table border=3D0 cellp=
+adding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dcenter s=
+tyle=3Dbackground-color:#1d1d1f bgcolor=3D#1D1D1F class=3Dm33><tr><td style=
+=3D"padding:0 20px" class=3Dm53><table border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 role=3Dpresentation width=3D660 align=3Dcenter bgcolor=3D#1D1D1F cla=
+ss=3Dm54><tr><td style=3D"padding:15px 0 16px;font-size:14px;line-height:18=
+px;border-top-width:0;border-bottom-width:1px;border-bottom-style:solid;bor=
+der-bottom-color:#424245;color:#d2d2d7" class=3Dm29 align=3Dcenter><p style=
+=3D"color:#D2D2D7;margin:0 auto;font-size:14px;line-height:18px"><a href=3D=
+"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJ=
+qOcwA12xbGoofYjHA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt=
+%2FligpHEyhlQpENjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDP=
+E5Qh1XoBW1jwvSD%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41E=
+FEDYE%3D&ct=3Dac7y9E7Y4M" style=3Dborder:0;outline:0;text-decoration:none;c=
+olor:#D2D2D7>Shop Online</a><span class=3Dm31 style=3Dcolor:#424245>=C2=A0=
+=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0=C2=A0</span><a href=3D"https://c.appl=
+e.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYj=
+HA7%2FpqfAj8SU3lR3gtaKXBBrAqPK4nroQfBv%2FXHM1E5IpRAtHTrO82qt%2FligpHEyhlQpE=
+NjZN%2FpgTYdKeCr%2BsKaViXNgC9ISoEmakbWMJhmStnqCCLmj%2BYPrpDPE5Qh1XoBW1jwvSD=
+%2FqAczpcH6ESGr6bAlFg4tL4Gr7AW7EbdjSG%2FLx%2BzUtZBUc01XXW41EFEDYE%3D&ct=3Da=
+c7A8w7g5k" style=3Dborder:0;outline:0;text-decoration:none;color:#D2D2D7>Fi=
+nd a Store</a><span class=3Dm31 style=3Dcolor:#424245>=C2=A0=C2=A0=C2=A0=C2=
+=A0|=C2=A0=C2=A0=C2=A0=C2=A0</span>1-800-MY-APPLE<span class=3Dm31 style=3D=
+color:#424245>=C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0 </span><a href=3D=
+"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6W=
+wPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5c=
+DU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7A8n6I2h" style=3Dborder:0;ou=
+tline:0;text-decoration:none;color:#D2D2D7>Get=C2=A0the=C2=A0Apple=C2=A0Sto=
+re=C2=A0App</a></p></td></tr><!----><tr><td style=3D"padding:17px 0 9px;tex=
+t-align:left" class=3Dm58><p style=3Dfont-size:12px;line-height:16px;color:=
+#86868b>TM and =C2=A9 2021 Apple Inc. One Apple Park Way, <span class=3Dm3 =
+style=3Dwhite-space:nowrap>MS 96-DM</span>, Cupertino, CA 95014.</p></td></=
+tr><tr><td style=3D"padding:0 0 9px;font-size:12px;line-height:16px;color:#=
+d2d2d7;text-align:left" class=3Dm55><p style=3D"color:#D2D2D7;margin:0 auto=
+;font-size:12px;line-height:16px"><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0O=
+Ky1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8D=
+j3Kqfua&ct=3Dac7U4x3R0T" style=3Dborder:0;outline:0;text-decoration:none;co=
+lor:#D2D2D7>All=C2=A0Rights=C2=A0Reserved</a> =C2=A0=C2=A0=C2=A0<span class=
+=3Dm31 style=3Dcolor:#424245>|</span>=C2=A0=C2=A0 <a href=3D"https://c.appl=
+e.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVX=
+u6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIj=
+bFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7y9B2D2h" style=3Dborder:0;outline:0;text-de=
+coration:none;color:#D2D2D7>Privacy=C2=A0Policy</a> =C2=A0=C2=A0=C2=A0<span=
+ class=3Dm31 style=3Dcolor:#424245>|</span>=C2=A0=C2=A0 <a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2Fdw=
+FlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1eg=
+KAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7A8B0K1h" style=3Dborder:0;outline:0;t=
+ext-decoration:none;color:#D2D2D7>My=C2=A0Apple=C2=A0ID</a> </p></td></tr><=
+tr><td style=3D"padding:0 0 25px;text-align:left" class=3Dm58><p style=3Dfo=
+nt-size:12px;line-height:16px;color:#86868b>If you prefer not to receive co=
+mmercial email from Apple, or if you=E2=80=99ve changed your email address,=
+ please <a href=3Dhttps://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=
+=3DyyXgwUinwzguuIsxuLILWgoNxUici8iPgK6yILrNr104aGR53WNQYNqeY5SMfwTX8k5aNqq2=
+0Dwa5wyuZqiMGX2XTn7X6Y28o7r9KNxrQ0WEBLxXTB3XA6a7SyIHTYXKCj1IO%2BA4JfC4kvwcK=
+uYZm4h5B5DZYjba7SgQOwRCVB0QvYnWCkNEBNJoLG%2Fu7Y0h style=3Dborder:0;outline:=
+0;text-decoration:none;color:#d2d2d7>click=C2=A0here</a>.</p></td></tr></ta=
+ble></td></tr></table></td></tr></table></td></tr></table> </body></html>
+------=_Part_614385429_2031219258.1634609971574--

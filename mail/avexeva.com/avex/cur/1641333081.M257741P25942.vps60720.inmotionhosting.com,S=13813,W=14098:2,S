@@ -1,0 +1,285 @@
+Return-Path: <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id fkyrDlnB1GFWZQAABSAGJw
+	(envelope-from <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>)
+	for <avex@avexeva.com>; Tue, 04 Jan 2022 16:51:21 -0500
+Return-path: <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 04 Jan 2022 16:51:21 -0500
+Received: from o6.sg.zoom.us ([149.72.249.102]:10332)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>)
+	id 1n4riC-0006l7-9P
+	for avex@avexeva.com; Tue, 04 Jan 2022 16:51:21 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=zoom.us;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=sg; bh=2lXkdvbCyI/s+OQi3ZAyn3F47JbQydHsj49AXzXZX3Y=;
+	b=XnaIkGviYuknWFWCHePwxpU3hkj3j9BhNYcjaEGa8521gMvh5siBacd2bKgl55+CdB1X
+	h2pW6BfgJI9b8K2YjQsVyxBG7TwS2zqYa7Dt/155JBbJklyhBcLnVjjNzLZerEoWADkNXz
+	3qcKfD9JKd5RAygCvaN1S2JB5SXvMVwkTL3mZdFgwN4Rstr8hofCHDxDspzIgwAEardD+l
+	fAlevRA3ieobp7qT0lB09VMrho8ued6uZSLtMjfmFtbZVNhaaJdd7AsRHbS0QenNFQrhlE
+	vd6lZ9LfdvqZvyRUBIg2/Rqn+cGoV+ODqFkgXrFVKzMV+hDkAsYGKUg+NyEzyPTQ==
+Received: by filterdrecv-6b4b75bfd9-dch6r with SMTP id filterdrecv-6b4b75bfd9-dch6r-1-61D4C12E-40
+        2022-01-04 21:50:38.715187137 +0000 UTC m=+10798171.995185469
+Received: from MTU1NzAzODg (unknown)
+	by ismtpd0200p1mdw1.sendgrid.net (SG)
+	with HTTP
+	id naRGBEzERdGEP_On2_9sOQ
+	Tue, 04 Jan 2022 21:50:38.672 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=us-ascii
+Date: Tue, 04 Jan 2022 21:50:38 +0000 (UTC)
+From: Zoom <no-reply@zoom.us>
+Mime-Version: 1.0
+Message-ID: <naRGBEzERdGEP_On2_9sOQ@ismtpd0200p1mdw1.sendgrid.net>
+Subject: Zoom password reset confirmation
+X-SG-EID: 
+ =?us-ascii?Q?KDPpbW8pFa435o7hjkPt95uEztMiNTszLxSdUw1PsB2OCAYeZjlfYbzMeTGtUm?=
+ =?us-ascii?Q?DNd59VrcAcm2TyRS0FOtbAp4azuzt5hSwYdMwjG?=
+ =?us-ascii?Q?TdTaDhmGBGziAT38OZczQ1K2gZDNy0YhwULAZbI?=
+ =?us-ascii?Q?bGUh75XLXLK5vYXZXCeavGOCAqc8o9eJU0Bn6U+?=
+ =?us-ascii?Q?=2FalUBkN7+zie59kIMe55SeDSCTYNQ2dJ4uT=2FnSd?=
+ =?us-ascii?Q?p85QF6wSsNsjp9itA=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb1Jg9em=2F94A4Sfn01p88K1J+U2oUaXi5QdXgNBekv1?=
+ =?us-ascii?Q?7hQej4OQ459sm4I123hLgCd0TY36+ISIyAlvPTp?=
+ =?us-ascii?Q?IUzf9YvhRosphzORlojkUSobLYRG3JN9auH8PNP?=
+ =?us-ascii?Q?xe0PvU+4CQIM83kUer7a=2F2ieYN8lHOAeisBLi76?=
+ =?us-ascii?Q?JUm4lVcr44mls8dvKr=2FqwuDRyFHmswlNQ=2FeqTcB?=
+ =?us-ascii?Q?70aGSNcj5=2FzsD8U7Z5vQqSUQM03RO=2Fd0Tdx0M38?=
+ =?us-ascii?Q?BQRCH24ZP0yCAoAyJEYzY4NIwcmpFJrqnJJGRyr?=
+ =?us-ascii?Q?tyeyLPXLg9xq9m0I4JJM1XmhaOU38ZVP97uvZdf?=
+ =?us-ascii?Q?otcoe45=2FJHYMixNnbivvr065TfbWNm=2FBMwYMLD4?=
+ =?us-ascii?Q?UwfN1KHH3tBSeapSoGSQjjxfohXGHtYJ+lxLN8b?=
+ =?us-ascii?Q?9EnnHtYQmz5uWwY+Ky5ioET355fu8iP0SN9VVz2?=
+ =?us-ascii?Q?3yWYAn2ix9HeuIu9nWBcc1YY0VsEFpkdf9pnZ3i?=
+ =?us-ascii?Q?rbk1h+sECo71WV4EIbQmvl9W+EcdtZFWykzHoAg?=
+ =?us-ascii?Q?a1bbafGuRYfb+HsLrHWLZqEGfGV5LKZSRdB=2FNEb?=
+ =?us-ascii?Q?1WDi9AN?=
+To: avex@avexeva.com
+X-Entity-ID: mDhfxq9OikvIkQieTwdfQA==
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello avex@avexeva.com, You tried to reset your password
+   but there is no account associated with this email address. If you want to
+    sign up an Zoom Account, please click the button below to sign up. [...] 
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zoom.us]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                              domains in spam/malware
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns=3D"http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta content=3D"text/html; charset=3Dutf-8" http-equiv=3D"Content-Type=
+" />
+</head>
+
+<body style=3D"height: 100% !important; width: 100% !important; background-=
+color: #e1e5ea; margin: 0; padding: 0; background-color: #F0F2F4;">
+<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"width: 100=
+%; height: 100%; background-color: #F0F2F4;">
+    <tbody>
+    <tr>
+        <td style=3D"vertical-align: top; background-color: #F0F2F4;">
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" align=
+=3D"center" style=3D"width: 600px;">
+                <tbody>
+                <tr>
+                    <td style=3D"text-align: center; padding-top: 40px; pad=
+ding-bottom: 20px;">
+                        <a href=3D"https://zoom.us">
+                            <img src=3D"https://st1.zoom.us/static/5.2.3882=
+/image/new/ZoomLogo.png" style=3D"width: 110px; height: auto; border-width:=
+ 0; border-style: solid;" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"background-color: #FFFFFF;padding-bottom: =
+40px;">
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" align=3D"center" style=3D"width: 520px;">
+                            <tbody>
+                            <tr>
+                                <td style=3D"padding-top: 40px; font-family=
+:helvetica,arial; font-size:14px; line-height:20px; color:#333333">
+                                    Hello <a href=3D"mailto:avex@avexeva.co=
+m" style=3D"color:#333333; text-decoration: none;">avex@avexeva.com</a>,
+                                    <br/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding-top: 12px; font-family=
+:helvetica,arial; font-size:14px; line-height:20px; color:#333333">
+
+                                    You tried to reset your password but th=
+ere is no account associated with this email address.
+                                    If you want to sign up an Zoom Account,=
+ please click the button below to sign up.
+                                    <br/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" style=3D"padding-top:2=
+0px;">
+                                    <table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" align=3D"center">
+                                        <tbody>
+                                        <tr>
+                                            <td style=3D"padding-left:30px;=
+padding-top: 10px; padding-bottom: 10px; background-color: #2D8CFF; border-=
+top-left-radius: 4px; border-bottom-left-radius: 4px;">
+                                                &nbsp;
+                                            </td>
+                                            <td style=3D"background-color:#=
+2D8CFF; font-family:helvetica,arial; font-size:16px; line-height:24px; font=
+-weight: 700; color:#FFFFFF; padding-top: 10px; padding-bottom: 10px;">
+                                                <a style=3D"color:#FFFFFF; =
+text-decoration: none;" href=3D"https://zoom.us/signup">
+                                                        Go to Sign Up Page
+                                                </a>
+                                            </td>
+                                            <td style=3D"padding-right:30px=
+;padding-top: 10px; padding-bottom: 10px; background-color: #2D8CFF; border=
+-top-right-radius: 4px; border-bottom-right-radius: 4px;">
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding-top: 30px; font-family=
+:helvetica,arial; font-size:14px; line-height:20px; color:#333333">
+                                    If the button above doesn't work, paste=
+ this into your browser:
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style=3D"padding-top: 12px; font-family=
+:helvetica,arial; font-size:14px; line-height:20px; color:#333333; word-bre=
+ak: break-all;">
+                                    <a href=3D"https://zoom.us/signup" styl=
+e=3D"color:#2D8CFF; text-decoration: none;">
+                                        https://zoom.us/signup
+                                    </a>
+                                    <br>
+                                </td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td style=3D"padding-top: 24px; font-family=
+:helvetica,arial; font-size:14px; line-height:20px; color:#333333">
+                                    Happy Zooming!
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding-top: 30px; padding-bottom: 30px; b=
+ackground-color: #FFFFFF; border-top-color:#F0F2F4; border-top-style: solid=
+; border-top-width: 1px;">
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0">
+                            <tbody>
+                            <tr>
+                                <td>
+                                    <a href=3D"https://twitter.com/zoom_us"=
+ style=3D"text-decoration: none;">
+                                        <img alt=3D"" border=3D"0" height=
+=3D"25" src=3D"https://go.pardot.com/l/84442/2015-06-24/wht/84442/5264/twit=
+ter.png"
+                                             style=3D"width: 25px; height: =
+25px; border-width: 0px; border-style: solid;"
+                                        />
+                                    </a>
+                                </td>
+                                <td style=3D"padding-left:10px; padding-rig=
+ht: 10px;">
+                                    <a href=3D"https://www.linkedin.com/com=
+pany/zoom-video-communications/"
+                                       style=3D"text-decoration: none;">
+                                        <img alt=3D"" border=3D"0" height=
+=3D"25" src=3D"https://go.pardot.com/l/84442/2015-06-24/wj1/84442/5270/link=
+edin.png"
+                                             style=3D"width: 25px; height: =
+25px; border-width: 0px; border-style: solid;"
+                                        />
+                                    </a>
+                                </td>
+                                <td>
+                                    <a href=3D"https://blog.zoom.us/" style=
+=3D"text-decoration: none;">
+                                        <img alt=3D"" border=3D"0" src=3D"h=
+ttps://go.pardot.com/l/84442/2015-06-24/wv9/84442/5282/zoomblog.png"
+                                             style=3D"width: 25px; height: =
+25px; border-width: 0px; border-style: solid;"
+                                        />
+                                    </a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td style=3D"font-family:helvetica,arial; f=
+ont-size:12px; line-height:18px; color:#999999; text-align:center; padding-=
+top: 10px;">
+                                    Copyright &copy;2022 Zoom Video Communi=
+cations, Inc. All rights reserved.
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </td>
+    </tr>
+    </tbody>
+</table>
+</body>
+
+</html>
+

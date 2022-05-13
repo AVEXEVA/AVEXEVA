@@ -1,0 +1,475 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202109 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/ssl/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2689                
+POS_VISITOR 8919                
+POS_DAY 12733               
+POS_DOMAIN 3469                
+POS_LOGIN 3814                
+POS_ROBOT 3969                
+POS_WORMS 4368                
+POS_EMAILSENDER 4499                
+POS_EMAILRECEIVER 4642                
+POS_SESSION 13423               
+POS_SIDER 13613               
+POS_FILETYPES 4777                
+POS_DOWNLOADS 5006                
+POS_OS 5054                
+POS_BROWSER 5268                
+POS_SCREENSIZE 5828                
+POS_UNKNOWNREFERER 5902                
+POS_UNKNOWNREFERERBROWSER 6278                
+POS_ORIGIN 6622                
+POS_SEREFERRALS 6759                
+POS_PAGEREFS 6925                
+POS_SEARCHWORDS 7102                
+POS_KEYWORDS 7254                
+POS_MISC 2353                
+POS_ERRORS 7313                
+POS_CLUSTER 3670                
+POS_SIDER_404 7419                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20211001013605 35 7957 10730682065278
+FirstTime 20210901002954
+LastTime 20210930111157
+LastUpdate 20211001080748 35 0 34 0 0
+TotalVisits 108                 
+TotalUnique 91                  
+MonthHostsKnown 1                   
+MonthHostsUnknown 93                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+AddToFavourites 0 5 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 145265 17 31 1280048
+1 14 16 1494300 28 38 1711507
+2 1 1 106974 16 22 1107349
+3 1 1 38291 21 24 2143029
+4 1 1 38296 12 19 1172480
+5 1 1 106974 10 14 854760
+6 2 2 119267 9 15 759152
+7 23 38 1182641 28 35 1500239
+8 3 3 320920 21 35 1508955
+9 2 2 213948 20 32 1920883
+10 3 3 157584 10 16 648180
+11 54 54 5776575 9 41 748850
+12 6 6 466194 20 31 1596417
+13 2 2 213948 8 12 747852
+14 1 1 38295 9 14 747912
+15 5 5 302849 14 31 1257109
+16 0 0 0 16 31 903572
+17 2 2 50598 15 41 1495703
+18 31 134 7814744 19 42 1594400
+19 2 2 76590 14 26 1175575
+20 28 109 3111166 12 20 1079290
+21 0 0 0 28 37 1184201
+22 4 4 333233 17 26 1714963
+23 1 1 106973 21 33 1178722
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 150 323 14577603
+cn 20 20 1415874
+gr 6 6 641842
+de 5 5 534867
+ip 3 31 4889244
+il 2 2 119267
+tr 1 1 12312
+mu 1 1 12314
+at 1 1 12302
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+bingbot/ 186 20321416 20210930191102 0
+bot[\s_+:,\.\;\/\\-] 59 5583756 20210930080230 0
+AhrefsBot/ 28 2995261 20210929195355 0
+unknown 10 182 20210930161943 10
+no_user_agent 7 611437 20210924122858 0
+survey 5 397490 20210907165421 0
+scanner 1 106974 20210930214523 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpg 20 4384698 0 0
+html 112 10582406 0 0
+css 52 97412 0 0
+env 2 24594 0 0
+js 126 231453 0 0
+php 72 6504150 0 0
+Unknown 2 24604 0 0
+jfif 1 12241 0 0
+png 3 354067 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+unix 2 2
+android10 4 4
+linux 64 64
+win10 262 78
+androidkitkat 5 5
+macosx15 1 1
+win7 4 4
+Unknown 24 22
+androidnougat 2 2
+macosx 20 5
+androidoreo 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+chrome88.0.4472.114 1 1
+chrome92.0.4515.131 1 1
+Unknown 23 21
+chrome42.0.2311.90 4 4
+chrome54.0 10 10
+chrome89.0.4472.114 1 1
+android 5 5
+firefox84.0 5 5
+chrome90.0.4472.114 1 1
+chrome81.0.4044.129 2 2
+chrome93.0.4577.82 129 26
+chrome88.0.4324.192 1 1
+chrome87.0.4280.88 20 5
+chrome90.0.4430.85 3 3
+chrome87.0.4472.114 1 1
+chrome92.0.4515.159 11 11
+chrome78.0.3904.62 3 3
+chrome93.0.4577.63 107 26
+netscape5.0 1 1
+chrome51.0.2704.64 2 2
+chrome83.0.4103.97 57 57
+chrome86.0.4472.114 1 1
+chrome54.0.2840.99 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210925182637
+panscient.com 20210921014008
+python-requests/2.22.0 20210919182137
+Mozilla/5.0 20210908005426
+got_(https://github.com/sindresorhus/got) 20210923123627
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+python-requests/2.22.0 20210919182137
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210925182637
+panscient.com 20210921014008
+got_(https://github.com/sindresorhus/got) 20210923123627
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 135 137
+From1 3 3
+From2 4 4
+From3 0 5
+From4 47 241
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_hk 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://mail.avexeva.com 0 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+301 1 0
+404 278 0
+401 55 2126
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 40
+/wp-config.php 3 -
+/.git/config 1 -
+/emergency.php 1 -
+/fm.php 1 -
+//laravel/core/.env 1 https://bit.ly/2TOp8jp
+/autodiscover/autodiscover.xml 4 -
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://bit.ly/2TOp8jp
+/.env 13 -
+/app/etc/local.xml 1 -
+/ 11 -
+/wp-includes/css/wp-config.php 3 anonymousfox.co
+/ads.txt 31 -
+//core/.env 1 https://bit.ly/2TOp8jp
+/vendor/.env 2 -
+//app/.env 1 https://bit.ly/2TOp8jp
+/wp-config.php_old 1 -
+/public/.env 2 -
+//core/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://bit.ly/2TOp8jp
+//laravel/.env 1 https://bit.ly/2TOp8jp
+/robots.txt 175 -
+/tinyfilemanager/tinyfilemanager.php 1 -
+/README.txt 1 -
+/.vscode/sftp.json 1 -
+/.git/HEAD 2 -
+//config/.env 1 https://bit.ly/2TOp8jp
+/pass.php 1 -
+//_ignition/execute-solution 1 https://bit.ly/2TOp8jp
+/wordpress/wp-admin/setup-config.php 1 -
+/wp-content/uploads/upload_index.php 1 -
+//kyc/.env 1 https://bit.ly/2TOp8jp
+/analytics/jbips/ 1 -
+//beta/.env 1 https://bit.ly/2TOp8jp
+/reset.php 1 -
+//prod/.env 1 https://bit.ly/2TOp8jp
+/.git/index 1 -
+//.env 2 -
+//api/.env 1 https://bit.ly/2TOp8jp
+//admin/.env 1 https://bit.ly/2TOp8jp
+/storage/.env 2 -
+//backend/.env 1 https://bit.ly/2TOp8jp
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 94
+72.89.221.100 49 205 5477193 20210923184858
+72.79.45.44 12 14 1280353 20210921014008
+50.18.117.9 11 11 421245 20210902121603
+123.160.221.47 10 10 346135 20210906074336
+137.226.113.44 5 5 534867 20210929082730
+15.222.37.230 5 5 156154 20210921074142
+pool-72-89-221-100.nycmny.fios.verizon.net 3 31 4889244 20210923184907
+92.118.160.41 3 3 320922 20210925104822
+42.192.11.192 2 2 213948 20210918223621
+198.204.234.251 2 2 213948 20210918052016
+3.90.41.198 2 2 24604 20210919182137
+205.185.116.89 2 5 216331 20210906074109
+92.118.160.9 2 2 213946 20210925182637
+2.57.122.86 2 2 119267 20210904062043
+13.238.201.136 2 2 213947 20210924081318
+54.214.167.36 2 2 213948 20210923115802
+18.236.94.190 1 1 106974 20210925112048
+209.141.54.28 1 4 107410 20210906074226
+52.36.220.241 1 1 106974 20210923115452
+54.214.217.70 1 1 106974 20210916114554
+209.141.33.65 1 4 14723 20210906074339
+54.190.46.50 1 1 106974 20210908111957
+34.221.238.98 1 1 106973 20210926112217
+34.221.190.225 1 1 106973 20210921113905
+209.141.36.112 1 2 14372 20210906073840
+35.167.93.67 1 1 106973 20210915113321
+221.2.163.231 1 1 106974 20210908005426
+34.219.138.165 1 1 106973 20210916114552
+61.135.15.170 1 1 106974 20210930015429
+54.191.18.205 1 1 106974 20210918113750
+34.209.93.169 1 1 106974 20210926112146
+205.185.116.25 0 2 2247 
+92.118.160.5 1 1 106974 20210911090806
+35.161.155.22 1 1 106973 20210907113656
+34.217.77.237 1 1 106973 20210902111300
+194.48.199.121 1 1 12302 20210924170910
+52.34.144.165 1 1 106974 20210908112026
+205.185.122.184 0 1 2094 
+154.3.96.167 1 1 12312 20210925225700
+54.187.92.116 1 1 106973 20210903113648
+54.186.224.149 1 1 106973 20210912121220
+52.32.123.103 1 1 106972 20210918113712
+34.221.165.59 1 1 106973 20210904113422
+124.126.78.147 1 1 106974 20210909152408
+54.213.205.100 1 1 106974 20210929110442
+52.11.6.118 1 1 106973 20210921113937
+154.16.84.166 1 1 12314 20210917101949
+52.25.128.163 1 1 106974 20210928111431
+34.222.133.58 1 1 106973 20210916114502
+34.212.140.49 1 1 106974 20210922114108
+18.237.142.225 1 1 106974 20210924111858
+18.237.254.35 1 1 106974 20210916114406
+52.25.134.239 1 1 106974 20210901111229
+142.54.181.59 1 1 106974 20210929134534
+54.191.109.217 1 1 106974 20210914111712
+35.85.220.227 1 1 106974 20210919120317
+124.126.78.152 1 1 106974 20210915151024
+52.10.5.255 1 1 106974 20210924112723
+34.223.251.227 1 1 106973 20210914111745
+209.141.41.193 0 2 2254 
+54.186.125.67 1 1 106974 20210904113444
+54.189.20.173 1 1 106973 20210902111319
+34.222.23.58 1 1 106974 20210907113708
+223.78.154.250 1 1 106974 20210913202821
+34.214.137.212 1 1 106974 20210909110901
+18.237.121.110 1 1 106974 20210929110416
+52.39.15.74 1 1 106974 20210906113817
+198.204.234.254 1 1 106973 20210911111548
+54.200.46.163 1 1 106974 20210907114625
+34.221.28.84 1 1 106972 20210915113300
+13.127.223.146 1 1 106974 20210915131011
+54.202.34.165 1 1 106974 20210907114654
+34.212.138.147 1 1 106973 20210927114538
+89.19.33.91 1 1 12312 20210923151644
+34.213.23.128 1 1 106973 20210901111137
+52.39.94.112 1 1 106974 20210927114512
+54.212.24.91 1 1 106974 20210924111723
+34.222.79.155 1 1 106973 20210912121151
+18.237.148.216 1 1 106974 20210930111157
+1.15.175.155 1 1 106973 20210924223956
+34.212.82.19 1 1 106974 20210910114905
+54.187.141.115 1 1 106974 20210917114820
+35.163.90.60 1 1 106974 20210928111452
+54.214.56.155 1 1 106974 20210909110820
+34.214.190.172 1 1 106973 20210922114028
+34.220.228.143 1 1 106974 20210910114948
+52.33.181.28 1 1 106973 20210919120251
+54.218.229.74 1 1 106974 20210917114856
+34.213.209.7 1 1 106974 20210930111139
+61.135.15.187 1 1 106974 20210912202346
+18.236.104.230 1 1 106974 20210925112021
+35.85.39.21 1 1 106973 20210906114345
+124.126.78.139 1 1 106974 20210906182421
+52.23.37.1 1 1 0 20210923123627
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20210901 13 13 703865 10
+20210902 3 3 252247 3
+20210903 1 1 106973 1
+20210904 4 4 333214 3
+20210906 19 34 1133461 9
+20210907 5 5 534869 5
+20210908 4 4 427896 4
+20210909 3 3 320922 3
+20210910 28 109 3111166 3
+20210911 2 2 213947 2
+20210912 3 3 320920 3
+20210913 1 1 106974 1
+20210914 2 2 213947 2
+20210915 5 5 534866 5
+20210916 4 4 427894 4
+20210917 3 3 226262 3
+20210918 6 6 641842 5
+20210919 5 5 345524 4
+20210921 19 21 1650453 4
+20210922 3 3 320920 3
+20210923 31 134 7802453 6
+20210924 7 7 654144 7
+20210925 5 5 440207 5
+20210926 2 2 213947 2
+20210927 2 2 213947 2
+20210928 2 2 213948 2
+20210929 4 4 427895 4
+20210930 3 3 320922 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+15mn-30mn 1
+0s-30s 97
+30s-2mn 3
+2mn-5mn 3
+5mn-15mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 18
+/ 111 10570104 94 92
+/index.php 56 6015713 0 2
+/wp-includes/css/wp-config.php 3 36938 3 3
+/wp-login.php 2 76582 2 1
+/.env 2 24594 0 0
+/e/Game/christmas/mike.php 2 30254 1 0
+/.git/config 2 24604 1 1
+/analytics/jbips/ 1 12302 1 1
+/web/wp-login.php 1 38295 0 1
+/wp/wp-login.php 1 38294 1 0
+/test/wp-login.php 1 38296 0 1
+/wordpress/wp-login.php 1 38301 1 1
+/site/wp-login.php 1 38296 0 1
+/home/wp-login.php 1 38296 1 1
+/cms/wp-login.php 1 38295 1 1
+/news/wp-login.php 1 38296 1 1
+/e/Game/christmas/media/cornstar.jfif 1 12241 0 1
+/en/wp-login.php 1 38294 1 0
+END_SIDER

@@ -1,0 +1,396 @@
+Return-Path: <no_reply@email.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id RINMME/1pGE0YgAABSAGJw
+	(envelope-from <no_reply@email.apple.com>)
+	for <avex@avexeva.com>; Mon, 29 Nov 2021 10:44:15 -0500
+Return-path: <no_reply@email.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 29 Nov 2021 10:44:15 -0500
+Received: from mdn-txn-msbadger0204.apple.com ([17.171.37.31]:62793)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <no_reply@email.apple.com>)
+	id 1mripC-0006X8-Tb
+	for avex@avexeva.com; Mon, 29 Nov 2021 10:44:15 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.apple.com;
+	s=email0517; t=1638200614;
+	bh=+rz4BKDssgOCk4dw7ovLDNQ3ujCEQnRx5teH4V85aSo=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=c4bMtYtVABneVD5271CRntJrAvlGeC8n2yWxp58E6fjsW5wMO4Fyu08KfXM/TEmqg
+	 6P0A2wCZ62Xoky72ZNSt8F/thJrDVUgM6w1t+lywLJtSLKq7uLWLcpazqFFzdtOr9T
+	 aNDhDuuUlWGXOWaTzFodG1iUnc5f0qP5ZKN8SDwdIJWf2ltAaVfUITByWIIkgcfG33
+	 Anff0/DgaHi8riO29OnfxjljuEe1SiLxVKMyCtemMDWcoRSpM0vlREtTLsqsU45C6A
+	 /SDehymgadoXS87aFRKBQCGIBO3ey/GTL8q1NizEQ51TWAD2W6Lw5e4+suNwqUr+5K
+	 +izDi1tsIaXxg==
+Date: Mon, 29 Nov 2021 15:43:34 +0000 (GMT)
+From: Apple <no_reply@email.apple.com>
+To: avex@avexeva.com
+Message-ID: <2078110621.57762379.1638200614678@email.apple.com>
+Subject: Billing Problem
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_57762377_531099101.1638200614678"
+X-Attach-Flag: N
+X-COMMS-C: N
+X-Sent-To: avex@avexeva.com,2,OMnkCBUSZqMDcABsJ%2F37Ebn%2B2LqwMggVBY%2Fn2GGVyXBkyXJUnAIbeIpFUZKopOOYnLpsWUqbQ4%2BK9IixjwUR8j9NMD%2B7q2GRZwpX27jIGVVdWJE%2BWggrbq%2F5qz6Sj77%2Brl0KA9cjHdxyy0G0EnFWzP0I%2BQ8kfwSQYQ2xbre4xq43GTavJLCOCrnBEcRQWFwpE0Qj1p1n%2FJgynI2Y6eqdf9g%2B34x8rtPh7J8GbHDTOuaL6eMFydtgtw7Mi75Z1WrwCph5FQsYUYIUamTz4RExxrpdlN27UNbBMNnkh6Bu%2Bl%2F1%2FFW5gCCNRLY7a5ali3kp5k2RQIELzB2r%2Bc4jI9fe1jS%2BAhjSfx8HpOZ3ri5eivIqQyidTVNB7lzVZQAckeFuuHZ128G72uJ%2BjPpxvSTFrwdmyjt04CR9cRcSvne7whTrnB2%2BeXWnLJpVo24wiLhO%2Bsqkmlrc3pb2Dq0LjeUAgg%3D%3D
+X-TXN_ID: db14a490-93a6-48e5-aa09-da87c075dab3
+X-DKIM_SIGN_REQUIRED: YES
+X-EmailType-Id: 10631
+X-Business-Group: iTunes
+X-Country: US
+X-Spam-Status: No, score=-15.6
+X-Spam-Score: -155
+X-Spam-Bar: ---------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Billing Problem Dear Peter, The charge for your subscription
+    was declined by your Visa .... 8837. To avoid losing access to your service,
+    update your payment method. 
+ Content analysis details:   (-15.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+X-Spam-Flag: NO
+
+------=_Part_57762377_531099101.1638200614678
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Billing Problem
+-----------------------------------------------------------
+
+Dear Peter,
+
+
+The charge for your subscription was declined by your Visa .... 8837. To av=
+oid losing access to your service, update your payment method.
+
+Fix Visa .... 8837
+
+https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/editAddress?mt=3D8=
+&pageRef=3DEML
+http://apps.apple.com/account/subscriptions
+
+Regards,
+Apple
+
+For help with subscriptions and purchases, visit Apple Support.
+https://support.apple.com/billing
+
+
+
+Apple respects your privacy.
+Information regarding your personal information can be viewed at https://ww=
+w.apple.com/legal/privacy/.
+
+
+Terms of Sale: https://www.apple.com/legal/itunes/us/sales.html
+Apple ID Summary: https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/=
+accountSummary?mt=3D8
+------=_Part_57762377_531099101.1638200614678
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd">
+<HTML lang=3D"en-US">
+<HEAD>
+    <META HTTP-EQUIV=3D"content-type" CONTENT=3D"text/html;charset=3Dutf-8"=
+ />
+    <meta name=3D"format-detection" content=3D"telephone=3Dno">
+    <TITLE></TITLE>
+    <STYLE TYPE=3D"text/css" id=3D"contentStyles">
+        .left-gutter { width: 20px !important; }
+.right-gutter { width: 20px !important; }
+a.footer-link:hover, a.highlight-link:hover, a.undecorated:hover { text-dec=
+oration: underline !important; }
+button.action {font-size: 17px;line-height: 1.47059;font-weight: 400;letter=
+-spacing: -0.022em;font-family:system-ui, -apple-system, BlinkMacSystemFont=
+, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif;background-color: =
+#0070c9;border-color: #07c;border-width: 1px;border-style: solid;border-rad=
+ius: 4px;color: white;cursor: pointer;display: inline-block;min-width: 30px=
+;padding-left: 15px;padding-right: 15px;padding-top: 4px;padding-bottom: 4p=
+x;text-align: center;white-space: nowrap;}
+button.action:hover { background-color: #147bcd;border-color: #1482d0;text-=
+decoration: none; }
+button.action:focus { box-shadow: 0 0 0 3px rgba(131, 192, 253, 0.5);outlin=
+e: none; }
+button.action:focus[data-focus-method=3D"mouse"]:not(input):not(textarea):n=
+ot(select), button.action:focus[data-focus-method=3D"touch"]:not(input):not=
+(textarea):not(select) {box-shadow: none;}
+button.action:active { background-color: #0067b9;border-color: #006dbc;outl=
+ine: none; }
+button.action:disabled { background-color: #0070c9;border-color: #07c;color=
+: white;cursor: default;opacity: 0.3; }
+sup {font-weight: 300;}
+.gradient { background-color: #0070c9;background-image: -webkit-gradient(li=
+near, top, bottom, from(#42a1ec), to(#0070c9));background-image: -webkit-li=
+near-gradient(top, #42a1ec, #0070c9);background-image: -moz-linear-gradient=
+(top, #42a1ec, #0070c9);background-image: -o-linear-gradient(top, #42a1ec, =
+#0070c9);background-image: linear-gradient(#42a1ec, #0070c9); }
+.gradient:hover { background-color: #147bcd;background-image: -webkit-gradi=
+ent(linear, top, bottom, from(#51a9ee), to(#147bcd));background-image: -web=
+kit-linear-gradient(top, #51a9ee, #147bcd);background-image: -moz-linear-gr=
+adient(top, #51a9ee, #147bcd);background-image: -o-linear-gradient(top, #51=
+a9ee, #147bcd);background-image: linear-gradient(#51a9ee, #147bcd); }
+.gradient:active { background-color: #0067b9;background-image: -webkit-grad=
+ient(linear, top, bottom, from(#3d94d9), to(#0067b9));background-image: -we=
+bkit-linear-gradient(top, #3d94d9, #0067b9);background-image: -moz-linear-g=
+radient(top, #3d94d9, #0067b9);background-image: -o-linear-gradient(top, #3=
+d94d9, #0067b9);background-image: linear-gradient(#3d94d9, #0067b9); }
+.gradient:disabled, .gradient.disabled { background-color: #0070c9;backgrou=
+nd-image: -webkit-gradient(linear, top, bottom, from(#42a1ec), to(#0070c9))=
+;background-image: -webkit-linear-gradient(top, #42a1ec, #0070c9);backgroun=
+d-image: -moz-linear-gradient(top, #42a1ec, #0070c9);background-image: -o-l=
+inear-gradient(top, #42a1ec, #0070c9);background-image: linear-gradient(#42=
+a1ec, #0070c9); }
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {}
+@media (max-width: 768px) {
+  .aapl-desktop-tbl, #content-tbl { width: 742px !important; }
+}
+@media (max-width: 736px) {
+  .small-artwork { display: inline !important; }
+  .large-artwork { display: none !important; }
+  .large-header-logo { display: none !important; }
+  .small-header-logo { display: inline !important; }
+  .large-footer-logo { display: none !important; }
+  .small-footer-logo { display: inline !important; }
+  .paragraph-spacer { height: 15px !important; }
+  .aapl-desktop-tbl, #content-tbl { width: 480px !important; }
+  .left-gutter, .right-gutter { width: 15px !important; }
+  .wrd-break { display: block !important; }
+  .lockup-art-spacer { width: 15px !important; }
+  .footer-spacer { height: 15px !important; }
+  #agree-link { width: 350px !important; }
+}
+a[x-apple-data-detectors] {
+  color: inherit !important;
+  text-decoration: none !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+  font-weight: inherit !important;
+  line-height: inherit !important;
+}
+    </STYLE>
+</HEAD>
+<BODY BGCOLOR=3D"#FFFFFF" LINK=3D"#1187FF" VLINK=3D"#1187FF" ALINK=3D"#1187=
+FF" LEFTMARGIN=3D"0" MARGINHEIGHT=3D"0" MARGINWIDTH=3D"0" TOPMARGIN=3D"0">
+         <br><br>
+    <div class=3D"aapl-desktop-div" style=3D"display:block;padding:0;margin=
+:0;height:100%;max-height:none;min-height:none;line-height:normal;overflow:=
+visible;">
+<table class=3D"aapl-desktop-tbl" border=3D"0" cellpadding=3D"0" cellspacin=
+g=3D"0" align=3D"center" style=3D"border-collapse:collapse;border-spacing:0=
+;width:742px;">
+  <tr>
+    <td class=3D"left-gutter" style=3D"width:50px;"></td>
+    <td>
+      <img width=3D"42" height=3D"42" alt=3D"Apple" src=3D"https://s.mzstat=
+ic.com/email/images_shared/logo_apple_d-2x.png" border=3D"0" style=3D"borde=
+r:none;padding:0;margin:0;-ms-interpolation-mode:bicubic;">    </td>
+    <td en-US false  align=3D"right" style=3D"font-size:32px; font-weight:3=
+00; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: rgb=
+(136,136,136)">Billing Problem</td>
+    <td class=3D"right-gutter" style=3D"width:50px;"></td>
+  </tr>
+  <tr height=3D"20"><td colspan=3D"4">=C2=A0</td><tr>
+  <tr>
+    <td colspan=3D"4" align=3D"center">
+    <table id=3D"content-tbl" border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" style=3D"font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;fo=
+nt-size:13px;width:742px;">
+                        <tr height=3D"10"><td class=3D"content-lockup" bgco=
+lor=3D"#f5f5f5" colspan=3D"3" style=3D"border-top-left-raidus:2px;border-to=
+p-right-radius:2px;">=C2=A0</td></tr>
+        <tr>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" class=3D"left-=
+gutter" style=3D"width:20px">=C2=A0</td>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" align=3D"left"=
+>
+                <table class=3D"content-lockup" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" valign=3D"middle" style=3D"border-collapse:collapse;b=
+order-spacing:0;background-color: rgb(245,245,245);border-radius:3px;font-s=
+ize:12px;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;">
+    <tr>
+        <td class=3D"artwork-cell" valign=3D"top" align=3D"center" style=3D=
+"padding:0;margin:0;">
+                                                                           =
+                                 <img class=3D"large-artwork" src=3D"https:=
+//is3-ssl.mzstatic.com/image/thumb/Purple116/v4/b2/f0/5b/b2f05bfb-f39e-1527=
+-29be-37e6ab45654f/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLE=
+S2_U002c0-512MB-85-220-0-0.png/280x280bb-80.jpg" width=3D"140" height=3D"14=
+0" border=3D"0" alt=3D"Nitro Yearly" style=3D"padding:0;margin:0;-ms-interp=
+olation-mode: bicubic;border-radius:32px;border:1px solid rgba(128,128,128,=
+0.2);">
+            <img class=3D"small-artwork" src=3D"https://is3-ssl.mzstatic.co=
+m/image/thumb/Purple116/v4/b2/f0/5b/b2f05bfb-f39e-1527-29be-37e6ab45654f/Ap=
+pIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-22=
+0-0-0.png/280x280bb-80.jpg" width=3D"100" height=3D"100" border=3D"0" alt=
+=3D"Nitro Yearly" style=3D"display:none;padding:0;margin:0;-ms-interpolatio=
+n-mode: bicubic;border-radius:22px;border:1px solid rgba(128,128,128,0.2);"=
+>
+                </td>
+        <td class=3D"lockup-art-spacer" style=3D"width:20px;"></td>
+        <td>
+            <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" style=
+=3D"font-size:13px;line-height:22px;letter-spacing:0.4px; color:rgb(51,51,5=
+1);">
+                                                  <tr><td><span style=3D"fo=
+nt-size:18px;">Discord - Talk, Chat & Hangout</span></td></tr>
+                    <tr><td><span style=3D"color:rgb(170,170,170);">Discord=
+ - Talk, Chat & Hangout</span></td></tr>
+                    <tr><td><span style=3D"color:rgb(170,170,170);"></span>=
+</td></tr>
+                                                                    <tr><td=
+ style=3D"padding-top: 3px;">
+                        <span style=3D"color:rgb(170,170,170);">
+                            Nitro Yearly (1=C2=A0year)                     =
+   </span>
+                    </td></tr>
+                                        <tr><td><span style=3D"color:rgb(17=
+0,170,170);">
+                                                    $99.99/year
+                                            </span></td></tr>
+                                                                           =
+                                                                           =
+                                                                          <=
+tr><td><span style=3D"color:rgb(238,2,0);"><br>Billing Problem</span></td><=
+/tr>
+                                          </table>
+        </td>
+    </tr>
+</table>
+            </td>
+            <td class=3D"content-lockup" bgcolor=3D"#f5f5f5" class=3D"right=
+-gutter" style=3D"width:20px">=C2=A0</td>
+        </tr>
+        <tr height=3D"10"><td class=3D"content-lockup" bgcolor=3D"#f5f5f5" =
+colspan=3D"3" style=3D"border-bottom-left-raidus:2px;border-bottom-right-ra=
+dius:2px;">=C2=A0</td></tr>
+                        <tr class=3D"paragraph-spacer" style=3D"height:20px=
+;"><td>=C2=A0</td></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>Dear Peter,</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+                        <tr class=3D"paragraph-spacer" style=3D"height:20px=
+;"><td></td></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>The charge for your subscription was declined by your Visa =
+.... 8837. To avoid losing access to your service, update your payment meth=
+od.</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+
+       =20
+                <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td><=
+/td></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>
+                                <a href=3D"https://buy.itunes.apple.com/Web=
+Objects/MZFinance.woa/wa/editAddress?mt=3D8&pageRef=3DEML" target=3D"_blank=
+" rel=3D"nofollow"><button class=3D"action gradient" style=3D"font-size: 17=
+px;line-height: 1.47059;font-weight: 400;letter-spacing: -0.022em;font-fami=
+ly:system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, =
+Helvetica, Arial, sans-serif;background-color: #0070c9;border-color: #07c;b=
+order-width: 1px;border-style: solid;border-radius: 4px;color: white;cursor=
+: pointer;display: inline-block;min-width: 30px;padding-left: 15px;padding-=
+right: 15px;padding-top: 4px;padding-bottom: 4px;text-align: center;white-s=
+pace: nowrap;">Fix Visa .... 8837</button></a>
+                            </td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+                   =20
+       =20
+       =20
+       =20
+                <tr class=3D"paragraph-spacer" style=3D"height:20px;"><td>=
+=C2=A0</td></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td>Regards,<br>Apple</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+                        <tr class=3D"paragraph-spacer" style=3D"height:20px=
+;"><td>=C2=A0</td></tr>
+        <tr>
+            <td class=3D"left-gutter" style=3D"width:20px"></td>
+            <td align=3D"center" style=3D"font-size:12px;color:rgb(102,102,=
+102);line-height:18px;">For help with subscriptions and purchases, visit <a=
+ href=3D"https://support.apple.com/billing" target=3D"_blank" rel=3D"noopen=
+er nofollow">Apple Support</a>.</td>
+            <td class=3D"right-gutter" style=3D"width:20px"></td>
+        </tr>
+                    </table>
+  </td>
+</tr>
+<tr class=3D"footer-spacer" style=3D"height:50px"><td colspan=3D"4">=C2=A0<=
+/td></tr>
+<tr>
+  <td></td>
+  <td class=3D"" colspan=3D"2" align=3D"center" style=3D"font-size:12px; fo=
+nt-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; color: rgb(102,102,=
+102)">
+    <img class=3D"large-footer-logo" width=3D"26" height=3D"26" border=3D"0=
+" alt=3D"Apple" src=3D"https://s.mzstatic.com/email/images_shared/logo_appl=
+e_small_d-2x.png" style=3D"border:none;padding:0;margin:0;-ms-interpolation=
+-mode: bicubic;">
+    <img class=3D"small-footer-logo" width=3D"14" height=3D"14" border=3D"0=
+" alt=3D"Apple" src=3D"https://s.mzstatic.com/email/images_shared/logo_appl=
+e_small_m-3x.png" style=3D"display:none;border:none;padding:0;margin:0;-ms-=
+interpolation-mode: bicubic;">
+  </td>
+  <td></td>
+</tr>
+<tr height=3D"8"><td colspan=3D"4">=C2=A0</td></tr>
+<tr>
+  <td></td>
+  <td colspan=3D"2" align=3D"center" style=3D"font-size:12px; font-family: =
+'Helvetica Neue',Helvetica,Arial,sans-serif; color: rgb(102,102,102)">
+    <a href=3D"https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/acc=
+ountSummary?mt=3D8" style=3D"color:#0073ff;">Apple ID Summary</a>=C2=A0=E2=
+=80=A2=C2=A0<a href=3D"https://www.apple.com/legal/itunes/us/sales.html" st=
+yle=3D"color:#0073ff;">Terms of Sale</a>=C2=A0=E2=80=A2=C2=A0<a href=3D"htt=
+ps://www.apple.com/legal/privacy/" style=3D"color:#0073ff;">Privacy Policy<=
+/a>
+  </td>
+  <td></td>
+</tr>
+<tr height=3D"25"><td colspan=3D"4">=C2=A0</td></tr>
+<tr>
+  <td></td>
+  <td colspan=3D"2" align=3D"center" dir=3D"auto" style=3D"font-size:12px;f=
+ont-family:'Helvetica Neue',Helvetica,Arial,sans-serif;color:rgb(102,102,10=
+2)">
+                Copyright =C2=A9 2021 Apple Inc. <br><a href=3D"https://www=
+.apple.com/legal/" style=3D"color:#1187FF">All rights reserved</a>
+          </td>
+  <td></td>
+</tr>
+<tr height=3D"25"><td colspan=3D"4" height=3D"30">=C2=A0</td></tr>
+</table>
+</div>
+</BODY>
+------=_Part_57762377_531099101.1638200614678--

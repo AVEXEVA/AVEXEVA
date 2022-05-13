@@ -1,0 +1,348 @@
+Return-Path: <157-GQE-382.0.1619254.0.0.1038858.9.896729674-29@bounce5.email.microsoft.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id IbE3F6Lhm2HOfwAABSAGJw
+	(envelope-from <157-GQE-382.0.1619254.0.0.1038858.9.896729674-29@bounce5.email.microsoft.com>)
+	for <avex@avexeva.com>; Mon, 22 Nov 2021 13:29:54 -0500
+Return-path: <157-GQE-382.0.1619254.0.0.1038858.9.896729674-29@bounce5.email.microsoft.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 22 Nov 2021 13:29:54 -0500
+Received: from bounce3.email.microsoft.com ([199.15.214.201]:57205)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <157-GQE-382.0.1619254.0.0.1038858.9.896729674-29@bounce5.email.microsoft.com>)
+	id 1mpE4f-0008Uy-7v
+	for avex@avexeva.com; Mon, 22 Nov 2021 13:29:54 -0500
+X-MSFBL: x7YxI76awJOoeofJ8r+cH9fXC/rzDbNadqV8U5upEUQ=|eyJ1IjoiMTU3LUdRRS0
+	zODI6MDo0NjI2NTE6MjkxODY0NjowOjEwMzg4NTg6OToxNjE5MjU0Ojg5NjcyOTY
+	3NC0yOSIsImciOiJiZy1zamQtMTc0IiwiciI6ImF2ZXhAYXZleGV2YS5jb20iLCJ
+	iIjoiZHZwLTE5OS0xNS0yMTQtMjAwIn0=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1637605752;
+	s=m1; d=microsoft.com; i=@microsoft.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=DxflUX8OJHdncZkeBvULaC+BK02jdz3VU38jJ4Pd/w4=;
+	b=Vy+VlHY9X3GRJvRi7Uy0KDfbGLZb4+eG99HGq+JuMAvIA2YGfCQAlJVl7wlcxjwz
+	Lsh5PPYkHeFqcdX0HL7ljlfm80CwDfcABX0wy94Cg5PoezdsPwcQK3YgOaypsg3EG2n
+	aqULqVdjOVbHqYXyeoJesSY98wIoIAfZGNxrhuoQ=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; t=1637605752;
+	s=m1; d=mktdns.com; i=@mktdns.com;
+	h=Content-Type:MIME-Version:Subject:To:From:Date;
+	bh=DxflUX8OJHdncZkeBvULaC+BK02jdz3VU38jJ4Pd/w4=;
+	b=CXjjDCDa5xySLQ6+w2MyyYPR2AWIilwq3ogioe7MUhd0hV7Z5C4uER0yE44nomEm
+	BEqaGSHzg9p2ZcGcr5jCMh4H7F0NnteY168nMUkpEvalz8AlV4xA/pk1NBBN92f+Rwa
+	TMeB+n4xRcOMaSNDiAeCqvszcTFGgTCjkqPZjBLs=
+Date: Mon, 22 Nov 2021 12:29:12 -0600 (CST)
+From: Kristin Meyer <krimeyer@microsoft.com>
+Reply-To: krimeyer@microsoft.com
+To: avex@avexeva.com
+Message-ID: <140734564.13311866.1637605752395@sjmktmail-trigger1e.marketo.org>
+Subject: Peter, any questions? Kristin Meyer with Microsoft Corporation
+ following up
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_13311865_868189254.1637605752395"
+X-Binding: bg-sjd-174
+X-MarketoID: 157-GQE-382:0:462651:2918646:0:1038858:9:1619254:896729674-29
+X-Mailfrom: 157-GQE-382.0.1619254.0.0.1038858.9.896729674-29@bounce5.email.microsoft.com
+List-Unsubscribe: <mailto:K53UC3JRMZWWQUZWINEW64KPPEZTEWDLN52F62RNJVMWSVDJNZRWW2CRNFTEWSCXOBTESPI=.1619254.1038858.9@unsub-sj.mktomail.com>
+X-MktArchive: false
+X-MSYS-API: {"options":{"open_tracking":false,"click_tracking":false}}
+X-MktMailDKIM: true
+X-Spam-Status: No, score=-6.9
+X-Spam-Score: -68
+X-Spam-Bar: ------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello Peter, I see that you recently signed up for a Microsoft
+    Azure account, and I'd like to offer our support in answering any questions
+    you might have as you get started. Our team of Microsoft cloud technology
+    [...] 
+ Content analysis details:   (-6.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: mktdns.com]
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+------=_Part_13311865_868189254.1637605752395
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Hello Peter,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I see that you recently signed up for a Microsoft Azure account, and I'd li=
+ke to offer our support in answering any questions you might have as you ge=
+t started. Our team of Microsoft cloud technology specialists can answer qu=
+estions about getting started, architecture and design, or help with a proo=
+f of concept. We're also happy to help with any pricing or estimating quest=
+ions you may have.Can I connect you with someone who can help you get start=
+ed?Thank you!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div><span style=3D"font-family: helvetica, arial, sans-serif; font-size: 1=
+4px;">Kristin Meyer | Azure Team</span><br /><span style=3D"font-family: he=
+lvetica, arial, sans-serif; font-size: 14px;">Microsoft Corporation</span><=
+br /><span style=3D"font-family: helvetica, arial, sans-serif; font-size: 1=
+4px;">One Microsoft Way</span><br /><span style=3D"font-family: helvetica, =
+arial, sans-serif; font-size: 14px;">Redmond, WA 98052 USA</span></div>
+
+Ref:=C2=A0
+24211701211-01
+896729674
+Privacy Statement <https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGA5-FuRLd=
+0w3K6iQ0vFnDqCAWul7qPd_W6fcDsuLlkabRTB0CvWg1kuVf77NKM-NDNJ2lc-aQ=3D> | Unsu=
+bscribe <https://emails.microsoft.com/dc/YZdgvqwbGRw5vplqwcDuFAT39-RSqApAoB=
+Tg8JD6J69Q9XlJiBGUNKEP8wZ1xpt-oqgHbQNkJ4DZTh9iLCGQ-co8aQMdw2u2obxgiE7cTuAfu=
+LC0tPZ9992Kwqv2Q-jByXGCY-zc4IU02aAF1BcJUWkeMoZ-5Of8ZvicURe6WQZ_-2wF4MjQPrZM=
+AqgFvbSMy1wMOansbWZfPBjgHaWq006Y6NPf7ZByvQtCyX4chuE_sGS0k6IIAfmemLNIAxoaUo9=
+zBpjQQZPoC-EeLRcKHdYpZVznhjTwgx2s3TX8xmwOVfzsfs1Zb63OX1xWs3iZ/MTU3LUdRRS0zO=
+DIAAAGA5-FuRFo5XHc5JNrA1RmSO61tkVJVUTvXQLfH7E9814_atYIzeHF9HSpBVe2iBEBcq4pc=
+Hnw=3D>
+
+.
+
+------=_Part_13311865_868189254.1637605752395
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+<title>Your Email Title</title> 
+</head> 
+<body style="">
+<div style="font:14px helvetica; width:100%; " class="mktEditable" id="edit_text"> 
+<div class="main-content" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div class="container-fluid" id="conversations-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel-body" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="conversation-fields" style="clear: both; padding-top: 10px;"> 
+<div id="campaign-variation" style="padding-left: 0;"> 
+<div class="content-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="detail-item-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="example-message-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="example-message" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="message-preview-container inner-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="row" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="col-md-12" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel-body" id="message-preview-content" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="main-content" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div class="container-fluid" id="conversations-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel-body" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="conversation-fields" style="clear: both; padding-top: 10px;"> 
+<div id="campaign-variation" style="padding-left: 0;"> 
+<div class="content-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="detail-item-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="example-message-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div id="example-message" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="message-preview-container inner-container" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="row" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="col-md-12" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div class="panel-body" id="message-preview-content" style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px;">
+<span style="font-size: 14px; font-family: helvetica, arial, sans-serif;">Hello Peter,<br></span>
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 
+400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div class="main-content" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div class="container-fluid" id="conversations-container" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="panel-body" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div id="conversation-fields" style="clear: both; padding-top: 10px;"> 
+<div id="campaign-variation" style="padding-left: 0;"> 
+<div class="content-container" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="detail-item-container" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div id="example-message-container" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div id="example-message" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="message-preview-container inner-container" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="row" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="col-md-12" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="panel panel-theme-light" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div class="panel-body" id="message-preview-content" style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"> 
+<div style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<span style="font-size: 
+14px;">I see that you recently signed up for a Microsoft Azure account, and I'd like to offer our support in answering any questions you might have as you get started.</span>
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: 
+left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; 
+text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<span style="font-size: 14px;"> Our team of Microsoft cloud technology specialists can answer questions about getting started, architecture and design, or help with a proof of concept. We're also happy to help with any pricing or estimating questions you may have.</span>
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; 
+-webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 
+0px; white-space: normal; word-spacing: 0px;">
+<span style="font-size: 14px;">Can I connect you with someone who can help you get started?</span>
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; 
+text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<br style="background-color: transparent; color: #000000; font-family: Helvetica,Arial,Sans-Serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; 
+text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<span style="font-size: 14px;">Thank you!</span>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+<br style="background-color: transparent; color: #000000; font-family: Verdana,Arial,Helvetica,sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">
+<span title="Client 
+Signature" class="message-variable" style="font-size: 14px; font-family: helvetica, arial, sans-serif;" data-original-value="Kristin Meyer | Automated Solution Assistant<br /> Microsoft Corporation<br /> One Microsoft Way<br /> Redmond, WA 98052 USA" data-message-variable-name="dealer_signature" data-message-variable-source="assistant-info"><div><span style="font-family: helvetica, arial, sans-serif; font-size: 14px;">Kristin Meyer | Azure Team</span><br /><span style="font-family: helvetica, arial, sans-serif; font-size: 14px;">Microsoft Corporation</span><br /><span style="font-family: helvetica, arial, sans-serif; font-size: 14px;">One Microsoft Way</span><br /><span style="font-family: helvetica, arial, sans-serif; font-size: 14px;">Redmond, WA 98052 USA</span></div><br><br><br style="color: 
+#000000; font-family: helvetica,arial,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;"><span style="font-size: 12px;"><span style="color: #000000;">Ref:&nbsp;<span style="background-color: #ffffff;" color="#005000" face="&quot;Helvetica Neue&quot;,Helvetica,Arial,&quot;Lucida Grande&quot;,sans-serif" size="1">
+24211701211</span>-01</span></span><br></span>
+<span title="Client Signature" class="message-variable" style="font-size: 14px; font-family: helvetica, arial, sans-serif;" data-original-value="Kristin Meyer | Automated Solution Assistant<br /> 
+Microsoft Corporation<br /> One Microsoft Way<br /> Redmond, WA 98052 USA" data-message-variable-name="dealer_signature" data-message-variable-source="assistant-info"><span style="display: inline !important; float: none; background-color: #ffffff; color: #ffffff; font-family: 'Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif; font-size: 2px; font-style: normal; 
+font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">896729674</span></span>
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div>
+<div class="mktEditable" id="unsubscribeFooter" style="">
+<a class="mktNoTrack" style="background-color: transparent; color: #0066cc; font-family: helvetica,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: underline; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;" href=
+"https://go.microsoft.com/fwlink/?LinkId=521839" target="_blank"
+>Privacy Statement</a>
+<span style="display: inline !important; float: none; background-color: transparent; color: #000000; font-family: helvetica,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: none; 
+text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;">&nbsp;| </span>
+<a class="mktNoTok" style="background-color: transparent; color: #0066cc; font-family: helvetica,arial,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-decoration: 
+underline; text-indent: 0px; text-transform: none; -webkit-text-stroke-width: 0px; white-space: normal; word-spacing: 0px;" href=
+"https://emails.microsoft.com/dcn/YZdgvqwbGRw5vplqwcDuFAT39-RSqApAoBTg8JD6J69Q9XlJiBGUNKEP8wZ1xpt-oqgHbQNkJ4DZTh9iLCGQ-co8aQMdw2u2obxgiE7cTuAfuLC0tPZ9992Kwqv2Q-jByXGCY-zc4IU02aAF1BcJUWkeMoZ-5Of8ZvicURe6WQZ_-2wF4MjQPrZMAqgFvbSMy1wMOansbWZfPBjgHaWq006Y6NPf7ZByvQtCyX4chuE_sGS0k6IIAfmemLNIAxoaUo9zBpjQQZPoC-EeLRcKHdYpZVznhjTwgx2s3TX8xmwOVfzsfs1Zb63OX1xWs3iZ/MTU3LUdRRS0zODIAAAGA5-FuRFo5XHc5JNrA1RmSO61tkVJVUTvXQLfH7E9814_atYIzeHF9HSpBVe2iBEBcq4pcHnw=" target="_blank"
+>Unsubscribe</a> 
+</div>
+<a href=
+"https://emails.microsoft.com/MTU3LUdRRS0zODIAAAGA5-FuRO4wui3KQt2ic94UZI1ziSU6qqMvzZON4Wlp4Nb54t6RefZyqExlX_ktOB6GUJlUILk="
+></a>
+<img src="https://emails.microsoft.com/trk?t=1&mid=MTU3LUdRRS0zODI6MDo0NjI2NTE6MjkxODY0NjowOjEwMzg4NTg6OToxNjE5MjU0Ojg5NjcyOTY3NC0yOTpudWxs" width="1" height="1" style="display:none !important;" alt="" />
+
+<!-- footer -->
+</body>
+</html>
+------=_Part_13311865_868189254.1637605752395--

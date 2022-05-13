@@ -1,0 +1,409 @@
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id FEhUE4cPZmFIeQAABSAGJw
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Tue, 12 Oct 2021 18:43:19 -0400
+Return-path: <n_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 12 Oct 2021 18:43:19 -0400
+Received: from rn2-msbadger08101.apple.com ([17.179.250.118]:13020)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	id 1maQUO-00084V-Vv
+	for avex@avexeva.com; Tue, 12 Oct 2021 18:43:18 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1634078556;
+	bh=jPtYJ8YkIPcxQgRbPnR8Mnq9RGMbuUg61n2oMsfWuYo=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=VA82CiRSVwAMAetpv3NsGwoVF1d4qHmTzdWVBO1iT3cZRKExqWgrM+cRAdwI0q/ta
+	 n8Zd66z8wp0QNVVHIPmFSF5IPk4lZRX+7BbFfV0cDaQXBZL0aYXCdLw/RQqdHQkgW5
+	 mKDfr5Pmi8+wdq9ktlOjmLVz9p1fBu3SwyQ/0fUJli9tJRN1Hq3aFgnBvsoTOctb2C
+	 Umms7sLnbpzOHUljKanm9bQQVwnLkihA4IqjW5uhWKXBP5vBnMNWNCTyUGpD+Buvo5
+	 ubSpdgAnls4/a4WyuOrjPJJ6K/CKnFmoSTFtgA+BLgUicdeH7rADQRhi3uKW5tJz3F
+	 TdutL4b/Lj1Rg==
+Date: Tue, 12 Oct 2021 22:42:36 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: avex@avexeva.com
+Message-ID: <414305625.168449888.1634078556136@Insideapple.apple.com>
+Subject: Join us for a special Apple Event.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_168449884_922657251.1634078556136"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,GjzKCYBE358b4oKiReplweRy5eQ4FkRfI9tptJIkHRvW7dOVqmuEu4ScyWAO2Ju4zNXVV0oEx5ouPzZVShZsH9La9p0K0T83cGQgzRxhmzwaJ8rLkcKCDVdYWky6rjxl9H4X3xd4kP9X%2FQaNCKrmvBD347kmfpa22miTkx8aGYJiSE9pUtgnw9SfpKmwv8ex
+X-TXN_ID: 6e53e1c1-54d3-4323-909b-5e112dfd17ba
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2272951
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2272951
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=GjzKCYBE358b4oKiReplweRy5eQ4FkRfI9tptJIkHRvW7dOVqmuEu4ScyWAO2Ju4zNXVV0oEx5ouPzZVShZsH9La9p0K0T83cGQgzRxhmzwaJ8rLkcKCDVdYWky6rjxl9H4X3xd4kP9X%2FQaNCKrmvBD347kmfpa22miTkx8aGYJiSE9pUtgnw9SfpKmwv8ex>
+X-mp: d
+X-Spam-Status: No, score=-15.1
+X-Spam-Score: -150
+X-Spam-Bar: ---------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Unleashed. October 18, 2021 10:00 a.m. PDT Learn more https://c.apple.com/r?v=2&la=en&lc=usa&a=z2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Frkb8QG7sd5IOCwNPhQO%2FEaSdcwmXa8jBgMVBb%2FeWhE4yIWH92mrP0xnhZYUtdip3eauT%2F65V9SEk1vasFEHgJm0matZwObxN
+    [...] 
+ Content analysis details:   (-15.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_04    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+------=_Part_168449884_922657251.1634078556136
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Unleashed.
+
+October 18, 2021
+10:00 a.m. PDT
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2Frkb8QG7sd5IOCwNPhQO%2FEaSdcwmXa8jBgMVBb%2FeWhE4yIWH92mr=
+P0xnhZYUtdip3eauT%2F65V9SEk1vasFEHgJm0matZwObxN4EHzmmMjdMOy5AkaoUiV4D1cAOYX=
+ZiD1Hc%2Bobs5KG%2B4NccIqaqaRV6HxyAYnq6QOPuwD%2F3A%2FO3DoN7kpanyuwAXiOx8quhY=
+4g%3D&ct=3Dac7r3a2C7k
+
+-------------------
+
+TM and =C2=A9 2021 Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA 9=
+5014.
+
+-------------------
+
+All Rights Reserved
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7X1l1P9k
+
+Privacy Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7r8d6m9N
+
+My=C2=A0Apple=C2=A0ID
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7X2q5k3P
+
+Broadcast=C2=A0Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac7X0i7R2N
+
+If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email=C2=A0address,=C2=A0please=C2=A0click=C2=A0here.
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DGjzKCYBE358b4oK=
+iReplwZyQMHBLhlW40Oeul%2F50yqTX%2BqQ%2BcsGrHFwDPzLpFRXGmZCyqHADllOPhTweGxWN=
+mOr9d39WfUhSAVSl5hmOIq9Gbyj9EuMZ4nATUJQvO55%2BlorWuxbYU7ZOVpbd6XpfLuoDyN1hH=
+6q1i33U3rjmv8zYa0P0My5d0Wu7YaN2YA0g
+
+-------------------
+------=_Part_168449884_922657251.1634078556136
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html><html><head> <title>P0021500-487740</title> <meta content=3D=
+"width=3Ddevice-width,initial-scale=3D1" name=3D"viewport"> <meta content=
+=3D"text/html;charset=3Dutf-8" http-equiv=3D"content-type"> <meta content=
+=3D"date=3Dno" name=3D"format-detection"> <meta content=3D"address=3Dno" na=
+me=3D"format-detection"> <meta content=3D"email=3Dno" name=3D"format-detect=
+ion"> <style type=3D"text/css">@media only screen and (max-device-width:568=
+px){.m0{display:none!important}.m1{display:block!important;width:100%!impor=
+tant;height:inherit!important;overflow:visible!important}}</style><style ty=
+pe=3D"text/css">.m0,.m1,td{font-size:17px;font-weight:400;line-height:25px;=
+font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetic=
+a Neue',Helvetica,Arial,sans-serif,'SF Pro Icons'}.m1,.m1 div{box-sizing:bo=
+rder-box}.m2{white-space:nowrap}.m1 .m3,img{max-width:100%}.m0,.m1,.m4,p,td=
+{font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helveti=
+ca Neue',Helvetica,Arial,sans-serif,'SF Pro Icons'}*{-webkit-font-smoothing=
+:antialiased;text-rendering:optimizelegibility}.m0,.m1{width:100%!important=
+}table{border-spacing:0}b{font-weight:600}.m1{display:none;margin:0 auto;ma=
+x-width:100%;width:100%}img{display:block}.m1 .m3 .m5{max-width:414px;margi=
+n:0 auto}.m1 .m6{font-size:0;line-height:0;margin:0 auto}.m1 .m7,.m1 .m8{fo=
+nt-size:17px;line-height:25px}.m9,.m3{margin:0 auto}.m10{text-align:center}=
+.m10 img,img.m10{margin-left:auto;margin-right:auto}a img{border:0;outline:=
+0}.m11,.m0,.m1{background-color:#000}.m11{color:#f5f5f7}.m11{border-color:#=
+000}.m11 a,.m11 a:hover,.m11 a:visited{color:#2997ff}.m4 a,a,a:link{text-de=
+coration:none}.m4 a,a,p a{cursor:pointer;text-decoration:none}.m4 a:focus,.=
+m4 a:hover,a:focus,a:hover,p a:focus,p a:hover{text-decoration:underline!im=
+portant}.m4 a[x-apple-data-detectors],p a[x-apple-data-detectors]{text-deco=
+ration:none!important}.m4,p{font-size:17px;font-weight:400;line-height:25px=
+;margin:0}.m12,.m12>p,.m13,.m13>p,.m14,.m14>p{font-size:12px;font-weight:40=
+0;line-height:16px}.m15 .m16 .m17{overflow:hidden;width:100%;margin:0;backg=
+round-image:url(https://www.apple.com/dm/us/21/603AFBE2-9B46-43BA-8C33-E49A=
+83E02798/i/m_hero_con_2x.jpg)!important;background-size:412px 526px;backgro=
+und-position:center top;background-repeat:no-repeat;max-width:414px;height:=
+526px}.m12,.m13{color:#86868b;padding-right:6.25%;padding-left:6.25%}.m12 a=
+,.m13 a,.m14 a{color:#86868b;font-size:12px}.m14{color:#86868b;padding:10px=
+ 6.25%}.m18{padding-top:35px;padding-bottom:25px}body{background-color:#000=
+!important}.m19.m19.m19{color:#86868b;font-size:12px;font-weight:400;line-h=
+eight:16px}.m20.m20.m20{border:0;outline:0;text-decoration:none;color:#8686=
+8b}</style><!--[if gte mso 9]>
+        <style type=3D"text/css">
+  =09=09=09=09table,td,tr,a,span,b,sup{line-height:normal !important; mso-l=
+ine-height-rule: exactly;}
+  =09=09=09=09sup{font-size:100% !important;}
+  =09=09=09=09h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-fami=
+ly:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weigh=
+t: 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}
+  =09=09=09=09h1 sup,h2 sup,h3 sup,h4 sup,h5 sup,h6 sup, .outSemiBold sup, =
+.outBold sup{font-size:90% !important;}
+  =09=09=09=09b,strong {line-height: inherit !important; font-family:'Segoe=
+ UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight: 400 !i=
+mportant; mso-line-height-rule: exactly; }
+  =09=09=09=09.outBold { font-family: 'Segoe UI', Arial, sans-serif !import=
+ant; font-weight: 600 !important; }
+          .outSemiBold { font-family: 'Segoe UI SemiBold','Segoe UI', Arial=
+, sans-serif !important; font-weight: 400 !important;line-height: inherit !=
+important;mso-text-raise: 2px; }
+  =09=09=09=09.outBold {overflow:visible;line-height: inherit !important;ms=
+o-line-height-rule: exactly;mso-text-raise: 2px; }
+  =09=09=09=09.fallback { display: block !important}
+  =09=09=09=09.animated { display: none !important}
+  =09=09=09=09li {margin-bottom: 9px;}
+  =09=09=09=09ol {margin-left: 0 !important; }
+  =09=09=09</style>
+  =09=09=09<xml>
+  =09=09=09=09<o:OfficeDocumentSettings>
+  =09=09=09=09<o:AllowPNG/>
+  =09=09=09=09<o:PixelsPerInch>96</o:PixelsPerInch>
+  =09=09=09=09</o:OfficeDocumentSettings>
+  =09=09=09</xml>
+    =09=09<![endif]--><!--[if gte mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1,h2,h3,h4,h5,h6 {mso-text-raise: 2px;}
+    =09=09=09</style>
+    =09=09<![endif]--><!--[if mso 15]>
+    =09=09=09<style type=3D"text/css">
+    =09=09=09   h1 {mso-text-raise: 4px;}
+    =09=09=09</style>
+        <![endif]--></head><body style=3D"margin:0;padding:0"><div style=3D=
+"display:none;max-height:0;overflow:hidden"> Unleashed. A special Apple Eve=
+nt is coming soon. October 18, 2021, at 10 a.m. PDT. </div><!-- Adding spac=
+es to prevent email copy from being visible --> <div style=3D"display:none;=
+max-height:0;overflow:hidden">&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C=
+&nbsp;=E2=80=8C&nbsp;=E2=80=8C </div><div class=3D"m1" style=3D"display:non=
+e;width:0;height:0;overflow:hidden"><div class=3D"m11 m3"><div class=3D"m5"=
+><div class=3D"m6"><div class=3D"m10 m7"><div class=3D"m15"><div class=3D"m=
+16"><div class=3D"m10 m17"><span aria-label=3D"Unleashed.  October 18, 2021=
+  10:00 a.m. PDT  Learn more" role=3D"img"></span><a href=3D"https://c.appl=
+e.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYj=
+HA7%2Frkb8QG7sd5IOCwNPhQO%2FEaSdcwmXa8jBgMVBb%2FeWhE4yIWH92mrP0xnhZYUtdip3e=
+auT%2F65V9SEk1vasFEHgJm0matZwObxN4EHzmmMjdMO4rW6Fr1AiLo0wP5diKrRgufe3xuZ2Jh=
+dJ0uoVCuCOR9YmSvev8zpn0fEAnbtE577wS%2FMfzw2exLiW1AzP0k3nA%3D&ct=3Dac7X4u1m5=
+h" style=3D"display:block;max-width:414px;height:526px"></a></div></div></d=
+iv></div></div></div></div><div class=3D"m11 m3 m18"><div class=3D"m5"><div=
+ class=3D"m10 m8 m13"><p class=3D"m19 m4">TM and =C2=A9 2021 Apple Inc. One=
+ Apple Park Way, <br><span class=3D"m2" style=3D"white-space:nowrap">MS 96-=
+DM</span>, Cupertino, CA 95014.</p></div><!----><div class=3D"m10 m8 m14"><=
+p class=3D"m19 m4"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&=
+a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4D=
+cxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac=
+7r3c1L7T" class=3D"m20">All Rights Reserved</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nb=
+sp; <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpRe=
+CO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFK=
+sY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7X3V7i9Y" style=
+=3D"color:#86868b">Privacy Policy</a><br> <a href=3D"https://c.apple.com/r?=
+v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZ=
+sCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikA=
+I5L%2B8Dj3Kqfua&ct=3Dac7X4d9M5P" class=3D"m20">My&nbsp;Apple&nbsp;ID</a>&nb=
+sp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href=3D"https://c.apple.com/r?v=3D2&la=3Den=
+&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%=
+2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqf=
+ua&ct=3Dac7r5a5Q3h" class=3D"m20">Broadcast&nbsp;Policy</a></p></div><div c=
+lass=3D"m10 m8 m12"><p class=3D"m19 m4">If you prefer not to receive commer=
+cial email from Apple, or if you=E2=80=99ve changed your email&nbsp;address=
+,&nbsp;please&nbsp;<a href=3D"https://mynews.apple.com/subscriptions?v=3D2&=
+la=3Den_us&a=3DGjzKCYBE358b4oKiReplweRy5eQ4FkRfI9tptJIkHRvW7dOVqmuEu4ScyWAO=
+2Ju4zNXVV0oEx5ouPzZVShZsH9La9p0K0T83cGQgzRxhmzwaJ8rLkcKCDVdYWky6rjxl9H4X3xd=
+4kP9X%2FQaNCKrmvBD347kmfpa22miTkx8aGYJiSE9pUtgnw9SfpKmwv8ex" class=3D"m20">=
+click&nbsp;here</a>.</p></div></div></div></div><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" align=3D"=
+center"><tbody><tr><td><div class=3D"m0"><table border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" align=3D"center"=
+><tbody><tr><td style=3D"text-align:center" align=3D"center"><table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"1=
+00%" align=3D"center"><tbody><tr class=3D"m3"><td class=3D"m11" style=3D"ba=
+ckground-color:#000" align=3D"center"><table border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" role=3D"presentation" width=3D"712" align=3D"center" sty=
+le=3D"width:712px"><tbody><tr class=3D"m6"><td><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" align=3D"c=
+enter"><tbody><tr><td class=3D"m7" width=3D"100%"><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" role=3D"presentation" width=3D"100%" style=
+=3D"text-align:center" class=3D"m7"><tbody><tr><td class=3D"m10" style=3D"t=
+ext-align:center" align=3D"center"><a href=3D"https://c.apple.com/r?v=3D2&l=
+a=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2Frkb8QG7sd=
+5IOCwNPhQO%2FEaSdcwmXa8jBgMVBb%2FeWhE4yIWH92mrP0xnhZYUtdip3eauT%2F65V9SEk1v=
+asFEHgJm0matZwObxN4EHzmmMjdMO4rW6Fr1AiLo0wP5diKrRgufe3xuZ2JhdJ0uoVCuCOR9YmS=
+vev8zpn0fEAnbtE577wS%2FMfzw2exLiW1AzP0k3nA%3D&ct=3Dac7X5w6d0P" style=3D"dis=
+play:inline-block;color:#2997ff"><picture><source media=3D"(max-device-widt=
+h: 568px)" srcset=3D"data:"><img alt=3D"Unleashed.  October 18, 2021  10:00=
+ a.m. PDT  Learn more" border=3D"0" class=3D"m10" height=3D"739" src=3D"htt=
+ps://www.apple.com/dm/us/21/603AFBE2-9B46-43BA-8C33-E49A83E02798/i/hero_con=
+_2x.jpg" style=3D"vertical-align:top;display:inline-block" width=3D"712"></=
+picture></a></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr><tr class=3D"m3"><td class=3D"m11" style=3D"backgr=
+ound-color:#000;padding-top:48px;padding-bottom:25px" align=3D"center"><tab=
+le border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" w=
+idth=3D"712" align=3D"center" style=3D"background-color:#000"><tbody><tr><t=
+d class=3D"m8" style=3D"color:#86868b;text-align:center;padding:0"><p style=
+=3D"color:#86868b;font-size:12px;font-weight:400;line-height:16px;margin:0 =
+auto">TM and =C2=A9 2021 Apple Inc. One Apple Park Way, <span class=3D"m2" =
+style=3D"white-space:nowrap">MS 96-DM</span>, Cupertino, CA 95014.</p></td>=
+</tr><tr><td class=3D"m8" style=3D"color:#86868b;text-align:center;padding:=
+12px 0 10px"><p style=3D"color:#86868b;font-size:12px;font-weight:400;line-=
+height:16px;margin:0 auto"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&l=
+c=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F=
+8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua=
+&ct=3Dac7r3c1L7T" style=3D"border:0;outline:0;text-decoration:none;color:#8=
+6868b">All Rights Reserved</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href=3D"ht=
+tps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPu=
+e%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7=
+v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7X3V7i9Y" style=3D"color:#86868b=
+">Privacy Policy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp; <a href=3D"https://c.ap=
+ple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZ=
+VXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdj=
+IjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7X4d9M5P" style=3D"border:0;outline:0;text=
+-decoration:none;color:#86868b">My&nbsp;Apple&nbsp;ID</a>&nbsp;&nbsp;&nbsp;=
+|&nbsp;&nbsp; <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5=
+GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz9=
+0qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac7r5a5=
+Q3h" style=3D"border:0;outline:0;text-decoration:none;color:#86868b">Broadc=
+ast&nbsp;Policy</a></p></td></tr><tr style=3D"display:none"><td class=3D"m8=
+" style=3D"color:#86868b;text-align:center;padding:0"></td></tr><tr><td cla=
+ss=3D"m8" style=3D"color:#86868b;text-align:center;padding:0"><p style=3D"c=
+olor:#86868b;font-size:12px;font-weight:400;line-height:16px;margin:0 auto"=
+>If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email&nbsp;address,&nbsp;please&nbsp;<a href=3D"https://=
+mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DGjzKCYBE358b4oKiReplweR=
+y5eQ4FkRfI9tptJIkHRvW7dOVqmuEu4ScyWAO2Ju4zNXVV0oEx5ouPzZVShZsH9La9p0K0T83cG=
+QgzRxhmzwaJ8rLkcKCDVdYWky6rjxl9H4X3xd4kP9X%2FQaNCKrmvBD347kmfpa22miTkx8aGYJ=
+iSE9pUtgnw9SfpKmwv8ex" style=3D"border:0;outline:0;text-decoration:none;col=
+or:#86868b">click&nbsp;here</a>.</p></td></tr></tbody></table></td></tr></t=
+body></table></td></tr></tbody></table></div></td></tr><tr><td></td></tr></=
+tbody></table> </body></html>
+------=_Part_168449884_922657251.1634078556136--

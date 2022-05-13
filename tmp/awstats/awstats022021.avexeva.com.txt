@@ -1,0 +1,1156 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202102 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2677                
+POS_VISITOR 27663               
+POS_DAY 33587               
+POS_DOMAIN 3634                
+POS_LOGIN 4252                
+POS_ROBOT 4407                
+POS_WORMS 5164                
+POS_EMAILSENDER 5295                
+POS_EMAILRECEIVER 5438                
+POS_SESSION 34333               
+POS_SIDER 34540               
+POS_FILETYPES 5573                
+POS_DOWNLOADS 5734                
+POS_OS 5929                
+POS_BROWSER 6208                
+POS_SCREENSIZE 8171                
+POS_UNKNOWNREFERER 8245                
+POS_UNKNOWNREFERERBROWSER 13026               
+POS_ORIGIN 17586               
+POS_SEREFERRALS 17730               
+POS_PAGEREFS 17893               
+POS_SEARCHWORDS 18402               
+POS_KEYWORDS 18554               
+POS_MISC 2341                
+POS_ERRORS 18613               
+POS_CLUSTER 4108                
+POS_SIDER_404 18708               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210301000043 694 155589 17114981238400
+FirstTime 0
+LastTime 20210228201324
+LastUpdate 20210301071244 694 0 693 0 0
+TotalVisits 176                 
+TotalUnique 141                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 147                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 182 216 13769754 3439 3489 209443175
+1 69 190 5782702 2036 2114 98451647
+2 6 10 4321031 393 415 46567869
+3 39 43 4901742 452 490 54015971
+4 14 14 1659509 437 467 54999122
+5 13 24 1576568 799 837 54950009
+6 11 15 1400512 524 557 75014434
+7 4 4 527684 485 509 64275787
+8 33 41 4216804 487 508 61170790
+9 25 40 4252632 510 525 57946264
+10 24 24 2912003 509 540 69712475
+11 30 34 3609832 595 636 72230867
+12 33 37 4187717 589 618 70981960
+13 10 14 1233054 683 729 91332974
+14 782 786 122572160 510 546 72876363
+15 1844 1844 304009455 2844 2876 67735969
+16 855 867 146163985 1499 1531 80528588
+17 27 27 3112406 500 539 64257450
+18 121 121 14614915 842 884 106348941
+19 5 5 592423 592 643 78016872
+20 5 9 598607 531 553 65162828
+21 129 133 15474868 518 573 66475423
+22 15 67 1829255 527 554 67611782
+23 8 8 948342 1112 1162 130201260
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 26
+in 3514 3514 570945090
+ru 333 353 40315071
+us 225 468 22267861
+se 49 49 5868812
+fr 29 29 3430413
+gb 26 33 3379594
+cl 20 20 2400298
+hn 20 20 2400297
+sc 20 20 2400303
+cn 8 12 955508
+br 6 6 712109
+gr 6 6 821087
+ua 5 5 634164
+de 4 4 474740
+bd 3 7 442752
+ie 3 3 485756
+pl 2 2 236807
+lv 2 9 1483764
+kr 2 6 3782740
+vn 1 1 118685
+es 1 1 118685
+it 1 1 118684
+ca 1 1 118685
+il 1 1 118685
+ch 1 1 118685
+at 1 1 118685
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+AhrefsBot/ 6751 850786820 20210228235841 0
+bot[\s_+:,\.\;\/\\-] 4125 552675557 20210228233802 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3989 272490284 20210228011744 0
+MJ12bot/ 804 105013043 20210228231515 0
+no_user_agent 338 40853957 20210222154457 0
+Googlebot/ 330 19965911 20210228072020 0
+bingbot/ 304 33812499 20210228232747 0
+bingpreview 132 420854 20210228175811 0
+Apache\-HttpClient/ 20 2373692 20210224223941 0
+baidu 15 374147 20210217004247 0
+YandexBot/ 9 1067317 20210228193537 0
+facebookexternalhit/ 2 237370 20210227014658 0
+DuckDuckGo\-Favicons\-Bot/ 1 118685 20210215062111 0
+Python\-urllib/ 1 118684 20210227182113 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 82 142598 0 0
+js 190 233752 0 0
+html 216 20618228 0 0
+txt 17 1296 0 0
+php 4068 643272086 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/.well-known/pki-validation/B523729C834A4F088BC684CE2B9C71D1.txt 16 0 1232
+/.well-known/pki-validation/C37AD4939BFA313A9E16DD6EDC426C3A.txt 1 0 64
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+Unknown 143 126
+macosx10 3 3
+win7 26 19
+macosx 3452 3452
+macosx9 1 1
+win10 709 487
+macosx11 1 1
+linuxandroid 24 9
+winxp 21 21
+linux 154 146
+ios_iphone 3 3
+winlong 8 4
+win8.1 23 7
+macosx8 2 2
+win8 1 1
+macosx12 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 91
+chrome39.0.2171.95 2 2
+chrome62.0.3223.75 1 1
+chrome87.0.4280.88 15 3
+msie11.0 1 1
+firefox15.0.1 2 2
+msie6.0 2 2
+chrome69.0.2586.96 1 1
+firefox47.3 1 1
+chrome80.0.3987.132 2 2
+firefox85.0 5 1
+chrome88.0.4240.193 3 3
+chrome79.0.2659.107 1 1
+opera72.0.3815.465 5 1
+chrome88.0.4324.96 5 1
+chrome62.0.2696.168 1 1
+chrome32.0.1667.0 1 1
+chrome79.0.2949.67 1 1
+chrome26.0.1410.65 2 2
+chrome65.0.3325.146 1 1
+firefox58.0 7 7
+safari12.0 1 1
+firefox82.0 6 2
+chrome66.0.2292.88 1 1
+chrome79.0.3945.88 1 1
+safari10.0 2 2
+chrome88.0.4324.150 72 18
+firefox84.0 43 43
+chrome76.0.3809.71 10 2
+netscape5.0 1 1
+firefox56.0 1 1
+chrome41.0.2228.0 1 1
+firefox12.0 1 1
+chrome46.0.2490.76 7 3
+firefox59.0 1 1
+chrome35.0.1916.47 1 1
+opera53.0.2907.99 1 1
+chrome62.0.2302.116 1 1
+chrome74.0.3729.169 298 298
+chrome67.0.3396.62 1 1
+chrome84.0.4147.89 1 1
+chrome79.0 6 6
+chrome63.0.3239.84 1 1
+firefox52.0 7 7
+chrome65.0.3325.109 98 98
+chrome88.0.4324.104 5 1
+chrome84.0.4147.105 3 3
+chrome66.0.2695.90 1 1
+chrome78.0.3904.108 6 6
+firefox28.0 24 24
+chrome83.0.4103.61 5 2
+chrome67.0.2825.124 1 1
+chrome88.0.4324.182 224 88
+chrome31.0.1650.16 1 1
+Unknown 133 116
+firefox79.0 1 1
+chrome75.0.3765.0 5 1
+chrome68.0.2400.160 1 1
+safari 3405 3405
+chrome81.0.4044.129 9 9
+chrome86.0.4240.198 10 2
+chrome80.0.3987.122 1 1
+chrome66.0.3359.181 2 2
+chrome83.0.4086.0 1 1
+firefox78.0 1 1
+chrome85.0.4183.121 9 5
+edge12 1 1
+chrome62.0.3129.10 1 1
+chrome68.0.3440.106 1 1
+chrome75.0.3770.142 1 1
+opera62.0.3331.99 1 1
+mozilla 4 4
+chrome74.0.3950.164 1 1
+chrome71.0.3578.98 1 1
+chrome78.0.3904.62 2 2
+chrome5.0.375.99 1 1
+firefox50.0 20 20
+chrome41.0.2224.3 2 2
+safari9.0 1 1
+chrome63.0.3107.2 1 1
+chrome41.0.2227.1 2 2
+chrome63.0.3239.132 5 5
+chrome79.0.3945.79 5 1
+chrome83.0.4103.44 1 1
+chrome68.0.2171.66 1 1
+chrome58.0.3029.110 2 2
+chrome88.0.4324.141 9 2
+safari5.0.3 15 15
+opera9.27 5 5
+chrome83.0.4103.97 6 6
+chrome80.0.3987.149 4 4
+msie9.0 10 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 119
+(SELECT_(CASE_WHEN_(1911=3567)_THEN_1911_ELSE_1/0_END)_FROM_SYSMASTER:SYSDUAL) 20210228005503
+-1136)_ORDER_BY_1--_sCRy 20210227153933
+-7803_ORDER_BY_1# 20210227154126
+-6041'_ORDER_BY_1--_KPCZ 20210228005916
+SELECT_'qzbvq'||(CASE_6758_WHEN_6758_THEN_1_ELSE_0_END)||'qpvkq'_FROM_RDB$DATABASE 20210228005654
+-6530')_ORDER_BY_1# 20210228005934
+-1300'))_ORDER_BY_1--_YLoe 20210227153953
+-6195'_ORDER_BY_1--_paea 20210227153949
+-8590)_ORDER_BY_1--_uQUl 20210228005911
+-1921_ORDER_BY_1--_iWvM 20210228005920
+-5694_ORDER_BY_1--_nHaK 20210227154007
+-3335)))_ORDER_BY_1# 20210228005933
+-9652'_ORDER_BY_1# 20210227154053
+-5473))_ORDER_BY_1--_KdET 20210227153939
+-8931')_ORDER_BY_1# 20210227154110
+-5802\ 20210228005917
+-6734\ 20210228005919
+(SELECT_(CASE_WHEN_(6707=3151)_THEN_6707_ELSE_1/0_END)_FROM_SYSMASTER:SYSDUAL) 20210227152339
+-3612'))_ORDER_BY_1# 20210228005935
+-8434\ 20210227154004
+-5089')_ORDER_BY_1# 20210228005936
+-9581\ 20210228005940
+-3848'_ORDER_BY_1# 20210228005942
+IIF(1771=3348,1771,1/0) 20210227152341
+-6517'))_ORDER_BY_1--_SHKj 20210228005915
+-2841)_ORDER_BY_1# 20210227154051
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210215022515
+-2824')_ORDER_BY_1--_OqdK 20210227153944
+5069 20210227152128
+-7754'_ORDER_BY_1# 20210227154108
+-1064)_ORDER_BY_1--_kCzm 20210227153937
+-7336'_ORDER_BY_1# 20210228005932
+(SELECT_(CASE_WHEN_(7368=2740)_THEN_7368_ELSE_1/(SELECT_0)_END)) 20210228005501
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20210226171302
+(SELECT_2177_FROM_(SELECT(SLEEP(32)))LtyA) 20210227153848
+-2970')_ORDER_BY_1--_SHtr 20210228005913
+Go-http-client/1.1 20210226102428
+-9968\ 20210227154006
+-9475)_ORDER_BY_1--_PyKF 20210228005910
+-6387'))_ORDER_BY_1# 20210227154105
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210227233827
+-9851%'_ORDER_BY_1# 20210227154114
+-6293'_ORDER_BY_1# 20210227154130
+-7391\ 20210228005918
+-1434_ORDER_BY_1--_NcXk 20210228005919
+-3429)_ORDER_BY_1# 20210227154055
+Opera/9.27 20210203184650
+-4816_ORDER_BY_1# 20210228005942
+-6823\ 20210228005939
+-6869'_ORDER_BY_1--_YrmG 20210227154011
+-9720%'_ORDER_BY_1--_usJv 20210228005916
+-1041'_ORDER_BY_1--_JWzE 20210228005911
+-8209_ORDER_BY_1# 20210228005941
+-8141_ORDER_BY_1--_hupZ 20210227153942
+(SELECT_8322_FROM_PG_SLEEP(32)) 20210228005858
+(CASE_WHEN_7095=3014_THEN_7095_ELSE_NULL_END) 20210228005506
+-3486\ 20210228005938
+SELECT_'qxzpq'||(CASE_4997_WHEN_4997_THEN_1_ELSE_0_END)||'qjjkq'_FROM_RDB$DATABASE 20210227152610
+-1117')_ORDER_BY_1--_jaUS 20210228005915
+-7124_ORDER_BY_1# 20210227154100
+-3066%'_ORDER_BY_1--_Ixcm 20210227153955
+-9159\ 20210228005939
+-8079'_ORDER_BY_1# 20210228005936
+-3140')))_ORDER_BY_1# 20210227154107
+-3612'))_ORDER_BY_1--_tiES 20210228005914
+-6692')))_ORDER_BY_1--_SFUU 20210227153947
+python-requests/2.25.1 20210222182138
+-2149)))_ORDER_BY_1--_znZX 20210227153940
+-7773\ 20210228005941
+(SELECT_1234_FROM_(SELECT(SLEEP(32)))UPfj) 20210228005857
+-9353_ORDER_BY_1# 20210227154128
+IIF(9281=9782,9281,1/0) 20210228005504
+-4525_ORDER_BY_1# 20210228005934
+User-Agent\ 20210203093326
+-9525\ 20210227154119
+-5734_ORDER_BY_1--_XJtu 20210228005913
+-4695)_ORDER_BY_1# 20210228005933
+-1204\ 20210227154118
+-5494')_ORDER_BY_1# 20210227154102
+Anarchy99 20210214131636
+-5601_ORDER_BY_1--_Suti 20210227154009
+(CASE_WHEN_3124=3447_THEN_3124_ELSE_NULL_END) 20210227152344
+(SELECT_8288_FROM_PG_SLEEP(0)) 20210227153853
+-9902)))_ORDER_BY_1# 20210227154059
+-2645\ 20210227154002
+-4014'_ORDER_BY_1--_hIZN 20210228005920
+(SELECT_8288_FROM_PG_SLEEP(32)) 20210227153851
+-1167'_ORDER_BY_1--_CnJu 20210227153935
+-4876')))_ORDER_BY_1--_Cdyn 20210228005914
+-1528'_ORDER_BY_1--_sZMH 20210227153957
+-4716\ 20210227154125
+python-requests/2.24.0 20210227083411
+Sectigo_DCV 20210212223126
+-3940'))_ORDER_BY_1# 20210228005937
+-9017')))_ORDER_BY_1# 20210228005935
+-5259'_ORDER_BY_1--_xtEC 20210228005915
+COMODO_DCV 20210212223123
+Mozilla/5.0_zgrab/0.x 20210213060150
+-6102')_ORDER_BY_1--_eghU 20210227153951
+-6819'))_ORDER_BY_1--_zqph 20210227153946
+-5022%'_ORDER_BY_1# 20210228005937
+-3308'))_ORDER_BY_1# 20210227154112
+-8826\ 20210227154000
+-3543))_ORDER_BY_1# 20210228005933
+-7213)))_ORDER_BY_1--_sMkJ 20210228005912
+-4894))_ORDER_BY_1# 20210227154057
+5354 20210228005330
+-7308\ 20210227153958
+-8238)_ORDER_BY_1# 20210228005931
+-3309\ 20210228005917
+-9071'_ORDER_BY_1# 20210228005938
+(SELECT_(CASE_WHEN_(4222=7897)_THEN_4222_ELSE_1/(SELECT_0)_END)) 20210227152336
+-8541\ 20210227154121
+IDBTE4M_CODE87 20210211000116
+-7546'_ORDER_BY_1# 20210227154116
+(SELECT_2177_FROM_(SELECT(SLEEP(0)))LtyA) 20210227153849
+-7288\ 20210227154123
+-3788\ 20210228005918
+-4348))_ORDER_BY_1--_erOp 20210228005912
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 115
+-8931')_ORDER_BY_1# 20210227154110
+-5473))_ORDER_BY_1--_KdET 20210227153939
+-9652'_ORDER_BY_1# 20210227154053
+-5802\ 20210228005917
+-6734\ 20210228005919
+-1921_ORDER_BY_1--_iWvM 20210228005920
+-5694_ORDER_BY_1--_nHaK 20210227154007
+-8590)_ORDER_BY_1--_uQUl 20210228005911
+-3335)))_ORDER_BY_1# 20210228005933
+-6195'_ORDER_BY_1--_paea 20210227153949
+-1300'))_ORDER_BY_1--_YLoe 20210227153953
+-6530')_ORDER_BY_1# 20210228005934
+SELECT_'qzbvq'||(CASE_6758_WHEN_6758_THEN_1_ELSE_0_END)||'qpvkq'_FROM_RDB$DATABASE 20210228005654
+(SELECT_(CASE_WHEN_(1911=3567)_THEN_1911_ELSE_1/0_END)_FROM_SYSMASTER:SYSDUAL) 20210228005503
+-6041'_ORDER_BY_1--_KPCZ 20210228005916
+-7803_ORDER_BY_1# 20210227154126
+-1136)_ORDER_BY_1--_sCRy 20210227153933
+-7336'_ORDER_BY_1# 20210228005932
+(SELECT_(CASE_WHEN_(7368=2740)_THEN_7368_ELSE_1/(SELECT_0)_END)) 20210228005501
+-1064)_ORDER_BY_1--_kCzm 20210227153937
+-7754'_ORDER_BY_1# 20210227154108
+-2841)_ORDER_BY_1# 20210227154051
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210215022515
+-6517'))_ORDER_BY_1--_SHKj 20210228005915
+IIF(1771=3348,1771,1/0) 20210227152341
+5069 20210227152128
+-2824')_ORDER_BY_1--_OqdK 20210227153944
+-5089')_ORDER_BY_1# 20210228005936
+-3848'_ORDER_BY_1# 20210228005942
+-9581\ 20210228005940
+-3612'))_ORDER_BY_1# 20210228005935
+-8434\ 20210227154004
+(SELECT_(CASE_WHEN_(6707=3151)_THEN_6707_ELSE_1/0_END)_FROM_SYSMASTER:SYSDUAL) 20210227152339
+-9720%'_ORDER_BY_1--_usJv 20210228005916
+-6869'_ORDER_BY_1--_YrmG 20210227154011
+-8141_ORDER_BY_1--_hupZ 20210227153942
+-8209_ORDER_BY_1# 20210228005941
+-1041'_ORDER_BY_1--_JWzE 20210228005911
+-4816_ORDER_BY_1# 20210228005942
+-6823\ 20210228005939
+-7391\ 20210228005918
+-6293'_ORDER_BY_1# 20210227154130
+-9851%'_ORDER_BY_1# 20210227154114
+-6387'))_ORDER_BY_1# 20210227154105
+-3429)_ORDER_BY_1# 20210227154055
+-1434_ORDER_BY_1--_NcXk 20210228005919
+(SELECT_2177_FROM_(SELECT(SLEEP(32)))LtyA) 20210227153848
+-9475)_ORDER_BY_1--_PyKF 20210228005910
+-9968\ 20210227154006
+Go-http-client/1.1 20210226102428
+-2970')_ORDER_BY_1--_SHtr 20210228005913
+-3140')))_ORDER_BY_1# 20210227154107
+-8079'_ORDER_BY_1# 20210228005936
+-6692')))_ORDER_BY_1--_SFUU 20210227153947
+-3612'))_ORDER_BY_1--_tiES 20210228005914
+-3066%'_ORDER_BY_1--_Ixcm 20210227153955
+-7124_ORDER_BY_1# 20210227154100
+-9159\ 20210228005939
+-1117')_ORDER_BY_1--_jaUS 20210228005915
+(SELECT_8322_FROM_PG_SLEEP(32)) 20210228005858
+SELECT_'qxzpq'||(CASE_4997_WHEN_4997_THEN_1_ELSE_0_END)||'qjjkq'_FROM_RDB$DATABASE 20210227152610
+-3486\ 20210228005938
+(CASE_WHEN_7095=3014_THEN_7095_ELSE_NULL_END) 20210228005506
+-5494')_ORDER_BY_1# 20210227154102
+-1204\ 20210227154118
+-5601_ORDER_BY_1--_Suti 20210227154009
+Anarchy99 20210214131636
+-4525_ORDER_BY_1# 20210228005934
+IIF(9281=9782,9281,1/0) 20210228005504
+-9353_ORDER_BY_1# 20210227154128
+-4695)_ORDER_BY_1# 20210228005933
+-5734_ORDER_BY_1--_XJtu 20210228005913
+-9525\ 20210227154119
+User-Agent\ 20210203093326
+-7773\ 20210228005941
+(SELECT_1234_FROM_(SELECT(SLEEP(32)))UPfj) 20210228005857
+python-requests/2.25.1 20210222182138
+-2149)))_ORDER_BY_1--_znZX 20210227153940
+-3940'))_ORDER_BY_1# 20210228005937
+-9017')))_ORDER_BY_1# 20210228005935
+Sectigo_DCV 20210212223126
+python-requests/2.24.0 20210227083411
+-1528'_ORDER_BY_1--_sZMH 20210227153957
+-4876')))_ORDER_BY_1--_Cdyn 20210228005914
+-1167'_ORDER_BY_1--_CnJu 20210227153935
+-4716\ 20210227154125
+-2645\ 20210227154002
+(CASE_WHEN_3124=3447_THEN_3124_ELSE_NULL_END) 20210227152344
+-9902)))_ORDER_BY_1# 20210227154059
+(SELECT_8288_FROM_PG_SLEEP(0)) 20210227153853
+-4014'_ORDER_BY_1--_hIZN 20210228005920
+(SELECT_8288_FROM_PG_SLEEP(32)) 20210227153851
+-3308'))_ORDER_BY_1# 20210227154112
+-3543))_ORDER_BY_1# 20210228005933
+-8826\ 20210227154000
+-5022%'_ORDER_BY_1# 20210228005937
+-6819'))_ORDER_BY_1--_zqph 20210227153946
+-5259'_ORDER_BY_1--_xtEC 20210228005915
+-6102')_ORDER_BY_1--_eghU 20210227153951
+COMODO_DCV 20210212223123
+-7288\ 20210227154123
+-4348))_ORDER_BY_1--_erOp 20210228005912
+-3788\ 20210228005918
+(SELECT_2177_FROM_(SELECT(SLEEP(0)))LtyA) 20210227153849
+-7546'_ORDER_BY_1# 20210227154116
+IDBTE4M_CODE87 20210211000116
+-9071'_ORDER_BY_1# 20210228005938
+-3309\ 20210228005917
+-8541\ 20210227154121
+(SELECT_(CASE_WHEN_(4222=7897)_THEN_4222_ELSE_1/(SELECT_0)_END)) 20210227152336
+-4894))_ORDER_BY_1# 20210227154057
+-7213)))_ORDER_BY_1--_sMkJ 20210228005912
+-8238)_ORDER_BY_1# 20210228005931
+-7308\ 20210227153958
+5354 20210228005330
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 600 617
+From1 82 82
+From2 7 7
+From3 14 18
+From4 3581 3849
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 7 7
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://xn--avexva-68b.com 4 4
+http://avexeva.it 3 3
+https://www.netcraft.com/survey/ 2 2
+https://mydreamdl.me/the-perfect-swarm-the-science-of-complexity-in-everyday-life-doc 1 1
+https://mydreamdl.me 1 1
+http://www.avexeva.it 1 1
+https://mydreamdl.me/brother-where-art-thou-nl 1 1
+https://mydreamdl.me/max-married-to-the-mob-mp3 1 1
+http://mail.avexeva.com 0 4
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 9 0
+404 5453 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 355
+/personnel_request.php 1 -
+/birthdays.php 1 -
+/privileges.php 1 -
+/adminer4.php 1 -
+/modernization.php 1 -
+/basic_init/multiple_tables.html 1 -
+/admin/login.html 1 -
+/mydb.php 1 -
+/administrator/index.php 2 -
+/outstanding_jobs.php 1 -
+/requisitions.php 1 -
+/1/wp-includes/wlwmanifest.xml 1 -
+/language.html 1 -
+/column_render.html 2 -
+/job_closure.php 1 -
+/active_tickets.php 1 -
+/api/show_hide.html 1 -
+/%3C 5 -
+/adminer.php 2 -
+/billed_jobs.php 1 -
+/media/tupperware.jpg 1 -
+/www 1 -
+/xmlrpc.php 11 -
+/uikit.html 1 -
+/directory.php 1 -
+/OLD/wp-admin/ 2 http://avexeva.com/
+//.env 3 -
+/press 1 -
+/sitemaps.xml 2 -
+/administrator.php 1 -
+/advanced_init/dom_toolbar.html 1 -
+/plug-ins/range_filtering.html 1 -
+/footer_callback.html 1 -
+/server_side/index.html 1 -
+/job_hours.php 1 -
+/ajax/null_data_source.html 1 -
+/sitemap_index.xml 6 -
+/styling/uikit.html 1 -
+/media/giftcard.png 1 -
+/media/homedepot.png 1 -
+/state_save.html 1 -
+/a/XIO/Language/CSS/SITE.css 2 http://avexeva.com/index.php
+/website/wp-includes/wlwmanifest.xml 8 -
+/master_accounts.php 1 -
+/unit_labor.php 1 -
+/basic_init/multi_col_sort.html 2 -
+/multi_col_sort.html 1 -
+/custom_data_property.html 1 -
+/advanced_init/sort_direction_control.html 1 -
+/media/apple.jpg 2 -
+/product_types.php 1 -
+/media/cryptocurrencies.jpg 1 -
+/api/multi_filter_select.html 1 -
+/dom_toolbar.html 1 -
+/media/book.png 1 -
+/basic_init/table_sorting.html 1 -
+/e/Picture/%3C 1 -
+/mysql.php 1 -
+/wordpress/wp-login.php 10 -
+/row-border.html 1 -
+/atom.xml 2 -
+/Home.php 1 -
+/dt_events.html 2 -
+/advanced_init/dt_events.html 1 -
+/sito/wp-includes/wlwmanifest.xml 8 -
+/styling/row-border.html 1 -
+/basic_init/scroll_y.html 1 -
+/customers.csv 1 -
+/objects_subarrays.html 1 -
+/system/.env 1 -
+/hover.html 1 -
+/2015/wp-includes/wlwmanifest.xml 2 -
+//wp-content/plugins/angwp/package.json 1 -
+/media/bestbuy.jpg 2 -
+/select_rows.html 1 -
+/staging/wp-includes/wlwmanifest.xml 1 -
+/storage/.env 1 -
+/media/microphone.jpg 1 -
+/job_tickets.php 1 -
+/admin/includes/general.js 1 -
+/flexible_width.html 1 -
+/payroll.php 1 -
+/dashboard.php 1 -
+/events_live.html 2 -
+/object_dom_read.html 2 -
+/2019/wp-includes/wlwmanifest.xml 4 -
+/alt_pagination.html 1 -
+/server_side/ids.html 1 -
+/index.php 2344 -
+/table_sorting.html 1 -
+/leads.php 1 -
+/humans.txt 7 http://avexeva.it/humans.txt
+/advanced_init/language_file.html 1 -
+/admin/view/javascript/common.js 1 -
+/.git/index 1 -
+/adm3.php 1 -
+/media/tea.jpg 1 -
+/media/box.jpg 1 -
+/location_labor.php 1 -
+/api/select_single_row.html 2 -
+/test 1 -
+/sitemap.txt 2 -
+/admin.html 1 -
+/styling/hover.html 1 -
+/jobs.php 2 -
+/test/.env 1 -
+/vendor/.env 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/2020/wp-includes/wlwmanifest.xml 1 -
+/main.php 1 -
+/sitemap.xml 2 -
+/login.php 2049 -
+/main 1 -
+/users.php 1 -
+/wp 2 -
+/administrator/ 1 -
+/www/wp-includes/wlwmanifest.xml 1 -
+/media/tree.jpg 1 -
+/blog/ 2 -
+/invoices.php 1 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/wp1/wp-includes/wlwmanifest.xml 8 -
+/basic_init/hidden_columns.html 1 -
+/units.php 1 -
+/employees.php 1 -
+/media/matrix.jpg 1 -
+/laravel/.env 1 -
+/adminer2.php 1 -
+/permits.php 1 -
+/old/wp-admin/ 2 http://avexeva.com/
+/web/ 2 -
+/up.php 2 -
+/scroll_xy.html 1 -
+/media/skull.jpg 1 -
+/admin/ 1 -
+/server_side/row_details.html 1 -
+/styling/display.html 1 -
+/complex_header.html 1 -
+/defaults.html 1 -
+/time_sheet.php 1 -
+/blog/wp-includes/wlwmanifest.xml 8 -
+/2018/wp-includes/wlwmanifest.xml 5 -
+/login 1 -
+/row_grouping.html 2 -
+/backup 1 -
+/routes.php 1 -
+/financials.php 1 -
+/site/wp-includes/wlwmanifest.xml 10 -
+/ajax/custom_data_property.html 1 -
+/maintenance.php 1 -
+/myadmin.php 1 -
+/server_side/object_data.html 1 -
+/ads.txt 34 -
+/locations.php 1 -
+/styling/material.html 1 -
+/advanced_init/dom_multiple_elements.html 1 -
+/new/ 2 -
+/admin.asp 1 -
+/styling/cell-border.html 1 -
+/cms/ 2 -
+/tickets.php 1 -
+/material.html 1 -
+/.git/HEAD 20 -
+/due_violations.php 1 -
+/ajax/custom_data_flat.html 1 -
+/api/highlight.html 1 -
+/a/XIO/Language/JAVASCRIPT/PAGE/index/LOAD.js 2 http://avexeva.com/index.php
+/job_item_search.php 1 -
+/filter_only.html 1 -
+/demo 1 -
+/wordpress/ 2 -
+/connections.php 1 -
+/media/projector.jpg 1 -
+/media/buddha.jpg 2 -
+/plug-ins/index.html 1 -
+/map.php 2 -
+/styling/stripe.html 1 -
+/data_sources/server_side.html 1 -
+/basic_init/language.html 1 -
+/wp/wp-login.php 10 -
+/media/cookbook.jpg 2 -
+/html5-data-attributes.html 2 -
+/media/crisp.jpg 1 -
+/news/ 2 -
+/home/ 2 -
+/wp-content/ 1 -
+/contracts.php 1 -
+/plug-ins/sorting_manual.html 1 -
+/misc/ajax.js 1 -
+/site/ 2 -
+/checkout 1 -
+/legal.php 1 -
+/advanced_init/html5-data-attributes.html 1 -
+/zero_configuration.html 1 -
+/sorting_auto.html 1 -
+/purchasing.php 1 -
+/service_calls.php 1 -
+/document.location.href=%27work.php%27 1 -
+/sort_direction_control.html 1 -
+/customers.php 1 -
+/advanced_init/row_callback.html 1 -
+/media/mystery.jpg 1 -
+/website 1 -
+/collector.php 1 -
+/styling/order-column.html 1 -
+/server_side/defer_loading.html 1 -
+/multiple_tables.html 1 -
+/media/cornstar.jfif 1 -
+/wp/ 2 -
+/wordpress 2 -
+/dev/wp-includes/wlwmanifest.xml 1 -
+/modernizations.php 1 -
+//dup-installer/main.installer.php 1 -
+/media/art.jpg 1 -
+/blog 2 -
+/media/css/dataTables.material.css 1 -
+/a/XIO/Language/JAVASCRIPT/FUNCTION/loadMenu.js 3 http://avexeva.com/index.php
+/html5-data-options.html 1 -
+/testing.php 1 -
+/adm.php 2 -
+/wp-login.php 30 -
+/objects.html 1 -
+/blog/.env 1 -
+/ 8 -
+/finances.php 1 -
+/beta/wp-includes/wlwmanifest.xml 1 -
+/data_sources/dom.html 1 -
+/basic_init/scroll_y_dynamic.html 1 -
+/images/editor/separator.gif 1 -
+/shop/wp-includes/wlwmanifest.xml 7 -
+/plug-ins/api.html 1 -
+/js/header-rollup-554.js 1 -
+/wp-includes/js/jquery/jquery.js 2 -
+/media/chocolates.jpg 1 -
+/stripe.html 1 -
+/basic_init/flexible_width.html 1 -
+/basic_init/state_save.html 1 -
+/safety_report.php 1 -
+/2016/wp-includes/wlwmanifest.xml 2 -
+/2017/wp-includes/wlwmanifest.xml 2 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/api/multi_filter.html 1 -
+/en 1 -
+/styling/index.html 1 -
+/ajax/index.html 1 -
+/media/texas.jpg 1 -
+/proposals.php 1 -
+www.avexeva.com 1 -
+/dup-installer/main.installer.php 1 -
+/news/wp-includes/wlwmanifest.xml 9 -
+/media/massage.jpg 1 -
+/ticket.php 1 -
+/styling/compact.html 1 -
+/rmas.php 1 -
+/archive.php 1 -
+/dispatch.php 3 -
+/api/form.html 1 -
+/admin/.env 1 -
+/violations.php 1 -
+/admin.aspx 1 -
+/collections.php 1 -
+/home.php 2 -
+/administrator/language/en-GB/install.xml 1 -
+/length_menu.html 2 -
+/wp-includes/wlwmanifest.xml 8 -
+/advanced_init/complex_header.html 1 -
+/advanced_init/defaults.html 1 -
+/wp-admin/ 3 http://avexeva.com/
+/media/jacket.jpg 1 -
+/site 1 -
+/blog/wp-login.php 10 -
+/admin/login.php 1 -
+/maintenances.php 1 -
+/index.html 1 -
+/administrator/help/en-GB/toc.json 1 -
+/news 1 -
+/home 1 -
+/scroll_y.html 1 -
+/jobs_no_supervisor.php 1 -
+/robots.txt 370 -
+/sql.php 1 -
+/styling/foundation.html 1 -
+/scroll_x.html 1 -
+/defer_render.html 1 -
+/foundation.html 1 -
+/main/wp-includes/wlwmanifest.xml 1 -
+/media/wp-includes/wlwmanifest.xml 5 -
+/shop/.env 1 -
+/advanced_init/row_grouping.html 1 -
+/store/wp-includes/wlwmanifest.xml 1 -
+/scroll_y_dynamic.html 1 -
+/job_labor.php 1 -
+/admin.php 2 -
+/christmas/sam 1 -
+/joy_user.sql 1 -
+/downloader 1 -
+/api/.env 1 -
+/semanticui.html 1 -
+/old/wp-includes/wlwmanifest.xml 1 -
+/language_file.html 2 -
+/login.html 1 -
+/advanced_init/html5-data-options.html 1 -
+/x.php 1 -
+/public/.env 2 -
+/media/mask.jpg 1 -
+/ids.html 1 -
+/data_sources/js_array.html 1 -
+/wp2/wp-includes/wlwmanifest.xml 9 -
+/media/box.png 1 -
+/api/tabs_and_scrolling.html 1 -
+/v2/wp-includes/wlwmanifest.xml 1 -
+/new 1 -
+/data_sources/index.html 1 -
+/a/XIO/Language/Javascript/Function/loadMenu.js 2 -
+/hidden_columns.html 1 -
+/bugs.php 1 -
+/overview.php 1 -
+/sitemap.xml.gz 2 -
+/wordpress/wp-admin/ 3 http://avexeva.com/
+/dom_multiple_elements.html 2 -
+/review.php 1 -
+/cms 1 -
+/home/wp-includes/wlwmanifest.xml 1 -
+/.git/config 1 -
+/insured_companies.php 1 -
+/backup/wp-admin/ 2 http://avexeva.com/
+/requisition.php 1 -
+/ajax/deep.html 1 -
+/api/row_details.html 1 -
+/media/cravebox.jpg 1 -
+/basic_init/dom.html 1 -
+/.env 18 -
+/test/wp-includes/wlwmanifest.xml 9 -
+/updates.php 1 -
+/db.php 1 -
+/media/catan.jpg 2 -
+/media/cords.jpg 2 -
+/styling/no-classes.html 1 -
+/adm2.php 1 -
+/plugins/system/debug/debug.xml 1 -
+/db 1 -
+/adminer3.php 1 -
+/wp/wp-admin/ 2 http://avexeva.com/
+/wordpress/wp-includes/wlwmanifest.xml 8 -
+/ajax/simple.html 1 -
+/media/css/dataTables.bootstrap4.css 1 -
+/cms/wp-includes/wlwmanifest.xml 9 -
+/sites/.env 1 -
+/products.php 1 -
+/ajax/objects.html 1 -
+/repair.php 1 -
+/comma-decimal.html 1 -
+/row_callback.html 2 -
+/modernization_tracker.php 1 -
+/blog/xmlrpc.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 147
+45.146.165.203 3511 3511 570589035 20210228005942
+185.119.81.99 296 296 35495942 20210211184138
+151.205.174.243 104 290 7778770 20210228013844
+93.158.90.46 42 42 5038865 20210220095723
+185.81.157.8 22 22 2600194 20210223123101
+196.240.250.35 20 20 2400303 20210217213939
+181.214.107.32 20 20 2400298 20210222175308
+191.102.148.76 20 20 2400297 20210219031943
+91.241.19.192 17 17 2258045 20210216054024
+192.210.176.172 13 13 1542922 20210222105438
+172.245.113.195 13 13 1542920 20210225113150
+161.97.130.152 9 9 1063204 20210210195848
+23.95.42.230 6 6 737772 20210225113307
+89.238.191.203 5 5 668392 20210228184244
+149.255.62.61 5 5 600417 20210203184650
+192.210.201.243 5 5 591072 20210202044446
+194.35.233.215 5 5 764087 20210205084836
+107.172.83.56 4 4 474739 20210222002619
+54.36.165.239 4 4 474738 20210216024745
+92.118.13.47 4 4 583718 20210205084634
+40.117.150.55 3 3 356053 20210219135021
+34.66.103.55 3 3 356054 20210205125426
+179.127.68.39 3 3 356054 20210218051639
+103.230.107.5 3 7 442752 20210216121902
+5.188.62.76 3 3 356054 20210219200932
+136.169.168.36 1 1 182237 20210223105440
+34.223.60.135 1 1 118683 20210227101305
+107.181.180.169 1 5 161367 20210226081533
+23.100.232.233 2 10 249432 20210226063942
+67.205.167.126 1 1 118685 20210206083009
+192.71.30.89 1 1 118685 20210220143548
+192.71.10.105 2 2 237370 20210221151254
+52.90.187.212 1 1 118685 20210209164652
+31.128.153.41 1 5 124716 20210216161401
+45.63.108.148 1 1 118685 20210227083411
+167.71.184.226 1 1 118685 20210224200048
+77.68.3.242 1 1 118685 20210215034416
+109.198.163.240 1 5 124716 20210208205445
+193.169.255.188 1 1 118685 20210225182404
+64.246.165.180 1 1 118685 20210208061559
+89.230.54.216 2 2 236807 20210215190915
+61.33.25.44 1 5 3664057 20210216021317
+121.4.254.238 2 2 237369 20210225235955
+167.71.248.117 1 1 0 20210226165324
+18.206.119.127 1 1 118683 20210219182838
+51.77.52.160 1 1 118685 20210215011548
+69.171.251.21 1 3 122480 20210204210847
+44.234.112.196 1 1 118685 20210225101613
+195.176.3.24 1 1 118685 20210226214519
+84.245.201.78 2 9 1483764 20210209092032
+49.77.211.82 1 1 118685 20210217014829
+45.86.201.45 2 2 341686 20210224022504
+168.119.239.118 1 1 153353 20210205141519
+185.180.231.48 2 2 331056 20210201124922
+34.219.5.83 1 1 118685 20210205100525
+78.85.230.86 1 1 118685 20210218174515
+107.173.248.106 1 1 117836 20210228115314
+18.191.174.92 1 1 118684 20210219182753
+82.117.239.163 1 1 118684 20210211045520
+182.72.247.42 1 1 118685 20210217055736
+88.80.56.66 1 1 118684 20210218031116
+142.93.182.54 1 1 118685 20210227233136
+194.116.229.162 1 1 118685 20210219022240
+135.148.33.51 1 1 118685 20210226214516
+54.245.138.95 2 2 237368 20210225142457
+185.222.57.184 1 1 118683 20210222182138
+218.76.142.61 1 1 118684 20210225054245
+163.172.5.162 1 1 118685 20210211123218
+51.158.172.165 1 1 118684 20210219042334
+161.97.128.124 1 1 118685 20210212091134
+3.21.230.86 1 5 124716 20210204142419
+51.15.191.81 1 1 118685 20210214173029
+207.32.178.151 1 1 118685 20210227130338
+38.18.49.65 1 1 118685 20210212072137
+118.219.232.187 1 1 118683 20210210211649
+185.222.57.164 1 1 118685 20210226145645
+95.216.236.67 2 2 278110 20210222114018
+86.154.107.50 1 5 124716 20210201091353
+145.255.2.0 1 5 124715 20210226034454
+85.214.170.193 3 3 356055 20210221184918
+51.89.228.207 1 1 118685 20210226112144
+192.71.224.240 1 1 118685 20210227083052
+82.223.28.58 1 1 118685 20210214131636
+92.118.160.17 1 1 118684 20210206055159
+35.163.222.87 1 1 118685 20210224100349
+77.222.112.140 1 1 118685 20210207111409
+54.221.27.173 1 1 118684 20210213060057
+192.71.23.211 1 1 118685 20210224100309
+169.47.43.210 1 1 118685 20210202231049
+134.209.214.202 1 1 118684 20210214064259
+222.253.214.238 1 1 118685 20210223112056
+92.118.160.57 1 1 118685 20210215022515
+60.173.163.99 1 1 118684 20210223173102
+35.80.6.113 1 1 118685 20210206100832
+95.142.124.20 2 2 326318 20210217063447
+192.71.2.171 1 1 118685 20210209221144
+217.160.250.196 1 1 118685 20210209225202
+171.13.14.83 1 2 120424 20210214131810
+199.244.88.132 1 1 118685 20210207042848
+91.105.141.53 1 5 125828 20210208113018
+109.248.128.38 1 1 118685 20210216134210
+161.35.142.30 1 1 0 20210226171302
+93.158.90.52 1 1 117837 20210228201324
+65.154.226.165 2 10 249431 20210223053936
+195.154.61.206 2 2 237367 20210214180637
+78.153.199.26 1 1 159438 20210216142800
+51.75.146.127 2 2 271998 20210227054148
+45.158.15.36 2 2 237370 20210227165930
+3.16.69.51 3 3 356053 20210216012233
+222.191.243.187 1 1 118685 20210210000838
+185.220.102.254 1 1 118685 20210226214515
+34.223.104.87 1 1 118684 20210226102428
+171.13.14.37 0 1 160 
+84.17.60.115 1 1 118684 20210212100429
+91.121.84.136 2 2 237368 20210222220553
+69.171.251.23 0 1 160 
+5.188.62.214 2 2 237370 20210218194001
+104.248.6.235 2 2 237369 20210211221654
+75.144.251.146 1 1 124415 20210211155554
+208.26.107.173 1 5 124716 20210226165334
+129.146.122.232 3 3 356055 20210208064518
+54.163.112.180 1 1 118684 20210211000116
+205.169.39.99 2 9 247693 20210223053924
+159.203.94.239 1 1 118685 20210227233827
+51.255.3.45 2 2 237368 20210220212724
+168.91.75.141 1 1 118685 20210203093326
+40.115.104.58 1 5 124715 20210226164959
+171.13.14.84 0 2 4132 
+5.166.0.231 1 5 123600 20210208084856
+23.235.204.245 0 14 1065 
+109.70.100.54 1 1 118685 20210226214517
+18.197.193.89 1 1 118684 20210204142723
+54.203.73.198 1 1 118685 20210204041307
+138.68.255.161 2 2 338976 20210224121240
+176.170.128.78 1 1 118116 20210226082102
+216.151.27.66 1 1 118685 20210213060150
+34.220.111.131 1 1 118684 20210226101516
+194.44.61.241 1 1 118685 20210219110608
+208.80.28.208 1 1 118685 20210219042400
+54.70.174.21 1 1 118117 20210213230958
+117.50.104.221 1 1 118685 20210226143708
+69.171.251.14 0 1 2076 
+109.251.55.235 1 1 118685 20210204162058
+179.127.71.208 3 3 356055 20210209112359
+51.158.165.18 1 1 118959 20210219042311
+35.162.231.239 1 1 118684 20210205100433
+91.199.212.132 0 3 231 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20210201 4 8 573888 3
+20210202 7 7 827873 3
+20210203 7 7 837219 3
+20210204 6 14 723603 6
+20210205 16 16 2212698 8
+20210206 3 3 356054 3
+20210207 97 97 11612743 4
+20210208 10 22 1204939 7
+20210209 13 20 2787749 10
+20210210 105 105 12593794 5
+20210211 106 106 12718781 6
+20210212 4 25 482066 4
+20210213 3 3 355486 3
+20210214 44 98 5321961 11
+20210215 5 5 592862 4
+20210216 30 42 7479799 10
+20210217 25 25 3099990 5
+20210218 7 7 830793 4
+20210219 31 31 3706099 10
+20210220 22 22 2638119 4
+20210221 7 7 871538 5
+20210222 39 39 4655322 7
+20210223 29 40 3551658 7
+20210224 6 6 877267 5
+20210225 27 31 3236199 8
+20210226 17 37 1846508 17
+20210227 3467 3467 571115855 9
+20210228 147 283 7157097 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 8
+15mn-30mn 2
+2mn-5mn 3
+1h+ 2
+30mn-1h 1
+0s-30s 156
+5mn-15mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/index.php 4068 643272086 46 58
+/ 216 20618228 130 118
+END_SIDER

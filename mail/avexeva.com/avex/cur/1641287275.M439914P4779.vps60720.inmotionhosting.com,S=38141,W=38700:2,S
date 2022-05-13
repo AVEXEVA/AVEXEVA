@@ -1,0 +1,559 @@
+Return-Path: <bounce-23_HTML-27336263-55025-100003336-36531@bounce.e.legalzoom.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id 371AGWsO1GGrEgAABSAGJw
+	(envelope-from <bounce-23_HTML-27336263-55025-100003336-36531@bounce.e.legalzoom.com>)
+	for <avex@avexeva.com>; Tue, 04 Jan 2022 04:07:55 -0500
+Return-path: <bounce-23_HTML-27336263-55025-100003336-36531@bounce.e.legalzoom.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 04 Jan 2022 04:07:55 -0500
+Received: from fj49.mta.exacttarget.com ([13.111.58.49]:52293)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <bounce-23_HTML-27336263-55025-100003336-36531@bounce.e.legalzoom.com>)
+	id 1n4fnN-0001EI-UA
+	for avex@avexeva.com; Tue, 04 Jan 2022 04:07:54 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=10dkim1; d=e.legalzoom.com;
+ h=From:To:Subject:Date:List-Help:MIME-Version:Reply-To:List-ID:
+ X-CSA-Complaints:Message-ID:Content-Type; i=services@e.legalzoom.com;
+ bh=6JVZHTjak2PdMSEOEudhaJ9soryF8Gi8pTWX+X2dzzs=;
+ b=UEF/YH34XyaMQtFEbh0Dk/Di7KFYaH/pbN/OlTm5iJzdokgfEKL6EUSyjlfUtJawY3DzlCxWfAP6
+   6dEYr7B/hZ/LtiOJwjqGU7eiJh6xc0PIPK1HEd5jmHr3z60dPo7hPYR/YVi/puamWC1cYwNaK1+2
+   Ew5PfcrdX4ADgeLQ8+0WbNE6iKaf6xOx3nWJQlsII75PY0Y1jD9t3OqWNJabHrCOXCzD5dMQG0Ft
+   6ipuo4tLfJURmzAmxkpJ9Ih6Sh7IzWwpIjysx78SSWhkszotA0q2QjO5jRGxTVQTKi8LoOwii0JI
+   7FyBBaDaZfZcV22t/xKuDin2ptEAjXD6oSnZvg==
+Received: by fj49.mta.exacttarget.com id hqg76i2fmd4q for <avex@avexeva.com>; Tue, 4 Jan 2022 09:07:13 +0000 (envelope-from <bounce-23_HTML-27336263-55025-100003336-36531@bounce.e.legalzoom.com>)
+From: "LegalZoom" <services@e.legalzoom.com>
+To: <avex@avexeva.com>
+Subject: Alert: Your Renewal Order Could Not Be Processed
+Date: Tue, 04 Jan 2022 03:07:13 -0600
+List-Help: <https://click.e.legalzoom.com/subscription_center.aspx?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaWQiOiIxMDAwMDMzMzYiLCJzIjoiMjczMzYyNjMiLCJsaWQiOiIyMyIsImoiOiI1NTAyNSIsImpiIjoiMzY1MzEiLCJkIjoiMTAwMTU5In0.JDO6_o1Q9QdBNsWNiFOHmJxhQMZicT_Afo8QkUIadFE>
+x-CSA-Compliance-Source: SFMC
+MIME-Version: 1.0
+Reply-To: "LegalZoom" <reply-fefe1175756601-23_HTML-27336263-100003336-36531@e.legalzoom.com>
+List-ID: <100002280.xt.local>
+X-CSA-Complaints: csa-complaints@eco.de
+X-SFMC-Stack: 10
+x-job: 100003336_55025
+Message-ID: <fa08dfe3-9b47-480a-910e-d48352462282@dfw1s10mta466.xt.local>
+Content-Type: multipart/alternative;
+	boundary="O3t0DPlns08x=_?:"
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  https://click.e.legalzoom.com/?qs=03ee4b678714aa54ea631df6cc7967d40231768a20b9ebd3144188d2c2679604dfc6c210270b3b6ad3570f82ec4b2fa5cb7acd5184cb5b95
+    https://click.e.legalzoom.com/?qs=436da53ad2716b8dd956e2339356db322977957cce38a23435f9b72ac14d289c62e5c244ce64d4218f70c5eec5cd9ebf09789cff2cb12b75
+    Sign in https://view.e.legalzoom.com/?qs=4ae8e24bc47a [...] 
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: legalzoom.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+--O3t0DPlns08x=_?:
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+
+ 
+https://click.e.legalzoom.com/?qs=03ee4b678714aa54ea631df6cc7967d40231768a20b9ebd3144188d2c2679604dfc6c210270b3b6ad3570f82ec4b2fa5cb7acd5184cb5b95 
+
+
+https://click.e.legalzoom.com/?qs=436da53ad2716b8dd956e2339356db322977957cce38a23435f9b72ac14d289c62e5c244ce64d4218f70c5eec5cd9ebf09789cff2cb12b75 
+Sign in 
+https://view.e.legalzoom.com/?qs=4ae8e24bc47aba0a856a99cf66d63a8d80463a46c73e56ef40202bdd6485833d2f697d2e4e277424754643e7f1314f2536826ea3b58921348a0ca7cab23c1336b86f91efd3ab744c15b53c68b7ba2c6f 
+  |  View online 
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+
+ Hi Peter,
+
+
+
+
+
+
+
+
+Sorry to say we have some bad news&hellip;
+
+
+Your payment for RA Renewal - 1 year (digital SOP 299) could not be processed.
+
+
+Some common reasons are:
+
+	- 
+Expired date
+	- 
+Incorrect billing zip code
+	- 
+Wrong card security code
+	- 
+Invalid account number
+
+To ensure uninterrupted service and avoid default status on your account, please take action promptly.
+
+
+Sign in to 
+https://click.e.legalzoom.com/?qs=739bd915649fe14151ff59f36dbddca74568fc30cecc112ea90d12c3ad33201092ccbcdd57b7a91748630354fc79fbb001da94957ab221f5 
+My Account where you can find more details about your service and update your payment information 24/7, at your convenience.
+
+
+
+
+https://click.e.legalzoom.com/?qs=739bd915649fe14151ff59f36dbddca74568fc30cecc112ea90d12c3ad33201092ccbcdd57b7a91748630354fc79fbb001da94957ab221f5 
+
+
+
+If you have any questions, contact us 
+https://click.e.legalzoom.com/?qs=04628c27fdcb9bfef076384ae5121a8061976f06eaab8e15e86d99ea03aa421bbde60b2399666765ff56dfdadf7954f7f9423a148473aa86 
+online  or email us at 
+mailto:payments@legalzoom.com?subject= 
+payments@legalzoom.com .
+
+
+Best regards,
+
+Your LegalZoom Team
+
+
+
+
+ 
+ 
+
+ 
+https://click.e.legalzoom.com/?qs=00e12be03fb049a10226e1b8bf6a6a16f470f02e16919b66ead38c0d2b7006a461e38a0cffb3c1f80fe6ce1afb966686b60197471872f969 
+
+https://click.e.legalzoom.com/?qs=c4ebb18a01e50c066638d9888bc79eae4595a5dfd8155196ffd2af5870d530ab34087c831d61a868660a487062f3aa7eda3194751c6a1cf3 
+
+https://click.e.legalzoom.com/?qs=b9a40d74da7e1feb2a38a3925131c30de18b3b20881161be773c65b1db7f19f57e4bce9d5286ab13e372bc7b1b152db45ae56474323edaef 
+
+https://click.e.legalzoom.com/?qs=8922253df9a78d6763a30676cb714ebf428485757a18c29d54cf979e86e3a386650a71c477832c09b3600bf774162fefb6c65f9eb8bfb116 
+
+https://click.e.legalzoom.com/?qs=0632e46d94632cf77a73856f798bbab2fdef35a3eb4e20f51e8981f4ef8de30cf321b5afd7883a1f142b9a6292d0a0a6fc48e2f026652da8 
+
+
+
+
+https://click.e.legalzoom.com/?qs=bba95bff8c6fd739f9ba641697bdafbe3f98a144910a6b8290dd11c17bf4c00f484e0a735e68d407e114e621696fd52bd420da6e9e464141 
+Manage My Account 
+
+https://click.e.legalzoom.com/?qs=a46e1964609156e52ab6a485bf44544690cf0485d1a01e3bfc839058ee61b731de40d3ee8259193a48cf4607a8ceb937cfce00b69d8ab59a 
+Explore our services 
+
+
+
+https://click.e.legalzoom.com/?qs=1f5061f4470a7e486b3ba2331c61c0254bf1b6ecfa0bf3913c4382774d9eb9ce9bf5e774735af933fa6d1dd4dc7b8a9e8a5bae5f7c2c8d3c 
+Privacy Policy 
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+LegalZoom provides access to independent attorneys and self-help services at your specific direction. We are not a law firm or a substitute for an attorney or law firm. Prices, features, terms and conditions are subject to change without notice. 
+https://click.e.legalzoom.com/?qs=578fea1f37d1afed6e5c76a743371544483c798bf3f7000fed08c435415d67b72709974b3eb6296c5ba9902f2e541c2d9b09e9f8ca3908ba 
+LegalZoom.com Inc. is located at 9900 Spectrum Drive, Austin, TX 78717.
+
+
+This email was sent to: 
+mailto:avex@avexeva.com?subject= 
+avex@avexeva.com 
+
+
+Please add 
+mailto:services@legalzoom.com?subject= 
+services@e.legalzoom.com to your address book. 
+
+
+(c) 
+https://click.e.legalzoom.com/?qs=578fea1f37d1afed6e5c76a743371544483c798bf3f7000fed08c435415d67b72709974b3eb6296c5ba9902f2e541c2d9b09e9f8ca3908ba 
+LegalZoom.com, Inc. All rights reserved.
+
+
+Please do not reply to this message. This is a service email related to your LegalZoom account.
+
+
+
+ 
+ 
+
+
+
+--O3t0DPlns08x=_?:
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet" type="text/css">
+    <style type="text/css">
+      ReadMsgBody{
+        width: 100%;
+      }
+      .ExternalClass {
+        width: 100%;
+      }
+      .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+        line-height: 100%;
+      }
+      body {
+        -webkit-text-size-adjust:100%;
+        -ms-text-size-adjust:100%;
+        margin:0 !important;
+      }
+      p {
+        margin: 1em 0;
+      }
+      table td {
+        border-collapse: collapse;
+      }
+      img {
+        outline:0;
+      }
+      a img {
+        border:none;
+      }
+      @-ms-viewport{
+        width: device-width;
+      }
+    </style>
+    <style type="text/css">
+      @media only screen and (max-width: 480px) {
+        .container {
+          width: 100% !important;
+        }
+        .footer {
+          width:auto !important;
+          margin-left:0;
+        }
+        .mobile-hidden {
+          display:none !important;
+        }
+        .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        img {
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        .header img{
+          max-width:100% !important;
+          height:auto !important;
+          max-height:auto !important;
+        }
+        .photo img {
+          width:100% !important;
+          max-width:100% !important;
+          height:auto !important;
+        }
+        .drop {
+          display:block !important;
+          width: 100% !important;
+          float:left;
+          clear:both;
+        }
+        .footerlogo {
+          display:block !important;
+          width: 100% !important;
+          padding-top:15px;
+          float:left;
+          clear:both;
+        }
+        .nav4, .nav5, .nav6 {
+          display: none !important;
+        }
+        .tableBlock {
+          width:100% !important;
+        }
+        .responsive-td {
+          width:100% !important;
+          display:block !important;
+          padding:0 !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        /* MOBILE GLOBAL STYLES - DO NOT CHANGE */
+        body, .tb_properties{
+          font-family: 'Open sans', Arial, Helvetica, sans-serif !important;
+          font-size: 16px !important;
+          color: #000000 !important;
+          line-height: 1.5 !important;
+          padding: 0px !important;
+        }
+        .buttonstyles{
+          font-family: 'Open sans', Arial, Helvetica, sans-serif !important;
+          font-size: 16px !important;
+          color: #FFFFFF !important;
+          padding: 10px !important;
+        }
+        h1{
+          font-family: 'Open sans', Arial, Helvetica, sans-serif !important;
+          font-size: 32px !important;
+          font-weight: 800 !important;
+          line-height: 40px !important;
+          letter-spacing: -0.64px !important;
+        }
+        h2{
+          font-family: 'Open sans', Arial, Helvetica, sans-serif !important;
+          font-size: 28px !important;
+          font-weight: 800 !important;
+          line-height: 36px !important;
+          letter-spacing: -0.6px !important;
+        }
+        h3{
+          font-family: 'Open sans', Arial, Helvetica, sans-serif !important;
+          font-size: 24px !important;
+          font-weight: 700 !important;
+          line-height: 36px !important;
+          letter-spacing: -0.6px !important;
+        }
+        a:not(.buttonstyles){
+          line-height: 1.5 !important;
+        }
+        .mobile-hidden{
+          display: none !important;
+        }
+        .responsive-td {
+          width: 100% !important;
+          display: block !important;
+          padding: 0 !important;
+        }
+        /* END OF MOBILE GLOBAL STYLES - DO NOT CHANGE */
+      }
+      @media only screen and (max-width: 640px) {
+        .container {
+          width:100% !important;
+        }
+        .mobile-hidden {
+          display:none !important;
+        }
+        .logo {
+          display:block !important;
+          padding:0 !important;
+        }
+        .photo img {
+          width:100% !important;
+          height:auto !important;
+        }
+        .nav5, .nav6 {
+          display: none !important;
+        }
+        .fluid, .fluid-centered {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+        .fluid-centered {
+          margin-left: auto !important;
+          margin-right: auto !important;
+        }
+      }
+    </style>
+    <!--[if mso]> <style type="text/css"> /* Begin Outlook Font Fix */               body, table, td {                  font-family : Arial, helvetica, sans-serif;                  line-height : 100%;                  font-size : 16px;                  color : #000000;               } /* End Outlook Font Fix */ </style> <![endif]-->
+  </head>
+  <body bgcolor="#FFFFFF" text="#808080" style="margin: 0px; -webkit-text-size-adjust:none;background-color : #FFFFFF; font-family : Arial, helvetica, sans-serif; line-height : 100%; font-size : 16px; color : #000000; padding : 0px; "><style type="text/css">
+div.preheader 
+{ display: none !important; } 
+</style>
+<div class="preheader" style="font-size: 1px; display: none !important;">See details inside for order #71032300.</div>
+    <div style="font-size:0; line-height:0;">
+      <img src="https://click.e.legalzoom.com/open.aspx?ffcb10-fefe1175756601-fe8d11767c64037b74-fe3f15707564047e761776-ff9a1673-fe5f16777667027f7317-fefd1776706705&d=100159&bmt=0" width="1" height="1" alt="">
+        
+        </div>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+        <tr>
+          <td align="center">
+            <table cellspacing="0" cellpadding="0" border="0" width="600" class="container" align="center">
+              <tr>
+                <td>
+                  <table style="background-color : #FFFFFF; border : 0px;font-size : 16px; font-family : Arial, helvetica, sans-serif; line-height : 100%; color : #000000; " class="tb_properties border_style" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF" width="100%">
+                    <tr>
+                      <td align="center" valign="top">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%">
+                          <tr>
+                            <td class="content_padding" style="border:0px;padding : 0px; ">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                <tr>
+                                  <td align="left" class="header" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="slot-styling" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 0px 0px 48px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; border: 0px; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px 12px 0px 7px; " class="slot-styling camarker-inner"><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" style="width: 50%; padding-right: 3px;">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 19px 0px 18px; ">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="left"><a target="_blank" href="https://click.e.legalzoom.com/?qs=f3f61e60d348c849f9c04ba8acc7324358b88004e17ab1bf20d99d74c297ba108b3657f5a48362528b9aaa139868c8bfcfc93ca4a2d0c5b2b5201f7c24716dcb" title="LegalZoom"   data-linkto="https://"><img data-assetid="6775" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Logo_DrkMode_176x31.png" alt="LegalZoom" height="31" width="176" style="display: block; padding: 0px; text-align: left; height: 31px; width: 176px; border: 0px;"></a></td></tr></table></td></tr></table></td></tr></table></td>
+<td valign="top" style="width: 50%; padding-left: 3px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 20px 0px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><div align="right">
+ <b><font color="#656f7a" face="'Open Sans', Arial, Helvetica, Sans-serif" size="3"><span style="font-size:14px;line-height:24px;letter-spacing: 0.2px"><a   data-linkto="https://" href="https://click.e.legalzoom.com/?qs=95a4603e58d3bc513a068cd703c5c5e6a8a6f94eb95949c28953d05f1c7ddbd601d8d07057bfa038a226e86e4cf4d1fef3725d615c2655bbb3dcc6d99aa8afa6" style="color:#000000;text-decoration:none;" target="_blank" title="Sign in">Sign in<!----></a><a  class="mobile-hidden"  data-linkto="other" href="https://view.e.legalzoom.com/?qs=4ae8e24bc47aba0a856a99cf66d63a8d80463a46c73e56ef40202bdd6485833d2f697d2e4e277424754643e7f1314f2536826ea3b58921348a0ca7cab23c1336c9ed28d4a145d629ef0caf0917a3cf83" style="color:#000000;text-decoration:none;" target="_blank" title="View online">&nbsp;&nbsp;|&nbsp;&nbsp;View online<!----></a></span> </font></b></div></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr></table><!----></td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="slot-styling" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 0px 0px 96px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; border: 0px solid transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px 12px; " class="slot-styling camarker-inner"><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 100%; padding-bottom: 3px;"><!---->
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 0px 0px 16px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><p style="color:#000000;font-family: 'Open sans', Arial, Helvetica, sans-serif; font-size:24px;font-style:normal;font-weight:700;line-height:32px; letter-spacing: -.48px; padding:0px!important; margin: 0; padding: 0;">
+ Hi&nbsp;Peter,</p></td></tr></table></td></tr></table>
+
+</td></tr></table><!----></td></tr></table></td></tr><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" class="responsive-td" style="width: 100%; padding-top: 3px;"><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><p style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+	Sorry to say we have some bad news&hellip;<br>
+	<br>
+	Your payment for RA Renewal - 1 year (digital SOP 299) could not be processed.<br>
+	<br>
+	Some common reasons are:</p><ul>
+	<li style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+		Expired date</li><li style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+		Incorrect billing zip code</li><li style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+		Wrong card security code</li><li style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+		Invalid account number</li></ul><p style="color:#000000;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+	To ensure uninterrupted service and avoid default status on your account, <strong>please take action promptly</strong>.<br>
+	<br>
+	Sign in to <b><font color="#0066ff"><font color="#0066ff"><a   data-linkto="https://" href="https://click.e.legalzoom.com/?qs=7ae93ea3793879fd1ef51cb61305f9e2feca9ee0bcf5af46de4ed3dcd138e25e53d44275f41d94de50f5622f181c7f49d944b8646f279e9562bdff74790ffd1e" style="color:#0066FF;text-decoration:none;" target="_blank" title="My Account"><font color="#0066ff">My Account</font></a></font></font></b> where you can find more details about your service and update your payment information 24/7, at your convenience.</p></td></tr></table><!----></td></tr></table></td></tr></table></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr><td class="stylingblock-content-margin-cell" style="padding: 24px 0px; ">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><table width="100%" cellspacing="0" cellpadding="0" role="presentation"><tr><td align="left"><a target="_blank" href="https://click.e.legalzoom.com/?qs=a32ec5e78897bf78e6829b25bb2b1a210258c3f81f0d69a19d9c0d023a9ff4bfe09e5e0ac8c69b1442ce5dedc4749fae293834964124513a718e457e69429f6e" title="Update payment info"   data-linkto="https://">
+<img data-assetid="8177" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/4/IMG_Button_UpdatePaymentInfo.png" alt="Update payment info" height="52" width="248" style="display: block; padding: 0px; text-align: left; height: 52px; width: 248px;"></a></td></tr></table></td></tr></table></td></tr></table><!----><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="min-width: 100%; " class="stylingblock-content-wrapper"><tr><td class="stylingblock-content-wrapper camarker-inner"><p style="color:#000000 ;font-size: 16px; font-family:&quot;Open Sans&quot;,Arial,Helvetica,Sans-serif; font-weight: normal; font-stretch: normal; font-style: normal; line-height: 24px; letter-spacing: 0px;  padding: 0px; margin: 0px;">
+	If you have any questions, contact us <b><a   data-linkto="https://" href="https://click.e.legalzoom.com/?qs=a5dbab028e560813f36caa7c810de946329d44619ca3fe7e66ea8b5b41f57f5dd6ed4ab9f8ffc3fecad105cf567dfb8aaf3661c99125f1ab1604d8bd7cfa6658" style="color:#0066FF;text-decoration:none;" title="Contact us online">online</a></b> or email us at <b><a alias="Text Link: payments@legalzoom.com" conversion="true" data-linkto="mailto:" href="mailto:payments@legalzoom.com?subject=" style="color:#0066FF;text-decoration:none;" title="Email us!">payments@legalzoom.com</a></b>.<br>
+	<br>
+	Best regards,<br>
+	Your LegalZoom Team</p><p>
+</p></td></tr></table><!----></td></tr></table></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; border: 0px; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px; " class="slot-styling camarker-inner"><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #000000; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 48px 12px 24px; " class="stylingblock-content-wrapper camarker-inner"><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" style="width: 100%; padding-bottom: 0px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px 0px 48px; " class="stylingblock-content-wrapper camarker-inner">
+<table class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+  <!-- Line -->
+  <tr>
+    <td>
+      <img src="http://image.e.legalzoom.com/lib/fe4215707564047f771c70/m/1/d1818b80-8428-405f-ba12-d75e8908a3c9.gif" height="1" style="display:block;line-height:50%;margin:0;padding:0;" class="mobile-only-block">
+    </td>
+    <td width="100%" valign="top" align="center" style="text-decoration: none;">
+      <table class="content" align="center" cellpadding="0" cellspacing="0" width="260" border="0">
+        <tr>
+          <td align="center" width="52">
+            <a href="https://click.e.legalzoom.com/?qs=1581b744a0bb21fe16810155e3224fe88cf72740d78e4fa144eb4cf03df1185c7b3a69c89f3f7e1bc1cb217b56d3689e3743bf776801707a" target="_blank" border="0" style="color: transparent!important;"><img style="border:0;" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Social_WhiteFacebookLogo2_36x36.png" width="36" height="36" alt="Facebook"></a>
+          </td>
+          <td align="center" width="52">
+            <a href="https://click.e.legalzoom.com/?qs=d8ea1d3f0b8c4f25033c53b5a5d1b81056ebb9e1bc732069829663a1ee08c79ac0ce0f9cc7d99e0206351b7e9f61ce6528d5f76ecde51e8a" target="_blank" border="0" style="color: transparent!important;"><img src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Social_WhiteTwiterLogo2_36x36.png" style="border:0;" width="36" height="36" alt="Twitter"></a>
+          </td>
+          <td align="center" width="52">
+            <a href="https://click.e.legalzoom.com/?qs=3ec3046f75240bf3e43df67f2d4a64509c2145d30efc3389ece84c12ef2bd30aa2cd3956dbf1444affac5d9a23352e23c73949e5ab1448b1" target="_blank" border="0" style="color: transparent!important;"><img style="border:0;" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Social_WhiteYoutubeLogo3_36x36.png" width="36" height="36" alt="YouTube" title="YouTube"></a>
+          </td>
+          <td align="center" width="52">
+            <a href="https://click.e.legalzoom.com/?qs=afc640e281e002cfb72796380e94f169e5df296cf37760f5db1e579fdf206137de8f29ddbb12777c01128c9e0fbfa09a20dd1e97a6ed420c" target="_blank" border="0" style="color: transparent!important;"><img style="border:0;" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Social_WhiteLinkedinLogo2_36x36.png" width="36" height="36" alt="LinkedIn"></a>
+          </td>
+          <td align="center" width="52">
+            <a href="https://click.e.legalzoom.com/?qs=388ecbbd5aa83027c5368e876eee8c690b36969f2b7ae48b1a8ab23941593066962639cdb40265390e0109781618b6ad18527bd5ffedb4cb" target="_blank" border="0" style="color: transparent!important;"><img style="border:0;" src="https://image.e.legalzoom.com/lib/fe3f15707564047e761776/m/3/Social_WhiteInstagramLogo2_36x36.png" width="36" height="36" alt="Instagram"></a>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <img src="http://image.e.legalzoom.com/lib/fe4215707564047f771c70/m/1/d1818b80-8428-405f-ba12-d75e8908a3c9.gif" height="1" style="display:block;line-height:50%;margin:0;padding:0;" class="mobile-only-block">
+    </td>
+  </tr>
+</table></td></tr></table></td></tr></table></td></tr><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" style="width: 50%; padding-top: 0px; padding-bottom: 0px; padding-right: 0px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; border-top: 2px solid #FFFFFF; border-right: 2px solid #FFFFFF; border-bottom: 0px; border-left: 0px; " class="stylingblock-content-wrapper"><tr><td style="padding: 15px 15px 15px 0px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: right;">
+	<span style="font-family:'Open Sans', Arial, Helvetica, Sans-serif; color:#ffffff;font-size: 14px; font-weight: bold; letter-spacing: 0.1px; line-height: 20px;"><a   data-linkto="https://" href="https://click.e.legalzoom.com/?qs=98056bccdfc67dc87ab458b1daadc9daeab1fdb6e2736533fb77f603a7d8f6f5355ac6429079f0cecd4759c3c5c54ca472d07a1b23c339861f74a418381c4f08" style="color:#ffffff;text-decoration:none;" target="_blank" title="Manage my account">Manage My Account</a></span></div></td></tr></table></td><td valign="top" style="width: 50%; padding-top: 0px; padding-bottom: 0px; padding-left: 0px;">
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; border-top: 2px solid #FFFFFF; border-right: 0px; border-bottom: 0px; border-left: 0px; " class="stylingblock-content-wrapper"><tr><td style="padding: 15px 0px 15px 15px; " class="stylingblock-content-wrapper camarker-inner"><div style="text-align: left;">
+	<span style="font-family:'Open Sans', Arial, Helvetica, Sans-serif; color:#ffffff;font-size: 14px; font-weight: bold; letter-spacing: 0.1px; line-height: 20px;"><a   data-linkto="https://" href="https://click.e.legalzoom.com/?qs=7e32b529f3143bb2e7530b8ce59ba53fe6c94e3b93e348a04b3b61d44a851ac48aca173bd858f09e237e46f45e02316b9fd20fe7eac44c68a55f5db0897d4fce" style="color:#ffffff;text-decoration:none;" target="_blank" title="Explore our services">Explore our services</a></span></div></td></tr></table></td></tr></table></td></tr><tr><td><table cellspacing="0" cellpadding="0" style="width: 100%;"><tr><td valign="top" style="width: 100%; padding-top: 0px;"><table cellpadding="0" cellspacing="0" width="100%" role="presentation" class="stylingblock-content-wrapper" style="min-width: 100%; "><tr>
+<td class="stylingblock-content-margin-cell" style="padding: 48px 0px 0px; "><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner"><span style=" font-size: 12px;   font-weight: bold;   letter-spacing: 0.1px;   line-height: 20px; color: #ffffff; font-family:'Open Sans', Arial, Helvetica, Sans-serif;"><a   data-linkto="http://" href="https://click.e.legalzoom.com/?qs=677ad5c4514d439b0b07eba97d6a168e6284b14e633af5e0c21ba5c59c3d85fc1697ae050c02d7ddf6aad6de0651fd6aa5d22bf2fcc87bd5aa17182b27e5bff7" style="color:#FFFFFF;text-decoration:underline;" target="_blank" title="Privacy Policy">Privacy Policy</a></span></td></tr></table></td></tr></table></td></tr></table></td></tr></table></td></tr>
+</table><!----></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                                
+                                                               <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px; " class="slot-styling camarker-inner"></td></tr></table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td align="left" class="" valign="top">
+                                    <table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: transparent; min-width: 100%; " class="slot-styling"><tr><td style="padding: 0px; " class="slot-styling camarker-inner"><!----><table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #000000; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px 12px 99px; " class="stylingblock-content-wrapper camarker-inner"><div style="line-height: 20px;">
+	<p style="font-family:'Open Sans',Arial,Helvetica,Sans-serif; color:#FFFFFF; font-size:12px;letter-spacing: 0.14px; line-height: 20px;">
+		LegalZoom provides access to independent attorneys and self-help services at your specific direction. We are not a law firm or a substitute for an attorney or law firm. Prices, features, terms and conditions are subject to change without notice. <a   data-linkto="http://" href="https://click.e.legalzoom.com/?qs=99ab5ed732c12ee419042b1fc4e543d456c179aeec422a18a277a88a7544f8c8db8663b602711f287f31e5fa7bd20306c39d6d096a4a156c" style="color:#6f7782;text-decoration:none;" title="LegalZoom.com"><span style="color:#FFFFFF;">LegalZoom.com</span></a> Inc. is located at 9900 Spectrum Drive, Austin, TX 78717.<br>
+		<br>
+		This email was sent to: <font color="#FFFFFF"><a alias="" conversion="false" data-linkto="mailto:" href="mailto:avex@avexeva.com?subject=" style="color:#FFFFFF;text-decoration:none;" title="">avex@avexeva.com</a></font><br>
+		<br>
+		Please add <a alias="services@e.legalzoom.com Text Link" conversion="true" data-linkto="mailto:" href="mailto:services@legalzoom.com?subject=" style="color:#FFFFFF;text-decoration:underline;" title="services@e.legalzoom.com"><b>services@e.legalzoom.com</b></a> to your address book.&nbsp;<br>
+		<br>
+		&copy; <a   data-linkto="http://" href="https://click.e.legalzoom.com/?qs=99ab5ed732c12ee419042b1fc4e543d456c179aeec422a18a277a88a7544f8c8db8663b602711f287f31e5fa7bd20306c39d6d096a4a156c" style="color:#6f7782;text-decoration:none;" title="LegalZoom.com"><span style="color:#FFFFFF;">LegalZoom.com</span></a>, Inc. All rights reserved.<br>
+		<br>
+		Please do not reply to this message. This is a service email related to your LegalZoom account.</p></div></td></tr></table><!----></td></tr></table>
+                                    
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>       
+      </table>
+      </body>
+    </html>
+
+--O3t0DPlns08x=_?:--
+

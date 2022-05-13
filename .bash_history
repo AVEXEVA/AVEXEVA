@@ -54,3 +54,19 @@ ls
 git branch
 #1609655015
 git add .
+#1640719269
+csf -status_of 72.89.221.100
+#1640719277
+iptables -status_of 72.89.221.100
+#1640719284
+iptables -status_of_ 72.89.221.100
+#1640719304
+iptables -status_of_ -portX
+#1640719319
+iptables -L -n
+#1640719324
+sudo iptables -L -n
+#1640719341
+sudo iptables -L -n
+#1640719388
+sudo iptables -L -n

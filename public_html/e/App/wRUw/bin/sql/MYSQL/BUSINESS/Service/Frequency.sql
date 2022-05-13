@@ -1,0 +1,4 @@
+CREATE TABLE Service_Frequency (
+  ID INT NOT NULL AUTO_INCREMENT,
+  CONSTRAINT FK_Service_Frequency_ID PRIMARY KEY (ID)
+);

@@ -1,0 +1,192 @@
+Return-Path: <scyoojme@goldengrove.sa.edu.au>
+Delivered-To: avex+spam@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id WncKH+kZymC4bAAABSAGJw
+	(envelope-from <scyoojme@goldengrove.sa.edu.au>)
+	for <avex+spam@avexeva.com>; Wed, 16 Jun 2021 11:34:01 -0400
+Return-path: <scyoojme@goldengrove.sa.edu.au>
+Envelope-to: info@avexeva.com
+Delivery-date: Wed, 16 Jun 2021 11:34:01 -0400
+Received: from mail-sy4aus01on2110.outbound.protection.outlook.com ([40.107.107.110]:44910 helo=AUS01-SY4-obe.outbound.protection.outlook.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <scyoojme@goldengrove.sa.edu.au>)
+	id 1ltXYD-0007EU-Um
+	for info@avexeva.com; Wed, 16 Jun 2021 11:33:59 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=XxmbC0lY905h3GDNQh4f3NR6hhmsqTjGvR4XjZ6XcSQDPmqLCEeNv9vlcI2mD9YwXX2nrNilIGIq6VmVcQpl+bJuXH4Y5VKujP8wLWq+5Mhmdpm41slqCvCLkywv2iUaMNZuoJkmeuc5Xnrs9fA1KD1+Qxcf4VG6EPNoeRVlMU2AefCe0ZJxCrgsiDyMkUwv3Lr/9bAFo0lV+nRELyof8g7rmL7qar64PP84l7GDf5hKNcKHhg5wgkhO/kqXiAJUCL9cLO+85LbU/pg5ucIPfy0dSlRcJid8eU760rvcOvv1X+9DNz1T/6NHdOJwTqEfTBjrpavNtSmLIyWM8a4Xvw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=h4i4wTADxbmHaZlyx2HuaRFpFxj+SV+e49tv17QsubA=;
+ b=ZdwTgTLnFI3jnzeK5aoK2lTLyg253iP+ViQ65ZntAHlNYfLMsHIDFeV2CrIl53dry7v4LgYYi/k6OZApWrUu0WX9Q24Z0h9surC0aAWFMg09NfaKC3iKCM3IskyCMk00DHIr04pTjk3Pj0oRxcg220T7vDXWCOCdrJuc14KwFE8/HNP1m04sBIKK8zzcz4bjR9j3w5BjQK6Zru6rbM5LE+4Q7r7bKZlfuttmIp7nF6KDC13utMVBjEWgsbJtoP8ew+ZBSzyb6KUZ/hMAzviS9wxkfze8PmL57hIe1FfWhxYpzRvDCjyIefphNiTIZ2CfYF3TrV9mPyBIIc0MyB6V7A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass (sender ip is
+ 110.175.115.70) smtp.rcpttodomain=avexeva.com
+ smtp.mailfrom=goldengrove.sa.edu.au; dmarc=bestguesspass action=none
+ header.from=goldengrove.sa.edu.au; dkim=none (message not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=goldengrovesaeduau.onmicrosoft.com;
+ s=selector2-goldengrovesaeduau-onmicrosoft-com;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=h4i4wTADxbmHaZlyx2HuaRFpFxj+SV+e49tv17QsubA=;
+ b=IGBGanJhYaP3mg6NDvNNRdoAWnaJ8+qGV444LL76ijzMHxeuvbWBdsVulQElEbyePdPzDIWOAIuEiEen2ES03c0y4jFjx+uyOQxSh9S4V1F9ozns/yK/bBmgfXStQ9bOLA5kzt1f83eX8VtfIKvLz4BkekpfyAMEu1GmaYXtUQg=
+Received: from ME3P282CA0034.AUSP282.PROD.OUTLOOK.COM (2603:10c6:220:f0::21)
+ by SYCPR01MB5181.ausprd01.prod.outlook.com (2603:10c6:10:89::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4219.24; Wed, 16 Jun
+ 2021 15:33:14 +0000
+Received: from ME3AUS01FT014.eop-AUS01.prod.protection.outlook.com
+ (2603:10c6:220:f0:cafe::af) by ME3P282CA0034.outlook.office365.com
+ (2603:10c6:220:f0::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4242.16 via Frontend
+ Transport; Wed, 16 Jun 2021 15:33:14 +0000
+X-MS-Exchange-Authentication-Results: spf=pass (sender IP is 110.175.115.70)
+ smtp.mailfrom=goldengrove.sa.edu.au; avexeva.com; dkim=none (message not
+ signed) header.d=none;avexeva.com; dmarc=bestguesspass action=none
+ header.from=goldengrove.sa.edu.au;
+Received-SPF: Pass (protection.outlook.com: domain of goldengrove.sa.edu.au
+ designates 110.175.115.70 as permitted sender)
+ receiver=protection.outlook.com; client-ip=110.175.115.70;
+ helo=mail.goldengrove.sa.edu.au;
+Received: from mail.goldengrove.sa.edu.au (110.175.115.70) by
+ ME3AUS01FT014.mail.protection.outlook.com (10.114.155.155) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.4242.16 via Frontend Transport; Wed, 16 Jun 2021 15:33:13 +0000
+Received: from VOYAGER.gglps.local (10.14.194.30) by VOYAGER.gglps.local
+ (10.14.194.30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.2176.2; Thu, 17
+ Jun 2021 01:02:57 +0930
+Received: from mail.goldengrove.sa.edu.au (10.14.192.1) by VOYAGER.gglps.local
+ (10.14.194.30) with Microsoft SMTP Server id 15.1.2176.2 via Frontend
+ Transport; Thu, 17 Jun 2021 01:02:56 +0930
+From: BOOM OF SALES <scyoojme@goldengrove.sa.edu.au>
+To: <info@avexeva.com>
+Reply-To: <contactardados@gmail.com>
+Date: Wed, 16 Jun 2021 17:33:01 +0200
+Message-ID: <e1ad8af1-2995-43cb-a172-e4e1452a0fd6@VOYAGER.gglps.local>
+MIME-Version: 1.0
+Content-Type: text/plain
+Received-SPF: None (VOYAGER.gglps.local: scyoojme@goldengrove.sa.edu.au does
+ not designate permitted sender hosts)
+X-EOPAttributedMessage: 0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 55c927c3-b712-4255-af24-08d930dc0e1f
+X-MS-TrafficTypeDiagnostic: SYCPR01MB5181:
+X-Microsoft-Antispam-PRVS:
+	<SYCPR01MB518154284A0282DAA222279DCF0F9@SYCPR01MB5181.ausprd01.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:3968;
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	s0yZiZrwBvmefBnng/PW0Wu31pjKTWaDftEVh1j7ioDKB5np0b9n6wyAzB3vj4WdCtuK3wmEm6RVUNECRDD1a94UWE+TDbOQOu/LdE47Ey4IZbl+TSCF4dLwsFeAVHd2zcoxSG1cKB1NXa2sBWnkrUMeYYR753Xo/ci7VOiNHPftBRXhDbxtOKgKXkJoIzj4qU9fQ85KaLuAwUNrU+Rf+5jfaWvv9a6A1fzI5j2eOuiINKvtbYMB8iUne/c6HY3K475XqHfqMi6UwBc0rZLldtu8caOgBMhXkjzG2Pz6EVLAIpHmm98u8TyfmkFb7Jk3TbVtXylPmFzrrRK/2k4h7UTLyxlJADGO5Qjh5mLs63/MrcPWzjDfmL5P9SO4Rd2NhCL6zOpp9nMZxV8e0bVtPg1+9dD/UKOrNw51geVAd0NHxPfdM1go+IuvSTIgl8RLjZlLMNkMq5zWFHYOV22LnzKHAQDNu7oXgdBCJOyAYl85cvCb2pWohlCXL9y1Xqvw3/787lhiSj7dqnxWzsVSNr84fz83WkoEFoFFJRmE+fATuGxPuBJZikc4jS5Nb1Zo1/YKkhHLJ2XO2w3RecIRSHo6bs8Y+UlIVWgApJeR4kh2IWfKIo29voNQCP2NVx/Co53YIYVqs+14vcTR/ICyNpNeyf1XCUI4oTkE9S+iUgpW2FfwWJGc9/4fjfNxCWLp
+X-Forefront-Antispam-Report:
+	CIP:110.175.115.70;CTRY:AU;LANG:en;SCL:1;SRV:;IPV:CAL;SFV:NSPM;H:mail.goldengrove.sa.edu.au;PTR:110-175-115-70.tpgi.com.au;CAT:NONE;SFS:(4636009)(396003)(376002)(39860400002)(346002)(136003)(46966006)(36840700001)(5660300002)(26005)(36860700001)(8676002)(83380400001)(47076005)(6666004)(31686004)(6916009)(186003)(478600001)(2860700004)(36906005)(82740400003)(2906002)(86362001)(82310400003)(8936002)(316002)(336012)(81166007)(356005)(786003)(70586007)(70206006)(9686003)(31696002)(73850200001);DIR:OUT;SFP:1102;
+X-OriginatorOrg: goldengrove.sa.edu.au
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 16 Jun 2021 15:33:13.7181
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 55c927c3-b712-4255-af24-08d930dc0e1f
+X-MS-Exchange-CrossTenant-Id: 64181593-c24a-4690-98ac-7ca4783fbe1e
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=64181593-c24a-4690-98ac-7ca4783fbe1e;Ip=[110.175.115.70];Helo=[mail.goldengrove.sa.edu.au]
+X-MS-Exchange-CrossTenant-AuthSource:
+	ME3AUS01FT014.eop-AUS01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: SYCPR01MB5181
+X-Spam-Status: Yes, score=16.0
+X-Spam-Score: 160
+X-Spam-Bar: ++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has identified this incoming email as possible spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Advertise up to 200 MILLION EMAILS WITH THE LOWEST PRICE!
+   Immediate BOOM OF SALES! TALK TO US on WhatsApp: +55 22 99788 1694 You can
+    advertise all over the world, or you can choose the countries and areas of
+    your interest. The greatest advertisement in the whole world, and you can
+    watch the results ONLINE in real time, with [...] 
+ Content analysis details:   (16.0 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: goldengrovesaeduau.onmicrosoft.com]
+  0.1 LOW_PRICE              BODY: Lowest Price
+  0.9 NA_DOLLARS             BODY: Talks about a million North American dollars
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  1.0 PP_MIME_FAKE_ASCII_TEXT BODY: MIME text/plain claims to be ASCII
+                              but isn't
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  2.0 PYZOR_CHECK            Listed in Pyzor
+                             (https://pyzor.readthedocs.io/en/latest/)
+  0.8 KAM_ASCII_DIVIDERS     Spam that uses ascii formatting tricks
+  1.0 CTE_8BIT_MISMATCH      Header says 7bits but body disagrees
+  0.1 DKIM_INVALID           DKIM or DK signature exists, but is not valid
+  2.4 FSL_BULK_SIG           Bulk signature with no Unsubscribe
+  2.1 BIGNUM_EMAILS_FREEM    Lots of email addresses/leads, free email
+                             account
+  3.0 BIGNUM_EMAILS_MANY     Lots of email addresses/leads, over and over
+  2.5 FREEMAIL_FORGED_REPLYTO Freemail in Reply-To, but not From
+X-Spam-Flag: YES
+Subject:  ***SPAM***  Advertise up to 200 MILLION EMAILS
+
+
+Advertise up to 200 MILLION EMAILS WITH THE LOWEST PRICE! Immediate BOOM OF SALES!
+
+TALK TO US on WhatsApp: +55 22 99788 1694
+
+You can advertise all over the world, or you can choose the countries and areas of your interest.
+The greatest advertisement in the whole world, and you can watch the results ONLINE in real time, with our Exclusive Online Panel !
+
+See the details:
+
+- We do all the work for you.
+- We send your ad up to 200 million emails.
+- You can choose the areas of your best interest to direct the email sending.
+- Your can watch online all the results in real time.
+- If you don´t have the ad ready, we can create it for you at no extra cost.
+
+To start your BOOM OF SALES, answer this email with the information below:
+
+----------------------------------------------------
+Name:
+Email:
+WhatsApp:
+Choose the best option for you below:
+
+(  ) US$ 99 - Advertise to 1 MILLION EMAILS
+(  ) US$ 150 - Advertise to 5 MILLION EMAILS
+(  ) US$ 200 - Advertise to 25 MILLION EMAILS
+(  ) US$ 300 - Advertise to 50 MILLION EMAILS
+(  ) US$ 500 - Advertise to 100 MILLION EMAILS
+(  ) US$ 750 - Advertise to 200 MILLION EMAILS
+-----------------------------------------------------
+
+Or talk to us:
+
+WhatsApp:
++55 22 99788 1694
+
+Skype:
+corbettsoftware
+
+----------------------------------------------------------------------------------
+
+Best regards,
+
+BOOM OF SALES
+
+
+C O R B E T T
+ S I N C E 1 9 9 8
+
+WhatsApp:
++55 22 99788 1694
+
+Skype:
+corbettsoftware

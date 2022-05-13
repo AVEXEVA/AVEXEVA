@@ -1,0 +1,43 @@
+CREATE TABLE Chain_of_Command (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Owner INT NOT NULL,
+  Location INT NOT NULL
+);
+CREATE TABLE Chain_of_Consultancy (
+  Chain_of_Command INT NOT NULL AUTO_INCREMENT,
+  Consultant INT NOT NULL,
+  Department INT NOT NULL
+);
+CREATE TABLE Subject (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  CONSTRAINT PK_Subject_ID PRIMARY KEY (ID)
+);
+CREATE TABLE Audio (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Data BIGBLOB,
+  CONSTRAINT PK_Audio_ID PRIMARY KEY (ID)
+);
+CREATE TABLE Complex (
+  ID INT NOT NULL,
+  Entity INT,
+  CONSTRAINT PK_Complex_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Complex_Entity FOREIGN KEY (Entity) REFERENCES Entity(ID)
+);
+CREATE TABLE Game (
+  ID INT NOT NULL,
+  Name VARCHAR(256),
+  Description TEXT,
+);
+CREATE TABLE Board_Game (
+  ID INT NOT NULL,
+  Game INT NOT NULL,
+  CONSTRAINT PK_Board_Game_ID PRIMARY KEY (ID)
+  CONSTRIANT FK_Board_Game_Game FOREIGN KEY (Game) REFERENCES Game(ID)
+);
+CREATE TABLE Following (
+  Leader INT NOT NULL,
+  Follower INT NOT NULL,
+  CONSTRAINT FK_Following_Leader FOREIGN KEY (Leader) REFERENCES Person(ID),
+  CONSTRAINT FK_Following_Follower FOREIGN KEY (Follower) REFERENCES Person(ID)
+);

@@ -1,0 +1,802 @@
+Return-Path: <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id 9VrbF9vC1GHLZgAABSAGJw
+	(envelope-from <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>)
+	for <avex@avexeva.com>; Tue, 04 Jan 2022 16:57:47 -0500
+Return-path: <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 04 Jan 2022 16:57:47 -0500
+Received: from o2.sg.zoom.us ([149.72.196.70]:26630)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <bounces+15570388-8fc8-avex=avexeva.com@bounce-sg.zoom.us>)
+	id 1n4roQ-0006pY-O8
+	for avex@avexeva.com; Tue, 04 Jan 2022 16:57:47 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=zoom.us;
+	h=content-transfer-encoding:content-type:from:mime-version:subject:to;
+	s=sg; bh=W3Ppvvt4MUSWerVQxrzAhFyw7+wZ4isHpMKHvpOD39U=;
+	b=YLp7HE85UG02cp+8kuZW8t4aXr40auiB4bpFJx8Dz1tWdA3g418lkud0iozRoKDmRuBj
+	Gu0727fbHGmhXKYFZfqMMIVdsMXUzIEewTtvRQeYyEyaaxIYjXjpqukIRAwTjGU5cRvZ8q
+	RenOEDCj0TJSPXiffH9gDJuNkOnn8NvD/lpbQP2zLuTAWlp7W1hMjil4sDFAs41wUkBErR
+	UNhrfWUaa4lo5GXHHZgHACmYjglX5xtGJ8TF50WaMfjFYPo90l7wqUuz7yYWUVrK6bTctO
+	g3TuhxuUZEuuYcq8vmQOfCf+D2+CkVPo3YNXpy6Lp2+IbZMFV6Ai2bBoA3BwIQiw==
+Received: by filterdrecv-7495dc4f9-jl8kh with SMTP id filterdrecv-7495dc4f9-jl8kh-1-61D4C2B1-30
+        2022-01-04 21:57:05.845500813 +0000 UTC m=+10798608.040261015
+Received: from MTU1NzAzODg (unknown)
+	by ismtpd0195p1mdw1.sendgrid.net (SG)
+	with HTTP
+	id 5l-grp7fQS-n9g6qbsX7kA
+	Tue, 04 Jan 2022 21:57:05.775 +0000 (UTC)
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=utf-8
+Date: Tue, 04 Jan 2022 21:57:05 +0000 (UTC)
+From: Zoom <no-reply@zoom.us>
+Mime-Version: 1.0
+Message-ID: <5l-grp7fQS-n9g6qbsX7kA@ismtpd0195p1mdw1.sendgrid.net>
+Subject: Please activate your Zoom account
+X-SG-EID: 
+ =?us-ascii?Q?KDPpbW8pFa435o7hjkPt95uEztMiNTszLxSdUw1PsB2OCAYeZjlfYbzMeTGtUm?=
+ =?us-ascii?Q?DNcqHigFfAeRgVNGbhqjtkie2VTDRpze1WUOTZL?=
+ =?us-ascii?Q?IDmc=2FwpoTHORBazafXImkaeiY81IGR98RpFMf0N?=
+ =?us-ascii?Q?NA5VQlFH5fMOYVxJydEcEjz6Asq58qYVvXWqkzf?=
+ =?us-ascii?Q?MHecqnV=2FKMCmG5MnZYkRFQkuyEDpGgjj1fVmMXO?=
+ =?us-ascii?Q?mjXBRiuAnseI4ENRI=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?N2C25iY2uzGMFz6rgvQsb=2FSBcqs0mURQZLe88XjkHZnPJc9dG3N23NDVHi1xUf?=
+ =?us-ascii?Q?3m8d0SLONwhnVuhFX4itYknIId51+nJHjwqC0Ns?=
+ =?us-ascii?Q?bu+OIy+Y8cyXuRJn0aoqG9vewgZQLfYgAjGGpfX?=
+ =?us-ascii?Q?2d8WaqtF94KQ2mAxEyzjVxnS0ni+Jbi6zgQe6yT?=
+ =?us-ascii?Q?i94owKJqYHzd5N3jyyc9omVNG7jww42qZJhIFf1?=
+ =?us-ascii?Q?vGNx1IWa7gE=2FMCYXlnCHb=2FPJinDFlBWAARMCwxt?=
+ =?us-ascii?Q?hUE9CVpOlepvB7uo5tEMVhYJlnrKVtHjfpnz9kf?=
+ =?us-ascii?Q?fHHKNEm30TONWDOaQJLprONXjbBTqQHikpcDkVH?=
+ =?us-ascii?Q?TNYZOCFAeApkSYEgoiE37qAAfVjTqfkwKrKtNEH?=
+ =?us-ascii?Q?xDrq8l+MCaWaurotULfPSkq+9n1sXeUD9lUPZUp?=
+ =?us-ascii?Q?uS4s=2FqbU3TH4liG1H7MPwIQFOgd416Wg3SNyyGH?=
+ =?us-ascii?Q?DuODpFbgvvrpK4YU8Hr7irsT+ukIxznY7Gy5O81?=
+ =?us-ascii?Q?93+6UNyBXv8wz8dvon=2F5VtmjHL8jN3J34W5b+MG?=
+ =?us-ascii?Q?0gqA=3D=3D?=
+To: avex@avexeva.com
+X-Entity-ID: mDhfxq9OikvIkQieTwdfQA==
+X-Spam-Status: No, score=0.7
+X-Spam-Score: 7
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  To activate your account, please click on the button below
+    to verify your email address. Welcome to Zoom, avex@avexeva.com! To activate
+    your account, please click on the button below to verify your email address.
+    Once activated, you’ll have full access to Zoom Meetings & Chat. Activate
+    [...] 
+ Content analysis details:   (0.7 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: zoom.us]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 UNPARSEABLE_RELAY      Informational: message has unparseable relay
+                             lines
+  0.8 KAM_INFOUSMEBIZ        Prevalent use of
+                             .info|.us|.me|.me.uk|.biz|xyz|id|rocks|life
+                              domains in spam/malware
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+X-Spam-Flag: NO
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1">
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge" />
+    <style type=3D"text/css">
+        /* FONTS */
+        @media screen {
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Lato Light'), local('Lato-Light'), url(https://=
+fonts.gstatic.com/s/lato/v13/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.wo=
+ff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 300;
+                src: local('Lato Light'), local('Lato-Light'), url(https://=
+fonts.gstatic.com/s/lato/v13/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Lato Regular'), local('Lato-Regular'), url(http=
+s://fonts.gstatic.com/s/lato/v13/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff=
+2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Lato Regular'), local('Lato-Regular'), url(http=
+s://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff=
+2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Lato Bold'), local('Lato-Bold'), url(https://fo=
+nts.gstatic.com/s/lato/v13/ObQr5XYcoH0WBoUxiaYK3_Y6323mHUZFJMgTvxaG2iE.woff=
+2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 700;
+                src: local('Lato Bold'), local('Lato-Bold'), url(https://fo=
+nts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                src: local('Lato Black'), local('Lato-Black'), url(https://=
+fonts.gstatic.com/s/lato/v13/R4a6fty3waPci7C44H8AjvY6323mHUZFJMgTvxaG2iE.wo=
+ff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: normal;
+                font-weight: 900;
+                src: local('Lato Black'), local('Lato-Black'), url(https://=
+fonts.gstatic.com/s/lato/v13/tI4j516nok_GrVf4dhunkg.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 300;
+                src: local('Lato Light Italic'), local('Lato-LightItalic'),=
+ url(https://fonts.gstatic.com/s/lato/v13/XNVd6tsqi9wmKNvnh5HNEBJtnKITppOI_=
+IvcXXDNrsc.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 300;
+                src: local('Lato Light Italic'), local('Lato-LightItalic'),=
+ url(https://fonts.gstatic.com/s/lato/v13/2HG_tEPiQ4Z6795cGfdivFtXRa8TVwTIC=
+girnJhmVJw.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 400;
+                src: local('Lato Italic'), local('Lato-Italic'), url(https:=
+//fonts.gstatic.com/s/lato/v13/YMOYVM-eg6Qs9YzV9OSqZfesZW2xOQ-xsNqO47m55DA.=
+woff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 400;
+                src: local('Lato Italic'), local('Lato-Italic'), url(https:=
+//fonts.gstatic.com/s/lato/v13/PLygLKRVCQnA5fhu3qk5fQ.woff2) format('woff2'=
+);
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 700;
+                src: local('Lato Bold Italic'), local('Lato-BoldItalic'), u=
+rl(https://fonts.gstatic.com/s/lato/v13/AcvTq8Q0lyKKNxRlL28RnxJtnKITppOI_Iv=
+cXXDNrsc.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Lato';
+                font-style: italic;
+                font-weight: 700;
+                src: local('Lato Bold Italic'), local('Lato-BoldItalic'), u=
+rl(https://fonts.gstatic.com/s/lato/v13/HkF_qI1x_noxlxhrhMQYEFtXRa8TVwTICgi=
+rnJhmVJw.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+
+            @font-face {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Playfair Display'), local('PlayfairDisplay-Regu=
+lar'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr=
+9bm1CUR-13DsDU150T1bKbJZejI.woff2) format('woff2');
+                unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+211=
+6;
+            }
+            @font-face {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Playfair Display'), local('PlayfairDisplay-Regu=
+lar'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr=
+9bm1CfoVn-aGdXvQRwgLLg-TkDk.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20A=
+D-20CF, U+2C60-2C7F, U+A720-A7FF;
+            }
+            @font-face {
+                font-family: 'Playfair Display';
+                font-style: normal;
+                font-weight: 400;
+                src: local('Playfair Display'), local('PlayfairDisplay-Regu=
+lar'), url(https://fonts.gstatic.com/s/playfairdisplay/v10/2NBgzUtEeyB-Xtpr=
+9bm1Cdhy5e3cTyNKTHXrP9DO-Rc.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+=
+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+            }
+        }
+        /* CLIENT-SPECIFIC STYLES */
+        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-=
+adjust: 100%; }
+        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+        img { -ms-interpolation-mode: bicubic; }
+        /* RESET STYLES */
+        img { border: 0; height: auto; line-height: 100%; outline: none; te=
+xt-decoration: none; }
+        table { border-collapse: collapse !important; }
+        body { height: 100% !important; margin: 0 !important; padding: 0 !i=
+mportant; width: 100% !important; }
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+        .em_preheader a {
+            color:#9da0b1;
+            text-decoration:none;
+        }
+        .em_header a {
+            color:#76798a;
+            text-decoration:none;
+        }
+        .em_blk a {
+            color:#333333;
+            text-decoration:none;
+        }
+        .em_blk2 a {
+            color:#000000;
+            text-decoration:none;
+        }
+        .em_dkgray a {
+            color:#414155;
+            text-decoration:none;
+        }
+        .em_mdgray a {
+            color:#747487;
+            text-decoration:none;
+        }
+        .em_grayfooter a {
+            color:#828282;
+            text-decoration:none;
+        }
+        .em_red a {
+            color:#dd2b0d;
+            text-decoration:none;
+        }
+        .em_blue a {
+            color:#0E72ED;
+            text-decoration:none;
+        }
+        .em_wht a {
+            color:#ffffff;
+            text-decoration:none;
+        }
+        @media screen and (min-width: 601px) {
+            .container {
+                width: 600px !important;
+            }
+        }
+        /* MOBILE STYLES */
+        @media screen and (max-width:600px){
+            .em_wrapper {
+                width:100% !important;
+            }
+            .em_pad {
+                padding:40px 15px 40px 15px !important;
+            }
+            .em_p15 {
+                padding-bottom:15px !important;
+            }
+            .em_p25 {
+                padding-bottom:25px !important;
+            }
+            .em_p40 {
+                padding-bottom:40px !important;
+            }
+            .em_pad_1 {
+                padding: 0px 15px 10px 15px !important;
+            }
+            .em_pad_2 {
+                padding: 0px 15px 40px 15px !important
+            }
+            .em_brk {
+                display:block !important;
+            }
+            .em_hide {
+                display:none !important;
+            }
+            .em_center {
+                text-align:center !important;
+            }
+            .BodyCopy {
+                font-size: 16px !important;
+                line-height: 24px !important;
+            }
+
+
+            /* BR STYLES */
+
+            .em_d20 {
+                height: 20px;
+            }
+
+            .em_d40 {
+                height: 40px;
+            }
+
+            .img-max {
+                width: 100% !important;
+                max-width: 100% !important;
+                height: auto !important;
+            }
+
+            .mobile-first {display: table-header-group !important;}
+            .mobile-intermediate {display: table-row !important;}
+            .mobile-last {display: table-footer-group !important;}
+
+            .mobile-center {
+                display: table !important;
+                float: none;
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            .mobile-full-width {
+                display: table;
+                width: 100%;
+            }
+
+            .mobile-cta {
+                padding: 20px 25px !important;
+                font-size:14px !important;
+            }
+            .mobile-padding {
+                padding-left: 5px !important;
+                padding-right: 5px !important;
+            }
+
+        }
+        /* ANDROID CENTER FIX */
+        div[style*=3D"margin: 14px 0;"] { margin: 0 !important; }
+    </style>
+</head>
+<body style=3D"background-color: #EEEEEE; margin: 0 !important; padding: 0 =
+!important;">
+<!-- Preheader -->
+<div style=3D"display: none; font-size: 1px; color: #EEEEEE; line-height: 1=
+px; font-family: Lato, Helvetica, Helvetica, sans-serif; max-height: 0px; m=
+ax-width: 0px; opacity: 0; overflow: hidden;">To activate your account, ple=
+ase click on the button below to verify your email address.</div>
+
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%">
+    <tbody>
+    <tr>
+        <td align=3D"center" valign=3D"top"><!--[if (gte mso 9)|(IE)]>
+            <table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" width=3D"600">
+                <tr>
+                    <td align=3D"center" valign=3D"top" width=3D"600">
+            <![endif]-->
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" class=3D"container" style=3D"max-width:600px;" width=3D"100%"><!-=
+- Navigation -->
+                <tbody>
+                <tr>
+                    <td align=3D"center" valign=3D"top"><!--[if (gte mso 9)=
+|(IE)]>
+                        <table align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"600">
+                            <tr>
+                                <td align=3D"center" valign=3D"top" width=
+=3D"600">
+                        <![endif]-->
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"left" bgcolor=3D"#FFFFFF" styl=
+e=3D"font-size:0; padding-top:0px;" valign=3D"top" class=3D""><!--[if (gte =
+mso 9)|(IE)]>
+                                    <table align=3D"center" border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" width=3D"600">
+                                        <tr>
+                                            <td align=3D"left" valign=3D"to=
+p" width=3D"600">
+                                    <![endif]-->
+                                    <div style=3D"display:inline-block; max=
+-width:600px; vertical-align:top; width:100%;">
+                                        <table align=3D"left" bgcolor=3D"#2=
+d8cff" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                            <tbody>
+                                            <tr style=3D"background:#2d8cff=
+;">
+                                                <td align=3D"left" style=3D=
+"padding: 20px 30px" valign=3D"middle" class=3D""><a href=3D"https://zoom.u=
+s/?zcid=3D1640" style=3D"text-decoration:none;" target=3D"_blank"><img alt=
+=3D"Zoom Logo" border=3D"0" src=3D"https://click.zoom.us/l/84442/2020-05-20=
+/blf6y3/84442/140394/zoom_logo_white.png" style=3D"display:block; font-fami=
+ly:'Lato', Helvetica, sans-serif; font-size:18px; line-height:22px; color:#=
+76798a; font-weight:bold; width:100%; max-width: 100px" width=3D"100"> </a>=
+</td>
+                                                <td align=3D"right" style=
+=3D"padding: 20px 30px" valign=3D"top" class=3D""><a href=3D"https://zoom.u=
+s/signin?zcid=3D1640" style=3D"text-decoration:none;" target=3D"_blank"><im=
+g alt=3D"Sign In" src=3D"https://click.zoom.us/l/84442/2020-05-18/bldcsk/84=
+442/140388/sign_in_button_accessible.png" style=3D"max-width: 125px; width:=
+100%" width=3D"125"></a></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]--></td>
+                </tr>
+                <!-- HEADER -->
+                <tr>
+                    <td align=3D"center" bgcolor=3D"#FFFFFF" valign=3D"top"=
+>
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td style=3D"padding:40px 30px 10px; font-f=
+amily:'Lato', Helvetica, sans-serif; font-size:38px; line-height:42px; colo=
+r:#232333; font-weight:900; text-align: center; display: block; letter-spac=
+ing: 0.01em;" class=3D"mobile-padding">Welcome to Zoom, <br>avex@avexeva.co=
+m!</td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" style=3D"padding: 0px =
+30px 30px 30px; display: block;" valign=3D"top" class=3D"mobile-padding"><i=
+mg src=3D"https://click.zoom.us/l/84442/2020-05-20/blf6y1/84442/140392/titl=
+e_marker_40x8.png" style=3D"width:100%; max-width: 40px" width=3D"40"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </td>
+                </tr>
+                <!--END HEADER--><!-- Body -->
+                <tr>
+                    <td class=3D"mobile-padding" align=3D"center" bgcolor=
+=3D"#ffffff" style=3D"padding:0px 30px 60px 30px;" valign=3D"top">
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" class=3D"BodyCopy" sty=
+le=3D"padding-bottom: 60px; font-family:'Lato', Helvetica, sans-serif; font=
+-size:16px; line-height:24px; color:#FFFFFF; font-weight:400; color:#747487=
+; letter-spacing: .01em; text-align: center;"><div style=3D"max-width:470px=
+; margin:0 auto;">To activate your account, please click on the button belo=
+w to verify your email address. Once activated, you=E2=80=99ll have full ac=
+cess to Zoom Meetings &amp; Chat.</div></td>
+                            </tr>
+                            <!-- CTA -->
+                            <tr>
+                                <td align=3D"center" style=3D"padding-botto=
+m: 30px" valign=3D"top">
+                                    <table bgcolor=3D"#FF5F0F" style=3D"bor=
+der-radius:3px; border-spacing:0; margin:0 auto">
+                                        <tbody>
+                                        <tr style=3D"background:#FF5F0F;">
+                                            <td class=3D"mobile-cta" style=
+=3D"border: 0 solid #FF5F0F;  display: inline-block; padding: 20px 45px; te=
+xt-align: center; font-family:'Lato', Helvetica, sans-serif; font-size:15px=
+; line-height:24px; color:#FFFFFF; font-weight:900; text-decoration: none; =
+text-transform: uppercase; letter-spacing: .2em">
+                                                <a href=3D"https://zoom.us/=
+activate?code=3DeDAEH5NDQcykv5bbSV82nB9BqyvosfVKEUV35-Szeug.AG.B55Da-1lNYqZ=
+00SThiUtWMINGJxCkzipRDPogyyvHowql7-XpTL-Bf11gOsRs44yYYzvTDFZSXRZO58TSWv20sM=
+LsYoHjRSOtNyCBmSAmbtPoJkibvxv_2tmtQnIUa9tl6nhQVykQnas9G5Nva_cxaZHMgINPg.DFf=
+iPwMRkxjTqwID69wAIQ.eyFgtZCq6fSP6ZQf&fr=3Dsignup" style=3D"color:#FFFFFF; t=
+ext-decoration: none" target=3D"_blank">Activate Account</a></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <!-- End CTA -->
+                            <tr>
+                                <td align=3D"center" colspan=3D"2" valign=
+=3D"top" class=3D"" style=3D"padding-top: 60px">
+                                    <hr style=3D"border-bottom:#E4E4ED 5px =
+dotted; border-width: 0 0 5px 0;"></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!--END Body-->
+                <!-- Button Not Working -->
+                <tr>
+                    <td class=3D"mobile-padding" align=3D"center" bgcolor=
+=3D"#ffffff" style=3D"padding:0px 30px 30px 30px;" valign=3D"top">
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"left" class=3D"BodyCopy" style=
+=3D"padding-bottom: 60px; font-family:'Lato', Helvetica, sans-serif; font-s=
+ize:16px; line-height:24px; color:#FFFFFF; font-weight:400; color:#747487; =
+letter-spacing: .01em; text-align: left;">Button not working? Try pasting t=
+his URL into your browser: <strong><a href=3D"https://zoom.us/activate?code=
+=3DeDAEH5NDQcykv5bbSV82nB9BqyvosfVKEUV35-Szeug.AG.B55Da-1lNYqZ00SThiUtWMING=
+JxCkzipRDPogyyvHowql7-XpTL-Bf11gOsRs44yYYzvTDFZSXRZO58TSWv20sMLsYoHjRSOtNyC=
+BmSAmbtPoJkibvxv_2tmtQnIUa9tl6nhQVykQnas9G5Nva_cxaZHMgINPg.DFfiPwMRkxjTqwID=
+69wAIQ.eyFgtZCq6fSP6ZQf&fr=3Dsignup" target=3D"_blank" style=3D"color: #2d8=
+cff; text-decoration:none; word-break: break-all;">https://zoom.us/activate=
+?code=3DeDAEH5NDQcykv5bbSV82nB9BqyvosfVKEUV35-Szeug.AG.B55Da-1lNYqZ00SThiUt=
+WMINGJxCkzipRDPogyyvHowql7-XpTL-Bf11gOsRs44yYYzvTDFZSXRZO58TSWv20sMLsYoHjRS=
+OtNyCBmSAmbtPoJkibvxv_2tmtQnIUa9tl6nhQVykQnas9G5Nva_cxaZHMgINPg.DFfiPwMRkxj=
+TqwID69wAIQ.eyFgtZCq6fSP6ZQf&fr=3Dsignup</a></strong></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!--END Button Not Working-->
+
+                <!-- Questions -->
+                <tr>
+                    <td class=3D"mobile-padding" align=3D"center" bgcolor=
+=3D"#235685" style=3D"padding:0px 30px 100px 30px;" valign=3D"top">
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"left" colspan=3D"2" style=3D"p=
+adding: 70px 30px 50px 30px; font-family:'Lato', Helvetica, sans-serif; fon=
+t-size:20px; line-height:24px; font-weight:700; color:#ffffff; text-align: =
+center; text-transform: uppercase; letter-spacing: 0.05em;" class=3D"">Ques=
+tions?</td>
+                            </tr>
+                            <tr valign=3D"top">
+                                <td style=3D"text-align: center; font-size:=
+14px !important; font-weight: normal;" class=3D"">
+                                    <a class=3D"em_blue" href=3D"https://su=
+pport.zoom.us/hc/en-us" style=3D"font-family:'Lato', Helvetica, sans-serif;=
+ font-weight: 900; color:#ffffff; font-size: 15px; letter-spacing: .2em;tex=
+t-transform: uppercase; text-decoration: none; border-bottom:#2D8CFF 0px so=
+lid; vertical-align: middle" target=3D"_blank">Visit Zoom Help Center</a>&n=
+bsp;&nbsp;&nbsp;<a class=3D"em_blue" href=3D"https://support.zoom.us/hc/en-=
+us" target=3D"_blank"><img src=3D"https://click.zoom.us/l/84442/2020-05-06/=
+blbhjk/84442/140350/textual_link_arrow_white.png" style=3D"width:100%; max-=
+width: 8px; vertical-align: middle" width=3D"8"></a>                       =
+              </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <!--END Questions -->
+
+                <!-- Gray Box -->
+                <tr>
+                    <td align=3D"center" bgcolor=3D"#E4E4ED" valign=3D"top"=
+>
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" style=3D"padding:30px =
+15px;" valign=3D"top">
+                                    <table align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                        <tbody>
+                                        <tr>
+                                            <td align=3D"center" style=3D"p=
+adding-bottom:15px;" valign=3D"top">
+                                                <table align=3D"center" bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td align=3D"center=
+" valign=3D"top" class=3D""><a href=3D"https://twitter.com/zoom_us" style=
+=3D"text-decoration:none;" target=3D"_blank"><img alt=3D"Twitter" border=3D=
+"0" height=3D"28" src=3D"https://click.zoom.us/l/84442/2019-12-26/bfs1bv/84=
+442/140021/Social_Twitter_2020.png" style=3D"display:block; font-family:'La=
+to', Helvetica, sans-serif; font-size:9px; line-height:22px; color:#ffffff;=
+" width=3D"28"></a></td>
+                                                        <td width=3D"12" cl=
+ass=3D"">&nbsp;</td>
+                                                        <td align=3D"center=
+" valign=3D"top" class=3D""><a href=3D"https://www.linkedin.com/company/zoo=
+m-video-communications/" style=3D"text-decoration:none;" target=3D"_blank">=
+<img alt=3D"LinkedIn" border=3D"0" height=3D"28" src=3D"https://click.zoom.=
+us/l/84442/2019-12-26/bfs1bs/84442/140023/Social_LinkedIn_2020.png" style=
+=3D"display:block; font-family:'Lato', Helvetica, sans-serif; font-size:9px=
+; line-height:22px; color:#ffffff;" width=3D"28"></a></td>
+                                                        <td width=3D"12" cl=
+ass=3D"">&nbsp;</td>
+                                                        <td align=3D"center=
+" valign=3D"top" class=3D""><a href=3D"https://blog.zoom.us/" style=3D"text=
+-decoration:none;" target=3D"_blank"><img alt=3D"Blog" border=3D"0" height=
+=3D"28" src=3D"https://click.zoom.us/l/84442/2019-12-26/bfs1bx/84442/140025=
+/Social_Blog_2020.png" style=3D"display:block; font-family:'Lato', Helvetic=
+a, sans-serif; font-size:9px; line-height:22px; color:#ffffff;" width=3D"28=
+"></a></td>
+
+
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align=3D"center" class=3D"e=
+m_grayfooter" style=3D"font-family:'Lato', Helvetica, sans-serif; font-size=
+:13px; line-height:22px; color:#828282;"><a href=3D"tel:1-888-799-9666" sty=
+le=3D" text-decoration: none; color: #828282;">+1.888.799.9666</a><br>
+                                                =C2=A9 2022 Zoom - All Righ=
+ts Reserved</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]--></td>
+                </tr>
+                <!-- Footer -->
+                <tr>
+                    <td align=3D"center" bgcolor=3D"#eeeeee" valign=3D"top"=
+><!--[if (gte mso 9)|(IE)]>
+                        <table align=3D"center" border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" width=3D"600">
+                            <tr>
+                                <td align=3D"center" valign=3D"top" width=
+=3D"600">
+                        <![endif]-->
+                        <table align=3D"center" border=3D"0" cellpadding=3D=
+"0" cellspacing=3D"0" style=3D"max-width:600px;" width=3D"100%">
+                            <tbody>
+                            <tr>
+                                <td align=3D"center" style=3D"padding:30px =
+0 10px 0;" valign=3D"top">
+                                    <table align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                        <tbody>
+                                        <tr>
+                                            <td align=3D"center" class=3D"e=
+m_grayfooter" style=3D"font-family:'Lato', Helvetica, sans-serif; font-size=
+:13px; line-height:20px; color:#969AA1;">Visit <a href=3D"https://zoom.us" =
+style=3D"color:#969AA1" target=3D"_blank">zoom.us</a><br>
+                                                <a href=3D"https://www.goog=
+le.com/maps/place/55+Almaden+Blvd,+San+Jose,+CA+95113/@37.3328541,-121.8970=
+97,17z/data=3D!3m1!4b1!4m5!3m4!1s0x808fcca40adf3cb7:0x5a2d33d3593e0a33!8m2!=
+3d37.3328541!4d-121.8949083" style=3D"color:#969AA1; text-decoration: none;=
+" target=3D"_blank">55 Almaden Blvd<br>
+                                                    San Jose, CA 95113</a><=
+/td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align=3D"center" style=3D"padding:0 0 4=
+0px 0;" valign=3D"top">
+                                    <table align=3D"center" border=3D"0" ce=
+llpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                        <tbody>
+                                        <tr>
+                                            <td align=3D"center" class=3D"e=
+m_grayfooter" style=3D"font-family:'Lato', Helvetica, sans-serif; font-size=
+:10px; line-height:15px; color:#969AA1;">You're receiving this email becaus=
+e you signed up for a Zoom account.<br></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]--></td>
+                </tr>
+                </tbody>
+            </table>
+            <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

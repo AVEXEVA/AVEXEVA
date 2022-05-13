@@ -1,0 +1,103 @@
+Return-Path: <admin@topexamer.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id /esLDs66qGE6WwAABSAGJw
+	(envelope-from <admin@topexamer.com>)
+	for <avex@avexeva.com>; Thu, 02 Dec 2021 07:23:42 -0500
+Return-path: <admin@topexamer.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 02 Dec 2021 07:23:42 -0500
+Received: from mail-wr1-f41.google.com ([209.85.221.41]:38797)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.94.2)
+	(envelope-from <admin@topexamer.com>)
+	id 1msl7l-00064M-Eg
+	for avex@avexeva.com; Thu, 02 Dec 2021 07:23:42 -0500
+Received: by mail-wr1-f41.google.com with SMTP id q3so36400125wru.5
+        for <avex@avexeva.com>; Thu, 02 Dec 2021 04:23:21 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=topexamer-com.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=y8xqs7lRGoHHwq6SVt1Gz6DTzpNmlui83IsutcVM4TU=;
+        b=o1md43YY+uEL401dsYXTM8octQ4MNqiHzvSSjoBx4Mg2HQLDSiRyc0qDMH00ZIXm2u
+         xEZv5lxFmYIlpmDA9/j8IMGZ1XiHx3PqdRHrfNgqiGzwfcWM7mG76HTXVRKjkdrRsCEl
+         sTQZK4v2vXlfN4+C/wL7wPiPoyUvutV2HZZC2Lwiw9wO0l6EWrDh8HblLYn07G1gA9Zz
+         14TQ/IXkCLs4sZO2ibnH2u5Q1FwNF2LS0YyPZ9ooowF77TOz/DJYumOlA4GrFrUXm93o
+         VKIrpuVGuxYtVdvLgZOBNkN+NGLqiG3v/+yVOmVg/OL5J1M3VPpJn1maOJyI4cXKaMoY
+         NwRg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=y8xqs7lRGoHHwq6SVt1Gz6DTzpNmlui83IsutcVM4TU=;
+        b=vvl+0+ZKM87eFIjqjU8jmAvGyvE+wVP+xPE50KOPtgvF99hCEhlgYrKR4MuYd0RkzO
+         cZ7IX7LuU7BM6OPBfI5pIHhCR23MenTPE45x3HUzBjYsz6qw+t2F0MnjfqG4BaFSLxyu
+         02shGnshxbgAErH933EfAreXxlIr83XmGq98bfbOlgN6epjB0KhtwVc39Ex0RavXV3kF
+         j1XFtpbWYLOOkiNA3W5I3L5f2duonXbswmUvT0RdA6lnBHoeUH2pmJcoqfh7Iyzw3xoM
+         I2/TYMiSXIZ8TVLU3EeySv/3/fR41rNbfumKnjs4ZiaHnRYeDogeaPITDaee0IuoTi9r
+         qF7w==
+X-Gm-Message-State: AOAM533YeUm1PCI+ILyaXp+i/NWqkB1j6L/qDO4/TAZEbN2lo73p04bq
+	yX6gkbMkSzRZUjMnNG+ddTS1bMv5RwPn76TABxLxyQ==
+X-Google-Smtp-Source: ABdhPJwfPW2DJSKLHrho1RUmcdNJKPlqi3fFM4f+Sem7d2A89N/hpgbqREfihsap3LDZKxvCX5AvmAtkqmt7RUZEEiw=
+X-Received: by 2002:a5d:550c:: with SMTP id b12mr13581806wrv.427.1638447780194;
+ Thu, 02 Dec 2021 04:23:00 -0800 (PST)
+MIME-Version: 1.0
+From: Top Examer <admin@topexamer.com>
+Date: Thu, 2 Dec 2021 17:52:51 +0530
+Message-ID: <CANA-=5kuMhnsp98rA4=3gZ8ZcedT7_41LcdN8tteGvqb+mSAzw@mail.gmail.com>
+Subject: Invoice for Portal Dev - Dec2021 - 1
+To: Peter Speranza <Thinksperanza@gmail.com>, avex@avexeva.com
+Content-Type: multipart/alternative; boundary="000000000000ec044605d228d9f4"
+X-Spam-Status: No, score=0.5
+X-Spam-Score: 5
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hi Peter, Attached the invoice for the work we have done in
+    the past one week. Please have a look and let us know if you have any questions.
+    I have added 9% of tax which I need to pay to the government, which is completely
+    optional. 
+ Content analysis details:   (0.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+--000000000000ec044605d228d9f4
+Content-Type: text/plain; charset="UTF-8"
+
+Hi Peter,
+
+Attached the invoice for the work we have done in the past one week.
+Please have a look and let us know if you have any questions.
+
+I have added 9% of tax which I need to pay to the government, which is
+completely optional.
+
+
+Thanks
+Raj (TopExamer)
+
+--000000000000ec044605d228d9f4
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div id=3D"gmail-:19t" class=3D"gmail-Ar gmail-Au gmail-Ao=
+"><div id=3D"gmail-:19x" class=3D"gmail-Am gmail-Al editable gmail-LW-avf g=
+mail-tS-tW gmail-tS-tY" aria-label=3D"Message Body" role=3D"textbox" aria-m=
+ultiline=3D"true" tabindex=3D"1" style=3D"direction:ltr;min-height:182px" a=
+ria-controls=3D":1t6">Hi Peter,<div><br></div><div>Attached the invoice for=
+ the work we have done in the past one week. Please=C2=A0have a look and le=
+t us know if you have any questions.</div><div><br></div><div>I have added =
+9% of tax which I need to pay to the government, which is completely option=
+al.=C2=A0</div><div><br></div><div><br></div><div>Thanks</div><div>Raj (Top=
+Examer)</div></div></div></div>
+
+--000000000000ec044605d228d9f4--

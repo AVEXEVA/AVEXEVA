@@ -1,0 +1,42 @@
+CREATE TABLE Language (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  Description TEXT,
+  CONSTRAINT PK_Language_ID PRIMARY KEY (ID),
+);
+CREATE TABLE Alphabet (
+  Lanaguage INT NOT NULL,
+  Character INT NOT NULL,
+  CONSTRAINT Alphabet_Language FOREIGN KEY (Language) REFERENCES Language(ID),
+  CONSTRAINT Alphabet_Character FOREIGN KEY (Character) REFERENCES Character(ID)
+);
+CREATE TABLE Phrase (
+  ID INT NOT NULL AUTO_INCREMENT,
+);
+CREATE TABLE Meaning (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Phrase INT NOT NULL,
+  CONSTRAINT PK_Meaning_ID PRIMARY KEY (ID),
+  CONSTRAINT FK_Meaning_Phrase FOREIGN KEY (Phrase) REFERENCES Phrase(ID)
+);
+CREATE TABLE Word (
+  ID INT NOT NULL AUTO_INCREMENT,
+  CONSTRAINT PK_Word_ID PRIMARY KEY (ID)
+);
+CREATE TABLE Character (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Letter VARCHAR(1),
+  CONSTRAINT PK_Character_ID PRIMARY KEY (ID)
+);
+CREATE TABLE Word_Characters (
+  Word INT NOT NULL,
+  Character INT NOT NULL,
+  CONSTRAINT FK_Word_Characters_Word FOREIGN KEY (Word) REFERENCES Word(ID),
+  CONSTRAINT FK_Word_Characters_Character FOREIGN KEY (Character) REFERENCES Character(ID)
+);
+CREATE TABLE Phrase_Words (
+  Phrase INT NOT NULL,
+  Word INT NOT NULL,
+  CONSTRAINT FK_Phrase_Words_Phrase FOREIGN KEY (Phrase) REFERENCES Phrase(ID),
+  CONSTRAINT FK_Phrase_Words_Word FOREIGN KEY (Word) REFERENCES Word(ID)
+);

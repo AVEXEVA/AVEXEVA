@@ -1,0 +1,431 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/ssl/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2684                
+POS_VISITOR 12638               
+POS_DAY 13981               
+POS_DOMAIN 3424                
+POS_LOGIN 3750                
+POS_ROBOT 3905                
+POS_WORMS 4276                
+POS_EMAILSENDER 4407                
+POS_EMAILRECEIVER 4550                
+POS_SESSION 14300               
+POS_SIDER 14467               
+POS_FILETYPES 4685                
+POS_DOWNLOADS 4834                
+POS_OS 4882                
+POS_BROWSER 5081                
+POS_SCREENSIZE 5531                
+POS_UNKNOWNREFERER 5605                
+POS_UNKNOWNREFERERBROWSER 6128                
+POS_ORIGIN 6533                
+POS_SEREFERRALS 6666                
+POS_PAGEREFS 6832                
+POS_SEARCHWORDS 6980                
+POS_KEYWORDS 7132                
+POS_MISC 2348                
+POS_ERRORS 7191                
+POS_CLUSTER 3606                
+POS_SIDER_404 7300                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220513080931 4436 661463 22411671453758
+FirstTime 0
+LastTime 20220512210027
+LastUpdate 20220513080933 4436 0 4436 0 0
+TotalVisits 33                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 32                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 4 6 428473
+1 0 0 0 10 12 982702
+2 0 0 0 8 14 640877
+3 1 1 106974 7 11 534582
+4 5 5 156148 11 17 640232
+5 1 1 106974 7 15 655205
+6 2 2 213948 8 10 854433
+7 1 7 113352 6 12 543426
+8 7 7 301407 12 16 755321
+9 5 5 345511 8 10 465866
+10 0 0 0 4425 4427 25197948
+11 6 6 641841 4428 4434 25407687
+12 0 0 0 4 4 319606
+13 1 1 106973 7 12 576284
+14 1 1 106974 11 16 1091970
+15 0 0 0 4425 4427 25307853
+16 4 4 131822 12 17 426165
+17 1 1 106974 8843 8847 49749351
+18 2 8 220326 4429 4433 25304054
+19 0 0 0 11 17 857424
+20 2 7 218586 9 17 751676
+21 1 1 0 5 8 417372
+22 1 1 38290 12 14 771975
+23 2 2 213948 7 11 429071
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+us 32 38 2079686
+ca 3 3 183554
+cn 2 7 218586
+de 2 2 213948
+it 1 1 106974
+gb 1 1 106974
+jp 1 1 106974
+ru 1 7 113352
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+Go\-http\-client/ 25956 147325140 20220512112004 0
+bingbot/ 75 8030353 20220513064558 0
+AhrefsBot/ 67 5312693 20220513024041 0
+bot[\s_+:,\.\;\/\\-] 19 2038373 20220513080931 0
+survey 5 397490 20220508130639 0
+unknown 4 52 20220512171722 4
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+env 5 61473 0 0
+Unknown 1 263 0 0
+js 15 13917 0 0
+html 37 3050917 0 0
+css 2 3478 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+macosx10 1 1
+win7 2 2
+androidlollipop 1 1
+Unknown 9 9
+macosx13 1 1
+macosx15 3 3
+macosx 6 1
+linux 18 12
+win10 8 2
+androidkitkat 11 11
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome51.0.2704.81 1 1
+chrome91.0.4472.124 1 1
+chrome83.0.4103.97 6 6
+chrome95.0.4638.69 1 1
+chrome87.0.4280.88 6 1
+chrome101.0.4951.41 7 1
+chrome100.0.4896.127 2 2
+netscape5.0 1 1
+mozilla 5 5
+chrome96.0.4664.110 1 1
+chrome101.0.4951.54 7 1
+chrome81.0.4044.129 3 3
+chrome71.0.3542.0 1 1
+chrome45.0.2454.85 1 1
+chrome92.0.4515.159 1 1
+chrome42.0.2311.90 1 1
+android 10 10
+Unknown 3 3
+firefox84.0 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220511092711
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220503083509
+python-requests/2.21.0 20220505180757
+Mozilla/5.0 20220501171250
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Expanse,_a_Palo_Alto_Networks_company,_searches_across_the_global_IPv4_space_multiple_times_per_day_to_identify_customers&#39;_presences_on_the_Internet._If_you_would_like_to_be_excluded_from_our_scans,_please_send_IP_addresses/domains_to:_scaninfo@paloaltonetworks.com 20220503083509
+python-requests/2.21.0 20220505180757
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 42 42
+From1 0 0
+From2 1 1
+From3 0 0
+From4 0 17
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com_hk 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 630 0
+301 20 4461
+401 23 991
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 106
+/phpversion.php 1 -
+/.git/refs/heads/master 6 -
+/.git/objects/01/01010101010101010101010101010111010101 6 -
+/.git/objects/00/01110001110000001111110000001111110001 6 -
+/.git/objects/22/22222222222222222222222222222222222222 6 -
+/.git/objects/01/01010101010101010101010101011111011111 6 -
+/.git/objects/10/10101010101010101010101010101111111010 6 -
+/nuked-clan/index.php 1 -
+/.git/objects/65/2f4170702f41746c61732f62696e2f5048502f 6 -
+/.git/objects/01/01010101010101010101010101010111010111 6 -
+/.git/objects/01/01010101010101010101010101010111011101 6 -
+/.git/refs/stash 6 -
+/.git/objects/10/10101010101010101010101010101110111110 6 -
+/.git/objects/10/10101010101010101010101010101110101010 6 -
+/.git/objects/10/10101010101010101010101010101111101111 6 -
+/ 18 -
+/admin_phpinfo.php 1 -
+/.git/objects/3f/e6ca5fe8cd2cdf96285756e42932f7ca256962 6 -
+/login 1 -
+/old_phpinfo.php 1 -
+/.git/objects/63/636573732f77686974656c697374696e672e68 6 -
+/.git/objects/BE/09D38601559FA23B175BEB7B802F9B8A3CA419 6 -
+/.git/refs/remotes/origin/HEAD 6 -
+/.git/objects/0f/c1d1f9a7edde474793d4bb867de32f4642b42c 6 -
+/linusadmin-phpinfo.php 1 -
+/.git/logs/refs/remotes/origin/master 6 -
+/panel_control 1 -
+/.git/objects/01/01010101010101010101010101011111111110 6 -
+/php_info.php 1 -
+/.git/objects/10/10101010101010101010101010101011111110 6 -
+/robots.txt 52 -
+/.git/objects/01/00110101010100011100000011111100011100 6 -
+/.git/objects/10/10101010101010101010101010101111111011 6 -
+/.git/objects/24/02401123123610610402402231236106102403 6 -
+/.git/objects/00/00000011111111111100000000000011111111 6 -
+/.git/objects/01/01010101010101010101010101011111010111 6 -
+/.git/objects/DF/58BF2A46732848E8784426E2EB4D9DBDA030D7 6 -
+/.git/objects/10/10101010101010101010101010101110111011 6 -
+/.git/objects/11/11111111110000000000001111111111110101 6 -
+/.git/objects/01/01010101010101010101010101011111111010 6 -
+/control_panel 1 -
+/.git/objects/10/10101010101010101010101010101011101111 6 -
+/i.php 1 -
+/.git/objects/10/10101010101010101010101010101111101010 6 -
+/.git/objects/44/4f4d2f506167652f756e69742f756e69742d66 6 -
+/.git/info/refs 6 -
+/.git/objects/01/01010101010101010101010101010111110101 6 -
+/.git/objects/10/10101010101010101010101010101011101110 6 -
+/test.php 1 -
+/.git/objects/10/10101010101010101010101010101010111111 6 -
+/.git/objects/15/4ba612985bcf76b5f41f8857536e1903db1fbc 6 -
+/.git/objects/11/00011100011100011100000011111100000011 6 -
+/.git/objects/10/10101010101010101010101010101010101010 6 -
+/.git/ORIG_HEAD 6 -
+/infophp.php 1 -
+/.git/hooks/post-commit.sample 6 -
+/.git/logs/refs/binaries 6 -
+/.git/packed-refs 6 -
+/.git/objects/01/01010101010101010101010101010111111101 6 -
+/.git/objects/info/packs 6 -
+/.git/objects/01/01010101010101010101010101011111110111 6 -
+/.git/refs/remotes/origin/master 6 -
+/.git/logs/refs/stash 6 -
+/.git/logs/refs/heads/master 6 -
+/.env 6 -
+/.git/objects/A8/0509F6B192AD4FCDC23555E81D7A67F9C4C712 6 -
+/ads.txt 12 -
+/pinfo.php 1 -
+/.git/objects/01/01010101010101010101010101011111111111 6 -
+/.git/objects/10/10101010101010101010101010101011111010 6 -
+/.git/objects/10/10101010101010101010101010101011111111 6 -
+/.git/objects/01/01010101010101010101010101010111111111 6 -
+/.git/objects/10/10101010101010101010101010101111101011 6 -
+/.git/objects/10/10101010101010101010101010101110101110 6 -
+/.git/objects/00/00000000000000000000000000000000000000 6 -
+/.git/objects/10/10101010101010101010101010101011101010 6 -
+/.git/objects/EA/E91EF3042B88FD2519E76D8210B0B02357EEE4 6 -
+/.git/objects/01/01010101010101010101010101011111111101 6 -
+/time.php 1 -
+/.git/logs/refs/tags 6 -
+/.git/objects/10/10101010101010101010101010101010101011 6 -
+/.git/objects/61/2f58494f2f4e6f64652f48545450532f485441 6 -
+/.git/objects/10/10101010101010101010101010101111111110 6 -
+/.git/objects/01/01010101010101010101010101011111011101 6 -
+/.git/objects/10/10101010101010101010101010101111101110 6 -
+/.git/objects/10/10101010101010101010101010101010111010 6 -
+/.git/objects/11/11111111110000000000001111111111110000 6 -
+/.git/hooks/post-receive.sample 6 -
+/.git/objects/10/10101010101010101010101010101011101011 6 -
+/.git/objects/10/10101010101010101010101010101110101111 6 -
+/.git/objects/10/10101010101010101010101010101010111110 6 -
+/.git/objects/10/10101010101010101010101010101110101011 6 -
+/.git/objects/37/58e21d279becdf847a557a56a3ed16dfec9d5d 6 -
+/.git/objects/10/10101010101010101010101010101010101111 6 -
+/.git/objects/11/11000000111111000000111111000000000000 6 -
+/.git/objects/10/10101010101010101010101010101110111111 6 -
+/.git/objects/01/01010101010101010101010101011111110101 6 -
+/.git/objects/01/01010101010101010101010101010111110111 6 -
+/.git/logs/refs/remotes/origin/HEAD 6 -
+/.git/FETCH_HEAD 6 -
+/.git/objects/10/10101010101010101010101010101110111010 6 -
+/.git/objects/10/10101010101010101010101010101010111011 6 -
+/.git/objects/01/01010101010101010101010101011111010101 6 -
+/.git/objects/01/11000000111111000000111111000000000000 6 -
+/.git/objects/94/443208BD4749FE794C459A32CEF128C00F0487 6 -
+/.git/refs/binaries 6 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 32
+18.215.145.43 10 10 312291 20220506045919
+209.126.87.204 3 3 131559 20220508161548
+137.226.113.44 2 2 213948 20220511064436
+54.184.36.149 1 1 106974 20220508112516
+162.142.125.221 1 1 12294 20220508095538
+209.141.36.112 1 1 106974 20220503201843
+34.208.132.218 1 1 106973 20220508112429
+205.210.31.150 1 1 38290 20220502225958
+107.150.46.166 1 1 106974 20220504080742
+142.93.50.86 1 1 106974 20220502143623
+34.220.50.198 1 1 106974 20220511114438
+51.210.151.132 1 1 106974 20220505180757
+23.92.19.60 1 1 106974 20220507231053
+164.163.28.211 1 1 106974 20220504030756
+18.222.179.185 1 1 263 20220507163900
+71.105.194.245 1 7 113352 20220511074006
+205.210.31.21 1 1 38290 20220503083509
+167.248.133.119 1 1 12298 20220510093737
+162.142.125.219 1 1 106973 20220504090411
+13.40.117.10 1 1 0 20220512210027
+162.142.125.211 1 1 106972 20220511092711
+221.2.155.200 1 1 106974 20220501171250
+101.227.1.197 1 4 111303 20220503201845
+164.132.172.225 1 1 106974 20220503051518
+20.242.19.96 1 1 106973 20220509134718
+101.227.1.196 0 2 309 
+185.246.211.74 1 7 113352 20220505184458
+167.94.138.118 1 1 106974 20220510093738
+34.212.161.163 1 1 106974 20220503111917
+45.56.96.11 1 1 106974 20220507231106
+50.112.227.173 1 1 106973 20220503111938
+54.187.153.48 1 1 106973 20220511114510
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 12
+20220501 1 1 106974 1
+20220502 2 2 145264 2
+20220503 6 11 577797 6
+20220504 4 4 427895 4
+20220505 7 13 376469 3
+20220506 5 5 156148 1
+20220507 3 3 214211 3
+20220508 6 6 357800 4
+20220509 1 1 106973 1
+20220510 2 2 119272 2
+20220511 5 11 541245 5
+20220512 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+30s-2mn 1
+0s-30s 31
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 37 3050917 31 32
+/.env 5 61473 1 0
+/.git/config 1 263 1 1
+END_SIDER

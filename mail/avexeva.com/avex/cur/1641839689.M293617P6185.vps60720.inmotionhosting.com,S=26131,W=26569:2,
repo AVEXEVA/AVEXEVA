@@ -1,0 +1,438 @@
+Return-Path: <Williams.Thomas@microsoft.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id T6fyDkl83GEpGAAABSAGJw
+	(envelope-from <Williams.Thomas@microsoft.com>)
+	for <avex@avexeva.com>; Mon, 10 Jan 2022 13:34:49 -0500
+Return-path: <Williams.Thomas@microsoft.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Mon, 10 Jan 2022 13:34:49 -0500
+Received: from mail-eus2azon11021016.outbound.protection.outlook.com ([52.101.57.16]:35623 helo=na01-obe.outbound.protection.outlook.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <Williams.Thomas@microsoft.com>)
+	id 1n6zVI-0001ba-5U
+	for avex@avexeva.com; Mon, 10 Jan 2022 13:34:49 -0500
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=FFNpdLI5JIq5KzP2CghMOUySJscuiQK7jxTHMaIaCxDtyxqXESb933t5Ru246uAE8u9uUJC6Zenx/AK2KKrCMotdeXDsRE2AoFDWjLo5RzVyWiVqscfDztczKU0aWNVTA46gSm5zvgFKdclSwAJYli5ofYHrKc+7BHr9iQYgXzZlErt5sCh3vMDE5AYKB96P485a2QG6SnywOrM4aYGQi0GCblStE9njy9bGOgOwLHg1WMANh09tvamWwMr0GYbQckKj+UQWGMzxfBTDB03MJOORPPvELZg296KweqhL8h6SDPP2HiQ0vQctvodjPv64wj2CvwXiUZat4eqSeQtngQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=UbN1UHivUrS8NZJU3E11YdzBCYvSIPHnDBvr/MKnNQw=;
+ b=fR0MseK6eGv85PznByRjLJNjD30IUhY1v6CNQ1pFbCZFTEdGf93D8YC4QcpatGs6HXlQBqryOVttAeOYuidEmYPZEUeF8fRp5H/d7eRptlvtCIJ6jnvUFEDmKBQ6HGEGvUTvuRXXDHvhrVBQJXfAuAzRUBa/4VdpMkHyiubXhV79hm/bSce3NjN64+8QzRGVPwyC9nhvi5MjkJxlb0rSmXqEQCo4b0xF3uJGJQMkL8QQZluLjHoREOEZhv91AuZ1mfqMhdg/HZ87wsndSV36vTYfribrXZyXi/I9JEegaHy1vt3BtcXMwOdlXBVnW04F1KIXQY4M765Dyosr4i0++w==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=microsoft.com; dmarc=pass action=none
+ header.from=microsoft.com; dkim=pass header.d=microsoft.com; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=selector2;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=UbN1UHivUrS8NZJU3E11YdzBCYvSIPHnDBvr/MKnNQw=;
+ b=UvYbgkY9eB6/k36cQ4WVTs3YbOrz1OjQjbiQ3HLOqgP6cFbfPT3zWuUQJfowWF0M/AxEUlmsX8THBSRDF50sTtg+O1J6sgcpyzVG34YWW0glCErxJru6SBIbwyXB+8gQyu5b9yLXAnGyeiEcKfIsme1AD1trZ6yeK1sW/frjRIg=
+Received: from DM6PR21MB1148.namprd21.prod.outlook.com (2603:10b6:5:16a::13)
+ by CY4PR21MB1572.namprd21.prod.outlook.com (2603:10b6:910:8a::34) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4909.1; Mon, 10 Jan
+ 2022 18:34:05 +0000
+Received: from DM6PR21MB1148.namprd21.prod.outlook.com
+ ([fe80::d44d:8802:e22c:cd1d]) by DM6PR21MB1148.namprd21.prod.outlook.com
+ ([fe80::d44d:8802:e22c:cd1d%5]) with mapi id 15.20.4909.001; Mon, 10 Jan 2022
+ 18:34:05 +0000
+From: Thomas Williams II <Williams.Thomas@microsoft.com>
+To: "avex@avexeva.com" <avex@avexeva.com>
+Subject: Re: Microsoft Azure Team 
+Thread-Topic: Re: Microsoft Azure Team 
+Thread-Index: AdgGUKB7VSQf48ejTD+BtPq/Yvluqg==
+Disposition-Notification-To: Thomas Williams II
+	<Williams.Thomas@microsoft.com>
+Date: Mon, 10 Jan 2022 18:34:04 +0000
+Message-ID:
+ <DM6PR21MB11487D9E1E20E81DA5428590EB509@DM6PR21MB1148.namprd21.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: yes
+X-MS-TNEF-Correlator:
+msip_labels:
+ MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_ActionId=0c42d3f1-64e1-4f11-8dbb-896b62fc9da2;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_ContentBits=0;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Enabled=true;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Method=Standard;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_Name=Internal;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_SetDate=2022-01-10T18:32:48Z;MSIP_Label_f42aa342-8706-4288-bd11-ebb85995028c_SiteId=72f988bf-86f1-41af-91ab-2d7cd011db47;
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=microsoft.com;
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 8a820ea8-193c-4090-87b4-08d9d467c866
+x-ms-traffictypediagnostic: CY4PR21MB1572:EE_
+x-ms-exchange-atpmessageproperties: SA|SL
+x-microsoft-antispam-prvs:
+ <CY4PR21MB157251362EDA38C7F17795F7EB509@CY4PR21MB1572.namprd21.prod.outlook.com>
+x-ms-oob-tlc-oobclassifiers: OLM:10000;
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam: BCL:0;
+x-microsoft-antispam-message-info:
+ X/VkYOMhicgpoRekznM8T8kK4Xnh1CGbi5XxrnPb+Zxp6TQjjNRAAegILDyjtTuHjaK6/RslD54DWrjEV8bULVcErztfo2z6nt276LykxLWDDYXG/dti0snnGYvrmO0UChDuJCNzmnzlhjFKaATtLV4xaPjvLmOa5f4bZZjYOVvcck62QS90c2HIq2h7IM1rm0zZ6aNefIBC0TRBfsyd0pmCSASzz3yWvonC6MWUHp2HaIpMcMkGzpqloXZM/r4zpUnKGcjtJDpZRbTYStNSqkAWJJLu+hHEgX+OPJSiDTtbL3bSwbpER+afQzGpQn8ZUoSV8TS53Mv5ofXM+epFOdYcmFFCtfYFkivO/vEv9lYLts0D6arpKIw99Y8ChN6EVBmf7x+AJpMwWaKLSciRe2zcwJEf3u+QHMyRSBsSXplubkyMTKp8vSeSyBXjP0Tc85eVQJmhOkw6/wi4NP5JYGQiSdA/MI3C6s3vE2PPFYR57LRUfLLrDU+VxlZ0oOwsrfPxWhbWUjbF9ejo1xTdkGoPKVDR51A/8Q1HwnB5gmFK0kl/LJgQrKmNVBgL4UBLI96Ia9A+2S6iD5rZ0kt14MCHJwBov/ONFcXGCSX3VuyAE0tDA2yv7/SwXmm4YDp0KM9CWhsEVVsWy074QzFAUCvCqRBTcTJPzia3crxK0dVpF+q96wfejLEilLAU5eL7bLbpPji2Z2bt4N71uXDpcBQDgtNLbD+p2ms2sziC8XGBr38sEU9S5Achu0N+Sr7Mjiims2fK2YdRNdsdOeO7Eg8Xp1Jv0fiitqXJ/mBWKbGBvAdjXEVEo3T2KB5ThH6Bwe+GUC20LHE6vvXW02zGehkFUPDQej5cPrtVc6eF2ZBMe4xqjXk1WJxJYZWL5+Up
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DM6PR21MB1148.namprd21.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230001)(4636009)(366004)(47530400004)(66946007)(76116006)(66476007)(66446008)(64756008)(66556008)(6916009)(316002)(8936002)(40140700001)(166002)(83380400001)(5660300002)(3480700007)(10290500003)(33656002)(508600001)(55016003)(2906002)(9326002)(4744005)(52536014)(8990500004)(8676002)(7116003)(38100700002)(6506007)(122000001)(9686003)(7696005)(82950400001)(40265005)(86362001)(82960400001)(4743002)(71200400001)(26005)(186003)(99936003)(76236003)(38070700005)(20210929001);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?us-ascii?Q?9g5QA9gGxPiUn5nuPEO2Gerh1i6M5Vgu/kNV/E1l1GGV6gY6Z/+JkwxQGq4X?=
+ =?us-ascii?Q?w0i1sMWJpAzvwhQ0S6n1pHNdNb4VphLp4eBnSXroro8g9JyWzIyo5iZodBFK?=
+ =?us-ascii?Q?etuu/xog0Jz1jNVvLyz8lAIkQ1wKJVzW3/SC+SD9m1j+n1NUHZD1sDLHRyYx?=
+ =?us-ascii?Q?7ty204AFWw3a7rIal/wQU/ygEw+AdKJo2p4j8QNiu0AS64h6GkukmA+4bZa4?=
+ =?us-ascii?Q?TYixcv8b+d176ANzfCv+b/0mObiRX87xOx0Gt97j1tCcstloMRggRnwfHP4T?=
+ =?us-ascii?Q?MZLLn9a8L8OexJ7fM4vJGHAalaxdFzHau0RGwiHokHpnBHVPJ8aFRGPZVHYk?=
+ =?us-ascii?Q?7RocOQ+1SQyx8DDCHDebuwmetz0J5TrRtAtnhORJ1NKYvIG+bJHfqXUPuQWm?=
+ =?us-ascii?Q?+i+pS14MdPkTBHB493ZPsfHPELX1nEOVpqD43/l2R2Dc2MqXYxC8eI5gUf2D?=
+ =?us-ascii?Q?qUCnav9/9gqGveEAxkGz8Uif2jNZMe3mCS6dqDJoLYxMBMDy1apAg0jmSrKg?=
+ =?us-ascii?Q?RkGSrfhuEHIWx8ykdzJBj26oVjsTDLfvWy9eVakH6n9S/F+dbDtSBWXQMA3m?=
+ =?us-ascii?Q?EACyO+GrO1VcHXfqFx+DXFhHPaefvDezlyUIghoEJdhktPeqovVNglH5SnTk?=
+ =?us-ascii?Q?KWp35PsB4HE0v90B06x7ftZsxeT02M6mFDLmDlZST/UtBKQzT2fE+98lSd/3?=
+ =?us-ascii?Q?YKbp4fzKzoLJysvi4qwYEr8ZQuev+n8OFOjrlp9J1CxfTJxLkuChH0p+CbRL?=
+ =?us-ascii?Q?LxVKp5gOIXoerUVDG0vMdnlIPrlAhu90rQ7gnWSoH5YwDh7JodjtlswZharu?=
+ =?us-ascii?Q?REVE0orF8EG8iuSCy7LbyBSbgmUdvhTBofjf61yRyTAfcZjomXfOtzkV7k7w?=
+ =?us-ascii?Q?zsad10P5HeQ/U32Ao6IP1+KNH4xONQEQMzN1Rz1llSVx7JwtDhnf3VnRAtZC?=
+ =?us-ascii?Q?UNBzGaDt+Q4rHP5knGN3YTUc1iCAxjeAg6jPV3dyjn1VYebINcaS6Gq7Mh/h?=
+ =?us-ascii?Q?miHjJD+vxKQprKcNkR3E1O53O73n5BlCU3hy+IuIHhgolPDYQ09B9dzGQ68d?=
+ =?us-ascii?Q?9xF0VwQ297Xm8oOb5Dsk4CqKFDcyhJH+ma2ok6sZw7m8bSqsAulu6OEQgSws?=
+ =?us-ascii?Q?p0FG8QzSEZEQVelCLeAMLo8SsbdWGzrBeIeldbzltXwWBNIhHyUVkUWwMAJ0?=
+ =?us-ascii?Q?uJgHwfZixaZGl/M0vptAF8E/a238+sQwHfo7rRBDkce9dJVqasxPKPs99mS8?=
+ =?us-ascii?Q?Tv+VBZUUumEv6lzMRwXrUbEl6BhjPK3bJdXXjLpZuCFRq6eI+yuvaHTlhhGj?=
+ =?us-ascii?Q?6iHdqRQuhWXL8V/QZbIEHzaa/By1LqXIr9dWNHzyB7Nu+xYKroc0NFCUZqID?=
+ =?us-ascii?Q?DbQu7GHkJ7pLi4fG2dd2Az0JyEaW+zNMeewKlNv6a5HDTLnjSDMvZB4oe1JX?=
+ =?us-ascii?Q?wfmUQPXbSU9+YLMB6JeUhp9yNYJ7r16L8LRGA2vFUCX3qD9pLlLsouoNUEne?=
+ =?us-ascii?Q?ZZp8LjUOkfx1Wn/sdOVL72AFcgwynE4uipALpQi1KVdQfGPpcLNC6yRryuLu?=
+ =?us-ascii?Q?BjopGn2ifInX/Tq7ZeC5OE7Vabk7lsxu0ntFsa8Vs0egjRkrCOzOjfcTAA8S?=
+ =?us-ascii?Q?l8q7tqBP/75PfPqMuykmpVc=3D?=
+Content-Type: multipart/related;
+	boundary="_004_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+X-OriginatorOrg: microsoft.com
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DM6PR21MB1148.namprd21.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8a820ea8-193c-4090-87b4-08d9d467c866
+X-MS-Exchange-CrossTenant-originalarrivaltime: 10 Jan 2022 18:34:04.7727
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 72f988bf-86f1-41af-91ab-2d7cd011db47
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: NivyW/q2hvJZKtT8WMr2Zcc1iG43FPfcntpqHuu90+cQ0Z6Krud+x0UOfK6Bqido/hxBSQIhtP6fFDXrvvPcaA==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CY4PR21MB1572
+X-Spam-Status: No, score=1.3
+X-Spam-Score: 13
+X-Spam-Bar: +
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Hello Peter, Thanks again for your interest in Microsoft Azure!
+    I've tried contacting you a few times, and I wanted to check in one last
+   time prior to closing your record on our end. I'm here for questions, resour
+    [...] 
+ Content analysis details:   (1.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: book.ms]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+  0.1 KAM_UNSUB1             Unsubscription Spams
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+  1.4 FORGED_SPF_HELO        No description available.
+X-Spam-Flag: NO
+
+--_004_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_"
+
+--_000_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello Peter,
+
+Thanks again for your interest in Microsoft Azure!
+I've tried contacting you a few times, and I wanted to check in one last ti=
+me prior to closing your record on our end. I'm here for questions, resourc=
+es, and information regarding any Azure project, so please give me a call o=
+r reply to this message at your earliest convenience.
+Please let me know if you have any new projects in the future and I will be=
+ happy to assist you.
+
+
+Thomas Williams II |  Azure Project Coordinator
+thwilli@microsoft.com<mailto:thwilli@microsoft.com>  |  317-672-1398
+  [Microsoft]
+Book an Appointment<https://book.ms/b/ThomasWilliamsDSR@microsoft.onmicroso=
+ft.com>
+
+Microsoft respects your privacy. Please read our online Privacy Statement<h=
+ttps://nam06.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Fgo.micros=
+oft.com%2Ffwlink%2F%3FLinkId%3D521839&data=3D02%7C01%7Csaostwal%40microsoft=
+.com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f988bf86f141af91ab2d7cd011db47%=
+7C1%7C0%7C637191103392458000&sdata=3Dyz4P5wkIaokW1w7SEitm23%2BV1SW0ZHTdQdbp=
+G5vd%2FGE%3D&reserved=3D0>.
+
+If you would prefer not to receive future promotional emails from Microsoft=
+ and its family of companies, please click here<https://nam06.safelinks.pro=
+tection.outlook.com/?url=3Dhttps%3A%2F%2Fprofile.microsoft.com%2FContactPre=
+ferences%2Fsecurepages%2Feeeoptout.aspx&data=3D02%7C01%7Csaostwal%40microso=
+ft.com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f988bf86f141af91ab2d7cd011db4=
+7%7C1%7C0%7C637191103392458000&sdata=3DLlwtsDl62D8ox9cqFoeiYhquv1uz%2FHbyR3=
+u1P5Jq%2F4U%3D&reserved=3D0> to unsubscribe.
+
+To set your contact preferences for Microsoft Communications, click here<ht=
+tps://nam06.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Fgo.microso=
+ft.com%2Ffwlink%2F%3FLinkId%3D243191&data=3D02%7C01%7Csaostwal%40microsoft.=
+com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f988bf86f141af91ab2d7cd011db47%7=
+C1%7C0%7C637191103392467959&sdata=3DQduuNBifUGeECY01J4hZKXJzV33bDwj19%2FbKA=
+l4cLRQ%3D&reserved=3D0>.
+
+
+
+
+
+--_000_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI Light";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:SegoeUI;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"#0563C1" vlink=3D"#954F72" style=3D"word-wrap:=
+break-word">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri Light&quot;=
+,sans-serif">Hello Peter,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri Light&quot;=
+,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri Light&quot;=
+,sans-serif">Thanks again for your interest in Microsoft Azure!<o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri Light&quot;=
+,sans-serif">I've tried contacting you a few times, and I wanted to check i=
+n one last time prior to closing your record on our end. I&#8217;m here for=
+ questions, resources, and information regarding any
+ Azure project, so please give me a call or reply to this message at your e=
+arliest convenience.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Calibri Light&quot;=
+,sans-serif">Please let me know if you have any new projects in the future =
+and I will be happy to assist you.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"100%" style=3D"width:100.0%;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:3.75pt 0in 0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt">Thomas Williams =
+II |&nbsp; Azure Project Coordinator<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:3.75pt 0in 0in 0in">
+<p class=3D"MsoNormal"><u><span style=3D"font-size:10.0pt;color:#666666"><a=
+ href=3D"mailto:thwilli@microsoft.com"><span style=3D"color:#0563C1">thwill=
+i@microsoft.com</span></a></span></u><span style=3D"font-size:10.0pt;color:=
+#666666">&nbsp; |&nbsp;&nbsp;317-672-1398</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:3.75pt 0in 0in 0in"></td>
+</tr>
+<tr>
+<td valign=3D"top" style=3D"padding:3.75pt 0in 0in 0in">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:SegoeUI;=
+color:black">&nbsp;
+<img border=3D"0" width=3D"108" height=3D"23" style=3D"width:1.125in;height=
+:.2416in" id=3D"Picture_x0020_1" src=3D"cid:image001.png@01D8061E.55E2EBB0"=
+ alt=3D"Microsoft">&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt;font-family:SegoeUI;=
+color:black"><a href=3D"https://book.ms/b/ThomasWilliamsDSR@microsoft.onmic=
+rosoft.com"><span style=3D"color:blue">Book an Appointment</span></a><o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:SegoeUI;c=
+olor:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Seg=
+oe UI Light&quot;,sans-serif;color:black;background:white">Microsoft respec=
+ts your privacy. Please read our online&nbsp;</span><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Segoe UI Light&quot;,sans-serif"><a href=3D"https=
+://nam06.safelinks.protection.outlook.com/?url=3Dhttp%3A%2F%2Fgo.microsoft.=
+com%2Ffwlink%2F%3FLinkId%3D521839&amp;data=3D02%7C01%7Csaostwal%40microsoft=
+.com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f988bf86f141af91ab2d7cd011db47%=
+7C1%7C0%7C637191103392458000&amp;sdata=3Dyz4P5wkIaokW1w7SEitm23%2BV1SW0ZHTd=
+QdbpG5vd%2FGE%3D&amp;reserved=3D0"><span style=3D"color:blue;background:whi=
+te">Privacy
+ Statement</span></a><span style=3D"color:black;background:white">.</span><=
+o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:27.0pt"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Segoe UI Light&quot;,sans-serif;color:black;backg=
+round:white">&nbsp;</span><span style=3D"font-size:8.0pt;font-family:&quot;=
+Segoe UI Light&quot;,sans-serif;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Seg=
+oe UI Light&quot;,sans-serif;color:black;background:white">If you would pre=
+fer not to receive future promotional emails from Microsoft and its family =
+of companies, please click&nbsp;</span><span style=3D"font-size:8.0pt;font-=
+family:&quot;Segoe UI Light&quot;,sans-serif"><a href=3D"https://nam06.safe=
+links.protection.outlook.com/?url=3Dhttps%3A%2F%2Fprofile.microsoft.com%2FC=
+ontactPreferences%2Fsecurepages%2Feeeoptout.aspx&amp;data=3D02%7C01%7Csaost=
+wal%40microsoft.com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f988bf86f141af91=
+ab2d7cd011db47%7C1%7C0%7C637191103392458000&amp;sdata=3DLlwtsDl62D8ox9cqFoe=
+iYhquv1uz%2FHbyR3u1P5Jq%2F4U%3D&amp;reserved=3D0"><span style=3D"color:blue=
+;background:white">here</span></a><span style=3D"color:black;background:whi=
+te">&nbsp;to
+ unsubscribe. </span><o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"margin-left:27.0pt"><span style=3D"font-siz=
+e:8.0pt;font-family:&quot;Segoe UI Light&quot;,sans-serif;color:black">&nbs=
+p;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Seg=
+oe UI Light&quot;,sans-serif;color:black;background:white">To set your cont=
+act preferences for Microsoft Communications, click
+</span><span style=3D"font-size:8.0pt;font-family:&quot;Segoe UI Light&quot=
+;,sans-serif"><a href=3D"https://nam06.safelinks.protection.outlook.com/?ur=
+l=3Dhttp%3A%2F%2Fgo.microsoft.com%2Ffwlink%2F%3FLinkId%3D243191&amp;data=3D=
+02%7C01%7Csaostwal%40microsoft.com%7Ca72c8b9ea08445b89fc708d7c1eeab7e%7C72f=
+988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637191103392467959&amp;sdata=3DQduu=
+NBifUGeECY01J4hZKXJzV33bDwj19%2FbKAl4cLRQ%3D&amp;reserved=3D0"><span style=
+=3D"color:blue;background:white">here</span></a><span style=3D"color:black;=
+background:white">.&nbsp;</span><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.5pt;font-family:SegoeUI;=
+color:black"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:=
+p></o:p></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_--
+
+--_004_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=3173;
+	creation-date="Mon, 10 Jan 2022 18:34:04 GMT";
+	modification-date="Mon, 10 Jan 2022 18:34:04 GMT"
+Content-ID: <image001.png@01D8061E.55E2EBB0>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_DM6PR21MB11487D9E1E20E81DA5428590EB509DM6PR21MB1148namp_--

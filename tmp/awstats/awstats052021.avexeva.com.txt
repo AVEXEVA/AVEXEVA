@@ -1,0 +1,1099 @@
+AWSTATS DATA FILE 7.7 (build 20180105)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2689                
+POS_VISITOR 22717               
+POS_DAY 32145               
+POS_DOMAIN 3636                
+POS_LOGIN 4292                
+POS_ROBOT 4447                
+POS_WORMS 5188                
+POS_EMAILSENDER 5319                
+POS_EMAILRECEIVER 5462                
+POS_SESSION 32991               
+POS_SIDER 33198               
+POS_FILETYPES 5597                
+POS_DOWNLOADS 5761                
+POS_OS 5847                
+POS_BROWSER 6160                
+POS_SCREENSIZE 9246                
+POS_UNKNOWNREFERER 9320                
+POS_UNKNOWNREFERERBROWSER 10078               
+POS_ORIGIN 10592               
+POS_SEREFERRALS 10734               
+POS_PAGEREFS 10897               
+POS_SEARCHWORDS 11225               
+POS_KEYWORDS 11377               
+POS_MISC 2353                
+POS_ERRORS 11436               
+POS_CLUSTER 4148                
+POS_SIDER_404 11532               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601000217 252 70175 22834004489678
+FirstTime 20210501000700
+LastTime 20210531212459
+LastUpdate 20210601080330 252 0 251 0 0
+TotalVisits 263                 
+TotalUnique 230                 
+MonthHostsKnown 1                   
+MonthHostsUnknown 231                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 19 19 2093540 812 855 91418977
+1 16 16 1494582 650 675 73639967
+2 3 3 320905 611 646 71269538
+3 12 36 1311589 704 770 84165350
+4 1564 4715 185323293 672 743 68182483
+5 665 2724 83309462 628 655 78640384
+6 15 15 554899 596 634 64734114
+7 25 34 2575950 864 887 90347445
+8 9 15 972508 581 637 66936275
+9 13 19 1288794 584 617 67052892
+10 10 10 854962 612 666 69585209
+11 51 51 5455657 619 685 69683208
+12 244 256 26436709 624 655 66450051
+13 121 121 13119088 721 768 73252772
+14 101 147 10461754 694 735 72864088
+15 99 100 9625927 656 731 70992194
+16 7 13 756226 630 659 67447195
+17 122 122 13192929 643 664 75641470
+18 26 26 2776044 720 751 79662625
+19 22 22 2353057 694 720 77698004
+20 20 32 2157101 669 699 73866847
+21 25 25 1730264 695 736 71392666
+22 29 59 3163409 673 717 79641871
+23 42 60 3599073 849 904 96124961
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+ma 2183 7381 264695521
+ru 434 464 47096057
+us 299 432 31169474
+ua 90 90 9602495
+ca 55 55 1063689
+tr 51 51 5455662
+nl 36 37 3909608
+bz 19 19 2058715
+fr 17 17 1815943
+gb 15 21 1609627
+cn 8 8 855791
+ro 8 8 884038
+in 7 7 746596
+co 6 12 646939
+sa 4 4 426087
+ch 3 3 320092
+il 3 3 320922
+de 3 3 320922
+no 3 3 320921
+gr 3 3 320920
+se 2 2 213947
+it 2 2 212536
+ae 2 8 219817
+al 2 2 213948
+au 1 1 0
+eu 1 1 106974
+bd 1 1 106534
+br 1 1 106973
+kh 1 1 106974
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+AhrefsBot/ 6645 787072113 20210531231757 0
+bot[\s_+:,\.\;\/\\-] 6383 763000250 20210531235646 0
+Googlebot/ 785 71862224 20210531233755 0
+bingbot/ 499 49508144 20210531215907 0
+MJ12bot/ 419 90402573 20210531182837 0
+(firefox/)([0-9]\.|[0-1][0]\.) 236 26745679 20210531001937 0
+bingpreview 230 802845 20210531104357 0
+YandexBot/ 57 5500468 20210531230114 0
+no_user_agent 24 2580704 20210525170851 0
+Apache\-HttpClient/ 20 2139472 20210503055917 0
+baidu 7 113352 20210503231438 0
+facebookexternalhit/ 5 534868 20210528100626 0
+DuckDuckGo\-Favicons\-Bot/ 3 320920 20210518184625 0
+java 1 106974 20210507152718 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 1773 3083247 0 0
+php 2861 330945953 0 0
+html 399 36811588 0 0
+csv 1 228 0 0
+js 3606 4086706 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/e/Game/christmas/amounts.csv 1 0 228
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+win8.1 16 10
+linux 285 233
+macosx 30 30
+macosx10 2 2
+bsdopenbsd 2 2
+win7 128 122
+winlong 18 12
+linuxandroid 11 4
+ios_iphone 4 4
+winvista 1 1
+macosx9 4 4
+winxp 10 10
+win8 5 5
+Unknown 51 45
+unix 1 1
+macosx8 2 2
+macosx12 9 3
+j2me 1 1
+win10 8060 2769
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 138
+chrome68.0.3243.88 1 1
+chrome36.0.1944.0 1 1
+chrome63.0.2829.150 1 1
+chrome90.0.4430.93 7 1
+chrome68.0.2953.65 1 1
+chrome40.0.2214.93 1 1
+chrome67.0.3396.79 1 1
+opera62.3.3146.57763 7 1
+chrome66.0.2351.37 1 1
+chrome63.0.3306.67 1 1
+chrome63.0.3272.163 1 1
+chrome75.0.3770.142 1 1
+chrome62.0.3418.132 1 1
+chrome63.0.2664.123 1 1
+firefox15.0.1 2 2
+chrome83.0.4103.97 55 55
+chrome69.0.2103.50 1 1
+chrome64.0.2787.18 1 1
+chrome66.0.2311.76 1 1
+chrome78.0.3904.70 7 1
+chrome69.0.3228.78 1 1
+chrome65.0.2922.151 1 1
+chrome68.0.3416.0 1 1
+chrome89.0.4389.114 10 4
+firefox88.0 68 22
+opera62.0.3331.99 2 2
+chrome65.0.3325.146 1 1
+chrome85.0.4183.83 1 1
+chrome65.0.3325.109 68 68
+chrome71.0.3578.98 1 1
+chrome32.0.1664.3 1 1
+chrome62.0.2762.71 1 1
+chrome58.0.3029.110 1 1
+chrome41.0.2226.0 1 1
+chrome41.0.2224.3 1 1
+chrome63.0.3260.146 1 1
+chrome26.0.1410.65 2 2
+chrome67.0.2503.39 1 1
+chrome35.0.1916.47 2 2
+chrome85.0.4183.121 2 2
+opera42.0.2393.94 7381 2183
+chrome65.0.2756.150 1 1
+chrome62.0.2320.134 1 1
+Unknown 25 25
+firefox52.0 10 10
+chrome78.0.3904.62 1 0
+chrome34.0.1847.116 7 7
+chrome63.0.3239.132 14 14
+chrome62.0.2705.9 1 1
+firefox25.0 1 1
+chrome69.0.2622.68 1 1
+chrome68.0.2711.108 1 1
+chrome83.0.4103.61 3 3
+firefox79.0 1 1
+msie6.0 2 2
+chrome63.0.2608.49 1 1
+chrome90.0.4430.212 96 21
+firefox68.0 2 2
+chrome45.0.2454.94 1 1
+firefox81.0 28 28
+chrome62.0.3485.71 1 1
+chrome66.0.2525.137 1 1
+chrome66.0.2369.62 1 1
+chrome83.0.4099.2 1 1
+chrome88.0.4240.193 23 23
+chrome50.0.2661.95 1 1
+firefox40.0 1 1
+chrome41.0.2227.0 2 2
+chrome63.0.3107.54 1 1
+chrome63.0.2138.107 1 1
+chrome81.0.4044.129 13 13
+chrome33.0.1750.517 2 2
+chrome74.0.3729.169 404 404
+chrome69.0.2916.81 1 1
+chrome35.0.3319.102 1 1
+chrome66.0.3417.27 1 1
+chrome41.0.2225.0 2 2
+firefox58.0 3 3
+opera53.0.2907.68 2 2
+chrome66.0.3341.169 1 1
+chrome5.0.375.99 1 1
+chrome68.0.2979.51 1 1
+chrome62.0.3143.56 1 1
+chrome35.0.2309.372 1 1
+opera76.0.4017.107 7 1
+firefox24.0 1 1
+chrome64.0.2805.101 1 1
+chrome78.0.3904.97 3 3
+chrome89.0.4389.90 2 2
+chrome64.0.2473.93 1 1
+chrome65.0.3233.62 1 1
+chrome64.0.3070.1 1 1
+chrome65.0.3325.181 3 3
+netscape5.0 4 4
+chrome80.0.3987.122 1 1
+firefox65.0 4 4
+chrome62.0.3446.82 1 1
+chrome69.0.3152.63 1 1
+chrome83.0.4093.3 1 1
+chrome26.0.1410.63 60 60
+chrome67.0.2108.26 1 1
+chrome68.0.3308.36 1 1
+chrome65.0.2124.136 1 1
+chrome67.0.2532.130 1 1
+chrome68.0.2268.24 1 1
+chrome20.0.1132.57 1 1
+chrome86.0.4240.183 1 1
+chrome67.0.2708.3 1 1
+chrome69.0.2998.62 1 1
+chrome64.0.2903.91 1 1
+chrome28.0.1467.0 1 1
+firefox50.0 32 32
+firefox59.0 6 6
+safari11.0 4 4
+chrome79.0.3945.130 24 24
+firefox29.0 3 3
+chrome63.0.2457.7 1 1
+firefox63.5.2 4 4
+chrome36.0.1985.125 2 2
+chrome66.0.3173.63 1 1
+msie9.0 14 2
+msie8.0 1 1
+chrome80.0.3987.149 6 6
+chrome69.0.2296.90 1 1
+chrome69.0.3054.8 1 1
+chrome14.0.564.21 83 83
+chrome69.0.2862.148 1 1
+safari12.1.2 7 1
+chrome28.0.1464.0 1 1
+mozilla 23 17
+chrome79.0.3945.88 1 1
+firefox45.0 1 1
+opera54.0.2952.71 2 2
+firefox82.0 3 3
+opera76.0.4017.123 7 1
+chrome68.0.2858.31 1 1
+opera12.16 1 1
+chrome66.0.3165.160 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla/5.0_(compatible;_NetcraftSurveyAgent/1.0;__info@netcraft.com) 20210503174335
+Python/3.9_aiohttp/3.7.4.post0 20210521042608
+Mozilla/5.0 20210509002436
+GRequests/0.10 20210527151458
+Mozilla/5.0_(compatible;_Dataprovider.com) 20210502202952
+IDBTE4M_CODE87 20210517132450
+Go-http-client/1.1 20210519084347
+colly_-_https://github.com/gocolly/colly/v2 20210527233655
+User-Agent\ 20210523162709
+python-requests/2.25.1 20210526042234
+l9tcpid/v1.0.0 20210512223819
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210528165702
+Mozilla/4.0_(compatible;_Netcraft_Web_Server_Survey) 20210529014148
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+Go-http-client/1.1 20210519084347
+colly_-_https://github.com/gocolly/colly/v2 20210527233655
+User-Agent\ 20210523162709
+IDBTE4M_CODE87 20210517132450
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210528165702
+l9tcpid/v1.0.0 20210512223819
+GRequests/0.10 20210527151458
+Python/3.9_aiohttp/3.7.4.post0 20210521042608
+python-requests/2.25.1 20210526042234
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3123 8322
+From1 0 0
+From2 5 5
+From3 10 10
+From4 122 303
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://www.netcraft.com/survey/ 2 2
+https://x4mp3.info 2 2
+http://avexeva.it 2 2
+https://mp3s.wtf 1 1
+http://www.gumbo.com 1 1
+https://musicjoy.info 1 1
+http://www.avexeva.it 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 1838 0
+500 17 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 363
+/job_tickets.php 7 -
+/admin/login.php 3 -
+/admin/index.php 2 -
+/sito/wp-includes/wlwmanifest.xml 18 -
+/.env 21 -
+/server_side/post.html 11 -
+/media/mask.jpg 1 -
+/include/fckeditor/editor/filemanager/connectors/test.html 1 -
+/styling/semanticui.html 2 -
+/a/XIO/Language/JAVASCRIPT/PAGE/index/LOAD.js 2 http://avexeva.com/index.php
+/media/apple.jpg 4 -
+/object_data.html 6 -
+/api/show_hide.html 2 -
+/blog/.env 1 -
+/media/giftcard.png 2 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/login.html 1 -
+/sites/all/libraries/fckeditor/editor/filemanager/connectors/test.html 1 -
+/media/cords.jpg 4 -
+/rmas.php 5 -
+/styling/order-column.html 1 -
+/select_row.html 2 -
+/web/wp-includes/wlwmanifest.xml 18 -
+/wp-json/wp/v2/users 1 -
+/data/admin/allowurl.txt 2 -
+/wordpress/wp-admin/ 2 http://avexeva.com/
+//a/XIO/Language/JAVASCRIPT/GUI/INDEX.php 6 -
+/blog/wp-login.php 12 -
+/administrator/index.php 2 -
+/includes/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/media/js/dataTables.uikit.js 1 -
+/mambots/editors/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/styling/material.html 7 -
+/news/wp-includes/wlwmanifest.xml 18 -
+/server_side/custom_vars.html 7 -
+/website/wp-includes/wlwmanifest.xml 18 -
+/media/cravebox.jpg 4 -
+/html/js/editor/fckeditor/editor/filemanager/connectors/test.html 1 -
+/modernization.php 1 -
+/proposals.php 6 -
+/admin.asp 1 -
+/media/hammock.jpg 2 -
+/index.html 8 -
+/editor/editor/filemanager/upload/php/upload.php 1 -
+/advanced_init/html5-data-attributes.html 5 -
+/jqueryUI.html 4 -
+/styling/uikit.html 6 -
+/show_hide.html 2 -
+/language.html 3 -
+/old-index.php 1 -
+/vendor/.env 1 -
+/a/XIO/Language/CSS/SITE.css 1 http://avexeva.com/index.php
+/.vscode/ftp-sync.json 1 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp/wp-includes/wlwmanifest.xml 19 -
+/.env.php 1 -
+/length_menu.html 3 -
+/application/application.ini 1 -
+/payroll.php 6 -
+/sftp-config.json 1 -
+/location_labor.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 18 -
+/xmlrpc.php 21 -
+/wp-content/ 3 -
+/requisitions.php 10 -
+/fileman/index.html 1 -
+/admin/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/deployment-config.json 1 -
+/personnel_request.php 1 -
+/admin/dumper/sxd.js 1 -
+//a/XIO/Language/CSS/INDEX.php 6 -
+/media/css/jquery.dataTables.css 6 -
+/mambots/editors/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/maintenances.php 5 -
+/review.php 6 -
+/2018/wp-includes/wlwmanifest.xml 9 -
+/media/book.png 3 -
+/advanced_init/row_grouping.html 3 -
+/admin/admin.php 1 -
+/admin.php 1 -
+/administrator/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/ajax/orthogonal-data.html 4 -
+/includes/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/robots.txt 373 -
+/media/css/dataTables.bootstrap4.css 4 -
+/wp-login.php 75 -
+/js/fileman/index.html 1 -
+/column_render.html 3 -
+/bin/JS/Page/%3C 1 -
+/cms/wp-includes/wlwmanifest.xml 19 -
+/plug-ins/dom_sort.html 6 -
+/styling/foundation.html 4 -
+/null_data_source.html 6 -
+/admin/fileman/index.html 1 -
+/html5-data-attributes.html 5 -
+/contracts.php 3 -
+/locations.php 1 -
+/v2/_catalog 2 -
+/admin.html 1 -
+/Home.php 2 -
+/ads.txt 34 -
+/time_sheet.php 1 -
+/js/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/media/microphone.jpg 2 -
+/financials.php 4 -
+/vendor/laravel/.env 1 -
+//config/.env 1 -
+/blog/wp-includes/wlwmanifest.xml 19 -
+/connections.php 1 -
+/dede/login.php 1 -
+//prod/.env 1 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/repair.php 3 -
+/server_side/select_rows.html 4 -
+/api/search 2 -
+/OLD/wp-admin/ 1 http://avexeva.com/
+/plug-ins/index.html 1 -
+/routes.php 6 -
+/scroll_y_dynamic.html 7 -
+/public/.env 1 -
+/scripts/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/events_live.html 1 -
+/basic_init/scroll_y_dynamic.html 4 -
+/server_side/index.html 8 -
+/js/fckeditor/editor/filemanager/connectors/test.html 1 -
+/wp-content/plugins/fckeditor-for-wordpress-plugin/filemanager/upload/php/upload.php 1 -
+/ids.html 7 -
+/store.php 1 -
+/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+//core/.env 1 -
+/advanced_init/footer_callback.html 5 -
+/styling/row-border.html 1 -
+/.vscode/sftp.json 1 -
+/index.php 3 http://avexeva.com/index.php
+/ticket.php 1 -
+/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/media/tea.jpg 2 -
+/config.json 2 -
+/wp1/wp-includes/wlwmanifest.xml 18 -
+//public/.env 1 -
+/2015/wp-includes/wlwmanifest.xml 6 -
+/media/wp-includes/wlwmanifest.xml 9 -
+/collections/all.atom 1 http://www.gumbo.com/
+/atlas.php 34 -
+/2019/wp-includes/wlwmanifest.xml 12 -
+/dumper/sxd.js 1 -
+/media/massage.jpg 2 -
+/html5-data-options.html 4 -
+/bin/JS/Event/loadDimensions.js 1 -
+/e/Picture/%3C 4 -
+/due_violations.php 4 -
+/SypexDumper/sxd/sxd.js 1 -
+/purchasing.php 1 -
+/basic_init/index.html 6 -
+/job_item_search.php 5 -
+/state_save.html 1 -
+/custom_data_flat.html 6 -
+//laravel/.env 1 -
+/wordpress/wp-login.php 12 -
+/advanced_init/language_file.html 1 -
+/login.php 3 -
+/jobs_no_supervisor.php 6 -
+/api/form.html 5 -
+/images/ 1 -
+/sorting_manual.html 5 -
+/select_rows.html 2 -
+/units.php 5 -
+/blob/.env 1 -
+/media/jacket.jpg 5 -
+/fckeditor/editor/filemanager/connectors/test.html 1 -
+/styling/stripe.html 7 -
+/bin/css/dom/header.css 1 -
+/media/box.jpg 2 -
+/range_filtering.html 4 -
+/login.asp 1 -
+/row_details.html 1 -
+/styling/jqueryUI.html 2 -
+/%3C 3 -
+/js/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/feed 2 -
+/a/XIO/Language/JAVASCRIPT/GUI/VIEW.js 1 http://avexeva.com/index.php
+/apple-touch-icon.png 4 -
+/media/tree.jpg 3 -
+/adm 1 -
+/plug-ins/api.html 1 -
+/administrator/fileman/index.html 1 -
+/home.php 6 -
+/media/cookbook.jpg 5 -
+/index.rdf 2 -
+/tickets.php 3 -
+/dispatch.php 7 -
+/admin/sxd/sxd.js 1 -
+/wp/wp-login.php 12 -
+/product_types.php 5 -
+/defer_loading.html 5 -
+/sites/.env 1 -
+/wordpress/wp-includes/wlwmanifest.xml 19 -
+/.git/config 3 -
+/backup/sxd/sxd.js 1 -
+/index.xml 2 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/orthogonal-data.html 8 -
+/regex.html 1 -
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/basic_init/state_save.html 2 -
+/api/api_in_init.html 2 -
+/media/crisp.jpg 3 -
+/shop/.env 1 -
+/hover.html 5 -
+/media/js/dataTables.material.js 1 -
+/laravel/.env 2 -
+/backup/wp-admin/ 1 http://avexeva.com/
+/media/box.png 5 -
+/basic_init/comma-decimal.html 3 -
+//api/.env 1 -
+/admin/login.html 1 -
+/objects_subarrays.html 2 -
+/images/a.png 2 -
+/index.rss 2 -
+/media/js/dataTables.bootstrap4.js 6 -
+/scripts/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+/post.html 8 -
+/basic_init 2 -
+/api/add_row.html 2 -
+/admin/admin.html 1 -
+/media/js/dataTables.bootstrap.js 4 -
+/server-status 2 -
+/rss.xml 2 -
+/wp-includes/wlwmanifest.xml 20 -
+/server_side/jsonp.html 8 -
+/directory.php 4 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-admin/ 3 http://avexeva.com/
+/test/.env 1 -
+/basic_init/scroll_x.html 1 -
+/media/corn.jfif 4 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/advanced_init/object_dom_read.html 6 -
+/feed/ 2 http://www.gumbo.com/
+/2017/wp-includes/wlwmanifest.xml 6 -
+/styling/bootstrap.html 1 -
+/jsonp.html 6 -
+/app/.env 1 -
+/feeds 2 -
+/footer_callback.html 5 -
+/media/mystery.jpg 1 -
+/media/css/dataTables.material.css 1 -
+/media/cryptocurrencies.jpg 4 -
+//admin/.env 1 -
+/media/matrix.jpg 4 -
+/scroll_y.html 4 -
+/media/buddha.jpg 3 -
+/media/tupperware.jpg 2 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/media/css/dataTables.jqueryui.css 1 -
+/settings.php 1 -
+/bin/CSS/Page/%3C 1 -
+/editor/filemanager/upload/php/upload.php 1 -
+/administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/styling/hover.html 9 -
+/server_side.html 1 -
+/highlight.html 5 -
+/telescope/requests 2 -
+/data_sources/js_array.html 7 -
+/advanced_init/complex_header.html 3 -
+/sites/all/modules/fckeditor/fckeditor/editor/filemanager/connectors/test.html 1 -
+/legal.php 1 -
+/ftpsync.settings 1 -
+/dump/sxd.js 1 -
+//beta/.env 1 -
+/wp/wp-admin/ 1 http://avexeva.com/
+/plugins/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/maintenance.php 6 -
+/sitemap.xml 1 -
+/data_sources/ajax.html 1 -
+/multiple_tables.html 5 -
+/custom_data_property.html 9 -
+/application/configs/application.ini 1 -
+/multi_filter.html 4 -
+/customers.php 4 -
+/document.location.href=%27work.php%27 5 -
+/administrator/FCKeditor/editor/filemanager/upload/php/upload.php 1 -
+//kyc/.env 1 -
+/no-classes.html 2 -
+/add_row.html 3 -
+/admin/ 5 -
+/plug-ins/sorting_manual.html 4 -
+/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/modules/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/violations.php 3 -
+/administrator/help/en-GB/toc.json 1 -
+/ajax/custom_data_flat.html 4 -
+/admin/fckeditor/editor/filemanager/upload/php/upload.php 1 -
+/table_sorting.html 3 -
+/defer_render.html 4 -
+/sxd/sxd.js 1 -
+/media/chocolates.jpg 3 -
+/.ftpconfig 1 -
+/advanced_init/index.html 6 -
+/server_side 1 -
+/ajax/objects_subarrays.html 4 -
+/material.html 2 -
+/humans.txt 2 -
+/shop/wp-includes/wlwmanifest.xml 18 -
+/.remote-sync.json 1 -
+/system/.env 1 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/server_side/simple.html 5 -
+/advanced_init/sort_direction_control.html 6 -
+/finances.php 1 -
+/styling/index.html 1 -
+/api/.env 1 -
+/2020/wp-includes/wlwmanifest.xml 9 -
+/2016/wp-includes/wlwmanifest.xml 6 -
+//.env 1 -
+/.well-known/security.txt 1 -
+/js/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/media/cornstar.jfif 2 -
+/custom_vars.html 4 -
+/media/homedepot.png 4 -
+/dom_sort.html 7 -
+/basic_init/alt_pagination.html 7 -
+/api/row_details.html 7 -
+/active_tickets.php 4 -
+/ajax/defer_render.html 1 -
+/scroll_x.html 8 -
+/plug-ins/sorting_auto.html 3 -
+/info.php 2 -
+/insured_companies.php 5 -
+/advanced_init/defaults.html 1 -
+/old/wp-admin/ 1 http://avexeva.com/
+/birthdays.php 1 -
+/'+data+' 1 -
+/advanced_init/row_callback.html 7 -
+/api/counter_columns.html 4 -
+/media/skull.jpg 3 -
+/test/wp-includes/wlwmanifest.xml 18 -
+/idx_config/ 2 -
+/dom_multiple_elements.html 5 -
+/styling/no-classes.html 1 -
+/modernization_tracker.php 7 -
+/outstanding_jobs.php 5 -
+/collector.php 3 -
+/admin/login 1 -
+/uikit.html 3 -
+/archive.php 5 -
+/media/bestbuy.jpg 3 -
+/basic_init/language.html 2 -
+/media/texas.jpg 4 -
+/a/XIO/Language/JAVASCRIPT/FUNCTION/swipeDetect.js 1 http://avexeva.com/index.php
+/ajax/deep.html 1 -
+/site/wp-includes/wlwmanifest.xml 19 -
+/media/catan.jpg 5 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/advanced_init/dom_multiple_elements.html 1 -
+/cell-border.html 2 -
+/%27%2Bdata%2B%27 5 -
+/ 18 -
+/admin/.env 1 -
+/ajax 7 -
+/row_callback.html 5 -
+/admin.htm 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 232
+45.227.253.206 2183 7381 264695521 20210510051800
+185.119.81.99 404 404 43793381 20210530121206
+176.104.174.249 85 85 9068458 20210517155254
+188.119.124.225 51 51 5455662 20210515145331
+162.0.213.54 30 30 381014 20210517211101
+69.160.160.51 26 32 2820897 20210521120921
+100.12.254.212 22 67 2923169 20210504142208
+96.232.156.174 20 89 2222761 20210528074023
+162.0.239.77 20 20 254010 20210521233016
+77.247.178.183 19 19 2058713 20210507230440
+181.177.111.159 19 19 2058715 20210528225315
+35.175.200.245 12 12 1283685 20210509071127
+144.217.135.195 12 12 1288882 20210502202934
+192.210.177.190 12 12 1285108 20210520194703
+20.36.46.172 12 12 1283684 20210521134531
+23.227.202.173 10 10 127005 20210529055009
+149.210.173.159 10 10 1069738 20210508232558
+51.254.183.120 10 10 1067128 20210529051330
+198.46.201.133 9 9 957998 20210502183237
+46.101.80.192 7 7 779418 20210528140742
+89.46.62.114 6 6 640054 20210523075417
+45.141.235.74 5 5 532649 20210508011552
+13.75.165.97 5 5 534869 20210526042234
+181.51.177.146 5 5 533587 20210516194506
+3.227.3.123 4 4 427065 20210520094902
+34.95.60.229 2 2 277429 20210511004211
+54.189.46.110 1 1 106973 20210508113622
+34.216.222.177 1 1 106974 20210524124236
+52.30.16.188 1 1 106974 20210510045825
+185.141.34.21 1 1 106974 20210510205827
+34.241.105.246 1 1 106974 20210512181207
+217.164.150.66 1 1 106465 20210530135221
+92.255.198.132 2 2 213948 20210515192650
+68.3.78.181 1 1 106974 20210527233655
+208.38.250.128 1 1 106973 20210511171325
+54.194.229.134 1 1 106974 20210518110142
+54.189.230.128 2 2 213946 20210531212459
+177.73.107.110 1 1 106973 20210509032050
+217.12.221.2 2 2 213947 20210507193846
+54.238.183.15 1 1 106974 20210501202419
+65.92.33.41 1 1 107744 20210514162233
+54.244.166.191 1 1 106972 20210531110400
+176.59.10.10 1 7 113614 20210505163718
+52.12.72.44 1 1 106974 20210519114756
+176.111.174.75 2 2 243984 20210521042608
+34.208.59.205 1 1 106974 20210511112501
+192.151.155.122 1 1 106974 20210511133144
+44.242.167.21 1 1 106974 20210508115516
+92.118.160.57 1 1 106973 20210522092737
+81.69.191.124 0 1 1739 
+5.188.62.214 2 2 213947 20210507152524
+69.12.72.188 1 1 106974 20210508113136
+52.213.108.51 1 1 106974 20210504172350
+34.244.89.234 1 1 106974 20210513182612
+34.82.71.185 1 1 0 20210529100449
+51.77.52.160 2 2 213947 20210531084250
+23.100.232.233 2 14 226376 20210526221152
+176.104.174.254 2 2 213117 20210516011138
+46.72.114.120 1 7 114530 20210523043543
+34.210.84.172 1 1 106974 20210524122230
+128.31.0.13 1 1 106974 20210512003304
+93.158.91.229 1 1 106973 20210505062301
+34.220.26.90 1 1 106974 20210527111505
+34.243.247.168 1 1 106974 20210521174419
+185.122.170.128 4 4 426328 20210527004853
+116.203.238.25 2 2 213947 20210528140703
+185.213.155.163 1 1 106974 20210531211204
+34.209.152.18 1 1 106974 20210521114730
+34.213.156.140 2 2 213948 20210508120336
+95.181.149.231 1 1 106466 20210516071052
+34.214.180.136 1 1 106974 20210523114526
+35.178.16.1 1 1 106974 20210517055238
+20.62.112.113 3 3 320920 20210512074050
+35.177.6.16 1 1 106974 20210512071618
+219.138.163.116 1 1 106973 20210511040130
+176.10.104.240 1 1 106974 20210512003305
+185.250.39.145 1 1 106973 20210520040830
+192.255.126.38 1 1 106974 20210523162709
+118.67.200.197 1 1 106974 20210502042415
+34.220.39.114 1 1 106974 20210515111612
+34.217.34.27 1 1 106974 20210531115142
+34.215.253.209 1 1 106973 20210511112520
+82.145.215.206 4 4 427878 20210509133815
+34.217.82.238 1 1 106974 20210526114858
+51.104.43.0 1 1 106512 20210523035236
+54.248.33.53 1 1 106974 20210504091916
+51.91.218.19 1 7 113352 20210502202952
+100.21.218.158 1 1 106974 20210511035548
+13.236.114.230 1 1 106973 20210510132633
+35.166.212.92 1 1 106974 20210522115956
+13.48.53.51 1 1 106973 20210514233443
+34.220.25.86 1 1 106974 20210510111139
+54.201.160.168 1 1 106973 20210524123212
+190.254.134.118 1 7 113352 20210510084327
+54.184.162.254 1 1 106974 20210526112705
+34.254.146.17 1 1 106974 20210511181555
+34.221.167.2 1 1 106974 20210515111751
+54.78.164.51 2 2 213930 20210519213238
+35.230.75.40 1 1 0 20210529100449
+54.245.192.208 2 2 213945 20210529120106
+185.85.162.242 1 1 106974 20210517175304
+62.210.180.135 3 3 320921 20210508181614
+34.247.92.121 2 2 213948 20210507183152
+34.236.18.197 1 1 106974 20210527085700
+18.236.249.150 1 1 106973 20210520114046
+34.123.98.59 1 1 106974 20210515084104
+34.244.200.221 1 1 106974 20210527182649
+54.213.20.162 1 1 106974 20210511205452
+89.179.119.216 1 1 106974 20210525154930
+3.14.254.70 1 1 106466 20210516190000
+54.185.183.157 1 1 106973 20210510111108
+18.237.92.222 1 1 106973 20210526115006
+63.35.171.202 1 1 106973 20210526174609
+54.213.165.102 1 1 106974 20210504112325
+34.213.163.139 1 1 106974 20210531110502
+54.185.77.187 1 1 106974 20210523115529
+92.118.160.37 1 1 106973 20210528165702
+167.99.127.156 1 1 106972 20210521120918
+109.234.34.129 1 1 138745 20210528134759
+34.245.109.188 1 1 106973 20210504070826
+52.52.190.187 1 1 106974 20210529090515
+51.195.234.11 1 1 106972 20210521133608
+3.250.153.250 1 1 106974 20210507173241
+3.249.49.218 1 1 106974 20210531174646
+34.221.69.109 1 1 106973 20210517111852
+pool-100-12-254-212.nycmny.fios.verizon.net 0 1 228 
+3.95.156.96 1 1 106974 20210509150725
+18.237.175.243 1 1 106974 20210522184607
+34.217.145.232 1 1 106974 20210524122228
+161.35.135.198 1 1 106973 20210529012803
+64.43.90.245 1 1 0 20210520040830
+34.214.159.223 1 1 106974 20210504112251
+54.245.176.184 1 1 106974 20210520112924
+34.211.120.204 1 1 106973 20210526112934
+185.220.101.201 1 1 106974 20210512003306
+18.237.216.175 1 1 106973 20210529120027
+54.194.193.46 1 1 106974 20210514172856
+52.35.222.153 1 1 106974 20210501114747
+34.208.177.122 1 1 106973 20210520114240
+185.141.34.64 1 1 106974 20210504205053
+54.229.113.164 1 1 106974 20210520173046
+58.53.128.234 2 2 213948 20210522101234
+51.75.232.246 4 4 427018 20210503005101
+31.171.152.133 1 1 106974 20210525201326
+34.252.163.133 1 1 106974 20210517175131
+193.200.151.103 1 1 106973 20210514154024
+172.104.4.191 1 1 106973 20210512223819
+63.33.45.248 1 1 106974 20210519171138
+93.168.201.91 2 2 213019 20210507085504
+54.201.97.136 1 1 106974 20210526121521
+182.54.239.171 1 1 0 20210519060632
+54.203.148.246 1 1 106974 20210504110805
+161.69.99.11 3 3 320594 20210516055538
+221.2.155.200 4 4 427896 20210509002436
+134.119.221.30 3 3 320921 20210525013703
+78.95.99.198 2 2 213068 20210504170140
+2.57.169.10 3 3 320922 20210515013603
+199.244.88.132 2 2 0 20210531071559
+52.192.73.251 1 1 106974 20210504103455
+34.236.202.207 1 1 106974 20210507001729
+167.99.58.100 1 1 106974 20210503123853
+159.89.37.44 1 1 0 20210529010330
+91.76.205.225 1 1 106973 20210501115550
+84.17.43.115 2 2 212536 20210510175838
+194.147.142.120 2 2 213118 20210523105210
+34.246.223.63 1 1 106974 20210528180319
+34.245.184.217 1 1 106974 20210524182629
+93.158.90.147 1 1 106974 20210514043140
+52.192.79.166 4 4 427895 20210506144033
+34.223.251.54 1 1 106974 20210501113604
+74.208.178.36 1 1 106974 20210512072203
+159.65.179.109 1 1 106974 20210503174335
+178.214.244.177 1 7 114530 20210513230659
+3.92.202.187 1 1 106974 20210519084347
+64.246.165.140 1 1 106974 20210524060839
+104.248.224.120 3 3 320922 20210521110735
+62.4.14.198 1 1 106973 20210501051055
+54.191.15.127 1 1 106974 20210522114447
+35.181.112.20 1 1 106974 20210507102133
+34.223.224.182 1 1 106974 20210517111625
+178.20.55.16 1 1 106973 20210512003308
+34.220.156.139 1 1 106974 20210525112823
+54.213.118.81 1 1 106973 20210529113734
+5.101.157.136 1 1 106974 20210529215321
+158.175.164.89 1 1 106974 20210508145021
+185.205.194.250 1 1 106974 20210519060633
+59.175.144.15 1 1 106974 20210527151458
+52.26.248.202 1 1 106974 20210530160822
+52.13.91.94 1 1 106973 20210525112532
+54.184.215.62 1 1 106974 20210518112634
+34.219.215.255 1 1 106974 20210527111616
+34.211.11.53 1 1 106974 20210508115540
+34.220.207.152 1 1 106974 20210521122622
+54.195.130.233 1 1 106973 20210510183057
+138.199.36.209 1 1 106974 20210524044845
+54.194.103.183 1 1 106973 20210518171600
+69.164.220.111 1 1 106974 20210512223817
+52.16.253.34 1 1 106973 20210503173047
+23.108.53.123 1 1 106973 20210505203737
+134.122.6.7 1 1 0 20210529014148
+185.163.46.149 1 1 106466 20210522185058
+18.194.196.202 2 2 213948 20210527024118
+5.227.3.15 1 7 114530 20210525050405
+54.245.38.128 1 1 106974 20210516112937
+168.119.146.178 3 3 320922 20210526100935
+54.229.179.21 1 1 106974 20210506171228
+212.83.146.233 2 2 213948 20210501052054
+185.213.155.161 2 2 218241 20210507082916
+92.118.160.1 1 1 106974 20210501000700
+193.111.199.61 2 2 213948 20210516041358
+44.234.116.217 1 1 106973 20210520115116
+34.212.61.26 1 1 106974 20210508113540
+34.244.237.180 1 1 106973 20210525181512
+45.32.33.208 3 3 320921 20210524135259
+64.246.161.190 1 1 106973 20210504051138
+176.106.242.148 1 1 130089 20210527043959
+35.166.71.193 1 1 106973 20210518111820
+5.194.226.210 1 7 113352 20210524095002
+3.250.54.173 1 1 106974 20210527182241
+54.202.223.18 1 1 106974 20210520145642
+52.65.15.196 1 1 106974 20210520020140
+54.190.80.54 2 2 213948 20210525140112
+80.80.168.154 1 1 106974 20210519053210
+43.231.20.251 1 1 106534 20210501091207
+5.188.62.76 1 1 106974 20210526032217
+176.226.153.135 1 7 114530 20210521124801
+51.89.227.251 1 1 106974 20210508121114
+35.163.253.56 1 1 106956 20210531120204
+192.99.19.38 1 1 106974 20210516123617
+91.76.250.122 1 1 106974 20210502065419
+192.99.39.113 2 2 213947 20210502184853
+3.250.204.229 1 1 106974 20210505173812
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210501 10 11 1071037 9
+20210502 31 37 3321668 7
+20210503 7 7 747939 4
+20210504 35 81 4313176 14
+20210505 5 11 541507 5
+20210506 8 8 748817 4
+20210507 38 38 4094564 13
+20210508 25 25 2672126 14
+20210509 117 117 12659911 7
+20210510 2192 7396 265663250 9
+20210511 112 112 12188539 11
+20210512 13 19 1396708 11
+20210513 3 9 328477 3
+20210514 5 5 535638 5
+20210515 60 60 6417597 7
+20210516 16 16 1708126 8
+20210517 119 119 9878197 10
+20210518 11 35 1205076 5
+20210519 10 10 962747 8
+20210520 25 25 2567961 11
+20210521 67 79 5358946 12
+20210522 17 53 1862595 7
+20210523 13 19 1395136 8
+20210524 114 120 12345392 12
+20210525 11 17 1184267 8
+20210526 12 18 1290063 10
+20210527 13 13 1412209 10
+20210528 33 42 3629091 7
+20210529 26 26 1409404 12
+20210530 103 103 11161788 3
+20210531 9 9 855770 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30s-2mn 7
+5mn-15mn 3
+15mn-30mn 2
+30mn-1h 2
+2mn-5mn 7
+0s-30s 241
+1h+ 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 11
+/index.php 2855 330945485 34 50
+/ 351 36691870 229 207
+/a/XIO/Language/ 6 12084 0 0
+//a/XIO/Language/JAVASCRIPT/FUNCTION/INDEX.php 6 468 0 0
+/a/ 6 12798 0 0
+/a/XIO/Language/JAVASCRIPT/PAGE/ 6 5100 0 6
+/a/XIO/Language/JAVASCRIPT/GUI/ 6 7224 0 0
+/a/XIO/ 6 14142 0 0
+/a/XIO/Language/JAVASCRIPT/ 6 11250 0 0
+/a/XIO/Language/CSS/ 6 13224 0 0
+/a/XIO/Language/JAVASCRIPT/FUNCTION/ 6 43896 0 0
+END_SIDER

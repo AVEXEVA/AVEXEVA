@@ -1,0 +1,6 @@
+CREATE TABLE Catalyst (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  Description TEXT,
+  CONSTRAINT PK_Catalyst_ID PRIMARY KEY (ID)
+);

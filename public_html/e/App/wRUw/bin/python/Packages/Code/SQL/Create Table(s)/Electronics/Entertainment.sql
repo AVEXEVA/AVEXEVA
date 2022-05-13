@@ -1,0 +1,6 @@
+CREATE TABLE Television (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Hardware INT NOT NULL,
+  CONSTRAINT PK_Television_ID PRIMARY KEY (ID),
+  CONSTRAINT PK_Telvision_Hardware FOREIGN KEY (Hardware) REFERENCES Hardware(ID)
+);

@@ -1,0 +1,7 @@
+CREATE TABLE Trait (
+  `ID` INT NOT NULL AUTO_INCREMENT,
+  `Name` VARCHAR(256),
+  `File` INT,
+  CONSTRAINT `PK_Trait_ID`    PRIMARY KEY (`ID`),
+  CONSTRAINT `FK_Trait_File`  FOREIGN KEY (`File`) REFERENCES `File`(`ID`)
+);

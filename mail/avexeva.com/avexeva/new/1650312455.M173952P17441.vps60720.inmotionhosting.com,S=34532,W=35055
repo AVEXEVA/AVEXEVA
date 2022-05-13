@@ -1,0 +1,523 @@
+Return-Path: <bounce@email.bethesda.net>
+Delivered-To: avexeva@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id kNOICQfFXWIhRAAABSAGJw
+	(envelope-from <bounce@email.bethesda.net>)
+	for <avexeva@avexeva.com>; Mon, 18 Apr 2022 16:07:35 -0400
+Return-path: <bounce@email.bethesda.net>
+Envelope-to: avexeva@avexeva.com
+Delivery-date: Mon, 18 Apr 2022 16:07:35 -0400
+Received: from r3.email.bethesda.net ([130.248.182.3]:49612)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <bounce@email.bethesda.net>)
+	id 1ngXeo-0004Wc-Bo
+	for avexeva@avexeva.com;
+	Mon, 18 Apr 2022 16:07:35 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=email.bethesda.net;
+	s=zenimaxmedia; t=1650312399;
+	bh=XshePoPcinAPQmFZR7ArsbTR32nVkxICnm1z1NjRJkk=;
+	h=From:Date:Subject:To:MIME-Version:Message-ID:Content-Type;
+	b=skz8Iv7zqdkrm76dRcaGTi8bHjx8c13+9uTv/ZeqaSVjdV607Qw7b3ssekc6v/SR+
+	 o1nuJZ0QUEKVImAz4PgC1Dr/LfFhvANbqJdW9ASiChn/i3DnpbTMlUryB464wdnMdm
+	 aPARLhqTjmZuXPJynSENExaDDGjKsVAZBlTY1ZmvMysLayIgEaBvvO9BoAo3cbo0mg
+	 v6J8MT1FVdOIHQiVKkf+SlN4KffpRVpX4OUYR+46zDRLoOgM1X87tQADBfwbbyIfWa
+	 MzYipNDWOaHZVJdytxRqKqqEfNwzKk3Lxt6aiLpzHDsrpd7a+ckpqb3UxEk1RChQu4
+	 x9zMl3T7WqycQ==
+X-MSFBL: S1xblp0WDdB0RKSZokJYq+ju/tpu9GGU27n1U49NH4k=|eyJnIjoiZGVmYXVsdF8
+	xZDZlYjhhZi0xYzQzLTRiZWMtODdiNi0wMThkZTIzYjVhM2YiLCJyY3B0X21ldGE
+	iOnsgImluIjogInplbmltYXhtZWRpYV9ta3RfcHJvZDEiLCAiciI6ICJhdmV4ZXZ
+	hQGF2ZXhldmEuY29tIiwgIm0iOiAiNzExNjQwOTciLCAiZCI6ICIxMTgyMTgxMDU
+	iLCAiaSI6ICJFN0UxMjMzRTVGOTczNTFGMEE0OTVGRDRAQWRvYmVPcmciIH0sInI
+	iOiJhdmV4ZXZhQGF2ZXhldmEuY29tIiwiYiI6ImF3c196ZW5pbWF4bWVkaWFfcHJ
+	vZDFfZGVmYXVsdF9tb21lbnR1bTQzX210YTAwMl8xMzAuMjQ4LjE4Mi4zIn0=
+Received: from [44.240.181.144] ([44.240.181.144:36839] helo=r2.email.bethesda.net)
+	by momentum43.or1.cpt.adobe.net (envelope-from <bounce@email.bethesda.net>)
+	(ecelerity 4.2.38.62370 r(:)) with ESMTP
+	id 6B/C0-26516-FC4CD526; Mon, 18 Apr 2022 13:06:39 -0700
+From: "Fallout 76" <no-reply@email.bethesda.net>
+Date: Mon, 18 Apr 2022 16:06:38 -0400
+Subject: Migrate your Bethesda Launcher Account to Steam Starting April 27
+To: <avexeva@avexeva.com>
+Reply-To: "No-Reply" <mktg-no-reply@bethesda.net>
+MIME-Version: 1.0
+X-mailer: nlserver, Build 7.0.0.10634
+Message-ID: <AC700000000043DE0C1070BDD79zenimaxmedia_mkt_prod1@email.bethesda.net>
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_119_B66AECCA.B66AECCA"
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Continue playing Fallout 76 on PC. Migrate starting April
+   27 We’re saying goodbye to the Bethesda Launcher this year and transitioning
+    our PC Bethesda.net community to Steam. Learn more details and [...] 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: bethesda.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.5 KAM_NUMSUBJECT         Subject ends in numbers excluding current years
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_119_B66AECCA.B66AECCA
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Continue playing Fallout 76 on PC.          
+Migrate starting April 27
+We=E2=80=99re saying goodbye to the Bethesda Launcher this year and transit=
+ioning our PC Bethesda.net community to Steam. Learn more details and dates=
+=C2=A0 for the account migration progress so that you can prepare to jump o=
+ver to Steam as soon as we open up on April 27.
+        
+          LEARN MORE
+        
+                          
+    
+
+
+  <a href=3D"https://t1.email.bethesda.net/lp/LP28=3Fpkey=3D%40sTbHZ_iD2Ekp=
+WYRJMjhP3WtU8iE8IGypb7i7AFfhFxnw9yAkkXUEpgWGWeGvpnQ4JNkmj24Gxa8GwgN6__77e6J=
+oKhK744gV_xpqu7tBU26KLvXTMFmLl2PRrdALd4vsL8rjgA" _label=3D"Opt-out link" _t=
+ype=3D"optout">Unsubscribe</a>
+
+
+------=_NextPart_119_B66AECCA.B66AECCA
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html style=3D""><head><meta name=3D"content-version" content=3D"3.3.9"><ba=
+se href=3D"https://t1.email.bethesda.net"/><meta name=3D"x-apple-disable-me=
+ssage-reformatting"><meta name=3D"viewport" content=3D"width=3Ddevice-width=
+,initial-scale=3D1.0"><style data-name=3D"default" type=3D"text/css">body{f=
+ont-family:sans-serif;margin:0 !important;padding:0 !important;background:#=
+FFFFFF;min-width:750px;}td{padding:0;border-collapse:collapse;}th{font-weig=
+ht:normal;text-align:left;}.acr-fragment,.acr-component{padding:0;}.divider=
+-container{padding:5px 0;font-size:0px;}.text-container p{margin:0;}.image-=
+container{line-height:0;}.acr-tmp-component img,.image-container img{height=
+:auto;}.button-container a{text-decoration:none;color:inherit;}.acr-structu=
+re{background-size:auto;background-repeat:no-repeat;}.structure__table{tabl=
+e-layout:fixed;margin:0 auto;border-spacing:0;background-size:auto;backgrou=
+nd-repeat:no-repeat;mso-table-lspace:0pt !important;mso-table-rspace:0pt !i=
+mportant;}.colspan1,.colspan2,.colspan3,.colspan4,.colspan33,.colspan66{bac=
+kground-size:auto;background-repeat:no-repeat;box-sizing:border-box;}.colsp=
+an1{width:100%;}.colspan2{width:50%;}.colspan3{width:75%;}.colspan4{width:2=
+5%;}.colspan33{width:33%;}.colspan66{width:66%;}.component-social-container=
+{width:100%;text-align:center;}span.preheader{display:none !important;visib=
+ility:hidden;mso-hide:all;opacity:0;}.ExternalClass{width:100%;}.ExternalCl=
+ass,.ExternalClass p,.ExternalClass span,.ExternalClass font,.ExternalClass=
+ td,.ExternalClass div{line-height:100%;}h1,h2,h3,h4,h5{display:block;font-=
+weight:bold;}h1{font-size:24px;margin:19px 0 19px 0;}h2{font-size:24px;marg=
+in:20px 0 20px 0;}h3{font-size:19px;margin:19px 0 19px 0;}h4{font-size:16px=
+;margin:21px 0 21px 0;}h5{font-size:13px;margin:22px 0 22px 0;}h6{font-size=
+:11px;margin:25px 0 25px 0;}.mso-is-desktop-hidden,.mso-is-desktop-hidden t=
+able{mso-hide:all;}@media screen and (min-width: 500px){.is-desktop-hidden{=
+display:none !important;}}</style><style data-name=3D"custom" type=3D"text/=
+css">body{min-width:600px;}#acr-39320184,body{background-color:rgb(35,35,35=
+)!important;padding-top:0px!important;padding-bottom:0px!important;}</style=
+><style data-name=3D"media-default-max-width-500px" type=3D"text/css">@medi=
+a screen and (max-width: 500px){body{width:100% !important;min-width:0px !i=
+mportant;}.structure__table{width:100%;}.colspan1,.colspan2,.colspan3,.cols=
+pan4,.colspan33,.colspan66,.colspan-n{display:block !important;min-width:10=
+0%;}.container-small-size .colspan1,.container-small-size .colspan2,.contai=
+ner-small-size .colspan3,.container-small-size .colspan4,.container-small-s=
+ize .colspan33,.container-small-size .colspan66,.container-small-size .cols=
+pan-n{display:table-cell !important;width:100% !important;}.is-mobile-hidde=
+n{display:none !important;}}</style><style data-name=3D"media-custom-max-wi=
+dth-500px" type=3D"text/css">@media screen and (max-width: 500px){body{min-=
+width:0px;}#acr-56838272 th{display:table-cell !important;}#acr-63571881{pa=
+dding-top:0px!important;width:100%!important;background-color:rgb(0,0,0)!im=
+portant;}#acr-49020517 th{display:table-cell !important;}#acr-33299728 th{d=
+isplay:table-cell !important;}#acr-57925305{margin-bottom:5px!important;mar=
+gin-top:0px!important;}#acr-74495095{margin-top:0px!important;margin-bottom=
+:20px!important;margin-left:10px!important;margin-right:10px!important;padd=
+ing-left:13px!important;padding-right:13px!important;}#acr-80075938 th{disp=
+lay:table-cell !important;}#acr-49203722{margin-left:0px!important;margin-b=
+ottom:10px!important;margin-top:25px!important;}#acr-8990665{color:rgb(245,=
+207,17)!important;font-size:30px!important;}#acr-57587169{padding-left:0px!=
+important;padding-right:0px!important;margin-left:5px!important;margin-righ=
+t:5px!important;margin-top:0px!important;padding-bottom:5px!important;paddi=
+ng-top:10px!important;color:rgb(255,175,0)!important;}#acr-43156553{border-=
+width:0px!important;border-style:none!important;background-color:rgb(245,20=
+7,17)!important;margin-bottom:25px!important;}#acr-17705783{font-weight:700=
+!important;color:rgb(255, 255, 255)!important;}#acr-49483051{font-weight:no=
+rmal!important;color:rgb(255,255,255)!important;}#acr-95032823{font-weight:=
+700!important;color:rgb(255,255,255)!important;}#acr-67889785{width:40%!imp=
+ortant;}#acr-32063488{width:42%!important;}#acr-67376634{margin-bottom:15px=
+!important;}#acr-11433752{margin-bottom:25px!important;}#acr-35633241{margi=
+n-top:15px!important;}#acr-751831 th{display:table-cell !important;}}</styl=
+e><style>
+      .zen-address, .zen-address a, .zen-unsub-link, .zen-unsub-link a {
+        color: #b7b09d;
+        font-family: inherit;
+        font-size: 12px;
+        text-align: center;
+      }
+      a[x-apple-data-detectors], u + #body a, #MessageViewBody a {
+        color: inherit !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+        text-decoration: inherit !important,
+      }
+    </style><!--[if gte mso 9]><style acrite-mso-css=3D"true">.image-contai=
+ner div {  display: block;}.structure__table td {  padding: 0;  border: non=
+e;}.button-container {  border: none !important;  padding: 0 !important;  m=
+argin: 0 !important;  line-height: normal !important;}.acr-structure {  mar=
+gin: 0 !important;}.acr-component {  margin: 0 !important;}.acr-fragment { =
+ margin: 0 !important;}.colspan1, .colspan2, .colspan3, .colspan4, .colspan=
+33, .colspan66 {  box-sizing: border-box !important;}</style><![endif]--></=
+head><body class=3D"" id=3D"acr-39320184"><span style=3D"display:none !impo=
+rtant;visibility:hidden;mso-hide:all;opacity:0;" class=3D"acr-preheader">Co=
+ntinue playing Fallout 76 on PC.</span><!--[if mso]><table cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"background=
+-color: rgb(35, 35, 35);"><![endif]--><div class=3D"acr-container">  <div c=
+lass=3D"acr-structure" data-structure-id=3D"1-1-column" data-structure-name=
+=3D"richtext.structure_1_1_column"> <table class=3D"structure__table" width=
+=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center">=
+ <tbody> <tr> <th class=3D"colspan1" style=3D"padding-top:15px;padding-bott=
+om:20px;"><div class=3D"acr-fragment acr-component image-container" data-co=
+mponent-id=3D"image" style=3D"width:100%;text-align:center;margin-top:0px;m=
+argin-bottom:0px;" id=3D"acr-35633241" data-contenteditable=3D"false"><!--[=
+if mso]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%"><tr><td style=3D"padding-top: 0px; text-align: center; padding-bottom: =
+0px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%=
+"><tr><td style=3D"text-align: center;"><![endif]--><img src=3D"https://res=
+1.email.bethesda.net/res/zenimaxmedia_mkt_prod1/783b0bf68536fdb61a7794337e6=
+40824f63b5bf5b744c458b0c96a81334a2bfe.png" style=3D"width:44%;height:auto;"=
+ width=3D"264" height=3D"74"><!--[if mso]></td></tr></table></td></tr></tab=
+le><![endif]--></div></th> </tr> </tbody> </table> </div><!--[if mso]><tabl=
+e cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" class=3D"=
+" style=3D"mso-hide:"><tr><td style=3D"null"><![endif]--><div class=3D"acr-=
+structure" data-structure-id=3D"1-1-column" data-structure-name=3D"richtext=
+.structure_1_1_column" style=3D"width:100%;background-position:initial;back=
+ground-repeat:repeat;background-size:auto;"><!--[if mso]><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D""><![=
+endif]--><table class=3D"structure__table" style=3D"border-width:0px;border=
+-style:none;" width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0=
+" align=3D"center"><tbody><tr><th class=3D"colspan1" style=3D"background-re=
+peat:repeat;background-size:cover;background-position:center center;width:1=
+00%;border-width:0px;border-style:none;background-color:rgb(0, 0, 0);backgr=
+ound-image:url(&quot;https://res1.email.bethesda.net/res/zenimaxmedia_mkt_p=
+rod1/f7609b4a3e65dfccb57f7910c71355aab23fd5dcaaa340362f8dd1a2bd75f7c7.jpg&q=
+uot;);padding-bottom:35px;" id=3D"acr-63571881"><!--[if mso]>
+      <v:image style=3D"width: 600px; height: 831.983px; position: absolute=
+; z-index: -1;" src=3D"https://res1.email.bethesda.net/res/zenimaxmedia_mkt=
+_prod1/f7609b4a3e65dfccb57f7910c71355aab23fd5dcaaa340362f8dd1a2bd75f7c7.jpg=
+" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsof=
+t-com:office:word" />
+      <![endif]--><div class=3D"acr-fragment acr-component image-container"=
+ data-component-id=3D"image" style=3D"width:100%;text-align:center;margin-b=
+ottom:0px;margin-top:0px;" id=3D"acr-57925305" data-upload=3D"uploadLoader-=
+1647359215132-98249584" data-contenteditable=3D"false"><!--[if mso]><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td sty=
+le=3D"text-align: center; padding-bottom: 0px; padding-top: 0px;"><table ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%" style=3D"mso-=
+hide:"><tr><td style=3D"text-align: center;"><![endif]--><a class=3D"arc-li=
+nk" data-nl-type=3D"externalLink" href=3D"https://t1.email.bethesda.net/r/=
+=3Fid=3Dh43de0c1,70bdd79,716ea47&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNC=
+UyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpb=
+CZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3Di40YPYjaBIY_tnmv7RYwxbVF=
+kMS2j98eZ4Z6UIBfouM" ><img src=3D"https://res1.email.bethesda.net/res/zenim=
+axmedia_mkt_prod1/15db475a3ad45e8aa95ba0096507264fe9fc68f3223fd01b898c9f14b=
+ae19c30.png" style=3D"width:100%;height:auto;" width=3D"600" height=3D"373"=
+ alt=3D"Migrate starting April 27"></a><!--[if mso]></td></tr></table></td>=
+</tr></table><![endif]--></div><!--[if mso]><table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"padding: 0px 28px;=
+"><![endif]--><div class=3D"acr-fragment acr-component" data-component-id=
+=3D"text" style=3D"font-family:&quot;Century Gothic&quot;, Arial, sans-seri=
+f;color:rgb(183, 176, 157);padding:10px 70px;border-width:0px;border-style:=
+none;line-height:30px;letter-spacing:0.5px;font-stretch:condensed;" id=3D"a=
+cr-57587169" data-contenteditable=3D"false"><!--[if mso]><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"font-=
+family: 'Century Gothic', Arial, sans-serif; color: rgb(183, 176, 157); pad=
+ding: 10px 70px; line-height: 30px;"><![endif]--><div class=3D"text-contain=
+er" data-contenteditable=3D"true"><p style=3D"text-align:center;"><span sty=
+le=3D"font-size:36px;font-weight:700;color:rgb(245, 207, 17);" id=3D"acr-89=
+90665">Migrate starting April 27</span><br></p></div><!--[if mso]></td></tr=
+></table><![endif]--></div><!--[if mso]></td></tr></table><![endif]--><!--[=
+if mso]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"10=
+0%"><tr><td style=3D"padding: 0px 0px 20px; background-image: url('https://=
+res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1/f7609b4a3e65dfccb57f7910=
+c71355aab23fd5dcaaa340362f8dd1a2bd75f7c7.jpg');"><![endif]--><div class=3D"=
+acr-fragment acr-component" data-component-id=3D"text" style=3D"margin:0px =
+0px 20px;font-family:&quot;Century Gothic&quot;, Arial, sans-serif;color:rg=
+b(183, 176, 157);padding:0px 38px;border-width:0px;border-style:none;line-h=
+eight:26px;letter-spacing:0.5px;font-stretch:condensed;" id=3D"acr-74495095=
+" data-contenteditable=3D"false"><!--[if mso]><table cellpadding=3D"0" cell=
+spacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"font-family: 'Ce=
+ntury Gothic', Arial, sans-serif; color: rgb(183, 176, 157); padding: 0px 3=
+8px; line-height: 26px;"><![endif]--><div class=3D"text-container" data-con=
+tenteditable=3D"true"><p style=3D"text-align:center;"><span style=3D"color:=
+rgb(255, 255, 255);">We&#x2019;re saying goodbye to the Bethesda Launcher t=
+his year and transitioning our PC Bethesda.net community to Steam. Learn mo=
+re details and dates&nbsp; for the account migration progress so that you c=
+an prepare to jump over to Steam as soon as we open up on April 27.</span><=
+/p></div><!--[if mso]></td></tr></table><![endif]--></div><!--[if mso]></td=
+></tr></table><![endif]--><div class=3D"acr-fragment acr-component" data-co=
+mponent-id=3D"button:2" style=3D"width:100%;text-align:center;" data-conten=
+teditable=3D"false"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" width=3D"100%"><tr><td style=3D"padding-top: 0px; text-align:=
+ center; padding-bottom: 0px;"><table cellpadding=3D"0" cellspacing=3D"0" b=
+order=3D"0" width=3D"275"><tr><td style=3D"text-align: center;"><v:roundrec=
+t xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsof=
+t-com:office:word" style=3D"height:37.5pt; width:236.25pt; v-text-anchor:mi=
+ddle;" arcsize=3D"70%" fillcolor=3D"rgb(245, 207, 17)" strokeweight=3D"0pt"=
+ strokecolor=3D"rgb(0, 0, 238)"><v:stroke opacity=3D"0" /><v:textbox inset=
+=3D"0,0,0,0"><center style=3D"color:rgb(0, 0, 0); font-family:"Century Goth=
+ic", Arial, sans-serif; font-size:22px"><![endif]--><a href=3D"https://t1.e=
+mail.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea48&e=3DdXRtX2NhbXBhaWduPU=
+JORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3Dl9dz=
+B5dMoxbkXYYnL52PNgtGWmCrknjqpA-1nQGsLpU" class=3D"arc-link" style=3D"text-d=
+ecoration:none;" data-nl-type=3D"externalLink" ><div class=3D"button-contai=
+ner" style=3D"width:275px;text-align:center;margin:0px auto;max-width:100%;=
+display:inline-block;border-style:none;border-width:0px;border-image:none 1=
+00% / 1 / 0 stretch;border-radius:35px;height:50px;line-height:50px;backgro=
+und-color:rgb(245, 207, 17);font-family:&quot;Century Gothic&quot;, Arial, =
+sans-serif;font-stretch:condensed;letter-spacing:0.5px;padding:0px 20px;" i=
+d=3D"acr-43156553">
+          <span style=3D"color:rgb(0, 0, 0);font-size:22px;font-weight:700;=
+" data-contenteditable=3D"true">LEARN MORE</span>
+        </div>
+      </a><!--[if mso]></center></v:textbox></v:stroke></v:roundrect></td><=
+/tr></table></td></tr></table><![endif]--></div></th></tr></tbody></table><=
+!--[if mso]></td></tr></table><![endif]--></div><!--[if mso]></td></tr></ta=
+ble><![endif]-->     <div class=3D"acr-structure" data-structure-id=3D"n-n-=
+column" data-structure-name=3D"richtext.structure_n_n_column" style=3D"marg=
+in-top:35px;margin-bottom:35px;" id=3D"acr-751831"><!--[if mso]><table cell=
+padding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=
+=3D"padding-top: 35px; text-align: center; padding-bottom: 35px;"><![endif]=
+--> <table class=3D"structure__table" width=3D"600" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" align=3D"center"> <tbody> <tr> <th class=3D"colsp=
+an-n" style=3D"width:16.6667%;"><div class=3D"acr-fragment acr-component im=
+age-container" data-component-id=3D"image" style=3D"width:100%;text-align:c=
+enter;" data-contenteditable=3D"false"><!--[if mso]><table cellpadding=3D"0=
+" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"text-align=
+: center;"><![endif]--><a class=3D"arc-link" data-nl-type=3D"externalLink" =
+href=3D"https://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea49&e=
+=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBT=
+dW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWx=
+NYXJrZXRpbmc&s=3D3ojl_jyagRYhyp2uF6WQlEmq7xCNJKh8herwfv-JG_o" ><img src=3D"=
+https://res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1/fc0d3014693459e7=
+0162dc71128dcf599ce5ad0a75a85403f47bd9f29b8ed1ae.png" style=3D"width:50px;h=
+eight:auto;" width=3D"50" height=3D"50"></a><!--[if mso]></td></tr></table>=
+<![endif]--></div></th> <th class=3D"colspan-n" style=3D"width:16.6667%;"><=
+div class=3D"acr-fragment acr-component image-container" data-component-id=
+=3D"image" style=3D"width:100%;text-align:center;" data-contenteditable=3D"=
+false"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0"=
+ width=3D"100%"><tr><td style=3D"text-align: center;"><![endif]--><a class=
+=3D"arc-link" data-nl-type=3D"externalLink" href=3D"https://t1.email.bethes=
+da.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea4a&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfM=
+jAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1=
+bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3DmgiOyKMyC6sTXCd=
+EPquAjIdD59IJ9Zrwic2-fXw9V7M" ><img src=3D"https://res1.email.bethesda.net/=
+res/zenimaxmedia_mkt_prod1/d3ab1da65afde4b0aac94e507e27e0165f9ad724b67156d3=
+85492f3b24159a89.png" style=3D"width:50px;height:auto;" width=3D"50" height=
+=3D"50"></a><!--[if mso]></td></tr></table><![endif]--></div></th> <th clas=
+s=3D"colspan-n" style=3D"width:16.6667%;"><div class=3D"acr-fragment acr-co=
+mponent image-container" data-component-id=3D"image" style=3D"width:100%;te=
+xt-align:center;" data-contenteditable=3D"false"><!--[if mso]><table cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"=
+text-align: center;"><![endif]--><a class=3D"arc-link" data-nl-type=3D"exte=
+rnalLink" href=3D"https://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,=
+716ea4b&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmN=
+oZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2=
+RhRW1haWxNYXJrZXRpbmc&s=3Dhpcqo5k_RNHfJpI_w7mBNjTOJstAFUHLupDESTJisbw" ><im=
+g src=3D"https://res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1/8cd6a1e=
+64b2996151828c468c92e463ff9fc43e39744ad6ea54fa078f0f101c7.png" style=3D"wid=
+th:50px;height:auto;" width=3D"50" height=3D"50"></a><!--[if mso]></td></tr=
+></table><![endif]--></div></th> <th class=3D"colspan-n" style=3D"width:16.=
+6667%;"><div class=3D"acr-fragment acr-component image-container" data-comp=
+onent-id=3D"image" style=3D"width:100%;text-align:center;" data-contentedit=
+able=3D"false"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" width=3D"100%"><tr><td style=3D"text-align: center;"><![endif]--><=
+a class=3D"arc-link" data-nl-type=3D"externalLink" href=3D"https://t1.email=
+.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea4c&e=3DdXRtX2NhbXBhaWduPUJORV=
+RfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX=
+21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3DhVqeKcTa=
+_d7Lgq-404qvTAU28j7zExokWFb61AknkzQ" ><img src=3D"https://res1.email.bethes=
+da.net/res/zenimaxmedia_mkt_prod1/ddfdf3e39fe3111d72a669ce869c980cc940bac1e=
+bbc3626644dcbb3d4915f4d.png" style=3D"width:50px;height:auto;" width=3D"50"=
+ height=3D"50"></a><!--[if mso]></td></tr></table><![endif]--></div></th> <=
+th class=3D"colspan-n" style=3D"width:16.6667%;"><div class=3D"acr-fragment=
+ acr-component image-container" data-component-id=3D"image" style=3D"width:=
+100%;text-align:center;" data-contenteditable=3D"false"><!--[if mso]><table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td st=
+yle=3D"text-align: center;"><![endif]--><a class=3D"arc-link" data-nl-type=
+=3D"externalLink" href=3D"https://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,=
+70bdd79,716ea4d&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTI=
+wTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPU=
+JldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3DQwxyL-mmgsiRZgXT_tUeE8mNlt99Z7mBLym5-ks-k=
+BQ" ><img src=3D"https://res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1=
+/a24d4601a75f4d76d0214275623aa53cadc46e4223a0c4d945f4af112b9c6023.png" styl=
+e=3D"width:50px;height:auto;" width=3D"50" height=3D"50"></a><!--[if mso]><=
+/td></tr></table><![endif]--></div></th> <th class=3D"colspan-n" style=3D"w=
+idth:16.6667%;"><div class=3D"acr-fragment acr-component image-container" d=
+ata-component-id=3D"image" style=3D"width:100%;text-align:center;" data-con=
+tenteditable=3D"false"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" width=3D"100%"><tr><td style=3D"text-align: center;"><![en=
+dif]--><a class=3D"arc-link" data-nl-type=3D"externalLink" href=3D"https://=
+t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea4e&e=3DdXRtX2NhbXBhaW=
+duPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhd=
+GUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3D=
+C0marI7B4hMRuulGz1kna2C-yEFcLrr_hcP-5VOwDGE" ><img src=3D"https://res1.emai=
+l.bethesda.net/res/zenimaxmedia_mkt_prod1/b7ed3e1a3312413869ba518da0c5b09a8=
+4613cfdc71936606ad33c2b2d4189c7.png" style=3D"width:50px;height:auto;" widt=
+h=3D"50" height=3D"50"></a><!--[if mso]></td></tr></table><![endif]--></div=
+></th></tr> </tbody> </table> <!--[if mso]></td></tr></table><![endif]--></=
+div><div class=3D"acr-structure" data-structure-id=3D"2-2-column" data-stru=
+cture-name=3D"richtext.structure_2_2_column" style=3D"background-color:rgb(=
+35, 35, 35);margin-bottom:20px;" id=3D"acr-11433752"><!--[if mso]><table ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=
+=3D"padding-bottom: 20px; text-align: center;"><table cellpadding=3D"0" cel=
+lspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"background-colo=
+r: rgb(35, 35, 35);"><![endif]--><table class=3D"structure__table" width=3D=
+"600" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center"><tb=
+ody><tr><th class=3D"colspan2"><div class=3D"acr-fragment acr-component ima=
+ge-container" data-component-id=3D"image" style=3D"width:100%;text-align:ce=
+nter;background-color:rgb(35, 35, 35);margin-left:20px;margin-top:0px;" id=
+=3D"acr-49203722" data-contenteditable=3D"false"><!--[if mso]><table cellpa=
+dding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"=
+padding-left: 20px; text-align: center; padding-top: 0px;"><table cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><td style=3D"tex=
+t-align: center; background-color: rgb(35, 35, 35); padding-bottom: 20px;">=
+<![endif]--><a class=3D"arc-link" data-nl-type=3D"externalLink" href=3D"htt=
+ps://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716ea4f&e=3DdXRtX2Nhb=
+XBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBV=
+cGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc=
+&s=3DUmzTlhXTFFp10KxjYRwxGhJUDB9C69MfqGgnV-UJ-qs" ><img src=3D"https://res1=
+.email.bethesda.net/res/zenimaxmedia_mkt_prod1/c4f98166cbe18da5fb69d8818c1b=
+24424fb41fa9132886ac6b9b1f06dfbbd1f7.png" style=3D"height:auto;padding-bott=
+om:20px;width:56%;" alt=3D"Tango Gameworks" id=3D"acr-67889785" width=3D"16=
+8" height=3D"99"></a><!--[if mso]></td></tr></table></td></tr></table><![en=
+dif]--></div></th><th class=3D"colspan2"><div class=3D"acr-fragment acr-com=
+ponent image-container" data-component-id=3D"image" style=3D"width:100%;tex=
+t-align:center;background-color:rgb(35, 35, 35);margin-top:0px;" data-conte=
+nteditable=3D"false"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"100%"><tr><td style=3D"padding-top: 0px; text-align=
+: center;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%"><tr><td style=3D"text-align: center; background-color: rgb(35, 35, 3=
+5); padding-bottom: 20px;"><![endif]--><a class=3D"arc-link" data-nl-type=
+=3D"externalLink" href=3D"https://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,=
+70bdd79,716ea50&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTI=
+wTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPU=
+JldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3DuxtSpa3YopKf2H4gGqoPw3Iiz3F450r2MwbuA8dou=
+zk" ><img src=3D"https://res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1=
+/ff6637bd5fc690ab2569277769975ddd1cff2bc2082d25bc84b47bb5b5ac681c.png" styl=
+e=3D"width:60%;height:auto;padding-bottom:20px;" alt=3D"Bethesda" id=3D"acr=
+-32063488" width=3D"180" height=3D"46"></a><!--[if mso]></td></tr></table><=
+/td></tr></table><![endif]--></div></th></tr></tbody></table><!--[if mso]><=
+/td></tr></table></td></tr></table><![endif]--></div><div class=3D"acr-stru=
+cture" data-structure-id=3D"1-1-column" data-structure-name=3D"richtext.str=
+ucture_1_1_column" style=3D"background-color:rgb(35, 35, 35);margin-bottom:=
+0px;"><!--[if mso]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+width=3D"100%"><tr><td style=3D"padding-bottom: 0px; text-align: center;"><=
+table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"><tr><=
+td style=3D"background-color: rgb(35, 35, 35);"><![endif]--><table class=3D=
+"structure__table" width=3D"600" cellspacing=3D"0" cellpadding=3D"0" border=
+=3D"0" align=3D"center"><tbody><tr><th class=3D"colspan1"><!--[if gte mso 9=
+]><style acrite-mso-css=3D"true">.image-container div {  display: block;}.s=
+tructure__table td {  padding: 0;  border: none;}.button-container {  borde=
+r: none !important;  padding: 0 !important;  margin: 0 !important;  line-he=
+ight: normal !important;}.acr-structure {  margin: 0 !important;}.acr-compo=
+nent {  margin: 0 !important;}.acr-fragment {  margin: 0 !important;}.colsp=
+an1, .colspan2, .colspan3, .colspan4, .colspan33, .colspan66 {  box-sizing:=
+ border-box !important;}</style><![endif]--><div class=3D"acr-fragment is-l=
+ocked" data-fragment-id=3D"@K0JwhkJ_Fbb6GZLoGF_2NksgmBEgWqBnvMV3NuA7MSUiTOg=
+472jVpaFiS7733RacvzWTGrx24ZkoeIjSCf32t5KVQFg" data-fragment-ref=3D"CMDL10" =
+data-nl-name=3D"Fallout 76 Ratings (CMDL10)" data-fragment-name=3D"Fallout =
+76 Ratings (CMDL10)"><style data-name=3D"media-custom-max-width-500px" type=
+=3D"text/css">
+@media screen and (max-width: 500px) {
+  body {
+    min-width: 0px;
+  }
+}
+</style><table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" style=3D"width: 100%; table-layout: fixed;"> <tbody> <tr> <th class=
+=3D"colspan1"><div class=3D"acr-tmp-component" data-contenteditable=3D"fals=
+e" data-tmp-component-id=3D"text"><div class=3D"text-container" data-conten=
+teditable=3D"true"><p style=3D"text-align:center;">
+  <img src=3D"https://res1.email.bethesda.net/res/zenimaxmedia_mkt_prod1/78=
+1bd5234973eb249697616a3da67b63.png" width=3D"180" style=3D"max-width: 180px=
+;" />
+<br></p></div></div></th> </tr> </tbody> </table> </div><div class=3D"acr-f=
+ragment acr-component" data-component-id=3D"text" style=3D"padding:10px 20p=
+x 20px;background-color:rgb(35, 35, 35);" data-contenteditable=3D"false"><!=
+--[if mso]><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D=
+"100%"><tr><td style=3D"padding: 10px 20px 20px; background-color: rgb(35, =
+35, 35);"><![endif]--><div class=3D"text-container" data-contenteditable=3D=
+"true"><p style=3D"text-align:center;"><div class=3D"zen-address" style=3D"=
+color: #777777; font-family: Arial, sans-serf; font-size: 12px; text-align:=
+ center;">
+
+  ZeniMax Media Inc.<br>
+1370 Piccard Drive, Suite 120  |  Rockville, MD, 20850, USA<br>
+=C2=A92022 Bethesda Softworks, a ZeniMax Media company. All Rights Reserved=
+.
+<br><br>
+    <a style=3D"color: #777777; text-decoration: underline;" href=3D"https:=
+//t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716eb95&e=3DdXRtX2NhbXBh=
+aWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGR=
+hdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=
+=3DNgmwCi7e3rtJ0b7MqPYY-5YOTZW6gNuh8Al7vAgR1xg" >Terms of Service</a>  | <a=
+ style=3D"color: #777777; text-decoration: underline;" href=3D"https://t1.e=
+mail.bethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716eb96&e=3DdXRtX2NhbXBhaWduPU=
+JORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmd=
+XRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3DS5Ba=
+VyAghDZqiqzQnj3N06OErnt9ff_z97JHKhH1XnI" >Privacy Policy</a>  |  <a style=
+=3D"color: #777777; text-decoration: underline;" href=3D"https://t1.email.b=
+ethesda.net/r/=3Fid=3Dh43de0c1,70bdd79,716eb97&e=3DdXRtX2NhbXBhaWduPUJORVRf=
+QUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwTGF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21=
+lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJldGhlc2RhRW1haWxNYXJrZXRpbmc&s=3Dkh96HGY2d8=
+8zM0K_BbIOwaErolJ0aL1Xihfaa4dSu6o" >Contact Us</a>
+
+</div><br><br></p><p style=3D"text-align:center;"><div class=3D"zen-unsub-l=
+ink" style=3D"font-family: Arial, sans-serif; font-size: 12px; text-align: =
+center;">
+
+  <a style=3D"color: #777777; font-family: Arial, sans-serif; text-decorati=
+on: underline;" href=3D"https://t1.email.bethesda.net/r/=3Fid=3Dh43de0c1,70=
+bdd79,716eba0&e=3DdXRtX2NhbXBhaWduPUJORVRfQUhfMjAyMl8wNCUyMC0lMjBGTzc2JTIwT=
+GF1bmNoZXIlMjBTdW5zZXQlMjBVcGRhdGUmdXRtX21lZGl1bT1lbWFpbCZ1dG1fc291cmNlPUJl=
+dGhlc2RhRW1haWxNYXJrZXRpbmcmcDE9JTQwc1RiSFpfaUQyRWtwV1lSSk1qaFAzV3RVOGlFOEl=
+HeXBiN2k3QUZmaEZ4bnc5eUFra1hVRXBnV0dXZUd2cG5RNEpOa21qMjRHeGE4R3dnTjZfXzc3ZT=
+ZKb0toSzc0NGdWX3hwcXU3dEJVMjZLTHZYVE1GbUxsMlBScmRBTGQ0dnNMOHJqZ0E&s=3D859uL=
+nuZ8uw0nPVbgjjqVWXopafz6-2V3u78vwtA2BM" _label=3D"Opt-out link" _type=3D"op=
+tout" >Unsubscribe</a>
+
+</div><br></p></div><!--[if mso]></td></tr></table><![endif]--></div></th><=
+/tr></tbody></table><!--[if mso]></td></tr></table></td></tr></table><![end=
+if]--></div></div><!--[if mso]></td></tr></table><![endif]-->
+<img height=3D'0' width=3D'0' alt=3D'' src=3D'https://t1.email.bethesda.net=
+/r/=3Fid=3Dh43de0c1,70bdd79,1'/>
+</body></html>
+
+------=_NextPart_119_B66AECCA.B66AECCA--
+

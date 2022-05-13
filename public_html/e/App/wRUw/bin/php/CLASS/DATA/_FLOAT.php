@@ -1,0 +1,11 @@
+<?php
+namespace DATA;
+CLASS _FLOAT EXTENDS \DATA\INDEX {
+  //VARIABLES
+  ///ARGUMENTS
+  PROTECTED $FLOAT = NULL;
+  //FUNCTIONS
+  ///MAGIC
+  PUBLIC FUNCTION __VALIDATE(){ RETURN is_numeric( PARENT::__get( 'FLOAT' ) );}
+}
+?>

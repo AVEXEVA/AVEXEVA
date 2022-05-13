@@ -1,0 +1,23 @@
+HTML, PRE {
+	scrollbar-width:none;
+	-ms-overflow-STYLE:none;
+	overflow:-moz-scrollbars-none;
+}
+HTML::-webkit-scrollbar, PRE::-webkit-scrollbar {
+	display:none;
+}
+HEADER {
+	width:100%;
+	height:50%;
+	z-index:0;
+	background-color:black;
+	text-align:center;
+	color:white;
+	position:relative;
+	vertical-align:middle;
+}
+FOOTER {
+	width:100%;
+	z-index:0;
+	height:50%;
+}

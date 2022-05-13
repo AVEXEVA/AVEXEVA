@@ -1,0 +1,1 @@
+open( Input, 'a+' ).close()

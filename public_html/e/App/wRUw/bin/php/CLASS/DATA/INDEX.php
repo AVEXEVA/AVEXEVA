@@ -1,0 +1,7 @@
+<?php 
+NAMESPACE DATA;
+Class INDEX extends \INDEX {
+  //TRAITS
+  //VARIABLES
+  //FUNCTIONS
+}?>

@@ -1,5 +1,4 @@
-rootfs / rootfs rw 0 0
-/dev/ploop17309p1 / ext4 rw,relatime,data=ordered,balloon_ino=12,jqfmt=vfsv1,usrjquota=aquota.user,grpjquota=aquota.group 0 0
+/dev/ploop53156p1 / ext4 rw,lazytime,relatime,data=ordered,balloon_ino=12,jqfmt=vfsv1,usrjquota=aquota.user,grpjquota=aquota.group 0 0
 none /sys sysfs rw,relatime 0 0
 none /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec 0 0
 cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpuacct,cpu 0 0
@@ -18,6 +17,5 @@ none /dev devtmpfs rw,nosuid,mode=755 0 0
 tmpfs /dev/shm tmpfs rw,nosuid,nodev 0 0
 devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
 tmpfs /run tmpfs rw,nosuid,nodev,mode=755 0 0
-systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=23,pipe_ino=2048573,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=2048573 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
-tmpfs /run/user/0 tmpfs rw,nosuid,nodev,relatime,size=419432k,mode=700 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=27,pipe_ino=1358348982,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=1358348982 0 0

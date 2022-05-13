@@ -1,0 +1,370 @@
+Return-Path: <01010178bb6f7b08-d5802dac-354d-43d6-8914-3a066b4c8312-000000@bounce-west.twitch.tv>
+Delivered-To: peter@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id sW98K/6EcWC3SAAABSAGJw
+	(envelope-from <01010178bb6f7b08-d5802dac-354d-43d6-8914-3a066b4c8312-000000@bounce-west.twitch.tv>)
+	for <peter@avexeva.com>; Sat, 10 Apr 2021 06:59:10 -0400
+Return-path: <01010178bb6f7b08-d5802dac-354d-43d6-8914-3a066b4c8312-000000@bounce-west.twitch.tv>
+Envelope-to: peter@avexeva.com
+Delivery-date: Sat, 10 Apr 2021 06:59:10 -0400
+Received: from a26-31.smtp-out.us-west-2.amazonses.com ([54.240.26.31]:46141)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+	(Exim 4.94)
+	(envelope-from <01010178bb6f7b08-d5802dac-354d-43d6-8914-3a066b4c8312-000000@bounce-west.twitch.tv>)
+	id 1lVBKY-0004rD-3M
+	for peter@avexeva.com; Sat, 10 Apr 2021 06:59:10 -0400
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=dh6r6vaod6penm5x6ufsnymrqcq2rt3a; d=twitch.tv; t=1618052348;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date;
+	bh=Yjpf11HZU4ydhGSZYGEfegyOYcMlEGVXcReBj3RoMZo=;
+	b=T2rIIQBPLIZGT77Vvu75b3MBFPEo3agZSTWXLgk3kwesdBFmyEvJ/0GkDDko5gS+
+	7Tbcx961OQHHQFqDK++867IU57SI0dSmU/kLxrx+kzyp9I7DCLXMIDHinUk0l9j7o9f
+	71K9QRR3SyYabalvv1nBrk9HCK86I7gNqRofOUk8=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=7v7vs6w47njt4pimodk5mmttbegzsi6n; d=amazonses.com; t=1618052348;
+	h=From:To:Subject:MIME-Version:Content-Type:Content-Transfer-Encoding:Message-ID:Date:Feedback-ID;
+	bh=Yjpf11HZU4ydhGSZYGEfegyOYcMlEGVXcReBj3RoMZo=;
+	b=A6vfufNLM8W1s4jzZGrdR3qn2LQ6xoj3CerFN82EAVJzSk6/wnFhLp1vLKfmOaM/
+	ytpIGOZ7Y2qiREtyILvuxCrBoPIPWquTl8P3SuHIyGJsGfEzeEqA5pKutd2wtwfeT9M
+	D36Wej2Hkq0Xz96CVxa8qzpURqh3yBllcpVgn9jg=
+From: Twitch <no-reply@twitch.tv>
+To: peter@avexeva.com
+Subject: Welcome to Twitch
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Message-ID: <01010178bb6f7b08-d5802dac-354d-43d6-8914-3a066b4c8312-000000@us-west-2.amazonses.com>
+Date: Sat, 10 Apr 2021 10:59:08 +0000
+Feedback-ID: 1.us-west-2.6if1qLlyPRc8dOFaAhyZ7qPPGGxp441EVJenuzKlcvQ=:AmazonSES
+X-SES-Outgoing: 2021.04.10-54.240.26.31
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Now streaming games, IRL, cosplay, and more! My Email Templates
+    Welcome to Twitch! 
+ Content analysis details:   (-0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: jtvnw.net]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_ONLY         BODY: Message only has text/html MIME parts
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+<!doctype html><html xmlns=3Dhttp://www.w3.org/1999/xhtml style=3D"backgrou=
+nd-color: #efeef1" lang=3Den xml:lang=3Den><head><base target=3D=E2=80=9C_b=
+lank=E2=80=9D><meta charset=3Dutf-8><meta name=3Dviewport content=3D"width=
+=3Ddevice-width"><style>@media only screen{
+html {
+min-height: 100% !important;
+background: #e5e3e8 !important
+}
+}
+@media only screen and (max-width:600px){
+.small-float-center {
+margin: 0 auto !important;
+float: none !important;
+text-align: center !important
+}
+}
+@media only screen and (max-width:600px){
+table.body img {
+width: auto !important;
+height: auto !important
+}
+table.body center {
+min-width: 0 !important
+}
+table.body .container {
+width: 95% !important
+}
+table.body .columns {
+height: auto !important;
+-moz-box-sizing: border-box !important;
+-webkit-box-sizing: border-box !important;
+box-sizing: border-box !important;
+padding-left: 20px !important;
+padding-right: 20px !important
+}
+table.body .collapse .columns {
+padding-left: 0 !important;
+padding-right: 0 !important
+}
+th.small-6 {
+display: inline-block !important;
+width: 50% !important
+}
+th.small-12 {
+display: inline-block !important;
+width: 100% !important
+}
+}
+@media screen and (max-width:596px){
+.pd-x-75 {
+padding: inherit !important
+}
+}
+@media screen and (max-width:596px){
+.pd-x-55 {
+padding: inherit !important
+}
+}
+</style></head><body style=3D"-moz-box-sizing:border-box;-ms-text-size-adju=
+st:100%;-webkit-box-sizing:border-box;-webkit-text-size-adjust:100%;Margin:=
+0;background:#f3f3f3!important;box-sizing:border-box;color:#322F37;font-fam=
+ily:'Helvetica Neue',Arial,Geneva,sans-serif;font-size:16px;font-weight:400=
+;line-height:1.3;margin:0;min-width:100%;padding:0;text-align:left;width:10=
+0%!important"><div class=3Dpreview-text style=3Ddisplay:none;font-size:1px;=
+color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overfl=
+ow:hidden>Now streaming games, IRL, cosplay, and more!</div><meta charset=
+=3Dutf-8><meta name=3Dviewport content=3D"width=3Ddevice-width"><title>My E=
+mail Templates</title><span class=3Dpreheader style=3Dcolor:#e5e3e8;display=
+:none!important;font-size:1px;line-height:1px;max-height:0;max-width:0;mso-=
+hide:all!important;opacity:0;overflow:hidden;visibility:hidden></span><tabl=
+e class=3Dbody style=3DMargin:0;background:#f3f3f3!important;border-collaps=
+e:collapse;border-spacing:0;color:#322F37;font-family:Helvetica,Arial,sans-=
+serif;font-size:16px;font-weight:400;height:100%;line-height:1.3;margin:0;p=
+adding:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dp=
+adding:0;text-align:left;vertical-align:top><td class=3Dcenter align=3Dcent=
+er valign=3Dtop style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;bor=
+der-collapse:collapse!important;color:#322F37;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;hyphens:auto;line-height:1.3;margi=
+n:0;padding:0;text-align:left;vertical-align:top;word-wrap:break-word><cent=
+er data-parsed style=3Dmin-width:580px;width:100%><table class=3D"spacer fl=
+oat-center" style=3D"Margin:0 auto;border-collapse:collapse;border-spacing:=
+0;float:none;margin:0 auto;padding:0;text-align:center;vertical-align:top;w=
+idth:100%"><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top>=
+<td height=3D35px style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;b=
+order-collapse:collapse!important;color:#322F37;font-family:Helvetica,Arial=
+,sans-serif;font-size:35px;font-weight:400;hyphens:auto;line-height:35px;ma=
+rgin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-alig=
+n:top;word-wrap:break-word>=C2=A0</td></tr></tbody></table><table align=3Dc=
+enter class=3D"container float-center" style=3D"Margin:0 auto;background:#f=
+ff;border-collapse:collapse;border-spacing:0;float:none;margin:0 auto;paddi=
+ng:0;text-align:center;vertical-align:top;width:580px"><tbody><tr style=3Dp=
+adding:0;text-align:left;vertical-align:top><td style=3D-moz-hyphens:auto;-=
+webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#322F=
+37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;hy=
+phens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-alig=
+n:top;word-wrap:break-word><table class=3D"row header purple collapse" styl=
+e=3D"background:#8a8a8a;background-attachment:scroll;background-color:#9147=
+ff;background-image:none;background-position:top left;background-repeat:rep=
+eat;border-collapse:collapse;border-spacing:0;display:table;padding:0;posit=
+ion:relative;text-align:left;vertical-align:top;width:100%"><tbody><tr styl=
+e=3Dpadding:0;text-align:left;vertical-align:top><th class=3D"flush small-1=
+2 large-12 columns first last" style=3D"Margin:0 auto;color:#322F37;font-fa=
+mily:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:=
+1.3;margin:0 auto;padding:0;padding-bottom:0;padding-left:0;padding-right:0=
+;padding-top:0;text-align:left;width:590px"><table style=3Dborder-collapse:=
+collapse;border-spacing:0;padding:0;text-align:left;vertical-align:top;widt=
+h:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:top><th =
+style=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-=
+size:16px;font-weight:400;line-height:1.3;margin:0;padding:0;text-align:lef=
+t><table class=3Dspacer style=3Dborder-collapse:collapse;border-spacing:0;p=
+adding:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dp=
+adding:0;text-align:left;vertical-align:top><td height=3D20px style=3D-moz-=
+hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!importa=
+nt;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:20px;font=
+-weight:400;hyphens:auto;line-height:20px;margin:0;mso-line-height-rule:exa=
+ctly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word>=C2=
+=A0</td></tr></tbody></table><a href=3D"https://www.twitch.tv/r/e/eyJsb2Nhd=
+GlvbiI6ImVtYWlsIiwiZW1haWxfaWQiOiJhZDJhYTQyMi03ZjYxLTRmZWQtOGY0Zi02ZjUwNWZl=
+MGJjODYiLCJuYW1lIjoid2VsY29tZV92YWx1ZV9wcm9wX3Rlc3QiLCJjdGFfdmFsdWUiOiIifQ=
+=3D=3D/673590340/a85aacdc8c9725702323704b3dc14bd808fd4638?ignore_query=3Dtr=
+ue&tt_content=3Dwelcome_value_prop_test&tt_email_id=3Dad2aa422-7f61-4fed-8f=
+4f-6f505fe0bc86&tt_medium=3Demail" style=3DMargin:0;color:#9147ff;font-fami=
+ly:Helvetica,Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padd=
+ing:0;text-align:left;text-decoration:none><img class=3Dfloat-center src=3D=
+https://static-cdn.jtvnw.net/growth-assets/email_twitch_logo_uv_black width=
+=3D114 height=3D38 alt=3DTwitch style=3D"-ms-interpolation-mode:bicubic;Mar=
+gin:0 auto;border:none;clear:both;display:block;float:none;height:40px!impo=
+rtant;margin:0 auto;max-width:100%;outline:0;text-align:center;text-decorat=
+ion:none;width:120px!important"></a><table class=3Dspacer style=3Dborder-co=
+llapse:collapse;border-spacing:0;padding:0;text-align:left;vertical-align:t=
+op;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-align:t=
+op><td height=3D20px style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:=
+0;border-collapse:collapse!important;color:#322F37;font-family:Helvetica,Ar=
+ial,sans-serif;font-size:20px;font-weight:400;hyphens:auto;line-height:20px=
+;margin:0;mso-line-height-rule:exactly;padding:0;text-align:left;vertical-a=
+lign:top;word-wrap:break-word>=C2=A0</td></tr></tbody></table></th><th clas=
+s=3Dexpander style=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,san=
+s-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0;padding:0!i=
+mportant;text-align:left;visibility:hidden;width:0></th></tr></tbody></tabl=
+e></th></tr></tbody></table><table class=3Drow style=3Dborder-collapse:coll=
+apse;border-spacing:0;display:table;padding:0;position:relative;text-align:=
+left;vertical-align:top;width:100%><tbody><tr style=3Dpadding:0;text-align:=
+left;vertical-align:top><th class=3D"editable small-12 large-12 columns fir=
+st last" style=3D"Margin:0 auto;color:#322F37;font-family:Helvetica,Arial,s=
+ans-serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padd=
+ing:0;padding-bottom:16px;padding-left:20px;padding-right:20px;padding-top:=
+20px;text-align:left;width:560px"><table style=3Dborder-collapse:collapse;b=
+order-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%><tb=
+ody><tr style=3Dpadding:0;text-align:left;vertical-align:top><th style=3DMa=
+rgin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;=
+font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left><h1 clas=
+s=3Dtext-center style=3DMargin:0;Margin-bottom:10px;color:inherit;font-fami=
+ly:Helvetica,Arial,sans-serif;font-size:40px;font-weight:400;line-height:46=
+px;margin:0;margin-bottom:10px;padding:0;padding-bottom:10px;text-align:cen=
+ter;word-wrap:normal>Welcome to Twitch!</h1><p class=3D"pd-x-55 text-center=
+" style=3D"Margin:0;Margin-bottom:10px;color:#322F37;font-family:Helvetica,=
+Arial,Verdana,'Trebuchet MS';font-size:16px;font-weight:400;line-height:24p=
+x;margin:0;margin-bottom:10px;padding:0 55px;padding-bottom:10px;text-align=
+:center">We=E2=80=99re glad you could join us. Twitch has a huge, passionat=
+e community ready to watch and celebrate all the things you=E2=80=99re into=
+, and we=E2=80=99ve saved a seat just for you.</p><table class=3Dspacer sty=
+le=3Dborder-collapse:collapse;border-spacing:0;padding:0;text-align:left;ve=
+rtical-align:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;ve=
+rtical-align:top><td height=3D10px style=3D-moz-hyphens:auto;-webkit-hyphen=
+s:auto;Margin:0;border-collapse:collapse!important;color:#322F37;font-famil=
+y:Helvetica,Arial,sans-serif;font-size:10px;font-weight:400;hyphens:auto;li=
+ne-height:10px;margin:0;mso-line-height-rule:exactly;padding:0;text-align:l=
+eft;vertical-align:top;word-wrap:break-word>=C2=A0</td></tr></tbody></table=
+><center data-parsed style=3Dmin-width:520px;width:100%><table class=3D"but=
+ton large float-center" style=3D"Margin:0 0 16px 0;border-collapse:collapse=
+;border-spacing:0;cursor:hand;float:none;font-weight:300;margin:0 0 16px 0;=
+padding:0;text-align:center;vertical-align:top;width:auto"><tbody><tr style=
+=3Dpadding:0;text-align:left;vertical-align:top><td style=3D-moz-hyphens:au=
+to;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;color:#=
+322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:40=
+0;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertical-=
+align:top;word-wrap:break-word><table style=3Dborder-collapse:collapse;bord=
+er-spacing:0;padding:0;text-align:left;vertical-align:top;width:100%><tbody=
+><tr style=3Dpadding:0;text-align:left;vertical-align:top><td style=3D"-moz=
+-hyphens:auto;-webkit-hyphens:auto;Margin:0;background:#9147ff;border:2px s=
+olid #9147ff;border-collapse:collapse!important;color:#fff;font-family:Helv=
+etica,Arial,sans-serif;font-size:16px;font-weight:400;hyphens:auto;line-hei=
+ght:1.3;margin:0;padding:0;text-align:left;vertical-align:top;word-wrap:bre=
+ak-word"><a href=3D"https://www.twitch.tv/r/e/eyJsb2NhdGlvbiI6IndlbGNvbWVfZ=
+2VuZXJpY18xMTE0IiwiZW1haWxfaWQiOiJhZDJhYTQyMi03ZjYxLTRmZWQtOGY0Zi02ZjUwNWZl=
+MGJjODYiLCJuYW1lIjoid2VsY29tZV92YWx1ZV9wcm9wX3Rlc3QiLCJjdGFfdmFsdWUiOiIifQ=
+=3D=3D/673590340/d7fb96972eaaabae35024df753c088bf4b44d986/directory?ignore_=
+query=3Dtrue&tt_content=3Dwelcome_value_prop_test&tt_email_id=3Dad2aa422-7f=
+61-4fed-8f4f-6f505fe0bc86&tt_medium=3Demail" style=3D"Margin:0;border:0 sol=
+id #9147ff;border-radius:3px;color:#fff;display:inline-block;font-family:He=
+lvetica,Arial,sans-serif;font-size:18px;font-weight:regular;line-height:1.3=
+;margin:0;padding:10px 30px 10px 30px;text-align:left;text-decoration:none"=
+>WATCH NOW</a></td></tr></tbody></table></td></tr></tbody></table></center>=
+<table class=3Dspacer style=3Dborder-collapse:collapse;border-spacing:0;pad=
+ding:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dpad=
+ding:0;text-align:left;vertical-align:top><td height=3D10px style=3D-moz-hy=
+phens:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important=
+;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-w=
+eight:400;hyphens:auto;line-height:10px;margin:0;mso-line-height-rule:exact=
+ly;padding:0;text-align:left;vertical-align:top;word-wrap:break-word>=C2=A0=
+</td></tr></tbody></table><p class=3D"pd-x-55 text-center" style=3D"Margin:=
+0;Margin-bottom:10px;color:#322F37;font-family:Helvetica,Arial,Verdana,'Tre=
+buchet MS';font-size:16px;font-weight:400;line-height:24px;margin:0;margin-=
+bottom:10px;padding:0 55px;padding-bottom:10px;text-align:center">If you wa=
+nt to watch it, someone on Twitch streams it: games, anime, fitness, cospla=
+y, esports, cooking, music, meditation. Take a look around, find a few chan=
+nels to call home, and cozy up in chat.</p></th><th class=3Dexpander style=
+=3DMargin:0;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:=
+16px;font-weight:400;line-height:1.3;margin:0;padding:0!important;text-alig=
+n:left;visibility:hidden;width:0></th></tr></tbody></table></th></tr></tbod=
+y></table></td></tr></tbody></table><table class=3D"spacer float-center" st=
+yle=3D"Margin:0 auto;border-collapse:collapse;border-spacing:0;float:none;m=
+argin:0 auto;padding:0;text-align:center;vertical-align:top;width:100%"><tb=
+ody><tr style=3Dpadding:0;text-align:left;vertical-align:top><td height=3D3=
+0px style=3D-moz-hyphens:auto;-webkit-hyphens:auto;Margin:0;border-collapse=
+:collapse!important;color:#322F37;font-family:Helvetica,Arial,sans-serif;fo=
+nt-size:30px;font-weight:400;hyphens:auto;line-height:30px;margin:0;mso-lin=
+e-height-rule:exactly;padding:0;text-align:left;vertical-align:top;word-wra=
+p:break-word>=C2=A0</td></tr></tbody></table><table align=3Dcenter class=3D=
+"container transparent float-center" style=3D"Margin:0 auto;background:0 0!=
+important;border-collapse:collapse;border-spacing:0;float:none;margin:0 aut=
+o;padding:0;text-align:center;vertical-align:top;width:580px"><tbody><tr st=
+yle=3Dpadding:0;text-align:left;vertical-align:top><td style=3D-moz-hyphens=
+:auto;-webkit-hyphens:auto;Margin:0;border-collapse:collapse!important;colo=
+r:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight=
+:400;hyphens:auto;line-height:1.3;margin:0;padding:0;text-align:left;vertic=
+al-align:top;word-wrap:break-word><table class=3Drow style=3Dborder-collaps=
+e:collapse;border-spacing:0;display:table;padding:0;position:relative;text-=
+align:left;vertical-align:top;width:100%><tbody><tr style=3Dpadding:0;text-=
+align:left;vertical-align:top><th class=3D"flush small-6 large-6 columns fi=
+rst" style=3D"Margin:0 auto;color:#322F37;font-family:Helvetica,Arial,sans-=
+serif;font-size:16px;font-weight:400;line-height:1.3;margin:0 auto;padding:=
+0;padding-bottom:0;padding-left:20px;padding-right:10px;padding-top:0;text-=
+align:left;width:270px"><table style=3Dborder-collapse:collapse;border-spac=
+ing:0;padding:0;text-align:left;vertical-align:top;width:100%><tbody><tr st=
+yle=3Dpadding:0;text-align:left;vertical-align:top><th style=3DMargin:0;col=
+or:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px;font-weigh=
+t:400;line-height:1.3;margin:0;padding:0;text-align:left><a href=3Dhttps://=
+twitter.com/twitch/ style=3DMargin:0;color:#9147ff;font-family:Helvetica,Ar=
+ial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-alig=
+n:left;text-decoration:none><img class=3Dfloat-right src=3Dhttps://s.jtvnw.=
+net/jtv_user_pictures/hosted_images/email-twitter-logo-20171115.png width=
+=3D20 height=3D20 alt=3Dtwitch-twitter style=3D-ms-interpolation-mode:bicub=
+ic;border:none;clear:both;display:block;float:right;max-width:100%;outline:=
+0;text-align:right;text-decoration:none;width:auto></a></th></tr></tbody></=
+table></th><th class=3D"flush small-6 large-6 columns last" style=3D"Margin=
+:0 auto;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16px=
+;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:0;p=
+adding-left:10px;padding-right:20px;padding-top:0;text-align:left;width:270=
+px"><table style=3Dborder-collapse:collapse;border-spacing:0;padding:0;text=
+-align:left;vertical-align:top;width:100%><tbody><tr style=3Dpadding:0;text=
+-align:left;vertical-align:top><th style=3DMargin:0;color:#322F37;font-fami=
+ly:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-height:1.=
+3;margin:0;padding:0;text-align:left><a href=3Dhttps://www.facebook.com/twi=
+tch/ style=3DMargin:0;color:#9147ff;font-family:Helvetica,Arial,sans-serif;=
+font-weight:400;line-height:1.3;margin:0;padding:0;text-align:left;text-dec=
+oration:none><img class=3Dfloat-left src=3Dhttps://s.jtvnw.net/jtv_user_pic=
+tures/hosted_images/email-facebook-logo-20171115.png width=3D20 height=3D20=
+ alt=3Dtwitch-facebook style=3D-ms-interpolation-mode:bicubic;border:none;c=
+lear:both;display:block;float:left;max-width:100%;outline:0;text-align:left=
+;text-decoration:none;width:auto></a></th></tr></tbody></table></th></tr></=
+tbody></table><table class=3Drow style=3Dborder-collapse:collapse;border-sp=
+acing:0;display:table;padding:0;position:relative;text-align:left;vertical-=
+align:top;width:100%><tbody><tr style=3Dpadding:0;text-align:left;vertical-=
+align:top><th class=3D"small-12 large-12 columns first last" style=3D"Margi=
+n:0 auto;color:#322F37;font-family:Helvetica,Arial,sans-serif;font-size:16p=
+x;font-weight:400;line-height:1.3;margin:0 auto;padding:0;padding-bottom:16=
+px;padding-left:20px;padding-right:20px;padding-top:20px;text-align:left;wi=
+dth:560px"><table style=3Dborder-collapse:collapse;border-spacing:0;padding=
+:0;text-align:left;vertical-align:top;width:100%><tbody><tr style=3Dpadding=
+:0;text-align:left;vertical-align:top><th style=3DMargin:0;color:#322F37;fo=
+nt-family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-he=
+ight:1.3;margin:0;padding:0;text-align:left><p class=3Dtext-center style=3D=
+"Margin:0;Margin-bottom:10px;color:#322F37;font-family:Helvetica,Arial,Verd=
+ana,'Trebuchet MS';font-size:16px;font-weight:400;line-height:24px;margin:0=
+;margin-bottom:10px;padding:0;padding-bottom:10px;text-align:center"><small=
+ style=3Dcolor:#706a7c;font-size:14px>You're receiving this email because y=
+ou're a valued member of the Twitch community.<br>If you prefer not to rece=
+ive emails like these, you can <a href=3D"https://www.twitch.tv/user/remove=
+_me?block=3Dkind&email_id=3Dad2aa422-7f61-4fed-8f4f-6f505fe0bc86&email_type=
+=3Dmarketing&source_email=3Dmarketing&user_id=3D673590340&validating_hash=
+=3Ded7f05711d170727ab910c806df3d409cb73cb2c&tt_medium=3Dmarketing&tt_conten=
+t=3Dkind_unsubscribe" style=3DMargin:0;color:#9147ff;font-family:Helvetica,=
+Arial,sans-serif;font-weight:400;line-height:1.3;margin:0;padding:0;text-al=
+ign:left;text-decoration:none>unsubscribe</a>.<br>=C2=A9 2021 Twitch, All R=
+ights Reserved<br>350 Bush Street, 2nd Floor, San Francisco, CA, 94104 - US=
+A</small></p></th><th class=3Dexpander style=3DMargin:0;color:#322F37;font-=
+family:Helvetica,Arial,sans-serif;font-size:16px;font-weight:400;line-heigh=
+t:1.3;margin:0;padding:0!important;text-align:left;visibility:hidden;width:=
+0></th></tr></tbody></table></th></tr></tbody></table></td></tr></tbody></t=
+able></center></td></tr></tbody></table><div style=3D"display:none;white-sp=
+ace:nowrap;font:15px courier;line-height:0">=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0</div><img src=3D"https://spade.twitch.tv/tr=
+ack?data=3DeyJldmVudCI6ImVtYWlsX29wZW4iLCJwcm9wZXJ0aWVzIjp7Im5vdGlmaWNhdGlv=
+bl9pZCI6ImFkMmFhNDIyLTdmNjEtNGZlZC04ZjRmLTZmNTA1ZmUwYmM4NiJ9fQ%3D%3D&img=3D=
+1&ua=3D1" width=3D1 height=3D1></body></html>

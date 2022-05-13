@@ -1,0 +1,684 @@
+Return-Path: <bounce-md_30261476.61facebe.v1-ecccd76ce7c6450bb08ea4ac05a7e2fa@mandrillapp.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id iD8vGOjO+mF2PAAABSAGJw
+	(envelope-from <bounce-md_30261476.61facebe.v1-ecccd76ce7c6450bb08ea4ac05a7e2fa@mandrillapp.com>)
+	for <avex@avexeva.com>; Wed, 02 Feb 2022 13:35:20 -0500
+Return-path: <bounce-md_30261476.61facebe.v1-ecccd76ce7c6450bb08ea4ac05a7e2fa@mandrillapp.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Wed, 02 Feb 2022 13:35:20 -0500
+Received: from mail187-131.suw11.mandrillapp.com ([198.2.187.131]:55442)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <bounce-md_30261476.61facebe.v1-ecccd76ce7c6450bb08ea4ac05a7e2fa@mandrillapp.com>)
+	id 1nFKTP-00040t-Ez
+	for avex@avexeva.com; Wed, 02 Feb 2022 13:35:20 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=asknicelyemail.com;
+	s=mandrill; t=1643826879; i=noreply@asknicelyemail.com;
+	bh=NBAqOT68WzmnOBYDnXWH6fk7xKoN6v09dKF9s3Qrjow=;
+	h=From:Subject:To:Message-Id:Date:MIME-Version:Content-Type;
+	b=OZni5Nrmw1wm/rJMz6Atybp0hhmrFqUiY6lZOs50L8ZhHLamKEuW2Lb8Yx/QiMmw4
+	 EBaTzJ19272iq8pDkzQg6WvJBUj4Xomd72+Ngl3ys3Yvl7JConwmm6Yxwsw9w4bFcY
+	 IjMyIeqMzuVTIx+CWFPVgFDgPgGiTaus4BEz3t4o=
+Received: from pmta09.mandrill.prod.suw01.rsglab.com (localhost [127.0.0.1])
+	by mail187-131.suw11.mandrillapp.com (Mailchimp) with ESMTP id 4Jpr7M0fl1zDRJ91C
+	for <avex@avexeva.com>; Wed,  2 Feb 2022 18:34:39 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1643826878; h=From : 
+ Subject : To : Message-Id : Date : MIME-Version : Content-Type : From : 
+ Subject : Date : X-Mandrill-User : List-Unsubscribe; 
+ bh=NBAqOT68WzmnOBYDnXWH6fk7xKoN6v09dKF9s3Qrjow=; 
+ b=YRYWlyaDFYXMpIMblNkTrGQJf8mlU47xjMCxeBN7IgyYFlV511eqqpHEFrV5+M2zcQ11R4
+ rGqSmn7dK4/9luCcAkwX0h7UxBfGBZZl2yaH5pqaIzFf32JW5teMqbNI0lCeAfIvh5fYQHW/
+ lOqrsXNYW2cMunhoF7A0RQSmmcdXo=
+From: LegalZoom <noreply@asknicelyemail.com>
+Subject: Peter, please take a moment to tell us about your recent experience with your LegalZoom Agent
+Received: from [35.162.182.107] by mandrillapp.com id ecccd76ce7c6450bb08ea4ac05a7e2fa; Wed, 02 Feb 2022 18:34:38 +0000
+To: Peter Speranza <avex@avexeva.com>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30261476.ecccd76ce7c6450bb08ea4ac05a7e2fa
+X-Mandrill-User: md_30261476
+Feedback-ID: 30261476:30261476.20220202:md
+Message-Id: <30261476.20220202183438.61facebeddc022.83113805@mail187-131.suw11.mandrillapp.com>
+Date: Wed, 02 Feb 2022 18:34:38 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-CMJavGivFGp4BnbuYYrpCA"
+X-Spam-Status: No, score=0.9
+X-Spam-Score: 9
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Based on your experience with Alma, how likely are you to
+   recommend LegalZoom to a friend or colleague? Based on your experience with
+    Alma, how likely are you to recommend LegalZoom to a friend or col [...] 
+ Content analysis details:   (0.9 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: asknicelyemail.com]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.7 MPART_ALT_DIFF         BODY: HTML and text parts are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 MIME_HTML_MOSTLY       BODY: Multipart message mostly text/html MIME
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_EF          Message has a valid DKIM or DK signature from
+                             envelope-from domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+--_av-CMJavGivFGp4BnbuYYrpCA
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Based on your experience with Alma, how likely are you to recommend LegalZoom to a friend or colleague?
+--_av-CMJavGivFGp4BnbuYYrpCA
+Content-Type: multipart/related; boundary="_av-mYycJaIINEqY7yc0nGvqaQ"
+
+--_av-mYycJaIINEqY7yc0nGvqaQ
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org=
+/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns=3D"http://www.w3.org/1999/xht=
+ml" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micros=
+oft-com:office:office"><head><span class=3D"preheader" style=3D"display: no=
+ne !important;visibility: hidden;mso-hide: all !important;font-size: 1px;co=
+lor: #ffffff;line-height: 1px;max-height: 0;max-width: 0;opacity: 0;overflo=
+w: hidden;">Based on your experience with Alma, how likely are you to recom=
+mend LegalZoom to a friend or colleague?</span><title>LegalZoom</title><!--=
+[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch=
+>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><style>
+            /* stop outlook showing times new roman when custom font fails =
+*/
+            span, td, table, div, center { font-family: Arial, serif !impor=
+tant; }
+            a { text-decoration: none; }
+            a:visited { text-decoration: none; color: #fff; }
+            </style><![endif]--><meta http-equiv=3D"Content-Type" content=
+=3D"text/html; charset=3Dutf-8"/><meta name=3D"viewport" content=3D"user-sc=
+alable=3Dyes,width=3Ddevice-width,initial-scale=3D1,maximum-scale=3D1"/><me=
+ta name=3D"x-apple-disable-message-reformatting"/><link href=3D"https://fon=
+ts.googleapis.com/css?family=3DRoboto:300,400" rel=3D"stylesheet"/><link hr=
+ef=3D"/img/webicon.png" rel=3D"icon" type=3D"image/png"/>
+            <style type=3D"text/css">
+                /* Clients -specific Styles */
+                #outlook a {padding:0;} /* Force Outlook to provide a "view=
+ in browser" menu link. */
+                body{width:100% !important; margin:0; padding:0;}
+                body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-=
+size-adjust:100%;}
+                /* Prevent Webkit and Windows Mobile platforms from changin=
+g default font sizes, while not breaking desktop design. */
+                .ExternalClass {width:100%;} /* Force Hotmail to display em=
+ails at full width */
+                .ExternalClass, .ExternalClass p, .ExternalClass span, .Ext=
+ernalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}=
+ /* Force Hotmail to display normal line spacing.  */
+                #backgroundTable {margin:0; padding:0; width:100% !importan=
+t; line-height: 100% !important;}
+                img {outline:none; text-decoration:none;border:none; -ms-in=
+terpolation-mode: bicubic;}
+                a img {border:none;}
+                p {margin: 0px 0px !important;}
+                table td {border-collapse: collapse; -mso-table-lspace: 0pt=
+; -mso-table-rspace: 0pt;}
+                table { border-collapse:collapse; mso-table-lspace:-1pt; ms=
+o-table-rspace:-1pt; }
+                .mobilelink a {
+                    text-decoration:none;
+                    color:#445566;
+                }
+
+                .emailbutton:active {
+                    background-color: #2B9BF4 !important;
+                }
+
+                td.topspacer {height: 40px!important;}
+
+                @media screen and (min-width: 1px) {
+                    table {
+                        table-layout: fixed;
+                        margin:0 auto; }
+                }
+
+                /*iPhone Media Query*/
+                @media only screen and (max-width: 480px) {
+                    table[class=3Ddevicewidth] {width: 310px!important;text=
+-align:center!important;}
+                    td[class=3Ddevicewidth] {width: 310px!important;text-al=
+ign:center!important;}
+                    img[class=3Ddevicewidth] {width: 310px!important;text-a=
+lign:center!important;}
+
+                    td[class=3Ddevicewidthfoot] {padding-left:20px!importan=
+t;padding-right:20px!important; text-align:center!important;}
+                    td[class=3Ddevicewidthfoot] {padding-left:20px!importan=
+t;padding-right:20px!important; text-align:center!important;}
+                    .email-body { font-size: 15px; }
+                    td[class=3Dtopspacer] {height: 10px!important;}
+                    /* gmail support */
+                    u + .body .full-wrap {
+                        width:100% !important;
+                        width:100vw !important;
+                    }
+                }
+            </style>
+        </head><body class=3D"body" leftmargin=3D"0" rightmargin=3D"0" marg=
+inwidth=3D"0" topmargin=3D"0" bottommargin=3D"0" marginheight=3D"0" offset=
+=3D"0" style=3D"-webkit-text-size-adjust:none;"><table class=3D"full-wrap d=
+evicewidth" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%"=
+ align=3D"center"><tr><td align=3D"center"><table class=3D"devicewidth" wid=
+th=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0" id=3D"backgrou=
+ndTable"><tbody><tr><td align=3D"center"><table width=3D"100%" cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" class=3D"devicewidth=
+"><tbody><tr><td width=3D"100%"><table bgcolor=3D"#ffffff" width=3D"100%" c=
+ellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" class=3D"d=
+evicewidth"><tbody><tr><td align=3D"center"><table width=3D"600" cellpaddin=
+g=3D"0" cellspacing=3D"0" align=3D"center" style=3D"width: 100% !important;=
+ max-width: 600px !important;"><tbody><tr><td width=3D"100%" height=3D"10" =
+class=3D"topspacer">&nbsp;</td></tr><tr><td align=3D"center"><img alt=3D"Le=
+galZoom" class=3D"logo" style=3D"max-width: 200px;" src=3D"cid:logo_1.png" =
+border=3D"0"/></td></tr><tr><td width=3D"100%" height=3D"16px">&nbsp;</td><=
+/tr><tr><td class=3D"devicewidthtext email-body" style=3D"background-color:=
+#ffffff;color:#425564;font-size: 18px;font-family: 'Roboto',Helvetica, Aria=
+l, sans-serif;font-weight: 300;line-height: 21px;padding-left:10px;padding-=
+right:10px;min-width: 264px;text-align:center;"><span style=3D"font-family:=
+ 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 18px;"=
+>Based on your experience with Alma, how likely are you to recommend LegalZ=
+oom to a friend or colleague?</span></td></tr><tr><td width=3D"100%" height=
+=3D"18px">&nbsp;</td></tr><tr><td align=3D"center"><a style=3D"display: non=
+e;" href=3D"https://legalzoom.asknice.ly/email/conversation/q1vynpgggpym/-1=
+/v2"></a><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"c=
+enter"><tr><!--[if (gte mso 9)&(lte mso 16)]><td><v:roundrect class=3D"emai=
+lbutton" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-m=
+icrosoft-com:office:word" href=3D"https&#58;&#47;&#47;legalzoom&#46;asknice=
+&#46;ly&#47;email&#47;conversation&#47;q1vynpgggpym&#47;0&#47;v2" style=3D"=
+v-text-anchor:middle; width: 44px; height: 44px;" arcsize=3D"100%" strokeco=
+lor=3D"#0066ff" fillcolor=3D"#0066ff"><w:anchorlock/><v:textbox inset=3D"0,=
+0,0,0"><table height=3D"44" width=3D"100%"><tr width=3D"100%" align=3D"cent=
+er"><td style=3D"font-weight: bold;font-family: 'Roboto', Helvetica, Arial,=
+ 'Lucida Grande', sans-serif;font-size: 18px;line-height: 24px;color: #ffff=
+ff;text-decoration: none;">0</td></tr></table><table style=3D"margin-top: 1=
+00px;"><tr><![endif]--><td class=3D"emailbutton" bgcolor=3D"#0066ff"style=
+=3D"width: 44px;height:44px;background-color: #0066ff;font-weight:bold;colo=
+r: #ffffff;font-size: 18px;text-align: center;-moz-border-radius: 100%;-web=
+kit-border-radius: 100%;border-radius: 100%;"><a href=3D"https://legalzoom.=
+asknice.ly/email/conversation/q1vynpgggpym/0/v2"style=3D"font-weight: bold;=
+color: #ffffff;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sa=
+ns-serif;font-size: 18px;text-decoration: none;display: block;line-height: =
+44px;width: 44px;height: 44px;"><span style=3D"white-space: pre-line; color=
+:#ffffff;text-decoration: none;">0</span></a><!--[if (gte mso 9)&(lte mso 1=
+6)]></td></tr></table></v:textbox></v:roundrect><![endif]--></td><td>&nbsp;=
+</td><!--[if (gte mso 9)&(lte mso 16)]><td><v:roundrect class=3D"emailbutto=
+n" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microso=
+ft-com:office:word" href=3D"https&#58;&#47;&#47;legalzoom&#46;asknice&#46;l=
+y&#47;email&#47;conversation&#47;q1vynpgggpym&#47;2&#47;v2" style=3D"v-text=
+-anchor:middle; width: 44px; height: 44px;" arcsize=3D"100%" strokecolor=3D=
+"#0066ff" fillcolor=3D"#0066ff"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"=
+><table height=3D"44" width=3D"100%"><tr width=3D"100%" align=3D"center"><t=
+d style=3D"font-weight: bold;font-family: 'Roboto', Helvetica, Arial, 'Luci=
+da Grande', sans-serif;font-size: 18px;line-height: 24px;color: #ffffff;tex=
+t-decoration: none;">2</td></tr></table><table style=3D"margin-top: 100px;"=
+><tr><![endif]--><td class=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"widt=
+h: 44px;height:44px;background-color: #0066ff;font-weight:bold;color: #ffff=
+ff;font-size: 18px;text-align: center;-moz-border-radius: 100%;-webkit-bord=
+er-radius: 100%;border-radius: 100%;"><a href=3D"https://legalzoom.asknice.=
+ly/email/conversation/q1vynpgggpym/2/v2"style=3D"font-weight: bold;color: #=
+ffffff;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif=
+;font-size: 18px;text-decoration: none;display: block;line-height: 44px;wid=
+th: 44px;height: 44px;"><span style=3D"white-space: pre-line; color:#ffffff=
+;text-decoration: none;">2</span></a><!--[if (gte mso 9)&(lte mso 16)]></td=
+></tr></table></v:textbox></v:roundrect><![endif]--></td><td>&nbsp;</td><!-=
+-[if (gte mso 9)&(lte mso 16)]><td><v:roundrect class=3D"emailbutton" xmlns=
+:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:o=
+ffice:word" href=3D"https&#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;em=
+ail&#47;conversation&#47;q1vynpgggpym&#47;4&#47;v2" style=3D"v-text-anchor:=
+middle; width: 44px; height: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff=
+" fillcolor=3D"#0066ff"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><table =
+height=3D"44" width=3D"100%"><tr width=3D"100%" align=3D"center"><td style=
+=3D"font-weight: bold;font-family: 'Roboto', Helvetica, Arial, 'Lucida Gran=
+de', sans-serif;font-size: 18px;line-height: 24px;color: #ffffff;text-decor=
+ation: none;">4</td></tr></table><table style=3D"margin-top: 100px;"><tr><!=
+[endif]--><td class=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"width: 44px=
+;height:44px;background-color: #0066ff;font-weight:bold;color: #ffffff;font=
+-size: 18px;text-align: center;-moz-border-radius: 100%;-webkit-border-radi=
+us: 100%;border-radius: 100%;"><a href=3D"https://legalzoom.asknice.ly/emai=
+l/conversation/q1vynpgggpym/4/v2"style=3D"font-weight: bold;color: #ffffff;=
+font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-s=
+ize: 18px;text-decoration: none;display: block;line-height: 44px;width: 44p=
+x;height: 44px;"><span style=3D"white-space: pre-line; color:#ffffff;text-d=
+ecoration: none;">4</span></a><!--[if (gte mso 9)&(lte mso 16)]></td></tr><=
+/table></v:textbox></v:roundrect><![endif]--></td><td>&nbsp;</td><!--[if (g=
+te mso 9)&(lte mso 16)]><td><v:roundrect class=3D"emailbutton" xmlns:v=3D"u=
+rn:schemas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:w=
+ord" href=3D"https&#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47=
+;conversation&#47;q1vynpgggpym&#47;6&#47;v2" style=3D"v-text-anchor:middle;=
+ width: 44px; height: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff" fillc=
+olor=3D"#0066ff"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><table height=
+=3D"44" width=3D"100%"><tr width=3D"100%" align=3D"center"><td style=3D"fon=
+t-weight: bold;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sa=
+ns-serif;font-size: 18px;line-height: 24px;color: #ffffff;text-decoration: =
+none;">6</td></tr></table><table style=3D"margin-top: 100px;"><tr><![endif]=
+--><td class=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"width: 44px;height=
+:44px;background-color: #0066ff;font-weight:bold;color: #ffffff;font-size: =
+18px;text-align: center;-moz-border-radius: 100%;-webkit-border-radius: 100=
+%;border-radius: 100%;"><a href=3D"https://legalzoom.asknice.ly/email/conve=
+rsation/q1vynpgggpym/6/v2"style=3D"font-weight: bold;color: #ffffff;font-fa=
+mily: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18=
+px;text-decoration: none;display: block;line-height: 44px;width: 44px;heigh=
+t: 44px;"><span style=3D"white-space: pre-line; color:#ffffff;text-decorati=
+on: none;">6</span></a><!--[if (gte mso 9)&(lte mso 16)]></td></tr></table>=
+</v:textbox></v:roundrect><![endif]--></td><td>&nbsp;</td><!--[if (gte mso =
+9)&(lte mso 16)]><td><v:roundrect class=3D"emailbutton" xmlns:v=3D"urn:sche=
+mas-microsoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" hr=
+ef=3D"https&#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47;conver=
+sation&#47;q1vynpgggpym&#47;8&#47;v2" style=3D"v-text-anchor:middle; width:=
+ 44px; height: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D=
+"#0066ff"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><table height=3D"44" =
+width=3D"100%"><tr width=3D"100%" align=3D"center"><td style=3D"font-weight=
+: bold;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif=
+;font-size: 18px;line-height: 24px;color: #ffffff;text-decoration: none;">8=
+</td></tr></table><table style=3D"margin-top: 100px;"><tr><![endif]--><td c=
+lass=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"width: 44px;height:44px;ba=
+ckground-color: #0066ff;font-weight:bold;color: #ffffff;font-size: 18px;tex=
+t-align: center;-moz-border-radius: 100%;-webkit-border-radius: 100%;border=
+-radius: 100%;"><a href=3D"https://legalzoom.asknice.ly/email/conversation/=
+q1vynpgggpym/8/v2"style=3D"font-weight: bold;color: #ffffff;font-family: 'R=
+oboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;text-=
+decoration: none;display: block;line-height: 44px;width: 44px;height: 44px;=
+"><span style=3D"white-space: pre-line; color:#ffffff;text-decoration: none=
+;">8</span></a><!--[if (gte mso 9)&(lte mso 16)]></td></tr></table></v:text=
+box></v:roundrect><![endif]--></td><td>&nbsp;</td><!--[if (gte mso 9)&(lte =
+mso 16)]><td><v:roundrect class=3D"emailbutton" xmlns:v=3D"urn:schemas-micr=
+osoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"ht=
+tps&#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47;conversation&#=
+47;q1vynpgggpym&#47;10&#47;v2" style=3D"v-text-anchor:middle; width: 44px; =
+height: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D"#0066f=
+f"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><table height=3D"44" width=
+=3D"100%"><tr width=3D"100%" align=3D"center"><td style=3D"font-weight: bol=
+d;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font=
+-size: 18px;line-height: 24px;color: #ffffff;text-decoration: none;">10</td=
+></tr></table><table style=3D"margin-top: 100px;"><tr><![endif]--><td class=
+=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"width: 44px;height:44px;backgr=
+ound-color: #0066ff;font-weight:bold;color: #ffffff;font-size: 18px;text-al=
+ign: center;-moz-border-radius: 100%;-webkit-border-radius: 100%;border-rad=
+ius: 100%;"><a href=3D"https://legalzoom.asknice.ly/email/conversation/q1vy=
+npgggpym/10/v2"style=3D"font-weight: bold;color: #ffffff;font-family: 'Robo=
+to', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;text-dec=
+oration: none;display: block;line-height: 44px;width: 44px;height: 44px;"><=
+span style=3D"white-space: pre-line; color:#ffffff;text-decoration: none;">=
+10</span></a><!--[if (gte mso 9)&(lte mso 16)]></td></tr></table></v:textbo=
+x></v:roundrect><![endif]--></td></tr></table><br><table cellpadding=3D"0" =
+cellspacing=3D"0" border=3D"0" align=3D"center"><tr><!--[if (gte mso 9)&(lt=
+e mso 16)]><td><v:roundrect class=3D"emailbutton" xmlns:v=3D"urn:schemas-mi=
+crosoft-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"=
+https&#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47;conversation=
+&#47;q1vynpgggpym&#47;1&#47;v2" style=3D"v-text-anchor:middle; width: 44px;=
+ height: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D"#0066=
+ff"><w:anchorlock/><v:textbox inset=3D"0,0,0,0"><table height=3D"44" width=
+=3D"100%"><tr width=3D"100%" align=3D"center"><td style=3D"font-weight: bol=
+d;font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font=
+-size: 18px;line-height: 24px;color: #ffffff;text-decoration: none;">1</td>=
+</tr></table><table style=3D"margin-top: 100px;"><tr><![endif]--><td class=
+=3D"emailbutton" bgcolor=3D"#0066ff"style=3D"width: 44px;height:44px;backgr=
+ound-color: #0066ff;font-weight:bold;color: #ffffff;font-size: 18px;text-al=
+ign: center;-moz-border-radius: 100%;-webkit-border-radius: 100%;border-rad=
+ius: 100%;"><a href=3D"https://legalzoom.asknice.ly/email/conversation/q1vy=
+npgggpym/1/v2"style=3D"font-weight: bold;color: #ffffff;font-family: 'Robot=
+o', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;text-deco=
+ration: none;display: block;line-height: 44px;width: 44px;height: 44px;"><s=
+pan style=3D"white-space: pre-line; color:#ffffff;text-decoration: none;">1=
+</span></a><!--[if (gte mso 9)&(lte mso 16)]></td></tr></table></v:textbox>=
+</v:roundrect><![endif]--></td><td>&nbsp;</td><!--[if (gte mso 9)&(lte mso =
+16)]><td><v:roundrect class=3D"emailbutton" xmlns:v=3D"urn:schemas-microsof=
+t-com:vml" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https&=
+#58;&#47;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47;conversation&#47;q=
+1vynpgggpym&#47;3&#47;v2" style=3D"v-text-anchor:middle; width: 44px; heigh=
+t: 44px;" arcsize=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D"#0066ff"><w=
+:anchorlock/><v:textbox inset=3D"0,0,0,0"><table height=3D"44" width=3D"100=
+%"><tr width=3D"100%" align=3D"center"><td style=3D"font-weight: bold;font-=
+family: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: =
+18px;line-height: 24px;color: #ffffff;text-decoration: none;">3</td></tr></=
+table><table style=3D"margin-top: 100px;"><tr><![endif]--><td class=3D"emai=
+lbutton" bgcolor=3D"#0066ff"style=3D"width: 44px;height:44px;background-col=
+or: #0066ff;font-weight:bold;color: #ffffff;font-size: 18px;text-align: cen=
+ter;-moz-border-radius: 100%;-webkit-border-radius: 100%;border-radius: 100=
+%;"><a href=3D"https://legalzoom.asknice.ly/email/conversation/q1vynpgggpym=
+/3/v2"style=3D"font-weight: bold;color: #ffffff;font-family: 'Roboto', Helv=
+etica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;text-decoration: =
+none;display: block;line-height: 44px;width: 44px;height: 44px;"><span styl=
+e=3D"white-space: pre-line; color:#ffffff;text-decoration: none;">3</span><=
+/a><!--[if (gte mso 9)&(lte mso 16)]></td></tr></table></v:textbox></v:roun=
+drect><![endif]--></td><td>&nbsp;</td><!--[if (gte mso 9)&(lte mso 16)]><td=
+><v:roundrect class=3D"emailbutton" xmlns:v=3D"urn:schemas-microsoft-com:vm=
+l" xmlns:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https&#58;&#47=
+;&#47;legalzoom&#46;asknice&#46;ly&#47;email&#47;conversation&#47;q1vynpggg=
+pym&#47;5&#47;v2" style=3D"v-text-anchor:middle; width: 44px; height: 44px;=
+" arcsize=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D"#0066ff"><w:anchorl=
+ock/><v:textbox inset=3D"0,0,0,0"><table height=3D"44" width=3D"100%"><tr w=
+idth=3D"100%" align=3D"center"><td style=3D"font-weight: bold;font-family: =
+'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;lin=
+e-height: 24px;color: #ffffff;text-decoration: none;">5</td></tr></table><t=
+able style=3D"margin-top: 100px;"><tr><![endif]--><td class=3D"emailbutton"=
+ bgcolor=3D"#0066ff"style=3D"width: 44px;height:44px;background-color: #006=
+6ff;font-weight:bold;color: #ffffff;font-size: 18px;text-align: center;-moz=
+-border-radius: 100%;-webkit-border-radius: 100%;border-radius: 100%;"><a h=
+ref=3D"https://legalzoom.asknice.ly/email/conversation/q1vynpgggpym/5/v2"st=
+yle=3D"font-weight: bold;color: #ffffff;font-family: 'Roboto', Helvetica, A=
+rial, 'Lucida Grande', sans-serif;font-size: 18px;text-decoration: none;dis=
+play: block;line-height: 44px;width: 44px;height: 44px;"><span style=3D"whi=
+te-space: pre-line; color:#ffffff;text-decoration: none;">5</span></a><!--[=
+if (gte mso 9)&(lte mso 16)]></td></tr></table></v:textbox></v:roundrect><!=
+[endif]--></td><td>&nbsp;</td><!--[if (gte mso 9)&(lte mso 16)]><td><v:roun=
+drect class=3D"emailbutton" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns=
+:w=3D"urn:schemas-microsoft-com:office:word" href=3D"https&#58;&#47;&#47;le=
+galzoom&#46;asknice&#46;ly&#47;email&#47;conversation&#47;q1vynpgggpym&#47;=
+7&#47;v2" style=3D"v-text-anchor:middle; width: 44px; height: 44px;" arcsiz=
+e=3D"100%" strokecolor=3D"#0066ff" fillcolor=3D"#0066ff"><w:anchorlock/><v:=
+textbox inset=3D"0,0,0,0"><table height=3D"44" width=3D"100%"><tr width=3D"=
+100%" align=3D"center"><td style=3D"font-weight: bold;font-family: 'Roboto'=
+, Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;line-height=
+: 24px;color: #ffffff;text-decoration: none;">7</td></tr></table><table sty=
+le=3D"margin-top: 100px;"><tr><![endif]--><td class=3D"emailbutton" bgcolor=
+=3D"#0066ff"style=3D"width: 44px;height:44px;background-color: #0066ff;font=
+-weight:bold;color: #ffffff;font-size: 18px;text-align: center;-moz-border-=
+radius: 100%;-webkit-border-radius: 100%;border-radius: 100%;"><a href=3D"h=
+ttps://legalzoom.asknice.ly/email/conversation/q1vynpgggpym/7/v2"style=3D"f=
+ont-weight: bold;color: #ffffff;font-family: 'Roboto', Helvetica, Arial, 'L=
+ucida Grande', sans-serif;font-size: 18px;text-decoration: none;display: bl=
+ock;line-height: 44px;width: 44px;height: 44px;"><span style=3D"white-space=
+: pre-line; color:#ffffff;text-decoration: none;">7</span></a><!--[if (gte =
+mso 9)&(lte mso 16)]></td></tr></table></v:textbox></v:roundrect><![endif]-=
+-></td><td>&nbsp;</td><!--[if (gte mso 9)&(lte mso 16)]><td><v:roundrect cl=
+ass=3D"emailbutton" xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:w=3D"ur=
+n:schemas-microsoft-com:office:word" href=3D"https&#58;&#47;&#47;legalzoom&=
+#46;asknice&#46;ly&#47;email&#47;conversation&#47;q1vynpgggpym&#47;9&#47;v2=
+" style=3D"v-text-anchor:middle; width: 44px; height: 44px;" arcsize=3D"100=
+%" strokecolor=3D"#0066ff" fillcolor=3D"#0066ff"><w:anchorlock/><v:textbox =
+inset=3D"0,0,0,0"><table height=3D"44" width=3D"100%"><tr width=3D"100%" al=
+ign=3D"center"><td style=3D"font-weight: bold;font-family: 'Roboto', Helvet=
+ica, Arial, 'Lucida Grande', sans-serif;font-size: 18px;line-height: 24px;c=
+olor: #ffffff;text-decoration: none;">9</td></tr></table><table style=3D"ma=
+rgin-top: 100px;"><tr><![endif]--><td class=3D"emailbutton" bgcolor=3D"#006=
+6ff"style=3D"width: 44px;height:44px;background-color: #0066ff;font-weight:=
+bold;color: #ffffff;font-size: 18px;text-align: center;-moz-border-radius: =
+100%;-webkit-border-radius: 100%;border-radius: 100%;"><a href=3D"https://l=
+egalzoom.asknice.ly/email/conversation/q1vynpgggpym/9/v2"style=3D"font-weig=
+ht: bold;color: #ffffff;font-family: 'Roboto', Helvetica, Arial, 'Lucida Gr=
+ande', sans-serif;font-size: 18px;text-decoration: none;display: block;line=
+-height: 44px;width: 44px;height: 44px;"><span style=3D"white-space: pre-li=
+ne; color:#ffffff;text-decoration: none;">9</span></a><!--[if (gte mso 9)&(=
+lte mso 16)]></td></tr></table></v:textbox></v:roundrect><![endif]--></td><=
+/tr></table><table width=3D'300px' cellpadding=3D"0" cellspacing=3D"0" bord=
+er=3D"0" align=3D"center" style=3D"width: 300px !important; max-width: 300p=
+x !important; min-width: 300px !important;"><tr><td style=3D"height:10px" c=
+olspan=3D"2"></td></tr><tr><td class=3D"email-label-left" align=3D"center" =
+style=3D"font-size: 11px;font-family: 'Roboto', Helvetica, Arial, 'Lucida G=
+rande', sans-serif;font-weight: 300;line-height: 20px;color: #425564;overfl=
+ow-wrap: break-word;word-wrap: break-word;-ms-hyphens: manual;-moz-hyphens:=
+ manual;-webkit-hyphens: manual;hyphens: manual;vertical-align: middle;heig=
+ht: 20px;">0 - Not likely&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td class=3D"em=
+ail-label-right" align=3D"center" style=3D"font-size: 11px;font-family: 'Ro=
+boto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-weight: 300;line-=
+height: 20px;color: #425564;overflow-wrap: break-word;word-wrap: break-word=
+;-ms-hyphens: manual;-moz-hyphens: manual;-webkit-hyphens: manual;hyphens: =
+manual;vertical-align: middle;height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+10 - Very likely</td></tr></table><table cellpadding=3D"0" width=3D"98%" ce=
+llspacing=3D"0" border=3D"0" align=3D"center" ><tr><td style=3D"height:23px=
+;"></td></tr><tr><td align=3D"center" style=3D"height: 13px;"><div style=3D=
+"max-width: 296px; margin: auto;"><small style=3D"font-size: 11px;font-fami=
+ly: 'Roboto', Helvetica, Arial, 'Lucida Grande', sans-serif;font-weight: 30=
+0;line-height: 13px;color: #637D92;text-align:center;"><span class=3D"email=
+-footer" ct=3D"footer">Please do not reply to this message. If we can be of=
+ further assistance, please feel free to contact our Customer Care Team by =
+email at support@legalzoom.com or by calling us at 1.800.773.0888. Our Cust=
+omer Care Team is available Mon-Fri 7am to 5pm PT; Sat-Sun 7am to 4pm PT.<b=
+r />
+This email was sent by AskNicely <br />
+on behalf of LegalZoom.com, Inc., <br />
+located at 9900 Spectrum Dr, Austin, TX 78717.</span><br/></small></div></t=
+d></tr><tr><td style=3D"height:15px;"></td></tr><tr><td><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" width=3D"286px;" sty=
+le=3D"width: 286px; min-width: 286px; max-width: 286px;"><tr><td width=3D"5=
+0%" style=3D"width: 50%; min-width: 50%; max-width: 50%;font-family: 'Robot=
+o', Helvetica, Arial, 'Lucida Grande', sans-serif;font-size: 11px;line-heig=
+ht: 13px;text-align: left; height: 13px;"><a href=3D"https://www.asknicely.=
+com/powered-by/legalzoom?company=3DLegalZoom&utm_source=3Dsurvey&utm_conten=
+t=3Dlegalzoom" style=3D"text-decoration: none;" target=3D"_blank"><span sty=
+le=3D"color: #637D92; font-family: 'Roboto', Helvetica, Arial, 'Lucida Gran=
+de', sans-serif; font-size: 11px; font-weight: bold; line-height: 14px; tex=
+t-align: left;">Powered by AskNicely</span></a></td><td width=3D"50%" style=
+=3D"width: 50%; min-width: 50%; max-width: 50%; text-align: right;"><a styl=
+e=3D"color: #637D92; font-weight: 300; word-break: keep-all; font-size:12px=
+; line-height: 14px; text-decoration: underline; font-family: 'Roboto', Hel=
+vetica, Arial, 'Lucida Grande', sans-serif;" class=3D"email-privacy" href=
+=3D"https://legalzoom.asknice.ly/privacy">Privacy</a>&nbsp;&nbsp;&nbsp;<a s=
+tyle=3D"color: #637D92; font-weight: 300; word-break: keep-all; font-size:1=
+2px; line-height: 14px; text-decoration: underline; font-family: 'Roboto', =
+Helvetica, Arial, 'Lucida Grande', sans-serif;" class=3D"email-unsubscribe"=
+ href=3D"https://legalzoom.asknice.ly/email/unsubscribe/confirm/q1vynpgggpy=
+m">Unsubscribe</a></td></tr></table></td></tr></table></td></tr></tbody></t=
+able></td></tr><tr><td style=3D"height:28px;"></td></tr></tbody></table></t=
+d></tr></tbody></table></td></tr></tbody></table></td></tr></table><div wid=
+th=3D"100%" style=3D"background-color: #fff;text-align: center;" align=3D"c=
+enter"><!--[if mso]><table width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0"><tr><td width=3D"100%"><![endif]--><table width=3D"100%" ce=
+llpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" class=3D"de=
+vicewidth"><tbody><tr><td width=3D"100%" align=3D"center" style=3D"text-ali=
+gn:center;"><table align=3D"center" cellpadding=3D"0" cellspacing=3D"0" bor=
+der=3D"0" width=3D"95%" class=3D"devicewidth"><tr><td class=3D"devicewidthf=
+oot" style=3D"font-family: 'Roboto', Helvetica, Arial, 'Lucida Grande', san=
+s-serif;font-size: 12px;line-height: 14px;text-align: center;"><a href=3D"h=
+ttps://www.asknicely.com/powered-by/legalzoom?company=3DLegalZoom&utm_sourc=
+e=3Dsurvey&utm_content=3Dlegalzoom" target=3D"_blank"><img alt=3D"AskNicely=
+" width=3D"62" height=3D"47" border=3D"0" style=3D"max-height: 47px; max-wi=
+dth: 62px; height: 47px; width: 62px;" src=3D"cid:asknicely_mark.png" /></a=
+><br/><br/></td></tr></table></td></tr></tbody></table><!--[if mso]></td><t=
+r></table><![endif]--></div><img alt=3D"" width=3D"1px" style=3D"width: 1px=
+ !important;" src=3D"https://legalzoom.asknice.ly/service/emailopened.php?s=
+lug=3Dq1vynpgggpym"/><div style=3D"display:none; max-height:0px; overflow:h=
+idden; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp=
+; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nb=
+sp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &=
+nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div><img src=3D"https://m=
+andrillapp.com/track/open.php?u=3D30261476&id=3Decccd76ce7c6450bb08ea4ac05a=
+7e2fa" height=3D"1" width=3D"1"></body></html>
+
+--_av-mYycJaIINEqY7yc0nGvqaQ
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Id: <logo_1.png>
+Content-Disposition: inline
+
+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
+MrQLFiww+tml79/wtWjRIusOxim17qSycqV/AYIOmOKPVquhoQF79uwRzYuP
+j0dAgPVHHjdv3iyafuONNzB+/Hh4eXmJ+odnzpz5R2ybpKQk3L9//+E4jZOT
+yctpmZmZKCwsFHV71q5dC3t7e4vreeaZZ/DZZ5+J5u3fvx+VlZWieXv37kV9
+fb1+evDgwZg1a5aizzJt2jSEhISI5u3YscNin7pv376iy6darVZ2OffixYso
+KirSTwcFBSnqCjRrME6pe1XAnovKy9+vBcb0a71Bz87Olg3qzJ8/3+rraWxs
+xNatW0XzZs2aBVtbW8yYMeMfNyh35swZ7Ny5Uxb85557zmj5Y8eOiaYDAgLw
+0ksvKV5fTEwM2rRpIxobOHfunNl1zJkzR9Vneuutt0TTOTk5svEJaSiDgoIw
+fPhws6Pv+/btE01/+OGHzR55t1rQt54HquuVlx/RF3C2f3qCa2NjY/I1d+5c
+WflffvlFNN2vXz907drV6u/r6NGjokEqPz8/fatBOiik1WpFg1+PW2Njo2yw
+rUePHli4cKHJZaTb0TAcSjg6OiI4ONhsndKR/GHDhqlah7H3JA22dLp3796I
+iooyO/puOO3q6orXXnsN3bt318+7du2a6OabFg+6IAD/Oq1umXfCWs/Z27DZ
+Z9hUM2TYjDYnIyMDa9as0b8sXUKRnqVnz56t/9vb2xthYQ83dFVVlclLcI9D
+SkoKfv75Z9G81atXw9nZ2eQy5eXlounmHCyly0jrLC0tFU0bhkkJT09PefdU
+UmdBQYEs6JMmTTLZfM/JycHvv/+u/194eDgcHR3h7e2tn1dTUyNq2rd40E8W
+qLupZmhvwM8T/1WMXToxZvv27UhISNC/zH2Rf/zxB/bv36+ftrOzw9SpU00G
+HzB+U83jUF5ejo8++kjcqhsxQtXtuU8zaauhd+/ecHd3N9l8l57dH2wnw6Cr
+ab7bWeNDrD+prvzTeDaX9nctNd06duwomr5165bV39O2bdtErYk+ffrg/Pnz
+4i/Yzk5//RcAsrKykJOTgwEDBjzW7bdkyRLRmVSj0WDt2rUWl3NzcxNNm7qm
+bI50GWmd7u7uovdWXFxs8r4IY6TX9x/UaemMDjQ9I2E4RqDVahEUFCTqn7dt
+2xajRo0CAPTq1UtUT35+PkaOHNnyQS+tBPZlKy//jAsw+eWnL+jSAS9LXnjh
+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
+AElFTkSuQmCC
+
+--_av-mYycJaIINEqY7yc0nGvqaQ
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Id: <asknicely_mark.png>
+Content-Disposition: inline
+
+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
+
+
+--_av-mYycJaIINEqY7yc0nGvqaQ--
+
+--_av-CMJavGivFGp4BnbuYYrpCA--
+

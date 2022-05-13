@@ -1,0 +1,2354 @@
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id 6nWMGzfobmDOXAAABSAGJw
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Thu, 08 Apr 2021 07:25:43 -0400
+Return-path: <n_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 08 Apr 2021 07:25:43 -0400
+Received: from msbadger18103.apple.com ([17.179.250.220]:40240 helo=rn2-msbadger18103.apple.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	id 1lUSn7-0006AK-2x
+	for avex@avexeva.com; Thu, 08 Apr 2021 07:25:43 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1617879847;
+	bh=ES/QxmhP1SXBLO4FwzEvczArt0oMtoSmnqmO/fov7hM=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=PfOWo+TA17IkIaOeaOm/4gqsb4ZzO47nFeuxidl7cv+e5Ty2XfCAbjVFlUISn0nY6
+	 uJtqTysIIkKzC1fbGTgBY/spNhZNxzGyZWyGxDmus+ydmXewsim+a/TNZh94xKXvW5
+	 M0WL4l9zC82hcAtZettTk5ptUHSYEVoWNisJkgfJEdQU+SAHuYD5/h8nimgcM9GKhW
+	 KyMOQfhCFOD0hsnPlZTCkCqrmzT18bz7G2MYRXZcnEVYvEImyPAsKExpiiRdEQWIsy
+	 iLilRXCwYfWRIq6CSluc+xBsqBdBbuwy9Y7O6EKrb0plBzbfJFziDdSn2gSl5klrmv
+	 YSH/qlyMCfnoQ==
+Date: Thu, 8 Apr 2021 11:04:07 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: avex@avexeva.com
+Message-ID: <603593251.341112187.1617879847340@Insideapple.apple.com>
+Subject: Welcome to your new iPhone 12 Pro.
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_341112185_393831283.1617879847340"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,GphTVztellIogqap%2BIGy8OJfW3qFBX986Rv2T%2F3MzvVALi0vnFIVMEJjY3w30qLUDL5f%2BAb5ApLvEU7TZdIZmlY36a1LahxihQW%2FNmeHzhAIsy0VgjfMPaFDyxLjYPg5UlI8MFQz4rT4xCOXGOSRarll7Qpe5gRu3eyV6H%2F%2FkuhfL0bgkPUWXdYoHZ3vjeU7
+X-TXN_ID: 6516040a-af28-4ba9-8d77-49fae113a453
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2107221
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2107221
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=Qw4aNQWWDervXPmsuwf4HJbquMbP8HEywyBJX74yQz6BiDdnmdaRaEY7wIx1EkNuGu07vwguNRIHnRcQKHc4GTGDFSP%2F2U6BKcfeV601a9Q2d2%2Bx%2B1DKjNGKqLW4xLHA%2FHKdCySdvXBlTYKF2VQZ6I17q03anBFRKSr9YysCsPwlHveBOQC85hh89DzzSX%2BkxZEErrafVGU1s6CIh2OZ7osG7ylwplE5ALH88PGJkxQ%3D>
+X-BTPH: Reg
+X-mp: d
+X-Spam-Status: No, score=-13.6
+X-Spam-Score: -135
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Get to know your new iPhone 12 Pro. Here are some of our
+    favorite tips and tricks for getting the most out of your new iPhone. You’ll
+    find lots of shortcuts, powerful camera features, and essential tools for
+    productivity, play, and [...] 
+ Content analysis details:   (-13.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+X-Spam-Flag: NO
+
+------=_Part_341112185_393831283.1617879847340
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Get to know your new iPhone=C2=A012=C2=A0Pro.
+
+Here are some of our favorite tips and tricks for getting the most=C2=A0out=
+ of your new iPhone. You=E2=80=99ll find lots of shortcuts, powerful camera=
+ features, and essential tools for productivity,=C2=A0play, and improving y=
+our day. Let=E2=80=99s dive right in.
+
+-------------------
+
+Simple shortcuts for getting around.
+
+Control Center
+Swipe down from the top-right corner=C2=A0to=C2=A0open Control Center. Touc=
+h=C2=A0and=C2=A0hold=C2=A0an=C2=A0icon to see more=C2=A0options.
+
+Multitasking
+To see recently used apps or switch to another app, just swipe up and hold,=
+ then release to swipe through apps.
+
+Switch between apps
+Swipe right at the bottom edge of=C2=A0your=C2=A0screen to switch between a=
+pps=C2=A0you=E2=80=99ve been=C2=A0using.
+
+Ask Siri
+To use Siri hands-free, say =E2=80=9CHey Siri.=E2=80=9D=C2=A0Or=C2=A0press =
+and hold the side button while asking your=C2=A0question.
+
+Apple Pay
+Double-click the side button to use=C2=A0Apple=C2=A0Pay in stores, in apps,=
+ and=C2=A0on=C2=A0the=C2=A0web.
+
+Take a screenshot
+Press then release the side button and the volume-up button simultaneously.=
+ See=C2=A0your screenshot in Photos.
+
+Emergency SOS
+Press and hold the side button and either=C2=A0volume button. Then slide to=
+ make=C2=A0an emergency=C2=A0call.
+
+Power off
+Press and hold the side button and=C2=A0either=C2=A0volume button. Then sli=
+de to power=C2=A0off.
+
+Reachability
+Bring content at the top of your screen into reach by swiping down from the=
+ bottom edge. Turn on Reachability in Settings=C2=A0> Accessibility > Touch=
+.
+
+Back Tap
+To choose actions you can trigger by=C2=A0tapping the back of your iPhone,=
+=C2=A0go=C2=A0to=C2=A0Settings > Accessibility=C2=A0>=C2=A0Touch > Back Tap=
+.
+
+-------------------
+
+See what the new Pro camera system can do.
+
+Shoot Dolby Vision HDR video.
+When shooting video, you can tap the controls in the top corner to switch b=
+etween HD and 4K or change frame rates. Choose 30=C2=A0fps for standard vid=
+eo, 60=C2=A0fps for motion, or 24 fps=C2=A0for a cinematic=C2=A0look.
+
+Edit Dolby Vision HDR video.
+In Photos, tap Edit above your video screen to access the full suite of edi=
+ting tools. Trim footage, adjust colors, reduce noise, add filters, crop fr=
+ames, and much more.
+
+Record Night mode Time-lapse videos.
+In low light, mount iPhone=C2=A012=C2=A0Pro to a tripod. Swipe to Time-Laps=
+e and frame your scene. Tap the shutter to start recording, then tap it aga=
+in to=C2=A0stop.
+
+-------------------
+
+Frame your shots with the zoom wheel.
+Touch and hold the .5x, 1x, or 2x button on=C2=A0your Camera screen for a z=
+oom wheel,=C2=A0then slide to zoom in or out with=C2=A0the=C2=A0Ultra Wide,=
+ Wide, and Telephoto=C2=A0cameras.
+
+-------------------
+
+Shoot portraits with depth.
+In Camera, swipe to Portrait mode, which automatically blurs the background=
+. While shooting, tap (depth control icon) and=C2=A0use the slider to adjus=
+t the amount=C2=A0of blur. After you shoot, use=C2=A0the=C2=A0slider in Edi=
+t.
+
+-------------------
+
+Use Night mode automatically or fine-tune=C2=A0it.
+Tap the shutter to take a photo in low=C2=A0light =E2=80=94 Night mode kick=
+s in when=C2=A0it=E2=80=99s=C2=A0needed. To get even more detail, tap (Nigh=
+t mode icon). The longer you hold still,=C2=A0the sharper your shot gets.
+
+-------------------
+
+Experiment with Night mode portraits.
+For portraits in dimly lit environments,=C2=A0simply swipe to Portrait=C2=
+=A0mode and shoot as you normally would. Night mode portraits=C2=A0automati=
+cally give you low-light shots with a beautiful bokeh=C2=A0effect.
+
+-------------------
+
+Add Portrait Lighting effects.
+Scroll through the menu in Portrait mode=C2=A0to choose from six studio-qua=
+lity lighting effects, like the dramatic High-Key Light Mono. You can do it=
+ before or after you shoot.
+
+-------------------
+
+Try shooting a series in black and white.
+To take multiple black and white photos without individually converting eac=
+h image afterward, simply tap (up arrow icon) at the top, tap (lighting fil=
+ters icon) in the toolbar, select the Mono, Silvertone, or Noir filter, and=
+ shoot.
+
+-------------------
+
+Let iOS 14 help you get right=C2=A0to the good stuff.
+
+Find your apps faster with the new App Library.
+From the Home Screen, swipe=C2=A0left until you see the App=C2=A0Library. Y=
+our apps are automatically sorted into categories. Use the search field=C2=
+=A0to look for a specific app.
+
+Add helpful widgets to=C2=A0your=C2=A0Home=C2=A0Screen.
+Touch and hold an empty part of=C2=A0the screen until the apps jiggle. Tap=
+=C2=A0(plus icon), select a widget, choose from three sizes, tap Add Widget=
+, then tap Done.
+
+Discover the right app at the right moment with App Clips.
+When you find an App Clip in the real world, scan its QR code=C2=A0with the=
+ camera or hold your iPhone near the NFC tag. Or launch App Clips from Safa=
+ri,=C2=A0Maps, or Messages.
+
+Pin important messages.
+In Messages, you can pin your favorite conversations to the top=C2=A0of you=
+r list so they=E2=80=99re always=C2=A0handy. Just touch and hold a conversa=
+tion, then tap (pin icon).
+
+Reply to specific messages in group conversations.
+Touch and hold a message bubble, then tap=C2=A0(reply button). Type your=C2=
+=A0message, then tap=C2=A0(blue send arrow icon). View replies in the full =
+conversation or in their own=C2=A0thread.
+
+Direct a message to someone with Mentions.
+To address a specific person within a group conversation, simply type the n=
+ame and tap it when it appears. If the person is not already in your contac=
+ts, type @ followed by the name.
+
+Learn more about iOS 14
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6R0I9v9p
+
+-------------------
+
+Boost your productivity with these powerful=C2=A0tools.
+
+Make your iPhone a Personal Hotspot.
+Go to Settings > Personal Hotspot. Turn on Allow Others to Join. Then follo=
+w the instructions to connect a device. If you=E2=80=99re in a place with 5=
+G coverage, you=E2=80=99ll get 5G speed automatically.(1)
+
+Start a Group FaceTime call.
+In FaceTime, tap (plus icon), then add up=C2=A0to=C2=A032 people. Or from a=
+ group conversation in Messages, tap the group at the top, then tap FaceTim=
+e.
+
+Quickly see how websites treat your privacy.
+In Safari, tap (Reader icon) at the left end of the address field, then tap=
+ Privacy Report for a summary of all the cross-site trackers being blocked =
+by Intelligent=C2=A0Tracking Prevention.
+
+Make sharing supereasy with AirDrop.
+To instantly share a photo, note, contact, or document with people nearby, =
+tap (share icon), tap AirDrop, then select the person you want to share=C2=
+=A0with.
+
+Scan and sign documents easily.
+In Notes, tap (camera icon) and Scan Documents. Then tap the shutter, Keep =
+Scan, and Save. Once the file is saved, you can mark it up and add a signat=
+ure with your finger.
+
+Mark up and edit just about=C2=A0anything.
+In Notes, select the file or photo you want to edit, tap (Markup icon), and=
+ select a tool to draw, color, or add text. You can also use the Markup too=
+ls in apps like Mail, Messages, and=C2=A0Photos.
+
+Use a keyboard one-handed.
+Touch and hold (emoji icon) or (globe key icon) to switch to a one-handed k=
+eyboard that brings keys closer=C2=A0to your thumb.
+
+Type faster by swiping.
+QuickPath typing lets you swipe from one letter to the next without lifting=
+ your finger.
+
+Find app shortcuts instantly.
+Touch and hold an app icon to bring up shortcuts like showing your bookmark=
+s or opening a new tab in=C2=A0Safari.
+
+Move the cursor precisely.
+Touch and hold the Space bar to pick up the cursor, then drag it where you =
+want. It will snap in place between words.
+
+Select multiple items in a list at once.
+To quickly select multiple email messages, files, and folders, touch=C2=A0a=
+nd=C2=A0hold with two fingers and=C2=A0drag=C2=A0across=C2=A0items.
+
+-------------------
+
+Entertain yourself with shows,=C2=A0games, music, and books.
+
+Get 1 year of Apple TV+ free. 90 days to sign up.
+Your new iPhone comes with one free year of critically acclaimed Apple Orig=
+inals.(2) For=C2=A0access, tap (Apple TV icon), then tap (Apple TV+ icon) w=
+ithin 90 days.
+
+Watch now
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6R9l5I5v
+
+Play Apple Arcade free.
+Go to (Apple Arcade icon) in the App Store to start your free trial.(3) You=
+=E2=80=99ll have access to 100+ ad-free games with no in-app purchases.
+
+Try Apple Arcade free
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m4L7j9T
+
+Listen to Apple Music free.
+Lose yourself in 70 million songs. Download your favorites to play offline.=
+=C2=A0Sing along with lyrics view. Tap (Apple Music icon) to try it free.(4=
+)
+
+Try Apple Music free
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6R9G1L8k
+
+Apple Books. Find your next must-read.
+Browse the Book Store to find reviews, lists curated by Apple Books editors=
+, and=C2=A0even personalized recommendations.
+
+Discover books in the Apple Books app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6J5B0q4P
+
+-------------------
+
+Essential features that make every day easier.
+
+Track usage with Screen Time.
+In=E2=80=89Settings, tap Screen Time to set time limits=C2=A0for specific a=
+pps and websites, or to=C2=A0see=C2=A0daily or weekly reports on how you=E2=
+=80=99re=C2=A0spending your time.
+
+Drive without distractions.
+To silence calls and notifications=C2=A0while you drive, go to Settings > D=
+o Not Disturb, scroll down to Do Not Disturb While Driving, and tap Activat=
+e. Then set it to turn on when you=C2=A0want.
+
+Set up emergency contact info.
+Open the Health app, then tap your profile=C2=A0picture in the top right. T=
+ap Medical=C2=A0ID, then tap Get Started. Turn=C2=A0on=C2=A0Show When Locke=
+d to give emergency access to medical info like conditions=C2=A0or=C2=A0all=
+ergies.
+
+Hide ads in Safari Reader.
+In the Safari app, tap (Reader icon) at the left end=C2=A0of=C2=A0the=C2=A0=
+address field, then tap Show=C2=A0Reader=C2=A0View to see a page without=C2=
+=A0ads, navigation, or other=C2=A0distractions.
+
+Send unknown callers straight to voicemail.
+In Settings, tap Phone and turn on Silence=C2=A0Unknown Callers. Calls from=
+ numbers=C2=A0in Contacts, Mail, and Messages=C2=A0will=C2=A0ring through, =
+but all other=C2=A0calls=C2=A0will go to voicemail.
+
+Turn on accessibility features.
+Go to Settings > Accessibility to turn on or=C2=A0off accessibility feature=
+s like Zoom, VoiceOver, and Voice Control.
+
+Learn more about accessibility
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6J7q3q1Y
+
+-------------------
+
+See your world in new ways with AR apps.
+
+Discover incredible =E2=80=94 and incredibly useful =E2=80=94 AR apps desig=
+ned to take advantage of the new LiDAR Scanner and=C2=A0powerful A14 Bionic=
+ chip.
+
+Explore curated AR apps
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m2q1t0v
+
+-------------------
+
+Keep all your stuff safe and up to date with iCloud.
+
+iCloud is built into your new iPhone.=C2=A0So all your photos, files, notes=
+, and=C2=A0more are safe, up to date,=C2=A0and available wherever you are. =
+And it all=C2=A0works automatically. You get 5GB of free iCloud storage to =
+start, and=C2=A0it=E2=80=99s easy to add more at=C2=A0any=C2=A0time.
+
+Find My
+If you ever misplace your iPhone or other Apple devices, the Find My app sh=
+ows you=C2=A0where they are on a map or pings them=C2=A0if=C2=A0they=E2=80=
+=99re nearby. To enable it, go to Settings > [your name] > Find=C2=A0My.
+
+iCloud Backup
+For automatic daily backups of your iPhone,=C2=A0go to Settings > [your nam=
+e] > iCloud, then turn on iCloud Backup. These=C2=A0backups also make it ea=
+sy to transfer=C2=A0all your stuff to your=C2=A0next=C2=A0iPhone.
+
+iCloud Photos
+With iCloud Photos, you can browse, search,=C2=A0and share your complete ph=
+oto library=C2=A0from your iPhone or any of your devices. Go to Settings > =
+[your name] > iCloud=C2=A0>=C2=A0Photos, then turn on iCloud=C2=A0Photos.
+
+Files
+The Files app lets you browse, search, and=C2=A0organize all the files on y=
+our devices, in=C2=A0apps, in iCloud Drive, and across other cloud services=
+. Tap the Files app on the Home=C2=A0Screen to get started.
+
+-------------------
+
+Accessories that take your iPhone to the next level.
+
+From new MagSafe cases, wallets, and wireless chargers to AirPods, HomePod =
+mini, and more, the perfect accessories are right here.
+
+Shop all iPhone accessories
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6R5L7p9M
+
+-------------------
+
+AppleCare+
+
+A little extra peace of mind.
+
+Buy AppleCare+ coverage within the first 60 days of purchasing your new=C2=
+=A0iPhone and get 24/7 priority tech support and hardware coverage=C2=A0inc=
+luding accidental damage protection. You even have the=C2=A0option to get t=
+heft and loss coverage.(5)
+
+To learn more, call 1-800-275-2273, visit the AppleCare+ page, or on your d=
+evice go to Settings > General > About and choose AppleCare+ Coverage Avail=
+able.
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6R6c5N4P
+
+-------------------
+
+iPhone User Guide
+
+To learn everything there=C2=A0is to know about iPhone=C2=A012=C2=A0Pro, do=
+wnload the iPhone=C2=A0User=C2=A0Guide.
+
+Download the User Guide
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6R4i1U4h
+
+-------------------
+
+Apple Support
+
+Find quick answers at support.apple.com. Use the Apple=C2=A0Support app to =
+chat, email,=C2=A0or=C2=A0call us with questions.=C2=A0Or=C2=A0visit us on =
+YouTube=C2=A0or=C2=A0Twitter.
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6J7n7P9h
+
+Open the Apple Support=C2=A0app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m8u3x7T
+
+Visit Apple Support on YouTube
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m6c9b1C
+
+Visit Apple Support on Twitter
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m2G8d0h
+
+-------------------
+
+Tips and Tricks
+
+The Tips app is full of animated=C2=A0demos and useful information about yo=
+ur=C2=A0new iPhone=C2=A012 Pro and its built-in=C2=A0apps.
+
+Open the Tips app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m8L2W8N
+
+-------------------
+
+Shop Online
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6J3d7p8C
+
+Find a Store
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0=
+JrGH5Ifvr6XpTH1dMu5tglU2DoRaqdzUANDBiRQYf%2FmZ2aDRTudzp54ikjK%2BAHPpi56Ipxp=
+eMm5Iop5SpL5FLoBFqjnvsZM%2FYjM&ct=3Dac6R3V2E7T
+
+1-800-MY-APPLE
+
+Get=C2=A0the=C2=A0Apple=C2=A0Store=C2=A0App
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6J3b4a3k
+
+-------------------
+
+1. Data plan required. 5G is available in select markets and through select=
+ carriers. Speeds vary by site conditions and carrier. For details on 5G su=
+pport, contact your carrier and see https://www.apple.com/iphone/cellular.
+
+2. $4.99/month after free trial. One subscription per Family Sharing group.=
+ Offer good for 3 months after eligible device activation. Plan automatical=
+ly renews until cancelled. Restrictions and other terms apply.
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6J4n1g1C
+
+3. $4.99/month after free trial. No commitment. Plan automatically renews a=
+fter trial until cancelled.
+
+4. $9.99/month after free trial. No commitment. Plan automatically renews a=
+fter trial until cancelled.
+
+5. AppleCare+ options include up to two incidents of accidental damage prot=
+ection and two incidents of theft or loss coverage every 12 months. Each in=
+cident is subject to a service fee or deductible.
+
+-------------------
+
+TM and =C2=A9 2021 Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA 9=
+5014.
+
+-------------------
+
+All Rights Reserved
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6m0q8V5T
+
+Privacy Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6J4E3R2p
+
+My Apple ID
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac6R9V5L9v
+
+-------------------
+
+If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email address, please click=C2=A0here.
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DQw4aNQWWDervXPm=
+suwf4HMy1CUS3B%2FFNpd0Wj5XMnxGDHFi4rq3XZXE%2FUmlBoK8WpQRTP1bIHSgu1Hju6PytSc=
+GF6jEyUaz0bAS%2F2UZECJW3Gd4u5uEozsQDtWYqrMDPe%2FVHwEK%2F%2B6Eilqzbe9Skq8WvW=
+6PP7sHf3lTL4xUW3BUa2Lem3DXymL7wInfiF0Mz7UVKwXEo2Voa8RzldKElqsUQYpxFJU9s6nxR=
+50JicxY%3D
+------=_Part_341112185_393831283.1617879847340
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+=09=09=09=09<title>P0020557-460539</title>
+=09=09=09=09<meta name=3D"viewport" content=3D"width=3Ddevice-width, initia=
+l-scale=3D1.0">
+=09=09=09=09<meta http-equiv=3D"content-type" content=3D"text/html;charset=
+=3Dutf-8">
+=09=09=09=09<meta name=3D"format-detection" content=3D"date=3Dno">
+=09=09=09=09<meta name=3D"format-detection" content=3D"address=3Dno">
+=09=09=09=09<meta name=3D"format-detection" content=3D"email=3Dno">
+=09=09=09=09
+        <!--[if gte mso 9]>
+          <style type=3D"text/css">
+            table,td,tr,a,span,img,b,sup{line-height:normal !important; mso=
+-line-height-rule: exactly;}
+            sup{font-size:100% !important;}
+            h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-family=
+:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight:=
+ 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}
+            .outSemiBold, b,strong {line-height: inherit !important; font-f=
+amily:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-we=
+ight: 400 !important; mso-line-height-rule: exactly; }
+            .outBold {line-height: inherit !important; font-family: 'Segoe =
+UI', Arial, sans-serif !important; font-weight: 600 !important; mso-line-he=
+ight-rule: exactly; }
+            .fallback { display: block !important}
+            .animated { display: none !important}
+          </style>
+          <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+          </xml>
+        <![endif]-->
+        <!--[if gte mso 15]>
+          <style type=3D"text/css">
+            h1 {mso-text-raise: 4px;}
+            h2,h3,h4,h5,h6 {mso-text-raise: 2px;}
+          </style>
+        <![endif]-->
+       =20
+=09=09=09<style type=3D"text/css">@media only screen and (max-device-width:=
+568px){.m-0{display:none!important}.m-1{display:block!important;width:100%!=
+important;height:inherit!important;overflow:visible!important}.m-1 .m-32 sp=
+an.m-33{display:block}.m-1 .m-32 span.m-34{margin-top:.8em;display:block}}<=
+/style><style type=3D"text/css">@media screen and (max-device-width:568px){=
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{color:inherit!important;font-weight:inherit!i=
+mportant}}</style><style type=3D"text/css">.m-0,.m-1,td{font-family:system-=
+ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue',Helvetica,A=
+rial,sans-serif,'SF Pro Icons';font-size:17px;font-weight:400;line-height:2=
+5px}.m-1,.m-1 div{box-sizing:border-box}.m-2,.m-2 .m-3 a,.m-2 h1,.m-2 h2,.m=
+-2 h3,.m-2 h4{color:#1d1d1f}.m-4 a,.m-5{white-space:nowrap}.m-1 .m-6,img,td=
+ img{max-width:100%}.m-7 sup,sup{position:relative}.m-8 .m-9 .m-10,.m-11 .m=
+-9 .m-10,.m-12 .m-9 .m-10,.m-13 .m-9 .m-10,.m-14 .m-9 .m-10,.m-15 .m-9 .m-1=
+0,.m-16 .m-9 .m-10,.m-17 .m-9 .m-10{overflow:hidden;background-position:cen=
+ter top;background-repeat:no-repeat;max-width:414px}*{-webkit-font-smoothin=
+g:antialiased;text-rendering:optimizelegibility}.m-0,.m-1{width:100%!import=
+ant}table{border-spacing:0}sup{line-height:0;font-size:.65em;vertical-align=
+:super}b{font-weight:600}.m-1{display:none;margin:0 auto;max-width:100%}.an=
+imated,.m-1 .m-18 img,.m-1 .m-19 img,img{display:block}.m-1 .m-6 .m-20{max-=
+width:414px;margin:0 auto}.m-1 .m-21{font-size:0;line-height:0;margin:0 aut=
+o}.m-1 .m-22,.m-1 .m-23{font-size:17px;line-height:25px}.m-1 .m-24{font-siz=
+e:0;line-height:0}.m-7 img,.m-25,.m-18 img,.m-19 img,.m-26,.m-27,.m-1 .m-24=
+ .m-22{display:inline-block}.m-28,.m-6{margin:0 auto}.m-29{text-align:cente=
+r}.m-29 img,.m-30 img,img.m-29,td.m-29 img{margin-left:auto;margin-right:au=
+to}.m-30{text-align:left}.m-30 img{margin-left:0}.m-31 img,img.m-31,td.m-31=
+ img{margin-right:0;margin-left:auto}.m-31{text-align:right}.m-35 a,.m-36 a=
+{border:0;outline:0}.m-37,.m-37>p,.m-38,.m-38>p,.m-39,.m-39>p,.m-36 .m-21{f=
+ont-size:12px;line-height:16px}.m-2{border-color:#fff;background-color:#fff=
+}.m-2 a,.m-2 a:hover,.m-2 a:visited{color:#06c}.m-2 .m-40{border-top-color:=
+#d2d2d7}.m-41 .m-2,.m-2.m-35,.m-2.m-36{color:#86868b;background-color:#f5f5=
+f7}.m-41 .m-2 .m-7,.m-41 .m-2 a,.m-41 .m-2 a.m-7,.m-41 .m-2 a:hover,.m-41 .=
+m-2 a:visited,.m-2.m-35 .m-7,.m-2.m-35 a,.m-2.m-35 a.m-7,.m-2.m-36 .m-7,.m-=
+2.m-36 a,.m-2.m-36 a.m-7{color:#515154}.m-42,.m-42 .m-3 a,.m-42 h1,.m-42 h2=
+,.m-42 h3,.m-42 h4{color:#f5f5f7}.m-42{border-color:#000;background-color:#=
+000}.m-42 a,.m-42 a:hover,.m-42 a:visited{color:#2997ff}.m-42 .m-40{border-=
+top-color:#424245}.m-42.m-35,.m-42.m-36,.m-41 .m-42{color:#6e6e73;backgroun=
+d-color:#1d1d1f}.m-42.m-35 .m-7,.m-42.m-35 a,.m-42.m-35 a.m-7,.m-42.m-36 .m=
+-7,.m-42.m-36 a,.m-42.m-36 a.m-7,.m-41 .m-42 .m-7,.m-41 .m-42 a,.m-41 .m-42=
+ a.m-7,.m-41 .m-42 a:hover,.m-41 .m-42 a:visited{color:#a1a1a6}.m-2 .m-43,.=
+m-2 .m-43 td,.m-2 .m-43>div,.m-2 td.m-43{border-color:#d2d2d7;color:#d2d2d7=
+}.m-42 .m-43,.m-42 .m-43 td,.m-42 .m-43>div,.m-42 td.m-43{border-color:#424=
+245;color:#424245}.m-32 a.m-44,a img,a.m-44,p a.m-44{border:0;outline:0}.m-=
+7,a:link{text-decoration:none}.m-32 a:focus,.m-32 a:hover,a.m-7:hover,a:foc=
+us,a:hover,a:visited,a[x-apple-data-detectors]:hover,p a:focus,p a:hover{te=
+xt-decoration:underline!important}.m-4 a,.m-4 a:focus,.m-4 a:hover,.m-4 a:v=
+isited{text-decoration:none!important;cursor:text!important;pointer-events:=
+none!important}.m-32 a,a,p a{cursor:pointer;text-decoration:none}.m-4 a{col=
+or:inherit}.m-7+.m-45,a img,h1,h2,h3,h4,h5,h6{display:inline-block}img.m-30=
+,td.m-30 img{margin-right:auto;margin-left:0}.m-46{margin:0;text-align:cent=
+er}.m-47{vertical-align:top}.m-48{vertical-align:bottom}h1,h2,h3,h4,h5,h6{m=
+argin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','=
+Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:600}.m-32,a,p{font-f=
+amily:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue=
+',Helvetica,Arial,sans-serif,'SF Pro Icons'}h1 sup,h2 sup,h3 sup,h4 sup,h5 =
+sup,h6 sup{line-height:0;font-size:.6em;top:0;position:relative;vertical-al=
+ign:super}h1.m-29,h2.m-29,h3.m-29,h4.m-29,h5.m-29,h6.m-29{margin:0 auto;tex=
+t-align:center}h1.m-31,h2.m-31,h3.m-31,h4.m-31,h5.m-31,h6.m-31{margin-left:=
+auto;margin-right:0;text-align:right}.m-0 h1.m-49,.m-1 h1.m-50{font-size:48=
+px;line-height:1.08349;letter-spacing:-.003em}.m-0 h2.m-19,.m-1 h1.m-49{fon=
+t-size:40px;line-height:1.1;letter-spacing:0}.m-0 h3.m-51,.m-1 h2.m-19{font=
+-size:32px;line-height:1.125;letter-spacing:.004em}.m-0 h4.m-52,.m-1 h3.m-5=
+1{font-size:28px;line-height:1.14286;letter-spacing:.007em}.m-0 h4.m-53,.m-=
+1 h4.m-52{font-size:24px;line-height:1.16667;letter-spacing:.009em}.m-0 h5.=
+m-18,.m-0 h5.m-54,.m-1 h5.m-18,.m-1 h5.m-54{font-size:21px;line-height:1.19=
+048;letter-spacing:.011em}.m-0 h6.m-55,.m-1 h6.m-55{font-size:19px;line-hei=
+ght:1.21053;letter-spacing:.012em}.m-0 h1.m-50{font-size:64px;line-height:1=
+.0625;letter-spacing:-.009em}.m-32,p{font-size:17px;font-weight:400;line-he=
+ight:25px;margin:0}.m-32 a.m-44,.m-32 a.m-4:hover,.m-32 a[x-apple-data-dete=
+ctors],a.m-44,a[x-apple-data-detectors],p a.m-44,p a.m-4:hover,p a[x-apple-=
+data-detectors]{text-decoration:none!important}.m-7.m-43>div,.m-40{border-t=
+op-style:solid;border-top-width:1px}.m-32 a.m-4,p a.m-4{color:inherit;curso=
+r:text!important;font-size:inherit;line-height:inherit;pointer-events:none!=
+important}a>span{letter-spacing:inherit}.m-7 sup{font-size:.65em!important;=
+line-height:0}.m-7+.m-45{font-size:12px;padding:0 4px}.m-7.m-43.m-56{paddin=
+g:2px 6.25% 4px}.m-7.m-43>div{height:0;line-height:0}.m-36 .m-7{display:inl=
+ine}.m-57{line-height:0;padding-top:21px}.m-58,.m-58>p{font-size:19px;line-=
+height:27px}.m-59{padding-top:22px;padding-bottom:15px}.m-58{padding-right:=
+8.5%;padding-bottom:11px;padding-left:8.5%}.m-60,.m-61,.m-62,.m-63,.m-64,.m=
+-65,.m-66,.m-67,.m-68,.m-69,.m-70{padding-right:6.25%;padding-left:6.25%}.m=
+-58 a{font-size:19px}.m-14 .m-9 .m-10{width:100%;margin:0;background-image:=
+url(https://images.apple.com/dm/us/20/c9a3e60/i/m_hero_2x.jpg)!important;ba=
+ckground-size:327px 380px;height:380px}.m-16{padding-top:71px}.m-16 .m-9 .m=
+-10{width:100%;margin:0;background-image:url(https://images.apple.com/dm/us=
+/20/c9a3e60/i/m_gestures_tile_2x.jpg)!important;background-size:295px 1320p=
+x;height:1320px}.m-71{background-color:#fff!important}.m-11 .m-9 .m-10{widt=
+h:100%;margin:0;background-image:url(https://images.apple.com/dm/us/20/c9a3=
+e60/i/m_pro_camera_tile_2x.jpg)!important;background-size:328px 1336px;heig=
+ht:1336px}.m-15{padding-top:79px}.m-15 .m-9 .m-10{width:100%;margin:0;backg=
+round-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_photos_tile_2=
+x.jpg)!important;background-size:328px 3512px;height:3512px}.m-72,.m-73,.m-=
+74{background-color:#f5f5f7!important}.m-75{padding-top:52px;padding-bottom=
+:26px}.m-76,.m-77{padding-top:10px;font-size:14px;line-height:20px}.m-77{pa=
+dding-bottom:46px}.m-78 a,.m-79 a,.m-80 a,.m-81 a,.m-82 a,.m-76 a,.m-83 a,.=
+m-84 a,.m-85 a,.m-86 a,.m-87 a,.m-88 a,.m-89 a,.m-77 a,.m-90 a,.m-91 a,.m-9=
+2 a,.m-93 a,.m-94 a,.m-95 a,.m-96 a,.m-97 a{font-size:14px}.m-78>p,.m-79,.m=
+-79>p,.m-80>p,.m-81>p,.m-82>p,.m-76>p,.m-83>p,.m-84>p,.m-85>p,.m-86>p,.m-87=
+>p,.m-88>p,.m-89>p,.m-77>p,.m-90,.m-90>p,.m-91>p,.m-92,.m-92>p,.m-98>p,.m-9=
+3,.m-93>p,.m-94,.m-94>p,.m-95>p,.m-97>p{font-size:14px;line-height:20px}.m-=
+99,.m-100,.m-101,.m-102,.m-103{padding-right:6.25%;padding-left:6.25%;max-w=
+idth:280px}.m-76{padding-bottom:44px}.m-82{padding-bottom:45px;font-size:14=
+px;line-height:20px}.m-60{padding-top:11px;max-width:280px}.m-91{padding-to=
+p:9px;padding-bottom:44px;font-size:14px;line-height:20px}.m-83,.m-84{paddi=
+ng-top:10px;font-size:14px;line-height:20px}.m-83{padding-bottom:43px}.m-84=
+{padding-bottom:39px}.m-104{padding-top:6px;font-size:17px;font-weight:600;=
+line-height:21px}.m-105 img,.m-104 img,.m-106 img,.m-107 img,.m-108 img,.m-=
+109 img{width:12px;height:10px}.m-110{padding-bottom:73px}.m-111{padding-bo=
+ttom:40px}.m-64{padding-top:57px}.m-112{max-width:334px}.m-85{font-size:14p=
+x;line-height:20px;padding:31px 8.25% 18px}.m-8 .m-9 .m-10{width:100%;margi=
+n:0;background-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_hots=
+pot_2x.jpg)!important;background-size:328px 370px;height:370px}.m-113,.m-11=
+4,.m-115,.m-116{background-color:#f5f5f7;height:10px;line-height:10px}.m-80=
+,.m-86,.m-87,.m-89{line-height:20px;font-size:14px}.m-87{padding:26px 8.25%=
+ 18px}.m-17 .m-9 .m-10{width:100%;margin:0;background-image:url(https://ima=
+ges.apple.com/dm/us/20/c9a3e60/i/m_facetime_2x.jpg)!important;background-si=
+ze:328px 400px;height:400px}.m-86{padding:28px 11.25% 18px 8.25%}.m-13 .m-9=
+ .m-10{width:100%;margin:0;background-image:url(https://images.apple.com/dm=
+/us/20/c9a3e60/i/m_privacy_2x.jpg)!important;background-size:328px 368px;he=
+ight:368px}.m-80{padding:28px 8.25% 18px}.m-12 .m-9 .m-10{width:100%;margin=
+:0;background-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_airdr=
+op_2x.jpg)!important;background-size:328px 423px;height:423px}.m-117 .m-9 .=
+m-10,.m-118 .m-9 .m-10{background-size:328px 382px;height:382px;overflow:hi=
+dden;width:100%;margin:0;background-position:center top;background-repeat:n=
+o-repeat;max-width:414px}.m-117 .m-9 .m-10{background-image:url(https://ima=
+ges.apple.com/dm/us/20/c9a3e60/i/m_scan_2x.jpg)!important;background-color:=
+#f5f5f7}.m-89{padding:22px 5% 31px 8.25%}.m-119,.m-120,.m-121,.m-122,.m-123=
+,.m-124{background-color:#f5f5f7;height:14px;line-height:14px}.m-125,.m-126=
+{background-color:#fff!important}.m-118 .m-9 .m-10{background-image:url(htt=
+ps://images.apple.com/dm/us/20/c9a3e60/i/m_markup_2x.jpg)!important}.m-78{f=
+ont-size:14px;line-height:20px;padding:11px 6.25% 34px 8.25%}.m-127 .m-9 .m=
+-10,.m-128 .m-9 .m-10{overflow:hidden;width:100%;margin:0;background-image:=
+url(https://images.apple.com/dm/us/20/c9a3e60/i/m_keyboard_2x.jpg)!importan=
+t;background-size:328px 357px;background-position:center top;background-rep=
+eat:no-repeat;max-width:414px;height:357px}.m-129,.m-130,.m-131,.m-132,.m-1=
+33{padding-top:2px}.m-134,.m-135,.m-136,.m-137,.m-138{vertical-align:top;wi=
+dth:60px}.m-139,.m-140{max-width:225px}.m-141,.m-142,.m-143,.m-144{padding-=
+top:13px;padding-bottom:30px;padding-left:9px;margin:0 auto;width:294px}.m-=
+128 .m-9 .m-10{background-image:url(https://images.apple.com/dm/us/20/c9a3e=
+60/i/m_swiping_2x.jpg)!important;background-size:328px 375px;background-col=
+or:#f5f5f7;height:375px}.m-145{max-width:205px}.m-146 .m-9 .m-10{background=
+-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_shortcuts_2x.jpg)!=
+important;background-size:328px 339px;height:339px}.m-147{max-width:194px}.=
+m-148{max-width:217px}.m-149{padding-top:32px;padding-bottom:13px;padding-l=
+eft:9px;margin:0 auto;width:294px}.m-126{max-width:328px}.m-150{padding-rig=
+ht:2.25%;padding-bottom:52px;padding-left:2.25%}.m-151{padding-right:6.25%;=
+padding-bottom:13px;padding-left:6.25%}.m-146 .m-9 .m-10,.m-152 .m-9 .m-10,=
+.m-153 .m-9 .m-10,.m-154 .m-9 .m-10{overflow:hidden;width:100%;margin:0;bac=
+kground-position:center top;background-repeat:no-repeat;max-width:414px}.m-=
+152 .m-9 .m-10{background-image:url(https://images.apple.com/dm/us/20/c9a3e=
+60/i/m_apple_tv_plus_2x.jpg)!important;background-size:375px 190px;height:1=
+90px}.m-153 .m-9 .m-10,.m-154 .m-9 .m-10{background-size:272px 359px;height=
+:359px}.m-95{padding-top:11px;padding-right:9%;padding-left:9%;font-size:14=
+px;line-height:20px}.m-155,.m-81,.m-88,.m-156,.m-97{padding-left:9.25%;font=
+-size:14px;line-height:20px}.m-157{padding-top:12px;padding-bottom:22px;fon=
+t-size:14px;line-height:20px}.m-155 img,.m-157 img,.m-158 img,.m-159 img,.m=
+-156 img{width:12px;height:8px}.m-154 .m-9 .m-10{background-image:url(https=
+://images.apple.com/dm/us/20/c9a3e60/i/m_arcade_2x.jpg)!important}.m-160,.m=
+-161{vertical-align:top;max-width:350px}.m-162,.m-163,.m-164,.m-165{max-wid=
+th:328px}.m-81,.m-88{padding-right:6.25%}.m-155{padding-top:13px}.m-165{pad=
+ding-top:15px;padding-bottom:37px;vertical-align:top}.m-153 .m-9 .m-10{back=
+ground-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_music_2x.jpg=
+)!important}.m-97{padding-right:9.25%}.m-164,.m-156{padding-top:14px}.m-164=
+{padding-bottom:10px;vertical-align:top}.m-159{font-size:14px;line-height:2=
+0px;padding:14px 6.25% 14px 9.25%}.m-158,.m-166,.m-98,.m-96{padding-left:15=
+%}.m-167 .m-9 .m-10,.m-168 .m-9 .m-10,.m-169 .m-9 .m-10{overflow:hidden;wid=
+th:100%;margin:0;background-image:url(https://images.apple.com/dm/us/20/c9a=
+3e60/i/m_apple_books_2x.jpg)!important;background-size:272px 222px;backgrou=
+nd-position:center top;background-repeat:no-repeat;max-width:414px;height:2=
+22px}.m-163{padding-top:30px}.m-170{padding-top:14px}.m-125{padding-top:53p=
+x}.m-167 .m-9 .m-10,.m-168 .m-9 .m-10{background-image:url(https://images.a=
+pple.com/dm/us/20/c9a3e60/i/m_features_tile_2x.jpg)!important;background-si=
+ze:346px 2977px;height:2977px}.m-168{padding-bottom:94px}.m-168 .m-9 .m-10{=
+background-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_accessib=
+ility_tile_2x.jpg)!important;background-size:346px 650px;height:650px}.m-96=
+{padding-top:17px}.m-96,.m-96>p{font-size:14px;line-height:20px;font-weight=
+:600}.m-171 .m-3 a,.m-172 .m-3 a,.m-173 .m-3 a,.m-98 .m-3 a,.m-174 .m-3 a{c=
+olor:#86868b!important}.m-98{padding-right:21.25%;padding-bottom:10px;line-=
+height:20px}.m-158,.m-98,.m-98 a{color:#86868b;font-size:14px}.m-158 .m-7{c=
+olor:#2997ff!important}.m-158{color:#2997ff;padding-bottom:20px;line-height=
+:20px}.m-175 .m-9 .m-10,.m-176 .m-9 .m-10,.m-177 .m-9 .m-10,.m-178 .m-9 .m-=
+10{overflow:hidden;width:100%;margin:0;background-image:url(https://images.=
+apple.com/dm/us/20/c9a3e60/i/m_ar_apps_2x.jpg)!important;background-size:41=
+4px 292px;background-position:center top;background-repeat:no-repeat;max-wi=
+dth:414px;height:292px}.m-179{padding-bottom:37px}.m-180{background-color:#=
+000!important}.m-175 .m-9 .m-10,.m-176 .m-9 .m-10,.m-177 .m-9 .m-10{backgro=
+und-image:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_icloud_tile_2x.=
+jpg)!important;background-size:328px 1568px;height:1568px}.m-181{padding-bo=
+ttom:38px}.m-182,.m-183{padding-right:2.25%;padding-left:2.25%}.m-184{heigh=
+t:43px;line-height:43px}.m-175 .m-9 .m-10,.m-177 .m-9 .m-10{background-imag=
+e:url(https://images.apple.com/dm/us/20/c9a3e60/i/m_accessories_tile_2x.jpg=
+)!important;background-size:328px 962px;height:962px}.m-175{padding-top:65p=
+x;padding-bottom:2px}.m-175 .m-9 .m-10{background-image:url(https://images.=
+apple.com/dm/us/20/c9a3e60/i/m_apple_care_tile_2x.jpg)!important;background=
+-size:284px 527px;height:527px}.m-185{padding-top:15px;padding-bottom:0}.m-=
+186{padding-top:11px;padding-right:10%;padding-left:10%}.m-107{padding-top:=
+12px}.m-187,.m-188{padding-top:16px;padding-bottom:0}.m-189{padding-top:16p=
+x;padding-right:17%;padding-left:17%}.m-109{padding-top:11px}.m-106,.m-108{=
+padding-top:6px}.m-190,.m-191{padding-top:45px}.m-192{padding-top:15px;padd=
+ing-right:15.5%;padding-left:15.5%}.m-105{padding-top:10px}.m-193{padding:7=
+9px 6.25% 56px}.m-194{font-size:12px;line-height:39px;height:39px;max-heigh=
+t:39px;min-height:39px;vertical-align:top}.m-195,.m-196,.m-197{font-size:12=
+px;line-height:39px;height:38px;max-height:38px;min-height:38px}.m-198,.m-1=
+99,.m-200{padding-top:1px;padding-right:6.25%;padding-left:6.25%}.m-198,.m-=
+200{padding-top:2px}.m-201{padding-bottom:19px}.m-37 a,.m-38 a,.m-39 a{font=
+-size:12px}.m-202,.m-203{padding-bottom:9px}</style><style type=3D"text/css=
+">.m-204 .m-7,.m-205 .m-7{margin-right:6px}.m-204 .m-45,.m-205 .m-45{color:=
+#d2d2d7!important;line-height:20px}.m-204,.m-205{padding-right:6px}.m-204,.=
+m-206,.m-205{font-size:12px;line-height:20px}.m-207{padding-top:9px;padding=
+-bottom:25px}</style></head><body id=3D"body" style=3D"margin: 0; padding: =
+0;"><i style=3D"overflow: hidden; position: absolute; max-height: 0; font-s=
+ize: 0;"><img src=3D"https://c.apple.com/img/APPLE_EMAIL_LINK/spacer2.gif?v=
+=3D2&a=3DGphTVztellIogqap%2BIGy8OJfW3qFBX986Rv2T%2F3MzvVALi0vnFIVMEJjY3w30q=
+LUDL5f%2BAb5ApLvEU7TZdIZmlY36a1LahxihQW%2FNmeHzhAIsy0VgjfMPaFDyxLjYPg5ZO4yJ=
+e8ko1ouwR7up8kmDa%2FAr21lJ9iveOlk%2B19Va0lVB7RMolZwDcVTZC8ovEe0" alt=3D"" w=
+idth=3D"1" height=3D"1" ></i><div class=3D"m-1" style=3D"display:none;width=
+:0;height:0;overflow:hidden;"><div class=3D"m-2 m-6 m-71"><div class=3D"m-2=
+0"><div class=3D"m-21"><div class=3D"m-22 m-28"><div class=3D"m-28 m-29 m-5=
+7"><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/apple_86868b_2x.=
+png" height=3D"24" width=3D"20" class=3D"m-27" alt=3D" "></div><div class=
+=3D"m-29 m-59"><h1 class=3D"m-49">Get to know<br>your new<br>iPhone=C2=A012=
+=C2=A0Pro.=C2=A0</h1></div><div class=3D"m-23 m-29 m-58"><p class=3D"m-32">=
+Here are some of our favorite tips and tricks for getting the most out of y=
+our new iPhone. You=E2=80=99ll find lots of shortcuts, powerful camera feat=
+ures, and essential tools for productivity, play, and improving your day. L=
+et=E2=80=99s dive right=C2=A0in.</p></div><div class=3D"m-14"><div class=3D=
+"m-9"><div class=3D"m-10 m-30"><!----></div></div></div></div><div class=3D=
+"m-22 m-28"><div class=3D"m-16"><div class=3D"m-9"><div class=3D"m-10 m-30"=
+><span role=3D"img" aria-label=3D"Simple shortcuts for getting around. | Co=
+ntrol Center -- Swipe down from the top-right corner=C2=A0to=C2=A0open Cont=
+rol Center. Touch=C2=A0and=C2=A0hold=C2=A0an=C2=A0icon to see more=C2=A0opt=
+ions. | Multitasking -- To see recently used apps or switch to another app,=
+ just swipe up and hold, then release to swipe through apps. | Switch betwe=
+en apps -- Swipe right at the bottom edge of=C2=A0your=C2=A0screen to switc=
+h between apps=C2=A0you=E2=80=99ve been=C2=A0using. | Ask Siri -- To use Si=
+ri hands-free, say =E2=80=9CHey Siri.=E2=80=9D=C2=A0Or=C2=A0press and hold =
+the side button while asking your=C2=A0question. | Apple Pay -- Double-clic=
+k the side button to use=C2=A0Apple=C2=A0Pay in stores, in apps, and=C2=A0o=
+n=C2=A0the=C2=A0web. | Take a screenshot -- Press then release the side but=
+ton and the volume-up button simultaneously. See=C2=A0your screenshot in Ph=
+otos. | Emergency SOS -- Press and hold the side button and either=C2=A0vol=
+ume button. Then slide to make=C2=A0an emergency=C2=A0call. | Power off -- =
+Press and hold the side button and=C2=A0either=C2=A0volume button. Then sli=
+de to power=C2=A0off. | Reachability -- Bring content at the top of your sc=
+reen into reach by swiping down from the bottom edge. Turn on Reachability =
+in Settings=C2=A0> Accessibility > Touch. | Back Tap -- To choose actions y=
+ou can trigger by=C2=A0tapping the back of your iPhone,=C2=A0go=C2=A0to=C2=
+=A0Settings > Accessibility=C2=A0>=C2=A0Touch > Back Tap."></span></div></d=
+iv></div></div></div><div class=3D"m-21 m-67"></div></div></div><div class=
+=3D"m-6 m-72"><div class=3D"m-20"><div class=3D"m-21"><div class=3D"m-22 m-=
+28"><div class=3D"m-11"><div class=3D"m-9"><div class=3D"m-10 m-29"><span r=
+ole=3D"img" aria-label=3D"See what the new Pro camera system can do. | Shoo=
+t Dolby Vision HDR video. -- When shooting video, you can tap the controls =
+in the top corner to switch between HD and 4K or change frame rates. Choose=
+ 30=C2=A0fps for standard video, 60=C2=A0fps for motion, or 24 fps=C2=A0for=
+ a cinematic=C2=A0look. | Edit Dolby Vision HDR video. -- In Photos, tap Ed=
+it above your video screen to access the full suite of editing tools. Trim =
+footage, adjust colors, reduce noise, add filters, crop frames, and much mo=
+re. | Record Night mode Time-lapse videos. -- In low light, mount iPhone=C2=
+=A012=C2=A0Pro to a tripod. Swipe to Time-Lapse and frame your scene. Tap t=
+he shutter to start recording, then tap it again to=C2=A0stop."></span></di=
+v></div></div><div class=3D"m-15"><div class=3D"m-9"><div class=3D"m-10 m-2=
+9"><span role=3D"img" aria-label=3D"Frame your shots with the zoom wheel. -=
+- Touch and hold the .5x, 1x, or 2x button on=C2=A0your Camera screen for a=
+ zoom wheel,=C2=A0then slide to zoom in or out with=C2=A0the=C2=A0Ultra Wid=
+e, Wide, and Telephoto=C2=A0cameras. | Shoot portraits with depth. -- In Ca=
+mera, swipe to Portrait mode, which automatically blurs the background. Whi=
+le shooting, tap (depth control icon)=C2=A0and=C2=A0use the slider to adjus=
+t the amount=C2=A0of blur. After you shoot, use=C2=A0the=C2=A0slider in Edi=
+t. | Use Night mode automatically or fine-tune=C2=A0it. -- Tap the shutter =
+to take a photo in low=C2=A0light =E2=80=94 Night mode kicks in when=C2=A0i=
+t=E2=80=99s=C2=A0needed. To get even more detail, tap (Night mode icon). Th=
+e longer you hold still,=C2=A0the sharper your shot gets. | Experiment with=
+ Night mode portraits. -- For portraits in dimly lit environments, simply s=
+wipe to Portrait mode and shoot as you normally would. Night mode portraits=
+=C2=A0automatically give you low-light shots with a beautiful bokeh=C2=A0ef=
+fect. | Add Portrait Lighting effects. -- Scroll through the menu in Portra=
+it mode=C2=A0to choose from six studio-quality lighting effects, like the d=
+ramatic High-Key Light Mono. You can do it before or after you shoot. | Try=
+ shooting a series in black and white. -- To take multiple black and white =
+photos without individually converting each image afterward, simply tap (up=
+ arrow icon)=C2=A0at the top, tap (lighting filters icon) in=C2=A0the toolb=
+ar, select the Mono, Silvertone, or Noir filter, and shoot."></span></div><=
+/div></div></div></div></div></div><div class=3D"m-2 m-6 m-110"><div class=
+=3D"m-20"><div class=3D"m-21 m-70"><div class=3D"m-22 m-28"><div class=3D"m=
+-29 m-75"><h3 class=3D"m-51">Let iOS 14 help you get right=C2=A0to the good=
+ stuff.</h3></div></div></div><div class=3D"m-21"><div class=3D"m-22 m-28">=
+<div><div class=3D"m-29"><img alt=3D" " height=3D"359" src=3D"https://image=
+s.apple.com/dm/us/20/c9a3e60/i/m_app_library_2x.jpg" width=3D"272" data-dyn=
+amic-variable class=3D"m-47"></div></div></div><div class=3D"m-22 m-28 m-99=
+"><div class=3D"m-23 m-77"><p class=3D"m-32"><b>Find your apps faster with<=
+br> the new App Library.</b><br> From the Home Screen, swipe left until you=
+ see the App Library. Your apps are automatically sorted into categories. U=
+se the search field to=C2=A0look for a specific=C2=A0app.</p></div></div><d=
+iv class=3D"m-22 m-28"><div><div class=3D"m-29"><img alt=3D" " height=3D"35=
+9" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_widgets_2x.jpg" wid=
+th=3D"272" data-dynamic-variable class=3D"m-47"></div></div></div><div clas=
+s=3D"m-22 m-28 m-102"><div class=3D"m-23 m-76"><p class=3D"m-32"><b>Add hel=
+pful widgets to<br> your Home Screen.</b><br> Touch and hold an empty part =
+of the=C2=A0screen until the apps jiggle. Tap <span style=3D"vertical-align=
+:-3px;line-height:0"><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/=
+i/m_icon_widgets_mini_2x.png" width=3D"17" height=3D"17" style=3D"display:i=
+nline;" border=3D"0" alt=3D"(plus icon)" data-inline-icon=3D"icon"></span>,=
+ select a widget, choose from three sizes, tap Add Widget, then tap=C2=A0Do=
+ne.</p></div></div><div class=3D"m-22 m-28 m-29"><div><div class=3D"m-29"><=
+img alt=3D" " height=3D"359" src=3D"https://images.apple.com/dm/us/20/c9a3e=
+60/i/m_app_clips_2x.jpg" width=3D"272" data-dynamic-variable class=3D"m-47"=
+></div></div></div><div class=3D"m-22 m-28 m-60"><div class=3D"m-23 m-82"><=
+p class=3D"m-32"><b>Discover the right app at the<br> right moment with App=
+ Clips.</b><br> When you find an App Clip in the real world, scan its QR co=
+de with the camera or hold your iPhone near the NFC tag. Or launch App=C2=
+=A0Clips from Safari, Maps, or=C2=A0Messages.</p></div></div></div><div cla=
+ss=3D"m-21"><div class=3D"m-22 m-28"><div><div class=3D"m-29"><img alt=3D" =
+" height=3D"359" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_pin_m=
+essages_2x.jpg" width=3D"272" data-dynamic-variable class=3D"m-47"></div></=
+div></div><div class=3D"m-22 m-28 m-103"><div class=3D"m-23 m-91"><p class=
+=3D"m-32"><b>Pin important messages. </b><br> In Messages, you can pin your=
+ favorite conversations to the top of your list so they=E2=80=99re always h=
+andy. Just touch and hold a conversation, then tap <span style=3D"vertical-=
+align:-6px;line-height:0"><img src=3D"https://images.apple.com/dm/us/20/c9a=
+3e60/i/icon_pin_mini_2x.png" width=3D"15" height=3D"20" style=3D"display:in=
+line;" border=3D"0" alt=3D"(pin icon)" data-inline-icon=3D"icon"></span>.</=
+p></div></div><div class=3D"m-22 m-28"><div><div class=3D"m-29"><img alt=3D=
+" " height=3D"359" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_gro=
+up_conversations_2x.jpg" width=3D"272" data-dynamic-variable class=3D"m-47"=
+></div></div></div><div class=3D"m-22 m-28 m-100"><div class=3D"m-23 m-83">=
+<p class=3D"m-32"><b>Reply to specific messages in group=C2=A0conversations=
+.</b><br> Touch and hold a message bubble,=C2=A0then tap=C2=A0<span style=
+=3D"vertical-align:-5px;line-height:0"><img src=3D"https://images.apple.com=
+/dm/us/20/c9a3e60/i/m_icon_group_mini_01_2x.png" width=3D"22" height=3D"20"=
+ style=3D"display:inline;" border=3D"0" alt=3D"(reply button)" data-inline-=
+icon=3D"icon"></span>. Type your message, then tap=C2=A0<span style=3D"vert=
+ical-align:-5px;line-height:0"><img src=3D"https://images.apple.com/dm/us/2=
+0/c9a3e60/i/m_icon_group_mini_02_2x.png" width=3D"20" height=3D"20" style=
+=3D"display:inline;" border=3D"0" alt=3D"(blue send arrow icon)" data-inlin=
+e-icon=3D"icon"></span>. View replies=C2=A0in the full conversation or in=
+=C2=A0their own=C2=A0thread.</p></div></div><div class=3D"m-22 m-28 m-29"><=
+div><div class=3D"m-29"><img alt=3D" " height=3D"359" src=3D"https://images=
+.apple.com/dm/us/20/c9a3e60/i/m_mentions_2x.jpg" width=3D"272" data-dynamic=
+-variable class=3D"m-47"></div></div></div><div class=3D"m-22 m-28 m-101"><=
+div class=3D"m-23 m-84"><p class=3D"m-32"><b>Direct a message to<br> someon=
+e with Mentions.</b><br> To address a specific person within a group conver=
+sation, simply type the name and tap it when it appears. If the person is n=
+ot already in your contacts, type @=C2=A0followed by the=C2=A0name.</p></di=
+v></div></div><div class=3D"m-21 m-68"><div class=3D"m-22 m-28"><div class=
+=3D"m-28 m-29 m-104"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dus=
+a&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%=
+2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzO=
+w4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6m2q9=
+y5Y" class=3D"m-7">Learn more about iOS <span class=3D"m-5">14<img src=3D"h=
+ttps://images.apple.com/dm/us/20/c9a3e60/i/17_chevron_0066cc_2x.png" width=
+=3D"12" height=3D"10" style=3D"display:inline; margin:0;" alt=3D" "></span>=
+</a></div></div></div></div></div><div class=3D"m-2 m-6 m-74"><div class=3D=
+"m-20"><div class=3D"m-21 m-112"><div class=3D"m-22 m-28 m-64"><div class=
+=3D"m-29 m-111"><h3 class=3D"m-51">Boost your productivity with these power=
+ful=C2=A0tools.</h3></div></div></div><div class=3D"m-21 m-150"><div class=
+=3D"m-22 m-28 m-126"><div class=3D"m-23 m-85"><p class=3D"m-32"><b>Make you=
+r iPhone a Personal=C2=A0Hotspot.</b><br> Go to Settings > Personal Hotspot=
+. Turn on Allow Others to Join. Then follow the instructions to connect a d=
+evice. If you=E2=80=99re in a place with 5G coverage, you=E2=80=99ll get 5G=
+ speed=C2=A0automatically.<sup>1</sup></p></div><div class=3D"m-8"><div cla=
+ss=3D"m-9"><div class=3D"m-10 m-30"><!----></div></div></div><div class=3D"=
+m-116"></div><div class=3D"m-23 m-87"><p class=3D"m-32"><b>Start a Group Fa=
+ceTime call.</b><br> In FaceTime, tap <span style=3D"vertical-align:-3px;li=
+ne-height:0"><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_icon=
+_facetime_mini_2x.png" width=3D"15" height=3D"15" style=3D"display:inline;"=
+ border=3D"0" alt=3D"(plus icon)" data-inline-icon=3D"icon"></span>, then a=
+dd up to 32 people. Or from a group conversation in Messages, tap the group=
+ at the top, then tap=C2=A0FaceTime.</p></div><div class=3D"m-17"><div clas=
+s=3D"m-9"><div class=3D"m-10 m-30"><!----></div></div></div><div class=3D"m=
+-114"></div><div class=3D"m-23 m-86"><p class=3D"m-32"><b>Quickly see how w=
+ebsites treat=C2=A0your=C2=A0privacy.</b><br> In Safari, tap <span style=3D=
+"vertical-align:-5px;line-height:0"><img src=3D"https://images.apple.com/dm=
+/us/20/c9a3e60/i/m_icon_privacy_mini_2x.png" width=3D"18" height=3D"18" sty=
+le=3D"display:inline;" border=3D"0" alt=3D"(Reader icon)" data-inline-icon=
+=3D"icon"></span> at the left end of the address field, then tap Privacy Re=
+port for a summary of all the cross-site trackers being blocked by Intellig=
+ent Tracking=C2=A0Prevention.</p></div><div class=3D"m-13"><div class=3D"m-=
+9"><div class=3D"m-10 m-30"><!----></div></div></div><div class=3D"m-113"><=
+/div><div class=3D"m-23 m-80"><p class=3D"m-32"><b>Make sharing supereasy w=
+ith=C2=A0AirDrop.</b><br> To instantly share a photo, note, contact, or doc=
+ument with people nearby, tap <span style=3D"vertical-align:-3px;line-heigh=
+t:0"><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_icon_airdrop=
+_mini_2x.png" width=3D"15" height=3D"18" style=3D"display:inline;" border=
+=3D"0" alt=3D"(Share button)" data-inline-icon=3D"icon"></span>, tap AirDro=
+p, then select the person you want to  share=C2=A0with.</p></div><div class=
+=3D"m-12"><div class=3D"m-9"><div class=3D"m-10 m-30"><!----></div></div></=
+div><div class=3D"m-115"></div><div class=3D"m-117"><div class=3D"m-9"><div=
+ class=3D"m-10 m-29"><!----></div></div></div><div class=3D"m-23 m-89"><p c=
+lass=3D"m-32"><b>Scan and sign documents easily.</b><br> In Notes, tap <spa=
+n style=3D"vertical-align:-2px;line-height:0"><img src=3D"https://images.ap=
+ple.com/dm/us/20/c9a3e60/i/m_icon_scan_mini_01_2x.png" width=3D"17" height=
+=3D"14" style=3D"display:inline;" border=3D"0" alt=3D"(camera icon)" data-i=
+nline-icon=3D"icon"></span> and Scan Documents. Then tap the shutter, Keep =
+Scan, and Save. Once the file is saved, you can mark it up and add a signat=
+ure with your finger.</p></div><div class=3D"m-120"></div><div class=3D"m-1=
+18"><div class=3D"m-9"><div class=3D"m-10 m-29"><!----></div></div></div><d=
+iv class=3D"m-23 m-28 m-78"><p class=3D"m-32"><b>Mark up and edit just abou=
+t=C2=A0anything.</b><br>
+In Notes, select the file or photo you want to edit, tap <span style=3D"ver=
+tical-align:-3px;line-height:0"><img src=3D"https://images.apple.com/dm/us/=
+20/c9a3e60/i/m_icon_markup_mini_2x.png" width=3D"17" height=3D"17" style=3D=
+"display:inline;" border=3D"0" alt=3D"(Markup icon)" data-inline-icon=3D"ic=
+on"></span>, and select a tool to draw, color, or add text. You can also us=
+e the Markup tools in apps like Mail, Messages, and=C2=A0Photos.</p></div><=
+div class=3D"m-121"></div><div class=3D"m-127"><div class=3D"m-9"><div clas=
+s=3D"m-10 m-29"><!----></div></div></div><div class=3D"m-24 m-141"><div cla=
+ss=3D"m-22 m-26 m-138"><div class=3D"m-131" style=3D"padding-top: 2px; text=
+-align: left; vertical-align: top;"><div class=3D"m-30"><img height=3D"79" =
+src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_icon_keyboard_2x.png" =
+width=3D"42" data-dynamic-variable class=3D"m-47" alt=3D" "></div></div></d=
+iv><div class=3D"m-22 m-26 m-140"><div class=3D"m-23 m-79"><p class=3D"m-32=
+" style=3D"font-size: 14px; line-height: 20px;"><b>Use a keyboard one-hande=
+d.</b><br> Touch and hold <span style=3D"vertical-align:-3px;line-height:0"=
+><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_icon_keyboard_mi=
+ni_01_2x.png" width=3D"17" height=3D"17" style=3D"display:inline;" border=
+=3D"0" alt=3D"(emoji icon)" data-inline-icon=3D"icon"></span> or <span styl=
+e=3D"vertical-align:-3px;line-height:0"><img src=3D"https://images.apple.co=
+m/dm/us/20/c9a3e60/i/m_icon_keyboard_mini_02_2x.png" width=3D"17" height=3D=
+"17" style=3D"display:inline;" border=3D"0" alt=3D"(globe key icon)" data-i=
+nline-icon=3D"icon"></span> to switch to a one-handed keyboard that brings =
+keys closer to your=C2=A0thumb.</p></div></div></div><div class=3D"m-119"><=
+/div><div class=3D"m-128"><div class=3D"m-9"><div class=3D"m-10 m-29"><!---=
+-></div></div></div><div class=3D"m-24 m-144"><div class=3D"m-22 m-26 m-137=
+"><div class=3D"m-133" style=3D"padding-top: 2px; text-align: left; vertica=
+l-align: top;"><div class=3D"m-30"><img height=3D"79" src=3D"https://images=
+.apple.com/dm/us/20/c9a3e60/i/m_icon_swiping_2x.png" width=3D"42" data-dyna=
+mic-variable class=3D"m-47" alt=3D" "></div></div></div><div class=3D"m-22 =
+m-26 m-145"><div class=3D"m-23 m-92"><p class=3D"m-32" style=3D"font-size: =
+14px; line-height: 20px;"><b>Type faster by swiping.</b><br>
+QuickPath typing lets you swipe from one letter to the next without lifting=
+ your=C2=A0finger.</p></div></div></div><div class=3D"m-122"></div><div cla=
+ss=3D"m-146"><div class=3D"m-9"><div class=3D"m-10 m-29"><!----></div></div=
+></div><div class=3D"m-24 m-143"><div class=3D"m-22 m-26 m-136"><div class=
+=3D"m-132" style=3D"padding-top: 2px; text-align: left; vertical-align: top=
+;"><div class=3D"m-30"><img height=3D"79" src=3D"https://images.apple.com/d=
+m/us/20/c9a3e60/i/m_icon_shortcuts_2x.png" width=3D"42" data-dynamic-variab=
+le class=3D"m-47" alt=3D" "></div></div></div><div class=3D"m-22 m-26 m-147=
+"><div class=3D"m-23 m-94"><p class=3D"m-32" style=3D"font-size: 14px; line=
+-height: 20px;"><b>Find app shortcuts=C2=A0instantly.</b><br> Touch and hol=
+d an app icon to bring up shortcuts like showing your bookmarks or opening =
+a new tab in Safari.</p></div></div></div><div class=3D"m-124"></div><div><=
+div class=3D"m-29"><img height=3D"324" src=3D"https://images.apple.com/dm/u=
+s/20/c9a3e60/i/m_cursor_2x.jpg" width=3D"328" data-dynamic-variable class=
+=3D"m-47" alt=3D" "></div></div><div class=3D"m-24 m-142"><div class=3D"m-2=
+2 m-26 m-135"><div class=3D"m-129" style=3D"padding-top: 2px;"><div class=
+=3D"m-30"><img height=3D"79" src=3D"https://images.apple.com/dm/us/20/c9a3e=
+60/i/icon_cursor_2x.png" width=3D"42" data-dynamic-variable class=3D"m-47" =
+alt=3D" "></div></div></div><div class=3D"m-22 m-26 m-139"><div class=3D"m-=
+23 m-90"><p class=3D"m-32" style=3D"font-size: 14px; line-height: 20px;"><b=
+>Move the cursor precisely.</b><br> Touch and hold the Space bar to=C2=A0pi=
+ck up the cursor, then drag it=C2=A0where you want. It will snap in place b=
+etween words.</p></div></div></div><div class=3D"m-123"></div><div class=3D=
+"m-24 m-149"><div class=3D"m-22 m-26 m-134"><div class=3D"m-130" style=3D"p=
+adding-top: 2px; text-align: left; vertical-align: top;"><div class=3D"m-30=
+"><img height=3D"79" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_i=
+con_select_2x.png" width=3D"42" data-dynamic-variable class=3D"m-47" alt=3D=
+" "></div></div></div><div class=3D"m-22 m-26 m-148"><div class=3D"m-23 m-9=
+3"><p class=3D"m-32" style=3D"font-size: 14px; line-height: 20px;"><b>Selec=
+t multiple items<br> in a list at once.</b><br> To quickly select multiple =
+email messages, files, and folders, touch and hold with two fingers and dra=
+g across=C2=A0items. </p></div></div></div><div><div class=3D"m-29"><img he=
+ight=3D"299" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_select_2x=
+.jpg" width=3D"328" data-dynamic-variable class=3D"m-47" alt=3D" "></div></=
+div></div></div></div></div><div class=3D"m-2 m-6 m-125"><div class=3D"m-20=
+"><div class=3D"m-21"><div class=3D"m-22 m-28"><div class=3D"m-29 m-151"><h=
+3 class=3D"m-51">Entertain yourself with shows,=C2=A0games, music, and=C2=
+=A0books.</h3></div><div class=3D"m-152"><div class=3D"m-9"><div class=3D"m=
+-10 m-29"><!----></div></div></div><div class=3D"m-23 m-28 m-29 m-95"><p cl=
+ass=3D"m-32"><b>Get 1 year of Apple TV+ free.<br>
+90 days to sign up.</b><br>
+Your new iPhone comes with one free year of critically acclaimed Apple Orig=
+inals.<sup>2</sup> For access, tap=C2=A0<span style=3D"vertical-align:-4px;=
+line-height:0"><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/m_ic=
+on_apple_tv_mini_2x.png" width=3D"19" height=3D"19" style=3D"display:inline=
+;" border=3D"0" alt=3D"(Apple TV icon)" data-inline-icon=3D"icon"></span>, =
+then tap <span style=3D"vertical-align:-4px;line-height:0"><img src=3D"http=
+s://images.apple.com/dm/us/20/c9a3e60/i/m_icon_apple_tv_plus_mini_2x.png" w=
+idth=3D"19" height=3D"19" style=3D"display:inline;" border=3D"0" alt=3D"(Ap=
+ple TV+ icon)" data-inline-icon=3D"icon"></span> within 90=C2=A0days.</p></=
+div><div class=3D"m-28 m-29 m-157"><a href=3D"https://c.apple.com/r?v=3D2&l=
+a=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0=
+OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8=
+Dj3Kqfua&ct=3Dac6J0u5b7k" class=3D"m-7">Watch <span class=3D"m-5">now<img s=
+rc=3D"https://images.apple.com/dm/us/20/c9a3e60/i/14_chevron_0066cc_2x.png"=
+ width=3D"12" height=3D"8" style=3D"display:inline; margin:0;" alt=3D" "></=
+span></a></div></div></div><div class=3D"m-21 m-170"><div class=3D"m-22 m-2=
+8 m-160"><div class=3D"m-154"><div class=3D"m-9"><div class=3D"m-10 m-29"><=
+!----></div></div></div></div><div class=3D"m-22 m-28 m-165"><div class=3D"=
+m-23 m-30 m-88"><p class=3D"m-32"><b>Play Apple Arcade free.</b><br> Go to =
+<span style=3D"vertical-align:-4px;line-height:0"><img src=3D"https://image=
+s.apple.com/dm/us/20/c9a3e60/i/m_icon_arcade_mini_2x.png" width=3D"17" heig=
+ht=3D"17" style=3D"display:inline;" border=3D"0" alt=3D"(Apple Arcade icon)=
+" data-inline-icon=3D"icon"></span> in the App Store to start your free tri=
+al.<sup>3</sup> You=E2=80=99ll have access to 100+ <span style=3D"white-spa=
+ce:nowrap;">ad-free</span> games with no in-app purchases.</p></div><div cl=
+ass=3D"m-28 m-155"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&=
+a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4D=
+cxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac=
+6R6L8X4v" class=3D"m-7">Try Apple Arcade <span class=3D"m-5">free<img src=
+=3D"https://images.apple.com/dm/us/20/c9a3e60/i/14_chevron_0066cc_2x.png" w=
+idth=3D"12" height=3D"8" style=3D"display:inline; margin:0;" alt=3D" "></sp=
+an></a></div></div><div class=3D"m-22 m-28 m-161"><div class=3D"m-153"><div=
+ class=3D"m-9"><div class=3D"m-10 m-29"><!----></div></div></div></div><div=
+ class=3D"m-22 m-28 m-164"><div class=3D"m-23 m-30 m-97"><p class=3D"m-32">=
+<b>Listen to Apple Music free.</b><br> Lose yourself in 70 million songs. D=
+ownload=C2=A0your favorites to play offline. Sing=C2=A0along with lyrics vi=
+ew.<br> Tap <span style=3D"vertical-align:-4px;line-height:0"><img src=3D"h=
+ttps://images.apple.com/dm/us/20/c9a3e60/i/m_icon_music_mini_2x.png" width=
+=3D"17" height=3D"17" style=3D"display:inline;" border=3D"0" alt=3D"(Apple =
+Music icon)" data-inline-icon=3D"icon"></span> to try it=C2=A0free.<sup>4</=
+sup></p></div><div class=3D"m-28 m-156"><a href=3D"https://c.apple.com/r?v=
+=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVd=
+Jrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw=
+7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnE=
+ZBNyrxo&ct=3Dac6m7L1b4v" class=3D"m-7">Try Apple Music <span class=3D"m-5">=
+free<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/14_chevron_0066=
+cc_2x.png" width=3D"12" height=3D"8" style=3D"display:inline; margin:0;" al=
+t=3D" "></span></a></div></div><div class=3D"m-22 m-28 m-30 m-163"><div cla=
+ss=3D"m-23 m-81"><p class=3D"m-32"><b>Apple Books. Find your next <span sty=
+le=3D"white-space:nowrap;">must-read.</span></b><br> Browse the Book Store =
+to find reviews, lists curated by Apple Books editors, and even personalize=
+d=C2=A0recommendations.</p></div><div class=3D"m-28 m-30 m-159"><a href=3D"=
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cD=
+U7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R3L1Q3p" class=3D"m-7">Discov=
+er books in the Apple Books <span class=3D"m-5">app<img src=3D"https://imag=
+es.apple.com/dm/us/20/c9a3e60/i/14_chevron_0066cc_2x.png" width=3D"12" heig=
+ht=3D"8" style=3D"display:inline; margin:0;" alt=3D" "></span></a></div><di=
+v class=3D"m-169"><div class=3D"m-9"><div class=3D"m-10 m-30"><!----></div>=
+</div></div></div></div></div></div><div class=3D"m-6 m-42 m-180"><div clas=
+s=3D"m-20"><div class=3D"m-21 m-69"></div><div class=3D"m-21"><div class=3D=
+"m-22 m-28 m-179"><div class=3D"m-167"><div class=3D"m-9"><div class=3D"m-1=
+0 m-29"><span role=3D"img" aria-label=3D"Essential features that make every=
+ day easier. | Track usage with Screen Time. -- In=E2=80=89Settings, tap Sc=
+reen Time to set time limits=C2=A0for specific apps and websites, or to=C2=
+=A0see=C2=A0daily or weekly reports on how you=E2=80=99re=C2=A0spending you=
+r time. | Drive without distractions. -- To silence calls and notifications=
+=C2=A0while you drive, go to Settings > Do Not Disturb, scroll down to Do N=
+ot Disturb While Driving, and tap Activate. Then set it to turn on when you=
+=C2=A0want. | SOS -- Set up emergency contact info. -- Open the Health app,=
+ then tap your profile=C2=A0picture in the top right. Tap Medical=C2=A0ID, =
+then tap Get Started. Turn=C2=A0on=C2=A0Show When Locked to give emergency =
+access to medical info like conditions=C2=A0or=C2=A0allergies. | Hide ads i=
+n Safari Reader. -- In the Safari app, tap (Reader icon) at the left end=C2=
+=A0of=C2=A0the=C2=A0address field, then tap Show=C2=A0Reader=C2=A0View to s=
+ee a page without=C2=A0ads, navigation, or other=C2=A0distractions. | Send =
+unknown callers straight to voicemail. -- In Settings, tap Phone and turn o=
+n Silence=C2=A0Unknown Callers. Calls from numbers=C2=A0in Contacts, Mail, =
+and Messages=C2=A0will=C2=A0ring through, but all other=C2=A0calls=C2=A0wil=
+l go to voicemail."></span></div></div></div><div class=3D"m-168"><div clas=
+s=3D"m-9"><div class=3D"m-10 m-29"><span role=3D"img" aria-label=3D"Turn on=
+ accessibility features. -- Go to Settings > Accessibility to turn on or=C2=
+=A0off accessibility features like Zoom, VoiceOver, and Voice Control. | Le=
+arn more about accessibility"></span><a href=3D"https://c.apple.com/r?v=3D2=
+&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn2=
+3bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSw=
+kJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNy=
+rxo&ct=3Dac6J7V6w5h" style=3D"display: block; max-width: 414px; height: 650=
+px;"></a></div></div></div><div class=3D"m-166"><div class=3D"m-30"><img he=
+ight=3D"42" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/icon_ar_apps=
+_2x.png" width=3D"42" data-dynamic-variable class=3D"m-47" alt=3D" "></div>=
+</div><div class=3D"m-23 m-96"><p class=3D"m-32">See your world<br>  in new=
+ ways with AR apps.</p></div><div class=3D"m-23 m-98"><p class=3D"m-32">Dis=
+cover incredible =E2=80=94 and incredibly useful =E2=80=94=C2=A0AR=C2=A0app=
+s designed to take advantage of the=C2=A0new=C2=A0LiDAR Scanner and powerfu=
+l A14=C2=A0Bionic=C2=A0chip.</p></div><div class=3D"m-28 m-158"><a href=3D"=
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cD=
+U7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6m0x8r7M" class=3D"m-7">Explor=
+e curated AR <span class=3D"m-5">apps<img src=3D"https://images.apple.com/d=
+m/us/20/c9a3e60/i/14_chevron_2997ff_2x.png" width=3D"12" height=3D"8" style=
+=3D"display:inline; margin:0;" alt=3D" "></span></a></div><div class=3D"m-1=
+78"><div class=3D"m-9"><div class=3D"m-10 m-29"><!----></div></div></div></=
+div></div></div></div><div class=3D"m-2 m-6 m-73"><div class=3D"m-20"><div =
+class=3D"m-21 m-182"><div class=3D"m-22 m-181"><div class=3D"m-176"><div cl=
+ass=3D"m-9"><div class=3D"m-10 m-29"><span role=3D"img" aria-label=3D"Keep =
+all your stuff safe and up to date with iCloud. | iCloud is built into your=
+ new iPhone. So all your photos, files, notes, and=C2=A0more are safe, up t=
+o date,=C2=A0and available wherever you are. And it all=C2=A0works automati=
+cally. You get 5GB of free iCloud storage to start, and=C2=A0it=E2=80=99s e=
+asy to add more at=C2=A0any=C2=A0time. | Find My -- If you ever misplace yo=
+ur iPhone or other Apple devices, the Find My app shows you=C2=A0where they=
+ are on a map or pings them=C2=A0if=C2=A0they=E2=80=99re nearby. To enable =
+it, go to Settings > [your name] > Find=C2=A0My. | iCloud Backup -- For aut=
+omatic daily backups of your iPhone,=C2=A0go to Settings > [your name] > iC=
+loud, then turn on iCloud Backup. These=C2=A0backups also make it easy to t=
+ransfer=C2=A0all your stuff to your=C2=A0next=C2=A0iPhone. | iCloud Photos =
+-- With iCloud Photos, you can browse, search,=C2=A0and share your complete=
+ photo library=C2=A0from your iPhone or any of your devices. Go to Settings=
+ > [your name] > iCloud=C2=A0>=C2=A0Photos, then turn on iCloud=C2=A0Photos=
+. | Files -- The Files app lets you browse, search, and=C2=A0organize all t=
+he files on your devices, in=C2=A0apps, in iCloud Drive, and across other c=
+loud services. Tap the Files app on the Home=C2=A0Screen to get started."><=
+/span></div></div></div></div></div></div></div><div class=3D"m-2 m-6"><div=
+ class=3D"m-20"><div class=3D"m-21"><div class=3D"m-22"><div class=3D"m-184=
+"></div></div></div><div class=3D"m-21 m-183"><div class=3D"m-22 m-28 m-162=
+"><div class=3D"m-177"><div class=3D"m-9"><div class=3D"m-10 m-30"><span ro=
+le=3D"img" aria-label=3D"Accessories that take your iPhone to the next leve=
+l. | From new MagSafe cases, wallets, and wireless chargers to AirPods, Hom=
+ePod mini, and more, the perfect accessories are right here. | Shop all iPh=
+one accessories"></span><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfT=
+hNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbc=
+ZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac=
+6J4w0a9M" style=3D"display: block; max-width: 414px; height: 962px;"></a></=
+div></div></div><div class=3D"m-175"><div class=3D"m-9"><div class=3D"m-10 =
+m-30"><span role=3D"img" aria-label=3D"AppleCare+ - A little extra peace of=
+ mind. | Buy AppleCare+ coverage within the first 60 days of purchasing you=
+r new=C2=A0iPhone and get 24/7 priority tech support and hardware coverage=
+=C2=A0including accidental damage protection. You even have the=C2=A0option=
+ to get theft and loss coverage.(5). | To learn more, call 1-800-275-2273, =
+visit the AppleCare+ page, or on your device go to Settings > General > Abo=
+ut and choose AppleCare+ Coverage Available."></span><a href=3D"https://c.a=
+pple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoo=
+fYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6X=
+pTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPP=
+p%2FUvduQnnEZBNyrxo&ct=3Dac6J4q3j8T" style=3D"display: block; max-width: 41=
+4px; height: 527px;"></a></div></div></div></div></div></div></div><div cla=
+ss=3D"m-2 m-6 m-193"><div class=3D"m-20"><div class=3D"m-21"><div class=3D"=
+m-22 m-28"><div><div class=3D"m-29"><img height=3D"48" src=3D"https://image=
+s.apple.com/dm/us/20/c9a3e60/i/m_icon_user_guide_2x.png" width=3D"48" data-=
+dynamic-variable class=3D"m-47" alt=3D" "></div></div><div class=3D"m-29 m-=
+185"><h4 class=3D"m-52">iPhone User Guide</h4></div><div class=3D"m-23 m-29=
+ m-186"><p class=3D"m-32">To learn everything there is to know about <span =
+style=3D"white-space:nowrap;">iPhone=C2=A012 Pro,</span> download the iPhon=
+e=C2=A0User=C2=A0Guide.</p></div><div class=3D"m-28 m-29 m-107"><a href=3D"=
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cD=
+U7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R4a8L1C" class=3D"m-7">Downlo=
+ad the User <span class=3D"m-5">Guide<img src=3D"https://images.apple.com/d=
+m/us/20/c9a3e60/i/17_chevron_0066cc_2x.png" width=3D"12" height=3D"10" styl=
+e=3D"display:inline; margin:0;" alt=3D" "></span></a></div></div><div class=
+=3D"m-22 m-28 m-190"><div><div class=3D"m-29"><img height=3D"48" src=3D"htt=
+ps://images.apple.com/dm/us/20/c9a3e60/i/m_icon_apple_support_2x.png" width=
+=3D"48" data-dynamic-variable class=3D"m-47" alt=3D" "></div></div><div cla=
+ss=3D"m-29 m-188"><h4 class=3D"m-52">Apple Support</h4></div><div class=3D"=
+m-23 m-29 m-189"><p class=3D"m-32">Find quick answers at <a href=3D"https:/=
+/c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12x=
+bGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5If=
+vr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03=
+fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6J0G5X6Y">support.apple.com</a>. Use the App=
+le Support app to chat, email,=C2=A0or=C2=A0call us with questions.=C2=A0Or=
+=C2=A0visit us on YouTube=C2=A0or=C2=A0Twitter.</p></div><div class=3D"m-28=
+ m-29 m-109"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5G=
+F8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90=
+qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R9u2L=
+9M" class=3D"m-7">Open the <span style=3D"white-space:nowrap;">Apple Suppor=
+t <span class=3D"m-5">app</span><img src=3D"https://images.apple.com/dm/us/=
+20/c9a3e60/i/17_chevron_0066cc_2x.png" width=3D"12" height=3D"10" style=3D"=
+display:inline; margin:0;" alt=3D" "></span></a></div><div class=3D"m-28 m-=
+29 m-106"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8A=
+DtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAq=
+yePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R6i9X2h"=
+ class=3D"m-7">Visit Apple Support on <span class=3D"m-5">YouTube<img src=
+=3D"https://images.apple.com/dm/us/20/c9a3e60/i/17_chevron_0066cc_2x.png" w=
+idth=3D"12" height=3D"10" style=3D"display:inline; margin:0;" alt=3D" "></s=
+pan></a></div><div class=3D"m-28 m-29 m-108"><a href=3D"https://c.apple.com=
+/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%=
+2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPf=
+ikAI5L%2B8Dj3Kqfua&ct=3Dac6R5u8h0P" class=3D"m-7">Visit Apple Support on <s=
+pan class=3D"m-5">Twitter<img src=3D"https://images.apple.com/dm/us/20/c9a3=
+e60/i/17_chevron_0066cc_2x.png" width=3D"12" height=3D"10" style=3D"display=
+:inline; margin:0;" alt=3D" "></span></a></div></div><div class=3D"m-22 m-2=
+8 m-191"><div><div class=3D"m-29"><img height=3D"48" src=3D"https://images.=
+apple.com/dm/us/20/c9a3e60/i/m_icon_tips_2x.png" width=3D"48" data-dynamic-=
+variable class=3D"m-47" alt=3D" "></div></div><div class=3D"m-29 m-187"><h4=
+ class=3D"m-52">Tips and Tricks</h4></div><div class=3D"m-23 m-29 m-192"><p=
+ class=3D"m-32">The Tips app is full of animated demos=C2=A0and useful info=
+rmation about your=C2=A0new iPhone=C2=A012 Pro and its <span style=3D"white=
+-space:nowrap;">built-in apps.</span></p></div><div class=3D"m-28 m-29 m-10=
+5"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReC=
+O2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKs=
+Y3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R7L6d1N" class=
+=3D"m-7">Open the Tips <span class=3D"m-5">app<img src=3D"https://images.ap=
+ple.com/dm/us/20/c9a3e60/i/17_chevron_0066cc_2x.png" width=3D"12" height=3D=
+"10" style=3D"display:inline; margin:0;" alt=3D" "></span></a></div></div><=
+/div></div></div><div class=3D"m-2 m-6 m-36"><div class=3D"m-20"><div class=
+=3D"m-21 m-201"><div class=3D"m-22 m-62"><div class=3D"m-28 m-29 m-194"><a =
+href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJt=
+bRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17=
+qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuW=
+xQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6R0i9u5M" class=3D"m-7">Shop =
+<span class=3D"m-5">Online</span></a><div class=3D"m-40"></div></div></div>=
+<div class=3D"m-22 m-199"><div class=3D"m-28 m-29 m-196"><a href=3D"https:/=
+/c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12x=
+bGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5If=
+vr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03=
+fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6J2L4Y5p" class=3D"m-7">Find a <span class=
+=3D"m-5">Store</span></a><div class=3D"m-40"></div></div></div><div class=
+=3D"m-22 m-200"><div class=3D"m-28 m-29 m-197"><a href=3D"tel:1-800-MY-APPL=
+E" data-cid-disabled=3D"true" class=3D"m-7">1-800-MY-APPLE</a><div class=3D=
+"m-40"></div></div></div><div class=3D"m-22 m-198"><div class=3D"m-28 m-29 =
+m-195"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtv=
+pReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyeP=
+RFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6J0n2I6k" cl=
+ass=3D"m-7">Get=C2=A0the=C2=A0Apple=C2=A0Store=C2=A0App</a><div class=3D"m-=
+40"></div></div></div></div><div class=3D"m-21 m-203"><div class=3D"m-22 m-=
+61"><div class=3D"m-23 m-30 m-37"><p class=3D"m-32"><span class=3D"m-33"><s=
+pan>1.</span> Data plan required. 5G is available in select markets and thr=
+ough select carriers. Speeds vary by site conditions and carrier. For detai=
+ls on 5G support, contact your carrier and see <a href=3D"https://www.apple=
+.com/iphone/cellular/">apple.com/iphone/cellular</a>.</span>
+<span class=3D"m-34"><span>2.</span> $4.99/month after free trial. One subs=
+cription per Family Sharing group. Offer good for 3 months after eligible d=
+evice activation. Plan automatically renews until cancelled. Restrictions a=
+nd other <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8AD=
+tvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqy=
+ePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R6x3c1v">=
+terms</a> apply.</span>
+<span class=3D"m-34"><span>3.</span> $4.99/month after free trial. No commi=
+tment. Plan automatically renews after trial until cancelled.</span>
+<span class=3D"m-34"><span>4.</span> $9.99/month after free trial. No commi=
+tment. Plan automatically renews after trial until cancelled.</span>
+<span class=3D"m-34"><span>5.</span> AppleCare+ options include up to two i=
+ncidents of accidental damage protection and two incidents of theft or loss=
+ coverage every 12 months. Each incident is subject to a service fee or ded=
+uctible.</span>
+</p></div></div></div><div class=3D"m-21 m-202"><div class=3D"m-22 m-63"><d=
+iv class=3D"m-23 m-30 m-39"><p class=3D"m-32">TM and =C2=A9 2021 Apple Inc.=
+ One Apple Park Way, <span class=3D"m-5" style=3D"white-space: nowrap">MS 9=
+6-DM</span>, Cupertino, CA 95014.</p></div></div></div><div class=3D"m-21 m=
+-30 m-65"><div class=3D"m-22 m-26"><div class=3D"m-28 m-30 m-204"><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5=
+v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FT=
+B5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6J6b5P5N" class=3D"m-7">Al=
+l Rights <span class=3D"m-5">Reserved</span></a><span class=3D"m-45">|</spa=
+n></div></div><div class=3D"m-22 m-26"><div class=3D"m-28 m-30 m-205"><a hr=
+ef=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvue=
+Y5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2=
+FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R1I9t4k" class=3D"m-7">=
+Privacy <span class=3D"m-5">Policy</span></a><span class=3D"m-45">|</span><=
+/div></div><div class=3D"m-22 m-26"><div class=3D"m-28 m-30 m-206"><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5=
+v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FT=
+B5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6m8q3E8M" class=3D"m-7">My=
+ Apple <span class=3D"m-5">ID</span></a></div></div></div><div class=3D"m-2=
+1 m-207"><div class=3D"m-22 m-66"><div class=3D"m-23 m-30 m-38"><p class=3D=
+"m-32">If you prefer not to receive commercial email from Apple, or if you=
+=E2=80=99ve changed your email address, please <a href=3D"https://mynews.ap=
+ple.com/subscriptions?v=3D2&la=3Den_us&a=3DQw4aNQWWDervXPmsuwf4HJbquMbP8HEy=
+wyBJX74yQz6BiDdnmdaRaEY7wIx1EkNuGu07vwguNRIHnRcQKHc4GTGDFSP%2F2U6BKcfeV601a=
+9Q2d2%2Bx%2B1DKjNGKqLW4xLHA%2FHKdCySdvXBlTYKF2VQZ6I17q03anBFRKSr9YysCsPwlHv=
+eBOQC85hh89DzzSX%2BkxZEErrafVGU1s6CIh2OZ7osG7ylwplE5ALH88PGJkxQ%3D" style=
+=3D"border: 0; outline: 0; text-decoration: none;">click=C2=A0here</a>.</p>=
+</div></div></div></div></div></div><div class=3D"m-0"><table width=3D"100%=
+" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D=
+"presentation"><tbody><tr><td align=3D"center" style=3D"text-align: center;=
+"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" al=
+ign=3D"center" role=3D"presentation"><tbody><tr class=3D"m-6"><td align=3D"=
+center" class=3D"m-2" style=3D"background-color: #ffffff; padding-right: 12=
+px; padding-left: 12px;"><table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" align=3D"center" role=3D"presentation" width=3D"712" style=3D"width:=
+ 712px;"><tbody><tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D=
+"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><=
+tbody><tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" c=
+lass=3D"m-22"><tbody><tr><td align=3D"center" class=3D"m-29" style=3D"paddi=
+ng-top: 37px; text-align: center;"><img height=3D"24" src=3D"https://images=
+.apple.com/dm/us/20/c9a3e60/i/apple_86868b_2x.png" width=3D"20" border=3D"0=
+" style=3D"display: block;" alt=3D" "></td></tr><tr><td style=3D"padding-to=
+p: 30px; text-align: center;"><h2 class=3D"m-19" style=3D"font-size: 40px; =
+letter-spacing: 0em; line-height: 44px; color: #1d1d1f;">Get to know your n=
+ew<br> iPhone=C2=A012=C2=A0Pro.</h2></td></tr><tr><td class=3D"m-23" style=
+=3D"text-align: center; padding: 28px 110px 21px; margin: 0px;"><p class=3D=
+"m-32" style=3D"margin: 0px auto; color: #1d1d1f;">Here are some of our fav=
+orite tips and tricks for getting the most=C2=A0out of your new iPhone. You=
+=E2=80=99ll find lots of shortcuts, powerful camera features, and essential=
+ tools for  productivity,=C2=A0play, and improving your day. Let=E2=80=99s =
+dive right in.</p></td></tr><tr><td align=3D"center" style=3D"padding-botto=
+m: 63px; text-align: center;"><img height=3D"565" src=3D"https://images.app=
+le.com/dm/us/20/c9a3e60/i/hero_2x.jpg" width=3D"616" border=3D"0" class=3D"=
+m-29" style=3D"display: block;" alt=3D" "></td></tr><tr><td style=3D"paddin=
+g-bottom: 42px; text-align: center;"><h3 class=3D"m-51" style=3D"font-size:=
+ 32px; letter-spacing: 0.004em; line-height: 36px; color: #1d1d1f;">Simple =
+shortcuts for getting around.</h3></td></tr></tbody></table></td></tr></tbo=
+dy></table></td></tr><tr class=3D"m-21"><td style=3D"padding-bottom: 78px;"=
+><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" ali=
+gn=3D"center" role=3D"presentation"><tbody><tr><td align width=3D"100%" cla=
+ss=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" r=
+ole=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td align=3D"=
+left" style><img alt=3D"Control Center -- Swipe down from the top-right cor=
+ner=C2=A0to=C2=A0open Control Center. Touch=C2=A0and=C2=A0hold=C2=A0an=C2=
+=A0icon to see more=C2=A0options. | Multitasking -- To see recently used ap=
+ps or switch to another app, just swipe up and hold, then release to swipe =
+through apps. | Switch between apps -- Swipe right at the bottom edge of=C2=
+=A0your=C2=A0screen to switch between apps=C2=A0you=E2=80=99ve been=C2=A0us=
+ing. | Ask Siri -- To use Siri hands-free, say =E2=80=9CHey Siri.=E2=80=9D=
+=C2=A0Or=C2=A0press and hold the side button while asking your=C2=A0questio=
+n. | Apple Pay -- Double-click the side button to use=C2=A0Apple=C2=A0Pay i=
+n stores, in apps, and=C2=A0on=C2=A0the=C2=A0web. | Take a screenshot -- Pr=
+ess then release the side button and the volume-up button simultaneously. S=
+ee=C2=A0your screenshot in Photos. | Emergency SOS -- Press and hold the si=
+de button and either=C2=A0volume button. Then slide to make=C2=A0an emergen=
+cy=C2=A0call. | Power off -- Press and hold the side button and=C2=A0either=
+=C2=A0volume button. Then slide to power=C2=A0off. | Reachability -- Bring =
+content at the top of your screen into reach by swiping down from the botto=
+m edge. Turn on Reachability in Settings=C2=A0> Accessibility > Touch. | Ba=
+ck Tap -- To choose actions you can trigger by=C2=A0tapping the back of you=
+r iPhone,=C2=A0go=C2=A0to=C2=A0Settings > Accessibility=C2=A0>=C2=A0Touch >=
+ Back Tap." height=3D"576" src=3D"https://images.apple.com/dm/us/20/c9a3e60=
+/i/shortcuts_tile_2x.jpg" width=3D"712" border=3D"0" data-dynamic-variable =
+class=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-6"><td=
+ align=3D"center" style=3D"background-color: #f5f5f7; padding-right: 12px; =
+padding-bottom: 103px; padding-left: 12px;"><table cellpadding=3D"0" cellsp=
+acing=3D"0" border=3D"0" align=3D"center" role=3D"presentation" width=3D"71=
+2" style=3D"width: 712px;"><tbody><tr class=3D"m-21"><td><table width=3D"10=
+0%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=
+=3D"presentation"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table=
+ align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentatio=
+n" width=3D"100%" class=3D"m-22"><tbody><tr><td style=3D"padding-top: 82px;=
+ padding-bottom: 36px; text-align: center;"><h3 class=3D"m-51" style=3D"fon=
+t-size: 32px; letter-spacing: 0.004em; line-height: 36px;">See what the new=
+<br>  Pro camera system can do.</h3></td></tr></tbody></table></td></tr></t=
+body></table></td></tr><tr class=3D"m-21"><td><table width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presenta=
+tion"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table align borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"=
+100%" class=3D"m-22"><tbody><tr><td align=3D"left" style><img alt=3D"Shoot =
+Dolby Vision HDR video. -- When shooting video, you can tap the controls in=
+ the top corner to switch between HD and 4K or change frame rates. Choose 3=
+0=C2=A0fps for standard video, 60=C2=A0fps for motion, or 24 fps=C2=A0for a=
+ cinematic=C2=A0look." height=3D"310" src=3D"https://images.apple.com/dm/us=
+/20/c9a3e60/i/hdr_video_tile_2x.jpg" width=3D"712" border=3D"0" data-dynami=
+c-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"padd=
+ing-top: 10px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" b=
+order=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align wid=
+th=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cell=
+padding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><t=
+r><td align=3D"left" style><img alt=3D"Edit Dolby Vision HDR video. -- In P=
+hotos, tap Edit above your video screen to access the full suite of editing=
+ tools. Trim footage, adjust colors, reduce noise, add filters, crop frames=
+, and much more." height=3D"310" src=3D"https://images.apple.com/dm/us/20/c=
+9a3e60/i/dolby_vision_video_tile_2x.jpg" width=3D"712" border=3D"0" data-dy=
+namic-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody><=
+/table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"=
+padding-top: 10px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align=
+ width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" =
+cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbod=
+y><tr><td align=3D"left" style><img alt=3D"Record Night mode Time-lapse vid=
+eos. -- In low light, mount iPhone=C2=A012=C2=A0Pro to a tripod. Swipe to T=
+ime-Lapse and frame your scene. Tap the shutter to start recording, then ta=
+p it again to=C2=A0stop." height=3D"310" src=3D"https://images.apple.com/dm=
+/us/20/c9a3e60/i/night_mode_video_tile_2x.jpg" width=3D"712" border=3D"0" d=
+ata-dynamic-variable class=3D"m-30" style=3D"display: block;"></td></tr></t=
+body></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td sty=
+le=3D"padding-top: 73px;"><table width=3D"100%" cellspacing=3D"0" cellpaddi=
+ng=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td=
+ align width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22=
+"><tbody><tr><td align=3D"left" style><img alt=3D"Frame your shots with the=
+ zoom wheel. -- Touch and hold the .5x, 1x, or 2x button on=C2=A0your Camer=
+a screen for a zoom wheel,=C2=A0then slide to zoom in or out with=C2=A0the=
+=C2=A0Ultra Wide, Wide, and Telephoto=C2=A0cameras." height=3D"382" src=3D"=
+https://images.apple.com/dm/us/20/c9a3e60/i/zoom_wheel_tile_2x.jpg" width=
+=3D"712" border=3D"0" data-dynamic-variable class=3D"m-30" style=3D"display=
+: block;"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr=
+ class=3D"m-21"><td style=3D"padding-top: 43px;"><table width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"prese=
+ntation"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table align bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=
+=3D"100%" class=3D"m-22"><tbody><tr><td align=3D"left" style><img alt=3D"Sh=
+oot portraits with depth. -- In Camera, swipe to Portrait mode, which autom=
+atically blurs the background. While shooting, tap (depth control icon)=C2=
+=A0and=C2=A0use the slider to adjust the amount=C2=A0of blur. After you sho=
+ot, use=C2=A0the=C2=A0slider in Edit." height=3D"473" src=3D"https://images=
+.apple.com/dm/us/20/c9a3e60/i/portraits_tile_2x.jpg" width=3D"712" border=
+=3D"0" data-dynamic-variable class=3D"m-30" style=3D"display: block;"></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"=
+><td style=3D"padding-top: 46px;"><table width=3D"100%" cellspacing=3D"0" c=
+ellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody=
+><tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=
+=3D"m-22"><tbody><tr><td align=3D"left" style><img alt=3D"Use Night mode au=
+tomatically or fine-tune=C2=A0it. -- Tap the shutter to take a photo in low=
+=C2=A0light =E2=80=94 Night mode kicks in when=C2=A0it=E2=80=99s=C2=A0neede=
+d. To get even more detail, tap (Night mode icon). The longer you hold stil=
+l,=C2=A0the sharper your shot gets." height=3D"444" src=3D"https://images.a=
+pple.com/dm/us/20/c9a3e60/i/night_mode_tile_2x.jpg" width=3D"712" border=3D=
+"0" data-dynamic-variable class=3D"m-30" style=3D"display: block;"></td></t=
+r></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><t=
+d style=3D"padding-top: 46px;"><table width=3D"100%" cellspacing=3D"0" cell=
+padding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><t=
+r><td align width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspa=
+cing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"=
+m-22"><tbody><tr><td align=3D"left" style><img alt=3D"Experiment with Night=
+ mode portraits. -- For portraits in dimly lit environments, simply swipe t=
+o Portrait mode and shoot as you normally would. Night mode portraits=C2=A0=
+automatically give you low-light shots with a beautiful bokeh=C2=A0effect."=
+ height=3D"382" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/night_mo=
+de_portraits_tile_2x.jpg" width=3D"712" border=3D"0" data-dynamic-variable =
+class=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"padding-top: 46=
+px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0"=
+ align=3D"center" role=3D"presentation"><tbody><tr><td align width=3D"100%"=
+ class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"=
+0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td align=
+=3D"left" style><img alt=3D"Add Portrait Lighting effects. -- Scroll throug=
+h the menu in Portrait mode=C2=A0to choose from six studio-quality lighting=
+ effects, like the dramatic High-Key Light Mono. You can do it before or af=
+ter you shoot." height=3D"380" src=3D"https://images.apple.com/dm/us/20/c9a=
+3e60/i/portrait_lighting_tile_2x.jpg" width=3D"712" border=3D"0" data-dynam=
+ic-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"pad=
+ding-top: 46px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" =
+border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align wi=
+dth=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cel=
+lpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><=
+tr><td align=3D"left" style><img alt=3D"Try shooting a series in black and =
+white. -- To take multiple black and white photos without individually conv=
+erting each image afterward, simply tap (up arrow icon)=C2=A0at the top, ta=
+p (lighting filters icon) in=C2=A0the toolbar, select the Mono, Silvertone,=
+ or Noir filter, and shoot." height=3D"481" src=3D"https://images.apple.com=
+/dm/us/20/c9a3e60/i/series_tile_2x.jpg" width=3D"712" border=3D"0" data-dyn=
+amic-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></=
+table></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr cla=
+ss=3D"m-6"><td align=3D"center" class=3D"m-2" style=3D"background-color: #f=
+fffff; padding: 79px 12px 80px;"><table cellpadding=3D"0" cellspacing=3D"0"=
+ border=3D"0" align=3D"center" role=3D"presentation" width=3D"712" style=3D=
+"width: 712px;"><tbody><tr class=3D"m-21"><td><table width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presenta=
+tion"><tbody><tr><td align width=3D"100%" class=3D"m-22" style=3D"padding-r=
+ight: 150px; padding-bottom: 38px; padding-left: 150px;"><table align borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"=
+100%" class=3D"m-22" style=3D"text-align: center;"><tbody><tr><td style=3D"=
+text-align: center;"><h3 class=3D"m-51" style=3D"font-size: 32px; letter-sp=
+acing: 0.004em; line-height: 36px; color: #1d1d1f;">Let iOS 14 help you get=
+ right=C2=A0to the good stuff.</h3></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr><tr class=3D"m-21"><td style=3D"padding-top: 0px;"><t=
+able width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=
+=3D"center" role=3D"presentation"><tbody><tr><td align width=3D"244" class=
+=3D"m-22" style=3D"width: 244px;"><table align border=3D"0" cellspacing=3D"=
+0" cellpadding=3D"0" role=3D"presentation" width=3D"244" class=3D"m-22"><tb=
+ody><tr><td align=3D"left" style=3D"vertical-align: top;"><img alt=3D"Find =
+your apps faster with the new App Library. -- From the Home Screen, swipe=
+=C2=A0left until you see the App=C2=A0Library. Your apps are automatically =
+sorted into categories. Use the search field=C2=A0to look for a specific ap=
+p." height=3D"595" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/app_l=
+ibrary_tile_2x.jpg" width=3D"244" border=3D"0" data-dynamic-variable class=
+=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td><td alig=
+n width=3D"224" class=3D"m-22" style=3D"width: 224px;"><table align border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"2=
+24" class=3D"m-22"><tbody><tr><td align=3D"left" style=3D"vertical-align: t=
+op;"><img alt=3D"Add helpful widgets to=C2=A0your=C2=A0Home=C2=A0Screen. --=
+ Touch and hold an empty part of=C2=A0the screen until the apps jiggle. Tap=
+=C2=A0(plus icon), select a widget, choose from three sizes, tap Add Widget=
+, then tap Done." height=3D"595" src=3D"https://images.apple.com/dm/us/20/c=
+9a3e60/i/widgets_tile_2x.jpg" width=3D"224" border=3D"0" data-dynamic-varia=
+ble class=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td=
+><td align width=3D"244" class=3D"m-22" style=3D"width: 244px;"><table alig=
+n border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" wi=
+dth=3D"244" class=3D"m-22"><tbody><tr><td align=3D"left" style=3D"vertical-=
+align: top;"><img alt=3D"Discover the right app at the right moment with Ap=
+p Clips. -- When you find an App Clip in the real world, scan its QR code=
+=C2=A0with the camera or hold your iPhone near the NFC tag. Or launch App C=
+lips from Safari,=C2=A0Maps, or=C2=A0Messages." height=3D"595" src=3D"https=
+://images.apple.com/dm/us/20/c9a3e60/i/app_clips_tile_2x.jpg" width=3D"244"=
+ border=3D"0" data-dynamic-variable class=3D"m-30" style=3D"display: block;=
+"></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr class=
+=3D"m-21"><td style=3D"padding-top: 48px;"><table width=3D"100%" cellspacin=
+g=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presentatio=
+n"><tbody><tr><td align width=3D"244" class=3D"m-22" style=3D"width: 244px;=
+"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"244" class=3D"m-22"><tbody><tr><td align=3D"left" style=
+=3D"vertical-align: top;"><img alt=3D"Pin important messages. -- In Message=
+s, you can pin your favorite conversations to the top of your list so they=
+=E2=80=99re always handy. Just touch and hold a conversation, then tap (pin=
+ icon)." height=3D"595" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/=
+pin_messages_tile_2x.jpg" width=3D"244" border=3D"0" data-dynamic-variable =
+class=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td><td=
+ align width=3D"224" class=3D"m-22" style=3D"width: 224px;"><table align bo=
+rder=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=
+=3D"224" class=3D"m-22"><tbody><tr><td align=3D"left" style=3D"vertical-ali=
+gn: top;"><img alt=3D"Reply to specific messages in=C2=A0group conversation=
+s. -- Touch and hold a message bubble, then tap=C2=A0(reply button). Type y=
+our message, then tap=C2=A0(blue send arrow icon). View replies in the full=
+ conversation or in their own=C2=A0thread." height=3D"595" src=3D"https://i=
+mages.apple.com/dm/us/20/c9a3e60/i/group_conversations_tile_2x.jpg" width=
+=3D"224" border=3D"0" data-dynamic-variable class=3D"m-30" style=3D"display=
+: block;"></td></tr></tbody></table></td><td align width=3D"244" class=3D"m=
+-22" style=3D"width: 244px;"><table align border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" role=3D"presentation" width=3D"244" class=3D"m-22"><tbody><=
+tr><td align=3D"left" style=3D"vertical-align: top;"><img alt=3D"Direct a m=
+essage to someone with Mentions. -- To address a specific person within a g=
+roup conversation, simply type the name and tap it when it appears. If the =
+person is not already in your contacts, type @ followed by the name." heigh=
+t=3D"595" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/mentions_tile_=
+2x.jpg" width=3D"244" border=3D"0" data-dynamic-variable class=3D"m-30" sty=
+le=3D"display: block;"></td></tr></tbody></table></td></tr></tbody></table>=
+</td></tr><tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" ce=
+llpadding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody>=
+<tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=
+=3D"m-22"><tbody><tr><td class=3D"m-29" style=3D"padding-top: 55px; padding=
+-bottom: 0px; text-align: center; font-size: 17px; font-weight: 600; line-h=
+eight: 21px;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz=
+2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQ=
+JPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYN=
+BHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6R1n9E4p" cl=
+ass=3D"m-7 m-32" style=3D"font-size: 17px; font-weight: 600; line-height: 2=
+1px; color: #0066cc;">Learn more about iOS <span style=3D"white-space:nowra=
+p;">14<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/17_chevron_00=
+66cc_2x.png" width=3D"12" height=3D"10" border=3D"0" style=3D"font-size: 0;=
+ display:inline; margin:0;" alt=3D" "></span></a></td></tr></tbody></table>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"=
+m-6"><td align=3D"center" class=3D"m-2" style=3D"background-color: #f5f5f7;=
+ padding-right: 12px; padding-bottom: 53px; padding-left: 12px;"><table cel=
+lpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" role=3D"pres=
+entation" width=3D"712" style=3D"width: 712px;"><tbody><tr class=3D"m-21"><=
+td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" a=
+lign=3D"center" role=3D"presentation"><tbody><tr><td align width=3D"100%" c=
+lass=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0"=
+ role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td style=
+=3D"padding-top: 78px; padding-bottom: 54px; text-align: center;"><h3 class=
+=3D"m-51" style=3D"font-size: 32px; letter-spacing: 0.004em; line-height: 3=
+6px; color: #1d1d1f;">Boost your productivity<br> with these powerful=C2=A0=
+tools.</h3></td></tr></tbody></table></td></tr></tbody></table></td></tr><t=
+r class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D=
+"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td alig=
+n width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0"=
+ cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbo=
+dy><tr><td align=3D"left" style=3D"padding-bottom: 10px; text-align: left; =
+vertical-align: top;"><img alt=3D"Make your iPhone a Personal Hotspot. -- G=
+o to Settings > Personal Hotspot. Turn on Allow Others to Join. Then follow=
+ the instructions to connect a device. If you=E2=80=99re in a place with 5G=
+ coverage, you=E2=80=99ll get 5G speed automatically.(1)" height=3D"302" sr=
+c=3D"https://images.apple.com/dm/us/20/c9a3e60/i/hotspot_2x.jpg" width=3D"7=
+12" border=3D"0" data-dynamic-variable class=3D"m-30" style=3D"display: blo=
+ck;"></td></tr><tr><td align=3D"left" style=3D"padding-bottom: 10px; text-a=
+lign: left; vertical-align: top;"><img alt=3D"Start a Group FaceTime call. =
+-- In FaceTime, tap (plus icon), then add up to 32 people. Or from a group =
+conversation in Messages, tap the group at the top, then tap FaceTime." hei=
+ght=3D"320" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/facetime_2x.=
+jpg" width=3D"712" border=3D"0" data-dynamic-variable class=3D"m-30" style=
+=3D"display: block;"></td></tr><tr><td align=3D"left" style=3D"padding-bott=
+om: 10px; text-align: left; vertical-align: top;"><img alt=3D"Quickly see h=
+ow websites treat your privacy. -- In Safari, tap (Reader icon)=C2=A0at the=
+ left end of the address field, then tap Privacy Report for a summary of al=
+l the cross-site trackers being blocked by Intelligent=C2=A0Tracking Preven=
+tion." height=3D"302" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/pr=
+ivacy_2x.jpg" width=3D"712" border=3D"0" data-dynamic-variable class=3D"m-3=
+0" style=3D"display: block;"></td></tr><tr><td align=3D"left" style=3D"padd=
+ing-bottom: 10px; text-align: left; vertical-align: top;"><img alt=3D"Make =
+sharing supereasy with AirDrop. -- To instantly share a photo, note, contac=
+t, or document with people nearby, tap (share icon), tap AirDrop, then sele=
+ct the person you want to share=C2=A0with." height=3D"353" src=3D"https://i=
+mages.apple.com/dm/us/20/c9a3e60/i/airdrop_2x.jpg" width=3D"712" border=3D"=
+0" data-dynamic-variable class=3D"m-30" style=3D"display: block;"></td></tr=
+></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td=
+ style=3D"background-color: #f5f5f7; padding-bottom: 14px;"><table width=3D=
+"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" st=
+yle=3D"background-color: #f5f5f7;" role=3D"presentation"><tbody><tr><td ali=
+gn width=3D"349" class=3D"m-22" style=3D"background-color: #ffffff; width: =
+349px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"cent=
+er" style=3D"text-align: center; vertical-align: top;"><img alt=3D"Scan and=
+ sign documents easily. -- In Notes, tap (camera icon) and Scan Documents. =
+Then tap the shutter, Keep Scan, and Save. Once the file is saved, you can =
+mark it up and add a signature with your finger." height=3D"696" src=3D"htt=
+ps://images.apple.com/dm/us/20/c9a3e60/i/scan_2x.jpg" width=3D"349" border=
+=3D"0" data-dynamic-variable class=3D"m-29" style=3D"display: block;"></td>=
+</tr></tbody></table></td><td align width=3D"14" class=3D"m-22" style=3D"ba=
+ckground-color: #f5f5f7; width: 14px;"><table align border=3D"0" cellspacin=
+g=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"14" class=3D"m-22"=
+><tbody><tr><td><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpa=
+dding=3D"0" role=3D"presentation" width=3D"14px"><tbody><tr><td height=3D"0=
+" width=3D"14" style=3D"height: 0px; width: 14px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n width=3D"349" class=3D"m-22" style=3D"background-color: #f5f5f7; width: 3=
+49px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"cent=
+er" style=3D"text-align: center; vertical-align: top;"><img alt=3D"Mark up =
+and edit just about=C2=A0anything. -- In Notes, select the file or photo yo=
+u want to edit, tap (Markup icon), and select a tool to draw, color, or add=
+ text. You can also use the Markup tools in apps like Mail, Messages, and=
+=C2=A0Photos." height=3D"696" src=3D"https://images.apple.com/dm/us/20/c9a3=
+e60/i/markup_2x.jpg" width=3D"349" border=3D"0" data-dynamic-variable class=
+=3D"m-29" style=3D"display: block;"></td></tr></tbody></table></td></tr></t=
+body></table></td></tr><tr class=3D"m-21"><td style=3D"background-color: #f=
+5f5f7; padding-bottom: 14px;"><table width=3D"100%" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" align=3D"center" style=3D"background-color: #f5f5=
+f7;" role=3D"presentation"><tbody><tr><td align width=3D"349" class=3D"m-22=
+" style=3D"background-color: #ffffff; width: 349px;"><table align border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"349"=
+ class=3D"m-22"><tbody><tr><td align=3D"center" style=3D"text-align: center=
+; vertical-align: top;"><img alt=3D"Use a keyboard one-handed. -- Touch and=
+ hold (emoji icon) or (globe key icon) to switch to a one-handed keyboard t=
+hat brings keys closer=C2=A0to your thumb." height=3D"523" src=3D"https://i=
+mages.apple.com/dm/us/20/c9a3e60/i/keyboard_2x.jpg" width=3D"349" border=3D=
+"0" data-dynamic-variable class=3D"m-29" style=3D"display: block;"></td></t=
+r></tbody></table></td><td align width=3D"14" class=3D"m-22" style=3D"backg=
+round-color: #f5f5f7; width: 14px;"><table align border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"14" class=3D"m-22">=
+<tbody><tr><td><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpad=
+ding=3D"0" role=3D"presentation" width=3D"14px"><tbody><tr><td height=3D"0"=
+ width=3D"14" style=3D"height: 0px; width: 14px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n width=3D"349" class=3D"m-22" style=3D"background-color: #f5f5f7; width: 3=
+49px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"cent=
+er" style=3D"text-align: center; vertical-align: top;"><img alt=3D"Type fas=
+ter by swiping. -- QuickPath typing lets you swipe from one letter to the n=
+ext without lifting your finger." height=3D"523" src=3D"https://images.appl=
+e.com/dm/us/20/c9a3e60/i/swiping_2x.jpg" width=3D"349" border=3D"0" data-dy=
+namic-variable class=3D"m-29" style=3D"display: block;"></td></tr></tbody><=
+/table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"=
+background-color: #f5f5f7; padding-bottom: 14px;"><table width=3D"100%" cel=
+lspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"bac=
+kground-color: #f5f5f7;" role=3D"presentation"><tbody><tr><td align width=
+=3D"349" class=3D"m-22" style=3D"background-color: #ffffff; width: 349px;">=
+<table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"prese=
+ntation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"center" style=
+=3D"text-align: center; vertical-align: top;"><img alt=3D"Find app shortcut=
+s instantly. -- Touch and hold an app icon to bring up shortcuts like showi=
+ng your bookmarks or opening a new tab in=C2=A0Safari." height=3D"530" src=
+=3D"https://images.apple.com/dm/us/20/c9a3e60/i/shortcuts_2x.jpg" width=3D"=
+349" border=3D"0" data-dynamic-variable class=3D"m-29" style=3D"display: bl=
+ock;"></td></tr></tbody></table></td><td align width=3D"14" class=3D"m-22" =
+style=3D"background-color: #f5f5f7; width: 14px;"><table align border=3D"0"=
+ cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"14" cla=
+ss=3D"m-22"><tbody><tr><td><table align=3D"left" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"14px"><tbody><tr><t=
+d height=3D"0" width=3D"14" style=3D"height: 0px; width: 14px; font-size: 0=
+px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n width=3D"349" class=3D"m-22" style=3D"background-color: #f5f5f7; width: 3=
+49px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"cent=
+er" style=3D"text-align: center; vertical-align: top;"><img alt=3D"Move the=
+ cursor precisely. -- Touch and hold the Space bar to pick up the cursor, t=
+hen drag it where you want. It will snap in place between words." height=3D=
+"530" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/cursor_2x.jpg" wid=
+th=3D"349" border=3D"0" data-dynamic-variable class=3D"m-29" style=3D"displ=
+ay: block;"></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td a=
+lign width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><=
+tbody><tr><td align=3D"left" style=3D"padding-bottom: 10px; text-align: lef=
+t; vertical-align: top;"><img alt=3D"Select multiple items in a list at onc=
+e. -- To quickly select multiple email messages, files, and folders, touch=
+=C2=A0and=C2=A0hold with two fingers and=C2=A0drag=C2=A0across=C2=A0items."=
+ height=3D"360" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/select_2=
+x.jpg" width=3D"712" border=3D"0" data-dynamic-variable class=3D"m-30" styl=
+e=3D"display: block;"></td></tr></tbody></table></td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr><tr class=3D"m-6"><td align=3D"center" c=
+lass=3D"m-2" style=3D"background-color: #ffffff; padding-right: 12px; paddi=
+ng-left: 12px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ali=
+gn=3D"center" role=3D"presentation" width=3D"712" style=3D"width: 712px;"><=
+tbody><tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr>=
+<td align width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-=
+22"><tbody><tr><td style=3D"padding: 98px 100px 50px; text-align: center;">=
+<h3 class=3D"m-51" style=3D"font-size: 32px; letter-spacing: 0.004em; line-=
+height: 36px; color: #1d1d1f;">Entertain yourself with shows,=C2=A0games, m=
+usic, and books.</h3></td></tr><tr><td align=3D"left" style><a href=3D"http=
+s://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%=
+2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9=
+w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6m0l8L9v" style=3D"display: inline=
+-block; color: #0066cc;"><img alt=3D"Get 1 year of Apple TV+ free. 90 days =
+to sign up. -- Your new iPhone comes with one free year of critically accla=
+imed Apple Originals.(2) For=C2=A0access, tap (Apple TV icon), then tap (Ap=
+ple TV+ icon)=C2=A0within 90 days. | Watch now" height=3D"402" src=3D"https=
+://images.apple.com/dm/us/20/c9a3e60/i/apple_tv_plus_tile_2x.jpg" width=3D"=
+712" border=3D"0" data-dynamic-variable class=3D"m-30" style=3D"vertical-al=
+ign: top; display: inline-block;"></a></td></tr></tbody></table></td></tr><=
+/tbody></table></td></tr><tr class=3D"m-21"><td style=3D"background-color: =
+#ffffff; padding-top: 57px; padding-bottom: 34px;"><table width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"ba=
+ckground-color: #ffffff;" role=3D"presentation"><tbody><tr><td align width=
+=3D"356" class=3D"m-22" style=3D"width: 356px;"><table align border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"356" clas=
+s=3D"m-22"><tbody><tr><td align=3D"left" style><a href=3D"https://c.apple.c=
+om/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6x=
+C%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFW=
+PfikAI5L%2B8Dj3Kqfua&ct=3Dac6J0I7T9C" style=3D"display: inline-block; color=
+: #0066cc;"><img alt=3D"Play Apple Arcade free. -- Go to (Apple Arcade icon=
+)=C2=A0in the App Store to start your free trial.(3) You=E2=80=99ll have ac=
+cess to 100+ ad-free games with no in-app purchases. | Try Apple Arcade fre=
+e" height=3D"717" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/arcade=
+_tile_2x.jpg" width=3D"356" border=3D"0" data-dynamic-variable class=3D"m-3=
+0" style=3D"vertical-align: top; display: inline-block;"></a></td></tr></tb=
+ody></table></td><td align valign=3D"top" width=3D"356" class=3D"m-22" styl=
+e=3D"vertical-align: top; width: 356px;"><table align border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"356" class=3D"m-=
+22"><tbody><tr><td align=3D"left" style><a href=3D"https://c.apple.com/r?v=
+=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVd=
+Jrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw=
+7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnE=
+ZBNyrxo&ct=3Dac6m9d1q2h" style=3D"display: inline-block; color: #0066cc;"><=
+img alt=3D"Listen to Apple Music free. -- Lose yourself in 70 million songs=
+. Download your favorites to play offline.=C2=A0Sing along with lyrics view=
+. Tap (Apple Music icon) to try it free.(4) | Try Apple Music free" height=
+=3D"717" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/music_tile_2x.j=
+pg" width=3D"356" border=3D"0" data-dynamic-variable class=3D"m-30" style=
+=3D"vertical-align: top; display: inline-block;"></a></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td><table width=
+=3D"712" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" =
+style=3D"background-color: #ffffff;" role=3D"presentation"><tbody><tr><td a=
+lign width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><=
+tbody><tr><td align=3D"left" style=3D"padding-top: 25px;"><a href=3D"https:=
+//c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2F=
+dwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1=
+egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R3i4i3C" style=3D"display: inline-b=
+lock; color: #0066cc;"><img alt=3D"Apple Books. Find your next must-read. -=
+- Browse the Book Store to find reviews, lists curated by Apple=C2=A0Books =
+editors, and=C2=A0even personalized recommendations. | Discover books in th=
+e Apple Books app" height=3D"346" src=3D"https://images.apple.com/dm/us/20/=
+c9a3e60/i/apple_books_tile_2x.jpg" width=3D"712" border=3D"0" data-dynamic-=
+variable class=3D"m-30" style=3D"vertical-align: top; display: inline-block=
+;"></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr><tr class=3D"m-6"><td align=3D"center" class=3D"m-42" s=
+tyle=3D"background-color: #000000; padding-right: 12px; padding-left: 12px;=
+"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" =
+role=3D"presentation" width=3D"712" style=3D"width: 712px;"><tbody><tr clas=
+s=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" bo=
+rder=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align widt=
+h=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellp=
+adding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr=
+><td style=3D"padding-top: 96px; padding-bottom: 53px; text-align: center;"=
+><h3 class=3D"m-51" style=3D"font-size: 32px; letter-spacing: 0.004em; line=
+-height: 36px; color: #f5f5f7;">Essential features that <br> make every  da=
+y easier.</h3></td></tr></tbody></table></td></tr></tbody></table></td></tr=
+><tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td a=
+lign valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color:=
+ #161617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 353=
+px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"=
+presentation" width=3D"353" class=3D"m-22" style=3D"text-align: left;"><tbo=
+dy><tr><td align=3D"center" style=3D"padding-top: 16px; padding-left: 0px; =
+text-align: center; vertical-align: bottom;"><img alt=3D"Track usage with S=
+creen Time. -- In=E2=80=89Settings, tap Screen Time to set time limits=C2=
+=A0for specific apps and websites, or to=C2=A0see=C2=A0daily or weekly repo=
+rts on how you=E2=80=99re=C2=A0spending your time." height=3D"479" src=3D"h=
+ttps://images.apple.com/dm/us/20/c9a3e60/i/screen_time_2x.jpg" width=3D"353=
+" border=3D"0" data-dynamic-variable class=3D"m-29" style=3D"display: block=
+;"></td></tr></tbody></table></td><td align valign=3D"top" width=3D"5" clas=
+s=3D"m-22" style=3D"vertical-align: top; width: 5px;"><table align border=
+=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"5=
+" class=3D"m-22" style=3D"text-align: left;"><tbody><tr><td><table align=3D=
+"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentatio=
+n" width=3D"5"><tbody><tr><td height=3D"0" width=3D"5" style=3D"height: 0px=
+; width: 5px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color: #1=
+61617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 353px;=
+"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"353" class=3D"m-22" style=3D"text-align: center;"><tbod=
+y><tr><td align=3D"center" style=3D"padding-top: 16px; text-align: center; =
+vertical-align: bottom;"><img alt=3D"Drive without distractions. -- To sile=
+nce calls and notifications=C2=A0while you drive, go to Settings > Do Not D=
+isturb, scroll down to Do Not Disturb While Driving, and tap Activate. Then=
+ set it to turn on when you=C2=A0want." height=3D"479" src=3D"https://image=
+s.apple.com/dm/us/20/c9a3e60/i/drive_2x.jpg" width=3D"353" border=3D"0" dat=
+a-dynamic-variable class=3D"m-29" style=3D"display: block;"></td></tr></tbo=
+dy></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=
+=3D"padding-top: 5px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td a=
+lign valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color:=
+ #161617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 353=
+px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"=
+presentation" width=3D"353" class=3D"m-22" style=3D"text-align: left;"><tbo=
+dy><tr><td align=3D"center" style=3D"padding-top: 16px; padding-left: 0px; =
+text-align: center; vertical-align: bottom;"><img alt=3D"SOS -- Set up emer=
+gency contact info. -- Open the Health app, then tap your profile=C2=A0pict=
+ure in the top right. Tap Medical=C2=A0ID, then tap Get Started. Turn=C2=A0=
+on=C2=A0Show When Locked to give emergency access to medical info like cond=
+itions=C2=A0or=C2=A0allergies." height=3D"535" src=3D"https://images.apple.=
+com/dm/us/20/c9a3e60/i/contact_info_2x.jpg" width=3D"353" border=3D"0" data=
+-dynamic-variable class=3D"m-29" style=3D"display: block;"></td></tr></tbod=
+y></table></td><td align valign=3D"top" width=3D"5" class=3D"m-22" style=3D=
+"vertical-align: top; width: 5px;"><table align border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" role=3D"presentation" width=3D"5" class=3D"m-22" styl=
+e=3D"text-align: left;"><tbody><tr><td><table align=3D"left" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"5"><tbody=
+><tr><td height=3D"0" width=3D"5" style=3D"height: 0px; width: 5px; font-si=
+ze: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color: #1=
+61617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 353px;=
+"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"353" class=3D"m-22" style=3D"text-align: center;"><tbod=
+y><tr><td align=3D"center" style=3D"padding-top: 16px; text-align: center; =
+vertical-align: bottom;"><img alt=3D"Hide ads in Safari Reader. -- In the S=
+afari app, tap (Reader icon) at the left end=C2=A0of=C2=A0the=C2=A0address =
+field, then tap Show=C2=A0Reader=C2=A0View to see a page without=C2=A0ads, =
+navigation, or other=C2=A0distractions." height=3D"535" src=3D"https://imag=
+es.apple.com/dm/us/20/c9a3e60/i/safari_2x.jpg" width=3D"353" border=3D"0" d=
+ata-dynamic-variable class=3D"m-29" style=3D"display: block;"></td></tr></t=
+body></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td sty=
+le=3D"padding-top: 5px;"><table width=3D"100%" cellspacing=3D"0" cellpaddin=
+g=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td =
+align valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color=
+: #161617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 35=
+3px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D=
+"presentation" width=3D"353" class=3D"m-22" style=3D"text-align: left;"><tb=
+ody><tr><td align=3D"center" style=3D"padding-top: 16px; padding-left: 0px;=
+ text-align: center; vertical-align: bottom;"><img alt=3D"Send unknown call=
+ers straight to voicemail. -- In Settings, tap Phone and turn on Silence=C2=
+=A0Unknown Callers. Calls from numbers=C2=A0in Contacts, Mail, and Messages=
+=C2=A0will=C2=A0ring through, but all other=C2=A0calls=C2=A0will go to voic=
+email." height=3D"579" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/v=
+oicemail_2x.jpg" width=3D"353" border=3D"0" data-dynamic-variable class=3D"=
+m-29" style=3D"display: block;"></td></tr></tbody></table></td><td align va=
+lign=3D"top" width=3D"5" class=3D"m-22" style=3D"vertical-align: top; width=
+: 5px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"5" class=3D"m-22" style=3D"text-align: left;"><t=
+body><tr><td><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" role=3D"presentation" width=3D"5"><tbody><tr><td height=3D"0" widt=
+h=3D"5" style=3D"height: 0px; width: 5px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n valign=3D"top" width=3D"353" class=3D"m-22" style=3D"background-color: #1=
+61617; box-shadow: #161617 0px -1px 0px; vertical-align: top; width: 353px;=
+"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"pre=
+sentation" width=3D"353" class=3D"m-22" style=3D"text-align: center;"><tbod=
+y><tr><td align=3D"center" style=3D"padding-top: 16px; text-align: center; =
+vertical-align: bottom;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfT=
+hNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbc=
+ZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac=
+6m3c8V5C" style=3D"display: inline-block; color: #2997ff;"><img alt=3D"Turn=
+ on accessibility features. -- Go to Settings > Accessibility to turn on or=
+=C2=A0off accessibility features like Zoom, VoiceOver, and Voice Control. |=
+ Learn more about accessibility" height=3D"579" src=3D"https://images.apple=
+.com/dm/us/20/c9a3e60/i/accessibility_2x.jpg" width=3D"353" border=3D"0" da=
+ta-dynamic-variable class=3D"m-29" style=3D"vertical-align: bottom; display=
+: inline-block;"></a></td></tr></tbody></table></td></tr></tbody></table></=
+td></tr><tr class=3D"m-21"><td style=3D"padding-top: 40px; padding-bottom: =
+98px;"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" border=3D"=
+0" align=3D"center" role=3D"presentation"><tbody><tr><td align width=3D"100=
+%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td a=
+lign=3D"left" style=3D"text-align: left; vertical-align: top;"><a href=3D"h=
+ttps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwP=
+ue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU=
+7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6J4q2e5k" style=3D"display: inl=
+ine-block; color: #2997ff;"><img alt=3D"See your world in new ways with AR =
+apps. | Discover incredible =E2=80=94 and incredibly useful =E2=80=94 AR ap=
+ps designed to take advantage of the new LiDAR Scanner and=C2=A0powerful A1=
+4 Bionic chip. | Explore curated AR apps" height=3D"406" src=3D"https://ima=
+ges.apple.com/dm/us/20/c9a3e60/i/ar_apps_tile_2x.jpg" width=3D"712" border=
+=3D"0" data-dynamic-variable class=3D"m-30" style=3D"vertical-align: top; d=
+isplay: inline-block;"></a></td></tr></tbody></table></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr><tr class=3D"m-6"><td align=3D"cent=
+er" class=3D"m-2" style=3D"background-color: #f5f5f7; padding: 107px 12px 7=
+px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cente=
+r" role=3D"presentation" width=3D"712" style=3D"width: 712px;"><tbody><tr c=
+lass=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0"=
+ border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align w=
+idth=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody>=
+<tr><td align=3D"center" style=3D"padding-bottom: 17px; text-align: center;=
+ vertical-align: top;"><img height=3D"69" src=3D"https://images.apple.com/d=
+m/us/20/c9a3e60/i/icon_icloud_2x.png" width=3D"69" border=3D"0" data-dynami=
+c-variable class=3D"m-29" style=3D"display: block;" alt=3D" "></td></tr><tr=
+><td style=3D"text-align: center;"><h3 class=3D"m-51" style=3D"font-size: 3=
+2px; letter-spacing: 0.004em; line-height: 36px; color: #1d1d1f;">Keep all =
+your stuff safe<br> and up to date with iCloud.</h3></td></tr><tr><td class=
+=3D"m-23" style=3D"text-align: center; padding: 18px 80px 53px; margin: 0px=
+;"><p class=3D"m-32" style=3D"margin: 0px auto; color: #1d1d1f;">iCloud is =
+built into your new iPhone.=C2=A0So all your photos, files, notes, and=C2=
+=A0more are safe, up to date,=C2=A0and available wherever you are. And it a=
+ll=C2=A0works automatically. You get 5GB of free iCloud storage to start, a=
+nd=C2=A0it=E2=80=99s easy to add more at=C2=A0any=C2=A0time.</p></td></tr><=
+/tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td s=
+tyle=3D"background-color: #f5f5f7; padding-bottom: 14px;"><table width=3D"1=
+00%" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" styl=
+e=3D"background-color: #f5f5f7;" role=3D"presentation"><tbody><tr><td align=
+ width=3D"349" class=3D"m-22" style=3D"background-color: #ffffff; width: 34=
+9px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D=
+"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"left" s=
+tyle><img alt=3D"Find My -- If you ever misplace your iPhone or other Apple=
+ devices, the Find My app shows you=C2=A0where they are on a map or pings t=
+hem=C2=A0if=C2=A0they=E2=80=99re nearby. To enable it, go to Settings > [yo=
+ur name] > Find=C2=A0My." height=3D"275" src=3D"https://images.apple.com/dm=
+/us/20/c9a3e60/i/find_my_tile_2x.jpg" width=3D"349" border=3D"0" data-dynam=
+ic-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></ta=
+ble></td><td align width=3D"14" class=3D"m-22" style=3D"background-color: #=
+f5f5f7; width: 14px;"><table align border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" role=3D"presentation" width=3D"14" class=3D"m-22"><tbody><tr><td><=
+table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"14px"><tbody><tr><td height=3D"0" width=3D"14" s=
+tyle=3D"height: 0px; width: 14px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n width=3D"349" class=3D"m-22" style=3D"background-color: #ffffff; width: 3=
+49px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"left=
+" style><img alt=3D"iCloud Backup -- For automatic daily backups of your iP=
+hone,=C2=A0go to Settings > [your name] > iCloud, then turn on iCloud Backu=
+p. These=C2=A0backups also make it easy to transfer=C2=A0all your stuff to =
+your=C2=A0next=C2=A0iPhone." height=3D"275" src=3D"https://images.apple.com=
+/dm/us/20/c9a3e60/i/backup_tile_2x.jpg" width=3D"349" border=3D"0" data-dyn=
+amic-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></=
+table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td style=3D"b=
+ackground-color: #f5f5f7; padding-bottom: 14px;"><table width=3D"100%" cell=
+spacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" style=3D"back=
+ground-color: #f5f5f7;" role=3D"presentation"><tbody><tr><td align width=3D=
+"349" class=3D"m-22" style=3D"background-color: #ffffff; width: 349px;"><ta=
+ble align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presenta=
+tion" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"left" style><img=
+ alt=3D"iCloud Photos -- With iCloud Photos, you can browse, search,=C2=A0a=
+nd share your complete photo library=C2=A0from your iPhone or any of your d=
+evices. Go to Settings > [your name] > iCloud=C2=A0>=C2=A0Photos, then turn=
+ on iCloud=C2=A0Photos." height=3D"275" src=3D"https://images.apple.com/dm/=
+us/20/c9a3e60/i/photos_tile_2x.jpg" width=3D"349" border=3D"0" data-dynamic=
+-variable class=3D"m-30" style=3D"display: block;"></td></tr></tbody></tabl=
+e></td><td align width=3D"14" class=3D"m-22" style=3D"background-color: #f5=
+f5f7; width: 14px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"14" class=3D"m-22"><tbody><tr><td><ta=
+ble align=3D"left" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D=
+"presentation" width=3D"14px"><tbody><tr><td height=3D"0" width=3D"14" styl=
+e=3D"height: 0px; width: 14px; font-size: 0px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td><td alig=
+n width=3D"349" class=3D"m-22" style=3D"background-color: #ffffff; width: 3=
+49px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=
+=3D"presentation" width=3D"349" class=3D"m-22"><tbody><tr><td align=3D"left=
+" style><img alt=3D"Files -- The Files app lets you browse, search, and=C2=
+=A0organize all the files on your devices, in=C2=A0apps, in iCloud Drive, a=
+nd across other cloud services. Tap the Files app on the Home=C2=A0Screen t=
+o get started." height=3D"275" src=3D"https://images.apple.com/dm/us/20/c9a=
+3e60/i/files_tile_2x.jpg" width=3D"349" border=3D"0" data-dynamic-variable =
+class=3D"m-30" style=3D"display: block;"></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr><tr class=3D"m-21"><td><table width=3D"100%" ce=
+llspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"pre=
+sentation"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table align =
+border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" widt=
+h=3D"100%" class=3D"m-22"><!----></table></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr><tr class=3D"m-6"><td align=3D"center" class=3D=
+"m-2" style=3D"background-color: #ffffff; padding-right: 12px; padding-left=
+: 12px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"c=
+enter" role=3D"presentation" width=3D"712" style=3D"width: 712px;"><tbody><=
+tr class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=
+=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td a=
+lign width=3D"100%" class=3D"m-22"><table align border=3D"0" cellspacing=3D=
+"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><=
+tbody><tr><td><table align=3D"left" border=3D"0" cellspacing=3D"0" cellpadd=
+ing=3D"0" role=3D"presentation"><tbody><tr><td height=3D"60" width=3D"0" st=
+yle=3D"height: 60px; width: 0px; font-size: 0px; line-height: 60px;">
+            =C2=A0
+          </td></tr></tbody></table></td></tr></tbody></table></td></tr></t=
+body></table></td></tr><tr class=3D"m-21"><td><table width=3D"100%" cellspa=
+cing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presenta=
+tion"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table align borde=
+r=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"=
+100%" class=3D"m-22"><tbody><tr><td align=3D"left" style><a href=3D"https:/=
+/c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12x=
+bGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5If=
+vr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03=
+fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6m3d3j4M" style=3D"display: inline-block; co=
+lor: #0066cc;"><img alt=3D"Accessories that take your iPhone to the next le=
+vel. | From new MagSafe cases, wallets, and wireless chargers to AirPods, H=
+omePod mini, and more, the perfect accessories are right here. | Shop all i=
+Phone accessories" height=3D"526" src=3D"https://images.apple.com/dm/us/20/=
+c9a3e60/i/accessories_tile_2x.jpg" width=3D"712" border=3D"0" data-dynamic-=
+variable class=3D"m-30" style=3D"vertical-align: top; display: inline-block=
+;"></a></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbod=
+y></table></td></tr><tr class=3D"m-6"><td align=3D"center" class=3D"m-2" st=
+yle=3D"background-color: #ffffff; padding: 96px 12px 4px;"><table cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center" role=3D"presentati=
+on" width=3D"712"><tbody><tr><td align=3D"center" style=3D"text-align: cent=
+er; vertical-align: top;"><img alt=3D"AppleCare+" height=3D"69" src=3D"http=
+s://images.apple.com/dm/us/20/c9a3e60/i/icon_apple_care_2x.png" width=3D"69=
+" border=3D"0" data-dynamic-variable class=3D"m-29" style=3D"display: block=
+;"></td></tr><tr><td style=3D"padding-top: 22px; text-align: center;"><h3 c=
+lass=3D"m-51" style=3D"font-size: 32px; letter-spacing: 0.004em; line-heigh=
+t: 36px; color: #1d1d1f;">A little extra peace of mind.</h3></td></tr><tr><=
+td class=3D"m-23" style=3D"text-align: center; padding: 13px 70px 0px; marg=
+in: 0px;"><p class=3D"m-32" style=3D"margin: 0px auto; color: #1d1d1f;">Buy=
+ AppleCare+ coverage within the first 60 days of purchasing your new=C2=A0i=
+Phone and get 24/7 priority tech support and hardware coverage=C2=A0includi=
+ng accidental damage protection. You even have the=C2=A0option to get theft=
+ and loss coverage.<sup>5</sup></p></td></tr><tr><td class=3D"m-23" style=
+=3D"text-align: center; padding: 27px 70px 44px; margin: 0px;"><p class=3D"=
+m-32" style=3D"margin: 0px auto; color: #1d1d1f;">To learn more, call <span=
+ class=3D"m-3">1-800-275-2273</span>, <a href=3D"https://c.apple.com/r?v=3D=
+2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn=
+23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fS=
+wkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBN=
+yrxo&ct=3Dac6J2n4a6Y" style=3D"color:#0066cc;">visit=C2=A0the=C2=A0AppleCar=
+e+=C2=A0page</a>,<br> or on your device go to Settings > General > About an=
+d choose AppleCare+ Coverage Available.</p></td></tr></tbody></table></td><=
+/tr><tr class=3D"m-6"><td align=3D"center" class=3D"m-2" style=3D"backgroun=
+d-color: #ffffff; padding-right: 12px; padding-bottom: 58px; padding-left: =
+12px;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" align=3D"cen=
+ter" role=3D"presentation" width=3D"660" style=3D"width: 660px;"><tbody><tr=
+ class=3D"m-21"><td><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"=
+0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><td align=
+ valign=3D"top" width=3D"210" class=3D"m-22" style=3D"vertical-align: top; =
+width: 210px;"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0=
+" role=3D"presentation" width=3D"210" class=3D"m-22"><tbody><tr><td align=
+=3D"center" style=3D"text-align: center;"><img height=3D"42" src=3D"https:/=
+/images.apple.com/dm/us/20/c9a3e60/i/icon_user_guide_2x.png" width=3D"30" b=
+order=3D"0" data-dynamic-variable class=3D"m-29" style=3D"display: block;" =
+alt=3D" "></td></tr><tr><td style=3D"padding-top: 10px; text-align: center;=
+"><h6 class=3D"m-55" style=3D"font-size: 19px; letter-spacing: 0.012em; lin=
+e-height: 23px; color: #1d1d1f;">iPhone User Guide</h6></td></tr><tr><td cl=
+ass=3D"m-23" style=3D"text-align: center; padding: 6px 25px 0px; margin: 0p=
+x;"><p class=3D"m-32" style=3D"font-size: 14px; line-height: 20px; margin: =
+0px auto; color: #1d1d1f;">To learn everything there is to know=C2=A0about =
+iPhone=C2=A012=C2=A0Pro, download the iPhone=C2=A0User=C2=A0Guide.</p></td>=
+</tr><tr><td class=3D"m-29" style=3D"padding-top: 12px; text-align: center;=
+ font-size: 14px; line-height: 20px;"><a href=3D"https://c.apple.com/r?v=3D=
+2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvr=
+GR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%=
+2B8Dj3Kqfua&ct=3Dac6R8V3E4Y" class=3D"m-7 m-32" style=3D"font-size: 14px; l=
+ine-height: 20px; color: #0066cc;">Download the User <span style=3D"white-s=
+pace:nowrap;">Guide<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/=
+14_chevron_0066cc_2x.png" width=3D"12" height=3D"8" border=3D"0" style=3D"f=
+ont-size: 0; display:inline; margin:0;" alt=3D" "></span></a></td></tr></tb=
+ody></table></td><td align valign=3D"top" width=3D"234" class=3D"m-22" styl=
+e=3D"vertical-align: top; width: 234px;"><table align border=3D"0" cellspac=
+ing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"234" class=3D"m-=
+22"><tbody><tr><td align=3D"center" style=3D"text-align: center;"><img heig=
+ht=3D"42" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/icon_apple_sup=
+port_2x.png" width=3D"39" border=3D"0" data-dynamic-variable class=3D"m-29"=
+ style=3D"display: block;" alt=3D" "></td></tr><tr><td style=3D"padding-top=
+: 10px; text-align: center;"><h6 class=3D"m-55" style=3D"font-size: 19px; l=
+etter-spacing: 0.012em; line-height: 23px; color: #1d1d1f;">Apple Support</=
+h6></td></tr><tr><td class=3D"m-23" style=3D"text-align: center; padding: 6=
+px 0px 0px; margin: 0px;"><p class=3D"m-32" style=3D"font-size: 14px; line-=
+height: 20px; margin: 0px auto; color: #1d1d1f;">Find quick answers at <a h=
+ref=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtb=
+RYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17q=
+YQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWx=
+Q%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6m0i5m1N" style=3D"color: #006=
+6cc;">support.apple.com</a>. Use the Apple=C2=A0Support app to chat, email,=
+=C2=A0or=C2=A0call us with questions.=C2=A0Or=C2=A0visit us on YouTube=C2=
+=A0or=C2=A0Twitter.</p></td></tr><tr><td class=3D"m-29" style=3D"padding-to=
+p: 12px; text-align: center; font-size: 14px; line-height: 20px;"><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5=
+v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FT=
+B5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R5a3Q2P" class=3D"m-7 m-3=
+2" style=3D"font-size: 14px; line-height: 20px; color: #0066cc;">Open the <=
+span style=3D"white-space:nowrap;">Apple Support <span style=3D"white-space=
+:nowrap;">app</span><img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i=
+/14_chevron_0066cc_2x.png" width=3D"12" height=3D"8" border=3D"0" style=3D"=
+font-size: 0; display:inline; margin:0;" alt=3D" "></span></a></td></tr><tr=
+><td class=3D"m-29" style=3D"padding-top: 12px; text-align: center; font-si=
+ze: 14px; line-height: 20px;"><a href=3D"https://c.apple.com/r?v=3D2&la=3De=
+n&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i=
+%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kq=
+fua&ct=3Dac6J3d4n8h" class=3D"m-7 m-32" style=3D"font-size: 14px; line-heig=
+ht: 20px; color: #0066cc;">Visit Apple Support on <span style=3D"white-spac=
+e:nowrap;">YouTube<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/1=
+4_chevron_0066cc_2x.png" width=3D"12" height=3D"8" border=3D"0" style=3D"fo=
+nt-size: 0; display:inline; margin:0;" alt=3D" "></span></a></td></tr><tr><=
+td class=3D"m-29" style=3D"padding-top: 10px; text-align: center; font-size=
+: 14px; line-height: 20px;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&=
+lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2=
+F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfu=
+a&ct=3Dac6R7a6Q8P" class=3D"m-7 m-32" style=3D"font-size: 14px; line-height=
+: 20px; color: #0066cc;">Visit Apple Support on <span style=3D"white-space:=
+nowrap;">Twitter<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/14_=
+chevron_0066cc_2x.png" width=3D"12" height=3D"8" border=3D"0" style=3D"font=
+-size: 0; display:inline; margin:0;" alt=3D" "></span></a></td></tr></tbody=
+></table></td><td align valign=3D"top" width=3D"216" class=3D"m-22" style=
+=3D"vertical-align: top; width: 216px;"><table align border=3D"0" cellspaci=
+ng=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"216" class=3D"m-2=
+2"><tbody><tr><td align=3D"center" style=3D"text-align: center;"><img heigh=
+t=3D"42" src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/icon_tips_2x.pn=
+g" width=3D"27" border=3D"0" data-dynamic-variable class=3D"m-29" style=3D"=
+display: block;" alt=3D" "></td></tr><tr><td style=3D"padding-top: 10px; te=
+xt-align: center;"><h6 class=3D"m-55" style=3D"font-size: 19px; letter-spac=
+ing: 0.012em; line-height: 23px; color: #1d1d1f;">Tips and Tricks</h6></td>=
+</tr><tr><td class=3D"m-23" style=3D"text-align: center; padding: 6px 0px 0=
+px; margin: 0px;"><p class=3D"m-32" style=3D"font-size: 14px; line-height: =
+20px; margin: 0px auto; color: #1d1d1f;">The Tips app is full of animated=
+=C2=A0demos and useful information about your=C2=A0new iPhone=C2=A012 Pro a=
+nd its <span style=3D"white-space:nowrap;">built-in apps.</span></p></td></=
+tr><tr><td class=3D"m-29" style=3D"padding-top: 12px; text-align: center; f=
+ont-size: 14px; line-height: 20px;"><a href=3D"https://c.apple.com/r?v=3D2&=
+la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR=
+0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B=
+8Dj3Kqfua&ct=3Dac6R0n9R6P" class=3D"m-7 m-32" style=3D"font-size: 14px; lin=
+e-height: 20px; color: #0066cc;">Open the Tips <span style=3D"white-space:n=
+owrap;">app<img src=3D"https://images.apple.com/dm/us/20/c9a3e60/i/14_chevr=
+on_0066cc_2x.png" width=3D"12" height=3D"8" border=3D"0" style=3D"font-size=
+: 0; display:inline; margin:0;" alt=3D" "></span></a></td></tr></tbody></ta=
+ble></td></tr></tbody></table></td></tr></tbody></table></td></tr><tr class=
+=3D"m-6 m-41"><td align=3D"center" class=3D"m-2 m-35" style=3D"background-c=
+olor: #f5f5f7;"><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ali=
+gn=3D"center" role=3D"presentation" width=3D"712" style=3D"width: 712px;"><=
+tbody><tr class=3D"m-21"><td><table width=3D"660" cellspacing=3D"0" cellpad=
+ding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr><=
+td style=3D"padding-top: 7px; padding-bottom: 16px;"><table align=3D"center=
+" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" wi=
+dth=3D"660"><tbody><tr><td align width=3D"100%" class=3D"m-22"><table align=
+ border=3D"0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" wid=
+th=3D"100%" class=3D"m-22"><tbody><tr><td class=3D"m-23" style=3D"color: #5=
+15154; text-align: center; padding: 8px 0px 0px; margin: 0px;"><p class=3D"=
+m-32" style=3D"color: #515154; font-size: 14px; line-height: 18px; margin: =
+0px auto;"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2=
+Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPH=
+YFkwTHDbiLyK17qYQw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHC=
+ISRH4MGdpDdjuWxQ%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6J4I4X4N" data-=
+footer-eyebrow=3D"eyebrow" style=3D"border: 0px; outline: 0px; text-decorat=
+ion: none; color: #515154;">Shop Online</a>=C2=A0=C2=A0=C2=A0=C2=A0<span cl=
+ass=3D"m-45" style=3D"color: #D2D2D7">|</span>=C2=A0=C2=A0=C2=A0=C2=A0<a hr=
+ef=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbR=
+YNxEJqOcwA12xbGoofYjHA7%2FoVdJrn23bqnk%2BqfThNVw%2BtOghQJPHYFkwTHDbiLyK17qY=
+Qw4XB0JrGH5Ifvr6XpTGmYvOTUGLw7fSwkJ6sPfJmQbcZiRzOw4USaYNBHCISRH4MGdpDdjuWxQ=
+%2F%2Fa9Z7O03fCPPp%2FUvduQnnEZBNyrxo&ct=3Dac6J4l5R5T" data-footer-eyebrow=
+=3D"eyebrow" style=3D"border: 0px; outline: 0px; text-decoration: none; col=
+or: #515154;">Find a Store</a>=C2=A0=C2=A0=C2=A0=C2=A0<span class=3D"m-45" =
+style=3D"color: #D2D2D7
+                        ">|</span>=C2=A0=C2=A0=C2=A0=C2=A0<a data-footer-ey=
+ebrow=3D"eyebrow" data-cid-disabled=3D"true" class=3D"m-4 m-32" style=3D"fo=
+nt-size: 14px; line-height: 18px; white-space: nowrap; color: #515154;">1-8=
+00-MY-APPLE</a>=C2=A0=C2=A0=C2=A0=C2=A0<span class=3D"m-45" style=3D"color:=
+ #D2D2D7">|</span>=C2=A0=C2=A0=C2=A0 <a href=3D"https://c.apple.com/r?v=3D2=
+&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrG=
+R0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2=
+B8Dj3Kqfua&ct=3Dac6m1w4k2v" data-footer-eyebrow=3D"eyebrow-last" style=3D"b=
+order: 0px; outline: 0px; text-decoration: none; color: #515154;">Get=C2=A0=
+the=C2=A0Apple=C2=A0Store=C2=A0App</a></p></td></tr></tbody></table></td></=
+tr></tbody></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><=
+td><table width=3D"660" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" al=
+ign=3D"center" role=3D"presentation"><tbody><tr><td style=3D"padding-bottom=
+: 17px;"><table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"660"><tbody><tr><td align width=3D"10=
+0%" class=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" role=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td c=
+lass=3D"m-43" style=3D"border-top-width: 1px; border-color: #d2d2d7; width:=
+ 660px;"><table cellspacing=3D"0" cellpadding=3D"0" border=3D"0" role=3D"pr=
+esentation"><tbody><tr><td width=3D"660" valign=3D"top" align=3D"center" cl=
+ass=3D"m-43" style=3D"border-color: #d2d2d7; border-top-style: solid; borde=
+r-top-width: 1px; font-size: 0px; line-height: 0; width: 660px; margin: 0px=
+ auto;"></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbo=
+dy></table></td></tr></tbody></table></td></tr><tr class=3D"m-21"><td><tabl=
+e width=3D"660" cellspacing=3D"0" cellpadding=3D"0" border=3D"0" align=3D"c=
+enter" role=3D"presentation"><tbody><tr><td style=3D"padding-bottom: 9px;">=
+<table align=3D"center" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" ro=
+le=3D"presentation" width=3D"660"><tbody><tr><td align width=3D"100%" class=
+=3D"m-22"><table align border=3D"0" cellspacing=3D"0" cellpadding=3D"0" rol=
+e=3D"presentation" width=3D"100%" class=3D"m-22"><tbody><tr><td class=3D"m-=
+23" style=3D"color: #86868b; text-align: left; padding: 0px; margin: 0px;">=
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 0px=
+ auto 0px 0px; padding: 0px;"><span>1.</span> Data plan required. 5G is ava=
+ilable in select markets and through select carriers. Speeds vary by site c=
+onditions and carrier. For details on 5G support, contact your carrier and =
+see <a href=3D"https://www.apple.com/iphone/cellular/" style=3D"color: #515=
+154;">apple.com/iphone/cellular</a>.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;"><span>2.</span> $4.99/month after free trial.=
+ One subscription per Family Sharing group. Offer good for 3 months after e=
+ligible device activation. Plan automatically renews until cancelled. Restr=
+ictions and other <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4Dc=
+xEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6=
+R6x3c1v" style=3D"color: #515154;">terms</a> apply.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;"><span>3.</span> $4.99/month after free trial.=
+ No commitment. Plan automatically renews after trial until cancelled.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;"><span>4.</span> $9.99/month after free trial.=
+ No commitment. Plan automatically renews after trial until cancelled.</p>
+<p style=3D"color: #86868b; font-size: 12px; line-height: 16px; margin: 9px=
+ auto 0px 0px; padding: 0px;"><span>5.</span> AppleCare+ options include up=
+ to two incidents of accidental damage protection and two incidents of thef=
+t or loss coverage every 12 months. Each incident is subject to a service f=
+ee or deductible.</p>
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr><tr class=3D"m-21"><td><table width=3D"660" cellspacing=3D"0" =
+cellpadding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbod=
+y><tr><td style=3D"padding-bottom: 9px;"><table align=3D"center" border=3D"=
+0" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"660">=
+<tbody><tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0=
+" cellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" =
+class=3D"m-22"><tbody><tr><td class=3D"m-23 m-173" style=3D"color: #86868b;=
+ text-align: left; padding: 0px; margin: 0px;"><p class=3D"m-32" style=3D"c=
+olor: #86868b; font-size: 12px; line-height: 16px; margin: 0px auto 0px 0px=
+;">TM and =C2=A9 2021 Apple Inc. One Apple Park Way, <span class=3D"m-5" st=
+yle=3D"white-space: nowrap">MS 96-DM</span>, Cupertino, CA 95014.</p></td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr><tr class=3D"m-21"><td><table width=3D"660" cellspacing=3D"0" cellpa=
+dding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr>=
+<td style=3D"padding-bottom: 9px;"><table align=3D"center" border=3D"0" cel=
+lspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"660"><tbody=
+><tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" class=
+=3D"m-22"><tbody><tr><td class=3D"m-23" style=3D"color: #86868b; text-align=
+: left; padding: 0px; margin: 0px;"><p class=3D"m-32" style=3D"color: #8686=
+8b; font-size: 12px; line-height: 16px; margin: 0px auto 0px 0px;"><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5=
+v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FT=
+B5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6J6b5P5N" data-footer-lega=
+l=3D"legal" style=3D"border: 0px; outline: 0px; text-decoration: none; colo=
+r: #515154;">All Rights Reserved</a>=C2=A0=C2=A0=C2=A0<span class=3D"m-45" =
+style=3D"color: #D2D2D7;">|</span>=C2=A0=C2=A0=C2=A0<a href=3D"https://c.ap=
+ple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZ=
+VXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdj=
+IjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dac6R1I9t4k" data-footer-legal=3D"legal" styl=
+e=3D"border: 0px; outline: 0px; text-decoration: none; color: #515154;">Pri=
+vacy Policy</a>=C2=A0=C2=A0=C2=A0<span class=3D"m-45" style=3D"color: #D2D2=
+D7;">|</span>=C2=A0=C2=A0=C2=A0<a href=3D"https://c.apple.com/r?v=3D2&la=3D=
+en&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1=
+i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3K=
+qfua&ct=3Dac6m8q3E8M" data-footer-legal=3D"legal" style=3D"border: 0px; out=
+line: 0px; text-decoration: none; color: #515154;">My Apple ID</a></p></td>=
+</tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></=
+td></tr><tr class=3D"m-21"><td><table width=3D"660" cellspacing=3D"0" cellp=
+adding=3D"0" border=3D"0" align=3D"center" role=3D"presentation"><tbody><tr=
+><td style=3D"padding-bottom: 25px;"><table align=3D"center" border=3D"0" c=
+ellspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"660"><tbo=
+dy><tr><td align width=3D"100%" class=3D"m-22"><table align border=3D"0" ce=
+llspacing=3D"0" cellpadding=3D"0" role=3D"presentation" width=3D"100%" clas=
+s=3D"m-22"><tbody><tr><td class=3D"m-23 m-172" style=3D"color: #86868b; tex=
+t-align: left; padding: 0px; margin: 0px;"><p class=3D"m-32" style=3D"color=
+: #86868b; font-size: 12px; line-height: 16px; margin: 0px auto 0px 0px;">I=
+f you prefer not to receive commercial email from Apple, or if you=E2=80=99=
+ve changed your email address, please <a href=3D"https://mynews.apple.com/s=
+ubscriptions?v=3D2&la=3Den_us&a=3DQw4aNQWWDervXPmsuwf4HJbquMbP8HEywyBJX74yQ=
+z6BiDdnmdaRaEY7wIx1EkNuGu07vwguNRIHnRcQKHc4GTGDFSP%2F2U6BKcfeV601a9Q2d2%2Bx=
+%2B1DKjNGKqLW4xLHA%2FHKdCySdvXBlTYKF2VQZ6I17q03anBFRKSr9YysCsPwlHveBOQC85hh=
+89DzzSX%2BkxZEErrafVGU1s6CIh2OZ7osG7ylwplE5ALH88PGJkxQ%3D" style=3D"border:=
+ 0px; outline: 0px; text-decoration: none; color: #515154;">click=C2=A0here=
+</a>.</p></td></tr></tbody></table></td></tr></tbody></table></td></tr></tb=
+ody></table></td></tr></tbody></table></td></tr></tbody></table></td></tr><=
+/tbody></table></div>
+</body></html>
+------=_Part_341112185_393831283.1617879847340--

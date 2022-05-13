@@ -1,0 +1,1800 @@
+Return-Path: <bounce-mc.us15_69679717.440896-ec3cd32a59@mail110.suw91.mcdlv.net>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id jrRbGydLfmJpSAAABSAGJw
+	(envelope-from <bounce-mc.us15_69679717.440896-ec3cd32a59@mail110.suw91.mcdlv.net>)
+	for <avex@avexeva.com>; Fri, 13 May 2022 08:12:23 -0400
+Return-path: <bounce-mc.us15_69679717.440896-ec3cd32a59@mail110.suw91.mcdlv.net>
+Envelope-to: avex@avexeva.com
+Delivery-date: Fri, 13 May 2022 08:12:23 -0400
+Received: from mail110.suw91.mcdlv.net ([198.2.184.110]:29258)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.95)
+	(envelope-from <bounce-mc.us15_69679717.440896-ec3cd32a59@mail110.suw91.mcdlv.net>)
+	id 1npU9d-0004oe-R0
+	for avex@avexeva.com;
+	Fri, 13 May 2022 08:12:23 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=decentraland.org;
+	s=k1; t=1652443900; x=1652746300; i=hello@decentraland.org;
+	bh=bJhnG/7w8cOP8Qz6tsRMwu8Rj0LIHz+SqtsiClLQkWA=;
+	h=Subject:From:Reply-To:To:Date:Message-ID:X-MC-User:Feedback-ID:
+	 List-ID:List-Unsubscribe:List-Unsubscribe-Post:Content-Type:
+	 MIME-Version:CC:Date:Subject:From;
+	b=e+3Ldaq3ubqGi71im6A1obTPd/MxpI1Ymr11Lm7BKB+HJyNZy6fklO6OJ8Wd2At/u
+	 ZKgUB6SjPwZewi9y3VwXkgrt2LzOo3o2ghhIT+kbTSdaxpgE4mEbdkCsRk3Ww37ZDi
+	 nLNpm+UzkivClc/xBDnyKgCmFk2pIKrU1o9159zE=
+Received: from localhost (localhost [127.0.0.1])
+	by mail110.suw91.mcdlv.net (Mailchimp) with ESMTP id 4L06vJ6THmzCfdZRZ
+	for <avex@avexeva.com>; Fri, 13 May 2022 12:11:40 +0000 (GMT)
+Subject: =?utf-8?Q?Decentraland=27s=20Game=20Jam=2C=C2=A0art=20&=20music=2C=20and=20more=E2=80=94this=20week=20in=20Decentraland=21?=
+From: =?utf-8?Q?Decentraland=20Weekly?= <hello@decentraland.org>
+Reply-To: =?utf-8?Q?Decentraland=20Weekly?= <hello@decentraland.org>
+To: <avex@avexeva.com>
+Date: Fri, 13 May 2022 12:11:29 +0000
+Message-ID: <6f74047a4693dbc82dc4f3131.ec3cd32a59.20220513121120.3e13c0f17a.3a8fad2d@mail110.suw91.mcdlv.net>
+X-Mailer: Mailchimp Mailer - **CID3e13c0f17aec3cd32a59**
+X-Campaign: mailchimp6f74047a4693dbc82dc4f3131.3e13c0f17a
+X-campaignid: mailchimp6f74047a4693dbc82dc4f3131.3e13c0f17a
+X-Report-Abuse: Please report abuse for this campaign here: https://mailchimp.com/contact/abuse/?u=6f74047a4693dbc82dc4f3131&id=3e13c0f17a&e=ec3cd32a59
+X-MC-User: 6f74047a4693dbc82dc4f3131
+Feedback-ID: 69679717:69679717.440896:us15:mc
+List-ID: 6f74047a4693dbc82dc4f3131mc list <6f74047a4693dbc82dc4f3131.47735.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <https://decentraland.us15.list-manage.com/unsubscribe?u=6f74047a4693dbc82dc4f3131&id=da075b1985&e=ec3cd32a59&c=3e13c0f17a>, <mailto:unsubscribe-mc.us15_6f74047a4693dbc82dc4f3131.3e13c0f17a-ec3cd32a59@unsubscribe.mailchimpapp.net?subject=unsubscribe>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_892057389"
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Discover what's happening in Decentraland this week ** This
+    week in Decentraland events.decentraland.org Decentraland is home to dozens
+    of community organized events that happen every day. In [...] 
+ Content analysis details:   (0.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: decentraland.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.2 HEADER_FROM_DIFFERENT_DOMAINS From and EnvelopeFrom 2nd level
+                             mail domains are different
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76
+                             chars
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 KAM_SHORT              Use of a URL Shortener for very short URL
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+  0.0 T_KAM_HTML_FONT_INVALID Test for Invalidly Named or Formatted
+                             Colors in HTML
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_892057389
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Discover what's happening in Decentraland this week
+
+
+**
+This week in Decentraland
+------------------------------------------------------------
+events.decentraland.org
+Decentraland is home to dozens of community organized events that happen e=
+very day. In addition to checking out some of the week's biggest events in=
+ this newsletter=2C you can always browse through the Decentraland events=
+ page=2C events.decentraland.org=2C to find out what's going on right now=
+ and in the future.
+
+What will you be doing in the metaverse this week?
+
+
+** News
+------------------------------------------------------------
+Calling all game developers=E2=80=94the 2022 Decentraland Game Jam is here=
+!
+When: May 17 to June 14
+
+After a long break=2C we are incredibly excited to share the news that Dec=
+entraland=E2=80=99s Game Jam is coming back for 2022!
+
+The objective is to produce the most entertaining experience you can code=
+ for Decentraland=E2=80=99s community=2C using the various tools at your d=
+isposal. Entries will be judged based on overall idea=2C game design=2C in=
+teractivity=2C creativity=2C and =E2=80=98wow factor=E2=80=99.
+
+Prizes will include LAND and MANA rewards.
+
+Read more about the game jam=2C rewards=2C and rules on our blog. (https:/=
+/decentraland.org/blog/announcements/the-2022-decentraland-game-jam-is-her=
+e/)
+Looking back at Metaverse Fashion Week
+
+With Decentraland=E2=80=99s next big=2C platform-wide event soon approachi=
+ng (Pride Month!!)=2C we wanted to look back on the fantastic success that=
+ was Metaverse Fashion Week in numbers:
+
+70+   Brands Participated
+25+   Unique Runway Shows
+15+   Expert Panel Talks
+4   Nights of Amazing After Parties
+165k+   Free Minted Wearables Claimed
+$76k+   Spent on Wearables
+108k+   Decentraland Visitors During MVFW
+26k+   First-Time Visitors
+
+The event made fashion history and certainly earned Decentraland=E2=80=99s=
+ place in the annual fashion calendar alongside the likes of New York and=
+ Milan.
+
+Thank you to everyone who took a seat by the catwalk=E2=80=94see you at MV=
+FW 2023!
+
+
+** Events
+------------------------------------------------------------
+
+See 'Meta Spectrum'=2C a female-focused collection from 10 artists=2C pres=
+ented by SuperRare and Art Angels
+When: Friday=2C May 13 at 03:00am UTC to Saturday=2C 14 May at 03:00am UTC
+Where: (56=2C41)
+
+SuperRare and Art Angels proudly present =E2=80=9CMeta Spectrum=2C=E2=80=
+=9D a female-focused digital curation featuring unique works from ten arti=
+sts in a cohesive retrospective. This show will be presented in person at=
+ Art Angels=E2=80=99 Los Angeles gallery and online at SuperRare from May=
+ 12-15.
+
+Art Angels is excited to introduce their very own Stefania Nazzal into the=
+ Metaverse with the release of her genesis NFT artwork=2C titled =E2=80=9C=
+Inception of a Rainbow=2C=E2=80=9D exclusively available on SuperRare. Naz=
+zal=E2=80=99s NFT will be displayed alongside her solo exhibition of physi=
+cal artworks=2C =E2=80=9CAfter the Rain=2C=E2=80=9D featured within a sepa=
+rate space at Art Angels Gallery. Leveraging Nazzal's use of the rainbow a=
+s the thread for our =E2=80=9CMeta Spectrum'' curation=2C Art Angels and S=
+uperRare thoughtfully selected eight female artists from the SR community=
+ to demonstrate their works: Sarah Zucker=2C Ayla El- Moussa=2C Lindsey Pr=
+ice=2C Vidya=2C Erica Reiling=2C Amber Vittoria=2C Joyce N. Ho=2C and Marl=
+o. In addition to this incredible roster=2C Art Angels has also selected A=
+ustralian artist Jessica Ticchio to join the SuperRare community=2C markin=
+g the first adoption of an NFT digitally native artist under the gallery's=
+ umbrella.
+
+https://events.decentraland.org/event/?id=3Db9343bb5-5e6d-4b33-ba5d-898a87=
+02d32a
+
+Get creative in Golfcraft's level building contest
+When: Monday=2C May 9 to Monday=2C May 16
+Where: (48=2C-44)
+
+Decentraland game incubator participant=2C Golfcraft is organizing a level=
+ building contest. That's right! You can create your own Golfcraft courses=
+ with the editor on the 4th floor of the their building=2C and the best de=
+signers will get prizes! You have until May 16 to present your best work.
+https://events.decentraland.org/event/?id=3Db0dd2ed0-da0e-4224-aefe-6789b7=
+056410
+Catch a performance from musician BLK ORCHID at the Rocking Uniquehorns Ba=
+nd Room
+When: Saturday=2C May 14 from 6:00pm to 7:00pm UTC
+Where: (27=2C-118)
+
+Have you been to TRU Band Room yet? It's a music venue in Decentraland for=
+ new and emerging musicians. Since October=2C 2021=2C the Band Room has ho=
+sted more than 120 shows=2C across multiple genres=2C including hip hop=2C=
+ jazz=2C electronic=2C R&B=2C pop=2C and dance.
+
+A reggae-inspired artist based in Toronto Canada=2C Orchid is a multifacet=
+ed creative=2C who has displayed exceptional writing and vocals to her own=
+ productions. Her records are genre-bending and innovative. A semifinalist=
+ in the 2017 =E2=80=9CBattle Of The Beatmakers=E2=80=9D=2C Orchid has prod=
+uced alongside legends like Sly & Robbie and has worked with artists such=
+ as Red Rat=2C Bay-C=2C Allan Kingdom=2C TiKA and Maestro Fresh Wes.
+https://events.decentraland.org/event/?id=3Dae7888dc-d405-4d70-9902-105584=
+792433
+
+Keep an eye on the Decentraland Events (http://events.decentraland.org) pa=
+ge to discover all the must-attend parties=2C shows=2C conferences=2C and=
+ more happening in our virtual world.
+
+Follow our social media channels to stay up to date with Decentraland news=
+ and updates:
+Join our Discord (https://dcl.gg/discord)
+Follow us on Twitter (https://twitter.com/decentraland)
+Follow us on Instagram (http://instagram.com/decentraland_foundation)
+
+Decentraland is a decentralized platform owned by its users and governed b=
+y the community through a DAO. This email provides information regarding n=
+ews=2C events=2C and developments of the community of users and developers=
+ of Decentraland=2C which in some cases may have involved the Decentraland=
+ Foundation in a limited capacity.
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Copyright =C2=A9 2022 Decentraland Foundation=2C All rights reserved.
+You are receiving this emails because you opted in at our website.
+
+Our mailing address is:
+Decentraland Foundation
+Bloc Office Hub=2C 5th Floor=2C
+Santa Maria Business District=2C Panama Republic of Panama
+Panama City
+Panama
+** Add us to your address book (https://decentraland.us15.list-manage.com/=
+vcard?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985)
+
+Want to change how you receive these emails?
+You can ** update your preferences (https://decentraland.us15.list-manage.=
+com/profile?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=3D[UNIQID]&c=
+=3De669eee444)
+or ** unsubscribe from this list (https://decentraland.us15.list-manage.co=
+m/unsubscribe?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=3D[UNIQID]&=
+c=3De669eee444)
+=2E
+
+This email was sent to avex@avexeva.com (mailto:avex@avexeva.com)
+why did I get this? (https://decentraland.us15.list-manage.com/about?u=3D6=
+f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=3Dec3cd32a59&c=3D3e13c0f17a)    =
+ unsubscribe from this list (https://decentraland.us15.list-manage.com/uns=
+ubscribe?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=3Dec3cd32a59&c=3D3e=
+13c0f17a)     update subscription preferences (https://decentraland.us15.l=
+ist-manage.com/profile?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=3Dec3cd32a59&c=3D3e13c0f17a)
+Decentraland Foundation . Bloc Office Hub=2C 5th Floor=2C . Santa Maria Bu=
+siness District=2C Panama Republic of Panama . Panama City  . Panama
+--_----------=_MCPart_892057389
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns=3D"http://www.w3.org/1999/xhtml" xmlns:v=3D"urn:schemas-micros=
+oft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com:office:office">
+    <head>
+        <!-- NAME: 1 COLUMN -->
+        <!--[if gte mso 15]>
+        <xml>
+            <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+            </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]-->
+        <meta charset=3D"UTF-8">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"viewport" content=3D"width=3Ddevice-width=2C initial=
+-scale=3D1">
+        <title>Decentraland's Game Jam=2C=C2=A0art & music=2C and more=E2=
+=80=94this week in Decentraland!</title>
+
+    <style type=3D"text/css">
+=09=09p{
+=09=09=09margin:10px 0;
+=09=09=09padding:0;
+=09=09}
+=09=09table{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09h1=2Ch2=2Ch3=2Ch4=2Ch5=2Ch6{
+=09=09=09display:block;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img=2Ca img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09body=2C#bodyTable=2C#bodyCell{
+=09=09=09height:100%;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100%;
+=09=09}
+=09=09.mcnPreviewText{
+=09=09=09display:none !important;
+=09=09}
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09-ms-interpolation-mode:bicubic;
+=09=09}
+=09=09table{
+=09=09=09mso-table-lspace:0pt;
+=09=09=09mso-table-rspace:0pt;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cblockquote{
+=09=09=09mso-line-height-rule:exactly;
+=09=09}
+=09=09a[href^=3Dtel]=2Ca[href^=3Dsms]{
+=09=09=09color:inherit;
+=09=09=09cursor:default;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09p=2Ca=2Cli=2Ctd=2Cbody=2Ctable=2Cblockquote{
+=09=09=09-ms-text-size-adjust:100%;
+=09=09=09-webkit-text-size-adjust:100%;
+=09=09}
+=09=09.ExternalClass=2C.ExternalClass p=2C.ExternalClass td=2C.ExternalCla=
+ss div=2C.ExternalClass span=2C.ExternalClass font{
+=09=09=09line-height:100%;
+=09=09}
+=09=09a[x-apple-data-detectors]{
+=09=09=09color:inherit !important;
+=09=09=09text-decoration:none !important;
+=09=09=09font-size:inherit !important;
+=09=09=09font-family:inherit !important;
+=09=09=09font-weight:inherit !important;
+=09=09=09line-height:inherit !important;
+=09=09}
+=09=09#bodyCell{
+=09=09=09padding:10px;
+=09=09}
+=09=09.templateContainer{
+=09=09=09max-width:600px !important;
+=09=09}
+=09=09a.mcnButton{
+=09=09=09display:block;
+=09=09}
+=09=09.mcnImage=2C.mcnRetinaImage{
+=09=09=09vertical-align:bottom;
+=09=09}
+=09=09.mcnTextContent{
+=09=09=09word-break:break-word;
+=09=09}
+=09=09.mcnTextContent img{
+=09=09=09height:auto !important;
+=09=09}
+=09=09.mcnDividerBlock{
+=09=09=09table-layout:fixed !important;
+=09=09}
+=09=09body=2C#bodyTable{
+=09=09=09background-color:#ffffff;
+=09=09}
+=09=09#bodyCell{
+=09=09=09border-top:0;
+=09=09}
+=09=09.templateContainer{
+=09=09=09border:0;
+=09=09}
+=09=09h1{
+=09=09=09color:#090c17;
+=09=09=09font-family:'Helvetica Neue'=2C Helvetica=2C Arial=2C Verdana=2C=
+ sans-serif;
+=09=09=09font-size:32px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2{
+=09=09=09color:#090c17;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:22px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:normal;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:20px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:18px;
+=09=09=09font-style:normal;
+=09=09=09font-weight:bold;
+=09=09=09line-height:125%;
+=09=09=09letter-spacing:normal;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:0px;
+=09=09=09padding-bottom:0px;
+=09=09}
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09color:#ffffff;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:100%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader .mcnTextContent a=2C#templatePreheader .mcnTextCo=
+ntent p a{
+=09=09=09color:#ffffff;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:9px;
+=09=09=09padding-bottom:0;
+=09=09}
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09color:#202020;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:16px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateHeader .mcnTextContent a=2C#templateHeader .mcnTextContent=
+ p a{
+=09=09=09color:#007C89;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateBody{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:0;
+=09=09=09border-bottom:0;
+=09=09=09padding-top:0;
+=09=09=09padding-bottom:0px;
+=09=09}
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09color:#ffffff;
+=09=09=09font-family:'Helvetica Neue'=2C Helvetica=2C Arial=2C Verdana=2C=
+ sans-serif;
+=09=09=09font-size:15px;
+=09=09=09line-height:200%;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templateBody .mcnTextContent a=2C#templateBody .mcnTextContent p a{
+=09=09=09color:#ff4053;
+=09=09=09font-weight:bold;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#ffffff;
+=09=09=09background-image:none;
+=09=09=09background-repeat:no-repeat;
+=09=09=09background-position:center;
+=09=09=09background-size:cover;
+=09=09=09border-top:1px solid ;
+=09=09=09border-bottom:1px solid #000000;
+=09=09=09padding-top:32px;
+=09=09=09padding-bottom:32px;
+=09=09}
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09color:#ffffff;
+=09=09=09font-family:Helvetica;
+=09=09=09font-size:12px;
+=09=09=09line-height:150%;
+=09=09=09text-align:center;
+=09=09}
+=09=09#templateFooter .mcnTextContent a=2C#templateFooter .mcnTextContent=
+ p a{
+=09=09=09color:#656565;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09@media only screen and (min-width:768px){
+=09=09.templateContainer{
+=09=09=09width:600px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body=2Ctable=2Ctd=2Cp=2Ca=2Cli=2Cblockquote{
+=09=09=09-webkit-text-size-adjust:none !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09body{
+=09=09=09width:100% !important;
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnRetinaImage{
+=09=09=09max-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImage{
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCartContainer=2C.mcnCaptionTopContent=2C.mcnRecContentContainer=
+=2C.mcnCaptionBottomContent=2C.mcnTextContentContainer=2C.mcnBoxedTextCont=
+entContainer=2C.mcnImageGroupContentContainer=2C.mcnCaptionLeftTextContent=
+Container=2C.mcnCaptionRightTextContentContainer=2C.mcnCaptionLeftImageCon=
+tentContainer=2C.mcnCaptionRightImageContentContainer=2C.mcnImageCardLeftT=
+extContentContainer=2C.mcnImageCardRightTextContentContainer=2C.mcnImageCa=
+rdLeftImageContentContainer=2C.mcnImageCardRightImageContentContainer{
+=09=09=09max-width:100% !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer{
+=09=09=09min-width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupContent{
+=09=09=09padding:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnCaptionLeftContentOuter .mcnTextContent=2C.mcnCaptionRightConten=
+tOuter .mcnTextContent{
+=09=09=09padding-top:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardTopImageContent=2C.mcnCaptionBottomContent:last-child .=
+mcnCaptionBottomImageContent=2C.mcnCaptionBlockInner .mcnCaptionTopContent=
+:last-child .mcnTextContent{
+=09=09=09padding-top:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardBottomImageContent{
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockInner{
+=09=09=09padding-top:0 !important;
+=09=09=09padding-bottom:0 !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageGroupBlockOuter{
+=09=09=09padding-top:9px !important;
+=09=09=09padding-bottom:9px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnTextContent=2C.mcnBoxedTextContentColumn{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnImageCardLeftImageContent=2C.mcnImageCardRightImageContent{
+=09=09=09padding-right:18px !important;
+=09=09=09padding-bottom:0 !important;
+=09=09=09padding-left:18px !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcpreview-image-uploader{
+=09=09=09display:none !important;
+=09=09=09width:100% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h1{
+=09=09=09font-size:22px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h2{
+=09=09=09font-size:20px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h3{
+=09=09=09font-size:18px !important;
+=09=09=09line-height:125% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09h4{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09.mcnBoxedTextContentContainer .mcnTextContent=2C.mcnBoxedTextContent=
+Container .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader{
+=09=09=09display:block !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templatePreheader .mcnTextContent=2C#templatePreheader .mcnTextCont=
+ent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateHeader .mcnTextContent=2C#templateHeader .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateBody .mcnTextContent=2C#templateBody .mcnTextContent p{
+=09=09=09font-size:16px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}=09@media only screen and (max-width: 480px){
+=09=09#templateFooter .mcnTextContent=2C#templateFooter .mcnTextContent p{
+=09=09=09font-size:14px !important;
+=09=09=09line-height:150% !important;
+=09=09}
+
+}</style></head>
+    <body style=3D"height: 100%;margin: 0;padding: 0;width: 100%;-ms-text-=
+size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff=
+;">
+        <!--
+-->
+        <!--[if !gte mso 9]><!----><span class=3D"mcnPreviewText" style=
+=3D"display:none; font-size:0px; line-height:0px; max-height:0px; max-widt=
+h:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Disco=
+ver what's happening in Decentraland this week</span><!--<![endif]-->
+        <!--
+-->
+        <center>
+            <table align=3D"center" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border=
+-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-s=
+ize-adjust: 100%;-webkit-text-size-adjust: 100%;height: 100%;margin: 0;pad=
+ding: 0;width: 100%;background-color: #ffffff;">
+                <tr>
+                    <td align=3D"center" valign=3D"top" id=3D"bodyCell" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;height: 100%;margin: 0;padding: 10px;width: 100%;bord=
+er-top: 0;">
+                        <!-- BEGIN TEMPLATE // -->
+                        <!--[if (gte mso 9)|(IE)]>
+                        <table align=3D"center" border=3D"0" cellspacing=
+=3D"0" cellpadding=3D"0" width=3D"600" style=3D"width:600px;">
+                        <tr>
+                        <td align=3D"center" valign=3D"top" width=3D"600"=
+ style=3D"width:600px;">
+                        <![endif]-->
+                        <table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"templateContainer" style=3D"border-collapse=
+: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjus=
+t: 100%;-webkit-text-size-adjust: 100%;border: 0;max-width: 600px !importa=
+nt;">
+                            <tr>
+                                <td valign=3D"top" id=3D"templatePreheader=
+" style=3D"background:#ffffff none no-repeat center/cover;mso-line-height-=
+rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;ba=
+ckground-color: #ffffff;background-image: none;background-repeat: no-repea=
+t;background-position: center;background-size: cover;border-top: 0;border-=
+bottom: 0;padding-top: 0px;padding-bottom: 0px;"></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateHeader" s=
+tyle=3D"background:#ffffff none no-repeat center/cover;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backg=
+round-color: #ffffff;background-image: none;background-repeat: no-repeat;b=
+ackground-position: center;background-size: cover;border-top: 0;border-bot=
+tom: 0;padding-top: 9px;padding-bottom: 0;"><table border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D"m=
+in-width: 100%;border-collapse: collapse;mso-table-lspace: 0pt;mso-table-r=
+space: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <h1 class=3D"null" style=3D"text-align: center=
+;display: block;margin: 0;padding: 0;color: #090c17;font-family: 'Helvetic=
+a Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans-serif;font-size: 32px;fon=
+t-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal=
+;"><span style=3D"color:#ff4053"><img data-file-id=3D"757300" height=3D"65=
+" src=3D"https://mcusercontent.com/6f74047a4693dbc82dc4f3131/images/d6af3e=
+b8-a77e-b285-b3da-ffec23815eaa.png" style=3D"border: 0px;width: 350px;heig=
+ht: 65px;margin: 0px;outline: none;text-decoration: none;-ms-interpolation=
+-mode: bicubic;" width=3D"350"><br>
+This week in Decentraland</span></h1>
+
+<div style=3D"text-align: center;"><span style=3D"color:#000000"><strong>e=
+vents.decentraland.org</strong></span></div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 0px 18px 9px;font-family: Arial=2C &quot;Helvetica Neue&quot;=
+=2C Helvetica=2C sans-serif;font-size: 14px;text-align: center;mso-line-he=
+ight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;word-break: break-word;color: #202020;line-height: 150%;">
+
+                            <div>Decentraland is home to&nbsp;dozens of co=
+mmunity organized events that happen every day.&nbsp;In addition to checki=
+ng out some of the week's biggest events in this&nbsp;newsletter=2C you ca=
+n always browse through the Decentraland&nbsp;events page=2C&nbsp;<a href=
+=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f74047a4693=
+dbc82dc4f3131&id=3Da6eb3a2b4b&e=3Dec3cd32a59" target=3D"_blank" style=3D"=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;color: #007C89;font-weight: normal;text-decoration: underlin=
+e;">events.decentraland.org</a>=2C to find out what's going on right now a=
+nd in the future.<br>
+<br>
+What will you be doing in the metaverse this week?</div>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px solid #222222;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #202020;font-family: Helve=
+tica;font-size: 16px;line-height: 150%;text-align: left;">
+
+                            <h1 class=3D"null" style=3D"text-align: center=
+;display: block;margin: 0;padding: 0;color: #090c17;font-family: 'Helvetic=
+a Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans-serif;font-size: 32px;fon=
+t-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal=
+;"><span style=3D"font-size:26px"><span style=3D"color:#ff4053">News</span=
+></span></h1>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateBody" sty=
+le=3D"background:#ffffff none no-repeat center/cover;mso-line-height-rule:=
+ exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backgro=
+und-color: #ffffff;background-image: none;background-repeat: no-repeat;bac=
+kground-position: center;background-size: cover;border-top: 0;border-botto=
+m: 0;padding-top: 0;padding-bottom: 0px;"><table border=3D"0" cellpadding=
+=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnImageCardBlock" style=
+=3D"border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;=
+-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnImageCardBlockOuter">
+        <tr>
+            <td class=3D"mcnImageCardBlockInner" valign=3D"top" style=3D"p=
+adding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnImageCardBottomContent" width=3D"100%" style=3D"border-collapse:=
+ collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class=3D"mcnImageCardBottomImageContent" align=3D"left" valign=
+=3D"top" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">
+
+
+
+            <img alt=3D"" src=3D"https://mcusercontent.com/6f74047a4693dbc=
+82dc4f3131/images/9e8fcf70-a4f9-3884-81e1-4eeb5a0e54da.png" width=3D"564"=
+ style=3D"max-width: 1200px;border: 0;height: auto;outline: none;text-deco=
+ration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" clas=
+s=3D"mcnImage">
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class=3D"mcnTextContent" valign=3D"top" style=3D"padding: 9px=
+ 18px;color: #222222;font-family: Helvetica;font-size: 14px;font-weight: n=
+ormal;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 2=
+00%;" width=3D"546">
+            <strong><span style=3D"color:#ff4053"><span style=3D"font-size=
+:20px">Calling all game developers=E2=80=94the 2022 Decentraland Game Jam=
+ is here!</span></span></strong><br>
+<strong><span style=3D"color:#ff4053">When: </span></strong>May 17 to June=
+ 14
+<p style=3D"color: #222222;font-family: Helvetica;font-size: 14px;font-wei=
+ght: normal;text-align: left;margin: 10px 0;padding: 0;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-=
+height: 200%;">After a long break=2C we are incredibly excited to share th=
+e news that Decentraland=E2=80=99s Game Jam is coming back for 2022!<br>
+<br>
+The objective is to produce the most entertaining experience you can code=
+ for Decentraland=E2=80=99s community=2C using the various tools at your d=
+isposal. Entries will be judged based on overall idea=2C game design=2C in=
+teractivity=2C creativity=2C and =E2=80=98wow factor=E2=80=99.<br>
+<br>
+Prizes will include LAND and MANA rewards.<br>
+<br>
+Read more about the game jam=2C rewards=2C and rules <a href=3D"https://de=
+centraland.us15.list-manage.com/track/click?u=3D6f74047a4693dbc82dc4f3131&=
+id=3D673381adb9&e=3Dec3cd32a59" target=3D"_blank" style=3D"mso-line-heigh=
+t-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+color: #ff4053;font-weight: bold;text-decoration: underline;">on our blog.=
+</a></p>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px solid #222222;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+    <tbody class=3D"mcnImageCardBlockOuter">
+        <tr>
+            <td class=3D"mcnImageCardBlockInner" valign=3D"top" style=3D"p=
+adding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnImageCardBottomContent" width=3D"100%" style=3D"background-color:=
+ #FFFFFF;border: 1px none;border-collapse: collapse;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+    <tbody><tr>
+        <td class=3D"mcnImageCardBottomImageContent" align=3D"left" valign=
+=3D"top" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">
+
+
+
+            <img alt=3D"" src=3D"https://mcusercontent.com/6f74047a4693dbc=
+82dc4f3131/images/644b5e07-e308-5523-eec2-b641fca7e2d5.gif" width=3D"562"=
+ style=3D"max-width: 600px;border: 1px none;border-radius: 0%;height: auto=
+;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;verti=
+cal-align: bottom;" class=3D"mcnImage">
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class=3D"mcnTextContent" valign=3D"top" style=3D"padding: 9px=
+ 18px;color: #000000;font-family: Helvetica;font-size: 14px;font-weight: n=
+ormal;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 2=
+00%;" width=3D"546">
+            <div style=3D"text-align: left;">
+<div><font color=3D"#ff4053"><span style=3D"font-size:20px"><strong>Lookin=
+g back at Metaverse Fashion Week</strong></span></font></div>
+
+<p style=3D"color: #000000;font-family: Helvetica;font-size: 14px;font-wei=
+ght: normal;text-align: left;margin: 10px 0;padding: 0;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-=
+height: 200%;">With Decentraland=E2=80=99s next big=2C platform-wide event=
+ soon approaching (Pride Month!!)=2C we wanted to look back on the fantast=
+ic success that was Metaverse Fashion Week in numbers:<br>
+<br>
+<strong data-stringify-type=3D"bold">&nbsp; &nbsp;&nbsp;</strong><strong>7=
+0+</strong>&nbsp;&nbsp; Brands Participated<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>25+</strong>&nbsp;&nbsp; Unique Runway Sho=
+ws<br>
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>15+</strong>&nbsp;&nbsp; Expert Panel Talk=
+s<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>4</strong>&nbsp;&n=
+bsp; Nights of Amazing After Parties<br>
+<strong>165k+</strong>&nbsp;&nbsp; Free Minted Wearables Claimed<br>
+<strong>$76k+&nbsp;</strong>&nbsp; Spent on Wearables<br>
+<strong>108k+</strong>&nbsp;&nbsp; Decentraland Visitors During MVFW<br>
+&nbsp;&nbsp;<strong>26k+</strong>&nbsp;&nbsp; First-Time Visitors<br>
+<br>
+The event made fashion history and certainly earned Decentraland=E2=80=99s=
+ place in the annual fashion calendar alongside the likes of New York and=
+ Milan.<br>
+<br>
+Thank you to everyone who took a seat by the catwalk=E2=80=94see you at MV=
+FW 2023!</p>
+</div>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px solid #222222;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding-top: 0;padding-right: 18px;padding-bottom: 9px;padding-left: 1=
+8px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;word-break: break-word;color: #ffffff;font-family: 'Helv=
+etica Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans-serif;font-size: 15px=
+;line-height: 200%;text-align: left;">
+
+                            <h1 class=3D"null" style=3D"text-align: center=
+;display: block;margin: 0;padding: 0;color: #090c17;font-family: 'Helvetic=
+a Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans-serif;font-size: 32px;fon=
+t-style: normal;font-weight: bold;line-height: 125%;letter-spacing: normal=
+;"><span style=3D"font-size:26px"><span style=3D"color:#ff4053">Events</sp=
+an></span></h1>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+    <tbody class=3D"mcnImageCardBlockOuter">
+        <tr>
+            <td class=3D"mcnImageCardBlockInner" valign=3D"top" style=3D"p=
+adding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+
+<table align=3D"right" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cl=
+ass=3D"mcnImageCardBottomContent" width=3D"100%" style=3D"border-collapse:=
+ collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust=
+: 100%;-webkit-text-size-adjust: 100%;">
+    <tbody><tr>
+        <td class=3D"mcnImageCardBottomImageContent" align=3D"left" valign=
+=3D"top" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">
+
+
+
+            <img alt=3D"" src=3D"https://mcusercontent.com/6f74047a4693dbc=
+82dc4f3131/images/6c4d41ab-d274-2af2-0307-1e020bf96925.png" width=3D"564"=
+ style=3D"max-width: 1284px;border: 0;height: auto;outline: none;text-deco=
+ration: none;-ms-interpolation-mode: bicubic;vertical-align: bottom;" clas=
+s=3D"mcnImage">
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class=3D"mcnTextContent" valign=3D"top" style=3D"padding: 9px=
+ 18px;color: #222222;font-family: Helvetica;font-size: 14px;font-weight: n=
+ormal;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 2=
+00%;" width=3D"546">
+            <strong><span style=3D"color:#ff4053"><span style=3D"font-size=
+:20px">See 'Meta Spectrum'=2C&nbsp;a female-focused collection from 10 art=
+ists=2C presented by SuperRare and Art Angels</span><br>
+When: </span></strong>Friday=2C May 13 at 03:00am UTC to Saturday=2C 14 Ma=
+y&nbsp;at&nbsp;03:00am UTC<br>
+<strong><span style=3D"color:#ff4053">Where:</span></strong>&nbsp;(56=2C41=
+)
+
+<p style=3D"color: #222222;font-family: Helvetica;font-size: 14px;font-wei=
+ght: normal;text-align: left;margin: 10px 0;padding: 0;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-=
+height: 200%;">SuperRare and Art Angels proudly present =E2=80=9CMeta Spec=
+trum=2C=E2=80=9D a female-focused digital curation featuring unique works=
+ from ten artists in a cohesive retrospective. This show will be presented=
+ in person at Art Angels=E2=80=99 Los Angeles gallery and online at SuperR=
+are from May 12-15.<br>
+<br>
+Art Angels is excited to introduce their very own Stefania Nazzal into the=
+ Metaverse with the release of her genesis NFT artwork=2C titled =E2=80=9C=
+Inception of a Rainbow=2C=E2=80=9D exclusively available on SuperRare. Naz=
+zal=E2=80=99s NFT will be displayed alongside her solo exhibition of physi=
+cal artworks=2C =E2=80=9CAfter the Rain=2C=E2=80=9D featured within a sepa=
+rate space at Art Angels Gallery. Leveraging Nazzal's use of the rainbow a=
+s the thread for our =E2=80=9CMeta Spectrum'' curation=2C Art Angels and S=
+uperRare thoughtfully selected eight female artists from the SR community=
+ to demonstrate their works: Sarah Zucker=2C Ayla El- Moussa=2C Lindsey Pr=
+ice=2C Vidya=2C Erica Reiling=2C Amber Vittoria=2C Joyce N. Ho=2C and Marl=
+o. In addition to this incredible roster=2C Art Angels has also selected A=
+ustralian artist Jessica Ticchio to join the SuperRare community=2C markin=
+g the first adoption of an NFT digitally native artist under the gallery's=
+ umbrella.&nbsp;<br>
+<br>
+<a href=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f740=
+47a4693dbc82dc4f3131&id=3D2a0470e2de&e=3Dec3cd32a59" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #ff4053;font-weight: bold;text-decoration: und=
+erline;">https://events.decentraland.org/event/?id=3Db9343bb5-5e6d-4b33-ba=
+5d-898a8702d32a</a></p>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px solid #222222;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+    <tbody class=3D"mcnImageCardBlockOuter">
+        <tr>
+            <td class=3D"mcnImageCardBlockInner" valign=3D"top" style=3D"p=
+adding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnImageCardBottomContent" width=3D"100%" style=3D"background-color:=
+ #FFFFFF;border: 1px none;border-collapse: collapse;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+    <tbody><tr>
+        <td class=3D"mcnImageCardBottomImageContent" align=3D"left" valign=
+=3D"top" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">
+
+
+
+            <img alt=3D"" src=3D"https://mcusercontent.com/6f74047a4693dbc=
+82dc4f3131/images/a5f52d96-6474-b0bd-8d30-efc746da47b1.png" width=3D"562"=
+ style=3D"max-width: 1298px;border: 1px none;border-radius: 0%;height: aut=
+o;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vert=
+ical-align: bottom;" class=3D"mcnImage">
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class=3D"mcnTextContent" valign=3D"top" style=3D"padding: 9px=
+ 18px;color: #000000;font-family: Helvetica;font-size: 14px;font-weight: n=
+ormal;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 2=
+00%;" width=3D"546">
+            <div style=3D"text-align: left;">
+<div><strong><span style=3D"color:#ff4053"><span style=3D"font-size:20px">=
+Get creative in Golfcraft's level building contest</span><br>
+When: </span></strong>Monday=2C May 9 to Monday=2C May 16&nbsp;<br>
+<strong><span style=3D"color:#ff4053">Where: </span></strong>(48=2C-44)&nb=
+sp;</div>
+
+<p style=3D"color: #000000;font-family: Helvetica;font-size: 14px;font-wei=
+ght: normal;text-align: left;margin: 10px 0;padding: 0;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-=
+height: 200%;">Decentraland game incubator participant=2C Golfcraft is org=
+anizing a level building contest. That's right! You can create your own Go=
+lfcraft courses with the editor on the 4th floor of the their building=2C=
+ and the best designers will get prizes! You have until May 16 to present=
+ your best work.</p>
+<a href=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f740=
+47a4693dbc82dc4f3131&id=3Dcbb916b9a4&e=3Dec3cd32a59" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #ff4053;font-weight: bold;text-decoration: und=
+erline;">https://events.decentraland.org/event/?id=3Db0dd2ed0-da0e-4224-ae=
+fe-6789b7056410</a></div>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnDividerBlock" style=3D"min-width: 100%;border-collapse: c=
+ollapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;table-layout: fixed !important;">
+    <tbody class=3D"mcnDividerBlockOuter">
+        <tr>
+            <td class=3D"mcnDividerBlockInner" style=3D"min-width: 100%;pa=
+dding: 18px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;">
+                <table class=3D"mcnDividerContent" border=3D"0" cellpaddin=
+g=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"min-width: 100%;border-t=
+op: 2px solid #222222;border-collapse: collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100=
+%;">
+                    <tbody><tr>
+                        <td style=3D"mso-line-height-rule: exactly;-ms-tex=
+t-size-adjust: 100%;-webkit-text-size-adjust: 100%;">
+                            <span></span>
+                        </td>
+                    </tr>
+                </tbody></table>
+<!--
+                <td class=3D"mcnDividerBlockInner" style=3D"padding: 18px;=
+">
+                <hr class=3D"mcnDividerContent" style=3D"border-bottom-col=
+or:none; border-left-color:none; border-right-color:none; border-bottom-wi=
+dth:0; border-left-width:0; border-right-width:0; margin-top:0; margin-rig=
+ht:0; margin-bottom:0; margin-left:0;" />
+-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnImageCardBlock" style=3D"border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;">
+    <tbody class=3D"mcnImageCardBlockOuter">
+        <tr>
+            <td class=3D"mcnImageCardBlockInner" valign=3D"top" style=3D"p=
+adding-top: 9px;padding-right: 18px;padding-bottom: 9px;padding-left: 18px=
+;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-siz=
+e-adjust: 100%;">
+
+<table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"mcnImageCardBottomContent" width=3D"100%" style=3D"background-color:=
+ #FFFFFF;border: 1px none;border-collapse: collapse;mso-table-lspace: 0pt;=
+mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust:=
+ 100%;">
+    <tbody><tr>
+        <td class=3D"mcnImageCardBottomImageContent" align=3D"left" valign=
+=3D"top" style=3D"padding-top: 0px;padding-right: 0px;padding-bottom: 0;pa=
+dding-left: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-=
+webkit-text-size-adjust: 100%;">
+
+
+
+            <img alt=3D"" src=3D"https://mcusercontent.com/6f74047a4693dbc=
+82dc4f3131/images/78da6dd8-1355-829a-9db1-7dffca572f76.png" width=3D"562"=
+ style=3D"max-width: 1286px;border: 1px none;border-radius: 0%;height: aut=
+o;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;vert=
+ical-align: bottom;" class=3D"mcnImage">
+
+
+        </td>
+    </tr>
+    <tr>
+        <td class=3D"mcnTextContent" valign=3D"top" style=3D"padding: 9px=
+ 18px;color: #000000;font-family: Helvetica;font-size: 14px;font-weight: n=
+ormal;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;word-break: break-word;line-height: 2=
+00%;" width=3D"546">
+            <div style=3D"text-align: left;">
+<div><font color=3D"#ff4053"><span style=3D"font-size:20px"><strong>Catch=
+ a performance from musician&nbsp;BLK ORCHID at the Rocking Uniquehorns Ba=
+nd Room</strong></span></font><br>
+<strong><span style=3D"color:#ff4053">When: </span></strong>Saturday=2C Ma=
+y 14&nbsp;from&nbsp;6:00pm&nbsp;to&nbsp;7:00pm&nbsp;UTC<br>
+<strong><span style=3D"color:#ff4053">Where:</span></strong>&nbsp;(27=2C-1=
+18)</div>
+
+<p style=3D"color: #000000;font-family: Helvetica;font-size: 14px;font-wei=
+ght: normal;text-align: left;margin: 10px 0;padding: 0;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;line-=
+height: 200%;">Have you been to TRU&nbsp;Band Room yet?&nbsp;It's a music=
+ venue in Decentraland for new and emerging musicians. Since October=2C 20=
+21=2C the Band Room has hosted more than 120 shows=2C across multiple genr=
+es=2C including hip hop=2C jazz=2C electronic=2C R&amp;B=2C pop=2C and dan=
+ce.&nbsp;<br>
+<br>
+A reggae-inspired artist based in Toronto Canada=2C Orchid is a multifacet=
+ed creative=2C who has displayed exceptional writing and vocals to her own=
+ productions. Her records are genre-bending and innovative. A semifinalist=
+ in the 2017 =E2=80=9CBattle Of The Beatmakers=E2=80=9D=2C Orchid has prod=
+uced alongside legends like Sly &amp; Robbie and has worked with artists s=
+uch as Red Rat=2C Bay-C=2C Allan Kingdom=2C TiKA and Maestro Fresh Wes.<br=
+>
+<a href=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f740=
+47a4693dbc82dc4f3131&id=3D1001b587ba&e=3Dec3cd32a59" target=3D"_blank" st=
+yle=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;color: #ff4053;font-weight: bold;text-decoration: und=
+erline;">https://events.decentraland.org/event/?id=3Dae7888dc-d405-4d70-99=
+02-105584792433</a></p>
+</div>
+
+        </td>
+    </tr>
+</tbody></table>
+
+
+
+
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 0px 18px 9px;color: #000000;text-align: center;mso-line-heigh=
+t-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+word-break: break-word;font-family: 'Helvetica Neue'=2C Helvetica=2C Arial=
+=2C Verdana=2C sans-serif;font-size: 15px;line-height: 200%;">
+
+                            <p dir=3D"ltr" style=3D"color: #000000;text-al=
+ign: center;margin: 10px 0;padding: 0;mso-line-height-rule: exactly;-ms-te=
+xt-size-adjust: 100%;-webkit-text-size-adjust: 100%;font-family: 'Helvetic=
+a Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans-serif;font-size: 15px;lin=
+e-height: 200%;"><strong id=3D"docs-internal-guid-7c19dfdf-7fff-81f1-1f1a-=
+8efdfa1b0393">Keep an eye on the <a href=3D"https://decentraland.us15.list=
+-manage.com/track/click?u=3D6f74047a4693dbc82dc4f3131&id=3Dee79bc6623&e=3D=
+ec3cd32a59" target=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #ff4053;font-=
+weight: bold;text-decoration: underline;">Decentraland Events</a> page to=
+ discover all the must-attend parties=2C shows=2C conferences=2C and more=
+ happening&nbsp;in our&nbsp;virtual world.<br>
+<br>
+Follow our social media channels to stay up to date with Decentraland news=
+ and updates:</strong></p>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"1=
+00%" class=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: coll=
+apse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100=
+%;-webkit-text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 0px 18px 9px;color: #000000;mso-line-height-rule: exactly;-ms=
+-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;word-break: break-w=
+ord;font-family: 'Helvetica Neue'=2C Helvetica=2C Arial=2C Verdana=2C sans=
+-serif;font-size: 15px;line-height: 200%;text-align: left;">
+
+                            <div style=3D"text-align: center;"><strong>Joi=
+n our</strong> <a href=3D"https://decentraland.us15.list-manage.com/track/=
+click?u=3D6f74047a4693dbc82dc4f3131&id=3Dd78a16b7a9&e=3Dec3cd32a59" targe=
+t=3D"_blank" style=3D"mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;color: #ff4053;font-weight: bold;text=
+-decoration: underline;">Discord</a></div>
+
+<div style=3D"text-align: center;"><strong>Follow us on</strong> <a href=
+=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f74047a4693=
+dbc82dc4f3131&id=3Dfbdbb34850&e=3Dec3cd32a59" style=3D"mso-line-height-ru=
+le: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;colo=
+r: #ff4053;font-weight: bold;text-decoration: underline;">Twitter</a></div=
+>
+
+<div style=3D"text-align: center;"><strong>Follow us on</strong> <a href=
+=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f74047a4693=
+dbc82dc4f3131&id=3D3b1ef6ba62&e=3Dec3cd32a59" target=3D"_blank" style=3D"=
+mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size=
+-adjust: 100%;color: #ff4053;font-weight: bold;text-decoration: underline;=
+">Instagram</a><br>
+&nbsp;</div>
+
+<div style=3D"text-align: center;"><span style=3D"font-size:13px"><em>Dece=
+ntraland is a decentralized platform owned by its users and governed by th=
+e community through a DAO. This email provides information regarding news=
+=2C events=2C and developments of the community of users and developers of=
+ Decentraland=2C which in some cases may have involved the Decentraland Fo=
+undation in a limited capacity.</em></span></div>
+
+<ul dir=3D"ltr">
+</ul>
+
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                            <tr>
+                                <td valign=3D"top" id=3D"templateFooter" s=
+tyle=3D"background:#ffffff none no-repeat center/cover;mso-line-height-rul=
+e: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;backg=
+round-color: #ffffff;background-image: none;background-repeat: no-repeat;b=
+ackground-position: center;background-size: cover;border-top: 1px solid;bo=
+rder-bottom: 1px solid #000000;padding-top: 32px;padding-bottom: 32px;"><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=
+=3D"mcnTextBlock" style=3D"min-width: 100%;border-collapse: collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-=
+text-size-adjust: 100%;">
+    <tbody class=3D"mcnTextBlockOuter">
+        <tr>
+            <td valign=3D"top" class=3D"mcnTextBlockInner" style=3D"paddin=
+g-top: 9px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;">
+              =09<!--[if mso]>
+=09=09=09=09<table align=3D"left" border=3D"0" cellspacing=3D"0" cellpaddi=
+ng=3D"0" width=3D"100%" style=3D"width:100%;">
+=09=09=09=09<tr>
+=09=09=09=09<![endif]-->
+=09=09=09
+=09=09=09=09<!--[if mso]>
+=09=09=09=09<td valign=3D"top" width=3D"600" style=3D"width:600px;">
+=09=09=09=09<![endif]-->
+                <table align=3D"left" border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" style=3D"max-width: 100%;min-width: 100%;border-collapse: col=
+lapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 10=
+0%;-webkit-text-size-adjust: 100%;" width=3D"100%" class=3D"mcnTextContent=
+Container">
+                    <tbody><tr>
+
+                        <td valign=3D"top" class=3D"mcnTextContent" style=
+=3D"padding: 0px 18px 9px;color: #000000;text-align: center;mso-line-heigh=
+t-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;=
+word-break: break-word;font-family: Helvetica;font-size: 12px;line-height:=
+ 150%;">
+
+                            <em>Copyright =C2=A9 2022 Decentraland Foundat=
+ion=2C All rights reserved.</em><br>
+You are receiving this emails because you opted in at our website.<br>
+<br>
+<strong>Our mailing address is:</strong><br>
+Decentraland Foundation<br>
+Bloc Office Hub=2C 5th Floor=2C<br>
+Santa Maria Business District=2C Panama Republic of Panama<br>
+Panama City<br>
+Panama<br>
+<a href=3D"https://decentraland.us15.list-manage.com/track/click?u=3D6f740=
+47a4693dbc82dc4f3131&id=3D52c3e2d456&e=3Dec3cd32a59" style=3D"mso-line-he=
+ight-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 10=
+0%;color: #656565;font-weight: normal;text-decoration: underline;">Add us=
+ to your address book</a><br>
+<br>
+Want to change how you receive these emails?<br>
+You can&nbsp;<a href=3D"https://decentraland.us15.list-manage.com/track/cl=
+ick?u=3D6f74047a4693dbc82dc4f3131&id=3Db5b300f0a6&e=3Dec3cd32a59" style=
+=3D"mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-=
+size-adjust: 100%;color: #656565;font-weight: normal;text-decoration: unde=
+rline;">update your preferences</a>&nbsp;or&nbsp;<a href=3D"https://decent=
+raland.us15.list-manage.com/track/click?u=3D6f74047a4693dbc82dc4f3131&id=
+=3De0b10e2129&e=3Dec3cd32a59" style=3D"mso-line-height-rule: exactly;-ms-=
+text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #656565;font-=
+weight: normal;text-decoration: underline;">unsubscribe from this list</a>=
+=2E
+                        </td>
+                    </tr>
+                </tbody></table>
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</td>
+=09=09=09=09<![endif]-->
+
+=09=09=09=09<!--[if mso]>
+=09=09=09=09</tr>
+=09=09=09=09</table>
+=09=09=09=09<![endif]-->
+            </td>
+        </tr>
+    </tbody>
+</table></td>
+                            </tr>
+                        </table>
+                        <!--[if (gte mso 9)|(IE)]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        <!-- // END TEMPLATE -->
+                    </td>
+                </tr>
+            </table>
+        </center>
+                <center>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" wi=
+dth=3D"100%" id=3D"canspamBarWrapper" style=3D"background-color:#FFFFFF; b=
+order-top:1px solid #E5E5E5;">
+                    <tr>
+                        <td align=3D"center" valign=3D"top" style=3D"paddi=
+ng-top:20px; padding-bottom:20px;">
+                            <table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" id=3D"canspamBar">
+                                <tr>
+                                    <td align=3D"center" valign=3D"top" st=
+yle=3D"color:#606060; font-family:Helvetica=2C Arial=2C sans-serif; font-s=
+ize:11px; line-height:150%; padding-right:20px; padding-bottom:5px; paddin=
+g-left:20px; text-align:center;">
+                                        This email was sent to <a href=3D"=
+mailto:avex@avexeva.com" target=3D"_blank" style=3D"color:#404040 !importa=
+nt;">avex@avexeva.com</a>
+                                        <br />
+                                        <a href=3D"https://decentraland.us=
+15.list-manage.com/about?u=3D6f74047a4693dbc82dc4f3131&id=3Dda075b1985&e=
+=3Dec3cd32a59&c=3D3e13c0f17a" target=3D"_blank" style=3D"color:#404040 !impo=
+rtant;"><em>why did I get this?</em></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href=3D=
+"https://decentraland.us15.list-manage.com/unsubscribe?u=3D6f74047a4693dbc=
+82dc4f3131&id=3Dda075b1985&e=3Dec3cd32a59&c=3D3e13c0f17a" style=3D"color:#40=
+4040 !important;">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;&nbsp;<a=
+ href=3D"https://decentraland.us15.list-manage.com/profile?u=3D6f74047a469=
+3dbc82dc4f3131&id=3Dda075b1985&e=3Dec3cd32a59&c=3D3e13c0f17a" style=3D"color=
+:#404040 !important;">update subscription preferences</a>
+                                        <br />
+                                        Decentraland Foundation &middot; B=
+loc Office Hub=2C 5th Floor=2C &middot; Santa Maria Business District=2C P=
+anama Republic of Panama &middot; Panama City  &middot; Panama
+                                        <br />
+                                        <br />
+
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <style type=3D"text/css">
+                    @media only screen and (max-width: 480px){
+                        table#canspamBar td{font-size:14px !important;}
+                        table#canspamBar td a{display:block !important; ma=
+rgin-top:10px !important;}
+                    }
+                </style>
+            </center><img src=3D"https://decentraland.us15.list-manage.com=
+/track/open.php?u=3D6f74047a4693dbc82dc4f3131&id=3D3e13c0f17a&e=3Dec3cd32a59" height=3D"1" width=3D"1" alt=3D""></body>
+</html>
+--_----------=_MCPart_892057389--

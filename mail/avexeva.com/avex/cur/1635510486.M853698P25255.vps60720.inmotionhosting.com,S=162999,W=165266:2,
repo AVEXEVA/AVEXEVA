@@ -1,0 +1,2267 @@
+Return-Path: <newsdigest_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id hPErMtboe2GnYgAABSAGJw
+	(envelope-from <newsdigest_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Fri, 29 Oct 2021 08:28:06 -0400
+Return-path: <newsdigest_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Fri, 29 Oct 2021 08:28:06 -0400
+Received: from msbadger15104.apple.com ([17.179.250.194]:50453 helo=rn2-msbadger15104.apple.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <newsdigest_i_bounces@insideapple.apple.com>)
+	id 1mgQzM-0006Z2-T5
+	for avex@avexeva.com; Fri, 29 Oct 2021 08:28:06 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1635510443;
+	bh=OO+cAmZdJEMMwYwQY0J+0tIl6niE7hq0Q7nLO/wj1XE=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=GiqT49FNr4voV4AeUXtLSl/nU9vhnMk7P+NzHhr3DJ6Ht+R6KdMlc8vkBdAc9R4Tx
+	 oHR2RVQDtCM7fN+u0SdmBA3OO55/oSTRxS7Fnges0JszLEJedP4X5aoy68SWt93Zhr
+	 EMoLfOP1zqiCXPNivBsfTcRfYZli369wTGwv/a3a1Cq07viuH79HZkaXpDrq7GN0TX
+	 0p/wNXJYN8PHIdj7/M9bTBNk8nj6ULGxAd7RLQKPwBMLANTqbPWqqMxkZ6fGrtvt+n
+	 mDThd+zRIva1qPb4KMJQL3ykSwV6H+dxyRBSiNa7xWV57q0+hraxcFR3YTFrPD9y0n
+	 ij0ad2nudgLxg==
+Date: Fri, 29 Oct 2021 12:27:23 +0000 (GMT)
+From: Apple News <newsdigest@insideapple.apple.com>
+To: avex@avexeva.com
+Message-ID: <915580294.21216257.1635510443911@email.apple.com>
+Subject: Biden heads to high-stakes summits, what to know about the "Delta
+ plus" variant, and more
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_21216255_535968287.1635510443911"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,NB7Qgfsk6g9uMLB8D9iaJx7zmlNBdvZ6A88vOwxkbNu%2BhShHJk%2BQYP5tZjbZnomQo5wrHjxm%2FxFI4q0%2FmIrq%2FIAU4fnD3AsoU%2BxgpxHkdDP5aMUkSG8XANZX0SY2uZaA4P17i8u%2BPiWq1010LNTgIHL8bYRqT4ykepgYM1rKX0ySfeoTFlt%2B7Yu6qPNnoGiviahTRe3nx8pfYo%2BCWpISZhGSvQNcmtF7IxlOzVlZf9EenYMMSUPpk8T%2FHyS9wf6T
+X-TXN_ID: f154af5a-1a8c-40a7-80a8-e4215811a2a2
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 1953881
+X-Business-Group: Apple News US
+X-Broadcast-Id: 1953881
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=EN_US&a=NB7Qgfsk6g9uMLB8D9iaJx7zmlNBdvZ6A88vOwxkbNu%2BhShHJk%2BQYP5tZjbZnomQo5wrHjxm%2FxFI4q0%2FmIrq%2FIAU4fnD3AsoU%2BxgpxHkdDP5aMUkSG8XANZX0SY2uZaA4P17i8u%2BPiWq1010LNTgIHL8bYRqT4ykepgYM1rKX0ySfeoTFlt%2B7Yu6qPNnoGiviahTRe3nx8pfYo%2BCWpISZhGSvQNcmtF7IxlOzVlZf9EenYMMSUPpk8T%2FHyS9wf6T>
+X-mp: d
+X-Spam-Status: No, score=-13.6
+X-Spam-Score: -135
+X-Spam-Bar: -------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Good Morning From Apple News It’s Friday, October 29. Here’s
+    what you need to know. High stakes for Biden, at home and abroad • The
+   president pared back his spending priorities in a bid to unify Democrats.
+   The new proposal includes universal pre-kindergarten and funding for climate
+    programs — but not paid family leave. [...] 
+ Content analysis details:   (-13.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  1.5 SPF_HELO_SOFTFAIL      SPF: HELO does not match SPF record (softfail)
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_FONT_LOW_CONTRAST BODY: HTML font color similar or
+                             identical to background
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+X-Spam-Flag: NO
+
+------=_Part_21216255_535968287.1635510443911
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Good Morning From Apple News
+It=E2=80=99s Friday, October 29. Here=E2=80=99s what you need to know.
+
+
+
+
+
+High stakes for Biden, at home and abroad
+
+        =E2=80=A2  The president pared back his spending priorities in a bi=
+d to unify Democrats. The new proposal includes universal pre-kindergarten =
+and funding for climate programs =E2=80=94 but not paid family leave. Here=
+=E2=80=99s what to know.
+What=E2=80=99s in =E2=80=94 and what=E2=80=99s out of =E2=80=94 Biden=E2=80=
+=99s latest spending proposal Vox https://apple.news/A0EFclBMzQ1Cf0GE81epRb=
+Q?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3D=
+db4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_bullet_list_ent=
+ry-4:bulletEntryPlainText
+        =E2=80=A2  Meanwhile, Biden arrived in Europe ahead of the highly a=
+nticipated COP26 climate summit. He will also meet with G20 leaders.Biden h=
+eads to crucial climate talks as wary allies wonder if US will deliver The =
+Guardian https://apple.news/As11VZrpSQsqQ4jNtoZWAng?articleList=3DAuXx27TjF=
+RhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-8=
+0a762bf1437&creative_id=3Ddaily_v2_bullet_list_entry-2-5:bulletEntryPlainTe=
+xt
+
+
+
+
+
+
+
+
+
+        Andrew Cuomo was charged with a misdemeanor sex offense. The compla=
+int accuses the former New York governor of forcible touching in a 2020 inc=
+ident.
+ Reutershttps://apple.news/AaPQYpkhbQAm8V2UjWOjYyg?articleList=3DAuXx27TjFR=
+hqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80=
+a762bf1437&creative_id=3Ddaily_v2_summary_item-7:summaryPlainText
+
+
+
+
+
+        Facebook changed its name to Meta to reflect its focus on building =
+the metaverse. The social-media company=E2=80=99s rebrand comes as it faces=
+ intense scrutiny. The Vergehttps://apple.news/AvcE3ouFfRPqt08NHHQtW7g?arti=
+cleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6=
+c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_summary_item-2-8:summ=
+aryPlainText
+
+
+
+
+
+
+
+
+
+
+
+Best of Apple News+
+    Apple News+
+    A Mysterious Viking Raid in the Mediterranean
+
+    Artifacts are scarce, and sources are dubious. But we are beginning to =
+learn more about the fearsome invaders=E2=80=99 foray into southern Europe.
+    https://apple.news/PgcHT0HdfUtWqhRFjT72xXu?campaign_id=3DE101&campaign_=
+type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_cover_st=
+ory-3-12:coverStoryPlainText
+
+
+
+
+
+Listen Now
+
+        Apple News Today https://apple.news/PAD8P8iLk9Y6egTgxQ65Zhl?campaig=
+n_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_i=
+d=3Ddaily_v2_more_stories_entry_with_image-15:moreStoryWithImagePlainText
+
+
+
+
+
+
+
+
+Five Stories We=E2=80=99re Talking About
+
+        STAT https://apple.news/AnbdeMLOjQcC84SjqEcsk7Q?articleList=3DAuXx2=
+7TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d7=
+46-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-2-18:m=
+oreStoryWithImagePlainText
+
+
+        CNN https://apple.news/A0AOIZTnkSC-z5hAr1GuCNQ?articleList=3DAuXx27=
+TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d74=
+6-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-3-19:mo=
+reStoryWithImagePlainText
+
+
+        NBC News https://apple.news/AUmZOFY8uRhiB2eWwQGokSg?articleList=3DA=
+uXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad=
+6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-4-=
+20:moreStoryWithImagePlainText
+
+
+        Apple News+
+        In Italy, old towns eager for new residents are selling homes for a=
+bout $1.
+        Los Angeles Times https://apple.news/Av3I9uqkpQLePBOIJfU1ShA?articl=
+eList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5=
+-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with=
+_image-5-21:moreStoryWithImagePlainText
+
+
+        The Wall Street Journal https://apple.news/AHaOZAxm3Q-CB00ltsdR2BQ?=
+articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb=
+4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entr=
+y_with_image-6-22:moreStoryWithImagePlainText
+
+
+
+
+
+
+
+
+Read Local
+
+        The Charlotte Observer https://apple.news/A_NrY-rgdQ_qNUplTepvBCw?a=
+rticleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4=
+da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry=
+_with_image-7-25:moreStoryWithImagePlainText
+
+
+        Apple News+ Audio
+        Why Eric Adams is poised to be the most powerful New York City mayo=
+r in decades.
+        New York Magazine https://apple.news/PgdW2NFbvJMvyvT9v0tyz6b?campai=
+gn_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_=
+id=3Ddaily_v2_more_stories_entry_with_image-8-26:moreStoryWithImagePlainTex=
+t
+
+
+        The San Diego Union-Tribune https://apple.news/AIMCD9iS1QqmAFL1S7VY=
+8bg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=
+=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories=
+_entry_with_image-9-27:moreStoryWithImagePlainText
+
+
+
+
+
+
+
+
+The Last Word
+
+     =E2=80=9CI am too amused to do anything about it.=E2=80=9D
+   =20
+
+    A photo of The Office star B.J. Novak was accidentally deemed public do=
+main. Now his face is printed on household products around the world.=20
+    BuzzFeed https://apple.news/Arm3hrkIRS_KvtNw4vqeAIQ?articleList=3DAuXx2=
+7TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d7=
+46-80a762bf1437&creative_id=3Ddaily_quote_with_image-29:quoteWithImagePlain=
+Text
+
+
+Like what you=E2=80=99re seeing here?
+Follow @AppleNews on Instagram.
+
+https://www.instagram.com/applenews/?itscg=3Dnws34&itsct=3DAA002410
+
+
+
+Advertisement
+Try Apple News+ For Free
+https://apple.news/subscription?itscg=3D10200&itsct=3DNewsPerspective21Cost=
+&campaign_id=3Dbanner_email_10200_NewsPerspective21Cost
+
+
+
+Copyright (c) 2021 Apple Inc. One Apple Park Way, Cupertino, California 950=
+14 USA
+
+Privacy Policy
+https://www.apple.com/privacy/
+
+Terms and Conditions
+http://images.apple.com/legal/sla/docs/iOS91.pdf
+
+Support
+https://support.apple.com/itunes
+
+Account
+https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/accountSummary?app=
+=3Ditunes&ls=3D1
+
+Unsubscribe
+https://mynews.apple.com/subscriptions?v=3D2&la=3DEN_US&a=3DNB7Qgfsk6g9uMLB=
+8D9iaJx7zmlNBdvZ6A88vOwxkbNu%2BhShHJk%2BQYP5tZjbZnomQo5wrHjxm%2FxFI4q0%2FmI=
+rq%2FIAU4fnD3AsoU%2BxgpxHkdDP5aMUkSG8XANZX0SY2uZaA4P17i8u%2BPiWq1010LNTgIHL=
+8bYRqT4ykepgYM1rKX0ySfeoTFlt%2B7Yu6qPNnoGiviahTRe3nx8pfYo%2BCWpISZhGSvQNcmt=
+F7IxlOzVlZf9EenYMMSUPpk8T%2FHyS9wf6T
+------=_Part_21216255_535968287.1635510443911
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.=
+w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html lang=3D"en" xmlns=3D"ht=
+tp://www.w3.org/1999/xhtml" class=3D"apple-mail-implicit-dark-support" styl=
+e=3D"-apple-color-filter: none; color-scheme: light dark;"><head><title>Her=
+e&rsquo;s what you need to know.</title><meta name=3D"viewport" content=3D"=
+width=3Ddevice-width, initial-scale=3D1"><meta http-equiv=3D"content-type" =
+content=3D"text/html;charset=3Dutf-8"><meta name=3D"color-scheme" content=
+=3D"light dark"><style type=3D"text/css">@media only screen and (min-width:=
+ 481px) {.a { display: none !important } .b { display: block !important } }=
+ @media only screen and (max-width: 480px) {.a { display: block !important =
+} .b { display: none !important } }</style></head><body class=3D"ad" style=
+=3D"-webkit-font-smoothing: antialiased; background: #DFDFDF; font-family: =
+-apple-system-body,'Helvetica Neue',sans-serif; margin: 0 auto; padding: 0;=
+ text-align: center; width: 700px;"><div class=3D"ae" style=3D"display: non=
+e; overflow: hidden;">Here&rsquo;s what you need to know. &nbsp;&zwnj;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp=
+;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&nbsp;&z=
+wnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&n=
+bsp;&zwnj;&nbsp;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj=
+;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;</div><!--[if (gte mso 9)|(IE)]><div c=
+lass=3D"ag" style=3D"background: #dfdfdf; text-align: center;"><table class=
+=3D"ah" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separ=
+ate; text-align: center; width: 700px;"><tbody><tr><td class=3D"ai" style=
+=3D"width: 700px;"><![endif]--> <!--[if !mso]><!-- --><div class=3D"af" sty=
+le=3D"box-sizing: border-box; display: block; height: auto; line-height: 10=
+0%; margin: 0 auto; max-height: none; max-width: none; overflow: visible; t=
+ext-align: center; width: 700px;"><!--<![endif]-->  <!--[if !mso]><!-- --><=
+div class=3D"an" style=3D"-apple-color-filter: none; background: #ff2d55; c=
+olor-scheme: light dark; margin: 0 auto; max-width: 700px; text-align: cent=
+er; width: auto;"><div class=3D"ao" style=3D"margin: 0 20px;"><div class=3D=
+"ap" style=3D"text-align: left;"><div class=3D"aq" style=3D"padding: 30px 0=
+ 5px; vertical-align: top; width: 30px;"><img src=3D"https://c.apple.news/A=
+gEkOTNjMzAwZjItYWIwNC00NGY2LThjMDAtNTQwZGFmODgxZTIzADE3" alt=3D"Apple News+=
+" style=3D"margin: 0 !important; width: 30px;"></div><div class=3D"as" styl=
+e=3D"padding: 5px 0 10px;"><p class=3D"e x am" style=3D"color: #fff; font-f=
+amily: SFProDisplayHeavy,'Helvetica Neue',sans-serif; font-size: 30px; font=
+-synthesis: none; letter-spacing: -1.5px; line-height: 32px; margin: 0; pad=
+ding: 0;">Good Morning<br>From Apple News</p><p class=3D"at f x" style=3D"c=
+olor: #fff; font-family: SFProDisplaySemiBold,'Helvetica Neue',sans-serif; =
+font-size: 14px; font-synthesis: none; line-height: 16px; margin: 0; paddin=
+g: 10px 0 17px;">It&rsquo;s Friday, October 29.<br>Here&rsquo;s what you ne=
+ed to know.</p><p class=3D"e y am" style=3D"color: #fff; display: none; fon=
+t-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif; font-size: 30px; f=
+ont-synthesis: none; letter-spacing: -1.5px; line-height: 32px; margin: 0; =
+padding: 0;">Good Morning From Apple News</p><p class=3D"at f y" style=3D"c=
+olor: #fff; display: none; font-family: SFProDisplaySemiBold,'Helvetica Neu=
+e',sans-serif; font-size: 14px; font-synthesis: none; line-height: 16px; ma=
+rgin: 0; padding: 10px 0 17px;">It&rsquo;s Friday, October 29. Here&rsquo;s=
+ what you need to know.</p><p class=3D"e w am" style=3D"color: #fff; displa=
+y: none; font-family: SFProDisplayHeavy,'Helvetica Neue',sans-serif; font-s=
+ize: 30px; font-synthesis: none; letter-spacing: -1.5px; line-height: 32px;=
+ margin: 0; padding: 0;">Good Morning From Apple News</p><p class=3D"at f w=
+" style=3D"color: #fff; display: none; font-family: SFProDisplaySemiBold,'H=
+elvetica Neue',sans-serif; font-size: 14px; font-synthesis: none; line-heig=
+ht: 16px; margin: 0; padding: 10px 0 17px;">It&rsquo;s Friday, October 29. =
+Here&rsquo;s what you need to know.</p></div></div></div></div><!--<![endif=
+]--> <!--[if (gte mso 9)|(IE)]><table class=3D"au" cellspacing=3D"0" cellpa=
+dding=3D"0" style=3D"-apple-color-filter: none; background: #ff2d55; border=
+-collapse: separate; color-scheme: light dark; text-align: left; width: 660=
+px;"><tbody><tr><td class=3D"av" style=3D"padding: 20px 20px 5px; vertical-=
+align: top; width: 30px;"><img width=3D"30" src=3D"https://c.apple.news/AgE=
+kOTNjMzAwZjItYWIwNC00NGY2LThjMDAtNTQwZGFmODgxZTIzADE3" alt=3D"Apple News+" =
+style=3D"border: 0; display: block; text-align: left; width: 30px;"></td></=
+tr><tr><td class=3D"aw" style=3D"padding: 0 20px; text-align: left; vertica=
+l-align: top; width: 100%;"><span style=3D"color: #fff; font-size: 30px; fo=
+nt-weight: 900; line-height: 20px;">Good Morning From Apple News</span></td=
+></tr><tr><td class=3D"ax" style=3D"padding: 9px 20px; text-align: left; ve=
+rtical-align: top; width: 100%;"><span style=3D"color: #fff; font-size: 15p=
+x; line-height: 17px;">It&rsquo;s Friday, October 29. Here&rsquo;s what you=
+ need to know.</span></td></tr></tbody></table><![endif]-->  <!--[if !mso]>=
+<!-- --><div class=3D"bq" style=3D"-apple-color-filter: none; background: #=
+f0f1f2; color-scheme: light dark;"><div class=3D"bu" style=3D"background: 0=
+ 0; margin: 0 20px; padding: 0;"><div class=3D"br" style=3D"background: #ff=
+f; padding: 0 20px 8px; width: auto;"><div class=3D"bw x" style=3D"border-b=
+ottom: 3px solid #ff3555; margin: 0 0 22px; padding: 23px 0 9px; text-align=
+: left;"><p class=3D"v ca" style=3D"color: #000; font-family: ProximaNovaBl=
+ack,'Helvetica Neue',sans-serif; font-size: 17px; font-synthesis: none; fon=
+t-weight: 700; line-height: 18px; margin: 0; padding: 0; text-transform: up=
+percase;">Top Stories</p></div><div class=3D"bx y" style=3D"border-bottom: =
+3px solid #ff3555; display: none; margin: 0 0 19px; padding: 52px 0 11px; t=
+ext-align: left;"><p class=3D"v ca" style=3D"color: #000; font-family: Prox=
+imaNovaBlack,'Helvetica Neue',sans-serif; font-size: 17px; font-synthesis: =
+none; font-weight: 700; line-height: 18px; margin: 0; padding: 0; text-tran=
+sform: uppercase;">Top Stories</p></div><div class=3D"bx w" style=3D"border=
+-bottom: 3px solid #ff3555; display: none; margin: 0 0 19px; padding: 52px =
+0 11px; text-align: left;"><p class=3D"v ca" style=3D"color: #000; font-fam=
+ily: ProximaNovaBlack,'Helvetica Neue',sans-serif; font-size: 17px; font-sy=
+nthesis: none; font-weight: 700; line-height: 18px; margin: 0; padding: 0; =
+text-transform: uppercase;">Top Stories</p></div><div class=3D"bt t" style=
+=3D"color: #000; font-family: PracticeDisplayBlack,'Helvetica Neue',sans-se=
+rif; font-size: 27px; font-synthesis: none; line-height: 27px; padding: 0 0=
+ 5px; text-align: left; text-decoration: none;">High stakes for Biden, at h=
+ome and abroad</div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=
+=3D"cd" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #f0f1f2; w=
+idth: 660px;"><tbody><tr><td><table class=3D"ce" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"background: #fff; margin: 20px; text-align: center; widt=
+h: 620px;"><tbody><tr><td><table class=3D"cf" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"border-collapse: separate; text-align: left; width: 580px;"=
+><tbody><tr><td class=3D"cg" style=3D"margin: 0 0 20px 0; padding: 20px 0;"=
+><table cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"ch" sty=
+le=3D"border-bottom: 3px solid #ff3555; color: #000; font-size: 17px; font-=
+weight: 700; line-height: 18px; padding: 0 0 8px 0; text-transform: upperca=
+se; width: 580px;">Top Stories</td></tr></tbody></table></td></tr><tr><td c=
+lass=3D"cl" style=3D"color: #000; font-size: 27px; line-height: 27px; paddi=
+ng: 0 0 10px; text-decoration: none;">High stakes for Biden, at home and ab=
+road</td></tr><tr><td><![endif]--> <!--[if !mso]><!-- --><div class=3D"ba" =
+style=3D"-apple-color-filter: none; color-scheme: light dark; margin: auto;=
+ padding: 5px 0 10px; text-align: left; width: 100%;"><div class=3D"bd" sty=
+le=3D"padding: 0 0 4px;"><div class=3D"bf l" style=3D"color: #000; font-fam=
+ily: PracticeBook,'Helvetica Neue',sans-serif; font-size: 16px; font-synthe=
+sis: none; line-height: 21px; text-decoration: none;"><a href=3D"https://ap=
+ple.news/A0EFclBMzQ1Cf0GE81epRbQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&camp=
+aign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creativ=
+e_id=3Ddaily_v2_bullet_list_entry-4:bulletEntry" style=3D"color: #000; text=
+-decoration: none;">The president pared back his spending priorities in a b=
+id to unify Democrats. The new proposal includes universal pre-kindergarten=
+ and funding for climate programs &mdash; but not paid family leave. Here&r=
+squo;s what to know.<div class=3D"bb u" style=3D"color: #7c7c7c; font-famil=
+y: ProximaNovaBold,'Helvetica Neue',sans-serif; font-size: 12px; font-synth=
+esis: none; font-weight: 700; letter-spacing: .6px; line-height: 12px; padd=
+ing-top: 10px; text-align: left; text-decoration: none; text-transform: upp=
+ercase; width: 100%;">Vox <img class=3D"bc z" alt=3D"arrow" src=3D"https://=
+c.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" styl=
+e=3D"height: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-=
+align: middle; width: auto;"><img class=3D"aa bc" style=3D"display: none; h=
+eight: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align:=
+ middle; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiOD=
+ljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></a></div></div></div=
+><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"bi" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; border-collaps=
+e: separate; color-scheme: light dark; margin: 0; padding: 0; text-align: l=
+eft; width: 580px;"><tbody><tr><td class=3D"bj" style=3D"font-size: 16px; l=
+ine-height: 21px; padding: 0 0 5px 5px;"><a href=3D"https://apple.news/A0EF=
+clBMzQ1Cf0GE81epRbQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE10=
+1&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_=
+v2_bullet_list_entry-4:bulletEntryMSO" style=3D"color: #000; text-decoratio=
+n: none;">The president pared back his spending priorities in a bid to unif=
+y Democrats. The new proposal includes universal pre-kindergarten and fundi=
+ng for climate programs &mdash; but not paid family leave. Here&rsquo;s wha=
+t to know.</a></td></tr><tr><td class=3D"bn" style=3D"color: #979797; margi=
+n: 0; padding: 0 0 15px 5px; text-align: left;"><a href=3D"https://apple.ne=
+ws/A0EFclBMzQ1Cf0GE81epRbQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_i=
+d=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=
+=3Ddaily_v2_bullet_list_entry-4:bulletEntryMSO" style=3D"color: #000; text-=
+decoration: none;"><span style=3D"color: #979797; font-size: 12px; font-wei=
+ght: 700; line-height: 12px; text-align: left; text-decoration: none; text-=
+transform: uppercase;">Vox</span> <img class=3D"bo" height=3D"10" src=3D"ht=
+tps://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3=
+" \ style=3D"height: 10px; margin: 0; vertical-align: middle; width: auto;"=
+></a></td></tr></tbody></table><![endif]--> <!--[if !mso]><!-- --><div clas=
+s=3D"ba" style=3D"-apple-color-filter: none; color-scheme: light dark; marg=
+in: auto; padding: 5px 0 10px; text-align: left; width: 100%;"><div class=
+=3D"bd" style=3D"padding: 0 0 4px;"><div class=3D"bf l" style=3D"color: #00=
+0; font-family: PracticeBook,'Helvetica Neue',sans-serif; font-size: 16px; =
+font-synthesis: none; line-height: 21px; text-decoration: none;"><a href=3D=
+"https://apple.news/As11VZrpSQsqQ4jNtoZWAng?articleList=3DAuXx27TjFRhqWtUfd=
+H0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1=
+437&creative_id=3Ddaily_v2_bullet_list_entry-2-5:bulletEntry" style=3D"colo=
+r: #000; text-decoration: none;">Meanwhile, Biden arrived in Europe ahead o=
+f the highly anticipated COP26 climate summit. He will also meet with G20 l=
+eaders.<div class=3D"bb u" style=3D"color: #7c7c7c; font-family: ProximaNov=
+aBold,'Helvetica Neue',sans-serif; font-size: 12px; font-synthesis: none; f=
+ont-weight: 700; letter-spacing: .6px; line-height: 12px; padding-top: 10px=
+; text-align: left; text-decoration: none; text-transform: uppercase; width=
+: 100%;">The Guardian <img class=3D"bc z" alt=3D"arrow" src=3D"https://c.ap=
+ple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D=
+"height: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-alig=
+n: middle; width: auto;"><img class=3D"aa bc" style=3D"display: none; heigh=
+t: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align: mid=
+dle; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODljOW=
+MtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></a></div></div></div><!-=
+-<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"bi" cellspacing=3D"=
+0" cellpadding=3D"0" style=3D"-apple-color-filter: none; border-collapse: s=
+eparate; color-scheme: light dark; margin: 0; padding: 0; text-align: left;=
+ width: 580px;"><tbody><tr><td class=3D"bj" style=3D"font-size: 16px; line-=
+height: 21px; padding: 0 0 5px 5px;"><a href=3D"https://apple.news/As11VZrp=
+SQsqQ4jNtoZWAng?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&ca=
+mpaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_b=
+ullet_list_entry-2-5:bulletEntryMSO" style=3D"color: #000; text-decoration:=
+ none;">Meanwhile, Biden arrived in Europe ahead of the highly anticipated =
+COP26 climate summit. He will also meet with G20 leaders.</a></td></tr><tr>=
+<td class=3D"bn" style=3D"color: #979797; margin: 0; padding: 0 0 15px 5px;=
+ text-align: left;"><a href=3D"https://apple.news/As11VZrpSQsqQ4jNtoZWAng?a=
+rticleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4=
+da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_bullet_list_entry-=
+2-5:bulletEntryMSO" style=3D"color: #000; text-decoration: none;"><span sty=
+le=3D"color: #979797; font-size: 12px; font-weight: 700; line-height: 12px;=
+ text-align: left; text-decoration: none; text-transform: uppercase;">The G=
+uardian</span> <img class=3D"bo" height=3D"10" src=3D"https://c.apple.news/=
+AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"height=
+: 10px; margin: 0; vertical-align: middle; width: auto;"></a></td></tr></tb=
+ody></table><![endif]--> <!--[if (gte mso 9)|(IE)]></td></tr><tr><td class=
+=3D"ck" style=3D"border-top: 1px solid #a7a5a5; margin: 4px 0 20px;"></td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><![=
+endif]--> <!--[if !mso]><!-- --><div class=3D"cc" style=3D"border-top: 1px =
+solid #a7a5a5; margin: 2px 0 0;"></div></div></div></div><!--<![endif]--> <=
+/div> <!--[if !mso]><!-- --><div class=3D"dc" style=3D"background: #f0f1f2;=
+"><div class=3D"df" style=3D"background: 0 0; margin: 0 20px; padding: 0;">=
+<div class=3D"de" style=3D"background: #fff; padding: 0 20px; width: auto;"=
+><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"dj" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"background: #f0f1f2; text-align: center; =
+width: 660px;"><tbody><tr><td><table class=3D"dk" cellspacing=3D"0" cellpad=
+ding=3D"0" style=3D"background: #fff; padding: 0 20px 0 20px; text-align: c=
+enter; width: 620px;"><tbody><tr><td><table class=3D"dl" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"border-collapse: separate; text-align: left;"><t=
+body><tr><td class=3D"dm" style=3D"padding: 0 0 15px;"><table cellspacing=
+=3D"0" cellpadding=3D"0"></table></td></tr></tbody></table><table class=3D"=
+dl" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate;=
+ text-align: left;"><tbody><tr><td><![endif]-->  <!--[if !mso]><!-- --><div=
+ class=3D"cm" style=3D"-apple-color-filter: none; color-scheme: light dark;=
+ margin: auto; padding: 19px 0 20px; text-align: left; width: auto;"><a cla=
+ss=3D"cn l" href=3D"https://apple.news/AaPQYpkhbQAm8V2UjWOjYyg?articleList=
+=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7=
+-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_summary_item-7:summary" styl=
+e=3D"color: #000; font-family: PracticeBook,'Helvetica Neue',sans-serif; fo=
+nt-size: 16px; font-synthesis: none; line-height: 23px; text-align: left; t=
+ext-decoration: none !important;"><strong>Andrew Cuomo was charged</strong>=
+ with a misdemeanor sex offense. The complaint accuses the former New York =
+governor of forcible touching in a 2020 incident. <div class=3D"cs u" style=
+=3D"color: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-seri=
+f; font-size: 12px; font-synthesis: none; font-weight: 700; letter-spacing:=
+ .6px; line-height: 12px; padding-top: 8px; text-align: left; text-decorati=
+on: none !important; text-transform: uppercase; width: 100%;">Reuters <img =
+class=3D"z cr" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZT=
+A2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; m=
+ax-height: 12px; min-height: 12px; vertical-align: middle; width: auto;"><i=
+mg class=3D"aa cr" style=3D"display: none; height: 12px; margin: 0; max-hei=
+ght: 12px; min-height: 12px; vertical-align: middle; width: auto;" alt=3D"a=
+rrow" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N=
+2NkOTYzZTFmADE3"></div></a></div><div class=3D"ct" style=3D"-apple-color-fi=
+lter: none; border-top: 1px solid #a7a5a5; color-scheme: light dark; margin=
+: 0 0 2px;"></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=
+=3D"cu" cellspacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: n=
+one; border-collapse: separate; color-scheme: light dark; padding-bottom: 2=
+0px; text-align: center;"><tbody><tr><td class=3D"cv" style=3D"color: #000;=
+ font-size: 16px; line-height: 22px; padding-bottom: 10px; text-align: left=
+; text-decoration: none;"><a href=3D"https://apple.news/AaPQYpkhbQAm8V2UjWO=
+jYyg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=
+=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_summary_item=
+-7:summaryMSO" style=3D"color: #000; text-decoration: none;"><strong>Andrew=
+ Cuomo was charged</strong> with a misdemeanor sex offense. The complaint a=
+ccuses the former New York governor of forcible touching in a 2020 incident=
+.</a></td></tr><tr><td class=3D"cz" style=3D"color: #7c7c7c; margin: 0; pad=
+ding: 0 0 15px; text-align: left;"><a href=3D"https://apple.news/AaPQYpkhbQ=
+Am8V2UjWOjYyg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&camp=
+aign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_sum=
+mary_item-7:summaryMSO" style=3D"color: #000; text-decoration: none;"><span=
+ style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-height: 1=
+2px; text-align: left; text-decoration: none; text-transform: uppercase;">R=
+euters</span> <img class=3D"da" height=3D"10" src=3D"https://c.apple.news/A=
+gEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"height:=
+ 10px; margin: 0; vertical-align: middle; width: auto;"></a></td></tr><tr><=
+td class=3D"db" style=3D"border-top: 1px solid #a7a5a5; margin: 4px 0 0;"><=
+/td></tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><div class=3D"=
+cm" style=3D"-apple-color-filter: none; color-scheme: light dark; margin: a=
+uto; padding: 19px 0 20px; text-align: left; width: auto;"><a class=3D"cn l=
+" href=3D"https://apple.news/AvcE3ouFfRPqt08NHHQtW7g?articleList=3DAuXx27Tj=
+FRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-=
+80a762bf1437&creative_id=3Ddaily_v2_summary_item-2-8:summary" style=3D"colo=
+r: #000; font-family: PracticeBook,'Helvetica Neue',sans-serif; font-size: =
+16px; font-synthesis: none; line-height: 23px; text-align: left; text-decor=
+ation: none !important;"><strong>Facebook changed its name to Meta</strong>=
+ to reflect its focus on building the metaverse. The social-media company&r=
+squo;s rebrand comes as it faces intense scrutiny. <div class=3D"cs u" styl=
+e=3D"color: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-ser=
+if; font-size: 12px; font-synthesis: none; font-weight: 700; letter-spacing=
+: .6px; line-height: 12px; padding-top: 8px; text-align: left; text-decorat=
+ion: none !important; text-transform: uppercase; width: 100%;">The Verge <i=
+mg class=3D"z cr" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzc=
+tZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0=
+; max-height: 12px; min-height: 12px; vertical-align: middle; width: auto;"=
+><img class=3D"aa cr" style=3D"display: none; height: 12px; margin: 0; max-=
+height: 12px; min-height: 12px; vertical-align: middle; width: auto;" alt=
+=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUt=
+YWY1N2NkOTYzZTFmADE3"></div></a></div><!--<![endif]--> <!--[if (gte mso 9)|=
+(IE)]><table class=3D"cu" cellspacing=3D"0" cellpadding=3D"0" style=3D"-app=
+le-color-filter: none; border-collapse: separate; color-scheme: light dark;=
+ padding-bottom: 20px; text-align: center;"><tbody><tr><td class=3D"cv" sty=
+le=3D"color: #000; font-size: 16px; line-height: 22px; padding-bottom: 10px=
+; text-align: left; text-decoration: none;"><a href=3D"https://apple.news/A=
+vcE3ouFfRPqt08NHHQtW7g?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3D=
+E101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddai=
+ly_v2_summary_item-2-8:summaryMSO" style=3D"color: #000; text-decoration: n=
+one;"><strong>Facebook changed its name to Meta</strong> to reflect its foc=
+us on building the metaverse. The social-media company&rsquo;s rebrand come=
+s as it faces intense scrutiny.</a></td></tr><tr><td class=3D"cz" style=3D"=
+color: #7c7c7c; margin: 0; padding: 0 0 15px; text-align: left;"><a href=3D=
+"https://apple.news/AvcE3ouFfRPqt08NHHQtW7g?articleList=3DAuXx27TjFRhqWtUfd=
+H0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1=
+437&creative_id=3Ddaily_v2_summary_item-2-8:summaryMSO" style=3D"color: #00=
+0; text-decoration: none;"><span style=3D"color: #7c7c7c; font-size: 12px; =
+font-weight: 700; line-height: 12px; text-align: left; text-decoration: non=
+e; text-transform: uppercase;">The Verge</span> <img class=3D"da" height=3D=
+"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYW=
+M3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: middle;=
+ width: auto;"></a></td></tr></tbody></table><![endif]-->  <!--[if (gte mso=
+ 9)|(IE)]></td></tr></tbody></table></td></tr></tbody></table></td></tr></t=
+body></table><![endif]--> <!--[if !mso]><!-- --></div></div></div><!--<![en=
+dif]--> <!--[if !mso]><!-- --><div class=3D"do" style=3D"-apple-color-filte=
+r: none; background: #f0f1f2; color-scheme: light dark;"><div class=3D"dq" =
+style=3D"background: transparent; margin: 0 20px; padding: 0;"><div class=
+=3D"dp" style=3D"background: #fff; padding: 0 20px 8px; width: auto;"><div =
+class=3D"c" style=3D"background-image: url('https://c.apple.news/AgEkNGVlYj=
+lhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3'); background-repeat: repeat=
+-x; background-size: auto 5px; padding: 0 0 25px;"></div></div></div></div>=
+<!--<![endif]--><style style=3D"-apple-color-filter: none; color-scheme: li=
+ght dark;">.c { background-image: url(https://c.apple.news/AgEkNGVlYjlhZjAt=
+MzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3); background-size: auto 5px; backg=
+round-repeat: repeat-x; padding: 0 0 5px }</style><!--[if (gte mso 9)|(IE)]=
+><table class=3D"dr" cellspacing=3D"0" cellpadding=3D"0" style=3D"-apple-co=
+lor-filter: none; background: #f0f1f2; color-scheme: light dark; width: 660=
+px;"><tbody><tr><td><table class=3D"ds" cellspacing=3D"0" cellpadding=3D"0"=
+ style=3D"background: #fff; margin: 0 20px; padding: 10px 0 20px; text-alig=
+n: center; width: 620px;"><tbody><tr><td><img src=3D"https://c.apple.news/A=
+gEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3" width=3D"580" heig=
+ht=3D"5"></td></tr></tbody></table></td></tr></tbody></table><![endif]-->  =
+     <!--[if !mso]><!-- --><div class=3D"dt" style=3D"background: #f0f1f2;"=
+><div class=3D"dw" style=3D"background: 0 0; margin: 0 20px; padding: 0;"><=
+div class=3D"dv" style=3D"background: #fff; padding: 0 20px 14px; width: au=
+to;"><div class=3D"el x" style=3D"border-bottom: 3px solid #ff3555; margin:=
+ 0 0 20px; padding: 0 0 9px; text-align: left;"><p class=3D"dx v" style=3D"=
+color: #000; font-family: ProximaNovaBlack,'Helvetica Neue',sans-serif; fon=
+t-size: 17px; font-synthesis: none; font-weight: 700; letter-spacing: .6px;=
+ line-height: 18px; margin: 0; padding: 0; text-transform: uppercase;">Best=
+ of Apple News+</p></div><div class=3D"em y" style=3D"border-bottom: 3px so=
+lid #ff3555; display: none; margin: 0 0 20px; padding: 0 0 9px; text-align:=
+ left;"><p class=3D"dx v" style=3D"color: #000; font-family: ProximaNovaBla=
+ck,'Helvetica Neue',sans-serif; font-size: 17px; font-synthesis: none; font=
+-weight: 700; letter-spacing: .6px; line-height: 18px; margin: 0; padding: =
+0; text-transform: uppercase;">Best of Apple News+</p></div><div class=3D"w=
+ em" style=3D"border-bottom: 3px solid #ff3555; display: none; margin: 0 0 =
+20px; padding: 0 0 9px; text-align: left;"><p class=3D"dx v" style=3D"color=
+: #000; font-family: ProximaNovaBlack,'Helvetica Neue',sans-serif; font-siz=
+e: 17px; font-synthesis: none; font-weight: 700; letter-spacing: .6px; line=
+-height: 18px; margin: 0; padding: 0; text-transform: uppercase;">Best of A=
+pple News+</p></div><a class=3D"ei" href=3D"https://apple.news/PgcHT0HdfUtW=
+qhRFjT72xXu?campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a7=
+62bf1437&creative_id=3Ddaily_v2_cover_story-3-12:coverStory" style=3D"color=
+: #000; text-decoration: none;"><div class=3D"dy" style=3D"width: 100%;"><i=
+mg src=3D"https://c.apple.news/AgEkMWZhMzJmNmItNjU4YS00ODRkLWEzMmItYjkyYjU2=
+Y2I4M2ViADE3" alt=3D"Article Image" style=3D"margin: 0 !important; width: 1=
+00%;"></div> <div class=3D"dz" style=3D"padding: 20px 0 5px; text-align: le=
+ft;"><img src=3D"https://c.apple.news/AgEkYTU2NTFjNTUtNmFmMS00YTIzLWE0MTQtO=
+DM4MzNiOTQxN2JjADE3" alt=3D"Apple News+" style=3D"height: 15px; margin: 0 !=
+important; max-height: 15px; width: auto;"></div> <div class=3D"ec" style=
+=3D"padding: 5px 0 10px; text-align: left; text-decoration: none;"><p class=
+=3D"k" style=3D"color: #000; font-family: DrukTextMedium,'Helvetica Neue',s=
+ans-serif; font-size: 36px; font-synthesis: none; font-weight: 700; line-he=
+ight: 36px; margin: 0; padding: 0; text-decoration: none; text-transform: n=
+one !important;">A Mysterious Viking Raid in the Mediterranean</p></div> <d=
+iv class=3D"ed" style=3D"padding: 0 0 8px; text-align: left;"><div class=3D=
+"ee l" style=3D"color: #000; font-family: PracticeBook,'Helvetica Neue',san=
+s-serif; font-size: 16px; font-synthesis: none; line-height: 19px; margin: =
+0; padding: 0; text-decoration: none;">Artifacts are scarce, and sources ar=
+e dubious. But we are beginning to learn more about the fearsome invaders&r=
+squo; foray into southern Europe.</div><div class=3D"eg u" style=3D"color: =
+#7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-serif; font-siz=
+e: 12px; font-synthesis: none; font-weight: 700; letter-spacing: .6px; line=
+-height: 12px; padding: 10px 0 0; text-align: left; text-decoration: none; =
+text-transform: uppercase; width: 100%;">National Geographic History <img c=
+lass=3D"eh z" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA=
+2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; ma=
+x-height: 12px; min-height: 12px; vertical-align: middle; width: auto;"><im=
+g class=3D"aa eh" style=3D"display: none; height: 12px; margin: 0; max-heig=
+ht: 12px; min-height: 12px; vertical-align: middle; width: auto;" alt=3D"ar=
+row" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2=
+NkOTYzZTFmADE3"></div></div></a> <!--<![endif]--> <!--[if (gte mso 9)|(IE)]=
+><table class=3D"ep" cellspacing=3D"0" cellpadding=3D"0" style=3D"backgroun=
+d: #f0f1f2; text-align: left; width: 660px;"><tbody><tr><td><table class=3D=
+"eq" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; margin:=
+ 0 20px; text-align: center; width: 620px;"><tbody><tr><td><table class=3D"=
+er" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate;=
+ text-align: left; width: 580px;"><tbody><tr><td class=3D"es" style=3D"marg=
+in: 0 0 20px; padding: 0 0 20px;"><table cellspacing=3D"0" cellpadding=3D"0=
+"><tbody><tr><td class=3D"eu" style=3D"border-bottom: 3px solid #ff3555; co=
+lor: #000; font-size: 17px; font-weight: 700; line-height: 18px; padding: 0=
+ 0 8px; text-transform: uppercase; width: 580px;">Best of Apple News+</td><=
+/tr></tbody></table></td></tr><tr><td class=3D"ew" style=3D"padding: 0 0 20=
+px;"><img width=3D"580" src=3D"https://c.apple.news/AgEkMWZhMzJmNmItNjU4YS0=
+0ODRkLWEzMmItYjkyYjU2Y2I4M2ViADE3" alt=3D"Article Image"></td></tr><tr><td =
+class=3D"ex" style=3D"padding: 0 0 10px; text-align: left;"><img height=3D"=
+15" src=3D"https://c.apple.news/AgEkYTU2NTFjNTUtNmFmMS00YTIzLWE0MTQtODM4MzN=
+iOTQxN2JjADE3" alt=3D"Apple News+"></td></tr><tr><td class=3D"ey" style=3D"=
+padding: 0 0 10px; text-align: left;"><span class=3D"ez" style=3D"font-size=
+: 36px; font-weight: 700; line-height: 36px;">A Mysterious Viking Raid in t=
+he Mediterranean</span></td></tr><tr><td class=3D"fa" style=3D"padding: 0 0=
+ 10px; text-align: left; text-decoration: none;"><a href=3D"https://apple.n=
+ews/PgcHT0HdfUtWqhRFjT72xXu?campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce=
+7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_cover_story-3-12:coverStory=
+MSO" style=3D"color: #000; text-decoration: none;"><span class=3D"fc" style=
+=3D"color: #000; font-size: 15px; line-height: 19px; padding: 0 0 10px; tex=
+t-align: left; text-decoration: none;">Artifacts are scarce, and sources ar=
+e dubious. But we are beginning to learn more about the fearsome invaders&r=
+squo; foray into southern Europe.</span></a></td></tr><tr><td class=3D"fd" =
+style=3D"color: #7c7c7c; margin: 0; padding: 0 0 15px; text-align: left;"><=
+a href=3D"https://apple.news/PgcHT0HdfUtWqhRFjT72xXu?campaign_id=3DE101&cam=
+paign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_co=
+ver_story-3-12:coverStoryMSO" style=3D"color: #000; text-decoration: none;"=
+><span style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-hei=
+ght: 12px; text-align: left; text-decoration: none; text-transform: upperca=
+se;">National Geographic History</span> <img class=3D"fe" height=3D"10" src=
+=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNz=
+c5ADE3" style=3D"height: 10px; margin: 0; vertical-align: middle; width: au=
+to;"></a></td></tr></tbody></table><table class=3D"mso_daily_email_cover_st=
+ory_entry_with_image_content" cellspacing=3D"0" cellpadding=3D"0"><tbody><t=
+r><td><![endif]--> <!--[if (gte mso 9)|(IE)]></td></tr></tbody></table></td=
+></tr></tbody></table></td></tr></tbody></table><![endif]--> <!--[if !mso]>=
+<!-- --></div></div></div><!--<![endif]-->  <!--[if !mso]><!-- --><div clas=
+s=3D"do" style=3D"-apple-color-filter: none; background: #f0f1f2; color-sch=
+eme: light dark;"><div class=3D"dq" style=3D"background: transparent; margi=
+n: 0 20px; padding: 0;"><div class=3D"dp" style=3D"background: #fff; paddin=
+g: 0 20px 8px; width: auto;"><div class=3D"c" style=3D"background-image: ur=
+l('https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWU=
+wADE3'); background-repeat: repeat-x; background-size: auto 5px; padding: 0=
+ 0 25px;"></div></div></div></div><!--<![endif]--><style style=3D"-apple-co=
+lor-filter: none; color-scheme: light dark;">.c { background-image: url(htt=
+ps://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3)=
+; background-size: auto 5px; background-repeat: repeat-x; padding: 0 0 5px =
+}</style><!--[if (gte mso 9)|(IE)]><table class=3D"dr" cellspacing=3D"0" ce=
+llpadding=3D"0" style=3D"-apple-color-filter: none; background: #f0f1f2; co=
+lor-scheme: light dark; width: 660px;"><tbody><tr><td><table class=3D"ds" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; margin: 0 20p=
+x; padding: 10px 0 20px; text-align: center; width: 620px;"><tbody><tr><td>=
+<img src=3D"https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZj=
+ZhN2E1OWUwADE3" width=3D"580" height=3D"5"></td></tr></tbody></table></td><=
+/tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><div class=3D"gg" s=
+tyle=3D"-apple-color-filter: none; background: #f0f1f2; color-scheme: light=
+ dark;"><div class=3D"gi" style=3D"background: 0 0; margin: 0 20px; padding=
+: 0;"><div class=3D"gh" style=3D"background: #fff; padding: 0 20px 14px; wi=
+dth: auto;"><div class=3D"gj" style=3D"border-bottom: 3px solid #ff3555; ma=
+rgin-bottom: 20px; padding: 0 0 8px; text-align: left;"><p class=3D"gk v" s=
+tyle=3D"color: #000; font-family: ProximaNovaBlack,'Helvetica Neue',sans-se=
+rif; font-size: 17px; font-synthesis: none; font-weight: 700; letter-spacin=
+g: .6px; line-height: 18px; margin: 0; padding: 0; text-transform: uppercas=
+e;">Listen Now</p></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table c=
+lass=3D"gl" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #f0f1f=
+2; width: 660px;"><tbody><tr><td><table class=3D"gm" cellspacing=3D"0" cell=
+padding=3D"0" style=3D"background: #fff; margin: 0 20px; text-align: center=
+; width: 620px;"><tbody><tr><td><table class=3D"gn" cellspacing=3D"0" cellp=
+adding=3D"0" style=3D"border-collapse: separate; text-align: left; width: 5=
+80px;"><tbody><tr><td class=3D"go" style=3D"margin: 0 0 20px; padding: 0 0 =
+20px;"><table cellspacing=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"g=
+p" style=3D"border-bottom: 3px solid #ff3555; color: #000; font-size: 17px;=
+ font-weight: 700; line-height: 18px; padding: 0 0 8px; text-transform: upp=
+ercase; width: 580px;">Listen Now</td></tr></tbody></table></td></tr></tbod=
+y></table><table class=3D"gn" cellspacing=3D"0" cellpadding=3D"0" style=3D"=
+border-collapse: separate; text-align: left; width: 580px;"><tbody><tr><td>=
+<![endif]--> <!--[if !mso]><!-- --><div class=3D"ff" style=3D"-apple-color-=
+filter: none; color-scheme: light dark; display: table; margin: auto; paddi=
+ng-bottom: 10px; text-align: left; width: 100%;"><a class=3D"fq" href=3D"ht=
+tps://apple.news/AlhZ56QxgTge6Y9kLi8P8DA?articleList=3DAuXx27TjFRhqWtUfdH0T=
+Hcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437=
+&creative_id=3Ddaily_v2_more_stories_entry_with_image-15:moreStoryWithImage=
+Entry" style=3D"color: #000; text-decoration: none;"><div class=3D"fh" styl=
+e=3D"box-sizing: border-box; display: table-cell; float: left; font-size: 5=
+0px; line-height: 12px; padding: 0 28px 0 0; width: 40%;"><img src=3D"https=
+://c.apple.news/AgEkNWJkN2VhMzAtZGNmYi00NTUwLWJlMjEtYWRmMGYwZGE4MmM0ADE3" s=
+tyle=3D"margin: 0 !important; width: 100%;"></div> <div><div class=3D"fi" s=
+tyle=3D"display: table-cell; vertical-align: top; width: 100%;"><div class=
+=3D"fl l" style=3D"color: #000; font-family: PracticeBook,'Helvetica Neue',=
+sans-serif; font-size: 16px; font-synthesis: none; line-height: 18px; text-=
+align: left; text-decoration: none;">More on the upcoming climate summit, p=
+lus America&rsquo;s Halloween-skeleton arms race, on today&rsquo;s podcast.=
+</div><div class=3D"u fo" style=3D"color: #7c7c7c; font-family: ProximaNova=
+Bold,'Helvetica Neue',sans-serif; font-size: 12px; font-synthesis: none; fo=
+nt-weight: 700; letter-spacing: .6px; line-height: 12px; padding-top: 10px;=
+ text-align: left; text-decoration: none; text-transform: uppercase; width:=
+ 100%;">Apple News Today <img class=3D"fp z" alt=3D"arrow" src=3D"https://c=
+.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=
+=3D"height: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-a=
+lign: middle; width: auto;"><img class=3D"aa fp" style=3D"display: none; he=
+ight: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align: =
+middle; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODl=
+jOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></div></div></a></div>=
+<!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"fu" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; color-scheme: =
+light dark; padding: 0 0 20px;"><tbody><tr><td><table class=3D"fw" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text-align:=
+ left; width: 580px;"><tbody><tr><td width=3D"200" valign=3D"top" align=3D"=
+center" class=3D"fx" style=3D"vertical-align: top; width: 200px;"><a href=
+=3D"https://apple.news/AlhZ56QxgTge6Y9kLi8P8DA?articleList=3DAuXx27TjFRhqWt=
+UfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762=
+bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-15:moreStoryWit=
+hImageEntryMSO" style=3D"color: #000; text-decoration: none;"><img width=3D=
+"200" src=3D"https://c.apple.news/AgEkNWJkN2VhMzAtZGNmYi00NTUwLWJlMjEtYWRmM=
+GYwZGE4MmM0ADE3" style=3D"text-align: center; vertical-align: top; width: 2=
+00px;"></a></td><td valign=3D"top" class=3D"fz" style=3D"margin: 0; padding=
+: 0 0 0 40px; vertical-align: top; width: 100%;"><a href=3D"https://apple.n=
+ews/AlhZ56QxgTge6Y9kLi8P8DA?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_=
+id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=
+=3Ddaily_v2_more_stories_entry_with_image-15:moreStoryWithImageEntryMSO" st=
+yle=3D"color: #000; text-decoration: none;"><div class=3D"gc" style=3D"colo=
+r: #000; font-size: 15px; height: 100%; line-height: 16px; margin: 0 0 10px=
+; padding: 0 0 0; text-align: left; text-decoration: none; vertical-align: =
+bottom; width: 100%;">More on the upcoming climate summit, plus America&rsq=
+uo;s Halloween-skeleton arms race, on today&rsquo;s podcast.</div> <div cla=
+ss=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-=
+height: 12px; margin: 0; padding: 0 0 15px; text-align: left; text-decorati=
+on: none; text-transform: uppercase;">Apple News Today <img class=3D"gf" he=
+ight=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjU=
+tOGVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: =
+middle; width: auto;"></div></a></td></tr></tbody></table></td></tr></tbody=
+></table><![endif]--> <!--[if (gte mso 9)|(IE)]></td></tr></tbody></table><=
+/td></tr></tbody></table></td></tr></tbody></table><![endif]--> <!--[if !ms=
+o]><!-- --></div></div></div><!--<![endif]--> <!--[if !mso]><!-- --><div cl=
+ass=3D"do" style=3D"-apple-color-filter: none; background: #f0f1f2; color-s=
+cheme: light dark;"><div class=3D"dq" style=3D"background: transparent; mar=
+gin: 0 20px; padding: 0;"><div class=3D"dp" style=3D"background: #fff; padd=
+ing: 0 20px 8px; width: auto;"><div class=3D"c" style=3D"background-image: =
+url('https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1O=
+WUwADE3'); background-repeat: repeat-x; background-size: auto 5px; padding:=
+ 0 0 25px;"></div></div></div></div><!--<![endif]--><style style=3D"-apple-=
+color-filter: none; color-scheme: light dark;">.c { background-image: url(h=
+ttps://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE=
+3); background-size: auto 5px; background-repeat: repeat-x; padding: 0 0 5p=
+x }</style><!--[if (gte mso 9)|(IE)]><table class=3D"dr" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"-apple-color-filter: none; background: #f0f1f2; =
+color-scheme: light dark; width: 660px;"><tbody><tr><td><table class=3D"ds"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; margin: 0 2=
+0px; padding: 10px 0 20px; text-align: center; width: 620px;"><tbody><tr><t=
+d><img src=3D"https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYw=
+ZjZhN2E1OWUwADE3" width=3D"580" height=3D"5"></td></tr></tbody></table></td=
+></tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><div class=3D"gg"=
+ style=3D"-apple-color-filter: none; background: #f0f1f2; color-scheme: lig=
+ht dark;"><div class=3D"gi" style=3D"background: 0 0; margin: 0 20px; paddi=
+ng: 0;"><div class=3D"gh" style=3D"background: #fff; padding: 0 20px 14px; =
+width: auto;"><div class=3D"gj" style=3D"border-bottom: 3px solid #ff3555; =
+margin-bottom: 20px; padding: 0 0 8px; text-align: left;"><p class=3D"gk v"=
+ style=3D"color: #000; font-family: ProximaNovaBlack,'Helvetica Neue',sans-=
+serif; font-size: 17px; font-synthesis: none; font-weight: 700; letter-spac=
+ing: .6px; line-height: 18px; margin: 0; padding: 0; text-transform: upperc=
+ase;">Five Stories We&rsquo;re Talking About</p></div><!--<![endif]--> <!--=
+[if (gte mso 9)|(IE)]><table class=3D"gl" cellspacing=3D"0" cellpadding=3D"=
+0" style=3D"background: #f0f1f2; width: 660px;"><tbody><tr><td><table class=
+=3D"gm" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; marg=
+in: 0 20px; text-align: center; width: 620px;"><tbody><tr><td><table class=
+=3D"gn" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separ=
+ate; text-align: left; width: 580px;"><tbody><tr><td class=3D"go" style=3D"=
+margin: 0 0 20px; padding: 0 0 20px;"><table cellspacing=3D"0" cellpadding=
+=3D"0"><tbody><tr><td class=3D"gp" style=3D"border-bottom: 3px solid #ff355=
+5; color: #000; font-size: 17px; font-weight: 700; line-height: 18px; paddi=
+ng: 0 0 8px; text-transform: uppercase; width: 580px;">Five Stories We&rsqu=
+o;re Talking About</td></tr></tbody></table></td></tr></tbody></table><tabl=
+e class=3D"gn" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse=
+: separate; text-align: left; width: 580px;"><tbody><tr><td><![endif]--> <!=
+--[if !mso]><!-- --><div class=3D"ff" style=3D"-apple-color-filter: none; c=
+olor-scheme: light dark; display: table; margin: auto; padding-bottom: 10px=
+; text-align: left; width: 100%;"><a class=3D"fq" href=3D"https://apple.new=
+s/AnbdeMLOjQcC84SjqEcsk7Q?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=
+=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3D=
+daily_v2_more_stories_entry_with_image-2-18:moreStoryWithImageEntry" style=
+=3D"color: #000; text-decoration: none;"><div class=3D"fh" style=3D"box-siz=
+ing: border-box; display: table-cell; float: left; font-size: 50px; line-he=
+ight: 12px; padding: 0 28px 0 0; width: 40%;"><img src=3D"https://c.apple.n=
+ews/AgEkYjY3NTM2YWItMjM3ZS00ZWIyLWI2MmYtZmNkN2Q1MGM1ODQ5ADE3" style=3D"marg=
+in: 0 !important; width: 100%;"></div> <div><div class=3D"fi" style=3D"disp=
+lay: table-cell; vertical-align: top; width: 100%;"><div class=3D"fl l" sty=
+le=3D"color: #000; font-family: PracticeBook,'Helvetica Neue',sans-serif; f=
+ont-size: 16px; font-synthesis: none; line-height: 18px; text-align: left; =
+text-decoration: none;">What to know about the &ldquo;Delta plus&rdquo; cor=
+onavirus variant.</div><div class=3D"u fo" style=3D"color: #7c7c7c; font-fa=
+mily: ProximaNovaBold,'Helvetica Neue',sans-serif; font-size: 12px; font-sy=
+nthesis: none; font-weight: 700; letter-spacing: .6px; line-height: 12px; p=
+adding-top: 10px; text-align: left; text-decoration: none; text-transform: =
+uppercase; width: 100%;">STAT <img class=3D"fp z" alt=3D"arrow" src=3D"http=
+s://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" =
+style=3D"height: 12px; margin: 0; max-height: 12px; min-height: 12px; verti=
+cal-align: middle; width: auto;"><img class=3D"aa fp" style=3D"display: non=
+e; height: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-al=
+ign: middle; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYW=
+JiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></div></div></a><=
+/div><div class=3D"fg" style=3D"-apple-color-filter: none; border-bottom: 1=
+px solid #a7a5a5; color-scheme: light dark; margin: 5px 0 25px; padding: 10=
+px 0 0; text-align: right; width: 100%;"></div><!--<![endif]--> <!--[if (gt=
+e mso 9)|(IE)]><table class=3D"fu" cellspacing=3D"0" cellpadding=3D"0" styl=
+e=3D"-apple-color-filter: none; color-scheme: light dark; padding: 0 0 20px=
+;"><tbody><tr><td><table class=3D"fw" cellspacing=3D"0" cellpadding=3D"0" s=
+tyle=3D"border-collapse: separate; text-align: left; width: 580px;"><tbody>=
+<tr><td width=3D"200" valign=3D"top" align=3D"center" class=3D"fx" style=3D=
+"vertical-align: top; width: 200px;"><a href=3D"https://apple.news/AnbdeMLO=
+jQcC84SjqEcsk7Q?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&ca=
+mpaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_m=
+ore_stories_entry_with_image-2-18:moreStoryWithImageEntryMSO" style=3D"colo=
+r: #000; text-decoration: none;"><img width=3D"200" src=3D"https://c.apple.=
+news/AgEkYjY3NTM2YWItMjM3ZS00ZWIyLWI2MmYtZmNkN2Q1MGM1ODQ5ADE3" style=3D"tex=
+t-align: center; vertical-align: top; width: 200px;"></a></td><td valign=3D=
+"top" class=3D"fz" style=3D"margin: 0; padding: 0 0 0 40px; vertical-align:=
+ top; width: 100%;"><a href=3D"https://apple.news/AnbdeMLOjQcC84SjqEcsk7Q?a=
+rticleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4=
+da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry=
+_with_image-2-18:moreStoryWithImageEntryMSO" style=3D"color: #000; text-dec=
+oration: none;"><div class=3D"gc" style=3D"color: #000; font-size: 15px; he=
+ight: 100%; line-height: 16px; margin: 0 0 10px; padding: 0 0 0; text-align=
+: left; text-decoration: none; vertical-align: bottom; width: 100%;">What t=
+o know about the &ldquo;Delta plus&rdquo; coronavirus variant.</div> <div c=
+lass=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; lin=
+e-height: 12px; margin: 0; padding: 0 0 15px; text-align: left; text-decora=
+tion: none; text-transform: uppercase;">STAT <img class=3D"gf" height=3D"10=
+" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3N=
+jEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: middle; wi=
+dth: auto;"></div></a></td></tr><tr><td colspan=3D"2" class=3D"fv" style=3D=
+"border-bottom: 1px solid #a7a5a5; border-collapse: separate; padding: 0 0 =
+20px; text-align: left; width: 580px;"></td></tr></tbody></table></td></tr>=
+</tbody></table><![endif]--><!--[if !mso]><!-- --><div class=3D"ff" style=
+=3D"-apple-color-filter: none; color-scheme: light dark; display: table; ma=
+rgin: auto; padding-bottom: 10px; text-align: left; width: 100%;"><a class=
+=3D"fq" href=3D"https://apple.news/A0AOIZTnkSC-z5hAr1GuCNQ?articleList=3DAu=
+Xx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6=
+-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-3-1=
+9:moreStoryWithImageEntry" style=3D"color: #000; text-decoration: none;"><d=
+iv class=3D"fh" style=3D"box-sizing: border-box; display: table-cell; float=
+: left; font-size: 50px; line-height: 12px; padding: 0 28px 0 0; width: 40%=
+;"><img src=3D"https://c.apple.news/AgEkZWIxZGVlODMtNzU0Yi00N2MyLTk4MjMtNjM=
+zZTliM2Y0NDNkADE3" style=3D"margin: 0 !important; width: 100%;"></div> <div=
+><div class=3D"fi" style=3D"display: table-cell; vertical-align: top; width=
+: 100%;"><div class=3D"fl l" style=3D"color: #000; font-family: PracticeBoo=
+k,'Helvetica Neue',sans-serif; font-size: 16px; font-synthesis: none; line-=
+height: 18px; text-align: left; text-decoration: none;">These World Heritag=
+e forests used to remove carbon from the atmosphere. Now they&rsquo;re emit=
+ting it.</div><div class=3D"u fo" style=3D"color: #7c7c7c; font-family: Pro=
+ximaNovaBold,'Helvetica Neue',sans-serif; font-size: 12px; font-synthesis: =
+none; font-weight: 700; letter-spacing: .6px; line-height: 12px; padding-to=
+p: 10px; text-align: left; text-decoration: none; text-transform: uppercase=
+; width: 100%;">CNN <img class=3D"fp z" alt=3D"arrow" src=3D"https://c.appl=
+e.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"h=
+eight: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align:=
+ middle; width: auto;"><img class=3D"aa fp" style=3D"display: none; height:=
+ 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align: middl=
+e; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODljOWMt=
+MDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></div></div></a></div><div =
+class=3D"fg" style=3D"-apple-color-filter: none; border-bottom: 1px solid #=
+a7a5a5; color-scheme: light dark; margin: 5px 0 25px; padding: 10px 0 0; te=
+xt-align: right; width: 100%;"></div><!--<![endif]--> <!--[if (gte mso 9)|(=
+IE)]><table class=3D"fu" cellspacing=3D"0" cellpadding=3D"0" style=3D"-appl=
+e-color-filter: none; color-scheme: light dark; padding: 0 0 20px;"><tbody>=
+<tr><td><table class=3D"fw" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-collapse: separate; text-align: left; width: 580px;"><tbody><tr><td wi=
+dth=3D"200" valign=3D"top" align=3D"center" class=3D"fx" style=3D"vertical-=
+align: top; width: 200px;"><a href=3D"https://apple.news/A0AOIZTnkSC-z5hAr1=
+GuCNQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_typ=
+e=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_storie=
+s_entry_with_image-3-19:moreStoryWithImageEntryMSO" style=3D"color: #000; t=
+ext-decoration: none;"><img width=3D"200" src=3D"https://c.apple.news/AgEkZ=
+WIxZGVlODMtNzU0Yi00N2MyLTk4MjMtNjMzZTliM2Y0NDNkADE3" style=3D"text-align: c=
+enter; vertical-align: top; width: 200px;"></a></td><td valign=3D"top" clas=
+s=3D"fz" style=3D"margin: 0; padding: 0 0 0 40px; vertical-align: top; widt=
+h: 100%;"><a href=3D"https://apple.news/A0AOIZTnkSC-z5hAr1GuCNQ?articleList=
+=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7=
+-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_imag=
+e-3-19:moreStoryWithImageEntryMSO" style=3D"color: #000; text-decoration: n=
+one;"><div class=3D"gc" style=3D"color: #000; font-size: 15px; height: 100%=
+; line-height: 16px; margin: 0 0 10px; padding: 0 0 0; text-align: left; te=
+xt-decoration: none; vertical-align: bottom; width: 100%;">These World Heri=
+tage forests used to remove carbon from the atmosphere. Now they&rsquo;re e=
+mitting it.</div> <div class=3D"ge" style=3D"color: #7c7c7c; font-size: 12p=
+x; font-weight: 700; line-height: 12px; margin: 0; padding: 0 0 15px; text-=
+align: left; text-decoration: none; text-transform: uppercase;">CNN <img cl=
+ass=3D"gf" height=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC=
+00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; ver=
+tical-align: middle; width: auto;"></div></a></td></tr><tr><td colspan=3D"2=
+" class=3D"fv" style=3D"border-bottom: 1px solid #a7a5a5; border-collapse: =
+separate; padding: 0 0 20px; text-align: left; width: 580px;"></td></tr></t=
+body></table></td></tr></tbody></table><![endif]--><!--[if !mso]><!-- --><d=
+iv class=3D"ff" style=3D"-apple-color-filter: none; color-scheme: light dar=
+k; display: table; margin: auto; padding-bottom: 10px; text-align: left; wi=
+dth: 100%;"><a class=3D"fq" href=3D"https://apple.news/AUmZOFY8uRhiB2eWwQGo=
+kSg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=
+=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories=
+_entry_with_image-4-20:moreStoryWithImageEntry" style=3D"color: #000; text-=
+decoration: none;"><div class=3D"fh" style=3D"box-sizing: border-box; displ=
+ay: table-cell; float: left; font-size: 50px; line-height: 12px; padding: 0=
+ 28px 0 0; width: 40%;"><img src=3D"https://c.apple.news/AgEkYzJmNTg3M2EtN2=
+ZhMC00MDQzLTg3MjgtZGExNGI2MzgyNTU1ADE3" style=3D"margin: 0 !important; widt=
+h: 100%;"></div> <div><div class=3D"fi" style=3D"display: table-cell; verti=
+cal-align: top; width: 100%;"><div class=3D"fl l" style=3D"color: #000; fon=
+t-family: PracticeBook,'Helvetica Neue',sans-serif; font-size: 16px; font-s=
+ynthesis: none; line-height: 18px; text-align: left; text-decoration: none;=
+">A living descendant of the famed Lakota leader Sitting Bull has been iden=
+tified using a new scientific technique.</div><div class=3D"u fo" style=3D"=
+color: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-serif; f=
+ont-size: 12px; font-synthesis: none; font-weight: 700; letter-spacing: .6p=
+x; line-height: 12px; padding-top: 10px; text-align: left; text-decoration:=
+ none; text-transform: uppercase; width: 100%;">NBC News <img class=3D"fp z=
+" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk=
+1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; max-height: 12=
+px; min-height: 12px; vertical-align: middle; width: auto;"><img class=3D"a=
+a fp" style=3D"display: none; height: 12px; margin: 0; max-height: 12px; mi=
+n-height: 12px; vertical-align: middle; width: auto;" alt=3D"arrow" src=3D"=
+https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmAD=
+E3"></div></div></div></a></div><div class=3D"fg" style=3D"-apple-color-fil=
+ter: none; border-bottom: 1px solid #a7a5a5; color-scheme: light dark; marg=
+in: 5px 0 25px; padding: 10px 0 0; text-align: right; width: 100%;"></div><=
+!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"fu" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; color-scheme: =
+light dark; padding: 0 0 20px;"><tbody><tr><td><table class=3D"fw" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text-align:=
+ left; width: 580px;"><tbody><tr><td width=3D"200" valign=3D"top" align=3D"=
+center" class=3D"fx" style=3D"vertical-align: top; width: 200px;"><a href=
+=3D"https://apple.news/AUmZOFY8uRhiB2eWwQGokSg?articleList=3DAuXx27TjFRhqWt=
+UfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762=
+bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-4-20:moreStoryW=
+ithImageEntryMSO" style=3D"color: #000; text-decoration: none;"><img width=
+=3D"200" src=3D"https://c.apple.news/AgEkYzJmNTg3M2EtN2ZhMC00MDQzLTg3MjgtZG=
+ExNGI2MzgyNTU1ADE3" style=3D"text-align: center; vertical-align: top; width=
+: 200px;"></a></td><td valign=3D"top" class=3D"fz" style=3D"margin: 0; padd=
+ing: 0 0 0 40px; vertical-align: top; width: 100%;"><a href=3D"https://appl=
+e.news/AUmZOFY8uRhiB2eWwQGokSg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campai=
+gn_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_=
+id=3Ddaily_v2_more_stories_entry_with_image-4-20:moreStoryWithImageEntryMSO=
+" style=3D"color: #000; text-decoration: none;"><div class=3D"gc" style=3D"=
+color: #000; font-size: 15px; height: 100%; line-height: 16px; margin: 0 0 =
+10px; padding: 0 0 0; text-align: left; text-decoration: none; vertical-ali=
+gn: bottom; width: 100%;">A living descendant of the famed Lakota leader Si=
+tting Bull has been identified using a new scientific technique.</div> <div=
+ class=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; l=
+ine-height: 12px; margin: 0; padding: 0 0 15px; text-align: left; text-deco=
+ration: none; text-transform: uppercase;">NBC News <img class=3D"gf" height=
+=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGV=
+mYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: midd=
+le; width: auto;"></div></a></td></tr><tr><td colspan=3D"2" class=3D"fv" st=
+yle=3D"border-bottom: 1px solid #a7a5a5; border-collapse: separate; padding=
+: 0 0 20px; text-align: left; width: 580px;"></td></tr></tbody></table></td=
+></tr></tbody></table><![endif]--><!--[if !mso]><!-- --><div class=3D"ff" s=
+tyle=3D"-apple-color-filter: none; color-scheme: light dark; display: table=
+; margin: auto; padding-bottom: 10px; text-align: left; width: 100%;"><a cl=
+ass=3D"fq" href=3D"https://apple.news/PAhS1UfJIOBPeLQpkqu9I3v?campaign_id=
+=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3D=
+daily_v2_more_stories_entry_with_image-5-21:moreStoryWithImageEntry" style=
+=3D"color: #000; text-decoration: none;"><div class=3D"fh" style=3D"box-siz=
+ing: border-box; display: table-cell; float: left; font-size: 50px; line-he=
+ight: 12px; padding: 0 28px 0 0; width: 40%;"><img src=3D"https://c.apple.n=
+ews/AgEkNmMzNjJkOWItZWQwNy00ZmVlLThkMDgtNWQ2NjBiMDE0ZDVhADE3" style=3D"marg=
+in: 0 !important; width: 100%;"></div> <div><div class=3D"fr" style=3D"padd=
+ing: 0 0 10px;"><img src=3D"https://c.apple.news/AgEkYTU2NTFjNTUtNmFmMS00YT=
+IzLWE0MTQtODM4MzNiOTQxN2JjADE3" alt=3D"Apple News+" style=3D"height: 12px; =
+margin: 0 !important; max-height: 12px; width: auto;"></div><div class=3D"f=
+i" style=3D"display: table-cell; vertical-align: top; width: 100%;"><div cl=
+ass=3D"fm l" style=3D"color: #000; font-family: PracticeBook,'Helvetica Neu=
+e',sans-serif; font-size: 16px; font-synthesis: none; line-height: 18px; te=
+xt-align: left; text-decoration: none;">In Italy, old towns eager for new r=
+esidents are selling homes for about $1.</div><div class=3D"u fo" style=3D"=
+color: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-serif; f=
+ont-size: 12px; font-synthesis: none; font-weight: 700; letter-spacing: .6p=
+x; line-height: 12px; padding-top: 10px; text-align: left; text-decoration:=
+ none; text-transform: uppercase; width: 100%;">Los Angeles Times <img clas=
+s=3D"fp z" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni=
+00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; max-h=
+eight: 12px; min-height: 12px; vertical-align: middle; width: auto;"><img c=
+lass=3D"aa fp" style=3D"display: none; height: 12px; margin: 0; max-height:=
+ 12px; min-height: 12px; vertical-align: middle; width: auto;" alt=3D"arrow=
+" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkO=
+TYzZTFmADE3"></div></div></div></a></div><div class=3D"fg" style=3D"-apple-=
+color-filter: none; border-bottom: 1px solid #a7a5a5; color-scheme: light d=
+ark; margin: 5px 0 25px; padding: 10px 0 0; text-align: right; width: 100%;=
+"></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"fu" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; color-s=
+cheme: light dark; padding: 0 0 20px;"><tbody><tr><td><table class=3D"fw" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text=
+-align: left; width: 580px;"><tbody><tr><td width=3D"200" valign=3D"top" al=
+ign=3D"center" class=3D"fx" style=3D"vertical-align: top; width: 200px;"><a=
+ href=3D"https://apple.news/PAhS1UfJIOBPeLQpkqu9I3v?campaign_id=3DE101&camp=
+aign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_mor=
+e_stories_entry_with_image-5-21:moreStoryWithImageEntryMSO" style=3D"color:=
+ #000; text-decoration: none;"><img width=3D"200" src=3D"https://c.apple.ne=
+ws/AgEkNmMzNjJkOWItZWQwNy00ZmVlLThkMDgtNWQ2NjBiMDE0ZDVhADE3" style=3D"text-=
+align: center; vertical-align: top; width: 200px;"></a></td><td valign=3D"t=
+op" class=3D"fz" style=3D"margin: 0; padding: 0 0 0 40px; vertical-align: t=
+op; width: 100%;"><a href=3D"https://apple.news/PAhS1UfJIOBPeLQpkqu9I3v?cam=
+paign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creati=
+ve_id=3Ddaily_v2_more_stories_entry_with_image-5-21:moreStoryWithImageEntry=
+MSO" style=3D"color: #000; text-decoration: none;"><div class=3D"fy" style=
+=3D"margin: 0 0 5px;"><img height=3D"15" src=3D"https://c.apple.news/AgEkYT=
+U2NTFjNTUtNmFmMS00YTIzLWE0MTQtODM4MzNiOTQxN2JjADE3" alt=3D"Apple News+"></d=
+iv> <div class=3D"gc" style=3D"color: #000; font-size: 15px; height: 100%; =
+line-height: 16px; margin: 0 0 10px; padding: 0 0 0; text-align: left; text=
+-decoration: none; vertical-align: bottom; width: 100%;">In Italy, old town=
+s eager for new residents are selling homes for about $1.</div> <div class=
+=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-he=
+ight: 12px; margin: 0; padding: 0 0 15px; text-align: left; text-decoration=
+: none; text-transform: uppercase;">Los Angeles Times <img class=3D"gf" hei=
+ght=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUt=
+OGVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: m=
+iddle; width: auto;"></div></a></td></tr><tr><td colspan=3D"2" class=3D"fv"=
+ style=3D"border-bottom: 1px solid #a7a5a5; border-collapse: separate; padd=
+ing: 0 0 20px; text-align: left; width: 580px;"></td></tr></tbody></table><=
+/td></tr></tbody></table><![endif]--><!--[if !mso]><!-- --><div class=3D"ff=
+" style=3D"-apple-color-filter: none; color-scheme: light dark; display: ta=
+ble; margin: auto; padding-bottom: 10px; text-align: left; width: 100%;"><a=
+ class=3D"fq" href=3D"https://apple.news/AHaOZAxm3Q-CB00ltsdR2BQ?articleLis=
+t=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce=
+7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_ima=
+ge-6-22:moreStoryWithImageEntry" style=3D"color: #000; text-decoration: non=
+e;"><div class=3D"fh" style=3D"box-sizing: border-box; display: table-cell;=
+ float: left; font-size: 50px; line-height: 12px; padding: 0 28px 0 0; widt=
+h: 40%;"><img src=3D"https://c.apple.news/AgEkMjE4Y2E2N2EtYzA2ZS00ZWIzLThmN=
+jgtYjEyZTZlNjU1M2Q5ADE3" style=3D"margin: 0 !important; width: 100%;"></div=
+> <div><div class=3D"fi" style=3D"display: table-cell; vertical-align: top;=
+ width: 100%;"><div class=3D"fl l" style=3D"color: #000; font-family: Pract=
+iceBook,'Helvetica Neue',sans-serif; font-size: 16px; font-synthesis: none;=
+ line-height: 18px; text-align: left; text-decoration: none;">Are there eno=
+ugh strawberries in a strawberry Pop-Tart? A court might decide.</div><div =
+class=3D"u fo" style=3D"color: #7c7c7c; font-family: ProximaNovaBold,'Helve=
+tica Neue',sans-serif; font-size: 12px; font-synthesis: none; font-weight: =
+700; letter-spacing: .6px; line-height: 12px; padding-top: 10px; text-align=
+: left; text-decoration: none; text-transform: uppercase; width: 100%;">The=
+ Wall Street Journal <img class=3D"fp z" alt=3D"arrow" src=3D"https://c.app=
+le.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"=
+height: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align=
+: middle; width: auto;"><img class=3D"aa fp" style=3D"display: none; height=
+: 12px; margin: 0; max-height: 12px; min-height: 12px; vertical-align: midd=
+le; width: auto;" alt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODljOWM=
+tMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3"></div></div></div></a></div><!--=
+<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"fu" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"-apple-color-filter: none; color-scheme: light=
+ dark; padding: 0 0 20px;"><tbody><tr><td><table class=3D"fw" cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text-align: le=
+ft; width: 580px;"><tbody><tr><td width=3D"200" valign=3D"top" align=3D"cen=
+ter" class=3D"fx" style=3D"vertical-align: top; width: 200px;"><a href=3D"h=
+ttps://apple.news/AHaOZAxm3Q-CB00ltsdR2BQ?articleList=3DAuXx27TjFRhqWtUfdH0=
+THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf143=
+7&creative_id=3Ddaily_v2_more_stories_entry_with_image-6-22:moreStoryWithIm=
+ageEntryMSO" style=3D"color: #000; text-decoration: none;"><img width=3D"20=
+0" src=3D"https://c.apple.news/AgEkMjE4Y2E2N2EtYzA2ZS00ZWIzLThmNjgtYjEyZTZl=
+NjU1M2Q5ADE3" style=3D"text-align: center; vertical-align: top; width: 200p=
+x;"></a></td><td valign=3D"top" class=3D"fz" style=3D"margin: 0; padding: 0=
+ 0 0 40px; vertical-align: top; width: 100%;"><a href=3D"https://apple.news=
+/AHaOZAxm3Q-CB00ltsdR2BQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=
+=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3D=
+daily_v2_more_stories_entry_with_image-6-22:moreStoryWithImageEntryMSO" sty=
+le=3D"color: #000; text-decoration: none;"><div class=3D"gc" style=3D"color=
+: #000; font-size: 15px; height: 100%; line-height: 16px; margin: 0 0 10px;=
+ padding: 0 0 0; text-align: left; text-decoration: none; vertical-align: b=
+ottom; width: 100%;">Are there enough strawberries in a strawberry Pop-Tart=
+? A court might decide.</div> <div class=3D"ge" style=3D"color: #7c7c7c; fo=
+nt-size: 12px; font-weight: 700; line-height: 12px; margin: 0; padding: 0 0=
+ 15px; text-align: left; text-decoration: none; text-transform: uppercase;"=
+>The Wall Street Journal <img class=3D"gf" height=3D"10" src=3D"https://c.a=
+pple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=
+=3D"height: 10px; margin: 0; vertical-align: middle; width: auto;"></div></=
+a></td></tr></tbody></table></td></tr></tbody></table><![endif]--> <!--[if =
+(gte mso 9)|(IE)]></td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table><![endif]--> <!--[if !mso]><!-- --></div></div></div><=
+!--<![endif]--> <!--[if !mso]><!-- --><div class=3D"do" style=3D"-apple-col=
+or-filter: none; background: #f0f1f2; color-scheme: light dark;"><div class=
+=3D"dq" style=3D"background: transparent; margin: 0 20px; padding: 0;"><div=
+ class=3D"dp" style=3D"background: #fff; padding: 0 20px 8px; width: auto;"=
+><div class=3D"c" style=3D"background-image: url('https://c.apple.news/AgEk=
+NGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3'); background-repeat: =
+repeat-x; background-size: auto 5px; padding: 0 0 25px;"></div></div></div>=
+</div><!--<![endif]--><style style=3D"-apple-color-filter: none; color-sche=
+me: light dark;">.c { background-image: url(https://c.apple.news/AgEkNGVlYj=
+lhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3); background-size: auto 5px;=
+ background-repeat: repeat-x; padding: 0 0 5px }</style><!--[if (gte mso 9)=
+|(IE)]><table class=3D"dr" cellspacing=3D"0" cellpadding=3D"0" style=3D"-ap=
+ple-color-filter: none; background: #f0f1f2; color-scheme: light dark; widt=
+h: 660px;"><tbody><tr><td><table class=3D"ds" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"background: #fff; margin: 0 20px; padding: 10px 0 20px; tex=
+t-align: center; width: 620px;"><tbody><tr><td><img src=3D"https://c.apple.=
+news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3" width=3D"580=
+" height=3D"5"></td></tr></tbody></table></td></tr></tbody></table><![endif=
+]-->  <!--[if !mso]><!-- --><div class=3D"gg" style=3D"-apple-color-filter:=
+ none; background: #f0f1f2; color-scheme: light dark;"><div class=3D"gi" st=
+yle=3D"background: 0 0; margin: 0 20px; padding: 0;"><div class=3D"gh" styl=
+e=3D"background: #fff; padding: 0 20px 14px; width: auto;"><div class=3D"gj=
+" style=3D"border-bottom: 3px solid #ff3555; margin-bottom: 20px; padding: =
+0 0 8px; text-align: left;"><p class=3D"gk v" style=3D"color: #000; font-fa=
+mily: ProximaNovaBlack,'Helvetica Neue',sans-serif; font-size: 17px; font-s=
+ynthesis: none; font-weight: 700; letter-spacing: .6px; line-height: 18px; =
+margin: 0; padding: 0; text-transform: uppercase;">Read Local</p></div><!--=
+<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"gl" cellspacing=3D"0=
+" cellpadding=3D"0" style=3D"background: #f0f1f2; width: 660px;"><tbody><tr=
+><td><table class=3D"gm" cellspacing=3D"0" cellpadding=3D"0" style=3D"backg=
+round: #fff; margin: 0 20px; text-align: center; width: 620px;"><tbody><tr>=
+<td><table class=3D"gn" cellspacing=3D"0" cellpadding=3D"0" style=3D"border=
+-collapse: separate; text-align: left; width: 580px;"><tbody><tr><td class=
+=3D"go" style=3D"margin: 0 0 20px; padding: 0 0 20px;"><table cellspacing=
+=3D"0" cellpadding=3D"0"><tbody><tr><td class=3D"gp" style=3D"border-bottom=
+: 3px solid #ff3555; color: #000; font-size: 17px; font-weight: 700; line-h=
+eight: 18px; padding: 0 0 8px; text-transform: uppercase; width: 580px;">Re=
+ad Local</td></tr></tbody></table></td></tr></tbody></table><table class=3D=
+"gn" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate=
+; text-align: left; width: 580px;"><tbody><tr><td><![endif]--> <!--[if !mso=
+]><!-- --><div class=3D"ff" style=3D"-apple-color-filter: none; color-schem=
+e: light dark; display: table; margin: auto; padding-bottom: 10px; text-ali=
+gn: left; width: 100%;"><a class=3D"fq" href=3D"https://apple.news/A_NrY-rg=
+dQ_qNUplTepvBCw?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&ca=
+mpaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_m=
+ore_stories_entry_with_image-7-25:moreStoryWithImageEntry" style=3D"color: =
+#000; text-decoration: none;"><div class=3D"fh" style=3D"box-sizing: border=
+-box; display: table-cell; float: left; font-size: 50px; line-height: 12px;=
+ padding: 0 28px 0 0; width: 40%;"><img src=3D"https://c.apple.news/AgEkYzA=
+zYjllMmEtOTU0Yy00OTA0LWE4NjEtMDgwZDc0YjQ5ZmQ3ADE3" style=3D"margin: 0 !impo=
+rtant; width: 100%;"></div> <div><div class=3D"fi" style=3D"display: table-=
+cell; vertical-align: top; width: 100%;"><div class=3D"fl l" style=3D"color=
+: #000; font-family: PracticeBook,'Helvetica Neue',sans-serif; font-size: 1=
+6px; font-synthesis: none; line-height: 18px; text-align: left; text-decora=
+tion: none;">A Charlotte executive said he was fired for being a white male=
+. A jury just awarded him millions.</div><div class=3D"u fo" style=3D"color=
+: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-serif; font-s=
+ize: 12px; font-synthesis: none; font-weight: 700; letter-spacing: .6px; li=
+ne-height: 12px; padding-top: 10px; text-align: left; text-decoration: none=
+; text-transform: uppercase; width: 100%;">The Charlotte Observer <img clas=
+s=3D"fp z" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni=
+00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; max-h=
+eight: 12px; min-height: 12px; vertical-align: middle; width: auto;"><img c=
+lass=3D"aa fp" style=3D"display: none; height: 12px; margin: 0; max-height:=
+ 12px; min-height: 12px; vertical-align: middle; width: auto;" alt=3D"arrow=
+" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkO=
+TYzZTFmADE3"></div></div></div></a></div><div class=3D"fg" style=3D"-apple-=
+color-filter: none; border-bottom: 1px solid #a7a5a5; color-scheme: light d=
+ark; margin: 5px 0 25px; padding: 10px 0 0; text-align: right; width: 100%;=
+"></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"fu" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; color-s=
+cheme: light dark; padding: 0 0 20px;"><tbody><tr><td><table class=3D"fw" c=
+ellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text=
+-align: left; width: 580px;"><tbody><tr><td width=3D"200" valign=3D"top" al=
+ign=3D"center" class=3D"fx" style=3D"vertical-align: top; width: 200px;"><a=
+ href=3D"https://apple.news/A_NrY-rgdQ_qNUplTepvBCw?articleList=3DAuXx27TjF=
+RhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-8=
+0a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-7-25:moreS=
+toryWithImageEntryMSO" style=3D"color: #000; text-decoration: none;"><img w=
+idth=3D"200" src=3D"https://c.apple.news/AgEkYzAzYjllMmEtOTU0Yy00OTA0LWE4Nj=
+EtMDgwZDc0YjQ5ZmQ3ADE3" style=3D"text-align: center; vertical-align: top; w=
+idth: 200px;"></a></td><td valign=3D"top" class=3D"fz" style=3D"margin: 0; =
+padding: 0 0 0 40px; vertical-align: top; width: 100%;"><a href=3D"https://=
+apple.news/A_NrY-rgdQ_qNUplTepvBCw?articleList=3DAuXx27TjFRhqWtUfdH0THcg&ca=
+mpaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creat=
+ive_id=3Ddaily_v2_more_stories_entry_with_image-7-25:moreStoryWithImageEntr=
+yMSO" style=3D"color: #000; text-decoration: none;"><div class=3D"gc" style=
+=3D"color: #000; font-size: 15px; height: 100%; line-height: 16px; margin: =
+0 0 10px; padding: 0 0 0; text-align: left; text-decoration: none; vertical=
+-align: bottom; width: 100%;">A Charlotte executive said he was fired for b=
+eing a white male. A jury just awarded him millions.</div> <div class=3D"ge=
+" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-height: =
+12px; margin: 0; padding: 0 0 15px; text-align: left; text-decoration: none=
+; text-transform: uppercase;">The Charlotte Observer <img class=3D"gf" heig=
+ht=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtO=
+GVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vertical-align: mi=
+ddle; width: auto;"></div></a></td></tr><tr><td colspan=3D"2" class=3D"fv" =
+style=3D"border-bottom: 1px solid #a7a5a5; border-collapse: separate; paddi=
+ng: 0 0 20px; text-align: left; width: 580px;"></td></tr></tbody></table></=
+td></tr></tbody></table><![endif]--><!--[if !mso]><!-- --><div class=3D"ff"=
+ style=3D"-apple-color-filter: none; color-scheme: light dark; display: tab=
+le; margin: auto; padding-bottom: 10px; text-align: left; width: 100%;"><a =
+class=3D"fq" href=3D"https://apple.news/PgdW2NFbvJMvyvT9v0tyz6b?campaign_id=
+=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3D=
+daily_v2_more_stories_entry_with_image-8-26:moreStoryWithImageEntry" style=
+=3D"color: #000; text-decoration: none;"><div class=3D"fh" style=3D"box-siz=
+ing: border-box; display: table-cell; float: left; font-size: 50px; line-he=
+ight: 12px; padding: 0 28px 0 0; width: 40%;"><img src=3D"https://c.apple.n=
+ews/AgEkMDE3MzY4YTItOGQ1Mi00ZDAwLWE3YTgtOWViNWE3MjA1OGFhADE3" style=3D"marg=
+in: 0 !important; width: 100%;"></div> <div><div class=3D"fr" style=3D"padd=
+ing: 0 0 10px;"><img src=3D"https://c.apple.news/AgEkZmQ2MWU3MjgtYTZlYi00Zj=
+Y0LWI4ODItZDA4MDk4OTc2MmZjADE3" alt=3D"Apple News+ Audio" style=3D"height: =
+12px; margin: 0 !important; max-height: 12px; width: auto;"></div><div clas=
+s=3D"fi" style=3D"display: table-cell; vertical-align: top; width: 100%;"><=
+div class=3D"fm l" style=3D"color: #000; font-family: PracticeBook,'Helveti=
+ca Neue',sans-serif; font-size: 16px; font-synthesis: none; line-height: 18=
+px; text-align: left; text-decoration: none;">Why Eric Adams is poised to b=
+e the most powerful New York City mayor in decades.</div><div class=3D"u fo=
+" style=3D"color: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sa=
+ns-serif; font-size: 12px; font-synthesis: none; font-weight: 700; letter-s=
+pacing: .6px; line-height: 12px; padding-top: 10px; text-align: left; text-=
+decoration: none; text-transform: uppercase; width: 100%;">New York Magazin=
+e <img class=3D"fp z" alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzV=
+lNzctZTA2Ni00OWMzLTk1MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margi=
+n: 0; max-height: 12px; min-height: 12px; vertical-align: middle; width: au=
+to;"><img class=3D"aa fp" style=3D"display: none; height: 12px; margin: 0; =
+max-height: 12px; min-height: 12px; vertical-align: middle; width: auto;" a=
+lt=3D"arrow" src=3D"https://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0Nz=
+UtYWY1N2NkOTYzZTFmADE3"></div></div></div></a></div><div class=3D"fg" style=
+=3D"-apple-color-filter: none; border-bottom: 1px solid #a7a5a5; color-sche=
+me: light dark; margin: 5px 0 25px; padding: 10px 0 0; text-align: right; w=
+idth: 100%;"></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table class=
+=3D"fu" cellspacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: n=
+one; color-scheme: light dark; padding: 0 0 20px;"><tbody><tr><td><table cl=
+ass=3D"fw" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: se=
+parate; text-align: left; width: 580px;"><tbody><tr><td width=3D"200" valig=
+n=3D"top" align=3D"center" class=3D"fx" style=3D"vertical-align: top; width=
+: 200px;"><a href=3D"https://apple.news/PgdW2NFbvJMvyvT9v0tyz6b?campaign_id=
+=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3D=
+daily_v2_more_stories_entry_with_image-8-26:moreStoryWithImageEntryMSO" sty=
+le=3D"color: #000; text-decoration: none;"><img width=3D"200" src=3D"https:=
+//c.apple.news/AgEkMDE3MzY4YTItOGQ1Mi00ZDAwLWE3YTgtOWViNWE3MjA1OGFhADE3" st=
+yle=3D"text-align: center; vertical-align: top; width: 200px;"></a></td><td=
+ valign=3D"top" class=3D"fz" style=3D"margin: 0; padding: 0 0 0 40px; verti=
+cal-align: top; width: 100%;"><a href=3D"https://apple.news/PgdW2NFbvJMvyvT=
+9v0tyz6b?campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762b=
+f1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-8-26:moreStoryWi=
+thImageEntryMSO" style=3D"color: #000; text-decoration: none;"><div class=
+=3D"fy" style=3D"margin: 0 0 5px;"><img height=3D"15" src=3D"https://c.appl=
+e.news/AgEkZmQ2MWU3MjgtYTZlYi00ZjY0LWI4ODItZDA4MDk4OTc2MmZjADE3" alt=3D"App=
+le News+ Audio"></div> <div class=3D"gc" style=3D"color: #000; font-size: 1=
+5px; height: 100%; line-height: 16px; margin: 0 0 10px; padding: 0 0 0; tex=
+t-align: left; text-decoration: none; vertical-align: bottom; width: 100%;"=
+>Why Eric Adams is poised to be the most powerful New York City mayor in de=
+cades.</div> <div class=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; fo=
+nt-weight: 700; line-height: 12px; margin: 0; padding: 0 0 15px; text-align=
+: left; text-decoration: none; text-transform: uppercase;">New York Magazin=
+e <img class=3D"gf" height=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxN=
+WEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margi=
+n: 0; vertical-align: middle; width: auto;"></div></a></td></tr><tr><td col=
+span=3D"2" class=3D"fv" style=3D"border-bottom: 1px solid #a7a5a5; border-c=
+ollapse: separate; padding: 0 0 20px; text-align: left; width: 580px;"></td=
+></tr></tbody></table></td></tr></tbody></table><![endif]--><!--[if !mso]><=
+!-- --><div class=3D"ff" style=3D"-apple-color-filter: none; color-scheme: =
+light dark; display: table; margin: auto; padding-bottom: 10px; text-align:=
+ left; width: 100%;"><a class=3D"fq" href=3D"https://apple.news/AIMCD9iS1Qq=
+mAFL1S7VY8bg?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campa=
+ign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more=
+_stories_entry_with_image-9-27:moreStoryWithImageEntry" style=3D"color: #00=
+0; text-decoration: none;"><div class=3D"fh" style=3D"box-sizing: border-bo=
+x; display: table-cell; float: left; font-size: 50px; line-height: 12px; pa=
+dding: 0 28px 0 0; width: 40%;"><img src=3D"https://c.apple.news/AgEkYTdhZD=
+E0M2UtNmY5Ny00YTczLWJkMmYtODdkNjlhNzNlMzNmADE3" style=3D"margin: 0 !importa=
+nt; width: 100%;"></div> <div><div class=3D"fi" style=3D"display: table-cel=
+l; vertical-align: top; width: 100%;"><div class=3D"fl l" style=3D"color: #=
+000; font-family: PracticeBook,'Helvetica Neue',sans-serif; font-size: 16px=
+; font-synthesis: none; line-height: 18px; text-align: left; text-decoratio=
+n: none;">The San Diego Zoo reported that California condors can reproduce =
+without having sex.</div><div class=3D"u fo" style=3D"color: #7c7c7c; font-=
+family: ProximaNovaBold,'Helvetica Neue',sans-serif; font-size: 12px; font-=
+synthesis: none; font-weight: 700; letter-spacing: .6px; line-height: 12px;=
+ padding-top: 10px; text-align: left; text-decoration: none; text-transform=
+: uppercase; width: 100%;">The San Diego Union-Tribune <img class=3D"fp z" =
+alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1M=
+GQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; max-height: 12px=
+; min-height: 12px; vertical-align: middle; width: auto;"><img class=3D"aa =
+fp" style=3D"display: none; height: 12px; margin: 0; max-height: 12px; min-=
+height: 12px; vertical-align: middle; width: auto;" alt=3D"arrow" src=3D"ht=
+tps://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE3=
+"></div></div></div></a></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><t=
+able class=3D"fu" cellspacing=3D"0" cellpadding=3D"0" style=3D"-apple-color=
+-filter: none; color-scheme: light dark; padding: 0 0 20px;"><tbody><tr><td=
+><table class=3D"fw" cellspacing=3D"0" cellpadding=3D"0" style=3D"border-co=
+llapse: separate; text-align: left; width: 580px;"><tbody><tr><td width=3D"=
+200" valign=3D"top" align=3D"center" class=3D"fx" style=3D"vertical-align: =
+top; width: 200px;"><a href=3D"https://apple.news/AIMCD9iS1QqmAFL1S7VY8bg?a=
+rticleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4=
+da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry=
+_with_image-9-27:moreStoryWithImageEntryMSO" style=3D"color: #000; text-dec=
+oration: none;"><img width=3D"200" src=3D"https://c.apple.news/AgEkYTdhZDE0=
+M2UtNmY5Ny00YTczLWJkMmYtODdkNjlhNzNlMzNmADE3" style=3D"text-align: center; =
+vertical-align: top; width: 200px;"></a></td><td valign=3D"top" class=3D"fz=
+" style=3D"margin: 0; padding: 0 0 0 40px; vertical-align: top; width: 100%=
+;"><a href=3D"https://apple.news/AIMCD9iS1QqmAFL1S7VY8bg?articleList=3DAuXx=
+27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d=
+746-80a762bf1437&creative_id=3Ddaily_v2_more_stories_entry_with_image-9-27:=
+moreStoryWithImageEntryMSO" style=3D"color: #000; text-decoration: none;"><=
+div class=3D"gc" style=3D"color: #000; font-size: 15px; height: 100%; line-=
+height: 16px; margin: 0 0 10px; padding: 0 0 0; text-align: left; text-deco=
+ration: none; vertical-align: bottom; width: 100%;">The San Diego Zoo repor=
+ted that California condors can reproduce without having sex.</div> <div cl=
+ass=3D"ge" style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line=
+-height: 12px; margin: 0; padding: 0 0 15px; text-align: left; text-decorat=
+ion: none; text-transform: uppercase;">The San Diego Union-Tribune <img cla=
+ss=3D"gf" height=3D"10" src=3D"https://c.apple.news/AgEkNjM2YzQxNWEtOGVjMC0=
+0M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"height: 10px; margin: 0; vert=
+ical-align: middle; width: auto;"></div></a></td></tr></tbody></table></td>=
+</tr></tbody></table><![endif]--> <!--[if (gte mso 9)|(IE)]></td></tr></tbo=
+dy></table></td></tr></tbody></table></td></tr></tbody></table><![endif]-->=
+ <!--[if !mso]><!-- --></div></div></div><!--<![endif]--> <!--[if !mso]><!-=
+- --><div class=3D"do" style=3D"-apple-color-filter: none; background: #f0f=
+1f2; color-scheme: light dark;"><div class=3D"dq" style=3D"background: tran=
+sparent; margin: 0 20px; padding: 0;"><div class=3D"dp" style=3D"background=
+: #fff; padding: 0 20px 8px; width: auto;"><div class=3D"c" style=3D"backgr=
+ound-image: url('https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtM=
+TYwZjZhN2E1OWUwADE3'); background-repeat: repeat-x; background-size: auto 5=
+px; padding: 0 0 25px;"></div></div></div></div><!--<![endif]--><style styl=
+e=3D"-apple-color-filter: none; color-scheme: light dark;">.c { background-=
+image: url(https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZ=
+hN2E1OWUwADE3); background-size: auto 5px; background-repeat: repeat-x; pad=
+ding: 0 0 5px }</style><!--[if (gte mso 9)|(IE)]><table class=3D"dr" cellsp=
+acing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; backgroun=
+d: #f0f1f2; color-scheme: light dark; width: 660px;"><tbody><tr><td><table =
+class=3D"ds" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff;=
+ margin: 0 20px; padding: 10px 0 20px; text-align: center; width: 620px;"><=
+tbody><tr><td><img src=3D"https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMx=
+LWEyOTUtMTYwZjZhN2E1OWUwADE3" width=3D"580" height=3D"5"></td></tr></tbody>=
+</table></td></tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><div =
+class=3D"gt" style=3D"-apple-color-filter: none; background: #f0f1f2; color=
+-scheme: light dark;"><div class=3D"gu" style=3D"background: 0 0; margin: 0=
+ 20px; padding: 0;"><div class=3D"gv" style=3D"background: #fff; padding: 0=
+ 20px 13px; width: auto;"><div class=3D"gx" style=3D"border-bottom: 3px sol=
+id #ff3555; margin-bottom: 20px; padding: 0 0 8px; text-align: left;"><p cl=
+ass=3D"gy v" style=3D"color: #000; font-family: ProximaNovaBlack,'Helvetica=
+ Neue',sans-serif; font-size: 17px; font-synthesis: none; font-weight: 700;=
+ letter-spacing: .6px; line-height: 18px; margin: 0; padding: 0; text-trans=
+form: uppercase;">The Last Word</p></div><a class=3D"hd" href=3D"https://ap=
+ple.news/Arm3hrkIRS_KvtNw4vqeAIQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&camp=
+aign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creativ=
+e_id=3Ddaily_quote_with_image-29:quoteWithImage" style=3D"color: #000; text=
+-decoration: none;"><div class=3D"hc" style=3D"padding: 0 0 20px; width: 10=
+0%;"><img src=3D"https://c.apple.news/AgEkYzkwMWI2ZjMtMDkyNi00YjE2LWJhMjItM=
+DAwZTU3NDdhMWMxADE3" style=3D"margin: 0 !important; width: 100%;"></div> <d=
+iv class=3D"gz" style=3D"max-width: 685px; width: 100%;"><table class=3D"hb=
+" style=3D"max-width: 700px; width: 100%;"><tbody><tr><td class=3D"k he" st=
+yle=3D"color: #000; float: left; font-family: DrukTextMedium,'Helvetica Neu=
+e',sans-serif; font-size: 40px; font-synthesis: none; line-height: 42px; te=
+xt-align: right; vertical-align: top; width: 15px;">&ldquo;</td><td class=
+=3D"k hf" style=3D"color: #000; font-family: DrukTextMedium,'Helvetica Neue=
+',sans-serif; font-size: 36px; font-synthesis: none; font-weight: 700; line=
+-height: 36px; text-align: left; width: 100%;">I am too amused to do anythi=
+ng about it.&rdquo;</td></tr></tbody></table></div></a><div class=3D"gw" st=
+yle=3D"padding: 0 20px 6px; width: auto;"><table class=3D"hb" style=3D"max-=
+width: 700px; width: 100%;"><tbody><tr><td><div class=3D"hg" style=3D"font-=
+size: 16px; letter-spacing: 0; line-height: 17px; text-align: left;"><a cla=
+ss=3D"hd" href=3D"https://apple.news/Arm3hrkIRS_KvtNw4vqeAIQ?articleList=3D=
+AuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7-4a=
+d6-d746-80a762bf1437&creative_id=3Ddaily_quote_with_image-29:quoteWithImage=
+" style=3D"color: #000; text-decoration: none;"><div class=3D"hi l" style=
+=3D"color: #000; font-family: PracticeBook,'Helvetica Neue',sans-serif; fon=
+t-size: 16px; font-synthesis: none; letter-spacing: 0; line-height: 18px; t=
+ext-align: left; text-decoration: none;">A photo of <i>The Office</i> star =
+B.J. Novak was accidentally deemed public domain. Now his face is printed o=
+n household products around the world.</div> <div class=3D"u hm" style=3D"c=
+olor: #7c7c7c; font-family: ProximaNovaBold,'Helvetica Neue',sans-serif; fo=
+nt-size: 12px; font-synthesis: none; font-weight: 700; letter-spacing: .6px=
+; line-height: 12px; padding-top: 10px; text-align: left; text-decoration: =
+none; text-transform: uppercase; width: 100%;">BuzzFeed <img class=3D"hn z"=
+ alt=3D"arrow" src=3D"https://c.apple.news/AgEkZTE3MzVlNzctZTA2Ni00OWMzLTk1=
+MGQtOTVhODVhMTAyYjg0ADE3" style=3D"height: 12px; margin: 0; max-height: 12p=
+x; min-height: 12px; vertical-align: middle; width: auto;"><img class=3D"aa=
+ hn" style=3D"display: none; height: 12px; margin: 0; max-height: 12px; min=
+-height: 12px; vertical-align: middle; width: auto;" alt=3D"arrow" src=3D"h=
+ttps://c.apple.news/AgEkYWJiODljOWMtMDhlOC00MDIzLTk0NzUtYWY1N2NkOTYzZTFmADE=
+3"></div></a></div></td></tr></tbody></table></div></div></div></div><!--<!=
+[endif]--> <!--[if (gte mso 9)|(IE)]><table class=3D"hs" cellspacing=3D"0" =
+cellpadding=3D"0" style=3D"-apple-color-filter: none; background: #f0f1f2; =
+color-scheme: light dark; width: 660px;"><tbody><tr><td><table class=3D"ht"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; margin: 0 2=
+0px; text-align: center; width: 620px;"><tbody><tr><td><table class=3D"hv" =
+cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; tex=
+t-align: left; width: 580px;"><tbody><tr><td class=3D"hx" style=3D"margin: =
+0 0 20px; padding: 0 0 20px;"><table cellspacing=3D"0" cellpadding=3D"0"><t=
+body><tr><td class=3D"hy" style=3D"border-bottom: 3px solid #ff3555; color:=
+ #000; font-size: 17px; font-weight: 700; line-height: 18px; padding: 0 0 8=
+px 0; text-transform: uppercase; width: 580px;">The Last Word</td></tr></tb=
+ody></table></td></tr></tbody></table><table class=3D"hz" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"width: 580px;"><tbody><tr><td colspan=3D"2" cla=
+ss=3D"hu" style=3D"padding: 0 0 20px;"><img width=3D"580" class=3D"hw" src=
+=3D"https://c.apple.news/AgEkYzkwMWI2ZjMtMDkyNi00YjE2LWJhMjItMDAwZTU3NDdhMW=
+MxADE3" style=3D"padding-bottom: 20px; width: 580px;"></td></tr><tr><td cla=
+ss=3D"ia" style=3D"font-size: 40px; font-weight: 700; line-height: 26px; ve=
+rtical-align: top; width: 15px;">&ldquo;</td><td class=3D"ib" style=3D"font=
+-size: 40px; font-weight: 700; line-height: 26px; text-align: left; width: =
+580px;"><a href=3D"https://apple.news/Arm3hrkIRS_KvtNw4vqeAIQ?articleList=
+=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign_type=3Ddb4da6c5-fce7=
+-4ad6-d746-80a762bf1437&creative_id=3Ddaily_quote_with_image-29:quoteWithIm=
+ageMSO" style=3D"color: #000; text-decoration: none;">I am too amused to do=
+ anything about it.&rdquo;</a></td></tr></tbody></table><table class=3D"hv"=
+ cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; te=
+xt-align: left; width: 580px;"><tbody><tr><td class=3D"ia" style=3D"font-si=
+ze: 40px; font-weight: 700; line-height: 26px; vertical-align: top; width: =
+15px;"></td><td class=3D"ic" style=3D"font-size: 15px; line-height: 17px; m=
+argin: 10px 0 5px; text-align: left;"><a href=3D"https://apple.news/Arm3hrk=
+IRS_KvtNw4vqeAIQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&c=
+ampaign_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_quo=
+te_with_image-29:quoteWithImageMSO" style=3D"color: #000; text-decoration: =
+none;">A photo of <i>The Office</i> star B.J. Novak was accidentally deemed=
+ public domain. Now his face is printed on household products around the wo=
+rld.</a></td></tr><tr><td></td><td class=3D"if" style=3D"margin: 0; padding=
+: 0 0 15px; text-align: left;"><a href=3D"https://apple.news/Arm3hrkIRS_Kvt=
+Nw4vqeAIQ?articleList=3DAuXx27TjFRhqWtUfdH0THcg&campaign_id=3DE101&campaign=
+_type=3Ddb4da6c5-fce7-4ad6-d746-80a762bf1437&creative_id=3Ddaily_quote_with=
+_image-29:quoteWithImageMSO" style=3D"color: #000; text-decoration: none;">=
+<span style=3D"color: #7c7c7c; font-size: 12px; font-weight: 700; line-heig=
+ht: 12px; text-align: left; text-decoration: none; text-transform: uppercas=
+e;">BuzzFeed</span> <img class=3D"ig" height=3D"10" src=3D"https://c.apple.=
+news/AgEkNjM2YzQxNWEtOGVjMC00M2Q4LTgwMjUtOGVmYWM3NjEzNzc5ADE3" \ style=3D"h=
+eight: 10px; margin: 0; vertical-align: middle; width: auto;"></a></td></tr=
+></tbody></table></td></tr></tbody></table></td></tr></tbody></table><![end=
+if]--> <!--[if !mso]><!-- --><div class=3D"ih" style=3D"-apple-color-filter=
+: none; background: #f0f1f2; color-scheme: light dark;"><div class=3D"ii" s=
+tyle=3D"background: #fff; margin: 0 20px; padding: 0;"><div class=3D"ij" st=
+yle=3D"background: #fff; padding: 0 20px 22px; text-align: center; width: a=
+uto;"><div class=3D"d" style=3D"background-image: url('https://c.apple.news=
+/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZjZhN2E1OWUwADE3'); background-rep=
+eat: repeat-x; background-size: auto 5px; padding: 0 0 24px;"></div><div cl=
+ass=3D"ik" style=3D"margin: auto; max-width: 600px; overflow: hidden; paddi=
+ng: 4px 0 10px; text-align: center; width: auto;"><a class=3D"q il" href=3D=
+"https://www.instagram.com/applenews/?itscg=3Dnws34&itsct=3DAA002410" style=
+=3D"color: #000; font-family: PracticeBlack,'Helvetica Neue',sans-serif; fo=
+nt-size: 20px; font-synthesis: none; letter-spacing: .25px; line-height: 20=
+px; text-decoration: none;">Like what you&rsquo;re seeing here?</a></div><d=
+iv><a class=3D"im f" href=3D"https://www.instagram.com/applenews/?itscg=3Dn=
+ws34&itsct=3DAA002410" style=3D"color: #000; font-family: SFProDisplaySemiB=
+old,'Helvetica Neue',sans-serif; font-size: 15px; font-synthesis: none; let=
+ter-spacing: -.19px; line-height: 17px; margin: auto; overflow: hidden; pad=
+ding: 0 0 16px; text-align: center; text-decoration: none; width: auto;">Fo=
+llow <b>@AppleNews</b> on Instagram.</a></div></div></div></div><!--<![endi=
+f]--><style style=3D"-apple-color-filter: none; color-scheme: light dark;">=
+.d { background-image: url(https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWM=
+xLWEyOTUtMTYwZjZhN2E1OWUwADE3); background-size: auto 5px; background-repea=
+t: repeat-x }</style><!--[if (gte mso 9)|(IE)]><table class=3D"dr" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; background:=
+ #f0f1f2; color-scheme: light dark; width: 660px;"><tbody><tr><td><table cl=
+ass=3D"ds" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; m=
+argin: 0 20px; padding: 10px 0 20px; text-align: center; width: 620px;"><tb=
+ody><tr><td><img src=3D"https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLW=
+EyOTUtMTYwZjZhN2E1OWUwADE3" width=3D"580" height=3D"5"></td></tr></tbody></=
+table></td></tr></tbody></table><table class=3D"in" cellspacing=3D"0" cellp=
+adding=3D"0" style=3D"-apple-color-filter: none; background: #f0f1f2; color=
+-scheme: light dark; width: 660px;"><tbody><tr><td><table class=3D"io" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"background: #fff; margin: 0 20px; =
+width: 620px;"><tbody><tr><td><table class=3D"ip" cellspacing=3D"0" cellpad=
+ding=3D"0" style=3D"background: #fff; margin: 0 20px; width: 580px;"><tbody=
+><tr><td class=3D"ir" style=3D"color: #000; font-size: 25px; letter-spacing=
+: .25px; line-height: 25px; margin: auto; overflow: hidden; padding: 0 0 10=
+px; text-align: center; text-decoration: none; width: auto;"><a href=3D"htt=
+ps://www.instagram.com/applenews/?itscg=3Dnws34&itsct=3DAA002410" style=3D"=
+color: #000; text-decoration: none;">Like what you&rsquo;re seeing here?</a=
+></td></tr><tr><td class=3D"is" style=3D"color: #000; font-size: 16px; lett=
+er-spacing: .25px; line-height: 16px; padding: 0 0 20px; text-align: center=
+; text-decoration: none;"><a href=3D"https://www.instagram.com/applenews/?i=
+tscg=3Dnws34&itsct=3DAA002410" style=3D"color: #000; text-decoration: none;=
+">Follow <b>@AppleNews</b> on Instagram.</a></td></tr></tbody></table></td>=
+</tr></tbody></table></td></tr></tbody></table><![endif]--> <!--[if !mso]><=
+!-- --><div class=3D"do" style=3D"-apple-color-filter: none; background: #f=
+0f1f2; color-scheme: light dark;"><div class=3D"dq" style=3D"background: tr=
+ansparent; margin: 0 20px; padding: 0;"><div class=3D"dp" style=3D"backgrou=
+nd: #fff; padding: 0 20px 8px; width: auto;"><div class=3D"c" style=3D"back=
+ground-image: url('https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTU=
+tMTYwZjZhN2E1OWUwADE3'); background-repeat: repeat-x; background-size: auto=
+ 5px; padding: 0 0 25px;"></div></div></div></div><!--<![endif]--><style st=
+yle=3D"-apple-color-filter: none; color-scheme: light dark;">.c { backgroun=
+d-image: url(https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YWMxLWEyOTUtMTYwZ=
+jZhN2E1OWUwADE3); background-size: auto 5px; background-repeat: repeat-x; p=
+adding: 0 0 5px }</style><!--[if (gte mso 9)|(IE)]><table class=3D"dr" cell=
+spacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filter: none; backgro=
+und: #f0f1f2; color-scheme: light dark; width: 660px;"><tbody><tr><td><tabl=
+e class=3D"ds" cellspacing=3D"0" cellpadding=3D"0" style=3D"background: #ff=
+f; margin: 0 20px; padding: 10px 0 20px; text-align: center; width: 620px;"=
+><tbody><tr><td><img src=3D"https://c.apple.news/AgEkNGVlYjlhZjAtMzYxNC00YW=
+MxLWEyOTUtMTYwZjZhN2E1OWUwADE3" width=3D"580" height=3D"5"></td></tr></tbod=
+y></table></td></tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><di=
+v class=3D"it" style=3D"-apple-color-filter: none; background: #f0f1f2; col=
+or-scheme: light dark;"><div class=3D"iu" style=3D"background: 0 0; margin:=
+ 0 20px; padding: 0;"><div class=3D"b" style=3D"background: #fff; display: =
+none; padding: 20px 20px 30px; width: auto;"><a href=3D"https://apple.news/=
+subscription?itscg=3D10200&itsct=3DNewsPerspective21Cost&campaign_id=3Dbann=
+er_email_10200_NewsPerspective21Cost" style=3D"color: #000; text-decoration=
+: none;"><img src=3D"https://c.apple.news/AgEkNzcwYjVjYTktYjZiZC00MzdkLWEwN=
+zYtYTI5YWQwN2IwZWYwADE3" alt=3D"Try Apple News+ For Free" style=3D"display:=
+ block; height: auto; margin: 0 auto; width: 100%;"></a></div><div class=3D=
+"a" style=3D"background: #fff; padding: 20px 20px 30px; width: auto;"><a hr=
+ef=3D"https://apple.news/subscription?itscg=3D10200&itsct=3DNewsPerspective=
+21Cost&campaign_id=3Dbanner_email_10200_NewsPerspective21Cost" style=3D"col=
+or: #000; text-decoration: none;"><img src=3D"https://c.apple.news/AgEkMGNl=
+NzlkYmMtYmJjOS00NGZhLWEwNDEtNjQzMTM2M2RkMDAyADE3" alt=3D"Try Apple News+ Fo=
+r Free" style=3D"display: block; height: auto; margin: 0 auto; width: 100%;=
+"></a></div></div></div><!--<![endif]--> <!--[if (gte mso 9)|(IE)]><table c=
+lass=3D"iv" cellspacing=3D"0" cellpadding=3D"0" style=3D"-apple-color-filte=
+r: none; background: #f0f1f2; color-scheme: light dark; text-align: left; w=
+idth: 660px;"><tbody><tr><td><table class=3D"iw" cellspacing=3D"0" cellpadd=
+ing=3D"0" style=3D"background: #fff; margin: 0 20px; padding: 0 0 20px; tex=
+t-align: center; width: 620px;"><tbody><tr><td><table class=3D"ix" cellspac=
+ing=3D"0" cellpadding=3D"0" style=3D"border-collapse: separate; text-align:=
+ left; width: 580px;"><tbody><tr><td class=3D"iy" style=3D"background: #fff=
+; padding: 20px 0 0; text-align: center;"><a href=3D"https://apple.news/sub=
+scription?itscg=3D10200&itsct=3DNewsPerspective21Cost&campaign_id=3Dbanner_=
+email_10200_NewsPerspective21Cost" style=3D"color: #000; text-decoration: n=
+one;"><img src=3D"https://c.apple.news/AgEkNzcwYjVjYTktYjZiZC00MzdkLWEwNzYt=
+YTI5YWQwN2IwZWYwADE3" width=3D"600" alt=3D"Try Apple News+ For Free" style=
+=3D"width: 600px;"></a></td></tr></tbody></table></td></tr></tbody></table>=
+</td></tr></tbody></table><![endif]-->  <!--[if !mso]><!-- --><div class=3D=
+"iz" style=3D"-apple-color-filter: none; background: #f0f1f2; color-scheme:=
+ light dark; padding: 0 0 10px; text-align: center; width: 100%;"><img src=
+=3D"https://c.apple.news/AgEkMThhMDA2ZDMtYjc4Zi00OTk5LWI2MTYtZDVhODAyYjc0Nj=
+Q4ADE3" alt=3D"Apple News+" style=3D"height: 70px; margin: 0 !important; ma=
+x-height: 70px; width: auto;"><p class=3D"jb i" style=3D"color: #666; font-=
+family: SFProTextMedium,'Helvetica Neue',sans-serif; font-size: 12px; font-=
+synthesis: none; font-weight: 300; line-height: 16px; margin: 0; padding: 0=
+ 40px 20px; text-align: center;">Some content requires specific hardware or=
+ software. Internet access required; data fees may apply. Content availabil=
+ity is subject to change. For more information, <a href=3D"http://images.ap=
+ple.com/legal/sla/docs/iOS91.pdf" title=3D"click&nbsp;here" style=3D"color:=
+ #666; font-size: 12px; font-weight: 300; line-height: 12px; text-align: ce=
+nter; text-decoration: underline;">click&nbsp;here</a>.</p><p class=3D"ja i=
+" style=3D"color: #666; font-family: SFProTextMedium,'Helvetica Neue',sans-=
+serif; font-size: 12px; font-synthesis: none; font-weight: 300; line-height=
+: 16px; margin: 0; padding: 0 40px 20px; text-align: center;">Copyright &co=
+py;&nbsp;2021&nbsp; Apple Inc. One Apple Park Way, Cupertino, California 95=
+014 USA</p><div class=3D"jd"><a class=3D"i" href=3D"https://www.apple.com/p=
+rivacy/" title=3D"Privacy Policy" style=3D"color: #666; font-family: SFProT=
+extMedium,'Helvetica Neue',sans-serif; font-size: 12px; font-synthesis: non=
+e; font-weight: 300; line-height: 12px; text-align: center; text-decoration=
+: none;">Privacy Policy</a> &nbsp;<span class=3D"je" style=3D"color: #666;"=
+>|</span>&nbsp; <a class=3D"i" href=3D"http://images.apple.com/legal/sla/do=
+cs/iOS91.pdf" title=3D"Terms and Conditions" style=3D"color: #666; font-fam=
+ily: SFProTextMedium,'Helvetica Neue',sans-serif; font-size: 12px; font-syn=
+thesis: none; font-weight: 300; line-height: 12px; text-align: center; text=
+-decoration: none;">Terms and Conditions</a> &nbsp;<span class=3D"je" style=
+=3D"color: #666;">|</span>&nbsp; <a class=3D"i" href=3D"https://support.app=
+le.com/itunes" title=3D"Support" style=3D"color: #666; font-family: SFProTe=
+xtMedium,'Helvetica Neue',sans-serif; font-size: 12px; font-synthesis: none=
+; font-weight: 300; line-height: 12px; text-align: center; text-decoration:=
+ none;">Support</a> &nbsp;<span class=3D"je" style=3D"color: #666;">|</span=
+>&nbsp; <a class=3D"i" href=3D"https://buy.itunes.apple.com/WebObjects/MZFi=
+nance.woa/wa/accountSummary?app=3Ditunes&ls=3D1" title=3D"Account" style=3D=
+"color: #666; font-family: SFProTextMedium,'Helvetica Neue',sans-serif; fon=
+t-size: 12px; font-synthesis: none; font-weight: 300; line-height: 12px; te=
+xt-align: center; text-decoration: none;">Account</a></div><div class=3D"jc=
+" style=3D"color: #666; font-size: 12px; font-weight: 300; line-height: 16p=
+x; margin: 0; padding: 20px 0; text-align: center;"><a class=3D"i" href=3D"=
+https://mynews.apple.com/subscriptions?v=3D2&la=3DEN_US&a=3DNB7Qgfsk6g9uMLB=
+8D9iaJx7zmlNBdvZ6A88vOwxkbNu%2BhShHJk%2BQYP5tZjbZnomQo5wrHjxm%2FxFI4q0%2FmI=
+rq%2FIAU4fnD3AsoU%2BxgpxHkdDP5aMUkSG8XANZX0SY2uZaA4P17i8u%2BPiWq1010LNTgIHL=
+8bYRqT4ykepgYM1rKX0ySfeoTFlt%2B7Yu6qPNnoGiviahTRe3nx8pfYo%2BCWpISZhGSvQNcmt=
+F7IxlOzVlZf9FHsUQb8PG%2FNxWIIvst%2Fz%2Br" title=3D"Unsubscribe" style=3D"co=
+lor: #666; font-family: SFProTextMedium,'Helvetica Neue',sans-serif; font-s=
+ize: 12px; font-synthesis: none; font-weight: 300; line-height: 12px; text-=
+decoration: underline;">Unsubscribe</a></div></div><!--<![endif]--> <!--[if=
+ (gte mso 9)|(IE)]><table class=3D"jg" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"-apple-color-filter: none; background: #f0f1f2; color-scheme: ligh=
+t dark; width: 660px;"><tbody><tr><td><table class=3D"jh" cellspacing=3D"0"=
+ cellpadding=3D"0" style=3D"background: #f0f1f2; margin: 0 20px; width: 620=
+px;"><tbody><tr><td class=3D"ji" style=3D"margin: 0; padding-top: 10px; tex=
+t-align: center;"><img align=3D"center" height=3D"80" src=3D"https://c.appl=
+e.news/AgEkMThhMDA2ZDMtYjc4Zi00OTk5LWI2MTYtZDVhODAyYjc0NjQ4ADE3" alt=3D"App=
+le News+" style=3D"border: 0; display: block; height: 70px; text-align: cen=
+ter;"></td></tr><tr><td class=3D"jj" style=3D"color: #666; font-size: 12px;=
+ font-weight: 300; line-height: 12px; margin: 0; text-align: center;">Some =
+content requires specific hardware or software. Internet access required; d=
+ata fees may apply. Content availability is subject to change. For more inf=
+ormation, <a class=3D"mso_daily_disclaimer_link" href=3D"http://images.appl=
+e.com/legal/sla/docs/iOS91.pdf" title=3D"click&nbsp;here" style=3D"color: #=
+000; text-decoration: underline;">&nbsp;click&nbsp;here</a>. <br> <br> Copy=
+right &copy;&nbsp;2021 Apple Inc. One Apple Park Way, Cupertino, California=
+ 95014 USA</td></tr><tr><td class=3D"jk" style=3D"margin: 0; padding-top: 1=
+0px; text-align: center;"><a href=3D"https://www.apple.com/privacy/" title=
+=3D"Privacy Policy" style=3D"color: #666; font-size: 12px; font-weight: 300=
+; line-height: 12px; text-decoration: underline;">Privacy Policy</a> &nbsp;=
+<span class=3D"jm" style=3D"color: #666;">|</span>&nbsp; <a href=3D"http://=
+images.apple.com/legal/sla/docs/iOS91.pdf" title=3D"Terms and Conditions" s=
+tyle=3D"color: #666; font-size: 12px; font-weight: 300; line-height: 12px; =
+text-decoration: underline;">Terms and Conditions</a> &nbsp;<span class=3D"=
+jm" style=3D"color: #666;">|</span>&nbsp; <a href=3D"https://support.apple.=
+com/itunes" title=3D"Support" style=3D"color: #666; font-size: 12px; font-w=
+eight: 300; line-height: 12px; text-decoration: underline;">Support</a> &nb=
+sp;<span class=3D"jm" style=3D"color: #666;">|</span>&nbsp; <a href=3D"[obj=
+ect Object]" title=3D"Account" style=3D"color: #666; font-size: 12px; font-=
+weight: 300; line-height: 12px; text-decoration: underline;">Account</a></t=
+d></tr><tr><td class=3D"jl" style=3D"padding: 10px 0 20px; text-align: cent=
+er;"><a href=3D"https://mynews.apple.com/subscriptions?v=3D2&la=3DEN_US&a=
+=3DNB7Qgfsk6g9uMLB8D9iaJx7zmlNBdvZ6A88vOwxkbNu%2BhShHJk%2BQYP5tZjbZnomQo5wr=
+Hjxm%2FxFI4q0%2FmIrq%2FIAU4fnD3AsoU%2BxgpxHkdDP5aMUkSG8XANZX0SY2uZaA4P17i8u=
+%2BPiWq1010LNTgIHL8bYRqT4ykepgYM1rKX0ySfeoTFlt%2B7Yu6qPNnoGiviahTRe3nx8pfYo=
+%2BCWpISZhGSvQNcmtF7IxlOzVlZf9FHsUQb8PG%2FNxWIIvst%2Fz%2Br" title=3D"Unsubs=
+cribe" style=3D"color: #666; font-size: 12px; font-weight: 300; line-height=
+: 12px; text-decoration: underline;">Unsubscribe</a></td></tr></tbody></tab=
+le></td></tr></tbody></table><![endif]--> <!--[if !mso]><!-- -->  <!--<![en=
+dif]--> <!--[if (gte mso 9)|(IE)]></td></tr></tbody></table></div><![endif]=
+--><style type=3D"text/css">@font-face {font-family: SFProDisplayHeavy; fon=
+t-weight: 400; font-style: normal; src: url(https://news-assets.apple.com/e=
+mbeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProTextHeavy.woff) forma=
+t("woff")} @font-face {font-family: SFProDisplayHeavy; font-weight: 400; fo=
+nt-style: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b1=
+71-43f3-cac3-05c7303f504f/fonts/SFProDisplayHeavy.woff) format("woff")} .e =
+{ font-family: SFProDisplayHeavy, "Helvetica Neue", sans-serif; font-synthe=
+sis: none } @font-face {font-family: SFProDisplaySemiBold; font-weight: 400=
+; font-style: normal; src: url(https://news-assets.apple.com/embeds/99a9cc9=
+c-b171-43f3-cac3-05c7303f504f/fonts/SFProDisplaySemibold.woff) format("woff=
+")} @font-face {font-family: SFProDisplaySemiBold; font-weight: 400; font-s=
+tyle: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-4=
+3f3-cac3-05c7303f504f/fonts/SFProDisplaySemiboldItalic.woff) format("woff")=
+} .f { font-family: SFProDisplaySemiBold, "Helvetica Neue", sans-serif; fon=
+t-synthesis: none } @font-face {font-family: SFProDisplayRegular; font-weig=
+ht: 400; font-style: normal; src: url(https://news-assets.apple.com/embeds/=
+99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProDisplayRegular.woff) format=
+("woff")} @font-face {font-family: SFProDisplayRegular; font-weight: 400; f=
+ont-style: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b=
+171-43f3-cac3-05c7303f504f/fonts/SFProDisplayRegularItalic.woff) format("wo=
+ff")} .g { font-family: SFProDisplayRegular, "Helvetica Neue", sans-serif; =
+font-synthesis: none } @font-face {font-family: SFDisplayExtraCompressedSem=
+ibold; font-weight: 400; font-style: normal; src: url(https://news-assets.a=
+pple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFDisplayExtraCo=
+mpressedSemibold.woff) format("woff")} .h { font-family: SFDisplayExtraComp=
+ressedSemibold, "Helvetica Neue", sans-serif; font-synthesis: none } @font-=
+face {font-family: SFProTextMedium; font-weight: 400; font-style: normal; s=
+rc: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c730=
+3f504f/fonts/SFProTextMedium.woff) format("woff")} @font-face {font-family:=
+ SFProTextMedium; font-weight: 700; font-style: normal; src: url(https://ne=
+ws-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFPro=
+TextBold.woff) format("woff")} @font-face {font-family: SFProTextMedium; fo=
+nt-weight: 400; font-style: italic; src: url(https://news-assets.apple.com/=
+embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProTextMediumItalic.wof=
+f) format("woff")} .i { font-family: SFProTextMedium, "Helvetica Neue", san=
+s-serif; font-synthesis: none } @font-face {font-family: SFProText; font-we=
+ight: 400; font-style: normal; src: url(https://news-assets.apple.com/embed=
+s/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProTextRegular.woff) format(=
+"woff")} @font-face {font-family: SFProText; font-weight: 700; font-style: =
+bold; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3=
+-05c7303f504f/fonts/SFProTextBold.woff) format("woff")} @font-face {font-fa=
+mily: SFProText; font-weight: 400; font-style: italic; src: url(https://new=
+s-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProT=
+extRegularItalic.woff) format("woff")} @font-face {font-family: SFProText; =
+font-weight: 700; font-style: italic; src: url(https://news-assets.apple.co=
+m/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/SFProTextBoldItalic.wof=
+f) format("woff")} .j { font-family: SFProText, "Helvetica Neue", sans-seri=
+f; font-synthesis: none } @font-face {font-family: DrukTextMedium; font-wei=
+ght: 400; font-style: normal; src: url(https://news-assets.apple.com/embeds=
+/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/DrukTextMedium.woff) format("wo=
+ff")} @font-face {font-family: DrukTextMedium; font-weight: 400; font-style=
+: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-=
+cac3-05c7303f504f/fonts/DrukTextMediumItalic.woff) format("woff")} .k { fon=
+t-family: DrukTextMedium, "Helvetica Neue", sans-serif; font-synthesis: non=
+e } @font-face {font-family: PracticeBook; font-weight: 400; font-style: no=
+rmal; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3=
+-05c7303f504f/fonts/PracticeBook.woff) format("woff")} @font-face {font-fam=
+ily: PracticeBook; font-weight: 700; font-style: normal; src: url(https://n=
+ews-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/Prac=
+ticeExtrabold.woff) format("woff")} @font-face {font-family: PracticeBook; =
+font-weight: 400; font-style: italic; src: url(https://news-assets.apple.co=
+m/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/PracticeBookIta.woff) f=
+ormat("woff")} @font-face {font-family: PracticeBook; font-weight: 700; fon=
+t-style: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b17=
+1-43f3-cac3-05c7303f504f/fonts/PracticeExtraboldIta.woff) format("woff")} .=
+l { font-family: PracticeBook, "Helvetica Neue", sans-serif; font-synthesis=
+: none } @font-face {font-family: PracticeBlackIta; font-style: italic; src=
+: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f=
+504f/fonts/PracticeBlackIta.woff) format("woff")} .m { font-family: Practic=
+eBlackIta, "Helvetica Neue", sans-serif; font-synthesis: none } @font-face =
+{font-family: PracticeDisplayBlackIta; font-style: italic; src: url(https:/=
+/news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/Pr=
+acticeDisplayBlackIta.woff) format("woff")} .n { font-family: PracticeDispl=
+ayBlackIta, "Helvetica Neue", sans-serif; font-synthesis: none } @font-face=
+ {font-family: DrukTextMediumItalic; font-style: italic; src: url(https://n=
+ews-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/Druk=
+TextMediumItalic.woff) format("woff")} .o { font-family: DrukTextMediumItal=
+ic, "Helvetica Neue", sans-serif; font-synthesis: none } @font-face {font-f=
+amily: PracticeExtrabold; font-style: normal; src: url(https://news-assets.=
+apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/PracticeExtrabo=
+ld.woff) format("woff")} @font-face {font-family: PracticeExtrabold; font-s=
+tyle: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-4=
+3f3-cac3-05c7303f504f/fonts/PracticeExtraboldIta.woff) format("woff")} .p {=
+ font-family: PracticeExtrabold, "Helvetica Neue", sans-serif; font-synthes=
+is: none } @font-face {font-family: PracticeBlack; font-style: normal; src:=
+ url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f5=
+04f/fonts/PracticeBlack.woff) format("woff")} @font-face {font-family: Prac=
+ticeBlack; font-style: italic; src: url(https://news-assets.apple.com/embed=
+s/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/PracticeBlackIta.woff) format(=
+"woff")} .q { font-family: PracticeBlack, "Helvetica Neue", sans-serif; fon=
+t-synthesis: none } @font-face {font-family: PracticeBold; src: url(https:/=
+/news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/Pr=
+acticeBold.woff) format("woff")} .r { font-family: PracticeBold, "Helvetica=
+ Neue", sans-serif; font-synthesis: none } @font-face {font-family: Practic=
+eRegular; font-style: normal; src: url(https://news-assets.apple.com/embeds=
+/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/PracticeRegular.woff) format("w=
+off")} @font-face {font-family: PracticeRegular; font-style: italic; src: u=
+rl(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504=
+f/fonts/PracticeRegularIta.woff) format("woff")} @font-face {font-family: P=
+racticeRegular; font-style: bold; src: url(https://news-assets.apple.com/em=
+beds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/PracticeRegular.woff) forma=
+t("woff")} .s { font-family: PracticeRegular, "Helvetica Neue", sans-serif;=
+ font-synthesis: none } @font-face {font-family: PracticeDisplayBlack; font=
+-style: normal; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b171=
+-43f3-cac3-05c7303f504f/fonts/PracticeDisplayBlack.woff) format("woff")} @f=
+ont-face {font-family: PracticeDisplayBlack; font-style: italic; src: url(h=
+ttps://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fo=
+nts/PracticeDisplayBlackIta.woff) format("woff")} .t { font-family: Practic=
+eDisplayBlack, "Helvetica Neue", sans-serif; font-synthesis: none } @font-f=
+ace {font-family: ProximaNovaBold; font-style: normal; src: url(https://new=
+s-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c7303f504f/fonts/Proxim=
+aNovaBold.woff) format("woff")} @font-face {font-family: ProximaNovaBold; f=
+ont-style: italic; src: url(https://news-assets.apple.com/embeds/99a9cc9c-b=
+171-43f3-cac3-05c7303f504f/fonts/ProximaNovaBoldIt.woff) format("woff")} .u=
+ { font-family: ProximaNovaBold, "Helvetica Neue", sans-serif; font-synthes=
+is: none } @font-face {font-family: ProximaNovaBlack; font-style: normal; s=
+rc: url(https://news-assets.apple.com/embeds/99a9cc9c-b171-43f3-cac3-05c730=
+3f504f/fonts/ProximaNovaBlack.woff) format("woff")} .v { font-family: Proxi=
+maNovaBlack, "Helvetica Neue", sans-serif; font-synthesis: none } @media sc=
+reen and (-webkit-min-device-pixel-ratio: 0) {.w { display: block !importan=
+t } .x { display: none !important } .y { display: none !important } } @medi=
+a only screen and (min-device-width: 768px) and (max-device-width: 1024px) =
+{.y { display: block !important } .w { display: none !important } .x { disp=
+lay: none !important } } @media only screen and (device-width: 414px) and (=
+device-height: 896px) and (-webkit-device-pixel-ratio: 2) {.x { display: bl=
+ock !important } .w { display: none !important } .y { display: none !import=
+ant } } @media only screen and (min-device-width: 375px) and (max-device-wi=
+dth: 812px) and (-webkit-device-pixel-ratio: 3) {.x { display: block !impor=
+tant } .w { display: none !important } .y { display: none !important } } @m=
+edia only screen and (min-device-width: 375px) and (max-device-width: 667px=
+) {.x { display: block !important } .w { display: none !important } .y { di=
+splay: none !important } } @media only screen and (min-device-width: 414px)=
+ and (max-device-width: 736px) {.x { display: block !important } .w { displ=
+ay: none !important } .y { display: none !important } } @media only screen =
+and (min-device-width: 320px) and (max-device-width: 568px) {.x { display: =
+block !important } .w { display: none !important } .y { display: none !impo=
+rtant } } @media only screen and (min-device-width: 320px) and (max-device-=
+width: 480px) {.x { display: block !important } .w { display: none !importa=
+nt } .y { display: none !important } } body { font-family: -apple-system-bo=
+dy, "Helvetica Neue", sans-serif; background: rgb(223, 223, 223) } u + #bod=
+y_class a { color: inherit; text-decoration: none; font-size: inherit; font=
+-family: inherit; font-weight: inherit; line-height: inherit } :root { colo=
+r-scheme: light dark; -apple-color-filter: none } @media all and (prefers-c=
+olor-scheme: light) {blockquote body, body { background: rgb(223, 223, 223)=
+ !important } .z { display: inline !important } .aa { display: none !import=
+ant } } @media all and (prefers-color-scheme: dark) {blockquote .ab, body {=
+ background: rgb(0, 0, 0) !important } .aa { display: inline !important } .=
+z { display: none !important } } a, a:hover, a:visited { text-decoration: n=
+one; color: rgb(0, 0, 0) } p { margin: 0; padding: 0 } img.ac { margin: 0 }=
+ .ad { margin: 0 auto; padding: 0; text-align: center; width: 700px; -webki=
+t-font-smoothing: antialiased } .ae { display: none; overflow: hidden } .af=
+ { box-sizing: border-box; display: block; height: auto; line-height: 100%;=
+ margin: 0 auto; max-height: none; max-width: none; overflow: visible; text=
+-align: center; width: 700px } .ag { background: rgb(223, 223, 223); text-a=
+lign: center } .ah { border-collapse: separate; text-align: center; width: =
+700px } .ai { width: 700px } @media all and (prefers-color-scheme: dark) {.=
+aj, blockquote .aj { background: rgb(199, 35, 66) !important } .ak, blockqu=
+ote .ak { background: rgb(255, 45, 85) !important } .aj p, blockquote .aj {=
+ color: rgb(240, 199, 207) !important } .al, .am, blockquote .al, blockquot=
+e .am { color: rgb(255, 255, 255) !important } } .an { text-align: center; =
+width: auto; max-width: 700px; margin: 0 auto; background: rgb(255, 45, 85)=
+ } .ao { margin: 0 20px } .ap { text-align: left } .aq { padding: 30px 0 5p=
+x; vertical-align: top; width: 30px } .aq img { width: 30px; margin: 0 !imp=
+ortant } .ar { padding: 5px 0 2px } .as { padding: 5px 0 10px } .aj { backg=
+round: rgb(199, 35, 66); padding: 20px; margin: 15px auto 0; vertical-align=
+: top } .aj p { color: rgb(240, 199, 207); font-size: 14px; line-height: 16=
+px } .am { color: rgb(255, 255, 255); font-size: 30px; line-height: 32px; l=
+etter-spacing: -1.5px } .al { padding: 10px 0 10px; color: rgb(255, 255, 25=
+5); font-size: 14px; line-height: 16px } .at { padding: 10px 0 17px; color:=
+ rgb(255, 255, 255); font-size: 14px; line-height: 16px } .au { border-coll=
+apse: separate; text-align: left; width: 660px; background: rgb(255, 45, 85=
+) } .av { vertical-align: top; width: 30px; padding: 20px 20px 5px } .av im=
+g { border: 0; display: block; text-align: left; width: 30px } .aw { vertic=
+al-align: top; text-align: left; width: 100%; padding: 0 20px } .aw span { =
+color: rgb(255, 255, 255); font-weight: 900; font-size: 30px; line-height: =
+20px } .ax { padding: 40px 0 20px; vertical-align: top; text-align: left; w=
+idth: 100%; padding: 9px 20px } .ax span { color: rgb(255, 255, 255); font-=
+size: 15px; line-height: 17px } .ay { background: rgb(199, 35, 66); border-=
+collapse: separate; margin: auto; padding: 0 20px } .az { padding: 20px 0; =
+vertical-align: top } .az span { color: rgb(240, 199, 207); vertical-align:=
+ top } .ba { margin: auto; text-align: left; width: 100%; padding: 5px 0 10=
+px } .bb { padding-top: 10px; font-size: 12px; font-weight: 700; line-heigh=
+t: 12px; text-transform: uppercase; text-decoration: none; text-align: left=
+; width: 100%; color: rgb(124, 124, 124); letter-spacing: 0.6px } .bc { hei=
+ght: 12px; max-height: 12px; min-height: 12px; vertical-align: middle; widt=
+h: auto; margin: 0 } .bd { padding: 0 0 4px } .be, .bf { color: rgb(0, 0, 0=
+); font-size: 16px; line-height: 21px; text-decoration: none } .be a { font=
+-synthesis: none; font-weight: 700; text-decoration: underline } .be strong=
+, .bf strong { font-family: PracticeBlack, "Helvetica Neue", sans-serif; fo=
+nt-size: 15px; text-transform: uppercase } .be strong i, .bf strong i { fon=
+t-family: PracticeBlackIta, "Helvetica Neue", sans-serif; font-size: 15px; =
+text-transform: uppercase } .bg a { font-family: PracticeBlack, "Helvetica =
+Neue", sans-serif; text-decoration: underline } .bg, .bh { color: rgb(0, 0,=
+ 0); font-size: 18px; line-height: 25px; text-decoration: none } .bg strong=
+, .bh strong { font-family: PracticeDisplayBlack, "Helvetica Neue", sans-se=
+rif; font-size: 27px } .bg strong i, .bh strong i { font-family: PracticeDi=
+splayBlackIta, "Helvetica Neue", sans-serif; font-size: 27px } @media all a=
+nd (prefers-color-scheme: dark) {.bb, blockquote .bb { color: rgb(151, 151,=
+ 151) !important } .be, .be a, .be strong, .be strong i, .bf, .bf a, .bf st=
+rong, .bf strong i, .bg, .bg a, .bg strong, .bg strong i, .bh, .bh a, .bh s=
+trong, .bh strong i, .bd, blockquote .be, blockquote .be a, blockquote .be =
+strong, blockquote .be strong i, blockquote .bf, blockquote .bf a, blockquo=
+te .bf strong, blockquote .bf strong i, blockquote .bg, blockquote .bg a, b=
+lockquote .bg strong, blockquote .bg strong i, blockquote .bh, blockquote .=
+bh a, blockquote .bh strong, blockquote .bh strong i, blockquote .bd { colo=
+r: rgb(255, 255, 255) !important } } .bi { border-collapse: separate; text-=
+align: left; width: 580px; padding: 0; margin: 0 } .bj, .bk { font-size: 16=
+px; line-height: 21px; padding: 0 0 5px 5px } .bl, .bm { font-size: 18px; l=
+ine-height: 25px; padding: 0 0 5px 5px } .bl strong, .bm strong { font-size=
+: 27px } .bj strong, .bk strong { font-size: 15px; text-transform: uppercas=
+e } .bm a, .bk a { font-weight: 900; text-decoration: underline } .bn { pad=
+ding: 0 0 15px 5px; text-align: left; margin: 0; color: rgb(151, 151, 151) =
+} .bn span { color: rgb(151, 151, 151); font-size: 12px; font-weight: 700; =
+line-height: 12px; text-transform: uppercase; text-decoration: none; text-a=
+lign: left } .bo { height: 10px; vertical-align: middle; width: auto; margi=
+n: 0 } .bp { background: rgb(240, 241, 242) } .bq { background: rgb(240, 24=
+1, 242) } .br { background: rgb(255, 255, 255); padding: 0 20px 8px; width:=
+ auto } @media only screen and (min-device-width: 768px) {.br { padding: 0 =
+55px 2px !important } .bs { padding: 20px 55px 15px !important } } .bt { co=
+lor: rgb(0, 0, 0); font-size: 27px; line-height: 27px; text-decoration: non=
+e; text-align: left; padding: 0 0 5px } .bu { margin: 0 20px; padding: 0; b=
+ackground: 0 0 } .bv { border-bottom: 3px solid rgb(255, 53, 85); margin-bo=
+ttom: 20px; padding: 0 0 8px 0; text-align: left; text-transform: uppercase=
+ } .bv p { color: rgb(0, 0, 0); font-size: 17px; font-weight: 700; line-hei=
+ght: 18px; margin: 0; padding: 0; text-transform: uppercase } .bw { border-=
+bottom: 3px solid rgb(255, 53, 85); padding: 23px 0 9px; text-align: left; =
+margin: 0 0 22px } .bx { border-bottom: 3px solid rgb(255, 53, 85); padding=
+: 52px 0 11px; text-align: left; margin: 0 0 19px } .by { border-bottom: 3p=
+x solid rgb(255, 53, 85); padding: 0 0 9px; text-align: left; margin: 0 0 2=
+0px } .bz { border-bottom: 3px solid rgb(255, 53, 85); padding: 0 0 9px; te=
+xt-align: left; margin: 0 0 19px } .ca { color: rgb(0, 0, 0); font-size: 17=
+px; font-weight: 700; line-height: 18px; margin: 0; padding: 0; text-transf=
+orm: uppercase } .cb { width: 100%; padding-bottom: 18px } .cb img { width:=
+ 100%; margin: 0 !important } .cc { border-top: 1px solid rgb(167, 165, 165=
+); margin: 2px 0 0 } @media all and (prefers-color-scheme: light) {.bq, blo=
+ckquote .bq { background: linear-gradient(180deg, rgb(255, 53, 85) 35px, rg=
+b(240, 241, 242) 35px) !important } } @media all and (prefers-color-scheme:=
+ dark) {.bq, blockquote .bq { background: linear-gradient(180deg, rgb(255, =
+53, 85) 35px, rgb(30, 30, 30) 35px) !important } .bp, blockquote .bp { back=
+ground: rgb(30, 30, 30) !important } .bs, .br, blockquote .bs, blockquote .=
+br { background: rgb(47, 47, 47) !important } .bt, .bv p, .ca, blockquote .=
+bv p, blockquote html_daily_bullet_list_header_text { color: rgb(255, 255, =
+255) !important } .cc, blockquote v { border-top: 1px solid rgb(151, 151, 1=
+51) } } .cd { background: rgb(240, 241, 242); width: 660px } .ce { margin: =
+20px; background: rgb(255, 255, 255); text-align: center; width: 620px } .c=
+f { border-collapse: separate; text-align: left; width: 580px } .cg { margi=
+n: 0 0 20px 0; padding: 20px 0 } .ch { border-bottom: 3px solid rgb(255, 53=
+, 85); color: rgb(0, 0, 0); font-size: 17px; font-weight: 700; line-height:=
+ 18px; padding: 0 0 8px 0; text-transform: uppercase; width: 580px } .ci { =
+margin-bottom: 20px } .cj { width: 580px } .ck { border-top: 1px solid rgb(=
+167, 165, 165); margin: 4px 0 20px } .cl { color: rgb(0, 0, 0); font-size: =
+27px; line-height: 27px; text-decoration: none; padding: 0 0 10px } .cm { m=
+argin: auto; text-align: left; width: auto; padding: 19px 0 20px } .cn, .co=
+ { color: rgb(0, 0, 0); font-size: 16px; line-height: 23px; text-align: lef=
+t; text-decoration: none !important } .cp, .cq { color: rgb(0, 0, 0); font-=
+size: 18px; line-height: 25px; text-align: left; text-decoration: none !imp=
+ortant } .cp b, .cq b { font-family: PracticeBold, "Helvetica Neue", sans-s=
+erif } .cq a { font-family: PracticeBold, "Helvetica Neue", sans-serif; tex=
+t-decoration: underline } .co a { font-weight: 700; text-decoration: underl=
+ine } .cp strong, .cq strong { font-family: PracticeDisplayBlack, "Helvetic=
+a Neue", sans-serif; color: rgb(0, 0, 0); font-size: 27px; text-decoration:=
+ none !important; font-weight: 700 } .cp strong i, .cq strong i { font-fami=
+ly: PracticeDisplayBlackIta, "Helvetica Neue", sans-serif; color: rgb(0, 0,=
+ 0); font-size: 27px; text-decoration: none !important; font-weight: 700 } =
+.cn strong, .co strong { font-family: PracticeBlack, "Helvetica Neue", sans=
+-serif; font-size: 20px; color: rgb(0, 0, 0); text-decoration: none !import=
+ant; font-weight: 700 } .cn strong i, .co strong i { font-family: PracticeB=
+lackIta, "Helvetica Neue", sans-serif; font-size: 20px; color: rgb(0, 0, 0)=
+; text-decoration: none !important; font-weight: 700 } .cr { height: 12px; =
+max-height: 12px; min-height: 12px; vertical-align: middle; width: auto; ma=
+rgin: 0 } .cs { padding-top: 8px; font-size: 12px; font-weight: 700; line-h=
+eight: 12px; text-transform: uppercase; text-decoration: none !important; t=
+ext-align: left; width: 100%; color: rgb(124, 124, 124); letter-spacing: 0.=
+6px } .ct { border-top: 1px solid rgb(167, 165, 165); margin: 0 0 2px } @me=
+dia all and (prefers-color-scheme: dark) {.cs, blockquote .cs { color: rgb(=
+151, 151, 151) !important } .cp, .cp a, .cp strong, .cp strong i, .cq, .cq =
+a, .cq strong, .cq strong i, .cn, .cn a, .cn strong, .cn strong i, .co, .co=
+ a, .co strong, .co strong i, blockquote .cp, blockquote .cp a, blockquote =
+.cp strong, blockquote .cp strong i, blockquote .cq, blockquote .cq a, bloc=
+kquote .cq strong, blockquote .cq strong i, blockquote .cn, blockquote .cn =
+a, blockquote .cn strong, blockquote .cn strong i, blockquote .co, blockquo=
+te .co strong, blockquote .co strong i { color: rgb(255, 255, 255) !importa=
+nt } .ct, blockquote .ct { border-top: 1px solid rgb(147, 142, 142) } } .cu=
+ { border-collapse: separate; padding-bottom: 20px; text-align: center } .c=
+v, .cw { color: rgb(0, 0, 0); padding-bottom: 10px; font-size: 16px; line-h=
+eight: 22px; text-align: left; text-decoration: none } .cx, .cy { color: rg=
+b(0, 0, 0); padding-bottom: 10px; font-size: 18px; line-height: 25px; text-=
+align: left; text-decoration: none } .cx strong, .cy strong { font-size: 27=
+px } .cw a, .cx a { font-weight: 900; text-decoration: underline !important=
+ } .cv strong, .cw strong { color: rgb(0, 0, 0); font-size: 20px; font-weig=
+ht: 700; text-decoration: none } .cz { padding: 0 0 15px; text-align: left;=
+ margin: 0; color: rgb(124, 124, 124) } .cz span { color: rgb(124, 124, 124=
+); font-size: 12px; font-weight: 700; line-height: 12px; text-transform: up=
+percase; text-decoration: none; text-align: left } .da { height: 10px; vert=
+ical-align: middle; width: auto; margin: 0 } .db { border-top: 1px solid rg=
+b(167, 165, 165); margin: 4px 0 0 } .dc { background: rgb(240, 241, 242) } =
+.dd { background: rgb(240, 241, 242) } .de { background: rgb(255, 255, 255)=
+; padding: 0 20px; width: auto } @media only screen and (min-device-width: =
+768px) {.de { padding: 0 55px !important } } .df { margin: 0 20px; padding:=
+ 0; background: 0 0 } .dg { border-bottom: 3px solid rgb(255, 53, 85); padd=
+ing: 23px 0 9px; text-align: left } .dh { border-bottom: 3px solid rgb(255,=
+ 53, 85); padding: 52px 0 10px; text-align: left } .di { color: rgb(0, 0, 0=
+); letter-spacing: 0.6px; font-size: 17px; font-weight: 700; line-height: 1=
+8px; text-transform: uppercase } @media all and (prefers-color-scheme: ligh=
+t) {.dd { background: linear-gradient(180deg, rgb(255, 53, 85) 35px, rgb(24=
+0, 241, 242) 35px) !important } } @media all and (prefers-color-scheme: dar=
+k) {.dc, blockquote .dc { background: rgb(30, 30, 30) !important } .de, blo=
+ckquote .de { background: rgb(47, 47, 47) !important } .dd, blockquote .dd =
+{ background: linear-gradient(180deg, rgb(255, 53, 85) 35px, rgb(30, 30, 30=
+) 35px) !important } .di, blockquote .di { color: rgb(255, 255, 255) !impor=
+tant } } .dj { background: rgb(240, 241, 242); width: 660px; text-align: ce=
+nter } .dk { width: 620px; padding: 0 20px 0 20px; background: rgb(255, 255=
+, 255); text-align: center } .dl { border-collapse: separate; text-align: l=
+eft } .dm { padding: 0 0 15px } .dn { border-bottom: 3px solid rgb(255, 53,=
+ 85); color: rgb(0, 0, 0); font-weight: 700; font-size: 17px; line-height: =
+18px; padding: 10px 0 8px; text-transform: uppercase; width: 620px } .do { =
+background: rgb(240, 241, 242) } .dp { background: rgb(255, 255, 255); padd=
+ing: 0 20px 8px; width: auto } @media only screen and (min-device-width: 76=
+8px) {.dp { padding: 0 55px 8px !important } } .dq { margin: 0 20px; paddin=
+g: 0; background: transparent } .c { padding: 0 0 25px } @media all and (pr=
+efers-color-scheme: dark) {.do, blockquote .do { background: rgb(30, 30, 30=
+) !important } .dp, blockquote .dp { background: rgb(47, 47, 47) !important=
+ } } .dr { background: rgb(240, 241, 242); width: 660px } .ds { margin: 0 2=
+0px; padding: 10px 0 20px; background: rgb(255, 255, 255); text-align: cent=
+er; width: 620px } .dt { background: rgb(240, 241, 242) } .du { background:=
+ rgb(240, 241, 242) } .dv { background: rgb(255, 255, 255); padding: 0 20px=
+ 14px; width: auto } @media only screen and (min-device-width: 768px) {.dv =
+{ padding: 0 55px 14px !important } } .dw { margin: 0 20px; padding: 0; bac=
+kground: 0 0 } .dx { letter-spacing: 0.6px } .du p, .dt p { color: rgb(0, 0=
+, 0); font-size: 17px; font-weight: 700; line-height: 18px; margin: 0; padd=
+ing: 0; text-transform: uppercase } .dy { width: 100% } .dy img { width: 10=
+0%; margin: 0 !important } .dz { text-align: left; padding: 20px 0 5px } .d=
+z img { height: 15px; max-height: 15px; width: auto; margin: 0 !important }=
+ .ea { border-bottom: 1px solid rgb(167, 165, 165); margin: 14px 0 25px; te=
+xt-align: right; width: 100% } .eb { padding: 18px 0 10px; text-align: left=
+; text-decoration: none } .eb p { font-size: 36px; font-weight: 700; line-h=
+eight: 36px; margin: 0; padding: 0; color: rgb(0, 0, 0); text-decoration: n=
+one; text-transform: none !important } .ec { padding: 5px 0 10px; text-alig=
+n: left; text-decoration: none } .ec p { font-size: 36px; font-weight: 700;=
+ line-height: 36px; margin: 0; padding: 0; color: rgb(0, 0, 0); text-decora=
+tion: none; text-transform: none !important } .ed { padding: 0 0 8px; text-=
+align: left } .ee, .ef { font-size: 16px; line-height: 19px; margin: 0; pad=
+ding: 0; color: rgb(0, 0, 0); text-decoration: none } .ef a { font-synthesi=
+s: none; font-weight: 700; font-size: 16px; line-height: 19px; margin: 0; p=
+adding: 0; color: rgb(0, 0, 0); text-decoration: underline } .eg { padding:=
+ 10px 0 0; font-size: 12px; font-weight: 700; line-height: 12px; text-trans=
+form: uppercase; text-decoration: none; text-align: left; width: 100%; colo=
+r: rgb(124, 124, 124); letter-spacing: 0.6px } .eh { height: 12px; max-heig=
+ht: 12px; min-height: 12px; vertical-align: middle; width: auto; margin: 0 =
+} .ei { text-decoration: none } .ej { border-bottom: 3px solid rgb(255, 53,=
+ 85); padding: 23px 0 9px; text-align: left; margin: 0 0 20px } .ek { borde=
+r-bottom: 3px solid rgb(255, 53, 85); padding: 52px 0 9px; text-align: left=
+; margin: 0 0 20px } .el { border-bottom: 3px solid rgb(255, 53, 85); paddi=
+ng: 0 0 9px; text-align: left; margin: 0 0 20px } .em { border-bottom: 3px =
+solid rgb(255, 53, 85); padding: 0 0 9px; text-align: left; margin: 0 0 20p=
+x } @media all and (prefers-color-scheme: light) {.du, blockquote .du { bac=
+kground: linear-gradient(180deg, rgb(255, 53, 85) 35px, rgb(240, 241, 242) =
+35px) !important } } @media all and (prefers-color-scheme: dark) {.eg, bloc=
+kquote .eg { color: rgb(151, 151, 151) !important } .dt, blockquote .dt { b=
+ackground: rgb(30, 30, 30) !important } .dv, blockquote .dv { background: r=
+gb(47, 47, 47) !important } .ee, .ef, .ef a, .eb p, .ec p, .du p, .dt p, bl=
+ockquote .ee, blockquote .ef, blockquote .ef a, blockquote .eb p, blockquot=
+e .ec p, blockquote .du p, blockquote .dt p { color: rgb(255, 255, 255) !im=
+portant } .du, blockquote .du { background: linear-gradient(180deg, rgb(255=
+, 53, 85) 35px, rgb(30, 30, 30) 35px) !important } } .en { border-bottom: 1=
+px solid rgb(167, 165, 165); border-collapse: separate; text-align: left; w=
+idth: 580px } .eo { height: 20px } .ep { background: rgb(240, 241, 242); wi=
+dth: 660px; text-align: left } .eq { margin: 0 20px; background: rgb(255, 2=
+55, 255); text-align: center; width: 620px } .er { border-collapse: separat=
+e; text-align: left; width: 580px } .es { margin: 0 0 20px; padding: 0 0 20=
+px } .et { margin: 0 0 20px; padding: 20px 0 } .eu { border-bottom: 3px sol=
+id rgb(255, 53, 85); color: rgb(0, 0, 0); font-size: 17px; font-weight: 700=
+; line-height: 18px; padding: 0 0 8px; text-transform: uppercase; width: 58=
+0px } .ev { color: rgb(255, 53, 85); font-size: 12px; font-weight: 700; lin=
+e-height: 15px; letter-spacing: 1.1px; text-transform: uppercase; text-deco=
+ration: none } .ew { padding: 0 0 20px } .ex { text-align: left; padding: 0=
+ 0 10px } .ey { padding: 0 0 10px; text-align: left } .ez { font-size: 36px=
+; font-weight: 700; line-height: 36px } .fa { padding: 0 0 10px; text-align=
+: left; text-decoration: none } .fb, .fc { padding: 0 0 10px; text-align: l=
+eft; color: rgb(0, 0, 0); font-size: 15px; line-height: 19px; text-decorati=
+on: none } .fb a { font-weight: 900; text-decoration: underline } .fd { pad=
+ding: 0 0 15px; text-align: left; margin: 0; color: rgb(124, 124, 124) } .f=
+d span { color: rgb(124, 124, 124); font-size: 12px; font-weight: 700; line=
+-height: 12px; text-transform: uppercase; text-decoration: none; text-align=
+: left } .fe { height: 10px; vertical-align: middle; width: auto; margin: 0=
+ } .ff { display: table; margin: auto; padding-bottom: 10px; text-align: le=
+ft; width: 100% } .fg { border-bottom: 1px solid rgb(167, 165, 165); margin=
+: 5px 0 25px; padding: 10px 0 0; text-align: right; width: 100% } .fh { dis=
+play: table-cell; float: left; font-size: 50px; line-height: 12px; box-sizi=
+ng: border-box; width: 40%; padding: 0 28px 0 0 } .fh img { width: 100%; ma=
+rgin: 0 !important } .fh a { display: inline-block; width: 100% } .fi { dis=
+play: table-cell; vertical-align: top; width: 100% } .fj { color: rgb(0, 0,=
+ 0); letter-spacing: 0; font-size: 19px; line-height: 18px; text-decoration=
+: none; font-weight: 700; padding: 0 0 2px 0 } .fk, .fl, .fm, .fn { text-de=
+coration: none; color: rgb(0, 0, 0); font-size: 16px; line-height: 18px; te=
+xt-align: left } .fk strong, .fl strong { font-family: PracticeBlack, "Helv=
+etica Neue", sans-serif; font-size: 20px; line-height: 18px; color: rgb(0, =
+0, 0); text-decoration: none !important; font-weight: 700 } .fk strong i, .=
+fl strong i { font-family: PracticeBlackIta, "Helvetica Neue", sans-serif; =
+font-size: 20px; line-height: 18px; color: rgb(0, 0, 0); text-decoration: n=
+one !important; font-weight: 700 } .fk a, .fn a { font-synthesis: none; fon=
+t-weight: 700; text-decoration: underline; font-size: 15px; line-height: 18=
+px; text-align: left } .fm strong, .fn strong { font-family: DrukTextMedium=
+, "Helvetica Neue", sans-serif; letter-spacing: 0; font-size: 18px; line-he=
+ight: 18px; text-decoration: none; font-weight: 700 } .fm strong i, .fn str=
+ong i { font-family: DrukTextMediumItalic, "Helvetica Neue", sans-serif; le=
+tter-spacing: 0; font-size: 18px; line-height: 18px; text-decoration: none;=
+ font-weight: 700 } .fo, .fo a { padding-top: 10px; font-size: 12px; font-w=
+eight: 700; line-height: 12px; text-transform: uppercase; text-decoration: =
+none; text-align: left; width: 100%; color: rgb(124, 124, 124); letter-spac=
+ing: 0.6px } .fp { height: 12px; max-height: 12px; min-height: 12px; vertic=
+al-align: middle; width: auto; margin: 0 } .fq { text-decoration: none } .f=
+r, .fs { padding: 0 0 10px } .fr img, .fs img { height: 12px; max-height: 1=
+2px; width: auto; margin: 0 !important } @media screen and (-webkit-min-dev=
+ice-pixel-ratio: 0) {.fs { padding: 0 0 12px !important } } @media only scr=
+een and (min-device-width: 768px) and (max-device-width: 1024px) {.fs { pad=
+ding: 0 0 10px !important } } @media only screen and (device-width: 414px) =
+and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {.fs { paddi=
+ng: 0 0 10px !important } } @media only screen and (min-device-width: 375px=
+) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {.fs { =
+padding: 0 0 10px !important } } @media only screen and (min-device-width: =
+375px) and (max-device-width: 667px) {.fs { padding: 0 0 10px !important } =
+} @media only screen and (min-device-width: 414px) and (max-device-width: 7=
+36px) {.fs { padding: 0 0 10px !important } } @media only screen and (min-d=
+evice-width: 320px) and (max-device-width: 568px) {.fs { padding: 0 0 10px =
+!important } } @media only screen and (min-device-width: 320px) and (max-de=
+vice-width: 480px) {.fs { padding: 0 0 10px !important } } @media all and (=
+prefers-color-scheme: dark) {.fo, .fo a, blockquote .fo, blockquote .fo a {=
+ color: rgb(151, 151, 151) !important } .fk, .fk a, .fk strong, .fk strong =
+i, .fl, .fl strong, .fl strong i, .fm, .fm strong, .fm strong i, .fj, .fn, =
+.fn a, .fn strong, .fn strong i, blockquote .fk, blockquote .fk a, blockquo=
+te .fk strong, blockquote .fk strong i, blockquote .fl, blockquote .fl stro=
+ng, blockquote .fl strong i, blockquote .fm, blockquote .fm strong, blockqu=
+ote .fm strong i, blockquote .fj, blockquote .fn, blockquote .fn a, blockqu=
+ote .fn strong, blockquote .fn strong i { color: rgb(255, 255, 255) !import=
+ant } } .ft { color: rgb(0, 0, 0); letter-spacing: 0; font-size: 19px; line=
+-height: 16px; text-decoration: none; font-weight: 700; padding: 0 0 1px 0 =
+} .fu { padding: 0 0 20px } .fv { border-bottom: 1px solid rgb(167, 165, 16=
+5); border-collapse: separate; text-align: left; padding: 0 0 20px; width: =
+580px } .fw { border-collapse: separate; text-align: left; width: 580px } .=
+fx { vertical-align: top; width: 200px } .fx img { text-align: center; vert=
+ical-align: top; width: 200px } .fy { margin: 0 0 5px } .fz { width: 100%; =
+padding: 0 0 0 40px; margin: 0; vertical-align: top } .ga { padding: 0 0 15=
+px; margin: 0 } .gb { text-align: left; color: rgb(124, 124, 124); font-siz=
+e: 12px; font-weight: 700; line-height: 12px; text-transform: uppercase; te=
+xt-decoration: none; text-align: left } .gc, .gd { color: rgb(0, 0, 0); fon=
+t-size: 15px; line-height: 16px; text-align: left; vertical-align: bottom; =
+text-decoration: none; padding: 0 0 0; margin: 0 0 10px; width: 100%; heigh=
+t: 100% } .gd a { font-weight: 900; text-decoration: underline; vertical-al=
+ign: bottom } .gc strong, .gd strong { font-size: 19px; line-height: 16px; =
+color: rgb(0, 0, 0); text-decoration: none; font-weight: 700; vertical-alig=
+n: bottom } .ge { padding: 0 0 15px; text-align: left; margin: 0; color: rg=
+b(124, 124, 124); font-size: 12px; font-weight: 700; line-height: 12px; tex=
+t-transform: uppercase; text-decoration: none; text-align: left } .gf { hei=
+ght: 10px; vertical-align: middle; width: auto; margin: 0 } .gg { backgroun=
+d: rgb(240, 241, 242) } .gh { background: rgb(255, 255, 255); padding: 0 20=
+px 14px; width: auto } @media only screen and (min-device-width: 768px) {.g=
+h { padding: 0 55px 14px !important } } .gi { margin: 0 20px; padding: 0; b=
+ackground: 0 0 } .gj { border-bottom: 3px solid rgb(255, 53, 85); margin-bo=
+ttom: 20px; padding: 0 0 8px; text-align: left } .gk { color: rgb(0, 0, 0);=
+ font-size: 17px; font-weight: 700; line-height: 18px; letter-spacing: 0.6p=
+x; margin: 0; padding: 0; text-transform: uppercase } @media all and (prefe=
+rs-color-scheme: dark) {.gg, blockquote .gg { background: rgb(30, 30, 30) !=
+important } .gh, blockquote .gh { background: rgb(47, 47, 47) !important } =
+.gk, blockquote .gk { color: rgb(255, 255, 255) !important } } .gl { backgr=
+ound: rgb(240, 241, 242); width: 660px } .gm { margin: 0 20px; background: =
+rgb(255, 255, 255); text-align: center; width: 620px } .gn { border-collaps=
+e: separate; text-align: left; width: 580px } .go { margin: 0 0 20px; paddi=
+ng: 0 0 20px } .gp { border-bottom: 3px solid rgb(255, 53, 85); color: rgb(=
+0, 0, 0); font-size: 17px; font-weight: 700; line-height: 18px; padding: 0 =
+0 8px; text-transform: uppercase; width: 580px } .gq { font-size: 36px; fon=
+t-weight: 700; text-align: left; margin: 0; padding: 0; color: rgb(0, 0, 0)=
+; text-decoration: none; margin-bottom: 10px; margin-top: 10px } .gr { colo=
+r: rgb(0, 0, 0); font-size: 16px; line-height: 19px; text-align: left; text=
+-decoration: none; margin-bottom: 10px } .gr a { font-weight: 900; text-dec=
+oration: underline } .gs { text-align: left; padding: 20px 0 0 } .gt { back=
+ground: rgb(240, 241, 242) } .gu { margin: 0 20px; padding: 0; background: =
+0 0 } .gv { background: rgb(255, 255, 255); padding: 0 20px 13px; width: au=
+to } .gw { padding: 0 20px 6px; width: auto } @media only screen and (min-d=
+evice-width: 768px) {.gv { padding: 0 55px 13px !important } } .gx { border=
+-bottom: 3px solid rgb(255, 53, 85); margin-bottom: 20px; padding: 0 0 8px;=
+ text-align: left } .gy { color: rgb(0, 0, 0); font-size: 17px; font-weight=
+: 700; line-height: 18px; letter-spacing: 0.6px; margin: 0; padding: 0; tex=
+t-transform: uppercase } .gz { width: 100%; max-width: 685px } .ha { margin=
+-bottom: 10px; width: 100%; max-width: 685px } .hb { width: 100%; max-width=
+: 700px } .hc { padding: 0 0 20px; width: 100% } .hc img { width: 100%; mar=
+gin: 0 !important } .hd { text-decoration: none } .he { color: rgb(0, 0, 0)=
+; font-size: 40px; line-height: 42px; float: left; vertical-align: top; tex=
+t-align: right; width: 15px } .hf { color: rgb(0, 0, 0); width: 100%; font-=
+size: 36px; font-weight: 700; line-height: 36px; text-align: left } .hg { f=
+ont-size: 16px; line-height: 17px; text-align: left; letter-spacing: 0 } .h=
+h, .hi { font-size: 16px; line-height: 18px; text-align: left; letter-spaci=
+ng: 0; color: rgb(0, 0, 0); text-decoration: none } .hh strong, .hi strong =
+{ color: rgb(0, 0, 0); font-family: DrukTextMedium, "Helvetica Neue", sans-=
+serif; letter-spacing: 0; font-size: 19px; line-height: 21px; text-decorati=
+on: none } .hh strong i, .hi strong i { color: rgb(0, 0, 0); font-family: D=
+rukTextMediumItalic, "Helvetica Neue", sans-serif; letter-spacing: 0; font-=
+size: 19px; line-height: 21px; text-decoration: none } .hh a { font-synthes=
+is: none; font-weight: 700; font-size: 16px; line-height: 18px; text-align:=
+ left; letter-spacing: 0; color: rgb(0, 0, 0); text-decoration: underline }=
+ .hj { padding: 0 0 16px } .hk { padding: 0 } .hl { font-weight: 700; font-=
+size: 16px; line-height: 18px; text-align: left; letter-spacing: 0; color: =
+rgb(0, 0, 0) } .hm, .hm a { padding-top: 10px; font-size: 12px; font-weight=
+: 700; line-height: 12px; text-transform: uppercase; text-decoration: none;=
+ text-align: left; width: 100%; color: rgb(124, 124, 124); letter-spacing: =
+0.6px } .hn { height: 12px; max-height: 12px; min-height: 12px; vertical-al=
+ign: middle; width: auto; margin: 0 } .ho { text-align: left; padding: 12px=
+ 0 6px } .hp { text-align: left; padding: 17px 0 6px } .ho img, .hp img { h=
+eight: 15px; max-height: 15px; margin: 0 !important } @media all and (prefe=
+rs-color-scheme: dark) {.hm, .hm a, blockquote .hm, blockquote .hm a { colo=
+r: rgb(151, 151, 151) !important } .gt, blockquote .gt { background: rgb(30=
+, 30, 30) !important } .gv, blockquote .gv { background: rgb(47, 47, 47) !i=
+mportant } .hh, .hh a, .hh strong, .hh strong i, .hi, .hi a, .hi strong, .h=
+i strong i, .hl, .he, .gy, .hf, blockquote .hh, blockquote .hh a, blockquot=
+e .hh strong, blockquote .hh strong i, blockquote .hi, blockquote .hi a, bl=
+ockquote .hi strong, blockquote .hi strong i, blockquote .hl, blockquote .h=
+e, blockquote .gy, blockquote .hf { color: rgb(255, 255, 255) !important } =
+} .hq { padding: 0 0 10px } .hr { font-weight: 700; font-size: 16px; line-h=
+eight: 18px; text-align: left; letter-spacing: 0; color: rgb(0, 0, 0) } .hs=
+ { background: rgb(240, 241, 242); width: 660px } .ht { margin: 0 20px; bac=
+kground: rgb(255, 255, 255); text-align: center; width: 620px } .hu { paddi=
+ng: 0 0 20px } .hv { border-collapse: separate; text-align: left; width: 58=
+0px } .hw { width: 580px; padding-bottom: 20px } .hx { margin: 0 0 20px; pa=
+dding: 0 0 20px } .hy { border-bottom: 3px solid rgb(255, 53, 85); color: r=
+gb(0, 0, 0); font-size: 17px; font-weight: 700; line-height: 18px; padding:=
+ 0 0 8px 0; text-transform: uppercase; width: 580px } .hz { width: 580px } =
+.ia { font-size: 40px; line-height: 26px; width: 15px; font-weight: 700; ve=
+rtical-align: top } .ib { width: 580px; font-size: 40px; line-height: 26px;=
+ text-align: left; font-weight: 700 } .ic, .id { font-size: 15px; line-heig=
+ht: 17px; text-align: left; margin: 10px 0 5px } .id a { font-weight: 900; =
+text-decoration: underline } .ie { text-align: left; padding: 10px 0 0 } .i=
+f { padding: 0 0 15px; margin: 0; text-align: left } .if span { text-align:=
+ left; color: rgb(124, 124, 124); font-size: 12px; font-weight: 700; line-h=
+eight: 12px; text-transform: uppercase; text-decoration: none } .ig { heigh=
+t: 10px; vertical-align: middle; width: auto; margin: 0 } .ih { background:=
+ rgb(240, 241, 242) } .ii { margin: 0 20px; padding: 0; background: rgb(255=
+, 255, 255) } .ij { background: rgb(255, 255, 255); padding: 0 20px 22px; w=
+idth: auto; text-align: center } @media only screen and (min-device-width: =
+768px) {.ij { padding: 0 55px 22px !important } } .d { padding: 0 0 24px } =
+.ik { margin: auto; max-width: 600px; overflow: hidden; padding: 4px 0 10px=
+; text-align: center; width: auto } .il { color: rgb(0, 0, 0); font-size: 2=
+0px; letter-spacing: 0.25px; line-height: 20px; text-decoration: none } .im=
+ { text-align: center; text-decoration: none; color: rgb(0, 0, 0); font-siz=
+e: 15px; letter-spacing: -0.19px; line-height: 17px; margin: auto; overflow=
+: hidden; padding: 0 0 16px; width: auto } .im b { color: rgb(255, 45, 85);=
+ font-weight: 700 } @media all and (prefers-color-scheme: dark) {.ii, .ih, =
+blockquote .ii, blockquote .ih { background: rgb(30, 30, 30) !important } .=
+dc, blockquote .dc { background: rgb(30, 30, 30) !important } .ij, blockquo=
+te .ij { background: rgb(47, 47, 47) !important } .im, .il, blockquote .im,=
+ blockquote .il { color: rgb(255, 255, 255) !important } .im b, blockquote =
+.im b { color: rgb(255, 45, 85) !important } } .dr { background: rgb(240, 2=
+41, 242); width: 660px } .ds { margin: 0 20px; padding: 10px 0 20px; backgr=
+ound: rgb(255, 255, 255); text-align: center; width: 620px } .in { backgrou=
+nd: rgb(240, 241, 242); width: 660px } .io { margin: 0 20px; background: rg=
+b(255, 255, 255); width: 620px } .ip { margin: 0 20px; background: rgb(255,=
+ 255, 255); width: 580px } .iq { padding: 20px 0; width: 580px } .ir { colo=
+r: rgb(0, 0, 0); font-size: 25px; letter-spacing: 0.25px; line-height: 25px=
+; margin: auto; overflow: hidden; padding: 0 0 10px; text-align: center; te=
+xt-decoration: none; width: auto } .is { color: rgb(0, 0, 0); font-size: 16=
+px; letter-spacing: 0.25px; line-height: 16px; text-decoration: none; text-=
+align: center; padding: 0 0 20px } .is b { color: rgb(255, 45, 85); font-we=
+ight: 700 } .it { background: rgb(240, 241, 242) } .b, .a { background: rgb=
+(255, 255, 255); padding: 20px 20px 30px; width: auto } @media only screen =
+and (min-device-width: 768px) {.b, .a { padding: 20px 60px 25px !important =
+} } .iu { margin: 0 20px; padding: 0; background: 0 0 } .iu img { display: =
+block; height: auto; margin: 0 auto; width: 100% } .b { display: none } @me=
+dia only screen and (min-width: 481px) {.a { display: none !important } .b =
+{ display: block !important } } @media only screen and (max-width: 480px) {=
+.a { display: block !important } .b { display: none !important } } @media a=
+ll and (prefers-color-scheme: dark) {.it, blockquote .it { background: rgb(=
+30, 30, 30) !important } .b, .a, blockquote .b, blockquote .a { background:=
+ rgb(47, 47, 47) !important } } .iv { background: rgb(240, 241, 242); width=
+: 660px; text-align: left } .iw { margin: 0 20px; padding: 0 0 20px; backgr=
+ound: rgb(255, 255, 255); text-align: center; width: 620px } .ix { border-c=
+ollapse: separate; text-align: left; width: 580px } .iy { background: rgb(2=
+55, 255, 255); padding: 20px 0 0; text-align: center } .iy img { width: 600=
+px } .iz { background: rgb(240, 241, 242); padding: 0 0 10px; width: 100%; =
+text-align: center } .iz img { height: 70px; width: auto; max-height: 70px;=
+ margin: 0 !important } .ja, .jb, .jc { text-align: center; margin: 0; colo=
+r: rgb(102, 102, 102); font-size: 12px; font-weight: 300; line-height: 16px=
+; margin: 0; padding: 0 40px 20px } .jc { padding: 20px 0 } .jc a { color: =
+rgb(102, 102, 102); font-size: 12px; font-weight: 300; line-height: 12px; t=
+ext-decoration: underline } .jd a { color: rgb(102, 102, 102); font-size: 1=
+2px; font-weight: 300; line-height: 12px; text-align: center } .jd a:hover =
+{ text-decoration: underline !important } .jb a { text-decoration: underlin=
+e; color: rgb(102, 102, 102); font-size: 12px; font-weight: 300; line-heigh=
+t: 12px; text-align: center } .je { color: rgb(102, 102, 102) } @media all =
+and (prefers-color-scheme: dark) {.iz, blockquote .iz { background: rgb(30,=
+ 30, 30) !important } .ja, .jb, .jb a, .jd, .jf, blockquote .ja, blockquote=
+ .jb, blockquote .jb a, blockquote .jd, blockquote .jf { color: rgb(102, 10=
+2, 102) !important } } .jg { background: rgb(240, 241, 242); width: 660px }=
+ .jh { margin: 0 20px; background: rgb(240, 241, 242); width: 620px } .ji {=
+ text-align: center; margin: 0; padding-top: 10px } .ji img { border: 0; di=
+splay: block; text-align: center; height: 70px } .jj { color: rgb(102, 102,=
+ 102); font-size: 12px; font-weight: 300; line-height: 12px; text-align: ce=
+nter; margin: 0 } .jj a { text-decoration: underline } .jk { text-align: ce=
+nter; margin: 0; padding-top: 10px } .jk a { text-decoration: underline; co=
+lor: rgb(102, 102, 102); font-size: 12px; font-weight: 300; line-height: 12=
+px } .jl { text-align: center; padding: 10px 0 20px } .jl a { text-decorati=
+on: underline; color: rgb(102, 102, 102); font-size: 12px; font-weight: 300=
+; line-height: 12px } .jm { color: rgb(102, 102, 102) }</style> </body></ht=
+ml>
+------=_Part_21216255_535968287.1635510443911--

@@ -1,0 +1,172 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id 1iaKHbuTXGD/YwAABSAGJw
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	for <avex@avexeva.com>; Thu, 25 Mar 2021 09:44:27 -0400
+Return-path: <account-security-noreply@accountprotection.microsoft.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 25 Mar 2021 09:44:27 -0400
+Received: from mail-mw2nam12on2069.outbound.protection.outlook.com ([40.107.244.69]:26892 helo=NAM12-MW2-obe.outbound.protection.outlook.com)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94)
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	id 1lPQHi-0006ep-GG
+	for avex@avexeva.com; Thu, 25 Mar 2021 09:44:27 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none;
+ b=Vcj+nTFsTf2YOpFBqRI/HyWeFjd0H4VDK+NequcDM/v9wzDUTIJsG5jXeX1qjZ/Fqv1IDD1jtS7AA09UoQ5W5zhhFrNjRJaMt+Brk1rApzsfslLYxIg0PK/Q6nZRzVNfFt7MI3WLmWddl7ngE6CM46yrzuD/ISATNkp0KoSdHxOO8aEzcMuYy1eokNHFA0UuGt01b+b0Nc/v++h9xAEhn45gaidvIpH6YSlnYeHz3NK5FDfayYmbb81sPBO4vkWsoQ6CrKJMGJjnp8J+QFlJphAqtor2rx0ITfOJKfTmuiEKVBE+MH8Mz7peUcmq0kqAUVl1BY+GCJzt34nG+bluKQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=EyIjDTSubQdF8dv3WCqws7sDUb9NT0kMYgzkZe4PTUw=;
+ b=MZHQI07KP9G9gdxhEkiKFdSrCq/YaP5zwbmW3RB/EAfArxRsej+ObU/Mn70sDDXqS4voinXuCGNOEQFls+OARL9Lr8wYCzdgD5mzAeLeHwtsK64gFpTsN/AbNeN5zVGRU0elR2RtFuRTElGXjE2KCYvXpxfBkIONfQkmBdSdHZaOqBimK3kXUo8YUqmaAyO9cG4clABLZJA+9iMtBwImGR6iKTIbp1YFYZfseBIJqaNbq9O1iDEGmTTpDDTzuE60muBEEl5YTG/2RWoxVwBROqwItDMNCWe5IUVeoil938L8oPqtspK3Todkexhx5ClfbnqUnOYpPNB1HmtD478q0g==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none
+ action=none header.from=accountprotection.microsoft.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=EyIjDTSubQdF8dv3WCqws7sDUb9NT0kMYgzkZe4PTUw=;
+ b=INg8VDMmh5lG9BPyWNtUqwlyzr6XWNTh6welP4vjEv0tS6K7RTpig3Zr9RDMDQjDlkrN0B499Qx6C+IXU8jaj9mudvnsCOhD5eP8Tw5HWqs4IMz6RhBa2KXfTo8mo86qe9/3CzDEybMrtuCGEHFSsP/9LS9XMZvzi4zYDP9xVf8=
+Received: from BN9PR03CA0925.namprd03.prod.outlook.com (2603:10b6:408:107::30)
+ by BN6PR16MB3329.namprd16.prod.outlook.com (2603:10b6:405:79::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3977.25; Thu, 25 Mar
+ 2021 13:44:24 +0000
+Received: from BN8NAM11FT037.eop-nam11.prod.protection.outlook.com
+ (2603:10b6:408:107:cafe::f2) by BN9PR03CA0925.outlook.office365.com
+ (2603:10b6:408:107::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3977.26 via Frontend
+ Transport; Thu, 25 Mar 2021 13:44:24 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 52.188.222.33)
+ smtp.mailfrom=accountprotection.microsoft.com; avexeva.com; dkim=none
+ (message not signed) header.d=none;avexeva.com; dmarc=none action=none
+ header.from=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (52.188.222.33) by
+ BN8NAM11FT037.mail.protection.outlook.com (10.13.177.182) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3955.18 via Frontend Transport; Thu, 25 Mar 2021 13:44:24 +0000
+From: Microsoft account team
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Thu, 25 Mar 2021 06:44:24 -0700
+Subject: Microsoft account password reset
+To: avex@avexeva.com
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <SWBN52CVADU4.TFVKQK07MRBC3@BL02EPF00001960>
+X-MSAMetaData:
+ =?us-ascii?q?Dc2KKx24n1zgGJu*CnnFOR*u0mwhkTVBq4Dql1gZ7Lqj1n7JBx8xp5zM*fKpY?=
+ =?us-ascii?q?oarWNm*3nAS6mZe0wzzcX99gep94FZxWvzCF7yZpeeV*R6Kxt9t1w9f47FGq*?=
+ =?us-ascii?q?3NIbVLBQ$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-Ba8wL7PZFQIE3QG6ft19+w=="
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 527f409a-16d4-4df1-862a-08d8ef941a48
+X-MS-TrafficTypeDiagnostic: BN6PR16MB3329:FirstParty-MicrosoftAccount-System
+X-Microsoft-Antispam-PRVS:
+	<BN6PR16MB33291F4347D29E739B73765489629@BN6PR16MB3329.namprd16.prod.outlook.com>
+X-MS-Oob-TLC-OOBClassifiers: OLM:8882;
+X-MS-Exchange-SenderADCheck: 1
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+	wpuk/pFCPQ2Zu0NTjQGVWAa23ADyGnwv8RmpTDZk4hLA/wDeiIDREQySr6HyOIRwEFYUW8W2rbwhGHyklDWufwIvtELla1VjT5b9T7U5O3+A7vyixsNwDL8TYWtOCtFv0tWLEzqb6TBcCAv7JvzEoChd/k00wM0eEvVs5ZorKnUBJl4ETK0mXY6e6sRQuTzDow0aP7hmcGHPhjaN7Ld6yd3Juc69cCnXsNJp6PuBrwZNnD35hsmKFkK3pJgIgDAXbYUciacUSNgOXs5BssXiDk3WciHBHLfT+5d5GdtY8+QvyV0Bwj74oPmnDLgQ6Ba0EAOwkJCmVWOBHe0bQFDgIXcowwunbpPASDD9mR1s/phScfhNjaazlxU4hMYb/CNmZWSPiSNW/I4OBeTh6L8Eu8rgZbXj7y2Rm5Q7lhk4VlUsPsk4JQCZsGmNq3UZYsGCZPKLCG7bdnffNj2ja+am0vSbqy8vLQ51SXI1K+vITbrBqzmIJ+XPAUJ/hydMaq8T/ij/xDGSHw/4wYZKW+UghFxvNJkX8F/RMNLVYyUUo1r+kKg1MDjdqa5URU7+sUSlGZ3ub+IVQrjcPKgNuCjQ/WX0R2raIpVofbJcR7eDKltF0D8Q+8VqRRIYPFrMbd9zAx0sxWkFonxtRgqAS0TYcrFIM+wtfm1VVe3O2GUA+PE=
+X-Forefront-Antispam-Report:
+	CIP:52.188.222.33;CTRY:US;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:;DIR:OUT;SFP:1101;
+X-MS-Exchange-AntiSpam-MessageData:
+	Eb2igRQJThy+jhosj/cuyaOd5nHHxxz3oRcn3GmJW7RBHGKQzr48dJdm6Ri/Sgm2ocOGA/nFDoB9OhfCDAdVoYbEgg7Hu/YKvKahsBQ/sz9HSILGW1UCwdoB9hmswIJ1+LkcdgM5q4+VTeUTay77mrCAjHf/FeC5qr8C+P1rebBqoHuS1Fg6xq/czAY8OMXVeY0lfpc8jBhrG1dhD5DcAQm6Nk1HdkITcH0qMxosvEyvND9M7wuCU1Vvr+nxDDuf
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Mar 2021 13:44:24.7694
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 527f409a-16d4-4df1-862a-08d8ef941a48
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[52.188.222.33];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TreatMessagesAsInternal-BN8NAM11FT037.eop-nam11.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN6PR16MB3329
+X-Spam-Status: No, score=-15.6
+X-Spam-Score: -155
+X-Spam-Bar: ---------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Please use this code to reset the password for the Microsoft
+    account av*****@avexeva.com. Here is your code: 2364742 If you don't recognize
+    the Microsoft account av*****@avexeva.com, you can click https://account.live.com/dp?ft=Dat3ueDtVB4X*VICqkbxDy!ZfLe4W!4DnPM5P*jGFkPWfVCL5KVjNKyPyNYY4nmqH24qb0oMLFKZk*K3JN1xn6nY
+    [...] 
+ Content analysis details:   (-15.6 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: live.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             white-list
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.5 ENV_AND_HDR_SPF_MATCH  Env and Hdr From used in default SPF WL
+                             Match
+X-Spam-Flag: NO
+
+--=-Ba8wL7PZFQIE3QG6ft19+w==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Please use this code to reset the password for the Microsoft account av*****@avexeva.com.
+
+Here is your code: 2364742
+
+
+                If you don't recognize the Microsoft account av*****@avexeva.com, you can click https://account.live.com/dp?ft=Dat3ueDtVB4X*VICqkbxDy!ZfLe4W!4DnPM5P*jGFkPWfVCL5KVjNKyPyNYY4nmqH24qb0oMLFKZk*K3JN1xn6nYCSIliwRodxZiPGyOwkxqgsaT0Ld1DaSk4geclzDw0iwf1rT9KeLywdhxQZ5lxFfgFp5blL1KjHUfpAl3sqrSi5ukDkw7fxCLeyxmfhOhRPnXRewLm44JWjYdDg8iirWzRBHWQILVOyzaHtIbrdHllPXHR1l8F89y5ZLugM44pErj!vC!dxFWMZayrT8t!aUWNlwAVl64kr!*fziqYNhEcWzDSC2OU7sNIWw8ZagCiA%24%24 to remove your email address from that account.
+
+Thanks,
+The Microsoft account team 
+--=-Ba8wL7PZFQIE3QG6ft19+w==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:17px; color:#707070;">Microsoft account</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:41px; color:#2672ec;">Password reset code</td></tr>
+      <tr><td id="i3" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Please use this code to reset the password for the Microsoft account <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:av*****@avexeva.com">av*****@avexeva.com</a>.</td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Here is your code: <span style="font-family:'Segoe UI Bold', 'Segoe UI Semibold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:14px; font-weight:bold; color:#2a2a2a;">2364742</span></td></tr>
+      <tr><td id="i5" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">
+                
+                If you don't recognize the Microsoft account <a dir="ltr" id="iAccount" class="link" style="color:#2672ec; text-decoration:none" href="mailto:av*****@avexeva.com">av*****@avexeva.com</a>, you can <a id="iLink2" class="link" style="color:#2672ec; text-decoration:none" href="https://account.live.com/dp?ft=Dat3ueDtVB4X*VICqkbxDy!ZfLe4W!4DnPM5P*jGFkPWfVCL5KVjNKyPyNYY4nmqH24qb0oMLFKZk*K3JN1xn6nYCSIliwRodxZiPGyOwkxqgsaT0Ld1DaSk4geclzDw0iwf1rT9KeLywdhxQZ5lxFfgFp5blL1KjHUfpAl3sqrSi5ukDkw7fxCLeyxmfhOhRPnXRewLm44JWjYdDg8iirWzRBHWQILVOyzaHtIbrdHllPXHR1l8F89y5ZLugM44pErj!vC!dxFWMZayrT8t!aUWNlwAVl64kr!*fziqYNhEcWzDSC2OU7sNIWw8ZagCiA%24%24">click here</a> to remove your email address from that account.
+            </td></tr>
+      <tr><td id="i6" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Thanks,</td></tr>
+      <tr><td id="i7" style="padding:0; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">The Microsoft account team</td></tr>
+</table>
+</body>
+</html>
+--=-Ba8wL7PZFQIE3QG6ft19+w==--

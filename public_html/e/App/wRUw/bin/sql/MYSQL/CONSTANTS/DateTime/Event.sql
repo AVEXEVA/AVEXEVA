@@ -1,0 +1,7 @@
+CREATE TABLE Event (
+  ID INT NOT NULL AUTO_INCREMENT,
+  Name VARCHAR(256),
+  Description TEXT,
+  Time_Lapse INT,
+  CONSTRAINT PK_Event_ID PRIMARY KEY (ID)
+);

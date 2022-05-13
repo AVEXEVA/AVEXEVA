@@ -1,0 +1,5 @@
+CREATE TABLE Century (
+  ID INT NOT NULL,
+  Number INT,
+  CONSTRAINT PK_Century_ID PRIMARY KEY (ID)
+);

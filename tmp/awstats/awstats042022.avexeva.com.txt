@@ -1,0 +1,1182 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202204 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2690                
+POS_VISITOR 32097               
+POS_DAY 41441               
+POS_DOMAIN 3619                
+POS_LOGIN 4259                
+POS_ROBOT 4414                
+POS_WORMS 5334                
+POS_EMAILSENDER 5465                
+POS_EMAILRECEIVER 5608                
+POS_SESSION 42239               
+POS_SIDER 42419               
+POS_FILETYPES 5743                
+POS_DOWNLOADS 5920                
+POS_OS 5968                
+POS_BROWSER 6438                
+POS_SCREENSIZE 8836                
+POS_UNKNOWNREFERER 8910                
+POS_UNKNOWNREFERERBROWSER 9462                
+POS_ORIGIN 9838                
+POS_SEREFERRALS 9977                
+POS_PAGEREFS 10157               
+POS_SEARCHWORDS 10385               
+POS_KEYWORDS 10537               
+POS_MISC 2354                
+POS_ERRORS 10596               
+POS_CLUSTER 4115                
+POS_SIDER_404 10695               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220501000313 519 131925 21048895749346
+FirstTime 20220401033426
+LastTime 20220430215552
+LastUpdate 20220501081304 519 0 518 0 0
+TotalVisits 276                 
+TotalUnique 227                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 235                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 17 22 1618032 703 773 75875355
+1 78 298 9999068 652 739 75655057
+2 12 23 1935079 738 811 78230765
+3 19 46 2077144 673 754 75100370
+4 12 12 1292002 684 752 75893448
+5 14 35 1411642 690 782 76712187
+6 24 31 2375832 698 783 78657453
+7 13 24 1662126 697 796 77444011
+8 8 8 855788 693 832 81774177
+9 40 142 4286297 658 754 74295342
+10 12 30 1087938 648 736 75100250
+11 85 91 9261666 673 795 77210073
+12 28 28 3111650 657 776 74003705
+13 14 14 4512307 656 733 74023362
+14 13 13 1400338 707 827 78344899
+15 17 32 1739075 684 825 79075806
+16 18 18 1944484 878 962 77837490
+17 16 25 1757857 643 730 74702949
+18 41 41 4409944 672 770 78586486
+19 18 30 2087616 691 799 78355161
+20 18 18 2065965 701 792 82226339
+21 13 13 1433331 715 808 83145360
+22 6 11 656163 675 749 78350523
+23 8 19 1378660 707 788 81242201
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 29
+us 357 785 41080296
+ru 36 36 3324533
+sc 25 25 2697787
+fr 20 20 5392667
+cn 19 47 2573455
+se 14 14 1954952
+gr 9 9 962762
+eu 7 7 773758
+nl 7 7 809657
+in 6 12 327299
+gb 6 6 437372
+il 6 6 661227
+ua 5 5 534869
+hu 4 4 427896
+de 4 4 427894
+ng 3 3 349842
+kr 3 3 213948
+ro 2 2 213944
+br 1 1 106973
+lv 1 7 113352
+pe 1 1 106974
+it 1 1 106974
+id 1 1 106974
+do 1 1 106973
+tr 1 1 106974
+ie 1 7 113352
+ca 1 7 113352
+th 1 1 106974
+zz 1 1 106974
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+AhrefsBot/ 7918 912859944 20220430235858 0
+bot[\s_+:,\.\;\/\\-] 6601 776637366 20220430235807 0
+Googlebot/ 1499 70699391 20220430232052 0
+YandexBot/ 678 41067895 20220430215108 0
+MJ12bot/ 406 28975244 20220430092006 0
+bingbot/ 274 19863577 20220430210407 0
+bingpreview 39 41884 20220430065649 0
+no_user_agent 39 4269601 20220430064234 0
+Lightspeed 34 3637101 20220403113016 0
+Apache\-HttpClient/ 18 1925526 20220407201037 0
+(firefox/)([0-9]\.|[0-1][0]\.) 8 330967 20220430104102 0
+DuckDuckGo\-Favicons\-Bot/ 2 213947 20220429180434 0
+robot 2 213948 20220426092848 0
+baidu 2 249274 20220402091122 0
+survey 2 213948 20220402095722 0
+facebookexternalhit/ 2 213948 20220403054514 0
+Baiduspider/ 2 213931 20220422033853 0
+crawl 1 106973 20220422110620 0
+KomodiaBot/ 1 106974 20220406052656 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 101 175639 0 0
+png 1 407777 0 0
+js 376 377878 0 0
+php 277 36484410 0 0
+html 267 26851326 0 0
+jpg 2 62974 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 29
+symbian 1 1
+win8 7 7
+win7 56 35
+androidfroyo 1 1
+macosx15 131 29
+androidkitkat 7 7
+win8.1 8 8
+macosx13 7 7
+macosx12 2 2
+win10 502 229
+bsdopenbsd 1 1
+linux 165 118
+linuxubuntu 2 2
+winxp 8 8
+androidlollipop 3 3
+androidnougat 2 2
+winnt 7 7
+macosx10 8 8
+macosx11 1 1
+macosx9 6 6
+ios_iphone 15 6
+Unknown 37 31
+winlong 8 8
+androidpie 2 2
+j2me 1 1
+macosx8 6 6
+macosx 27 7
+androidoreo 1 1
+androidmarshmallow 2 0
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 110
+chrome5.0.375.99 3 3
+chrome83.0.4103.97 32 32
+chrome29.0.1547.2 1 1
+chrome70.0.3538.80 1 1
+chrome34.0.1847.116 7 7
+chrome74.0.3729.169 6 6
+chrome60.0.3112.107 1 1
+chrome69.0.2541.142 1 1
+opera12.14 1 1
+chrome41.0.2225.0 2 2
+chrome51.0.2704.79 1 1
+firefox67.0 1 1
+safari9.0 2 2
+chrome91.0.4472.114 130 34
+firefox50.0 13 13
+firefox35.44.1 1 1
+chrome68.0.3440.106 7 1
+msie9.0 1 1
+firefox40.0 2 2
+chrome41.0.2227.1 2 2
+chrome56.0.687 1 1
+chrome90.0.4430.72 5 5
+chrome36.0.1985.125 2 2
+Unknown 12 12
+chrome58.0.720 1 1
+chrome64.0.2736.96 1 1
+chrome79.0.3945.130 24 24
+chrome100.0.4896.88 7 1
+chrome49.0.2097 1 1
+firefox55.0 1 1
+chrome81.0.4044.138 2 0
+android 8 8
+chrome28.0.1469.0 1 1
+opera8.60 1 1
+chrome36.0.1944.0 1 1
+chrome71.0.3578.98 2 2
+chrome68.0.2722.132 1 1
+firefox17.0 1 1
+chrome35.0.1916.47 3 3
+safari 8 8
+firefox59.0 2 2
+chrome80.0.3987.117 1 1
+chrome76.0.3809.100 1 1
+chrome92.0.4515.159 12 12
+chrome45.0.2454.94 1 1
+chrome51.0.2704.84 1 1
+chrome81.0.4044.92 7 1
+chrome74.0.3729.157 3 3
+chrome26.0.1410.65 6 6
+netscape5.0 4 4
+chrome100.0.4896.75 7 1
+mozilla 24 18
+chrome80.0.3987.149 16 16
+chrome90.0.4430.93 3 3
+chrome100.0.4896.127 290 68
+safari10.1.2 1 1
+chrome79.0.3945.88 2 2
+chrome99.0.4844.84 7 1
+firefox38.42 1 1
+chrome83.0.4103.61 19 4
+chrome95.0.4638.69 9 9
+msie11.0 3 3
+firefox89.0 5 5
+chrome55.0.2883.95 1 1
+chrome65.0.3325.109 53 53
+chrome85.0.4183.121 6 6
+chrome63.0.3239.132 2 2
+chrome83.0.4086.0 1 1
+chrome96.0.4664.45 20 5
+chrome100.0.4896.60 2 2
+chrome90.0.4400.8 2 2
+chrome66.0.3182.7 1 1
+chrome81.0.4044.129 11 11
+firefox49.50.1 1 1
+msie6.0 3 3
+chrome65.0.2775.158 1 1
+firefox45.43 1 1
+chrome79.0.3945.79 21 3
+chrome64.0.2913.74 1 1
+chrome33.0.1750.517 1 1
+chrome84.0.4147.105 1 1
+chrome84.0.4147.89 8 8
+chrome76.0.3809.111 2 2
+firefox52.0 3 3
+chrome76.0.3809.71 7 1
+chrome90.0.4430.85 7 7
+chrome41.0.2226.0 1 1
+chrome87.0.4280.88 25 5
+opera12.16 1 1
+chrome69.0.2791.131 1 1
+chrome89.0.4389.114 3 3
+chrome35.0.2117.157 1 1
+chrome85.0.4183.127 1 1
+chrome65.0.2798.166 1 1
+chrome70.0.3538.77 1 1
+chrome90.0.4430.86 1 1
+chrome39.0.2171.95 5 5
+safari15.4 11 2
+chrome88.0.4298.0 7 1
+chrome37.0.2049.0 1 1
+chrome54.0.144 1 1
+chrome94.0.4606.81 42 7
+chrome61.0.2425 1 1
+chrome66.0.2853.96 1 1
+chrome60.0.471 1 1
+chrome28.0.1468.0 1 1
+chrome59.0.3071.115 1 1
+firefox21.0 1 1
+chrome97.0.4692.99 30 30
+chrome96.0.4664.110 6 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220420212158
+APIs-Google_(_https://developers.google.com/webmasters/APIs-Google.html) 20220415062923
+python-requests/2.27.1 20220409161746
+Mozilla/5.0 20220420132901
+GRequests/0.10 20220424061714
+Mozilla/5.0_(compatible;_Dataprovider.com) 20220422095541
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220410210607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 4
+APIs-Google_(_https://developers.google.com/webmasters/APIs-Google.html) 20220415062923
+python-requests/2.27.1 20220409161746
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20220410210607
+GRequests/0.10 20220424061714
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 380 382
+From1 1 1
+From2 8 8
+From3 6 11
+From4 149 622
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_bing_com 3 3
+www_google_com 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://avexeva.it 4 4
+http://xn--avexva-68b.com 2 2
+http://mail.avexeva.com 0 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 12 1330
+404 1292 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 482
+/semanticui.html 1 -
+/invoice/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/humans.txt 6 http://avexeva.it/humans.txt
+/dev/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/finances.php 1 -
+/client/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/drive.png 1 -
+/vendor/flot/jquery.flot.js 1 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backend/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-admin/fw.php 1 -
+/media/images/icons/railing.png 1 -
+/dynamic/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/clientes/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/Code/snippets/html2pdf-master/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/static/Mobile/js/common.js 1 -
+/old/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/bk 1 -
+/sitio/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 -
+/_profiler/empty/search/results 2 -
+/apitotsurvey/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/css/jquery.dataTables.css 1 -
+/git/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/testing/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/secondary.png 1 -
+/media/images/icons/controller.png 1 -
+/css/other.css 1 -
+/public/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/home/main/login 1 -
+/temp/license.txt 1 -
+/dev/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/destination_dispatch.png 1 -
+/server/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/limit.png 1 -
+/api/ht/xy1 1 -
+/core/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/public/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/im/ 1 -
+/lib/public.js 1 -
+/api/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/site/wp-includes/wlwmanifest.xml 8 -
+/config.js 2 -
+/index.php 8 http://www.avexeva.com/index.php
+/old 1 -
+/wp/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/test_404_page/ 1 -
+/zoushi 1 -
+/takeout.php 1 -
+/beta/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/bootstrap.html 1 -
+/store/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/saddle.png 1 -
+/assets/admin/js/filemanager/dialog.php 1 -
+/css/all.css 1 -
+/server/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/old/license.txt 2 -
+/backup/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/< 4 -
+/media/images/icons/door_package.png 1 -
+/payment/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/support/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/car_door.png 1 -
+/public/web/js/add/com.js 1 -
+/test/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/soporte/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/scroll_xy.html 1 -
+/123/license.txt 1 -
+/store/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-json/wp/v2/users 2 -
+/mobile/login.html 1 -
+/demo/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/news/wp-includes/wlwmanifest.xml 7 -
+/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/old/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/php.php 1 -
+/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+//_ignition/execute-solution 2 -
+/cgi-bin/js/fragment/formatTicket.js 1 -
+/wordpress 1 -
+/wp-includes/wlwmanifest.xml 7 -
+/tqvxm6/xmlrpc.php 1 -
+/main 1 -
+/shells.php 1 -
+/bugtracker/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp/ 1 -
+/support/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/generator.png 1 -
+/blog/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/alfa.php 1 -
+/wp-content/fw.php 1 -
+/dev1/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/epos/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wordpress/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/extlib/simplesamlphp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/m 1 -
+/vendor/flot-tooltip/jquery.flot.tooltip.min.js 1 -
+/secure/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-22.php 2 -
+/media/images/icons/governor.png 1 -
+/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/site/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/app/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/car_top_station.png 1 -
+/shop/wp-includes/wlwmanifest.xml 8 -
+/2018/wp-includes/wlwmanifest.xml 6 -
+/media/images/icons/center_junction_box.png 1 -
+/cgi-bin/js/jquery.dataTables.yadcf.js 1 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/shackle.png 1 -
+/adv/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/user/Login 1 -
+/web/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/apimotor/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/images/go.php 1 -
+/mantis/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/hall_lantern.png 1 -
+/aveXtE/Xt/XF/Loop 1 -
+/2018/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/safety_jaw.png 1 -
+/jobs/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/files/ 1 binance.com
+/upl.php 1 -
+/media/images/icons/shaftway.png 2 -
+/resources/syntax/shCore.js 1 -
+/admin/controller/extension/extension/ 1 binance.com
+/wp-info.php 1 -
+/git/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2019/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/demo/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/computer.png 1 -
+/testing/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/machine.png 1 -
+/media/images/icons/edge.png 1 -
+/backup/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-includes/wso.php 1 -
+/wp-admin/setup-config.php 1 -
+/test/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/b2b/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/2019/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/xlet.php 1 -
+/wp/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/laravel/_ignition/health-check/ 1 -
+/back/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/images/ 1 binance.com
+/wp-content/plugins/wp-file-manager/lib/php/connector.minimal.php 1 -
+/media/images/icons/encoder.png 1 -
+/media/images/icons/platform.png 1 -
+/aws.yml 1 -
+/assets/colors/get.php 1 -
+/support/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/202110/images/public.css 1 -
+/style.php 2 -
+/test/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/opensupports/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/about.php 3 -
+/app/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/api/im/conf 1 -
+/api/site/getInfo.do 1 -
+/js/json.js 1 -
+/vendor/flot/jquery.flot.time.js 1 -
+/store/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/rope_gripper.png 1 -
+/sh3llx.php 1 -
+/media/images/icons/car_top_inspection_station.png 1 -
+/js/home.js 1 -
+/system/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dom_toolbar.html 1 -
+/update/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/b2bapi/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/xmlrpc.php 21 -
+/images.php 1 -
+/mantisbt/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/bootstrap/js/bootstrap.min.js 1 -
+/wp 1 -
+/media/images/icons/sheave.png 2 -
+/1/license.txt 2 -
+/api_in_init.html 2 -
+/wp/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/back/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/app/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpmailer/PHPMailer/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-includes/js/zxcvbn-async.min.js 1 -
+/old/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/fw.php 1 -
+/wordpress/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/tickets/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backup 1 -
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/su1ve1/xmlrpc.php 1 -
+/dev/license.txt 2 -
+/techsupport/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backoffice/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/api/linkPF 1 -
+/chat/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/radio.php 1 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/mantisbt/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/uploads/ 1 binance.com
+/crm/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/sites/default/files/ 1 binance.com
+/test/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/core/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/shell.php 1 -
+/vendor/flot/jquery.flot.pie.js 1 -
+/test/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/Cloudflare-CPanel-7.0.1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/ckeditor/plugins/ajaxplorer/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ticket/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/phpinfo 1 -
+/test/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/js/post.js/ 1 -
+/ 13 -
+/media/images/icons/cab.png 1 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/advanced_init 1 -
+/cronlab/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/otc/ 1 -
+/media/images/icons/guide_shoe.png 1 -
+/media/homedepot.png 1 -
+/blog/wp-login.php 3 http://avexeva.com
+/sito/wp-includes/wlwmanifest.xml 7 -
+/s_api/basic/config_js 1 -
+/beta/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-admin/wso.php 1 -
+/simple.php 1 -
+/2018/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2021/12/up.php 1 -
+/project/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-login.php 34 -
+/assets/administrator/filemanager/dialog.php 1 -
+/api/config/info 1 -
+/xleet.php 1 -
+/ALFA_DATA/alfacgiapi/ 1 -
+/app/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/js/dataTables.semanticui.js 1 -
+/dev1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/project/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/invoice/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/static/config.js 1 -
+/blog/xmlrpc.php 1 -
+/media/images/icons/starter.png 1 -
+/testing/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/jobs/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/xleet-shell.php 1 -
+/homes/ 2 -
+/agc_app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/index 1 -
+/2021/wp-includes/wlwmanifest.xml 1 -
+/backoffice/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-admin/alfa.php 1 -
+/.aws/credentials 1 -
+/blog/wp-includes/wlwmanifest.xml 8 -
+/_aws/credentials 1 -
+/v2/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/sitio/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/js/jquery.dataTables.js 1 -
+/website/wp-includes/wlwmanifest.xml 7 -
+/assets/plugins/filemanager/dialog.php 1 -
+/test/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/update/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/home/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/filemanager/dialog.php 1 -
+/media/wp-includes/wlwmanifest.xml 6 -
+/vendor/phpunit/phpunit/src/Util/PHP/evil.php 1 -
+/my/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/demo/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/home/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/backend/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/pos/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/core/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/contact/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/chat/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/jindex.php 1 -
+/sdk.html 1 -
+/v1/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/adv/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-content/uploads/2021/12/fw.php 1 -
+/epos/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/stock/mzhishu 1 -
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/feed/ 1 -
+/media/images/icons/counterweight_frame.png 1 -
+/newsite/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/v1/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/crm/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/test/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/roller_guide.png 1 -
+/assets/filemanager/dialog.php 1 -
+/testing/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/js/config.js 1 -
+/app/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/evil.php 1 -
+/apitotsurvey/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/core/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/floor.png 1 -
+/2020/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/web/wp-includes/wlwmanifest.xml 8 -
+/local/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/app/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 2 -
+/core/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/ 1 -
+/media/images/icons/door_operator.png 1 -
+/secure/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/clientes/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/.env 22 -
+/pos/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/assets/colors/go.php 1 -
+/h5/ 1 -
+/wp/wp-includes/wlwmanifest.xml 8 -
+/test/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wordpress/ 19 -
+/client/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/reports/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/phpinfo.php 1 -
+/bc 1 -
+/doc.php 1 -
+/php_info.php 1 -
+/assets/images/wp-plugins.php 1 -
+/resources/demo.js 1 -
+/test/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/vendor/flot/jquery.flot.resize.js 1 -
+/.aws 1 -
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/api/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/login/kefuxian.mvc 1 -
+/unit_labor.php 1 -
+/apiapp/Ygn_Girl.CityList 1 -
+/wordpress/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/_profiler/phpinfo 1 -
+/blog/wp-content/plugins/affinipay-payment-gateway/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/images/no.jpg 1 -
+/wp/license.txt 2 -
+/public/_ignition/health-check/ 1 -
+/testing/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2017/wp-includes/wlwmanifest.xml 1 -
+/media/images/icons/traveler.png 1 -
+/2020/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/robots.txt 1 -
+/ajax/index.html 2 -
+/html2pdf-master/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/data_sources/dom.html 2 -
+/test/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/flot/jquery.flot.categories.js 1 -
+/vendor/flot/excanvas.min.js 1 -
+/blog/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp-admin/css/ 1 binance.com
+/media/images/icons/toe_guard.png 1 -
+/2020/wp-includes/wlwmanifest.xml 2 -
+/old/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/login/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/2016/wp-includes/wlwmanifest.xml 1 -
+/config/aws.yml 1 -
+/apimotor/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/store/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/newsite/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/ticket/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/robots.txt 509 -
+/cms/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp1/wp-includes/wlwmanifest.xml 8 -
+/b2b/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/testing/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/dist/js/moment.js 1 -
+/media/images/icons/pit.png 1 -
+/phpunit/Util/PHP/eval-stdin.php 1 -
+/2019/wp-includes/wlwmanifest.xml 7 -
+/bugtracker/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/portal/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/catalog/Adminhtml_category 1 -
+/media/images/icons/buffer.png 1 -
+/phpmailer/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/selector.png 1 -
+/web/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/proxy/games 1 -
+/api/v/index/queryOfficePage 1 -
+/apps/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/resources/syntax/shCore.css 1 -
+/masterControl/getSystemSetting 1 -
+/old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/assets/images/search.php 1 -
+/up.php 1 -
+/getLocale 1 -
+/Cloudflare-CPanel-7.0.1/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/dist/js/sb-admin-2.js 1 -
+/testing/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/store/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/api/user/ismustmobile 1 -
+/_ignition/health-check/ 1 -
+/payment/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/api/getonLine 1 -
+/my/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/js/pups.js 1 -
+/js/base1.js 1 -
+/demo/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/testing/laravel/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/buddha.jpg 1 -
+/h5 1 -
+/apps/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/ticket/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/test/wp-includes/wlwmanifest.xml 8 -
+/wp-content/ALFA_DATA/alfacgiapi/ 1 -
+/wp-includes/class-wp-page-icon.php 1 -
+/wordpress/wp-includes/wlwmanifest.xml 8 -
+/mt/ 1 -
+/portal/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/admin/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/assets/images/get.php 1 -
+/helpdesk/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/home 1 -
+/login/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/7o45b/xmlrpc.php 1 -
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/data_sources/ajax.html 1 -
+/styling/display.html 2 -
+/cms/wp-includes/wlwmanifest.xml 8 -
+/mantis/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp2/wp-includes/wlwmanifest.xml 7 -
+/info.php 2 -
+/media/images/icons/car_top.png 1 -
+/2015/wp-includes/wlwmanifest.xml 1 -
+/media/images/icons/cable.png 1 -
+/site/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ads.txt 37 -
+/dev/laravel/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/agc_app/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/xy/ 1 -
+/api/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/tachometer.png 1 -
+/dynamic/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/reports/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/common.js 1 -
+/wp-content/wso.php 1 -
+/btc/system-setting/service-url/ 1 -
+//wp-json/wp/v2/users 1 -
+/resources/demo.css 1 -
+/wp-content/plugins/apikey/apikey.php 1 -
+/ticket/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/ticket/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 9 -
+/admin.php 1 -
+/panel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/Css/Hm.css 1 -
+/new/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/dev/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/user/login.html 1 -
+/demo/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/cronlab/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/wp/wp-login.php 3 http://avexeva.com
+/media/images/icons/main_line.png 1 -
+/b2bapi/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/media/images/icons/machine_room.png 1 -
+/help/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/blog/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/vendor/metisMenu/metisMenu.js 1 -
+/ajax/custom_data_property.html 1 -
+/new 1 -
+/dev/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/sitemap.xml 1 -
+/contact/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/v2/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/wp-includes/fw.php 1 -
+/modernization.php 1 -
+/media/images/icons/car_station.png 1 -
+/media/images/icons/sling.png 1 -
+/wordpress/wp-login.php 3 http://avexeva.com
+/new/license.txt 2 -
+/local/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/core/laravel/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 -
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 -
+/backup/license.txt 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 235
+71.105.194.245 66 276 8900697 20220430100412
+34.226.154.189 30 30 3208291 20220420183459
+69.160.160.56 25 31 2714153 20220422110631
+198.244.220.113 19 19 2058880 20220407123328
+196.242.10.237 19 19 2058883 20220418113253
+3.144.225.165 18 114 2028192 20220416094806
+140.82.20.12 12 12 1318762 20220404172907
+149.56.150.25 12 12 1288963 20220422095534
+198.46.213.234 8 8 852094 20220425060735
+81.64.38.211 8 8 3977440 20220429135803
+62.197.136.212 7 7 809657 20220428214717
+178.62.74.6 7 7 773758 20220425182249
+178.33.203.34 6 6 773384 20220426122316
+196.240.51.64 6 6 638904 20220424201320
+5.188.62.76 5 5 534865 20220425212931
+185.181.60.39 4 4 427896 20220428174843
+68.183.35.86 4 4 426991 20220423004959
+165.227.143.80 4 4 426994 20220408205900
+67.87.189.26 4 19 444706 20220423155706
+185.191.34.215 4 4 0 20220430011339
+42.83.147.34 4 4 427894 20220425075733
+20.205.30.118 4 4 447055 20220430061818
+20.22.252.111 4 4 447257 20220429035933
+193.169.245.97 4 4 427896 20220419064453
+185.94.174.230 4 4 427896 20220418191741
+205.185.117.203 1 1 106974 20220417054255
+35.86.119.175 1 1 106974 20220423113740
+205.169.39.193 2 13 224965 20220418032206
+161.35.9.177 3 3 320921 20220426071736
+162.253.68.215 1 1 106974 20220429123212
+216.145.5.42 1 1 106974 20220426073801
+164.92.85.184 1 1 106974 20220415175914
+34.219.39.59 1 1 106974 20220408112018
+76.72.172.169 2 2 213948 20220416205248
+120.253.26.219 1 1 725801 20220427230641
+31.210.20.125 2 2 213948 20220423185228
+18.210.24.189 1 1 106974 20220405070642
+211.95.50.167 1 6 111612 20220417054256
+54.188.30.68 1 1 106974 20220420114532
+34.217.40.134 1 1 106974 20220409010345
+35.89.19.253 1 1 106974 20220428112454
+45.129.18.185 1 1 0 20220420010455
+52.34.251.50 1 1 106974 20220421114346
+66.220.149.19 0 2 1877 
+211.95.50.4 1 3 111144 20220417052933
+46.161.61.120 1 1 106973 20220421085422
+165.227.151.213 1 1 0 20220419232008
+54.202.125.58 1 1 106974 20220407112638
+20.121.40.2 2 2 213014 20220430103711
+34.222.202.3 2 2 213948 20220423213712
+195.246.120.98 2 2 316982 20220424122828
+93.159.230.83 1 1 106974 20220401162008
+167.94.138.62 1 1 106974 20220414092808
+34.222.122.68 1 1 106973 20220420114751
+101.227.1.199 1 1 106957 20220417022512
+35.221.37.1 1 1 107667 20220415051755
+40.78.105.225 2 2 229619 20220430215552
+167.71.213.102 1 1 106974 20220406214456
+49.12.126.16 1 1 106974 20220404040340
+35.87.42.175 1 1 106974 20220411111604
+34.224.75.103 1 1 106974 20220421155048
+65.154.226.170 1 7 113352 20220406231516
+45.129.18.36 1 1 0 20220412005224
+209.141.51.222 1 1 106974 20220422034933
+176.195.239.2 1 1 106974 20220428184825
+209.141.41.193 1 1 106973 20220422034941
+93.158.91.201 1 1 106972 20220430053145
+206.189.25.218 1 1 106974 20220419142413
+206.189.86.187 3 3 320920 20220407003519
+74.101.142.27 1 1 349083 20220428074941
+54.212.163.88 1 1 106974 20220411111532
+171.101.216.194 1 1 106974 20220417144358
+31.13.115.119 0 2 309 
+193.38.235.172 1 1 106974 20220419112250
+135.181.60.189 1 7 113352 20220420030350
+52.34.102.141 1 1 106974 20220429112323
+2.56.59.43 2 2 213947 20220421004444
+209.120.227.2 1 1 106974 20220415051756
+65.21.206.46 1 1 106974 20220423165216
+201.46.60.158 1 1 106973 20220404113103
+23.88.45.220 1 1 106974 20220424150459
+54.235.7.122 1 6 111613 20220427032738
+178.32.215.167 1 1 106973 20220430060516
+46.161.11.252 1 1 106974 20220418233751
+34.217.129.207 1 1 106974 20220408112141
+5.254.55.37 1 1 106972 20220427200657
+208.109.212.30 2 2 317005 20220430190247
+65.154.226.220 2 13 224964 20220430010658
+54.149.170.248 1 1 106974 20220407113857
+203.229.155.49 1 1 0 20220429062954
+155.138.137.55 1 1 106973 20220430061636
+3.234.222.125 1 6 111613 20220420070253
+103.91.189.141 1 1 106974 20220408184805
+165.227.199.124 3 3 320921 20220411141349
+171.22.76.33 2 2 223426 20220428164527
+77.34.159.65 3 3 320921 20220414010539
+34.211.23.29 1 1 106973 20220418112448
+102.129.143.62 1 1 106974 20220427071658
+185.39.144.147 1 1 106974 20220427045939
+34.218.241.230 1 1 106974 20220427111850
+52.143.159.29 1 1 106974 20220402023718
+34.216.71.95 1 1 106974 20220421113919
+211.95.50.5 0 3 469 
+54.201.63.250 1 1 106973 20220408112257
+8.31.2.62 1 1 106974 20220422013451
+35.87.220.146 2 2 213948 20220423195756
+208.109.36.200 1 1 978 20220403154401
+159.223.215.178 1 1 106974 20220426054725
+54.36.68.16 3 3 320922 20220416003236
+52.12.16.194 1 1 106974 20220428112423
+212.115.42.251 1 1 106974 20220401215404
+66.220.149.18 0 4 4501 
+44.203.233.67 1 6 111613 20220410235501
+167.248.133.46 1 1 106974 20220419091731
+18.237.195.222 1 1 106974 20220427111522
+77.74.177.119 1 1 106973 20220415162034
+193.56.29.159 3 3 320922 20220424130650
+65.21.206.43 1 1 106973 20220416173713
+65.21.206.44 1 1 106974 20220421141215
+130.255.166.79 2 2 213947 20220414133315
+39.106.98.188 1 1 106973 20220415083842
+34.211.144.32 1 1 106973 20220418112335
+179.52.137.167 1 1 106973 20220414130423
+184.180.187.74 2 2 223628 20220426221037
+3.22.68.191 1 1 106974 20220412221331
+20.197.180.8 2 2 213947 20220413082725
+51.254.199.11 1 1 106974 20220406211258
+59.175.144.15 3 3 320919 20220424061714
+71.183.225.41 1 1 116124 20220430025039
+54.187.67.0 1 1 106974 20220423113803
+2.56.59.200 2 2 213946 20220403030342
+152.32.131.153 2 2 213948 20220419024231
+41.216.188.52 3 3 349842 20220429015821
+93.158.92.13 1 1 106974 20220416104132
+89.249.73.214 1 1 106972 20220415062923
+20.211.189.13 1 1 106974 20220409161746
+89.46.223.134 1 1 106972 20220427233257
+111.7.96.152 1 6 111613 20220422013454
+2.58.56.52 2 2 233334 20220424070435
+8.31.2.98 1 1 106972 20220417052932
+34.218.252.14 1 1 106974 20220429112045
+54.212.197.28 1 1 106974 20220420112917
+212.102.57.215 1 1 106974 20220423221106
+195.246.120.15 2 2 316981 20220424110351
+45.92.228.150 1 1 106974 20220430195231
+138.68.153.102 1 1 106974 20220404115747
+66.220.149.15 1 1 106973 20220411192142
+92.118.36.208 2 2 213946 20220418201134
+42.83.147.43 1 1 106974 20220401160135
+50.112.222.247 1 1 106973 20220405112309
+185.41.152.248 1 1 106974 20220419094537
+23.129.64.136 1 1 106974 20220402153613
+54.155.165.201 1 1 106974 20220404222819
+77.35.235.202 1 1 106973 20220421185125
+34.205.72.159 1 1 106974 20220415011831
+161.35.222.30 1 1 106974 20220421153401
+38.18.53.161 1 1 106974 20220411122749
+106.52.192.95 2 8 113352 20220417061709
+143.244.170.42 3 3 320922 20220421190655
+128.90.149.24 2 2 952164 20220430022329
+31.13.115.19 0 2 4170 
+35.174.61.131 1 1 106973 20220420034905
+185.220.101.47 1 1 106974 20220415153629
+167.248.133.118 1 1 106974 20220404095617
+221.2.155.200 2 2 213947 20220420132901
+148.153.98.52 1 1 106973 20220413203745
+31.210.20.114 2 2 213948 20220404174958
+34.212.167.141 1 1 106974 20220408112132
+195.246.120.118 2 2 465200 20220430201530
+62.74.213.178 1 1 106974 20220401033426
+37.19.223.218 1 1 106973 20220423151212
+65.154.226.100 2 13 224964 20220403025754
+185.195.24.69 1 1 0 20220418025927
+54.237.5.26 1 6 111612 20220404002339
+185.27.99.123 1 1 106974 20220406174709
+111.7.96.157 1 6 111612 20220422034936
+88.214.43.118 2 2 213947 20220416142350
+162.142.125.220 1 1 106974 20220404095606
+185.87.148.103 2 2 0 20220418202000
+171.25.193.25 1 1 106974 20220419083126
+34.208.156.84 1 1 106973 20220420112936
+193.233.83.231 1 1 106974 20220415164612
+24.193.146.90 2 11 224319 20220423174305
+159.65.242.215 2 2 213948 20220405105825
+18.236.21.177 1 1 106974 20220414144521
+45.129.18.247 1 1 0 20220429131801
+157.245.84.180 3 3 320919 20220417031802
+178.128.255.28 1 1 106974 20220411151614
+35.193.163.131 1 1 106957 20220410060854
+106.244.148.154 2 2 213948 20220415141331
+190.119.187.173 1 1 106974 20220425124057
+52.33.116.28 1 1 106974 20220425112656
+92.118.160.17 1 1 106974 20220404165949
+178.128.242.142 1 1 106974 20220419105621
+185.181.60.12 1 1 106974 20220401164713
+212.193.30.147 1 1 106974 20220409163919
+149.56.160.189 1 7 113352 20220422095541
+46.161.11.8 1 1 115651 20220409190923
+46.161.11.37 1 1 106974 20220416191029
+35.162.101.167 1 1 106974 20220419114150
+157.245.107.81 1 1 0 20220412001442
+124.223.193.173 0 1 2094 
+212.142.81.87 1 7 113352 20220415051755
+31.13.115.116 0 2 1899 
+31.13.115.23 1 1 106974 20220422194608
+104.248.40.231 1 1 106974 20220420081038
+54.213.71.41 1 1 106973 20220405112234
+124.223.197.74 0 1 2094 
+185.212.71.89 2 2 213947 20220429151047
+13.82.228.137 1 1 106974 20220407024632
+34.150.147.184 1 1 106973 20220415051755
+34.220.107.101 1 1 106974 20220415113530
+92.118.160.57 1 1 106974 20220402061237
+183.82.177.180 1 7 113351 20220420100932
+54.172.183.33 1 6 111611 20220418052058
+108.195.253.228 1 7 113352 20220408102619
+54.71.133.58 1 1 106974 20220419114211
+209.141.35.128 1 1 106974 20220417022450
+173.211.76.18 1 1 106973 20220407101121
+65.108.150.230 1 1 106974 20220423162240
+81.169.180.242 1 1 106974 20220401034638
+81.169.136.222 1 1 106973 20220430045739
+35.164.127.31 1 1 106974 20220425112625
+167.94.138.47 1 1 106974 20220420212158
+65.21.206.45 1 1 106974 20220415062900
+92.118.160.41 2 2 213946 20220410210607
+44.200.138.237 1 6 111613 20220413074042
+46.161.11.2 1 1 106646 20220414113416
+38.242.246.83 1 1 0 20220416123645
+35.87.224.176 2 2 213948 20220424080256
+44.203.228.52 1 6 111613 20220424224846
+54.187.132.188 1 1 106974 20220415113601
+130.255.166.223 1 1 106974 20220424065331
+64.246.187.42 1 1 106973 20220405074914
+164.92.96.173 1 1 106974 20220418201413
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20220401 6 6 641844 6
+20220402 10 10 1106470 7
+20220403 10 21 973929 5
+20220404 17 22 1715388 13
+20220405 6 6 641841 5
+20220406 4 10 434274 4
+20220407 26 26 2807695 6
+20220408 14 20 1503111 11
+20220409 7 7 757494 7
+20220410 4 9 432518 4
+20220411 9 15 969142 7
+20220412 3 3 106974 3
+20220413 5 10 432532 5
+20220414 8 8 855459 8
+20220415 18 24 1932598 17
+20220416 28 124 2990956 9
+20220417 16 33 1515363 13
+20220418 33 50 3360316 14
+20220419 13 13 1283687 12
+20220420 44 61 4509369 15
+20220421 13 13 1390659 10
+20220422 44 72 4773966 9
+20220423 21 45 2272729 12
+20220424 87 296 11396428 14
+20220425 22 22 2393466 8
+20220426 11 11 1296921 7
+20220427 13 18 2059090 12
+20220428 10 10 1339299 8
+20220429 20 20 5076551 10
+20220430 22 39 3389935 15
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+15mn-30mn 1
+2mn-5mn 2
+30s-2mn 1
+0s-30s 272
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/index.php 277 36484410 41 50
+/ 266 26850348 234 225
+/.well-known/ 1 978 1 1
+END_SIDER

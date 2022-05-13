@@ -1,0 +1,1480 @@
+Return-Path: <appstore_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id mB21BD0ZKGFwXwAABSAGJw
+	(envelope-from <appstore_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Thu, 26 Aug 2021 18:44:13 -0400
+Return-path: <appstore_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Thu, 26 Aug 2021 18:44:13 -0400
+Received: from rn2-msbadger05106.apple.com ([17.179.250.90]:23972)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <appstore_i_bounces@insideapple.apple.com>)
+	id 1mJO6T-0006LR-Bd
+	for avex@avexeva.com; Thu, 26 Aug 2021 18:44:10 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1630017808;
+	bh=dhLOIBKGlUze421m5FNW/mHEt5fhFV+lA4WaRkQTZAo=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=gAp2cL7yz4bTzKzlumsFLRaNNB/hyOIRTv50jZKo+9/mgjHtUShd4qeeS4aapE5Mw
+	 KMtJsopIZAL90ZjvES/F8DwveqWEriroqkk+xR7p5ZALkaeewcRiEiHn3i6MmFuCza
+	 SnBe1k8rgwFzBKoP6orOsb563zSPPbuOkLyYrblG/av5dWsTmI2Khk15LtBbxAnKKT
+	 42TxZ5jyvDj5lqx2kPC3MQME4YUP8Rz8EUEeIVslx1JLZMKeWlQaSwwtbxzTSqb4ea
+	 kaduXyfLN83fNDc3Vvr8Rcg0s5c1Fh2hm1suFVwAGfvHqFA9f0kpdbtyl8JBZwqbRp
+	 bKu/lFY6sm1iQ==
+Date: Thu, 26 Aug 2021 22:43:28 +0000 (GMT)
+From: App Store <appstore@insideapple.apple.com>
+To: avex@avexeva.com
+Message-ID: <1792715887.3701444.1630017808515@Insideapple.apple.com>
+Subject: Apps to improve your day
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_3701442_926038833.1630017808515"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,P%2FO1p2341t%2BQGk3dzjz6e1q9Qr2oc2ggDnOvSa3ws9CK5L1stYGjzI%2Fh5TKdzvn%2BtnvGI%2Fq%2BPLcsS120lHa0TM9KXjHKqpiYOc2XQJ4z77hGobu6k8Ae%2Fas5PtvjAH9%2Bb2ZSdycWDO3yo4JHGvL%2F9a93MzBjULcSjyh9n9tXtFQ4S0UdSsIodk%2BFstVZh8T2
+X-TXN_ID: 66faefc4-78ca-4df9-a829-0ce59be14f19
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: YES
+X-EmailType-Id: 2255661
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2255661
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=P%2FO1p2341t%2BQGk3dzjz6e1q9Qr2oc2ggDnOvSa3ws9CK5L1stYGjzI%2Fh5TKdzvn%2BtnvGI%2Fq%2BPLcsS120lHa0TM9KXjHKqpiYOc2XQJ4z77hGobu6k8Ae%2Fas5PtvjAH9%2Bb2ZSdycWDO3yo4JHGvL%2F9a93MzBjULcSjyh9n9tXtFQ4S0UdSsIodk%2BFstVZh8T2>
+X-mp: d
+X-Spam-Status: No, score=-14.3
+X-Spam-Score: -142
+X-Spam-Bar: --------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  App Store Try a new app today. Pursue hobbies, achieve goals,
+    or simply make life easier with these popular apps. Audible audiobooks &
+   podcasts Get the app https://c.apple.com/r?v=2&la=en&lc=usa&a=nftrYZyW%2BbrDh1tRnI%2BJQN%2BOM6SWn2pwCLcUDtlrwZsNvbzPHc%2FoEuhMYCi%2B%2BRPQHROTnp%2FgqYt2TpoJo0vuA%2FR3JyAHegkUZp2fu
+    [...] 
+ Content analysis details:   (-14.3 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_06    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.8 CPANEL_LOTS_OF_EMPTY_LINE RAW: Spam that has large block of
+                             empty lines
+X-Spam-Flag: NO
+
+------=_Part_3701442_926038833.1630017808515
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+App Store
+Try a new app=A0today.
+Pursue hobbies, achieve goals, or simply make life easier with these popula=
+r=A0apps.
+                                                                           =
+                                                                           =
+ =20
+Audible audiobooks & podcasts
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DnftrYZyW%2BbrDh1tRnI%2BJQN=
+%2BOM6SWn2pwCLcUDtlrwZsNvbzPHc%2FoEuhMYCi%2B%2BRPQHROTnp%2FgqYt2TpoJo0vuA%2=
+FR3JyAHegkUZp2fukZKH408DvM8yIRaanUmWrbQcXsWMF1xwabkHmRXvqsBl8EAxwMqT%2BG7ZZ=
+rOcUMxnu9ckyOVeWPcpxn778g3Om2cetTrilJHI4U5lyfDCzm8Yygjw2eBfcrLTy5HdlXmq6ue9=
+89vKuBqlMfC8o8usy%2BRrNKL4P%2FDdDnrs2rScAt7QV2gtA%3D%3D&ct=3Dac8Q8V7D9M
+
+PictureThis - Plant Identifier
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvA0cMx=
+c%2FqiE5gjXzT3NRPUDo8I6wwJWWwfNaS93KSCgDYsgRaNzT0bXAGjW4I4DCLThFx4ihudelIho=
+DVMud3MQGlGKGPxH%2FpHEpf1Na%2FSSWfTsyT7UNw%2BcLKJFCnoF%2FPNGqCZK6mipFgNyUr5=
+GVW9ypetHL0PhdKOTRkcuy1w%2FQgy8AUFOOuaL%2F1pq0z%2BZHcr5vW1Wr0y5zo6Dx1yQXjNf=
+xLkzcNu3PK2QV3dE8WaBK%2FeWmU1MmiwBcKsjJAPT1Ow%3D%3D&ct=3Dac8W4l5A4C
+
+Paramount+
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4tZ2l2gBsUUoBizmpYaaCMTxc2uWzcXe=
+%2Bs2YFMR4K5Lax21wfjnoBIR3f7B3StiY81QTehx0fF9FoC73rU%2FXu1MAj4Is42IIe9PqvsJ=
+wYV%2BWTcGA%2FdwQjld0M1VauSg%2BC%2BqwVHeJmleonHuCArzxtTI2RtU8%2B71mhTDNVabg=
+kCiA%3D&ct=3Dac8W0L9U8T
+
+ESPN: Live Sports & Scores
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvA4oT%=
+2FbCNHAOcIUyUk8vQi5SVsvszcKZYK1MFGWLaRlTtc3nWGQqWZitgHq6LY4psJgzdzoQfRdEijr=
+t636sBJJUqnOEnXCa%2BSiMy4GQWSAPXJfVVaJFLn2q6DaJkQz24izDuYuyJ8fzvMpFb8cSGXHu=
+kNrIQVf6F0LsFgP%2Fyw2SpCDNljymU3JygE2Eg65WlDgml60FpXTI47MIhSjFinaI47LN0iMK1=
+WWXwQ3h8EzA&ct=3Dac8Q9G4C8P
+
+WEBTOON: Comics
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvAb0y7=
+Ob6FRTNsmi4e%2FDr3scwu1fNwdxxemGUTr6TWrRiz1yqPvBp6s%2F%2BkXHyJwiwWuGxo3vD4T=
+6TtXOEq74qvIFm92bGA1K9QXn4pn7baw%2Bksj9nMjzOA0SJpdb0l3iGIeKq5GTkUQERwv0nir0=
+GMgvt6Cq1y55HXcwSLEJmB9t7wJxCipBSSFkSO2VceCfh8yp%2Bm5s89Zf5%2B6CM852jV1sQgO=
+txc199WnJQLdgEtPt&ct=3Dac8W1i7j3C
+
+InShot - Video Editor
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4tZ2l2gBsUUoBizmpYaaCMdrjj%2B351=
+gUf8%2Bdg5PJM7YWalLQZCEMj1EWV2ljdWXZBUpMxD66VjFs5zXW0NoRnukcFHEY56fBc%2FMcl=
+fpCFPZqGbTHTRMTkQzZSxmbXMoaxSb5HsfRjFigO3iK%2FUEXXAAfKKpZpRCbvUXDdq8r3kELfn=
+lyHOy29bPuiFIAmZTMb&ct=3Dac8W0d3i7P
+
+Amazon Music: Songs & Podcasts
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvL2CwM=
+gaRCwJ6aQsVbPuPbPrueosZfloFvm26urm24aBDCEHNKdMPm024N5gKtPOCCtLZL9Pow%2B3xp2=
+tgLjpFwjEfd85ppKOs54ETeNM3AlalOdkHqiRyr2guz1rLEQpG2QtFfP9oPQa0RSUDTrMMU%2BL=
+cojSJnI4OHFp7CTfeGFk2KQaP2xttxVaCw%2F7cN2EvlXY8U5kkVCrVX8JUPyQo0NeZsiMXsgop=
+nNsXYitdVkIFFKbxDtVyd8YtxaGw9uHNg%3D%3D&ct=3Dac8W4c3I7v
+
+iHeart: Radio, Music, Podcasts
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4tZ2l2gBsUUoBizmpYaaCMYHjj0cl9Pk=
+Qn%2FoJzXnka7O3UAposptjgya4RS4B7NdR7KV00yDTMYuWqboFjHp6xaxJC0045%2BcI71uBlp=
+C0HZfuIVdYHlnNNG6lgjK6qJqy5MvxVJ0R88RdJiFAh0XK%2FfUZqevgoD6FyAETeJJg21fDlkT=
+U%2FJNaZBB5ff9Cl1objSK%2FkZ2lRisweCbh0%2FUWWw%3D%3D&ct=3Dac8Q8c2H5p
+
+Microsoft Excel
+Get the app
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvLBiNu=
+hkcSgWKxE3AeT5dBdMMZeb%2FvzSRcfB%2BNUsjmPoiIxZDF4LgiJ0A6KJahnQi%2FcFahDHejw=
+JEu5tf1jjDlqO6%2FgZFTxEV9DT%2F%2FU%2F%2B81JBkp9WPZCFEqYd8EbwsaFVWfN2nZGYHtf=
+16z989QDc1cVuSQ1macZ4EzJbEPas4HCpSDsIqUxiMXLqcADZSpgu%2FOyvhKX9x4JH1w8TGMUQ=
+aRDENQN6AJvLGf0fpg4OpG7&ct=3Dac8W3w1t1h
+
+
+------------------------------
+Facebook
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac8Q9x5M2M
+
+Twitter
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dac8W8l3g8M
+
+Some content requires specific hardware or software. Internet access requir=
+ed; data fees may apply. Content prices and availability are subject to cha=
+nge.
+
+All rights reserved. Copyright =A9 2021 Apple Inc. One Apple Park Way, Cupe=
+rtino, CA 95014
+
+Privacy Policy
+http://www.apple.com/privacy/privacy-policy/
+
+Terms & Conditions
+http://www.apple.com/legal/internet-services/itunes/us/terms.html
+
+Support=20
+https://support.apple.com/apps=20
+
+Account=20
+https://buy.itunes.apple.com/WebObjects/MZFinance.woa/wa/accountSummary?enl=
+h=3D1.500069.500068.500067.500057.1.&mt=3D8&ls=3D1=20
+
+Subscribe
+https://appleid.apple.com/#!&page=3Dsignin
+
+Unsubscribe
+https://c.apple.com/r?v=3D2&a=3D7zQgvWx2t15k4Cgz1F%2BCZ1CNRaBLGSY7%2BAfTYpL=
+29wBOGRj5FpPYkwBul1KqEW30Mf%2BKAkPuGQAezZ9ZShI3iUH8YMc%2FGgRCmsITG88TjNNKXP=
+kLSBq7ximXOvJNHxSR8M%2B83spFHLHva9pMYpF7mFymsQqxq38nWttEHreZult1pX6dJB4s253=
+uidujMB%2BHabGRL3fvyCtrLGPOe11oz5PmYjMf86UrG5YFkhLJ4WX2Pd%2BaCcp5z8kzj4ronu=
+Ra8Ux%2BXPO1PJQRYuQuc%2BkBaOwL9Ka6GfQLYrQmEkGm5JtN7b1G1wiXUfHvIIqydE21S5LjT=
+RUbKS3qTZaPI5l%2BbDxThWgyfWraUsaeGi5e5Mkfj8aAEt3nG%2FsZY03RLzi0kNebCTgYh080=
+cTLRiGG63wC0EnbhAVEQHnMi%2BhZEGdj6yqSaWtzelvYOrQuN5QCC
+------=_Part_3701442_926038833.1630017808515
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset=3D"utf-8">
+        <meta name=3D"viewport" content=3D "width=3Ddevice-width, initial-s=
+cale=3D1.0">
+        <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+        <meta name=3D"color-scheme" value=3D"light only">
+        <title>=EF=A3=BF</title>
+                    <style>
+        html, body, div, span, applet, object, iframe,
+        h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+        a, abbr, acronym, address, big, cite, code,
+        del, dfn, em, img, ins, kbd, q, s, samp,
+        small, strike, strong, sub, sup, tt, var,
+        b, u, i, center,
+        dl, dt, dd, ol, ul, li,
+        fieldset, form, label, legend,
+        table, caption, tbody, tfoot, thead, tr, th, td,
+        article, aside, canvas, details, embed,=20
+        figure, figcaption, footer, header, hgroup,=20
+        menu, nav, output, ruby, section, summary,
+        time, mark, audio, video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+        article, aside, details, figcaption, figure,=20
+        footer, header, hgroup, menu, nav, section {
+            display: block;
+        }
+        body {
+            line-height: 1;
+        }
+        ol, ul {
+            list-style: none;
+        }
+        blockquote, q {
+            quotes: none;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    </style>
+                    <style type=3D"text/css">
+        :root {
+          color-scheme: light;
+          supported-color-schemes: light;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+            font-weight: 400;
+        }
+
+        i, em {
+            font-style: italic;
+        }
+       =20
+        b, strong {
+            font-weight: 700;
+        }
+
+        a {
+            color: #038ACA;
+            text-decoration: none;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        hr {
+            width: 90%;
+            height: 1px;
+            background-color: #DFDFDF;
+            border: 0 none;
+        }
+
+        .appl_body_substitution {
+            width: 100%;
+        }
+
+        .appl_body_border {
+            padding: 12px;
+        }
+
+        .appl_content_wrapper {
+            width: 740px !important;
+            color: #000000;
+        }
+
+        .appl_mo_wrapper {
+            margin: 0 auto;
+            max-width: 740px;
+        }
+
+        .appl_cta_iphone {
+            display: none;
+        }
+
+        .appl_blurb_button {
+            margin: 20px auto 30px;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            border: 1px solid #0070c9;
+            border-radius: 4px;
+            overflow: hidden;
+            background-color: #0070c9;
+            background: linear-gradient(#42a1ec, #0070c9);
+            width: 230px;
+            text-align: center;
+        }
+
+        .appl_blurb_button:hover {
+            text-decoration: none;
+        }
+
+        .appl_cta a {
+            font-size: 14px;
+            padding-top: 5px;
+            display: block;
+            font-weight: 400;
+        }
+
+        .appl_page_hero {
+            max-width: 740px;
+            margin: 15px 0;
+        }
+        .appl_app_name {
+            line-height: 1.2
+        }
+
+        .appl_app_icon {
+            background-color: #f3f3f3;
+        }
+
+        .appl_truncate_name {
+            display: block;
+            width: 210px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .appl_zeroHero {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 20px auto 0;
+            text-align: center;
+            display: block;
+        }
+        .appl_header-text {
+            font-size: 22px;
+            line-height: 1.5;
+            font-weight: 300;
+            margin: 20px auto 10px;
+            text-align: center;
+            display: block;
+            color: #333333;
+            width: 95%;
+        }
+
+        .appl_lob_logo_wrap {
+            display:block;=20
+            margin:20px 0 10px 20px;
+        }
+        .appl-footer {
+            text-align: center;
+            padding-bottom: 15px;
+            line-height: 1.7;
+        }
+        .appl_footer_outer {
+            margin: 0 auto;
+        }
+        .appl_social_footer {
+            margin: 20px auto 0 !important;
+        }
+        .appl-legal {
+            font-size: 11px;
+            line-height: 1.2;
+            text-align: center;
+            color: #888888;
+        }
+        .appl-legal p {
+            margin: 20px auto;
+            width: 90%;
+        }
+        .appl-link {
+            font-size: 11px;
+            color: #666666 !important;
+            border-right: 1px solid #666666;
+            text-decoration: none;
+            margin-right: 5px;
+            padding-right: 10px;
+        }
+        .appl-link:last-child {
+            border: none;
+        }
+        .appl-link:hover {
+            text-decoration: underline;
+        }
+
+        .appl_legal_links {
+            margin: 0 auto;
+        }
+
+        .appl_category_link,
+        .appl_hero_mobile,
+        .appl_category_links_head,
+        .appl_category_links {
+            display: none;
+        }
+
+        .appl_mgyml_header {
+            font-size: 32px;
+            text-align: center;
+            line-height: 1.2;
+            font-weight: 600;
+            padding: 20px 20px 10px;
+            color: #111111;
+        }
+
+        .appl_desktop {
+            display: block;
+        }
+
+        .appl_mobile {
+            display: none;
+        }
+
+                            .appl_hero_preload,
+            .appl_feature_media {
+                display: block;
+                background-size: contain;
+                background-color: #F2F2F2;
+                background-repeat: no-repeat;
+                text-indent: -9999px;
+                border: 1px solid #F2F2F2;
+            }
+            .appl_hero_preload {
+                background-image: url('');
+                height: 398px;
+            }
+            .appl_feature_media {
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAA=
+ANSUhEUgAAAPAAAADwAgMAAABDOwEBAAAADFBMVEXl5eXOzs6enp61tbUUlLpnAAACwklEQVR4A=
+ezBgQAAAADDoPtTH2TVUgAAAAAAgJNSBxByXH8Axz9vdvaf+1/iDO5gW7Wo4gRBwUIfBYClF4QG=
+AFYRFKQwgFJYQEVxJdibLRYFErwCCrUlQJUlgUYwuMSd293pLpCxekf7wbyB7+/3wAsz/97+GBy=
+daLvVvHCj4zEYnGkbVVM3ep3A8VRLp6oqsCsDIJUgNlpuE4Sh650Br6vofb0zDwzGrjcHqlHyvs=
+EpjsfXXvtx/dk0IgTtuK7BdXHn3rM/miGydSogQuF9EXKGtB1UG0+RTQYzB/Xjqc7zj6rE8YyD1=
+89mHk+Tbz6fGFRJW28bn+J/k96p/R+rapz9NNqOG5zajj7tbIePfpuEzX/72gpYQF7ndDm0irr4=
+P3CLLnd12WvHIiTsXeTIb8dc6MwD8zB3GY+G/c7XIaodZl922rESEpZLe/ju4w4vvxUt/bmJfy/=
+iy5eiX74vXl017RgEKIqLJU06b5itRVdWc4j3mli4TNsz7cagv1gGGkEMSaQZe4GgFPvuKEulf4=
+jrOmTkVqAs+NUtZJKitpCStLtZA/HopOEC5ZqE1aMmIgBUVXszJUSUR1+IWv5SAgtqoB2DIRJKL=
+auYaADBbpzgkACJ1ogSAX00njx5koAcUECXLNw3+gRABAo0AM93Ni+goVmT+vYEMsoa1KxRFxB3=
+4nPIyVHUloLUkCKUIIkLxN34As7Za1jkOu5s047Sp0KK+k2ch1gj3tuJV1CzzKn3NPOvGs4/kLx=
+7+0AsVsPysCuhuIwPaas2Er2nHEz2ty9DtvlMGFXVmV4161XV1Kh0sD3bm5WI9JdcBDlvBJbgyj=
+lvuIS3oB2/2n+YQcEy8y6GR9ZjH/IzP3jLVXQXVnOZ6+w/7Q5lZ+EE7g9xFHVPgHDfDTGb2A0y/=
+8Hf7cshAQAAAICg/689YYSODAAAAAAAsAoFaPzYYmgqXQAAAABJRU5ErkJggg=3D=3D');
+                height: 122px;
+            }
+       =20
+        @media screen and (max-width: 480px) {
+            /* Targets Gmail */
+            u~div .full-wrap {
+                min-width: 100vw;
+            }
+
+            /* Targets Gmail on Android */
+            div>u~div .full-wrap {
+                min-width: 100%;
+            }
+            .appl_desc {
+                width: 85%;
+                line-height: 1.2;
+                margin: 0 auto;
+            }
+            .appl_page_head td {
+                padding: 0 !important;
+            }
+            .appl_body_border {
+                padding: 0 !important;
+            }
+            .appl_media_object {
+                margin: 20px auto 30px !important;
+            }
+            .appl_mo_hack {
+                width: auto !important;
+            }
+            .appl_banner {
+                margin-top: 30px;
+                display: block;
+            }
+            .appl_mo_wrapper {
+                overflow: hidden !important;
+            }
+            .appl_content_wrapper {
+                width: 100% !important;
+            }
+            .appl_media_object.appl_mo_last {
+                margin: 0 auto 30px !important;
+            }
+            .appl_mgyml_hr {
+                margin: 40px auto 0 !important;
+            }
+            .appl_mgyml_header {
+                font-size: 25px !important;
+                margin: 25px 15px 0 !important;
+                padding: 0 !important;
+            }
+            .appl_hr_mobile {
+                display: block !important;
+                max-height: inherit !important;
+                max-width: inherit !important;
+                height: 1px !important;
+                font-size: inherit !important;
+                margin: 20px auto 0 !important;
+            }
+            .appl_page_hero {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .appl_hr {
+                width: 75% !important;
+            }
+            .appl_body_substitution {
+                padding-top: 0 !important;
+            }
+            .appl_app_icon {
+                height: 120px !important;
+                width: 120px !important;
+            }
+            .appl_cta a {
+                margin: 0 !important;
+                letter-spacing: .5px;
+            }
+            .appl_resp_br {
+                display:none;
+            }
+            .appl_cta_iphone {
+                display: block !important;
+            }
+            .appl_footer_outer {
+                background-color: #F2F2F2 !important;
+            }
+            .appl_100 {
+              width: 100% !important;
+            }
+            .appl_header-text {
+                font-size: 17px !important;
+                line-height: 1.3 !important;
+                padding: 0 5px !important;
+                margin: 15px 0 0 !important;
+            }
+            .appl_zeroHero {
+                font-size: 25px !important;
+                margin: 20px 15px 0 !important;
+            }
+            .appl_lob_logo {
+                height: 28px !important;
+                width: auto !important;
+            }
+            .appl_lob_logo_wrap {
+                display:block !important;=20
+                margin: 10px 0 10px 10px !important;
+            }
+            .appl_blurb_button {
+                 margin: 0 auto !important;
+            }
+            .appl_media_object {
+                display: table !important;
+                float: none !important;
+                width: 90% !important;
+            }
+
+           .appl_app_name{
+                font-weight: 400 !important;
+                font-size: 16px!important;
+                margin: 0 auto 6px !important;
+                width: 270px !important;
+            }
+
+            .appl_category_link,
+            .appl_hero_mobile,
+            .appl_category_links_head,
+            .appl_category_links {
+                display: block !important;
+            }
+
+            .appl_category_icon {
+                width: 40px !important;
+                vertical-align: middle !important;
+            }
+
+            .appl_category_category {
+                vertical-align: middle !important;
+                text-align: left !important;
+                width: 30% !important;
+            }
+
+            .appl_category_links {
+                margin: 5px 0 !important;
+                font-size: 16px !important;
+            }
+
+            .appl_category_links_head {
+                font-weight: 400 !important;
+                font-size: 16px !important;
+                color: #262626!important;
+                text-align: center !important;
+                padding: 0 0 15px !important;
+            }
+
+            .appl_category_links img {
+                margin: 5px 10px !important;
+            }
+
+            .appl_category_gutter {
+                width: 10% !important;
+            }
+           =20
+            .appl_desktop {
+                display: none;
+            }
+
+            .appl_mobile {
+                display: block !important;
+            }
+           =20
+                                }
+
+                   =20
+    @media screen yahoo and (max-width:480px){
+        .appl_page_hero {
+            width: 100% !important;
+            height: 174px !important;
+        }
+        .appl_lob_logo {
+            height: 20px !important;
+            width: auto !important;
+        }
+        .appl_media_object {
+            margin: 0 auto !important;
+            width: 100% !important;
+        }
+        .appl_app_name {
+            width: 100% !important
+        }
+        .appl_mo_hack {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            vertical-align: top;
+        }
+
+                    }
+
+    </style>
+
+    <!--[if mso lte 15]>
+        <style type=3D"text/css">
+    `       table {
+                border-collapse: collapse !important;
+            }
+            .appl_content_wrapper {
+                width: 740 !important;
+
+            }
+            .appl_footer {
+                margin-top: 20px !important;
+            }
+            .appl_media_object {
+                border-spacing: 0;
+                font-size: 14px;
+                text-align: center;
+                margin: 20px 15px;
+                float: none;
+                display: inline-block;
+                vertical-align: top;
+                mso-table-lspace: -1pt;
+                mso-table-rspace: -1pt;
+            }
+            .appl_mo_hack {
+                width: 239px !important;
+                padding: 0 15px;
+            }
+            .mso-header-text {
+                padding: 45px 20px;
+                line-height: 1.5;
+            }
+        </style>
+    <![endif]-->
+    </head>
+    <body bgcolor=3D"#f3f3f3" style=3D"margin:0;padding:0;">
+                <div class=3D"appl_client_preview" style=3D"display:none; m=
+ax-height:0; max-width:0;width:0;height:0;overflow:hidden;font-size:1px">
+            <span>Whether you use your phone to get things done or have a l=
+ittle fun, these apps can help. Check them out and see why they=E2=80=99re =
+so popular.</span>
+        </div>
+<div itemscope itemtype=3D"http://schema.org/Organization">
+    <meta itemprop=3D"logo" content=3D"https://static-its-images.apple.com/=
+images/icons/open_graph_logo-apple-logo.png" />
+</div>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" class=3D"appl_body_substitution" style=3D"background-color:#f3f3f3;width=
+:100%">
+    <tr>
+        <td class=3D"appl_body_border">
+            <table role=3D"presentation" bgcolor=3D"#FFFFFF" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" class=3D"appl_content_wrapper" align=3D"=
+center" style=3D"font-family:system, -apple-system, BlinkMacSystemFont, -we=
+bkit-system-font,'Helvetica Neue', Helvetica, Arial, sans-serif;border-spac=
+ing:0;margin:0 auto;width:740px;background-color:#FFFFFF;border-radius:0;fo=
+nt-weight:400;color:#000000">
+                <tr>
+                    <td>
+                            <table role=3D"presentation" class=3D"appl_page=
+_head" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspacing=3D"0">
+        <tr>
+            <td>
+                                                    <div class=3D"appl_lob_=
+logo_wrap" style=3D"margin:20px 0 10px 20px;">
+                        <img class=3D"appl_lob_logo" src=3D"http://static-i=
+ts-images.apple.com/images/appstore/logo-head-app-store.png" height=3D"30" =
+width=3D"150" alt=3D"App Store">
+                    </div>
+                                <h1 style=3D"font-size: 32px; font-weight: =
+600; margin: 20px auto 0; text-align:center" class=3D"appl_zeroHero">Try a =
+new app&nbsp;today.</h1>
+                <p style=3D"font-size: 22px; line-height: 1.5; font-weight:=
+ 300; margin: 30px auto; text-align: center; display: block; color: #333333=
+; width: 95%" class=3D"appl_header-text">Pursue hobbies, achieve goals, or =
+simply make life easier with these popular&nbsp;apps.</p>
+                            </td>
+        </tr>
+    </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style=3D"padding: 0 0 20px;">
+                                                                        <di=
+v class=3D"appl_mo_wrapper" style=3D"margin: 0 auto;max-width:740px;">
+                                       =20
+   =20
+   =20
+   =20
+   =20
+                   =20
+                   =20
+                   =20
+                   =20
+                   =20
+                   =20
+                   =20
+                   =20
+                   =20
+               =20
+           =20
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  first  " style=3D"width:213px; border-spacing:0;font-size:14px;=
+text-align:center;margin: 10px 15px;float: none;display: inline-block;verti=
+cal-align: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DnftrYZyW%2BbrDh1tRnI%2BJQN%2BOM6SWn2pwCLcUDtlrwZsNvbzPHc%2FoEuhMYCi%2B=
+%2BRPQHROTnp%2FgqYt2TpoJo0vuA%2FR3JyAHegkUZp2fukZKH408DvM8yIRaanUmWrbQcXsWM=
+F1xwabkHmRXvqsBl8EAxwMqT%2BG7ZZrOcUMxnu9ckyOVeWPcpxn778g3Om2cetTrilJHI4U5ly=
+fDCzm8YygjwwJpsdsegAYnIBeQQFhXtlfbOrRe8KuBG3Qmnnf5glpvxiwUsw6THUnxaR4KYcmNx=
+g%3D%3D&ct=3Dac8W2b6M0v" title=3D"Audible audiobooks & podcasts">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/96/71/d4/9671d4b2=
+-a03b-1d27-6411-cbcf8acc6171/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220.png=
+/240x240bb.jpg" height=3D"120" width=3D"120" alt=3D"" style=3D"border:1px s=
+olid #D3D3D3;border-radius:28px;background-color:#f3f3f3;margin: 0 auto;" /=
+>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DnftrYZyW%2BbrDh1tRnI%2BJQN%2BOM6SWn2pwCLcUDtlrwZsNvbzPHc%2FoEuhMYCi%2B=
+%2BRPQHROTnp%2FgqYt2TpoJo0vuA%2FR3JyAHegkUZp2fukZKH408DvM8yIRaanUmWrbQcXsWM=
+F1xwabkHmRXvqsBl8EAxwMqT%2BG7ZZrOcUMxnu9ckyOVeWPcpxn778g3Om2cetTrilJHI4U5ly=
+fDCzm8YygjwwJpsdsegAYnIBeQQFhXtlfbOrRe8KuBG3Qmnnf5glpvxiwUsw6THUnxaR4KYcmNx=
+g%3D%3D&ct=3Dac8W8E5E4T" style=3D"text-decoration:none;margin:0;padding:0;c=
+olor:#000000;width:210px;text-overflow:ellipsis;white-space:nowrap;overflow=
+:hidden;display:block;font-weight: 400" class=3D"appl_app_name appl_truncat=
+e_name" title=3D"Audible audiobooks & podcasts">
+                        Audible audiobooks & podcasts
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DnftrYZyW%2BbrDh1tRnI%2BJQN%2BOM6SWn2pwCLcUDtlrwZsNvbzPHc%2FoEuhM=
+YCi%2B%2BRPQHROTnp%2FgqYt2TpoJo0vuA%2FR3JyAHegkUZp2fukZKH408DvM8yIRaanUmWrb=
+QcXsWMF1xwabkHmRXvqsBl8EAxwMqT%2BG7ZZrOcUMxnu9ckyOVeWPcpxn778g3Om2cetTrilJH=
+I4U5lyfDCzm8YygjwwJpsdsegAYnIBeQQFhXtlfbOrRe8KuBG3Qmnnf5glpvxiwUsw6THUnxaR4=
+KYcmNxg%3D%3D&ct=3Dac8W1w7H3p" style=3D"color:#038ACA;text-decoration:none;=
+font-weight:400;font-size:14px;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvA0cMxc%2FqiE5gjXzT3NRPUDo8I6wwJWWwfNaS93KSCgDYsgR=
+aNzT0bXAGjW4I4DCLThFx4ihudelIhoDVMud3MQGlGKGPxH%2FpHEpf1Na%2FSSWfTsyT7UNw%2=
+BcLKJFCnoF%2FPNGqCZK6mipFgNyUr5GVW9ypetHL0PhdKOTRkcuy1w%2FQgy8AUFOOuaL%2F1p=
+q0z%2BZHco5daj8od6RC%2BJxsbiXMXxkfvSZmj4s3ARLE7vGQXFTI88FHPeNjFgY3eBO3WzTk%=
+2BA%3D%3D&ct=3Dac8R0G3y1T" title=3D"PictureThis - Plant Identifier">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/c2/22/15/c2221567=
+-f15c-e2c0-28a2-c65e2d4f1078/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB=
+-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/240x240bb.jpg" height=3D"120" widt=
+h=3D"120" alt=3D"" style=3D"border:1px solid #D3D3D3;border-radius:28px;bac=
+kground-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvA0cMxc%2FqiE5gjXzT3NRPUDo8I6wwJWWwfNaS93KSCgDYsgR=
+aNzT0bXAGjW4I4DCLThFx4ihudelIhoDVMud3MQGlGKGPxH%2FpHEpf1Na%2FSSWfTsyT7UNw%2=
+BcLKJFCnoF%2FPNGqCZK6mipFgNyUr5GVW9ypetHL0PhdKOTRkcuy1w%2FQgy8AUFOOuaL%2F1p=
+q0z%2BZHco5daj8od6RC%2BJxsbiXMXxkfvSZmj4s3ARLE7vGQXFTI88FHPeNjFgY3eBO3WzTk%=
+2BA%3D%3D&ct=3Dac8Q8n0L2N" style=3D"text-decoration:none;margin:0;padding:0=
+;color:#000000;width:210px;text-overflow:ellipsis;white-space:nowrap;overfl=
+ow:hidden;display:block;font-weight: 400" class=3D"appl_app_name appl_trunc=
+ate_name" title=3D"PictureThis - Plant Identifier">
+                        PictureThis - Plant Identifier
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvA0cMxc%2FqiE5gjXzT3NRPUDo8I6wwJWWwfNaS93KSC=
+gDYsgRaNzT0bXAGjW4I4DCLThFx4ihudelIhoDVMud3MQGlGKGPxH%2FpHEpf1Na%2FSSWfTsyT=
+7UNw%2BcLKJFCnoF%2FPNGqCZK6mipFgNyUr5GVW9ypetHL0PhdKOTRkcuy1w%2FQgy8AUFOOua=
+L%2F1pq0z%2BZHco5daj8od6RC%2BJxsbiXMXxkfvSZmj4s3ARLE7vGQXFTI88FHPeNjFgY3eBO=
+3WzTk%2BA%3D%3D&ct=3Dac8W9b8q6Y" style=3D"color:#038ACA;text-decoration:non=
+e;font-weight:400;font-size:14px;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMTxc2uWzcXe%2Bs2YFMR4K5Lax21wfjnoBIR3f7B3StiY81QTehx0fF=
+9FoC73rU%2FXu1MAj4Is42IIe9PqvsJwYV%2BWTcGA%2FdwQjld0M1VauSg%2BCC%2B5rLJo%2B=
+aeee43PyuZ9sAZ5yc2aIDcSQdVDvQDrzcO4%3D&ct=3Dac8W9l7r3N" title=3D"Paramount+=
+">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is1-ssl.mzstatic.com/image/thumb/Purple125/v4/b2/47/f5/b247f5a1=
+-88d3-c0f7-b467-9329b1b63e40/P_U002bAppIcon-0-0-1x_U007emarketing-0-0-0-7-0=
+-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/240x240bb.jpg" height=3D"12=
+0" width=3D"120" alt=3D"" style=3D"border:1px solid #D3D3D3;border-radius:2=
+8px;background-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMTxc2uWzcXe%2Bs2YFMR4K5Lax21wfjnoBIR3f7B3StiY81QTehx0fF=
+9FoC73rU%2FXu1MAj4Is42IIe9PqvsJwYV%2BWTcGA%2FdwQjld0M1VauSg%2BCC%2B5rLJo%2B=
+aeee43PyuZ9sAZ5yc2aIDcSQdVDvQDrzcO4%3D&ct=3Dac8W2w1K0M" style=3D"text-decor=
+ation:none;margin:0;padding:0;color:#000000;width:210px;text-overflow:ellip=
+sis;white-space:nowrap;overflow:hidden;display:block;font-weight: 400" clas=
+s=3D"appl_app_name appl_truncate_name" title=3D"Paramount+">
+                        Paramount+
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8=
+Nx0gM4tZ2l2gBsUUoBizmpYaaCMTxc2uWzcXe%2Bs2YFMR4K5Lax21wfjnoBIR3f7B3StiY81QT=
+ehx0fF9FoC73rU%2FXu1MAj4Is42IIe9PqvsJwYV%2BWTcGA%2FdwQjld0M1VauSg%2BCC%2B5r=
+LJo%2Baeee43PyuZ9sAZ5yc2aIDcSQdVDvQDrzcO4%3D&ct=3Dac8W9l5K7M" style=3D"colo=
+r:#038ACA;text-decoration:none;font-weight:400;font-size:14px;margin:10px 0=
+">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvA4oT%2FbCNHAOcIUyUk8vQi5SVsvszcKZYK1MFGWLaRlTtc3n=
+WGQqWZitgHq6LY4psJgzdzoQfRdEijrt636sBJJUqnOEnXCa%2BSiMy4GQWSAPXJfVVaJFLn2q6=
+DaJkQz24izDuYuyJ8fzvMpFb8cSGXHukNrIQVf6F0LsFgP%2Fyw2SpCDNljymU3JygE2Eg65WlG=
+FJcUbiUEmgl0DK5820gDxuQanwdZ0tRW%2FTUKUZarLz&ct=3Dac8W9q9C2N" title=3D"ESPN=
+: Live Sports & Scores">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is4-ssl.mzstatic.com/image/thumb/Purple115/v4/06/03/dd/0603dd67=
+-fa33-ace0-bc30-3b8f0c031b0c/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/2=
+40x240bb.jpg" height=3D"120" width=3D"120" alt=3D"" style=3D"border:1px sol=
+id #D3D3D3;border-radius:28px;background-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvA4oT%2FbCNHAOcIUyUk8vQi5SVsvszcKZYK1MFGWLaRlTtc3n=
+WGQqWZitgHq6LY4psJgzdzoQfRdEijrt636sBJJUqnOEnXCa%2BSiMy4GQWSAPXJfVVaJFLn2q6=
+DaJkQz24izDuYuyJ8fzvMpFb8cSGXHukNrIQVf6F0LsFgP%2Fyw2SpCDNljymU3JygE2Eg65WlG=
+FJcUbiUEmgl0DK5820gDxuQanwdZ0tRW%2FTUKUZarLz&ct=3Dac8W7q2m9T" style=3D"text=
+-decoration:none;margin:0;padding:0;color:#000000;width:210px;text-overflow=
+:ellipsis;white-space:nowrap;overflow:hidden;display:block;font-weight: 400=
+" class=3D"appl_app_name appl_truncate_name" title=3D"ESPN: Live Sports & S=
+cores">
+                        ESPN: Live Sports & Scores
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvA4oT%2FbCNHAOcIUyUk8vQi5SVsvszcKZYK1MFGWLaR=
+lTtc3nWGQqWZitgHq6LY4psJgzdzoQfRdEijrt636sBJJUqnOEnXCa%2BSiMy4GQWSAPXJfVVaJ=
+FLn2q6DaJkQz24izDuYuyJ8fzvMpFb8cSGXHukNrIQVf6F0LsFgP%2Fyw2SpCDNljymU3JygE2E=
+g65WlGFJcUbiUEmgl0DK5820gDxuQanwdZ0tRW%2FTUKUZarLz&ct=3Dac8W5n2x1k" style=
+=3D"color:#038ACA;text-decoration:none;font-weight:400;font-size:14px;margi=
+n:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvAb0y7Ob6FRTNsmi4e%2FDr3scwu1fNwdxxemGUTr6TWrRiz1y=
+qPvBp6s%2F%2BkXHyJwiwWuGxo3vD4T6TtXOEq74qvIFm92bGA1K9QXn4pn7baw%2Bksj9nMjzO=
+A0SJpdb0l3iGIeKq5GTkUQERwv0nir0GMgvt6Cq1y55HXcwSLEJmB9t9ReqUQQ9vfzUXRKAaQS%=
+2BdAhqJ%2B1yfXEiycYm8Pd8bkHmHc5lnQeGY0smGGjcwXxu&ct=3Dac8W3u2x8N" title=3D"=
+WEBTOON: Comics">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is5-ssl.mzstatic.com/image/thumb/Purple125/v4/0b/24/b5/0b24b548=
+-1fc3-9800-1491-45abec9d9d6b/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB=
+-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/240x240bb.jpg" height=3D"120" widt=
+h=3D"120" alt=3D"" style=3D"border:1px solid #D3D3D3;border-radius:28px;bac=
+kground-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvAb0y7Ob6FRTNsmi4e%2FDr3scwu1fNwdxxemGUTr6TWrRiz1y=
+qPvBp6s%2F%2BkXHyJwiwWuGxo3vD4T6TtXOEq74qvIFm92bGA1K9QXn4pn7baw%2Bksj9nMjzO=
+A0SJpdb0l3iGIeKq5GTkUQERwv0nir0GMgvt6Cq1y55HXcwSLEJmB9t9ReqUQQ9vfzUXRKAaQS%=
+2BdAhqJ%2B1yfXEiycYm8Pd8bkHmHc5lnQeGY0smGGjcwXxu&ct=3Dac8W0d6i9M" style=3D"=
+text-decoration:none;margin:0;padding:0;color:#000000;width:210px;text-over=
+flow:ellipsis;white-space:nowrap;overflow:hidden;display:block;font-weight:=
+ 400" class=3D"appl_app_name appl_truncate_name" title=3D"WEBTOON: Comics">
+                        WEBTOON: Comics
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvAb0y7Ob6FRTNsmi4e%2FDr3scwu1fNwdxxemGUTr6TW=
+rRiz1yqPvBp6s%2F%2BkXHyJwiwWuGxo3vD4T6TtXOEq74qvIFm92bGA1K9QXn4pn7baw%2Bksj=
+9nMjzOA0SJpdb0l3iGIeKq5GTkUQERwv0nir0GMgvt6Cq1y55HXcwSLEJmB9t9ReqUQQ9vfzUXR=
+KAaQS%2BdAhqJ%2B1yfXEiycYm8Pd8bkHmHc5lnQeGY0smGGjcwXxu&ct=3Dac8W2V4c4C" sty=
+le=3D"color:#038ACA;text-decoration:none;font-weight:400;font-size:14px;mar=
+gin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMdrjj%2B351gUf8%2Bdg5PJM7YWalLQZCEMj1EWV2ljdWXZBUpMxD66=
+VjFs5zXW0NoRnukcFHEY56fBc%2FMclfpCFPZqGbTHTRMTkQzZSxmbXMoax0TT7P1q9yGnNsMfZ=
+4Cad7qEEl5BvIw8xMH5RpRCp%2FE9xGnzMLELcE%2Btxkwm4X2df&ct=3Dac8Q9x8P3T" title=
+=3D"InShot - Video Editor">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/65/8d/e1/658de1e8=
+-6612-858a-403b-36f02055b8b4/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB=
+-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/240x240bb.jpg" height=3D"120" widt=
+h=3D"120" alt=3D"" style=3D"border:1px solid #D3D3D3;border-radius:28px;bac=
+kground-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMdrjj%2B351gUf8%2Bdg5PJM7YWalLQZCEMj1EWV2ljdWXZBUpMxD66=
+VjFs5zXW0NoRnukcFHEY56fBc%2FMclfpCFPZqGbTHTRMTkQzZSxmbXMoax0TT7P1q9yGnNsMfZ=
+4Cad7qEEl5BvIw8xMH5RpRCp%2FE9xGnzMLELcE%2Btxkwm4X2df&ct=3Dac8W9L2X5M" style=
+=3D"text-decoration:none;margin:0;padding:0;color:#000000;width:210px;text-=
+overflow:ellipsis;white-space:nowrap;overflow:hidden;display:block;font-wei=
+ght: 400" class=3D"appl_app_name appl_truncate_name" title=3D"InShot - Vide=
+o Editor">
+                        InShot - Video Editor
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8=
+Nx0gM4tZ2l2gBsUUoBizmpYaaCMdrjj%2B351gUf8%2Bdg5PJM7YWalLQZCEMj1EWV2ljdWXZBU=
+pMxD66VjFs5zXW0NoRnukcFHEY56fBc%2FMclfpCFPZqGbTHTRMTkQzZSxmbXMoax0TT7P1q9yG=
+nNsMfZ4Cad7qEEl5BvIw8xMH5RpRCp%2FE9xGnzMLELcE%2Btxkwm4X2df&ct=3Dac8W0x9t9M"=
+ style=3D"color:#038ACA;text-decoration:none;font-weight:400;font-size:14px=
+;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvL2CwMgaRCwJ6aQsVbPuPbPrueosZfloFvm26urm24aBDCEHNK=
+dMPm024N5gKtPOCCtLZL9Pow%2B3xp2tgLjpFwjEfd85ppKOs54ETeNM3AlalOdkHqiRyr2guz1=
+rLEQpG2QtFfP9oPQa0RSUDTrMMU%2BLcojSJnI4OHFp7CTfeGFk2KQaP2xttxVaCw%2F7cN2Evh=
+d9V3oaaKuqiuhAFOgb58usNbl3a63mxlfhbeHxIgXbFAmYqOhL1K5UtqPpIaFMzA%3D%3D&ct=
+=3Dac8Q8i0t0N" title=3D"Amazon Music: Songs & Podcasts">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/3d/ba/06/3dba0675=
+-2222-27e8-e332-37a6b37f8f02/AppIcon-1x_U007emarketing-0-10-0-85-220.png/24=
+0x240bb.jpg" height=3D"120" width=3D"120" alt=3D"" style=3D"border:1px soli=
+d #D3D3D3;border-radius:28px;background-color:#f3f3f3;margin: 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvL2CwMgaRCwJ6aQsVbPuPbPrueosZfloFvm26urm24aBDCEHNK=
+dMPm024N5gKtPOCCtLZL9Pow%2B3xp2tgLjpFwjEfd85ppKOs54ETeNM3AlalOdkHqiRyr2guz1=
+rLEQpG2QtFfP9oPQa0RSUDTrMMU%2BLcojSJnI4OHFp7CTfeGFk2KQaP2xttxVaCw%2F7cN2Evh=
+d9V3oaaKuqiuhAFOgb58usNbl3a63mxlfhbeHxIgXbFAmYqOhL1K5UtqPpIaFMzA%3D%3D&ct=
+=3Dac8W5w8d2Y" style=3D"text-decoration:none;margin:0;padding:0;color:#0000=
+00;width:210px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;di=
+splay:block;font-weight: 400" class=3D"appl_app_name appl_truncate_name" ti=
+tle=3D"Amazon Music: Songs & Podcasts">
+                        Amazon Music: Songs & Podcasts
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvL2CwMgaRCwJ6aQsVbPuPbPrueosZfloFvm26urm24aB=
+DCEHNKdMPm024N5gKtPOCCtLZL9Pow%2B3xp2tgLjpFwjEfd85ppKOs54ETeNM3AlalOdkHqiRy=
+r2guz1rLEQpG2QtFfP9oPQa0RSUDTrMMU%2BLcojSJnI4OHFp7CTfeGFk2KQaP2xttxVaCw%2F7=
+cN2Evhd9V3oaaKuqiuhAFOgb58usNbl3a63mxlfhbeHxIgXbFAmYqOhL1K5UtqPpIaFMzA%3D%3=
+D&ct=3Dac8W4q1e6P" style=3D"color:#038ACA;text-decoration:none;font-weight:=
+400;font-size:14px;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  " style=3D"width:213px; border-spacing:0;font-size:14px;text-al=
+ign:center;margin: 10px 15px;float: none;display: inline-block;vertical-ali=
+gn: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMYHjj0cl9PkQn%2FoJzXnka7O3UAposptjgya4RS4B7NdR7KV00yDTM=
+YuWqboFjHp6xaxJC0045%2BcI71uBlpC0HZfuIVdYHlnNNG6lgjK6qJqy5MvxVJ0R88RdJiFAh0=
+XK%2FYDSTHT7heNEqIKFM9WVvZiN%2B81GBlsdSwPTvOAJQhHpnwgnyJ55T%2BPZBBTxV9xexg%=
+3D%3D&ct=3Dac8W4n5x7C" title=3D"iHeart: Radio, Music, Podcasts">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/f4/f1/7a/f4f17a23=
+-dfb4-9d06-a483-0dae1972ee31/AppIcon-0-1x_U007emarketing-0-6-0-0-85-220.png=
+/240x240bb.jpg" height=3D"120" width=3D"120" alt=3D"" style=3D"border:1px s=
+olid #D3D3D3;border-radius:28px;background-color:#f3f3f3;margin: 0 auto;" /=
+>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+tZ2l2gBsUUoBizmpYaaCMYHjj0cl9PkQn%2FoJzXnka7O3UAposptjgya4RS4B7NdR7KV00yDTM=
+YuWqboFjHp6xaxJC0045%2BcI71uBlpC0HZfuIVdYHlnNNG6lgjK6qJqy5MvxVJ0R88RdJiFAh0=
+XK%2FYDSTHT7heNEqIKFM9WVvZiN%2B81GBlsdSwPTvOAJQhHpnwgnyJ55T%2BPZBBTxV9xexg%=
+3D%3D&ct=3Dac8R0c0M6k" style=3D"text-decoration:none;margin:0;padding:0;col=
+or:#000000;width:210px;text-overflow:ellipsis;white-space:nowrap;overflow:h=
+idden;display:block;font-weight: 400" class=3D"appl_app_name appl_truncate_=
+name" title=3D"iHeart: Radio, Music, Podcasts">
+                        iHeart: Radio, Music, Podcasts
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8=
+Nx0gM4tZ2l2gBsUUoBizmpYaaCMYHjj0cl9PkQn%2FoJzXnka7O3UAposptjgya4RS4B7NdR7KV=
+00yDTMYuWqboFjHp6xaxJC0045%2BcI71uBlpC0HZfuIVdYHlnNNG6lgjK6qJqy5MvxVJ0R88Rd=
+JiFAh0XK%2FYDSTHT7heNEqIKFM9WVvZiN%2B81GBlsdSwPTvOAJQhHpnwgnyJ55T%2BPZBBTxV=
+9xexg%3D%3D&ct=3Dac8W7c7D9k" style=3D"color:#038ACA;text-decoration:none;fo=
+nt-weight:400;font-size:14px;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                           =20
+        <!--[if !mso]><!--><table role=3D"presentation" width=3D"200" align=
+=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object  appl_mo_last " style=3D"width:213px; border-spacing:0;font-size=
+:14px;text-align:center;margin: 10px 15px;float: none;display: inline-block=
+;vertical-align: top;"><!--<![endif]-->
+        <!--[if gte mso 9]><table role=3D"presentation"  width=3D"200" alig=
+n=3D"left"border=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"appl_me=
+dia_object appl_mo_last " align=3D"left"><![endif]-->
+            <tr>
+                <!--[if !mso]><!--><td height=3D"120" align=3D"center" vali=
+gn=3D"top" class=3D"appl_mo_hack" style=3D"width:213px;"><!--<![endif]-->
+                <!--[if gte mso 9]><td class=3D"appl_mo_hack"><![endif]-->
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvLBiNuhkcSgWKxE3AeT5dBdMMZeb%2FvzSRcfB%2BNUsjmPoiI=
+xZDF4LgiJ0A6KJahnQi%2FcFahDHejwJEu5tf1jjDlqO6%2FgZFTxEV9DT%2F%2FU%2F%2B81JB=
+kp9WPZCFEqYd8EbwsaFVWfN2nZGYHtf16z989QDc1cVuSQ1macZ4EzJbEPas4HC1gV8gM0vGv%2=
+B%2BAjqskp%2BIP6ktXt6mAyI%2Bw5hfRrHsmHTPZmZmpSXJ7kSNV%2F85NUcW&ct=3Dac8W4G4=
+U8C" title=3D"Microsoft Excel">
+                        <img class=3D"appl_app_icon appl_feature_media" src=
+=3D"https://is2-ssl.mzstatic.com/image/thumb/Purple125/v4/12/da/05/12da05b0=
+-2c29-9597-dc65-bc73612090b7/AppIcon-0-1x_U007emarketing-0-7-0-sRGB-0-0-0-8=
+5-220-0.png/240x240bb.jpg" height=3D"120" width=3D"120" alt=3D"" style=3D"b=
+order:1px solid #D3D3D3;border-radius:28px;background-color:#f3f3f3;margin:=
+ 0 auto;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                                                <td height=3D"20" align=3D"=
+center" valign=3D"top" class=3D"appl_mo_hack" style=3D"font-family:system, =
+-apple-system, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', He=
+lvetica, Arial, sans-serif;font-size:16px;line-height:1.4;padding-top:15px;=
+">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3DNdC6z1KzllRaGq4wOYsjvLBiNuhkcSgWKxE3AeT5dBdMMZeb%2FvzSRcfB%2BNUsjmPoiI=
+xZDF4LgiJ0A6KJahnQi%2FcFahDHejwJEu5tf1jjDlqO6%2FgZFTxEV9DT%2F%2FU%2F%2B81JB=
+kp9WPZCFEqYd8EbwsaFVWfN2nZGYHtf16z989QDc1cVuSQ1macZ4EzJbEPas4HC1gV8gM0vGv%2=
+B%2BAjqskp%2BIP6ktXt6mAyI%2Bw5hfRrHsmHTPZmZmpSXJ7kSNV%2F85NUcW&ct=3Dac8R0a0=
+i2v" style=3D"text-decoration:none;margin:0;padding:0;color:#000000;width:2=
+10px;text-overflow:ellipsis;white-space:nowrap;overflow:hidden;display:bloc=
+k;font-weight: 400" class=3D"appl_app_name appl_truncate_name" title=3D"Mic=
+rosoft Excel">
+                        Microsoft Excel
+                    </a>
+                                                        </td>
+            </tr>
+            <tr>
+                <td height=3D"30" align=3D"center" valign=3D"top">
+                    <p style=3D"margin:0;padding:0;font-weight: 400;" class=
+=3D"appl_cta">
+                        <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3DNdC6z1KzllRaGq4wOYsjvLBiNuhkcSgWKxE3AeT5dBdMMZeb%2FvzSRcfB%2BNUs=
+jmPoiIxZDF4LgiJ0A6KJahnQi%2FcFahDHejwJEu5tf1jjDlqO6%2FgZFTxEV9DT%2F%2FU%2F%=
+2B81JBkp9WPZCFEqYd8EbwsaFVWfN2nZGYHtf16z989QDc1cVuSQ1macZ4EzJbEPas4HC1gV8gM=
+0vGv%2B%2BAjqskp%2BIP6ktXt6mAyI%2Bw5hfRrHsmHTPZmZmpSXJ7kSNV%2F85NUcW&ct=3Da=
+c8R0i7A5v" style=3D"color:#038ACA;text-decoration:none;font-weight:400;font=
+-size:14px;margin:10px 0">
+                            Get the app
+                            <img width=3D"9" alt=3D"cta arrow" border=3D"0"=
+  alt=3D"arrow" src=3D"https://static-its-images.apple.com/images/icons/icn=
+-caret-right.png" />
+                        </a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+                                                        </div>
+                                                                    </td>
+                </tr>
+            </table>
+            <table role=3D"presentation" class=3D"appl_footer_outer appl_10=
+0" align=3D"center" style=3D"margin: 0 auto;font-family:system, -apple-syst=
+em, BlinkMacSystemFont, -webkit-system-font,'Helvetica Neue', Helvetica, Ar=
+ial, sans-serif" width=3D"740">
+                <tr>
+                    <td style=3D"padding:10px;font-size:11px;text-align:cen=
+ter;background-color:#F2F2F2">
+                            <table cellspacing=3D'0' cellpadding=3D'0' bord=
+er=3D'0' style=3D"margin:0 auto; text-align: center; padding-bottom: 15px;l=
+ine-height: 1.7;" class=3D"appl_social_footer" align=3D"center">
+        <tr>
+                            <td style=3D"padding-left:12px;">
+                    <a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4=
+DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Da=
+c8W3x7D3v" style=3D"text-decoration: none;"><img width=3D22 height=3D"22" a=
+lt=3D"Facebook" border=3D"0" style=3D"display:block; margin:0;" title=3D"Fa=
+cebook" src=3D"https://static-its-images.apple.com/images/icons/facebook.pn=
+g"></a>
+                </td>
+                                        <td style=3D"padding-left:12px;">
+                                            <a href=3D"https://c.apple.com/=
+r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2=
+FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfi=
+kAI5L%2B8Dj3Kqfua&ct=3Dac8W3d1N7h" style=3D"text-decoration: none;"><img wi=
+dth=3D22 height=3D"22" alt=3D"Twitter" border=3D"0" style=3D"display:block;=
+ margin:0;" title=3D"Twitter" src=3D"https://static-its-images.apple.com/im=
+ages/icons/twitter.png"></a>
+                                    </td>
+                                                                    </tr>
+    </table>
+    <table class=3D"appl_legal_links" cellspacing=3D'0' cellpadding=3D'0' b=
+order=3D'0' align=3D"center">
+        <tr>
+            <td class=3D"appl-legal" style=3D"font-size: 11px;line-height: =
+1.2;text-align: center;color: #888888">
+                <p style=3D"margin: 20px auto; width: 90%;">Some content re=
+quires specific hardware or software. Internet access required; data fees m=
+ay apply. Content prices and availability are subject to change.</p>
+                <p style=3D"margin: 20px auto; width: 90%;">All rights rese=
+rved. Copyright &copy; 2021 Apple Inc. One Apple Park Way, Cupertino, CA 95=
+014</p>
+            </td>
+        </tr>
+        <tr>
+            <td class=3D"appl-footer" align=3D"center" style=3D"font-size: =
+11px;color: #666666;text-decoration: none;margin-right: 5px;padding-right: =
+10px;">
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 1px solid #666666;text-decoration: no=
+ne;margin-right: 5px;padding-right: 10px;" href=3D"http://www.apple.com/pri=
+vacy/privacy-policy/">Privacy Policy</a>
+                <!--[if gte mso 9]><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><!=
+[endif]-->
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 1px solid #666666;text-decoration: no=
+ne;margin-right: 5px;padding-right: 10px;" href=3D"http://www.apple.com/leg=
+al/internet-services/itunes/us/terms.html">Terms & Conditions</a>
+                <!--[if gte mso 9]><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><!=
+[endif]-->
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 1px solid #666666;text-decoration: no=
+ne;margin-right: 5px;padding-right: 10px;" href=3D"https://support.apple.co=
+m/apps">Support</a>
+                <!--[if gte mso 9]><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><!=
+[endif]-->
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 1px solid #666666;text-decoration: no=
+ne;margin-right: 5px;padding-right: 10px;" href=3D"https://buy.itunes.apple=
+.com/WebObjects/MZFinance.woa/wa/accountSummary?enlh=3D1.500069.500068.5000=
+67.500057.1.&mt=3D8&ls=3D1">Account</a>
+                <!--[if gte mso 9]><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><!=
+[endif]-->
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 1px solid #666666;text-decoration: no=
+ne;margin-right: 5px;padding-right: 10px;" href=3D"https://appleid.apple.co=
+m/#!&page=3Dsignin">Subscribe</a>
+                <!--[if gte mso 9]><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><!=
+[endif]-->
+                <a class=3D"appl-link" style=3D"white-space: nowrap;font-si=
+ze: 11px;color: #666666;border-right: 0;text-decoration: none;margin-right:=
+ 0;padding-right:0;" href=3D"https://c.apple.com/r?v=3D2&a=3D7zQgvWx2t15k4C=
+gz1F%2BCZ1CNRaBLGSY7%2BAfTYpL29wBOGRj5FpPYkwBul1KqEW30Mf%2BKAkPuGQAezZ9ZShI=
+3iUH8YMc%2FGgRCmsITG88TjNNKXPkLSBq7ximXOvJNHxSR8M%2B83spFHLHva9pMYpF7mFymsQ=
+qxq38nWttEHreZultyfX%2F98XqApMrkC8TEqvadYl1c69K%2FMVwUTvxVv%2BLSt9iUnb8nari=
+w0feG58MnwEvjSjgvBSY98AnZ7ztcoHZqe8Ax01iTsjxD3HHbJ7TK07qsyLWBezH6s8Oh6aR%2B=
+w80x1rxVY35tvyMBs%2BfTjneQaFdclYPmYhEVgc0XsmdUy3%2BC%2F06hEh59t3Q7rEjEM11kY=
+BaupreAtzXRmWjJn23vBdml0PZDYmAt%2FF4ntyK8o0Xh3R9JvUOI%2FSAbzINBWt0%3D">Unsu=
+bscribe</a>
+            </td>
+        </tr>
+    </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+        <!-- Close template HTML -->
+        </body>
+    </html>
+------=_Part_3701442_926038833.1630017808515--

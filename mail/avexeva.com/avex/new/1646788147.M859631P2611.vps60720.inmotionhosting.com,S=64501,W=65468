@@ -1,0 +1,967 @@
+Return-Path: <n_i_bounces@insideapple.apple.com>
+Delivered-To: avex@avexeva.com
+Received: from vps60720.inmotionhosting.com
+	by vps60720.inmotionhosting.com with LMTP
+	id /R6bMjP+J2IzCgAABSAGJw
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	for <avex@avexeva.com>; Tue, 08 Mar 2022 20:09:07 -0500
+Return-path: <n_i_bounces@insideapple.apple.com>
+Envelope-to: avex@avexeva.com
+Delivery-date: Tue, 08 Mar 2022 20:09:07 -0500
+Received: from rn2-msbadger03107.apple.com ([17.179.250.69]:41359)
+	by vps60720.inmotionhosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <n_i_bounces@insideapple.apple.com>)
+	id 1nRkp8-0000fU-8h
+	for avex@avexeva.com; Tue, 08 Mar 2022 20:09:07 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=insideapple.apple.com; s=insideapple0517; t=1646788105;
+	bh=65eHHJLPgbH1ATu58CEwvvJ6j8IgFjzQrWP6tCSr4iE=;
+	h=Date:From:To:Message-ID:Subject:Content-Type;
+	b=Y/TkMN3DRKWiStVBFf2bOkhMLecxZqp0yTKddbAFX/9S1Nl54PtE1oIlcypmLdZ7t
+	 gZSz0cnRZFSxQXngx25C7ldQmy9Yb4ICetOFYOWpEIfFdO7JrGKPykQWsQgyOh5HJf
+	 xBSpufY15s/qqC3tO/TB98FCWzmlop7ztreqDd6Ks3tFU40GZPiL4sOG4qBhiqU/to
+	 ZJGz6H9ZmBYt/UKKGk6/DLW4rXMm47EEiFPDubO0gN96mORn8wOMBPETMCXd4BRuVB
+	 MP2CKugp19d0Nh6i7zuzcQP2+js2VUIgLKbE0MPBYV8nxpCztyXyTupbVa6IC7bWh2
+	 LStPb88EtOA1A==
+Date: Wed, 9 Mar 2022 01:08:25 +0000 (GMT)
+From: Apple <News@InsideApple.Apple.com>
+To: avex@avexeva.com
+Message-ID: <291217933.605381010.1646788105410@Insideapple.apple.com>
+Subject: =?UTF-8?Q?Here=E2=80=99s_a_recap_of_everything_w?=
+ =?UTF-8?Q?e_announced_at_the_Apple_Event.?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_605381004_1085792895.1646788105410"
+X-Attach-Flag: N
+X-Sent-To: avex@avexeva.com,2,Zfzcfm%2F%2B1x1wPWs6SzxcpRzpsdtz41WwZjXkHk4fGBjf8hy09%2FmyezRzl4LuRHvtOHTVt1eQatndVtN8OgfumH9vENMUi1p4KisymDkJQeuLXPmmeEL%2B%2F004LmdE1nzy%2F6htJS7kpyilcna2MgZwUeSRd%2FAI9Iz3ki15SlhZ9rMALg85MeWWSMeMGnDQ9852
+X-TXN_ID: f0739a5a-ca98-418d-a219-d14fd6e86999
+X-DKIM_SIGN_REQUIRED: YES
+x-evs: BYPASS
+X-EmailType-Id: 2339771
+X-Business-Group: cbx_wlm
+X-Broadcast-Id: 2339771
+List-Unsubscribe: <https://mynews.apple.com/subscriptions?v=2&la=en_us&a=Zfzcfm%2F%2B1x1wPWs6SzxcpRzpsdtz41WwZjXkHk4fGBjf8hy09%2FmyezRzl4LuRHvtOHTVt1eQatndVtN8OgfumH9vENMUi1p4KisymDkJQeuLXPmmeEL%2B%2F004LmdE1nzy%2F6htJS7kpyilcna2MgZwUeSRd%2FAI9Iz3ki15SlhZ9rMALg85MeWWSMeMGnDQ9852>
+X-mp: d
+X-Spam-Status: No, score=-15.1
+X-Spam-Score: -150
+X-Spam-Bar: ---------------
+X-Ham-Report: Spam detection software, running on the system "vps60720.inmotionhosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Peek performance. Introducing the all-new Mac Studio and
+   Studio Display, new iPad Air, new iPhone SE, and iPhone 13 and iPhone 13 Pro
+    in two new shades of green. Watch the event https://c.apple.com/r?v=2&la=en&lc=usa&a=z2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW
+    [...] 
+ Content analysis details:   (-15.1 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+ -7.5 USER_IN_DEF_DKIM_WL    From: address is in the default DKIM
+                             welcome-list
+ -7.5 USER_IN_DEF_SPF_WL     From: address is in the default SPF
+                             white-list
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 HTML_IMAGE_RATIO_02    BODY: HTML has a low ratio of text to image
+                             area
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from
+                             author's domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily
+                             valid
+ -0.0 T_SCC_BODY_TEXT_LINE   No description available.
+X-Spam-Flag: NO
+
+------=_Part_605381004_1085792895.1646788105410
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+Peek performance.=20
+
+Introducing the all-new Mac=C2=A0Studio and Studio=C2=A0Display, new iPad=
+=C2=A0Air, new iPhone=C2=A0SE, and iPhone=C2=A013 and iPhone=C2=A013=C2=A0P=
+ro in two new=C2=A0shades of=C2=A0green.
+
+Watch the event
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y4x3w5p
+
+-------------------
+
+Available 3.18
+
+Mac Studio
+
+Outrageous performance with the M1=C2=A0Max or all-new M1=C2=A0Ultra chip. =
+Stunningly compact design. Extensive=C2=A0connectivity.
+
+Order now
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y3a5E5P
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y1V4i5v
+
+Available 3.18
+
+Studio Display
+
+Immersive 27-inch 5K Retina display. 12MP=C2=A0Ultra=C2=A0Wide camera with =
+Center=C2=A0Stage. Six speakers and Spatial=C2=A0Audio.
+
+Order now
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6U0B8X1p
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6U4G3y1T
+
+-------------------
+
+Order 3.11 Available 3.18
+
+iPad Air
+
+Supercharged by the Apple=C2=A0M1 chip. 12MP=C2=A0Ultra Wide front camera w=
+ith Center Stage. Blazing-fast 5G. Five gorgeous=C2=A0colors.
+
+View pricing
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y6B3C5M
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y9V2v8k
+
+-------------------
+
+Pre-order 3.11 Available 3.18
+
+iPhone SE
+
+Superpowerful A15=C2=A0Bionic chip. Superstar camera. Big=E2=80=91time batt=
+ery life. All at an incredible=C2=A0price.
+
+View pricing
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y5u8b1M
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y0a2J5M
+
+-------------------
+
+Pre-order in Alpine Green on=C2=A03.11 Available 3.18
+
+iPhone 13 Pro
+
+Amazing Pro camera system. OLED display with ProMotion. The world=E2=80=99s=
+ fastest smartphone chip. Now in Alpine Green.
+
+Shop
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6U0b2r8v
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y9a2W7p
+
+-------------------
+
+Pre-order in Green on=C2=A03.11 Available 3.18
+
+iPhone 13
+
+Our most advanced dual-camera system. Lightning-fast A15=C2=A0Bionic chip. =
+A huge leap in battery life. Now in=C2=A0Green.
+
+Shop
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6U4B0t5P
+
+Learn more
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6U6V2N1k
+
+-------------------
+
+Shop Online
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y2a9k5h
+
+Find a Store
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIfZvFXlhJ28uY2%2BA1C6g=
+SKp24WZaiQqgOToWTLt0Dq1Icwm8yYYHOlfLvSuIdLQ86WHxDJQSXasU0drgLYwM1QM%3D&ct=
+=3Dak6y9a0X3p
+
+1-800-MY-APPLE
+
+Get=C2=A0the=C2=A0Apple=C2=A0Store=C2=A0App
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dak6y7b8m1C
+
+-------------------
+
+TM and =C2=A9 2022 Apple Inc. One Apple Park Way, MS 96-DM, Cupertino, CA 9=
+5014.
+
+-------------------
+
+All=C2=A0Rights=C2=A0Reserved
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dak6y9x0n5h
+
+Privacy=C2=A0Policy
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dak6U2L1G1v
+
+My=C2=A0Apple=C2=A0ID
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6Ww=
+Pue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM46c%2B%2BTNubtkAWVJemO%2FabXkfAq=
+6lcPD00fYoYkATJI9V%2BFMJgRryuZLam4bR67AsW&ct=3Dak6y2d3k6k
+
+-------------------
+
+If you prefer not to receive commercial email from Apple, or if you=E2=80=
+=99ve changed your email address, please click=C2=A0here.
+https://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DZfzcfm%2F%2B1x1=
+wPWs6SzxcpTIGGhdiK8Vm1L6lcxsRMx4T4AOja0167wkuzbWxkuzTCN3i3SZhvvg%2FeAIl1HkE=
+koEYxfsQrt8bbCu3tyK5tae1dFNpubsgOQ9WGLbvLCwm38NaSpQSt9PQSZ3%2BVsuR3L62jxFVN=
+nU67Y7L7PellJWybf2eu%2BTPIyjfWgiOHIBX
+
+-------------------
+------=_Part_605381004_1085792895.1646788105410
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: QUOTED-PRINTABLE
+Content-Disposition: inline
+
+<!DOCTYPE html><html><head><title></title><meta content=3D"width=3Ddevice-w=
+idth,initial-scale=3D1" name=3Dviewport><meta content=3D"text/html;charset=
+=3Dutf-8" http-equiv=3Dcontent-type><meta content=3D"date=3Dno" name=3Dform=
+at-detection><meta content=3D"address=3Dno" name=3Dformat-detection><meta c=
+ontent=3D"email=3Dno" name=3Dformat-detection><style type=3Dtext/css>@media=
+ only screen and (max-device-width:2732px){.m30 a,.m31 a[href^=3D"tel:"]{co=
+lor:inherit!important}.m30 a{text-decoration:none!important}}</style><style=
+ type=3Dtext/css>@media only screen and (max-device-width:568px){.m0{displa=
+y:none!important}.m1{display:block!important;width:100%!important;height:in=
+herit!important;overflow:visible!important}.m30 a,.m66 .m67 p .m30 a,.m66 .=
+m67 p a[href^=3D"tel:"],.m66 .m67.m68 p a,.m31 a[href^=3D"tel:"]{color:inhe=
+rit!important}.m27,.m69{padding:0!important}.m69 table.m31{width:100%!impor=
+tant;max-width:414px!important;padding-top:0!important}.m70{padding:0 6.25%=
+!important}.m69 table.m71{width:100%!important;max-width:362px!important;pa=
+dding-top:0!important}.m27 p{font-size:12px!important;line-height:39px!impo=
+rtant;padding:0!important}.m27 span.m39{font-size:0;line-height:0;display:b=
+lock}.m72,.m72 p{line-height:20px!important}.m30 a{text-decoration:none!imp=
+ortant}.m66 .m31,.m66 .m71,.m66.m73{background-color:#1d1d1f!important}.m66=
+ .m67,.m66 .m67 p,.m66 .m72{text-align:left!important}.m66 .m27{border-top:=
+none!important}.m66 .m27 span.m39{border-top:1px solid #424245}.m66 .m27.m7=
+4{border-bottom:0!important}.m66 .m67,.m66 .m67 p{color:#86868b!important}.=
+m66 .m67 p a,.m66 .m72 p,.m66 .m72 p a,.m66 .m27 p .m10,.m66 .m27 p span.m1=
+0{color:#d2d2d7!important}.m66 .m72 .m39{color:#424245!important}}</style><=
+style type=3Dtext/css>.m0,.m1,td{font-size:17px;font-weight:400;line-height=
+:25px;font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','He=
+lvetica Neue',Helvetica,Arial,sans-serif,'SF Pro Icons'}.m1,.m1 div{box-siz=
+ing:border-box}.m2,.m2 h1,.m2 h1 a,.m2 h1 a:hover,.m2 h1 a:visited,.m2 h2,.=
+m2 h2 a,.m2 h2 a:hover,.m2 h2 a:visited,.m2 h3,.m2 h3 a,.m2 h3 a:hover,.m2 =
+h3 a:visited,.m2 h4,.m2 h4 a,.m2 h4 a:hover,.m2 h4 a:visited{color:#1d1d1f}=
+.m3{white-space:nowrap}.m1 .m4,img{max-width:100%}.m0,.m1,.m5,a,p,td{font-f=
+amily:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI','Helvetica Neue=
+',Helvetica,Arial,sans-serif,'SF Pro Icons'}.m6 .m7 .m8,.m9 .m7 .m8{overflo=
+w:hidden;background-position:center top;background-repeat:no-repeat;max-wid=
+th:414px}*{-webkit-font-smoothing:antialiased;text-rendering:optimizelegibi=
+lity}.m0,.m1{width:100%!important}table{border-spacing:0}b{font-weight:600}=
+.m1{display:none;margin:0 auto;max-width:100%;width:100%}.m1 .m10 img,img{d=
+isplay:block}.m1 .m4 .m11{max-width:414px;margin:0 auto}.m1 .m12{font-size:=
+0;line-height:0;margin:0 auto}.m1 .m13,.m1 .m14{font-size:17px;line-height:=
+25px}.m1 .m15{font-size:0;line-height:0}.m16 img,.m10 img,.m17,.m1 .m15 .m1=
+3{display:inline-block}.m18,.m4,div.m15.m19{margin:0 auto}.m19{text-align:c=
+enter}.m19 img,img.m19{margin-left:auto;margin-right:auto}.m20{text-align:l=
+eft}.m20 img,div.m15.m20{margin-left:0;margin-right:auto}.m21{text-align:ri=
+ght}.m21 img,div.m15.m21{margin-left:auto;margin-right:0}.m22 a,.m23 a{bord=
+er:0;outline:0}.m23 .m12{font-size:12px;line-height:16px}.m2{border-color:#=
+fff;background-color:#fff}.m2 a,.m2 a:hover,.m2 a:visited{color:#06c}.m24,.=
+m24 h1,.m24 h1 a,.m24 h1 a:hover,.m24 h1 a:visited,.m24 h2,.m24 h2 a,.m24 h=
+2 a:hover,.m24 h2 a:visited,.m24 h3,.m24 h3 a,.m24 h3 a:hover,.m24 h3 a:vis=
+ited,.m24 h4,.m24 h4 a,.m24 h4 a:hover,.m24 h4 a:visited{color:#f5f5f7}.m2.=
+m22,.m2.m23{color:#86868b;background-color:#f5f5f7}.m2.m22 .m16,.m2.m22 a,.=
+m2.m22 a.m16,.m2.m23 .m16,.m2.m23 a,.m2.m23 a.m16{color:#515154}.m24{border=
+-color:#000;background-color:#000}.m24 a,.m24 a:hover,.m24 a:visited{color:=
+#2997ff}.m24.m22,.m24.m23{color:#6e6e73;background-color:#1d1d1f}.m24.m22 .=
+m16,.m24.m22 a,.m24.m22 a.m16,.m24.m23 .m16,.m24.m23 a,.m24.m23 a.m16{color=
+:#a1a1a6}.m25 .m2{color:#6e6e73;background-color:#f5f5f7}.m26 .m27 a,.m25 .=
+m2 .m16,.m25 .m2 a,.m25 .m2 a.m16,.m25 .m2 a:hover,.m25 .m2 a:visited{color=
+:#424245}.m25 .m24{color:#86868b;background-color:#1d1d1f}.m28 .m27 a,.m25 =
+.m24 .m16,.m25 .m24 a,.m25 .m24 a.m16,.m25 .m24 a:hover,.m25 .m24 a:visited=
+{color:#d2d2d7}.m2 .m29,.m2 .m29 td,.m2 .m29>div,.m2 td.m29{border-color:#d=
+2d2d7;color:#d2d2d7}.m24 .m29,.m24 .m29 td,.m24 .m29>div,.m24 td.m29{border=
+-color:#424245;color:#424245}.m16,.m5 a,a,a:link{text-decoration:none}.m5 a=
+[x-apple-data-detectors],a[x-apple-data-detectors],p a[x-apple-data-detecto=
+rs]{text-decoration:none!important}.m32,.m33,.m34,.m35,.m36,.m37{color:#868=
+68b}.m5 a,a,p a{cursor:pointer;text-decoration:none}.m1 .m14 p+*{margin-top=
+:9px!important}img.m21{margin-right:0;margin-left:auto}img.m20{margin-right=
+:auto;margin-left:0}.m38,.m16+.m39,a img{display:inline-block}a img{border:=
+0;outline:0}.m40{vertical-align:top}.m41{vertical-align:bottom}.m5,p{font-s=
+ize:17px;font-weight:400;line-height:25px;margin:0}.m5 a:focus,.m5 a:hover,=
+a.m16:hover,a:focus,a:hover,a[x-apple-data-detectors]:hover,p a:focus,p a:h=
+over{text-decoration:underline!important}.m5 a.m42,a.m42,p a.m42{border:0;t=
+ext-decoration:none!important;outline:0}.m16.m29>div{border-top-style:solid=
+;border-top-width:1px}.m43 img,.m9 .m7 .m8,.m9 img{border-top-left-radius:1=
+5px;border-top-right-radius:15px}.m44{line-height:inherit}a>span{letter-spa=
+cing:inherit}.m16+.m39{font-size:12px;padding:0 4px}.m16.m29>div{height:0;l=
+ine-height:0}.m23 .m16{display:inline}.m45,.m45>p{font-size:32px;line-heigh=
+t:36px}.m38{vertical-align:bottom}.m6 .m7 .m8{width:100%;margin:0;backgroun=
+d-image:url(https://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED=
+2DF5/i/m_hero_2x.jpg)!important;background-size:375px 340px;height:340px}.m=
+45{font-weight:600;padding:24px 6.25%}.m45 a{font-size:32px}.m45>p{font-wei=
+ght:600}.m46>p,.m47>p,.m48>p,.m49,.m49>p,.m50>p,.m51>p,.m52>p{font-size:19p=
+x;line-height:23px;font-weight:600}.m49{padding-right:13px;padding-left:13p=
+x;max-width:330px}.m46 a,.m47 a,.m48 a,.m49 a,.m50 a,.m51 a,.m52 a{font-siz=
+e:19px}.m53{padding-top:24px;padding-bottom:68px;font-size:17px;font-weight=
+:400;line-height:25px}.m32>p,.m33,.m33>p,.m34>p,.m35>p,.m36>p,.m37>p{font-s=
+ize:14px;line-height:17px;font-weight:400}.m54 img,.m55 img,.m56 img,.m57 i=
+mg,.m58 img,.m59 img,.m53 img{width:12px;height:10px}.m60,.m61{padding-top:=
+43px}.m60 img,.m62 img,.m61 img{border-radius:15px}.m33{padding-top:45px;pa=
+dding-bottom:5px}.m32 a,.m33 a,.m34 a,.m35 a,.m36 a,.m37 a{color:#86868b;fo=
+nt-size:14px}.m63,.m63>p,.m64,.m64>p{font-size:36px;line-height:41px;font-w=
+eight:600}.m63 a,.m64 a{font-size:36px}.m50{font-size:19px;font-weight:600;=
+line-height:23px;width:320px;padding:10px 15px 25px}.z1,.z1,.z1,.z1,.z1,.z1=
+,.z1,.z1,.z1,.z1,.z1,.z1{width:100%}.z2,.z2,.z2,.z2,.z2,.z2{width:0%}.m57{p=
+adding-top:16px;padding-bottom:50px;font-size:17px;font-weight:400;line-hei=
+ght:25px}.m32{padding-bottom:5px;font-size:14px;font-weight:400;line-height=
+:17px}.m46{font-size:19px;font-weight:600;line-height:23px;width:320px;padd=
+ing:10px 12px 25px}.m54,.m55{padding-top:16px;padding-bottom:53px;font-size=
+:17px;font-weight:400;line-height:25px}.m37{padding-top:40px;padding-bottom=
+:2px;font-size:14px;font-weight:400;line-height:17px}.m51{font-size:19px;fo=
+nt-weight:600;line-height:23px;width:320px;padding:7px 13px 24px}.m62{paddi=
+ng-top:65px}.m35{padding-top:41px;padding-bottom:2px;font-size:14px;font-we=
+ight:400;line-height:17px}.m48,.m52{font-size:19px;font-weight:600;line-hei=
+ght:23px;width:320px;padding:7px 15px 25px}.m56{padding-top:16px;padding-bo=
+ttom:54px;font-size:17px;font-weight:400;line-height:25px}.m36{font-size:14=
+px;font-weight:400;line-height:17px;padding:56px 10px 2px}.m58{padding-top:=
+16px;padding-bottom:10px;font-size:17px;font-weight:400;line-height:25px}.m=
+65{background-color:#f5f5f5!important}.m34{font-size:14px;font-weight:400;l=
+ine-height:17px;padding:57px 10px 2px}.m47{font-size:19px;font-weight:600;l=
+ine-height:23px;width:320px;padding:7px 13px 25px}.m59{padding-top:16px;pad=
+ding-bottom:13px;font-size:17px;font-weight:400;line-height:25px}.m9 .m7 .m=
+8{width:100%;margin:0;background-image:url(https://www.apple.com/dm/us/22/F=
+931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/m_iphone13_2x.jpg)!important;backgrou=
+nd-size:414px 280px;height:280px}.m75.m75.m75{display:inline;margin:0}</sty=
+le><!--[if gte mso 9]><style type=3D"text/css">table,td,tr,a,span,b,sup{lin=
+e-height:normal !important; mso-line-height-rule: exactly;}sup{font-size:10=
+0% !important;}h1,h2,h3,h4,h5,h6 {line-height: inherit !important; font-fam=
+ily:'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weig=
+ht: 400 !important; mso-line-height-rule: exactly; mso-text-raise: 2px;}h1 =
+sup,h2 sup,h3 sup,h4 sup,h5 sup,h6 sup, .m44 sup, .outBold sup{font-size:90=
+% !important;}b,strong {line-height: inherit !important; font-family:'Segoe=
+ UI SemiBold','Segoe UI', Arial, sans-serif !important; font-weight: 400 !i=
+mportant; mso-line-height-rule: exactly; }.outBold { font-family: 'Segoe UI=
+', Arial, sans-serif !important; font-weight: 600 !important; }.m44 { font-=
+family: 'Segoe UI SemiBold','Segoe UI', Arial, sans-serif !important; font-=
+weight: 400 !important;line-height: inherit !important;mso-text-raise: 2px;=
+ }.outBold {overflow:visible;line-height: inherit !important;mso-line-heigh=
+t-rule: exactly;mso-text-raise: 2px; }.fallback { display: block !important=
+}.animated { display: none !important}li {margin-bottom: 9px;}ol {margin-le=
+ft: 0 !important; }</style><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:P=
+ixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]=
+--><!--[if gte mso 15]><style type=3D"text/css">   h1,h2,h3,h4,h5,h6 {mso-t=
+ext-raise: 2px;}</style><![endif]--><!--[if mso 15]><style type=3D"text/css=
+">   h1 {mso-text-raise: 4px;}</style><![endif]--></head><body style=3Dmarg=
+in:0;padding:0><div class=3Dm1 style=3Ddisplay:none;width:0;height:0;overfl=
+ow:hidden><div class=3D"m4 m24"><div class=3Dm11><div class=3Dm6 style=3Dte=
+xt-align:center><div class=3Dm7><div class=3D"m19 m8"><!----></div></div></=
+div><div class=3D"m19 m14 m45"><p class=3Dm5 style=3Dfont-size:32px;font-we=
+ight:600;line-height:36px>Peek performance. </p></div><div class=3D"m19 m18=
+ m14 m49"><p class=3Dm5 style=3Dfont-size:19px;font-weight:600;line-height:=
+23px>Introducing the all-new Mac=C2=A0Studio and Studio=C2=A0Display, new i=
+Pad=C2=A0Air, new iPhone=C2=A0SE, and iPhone=C2=A013 and iPhone=C2=A013=C2=
+=A0Pro in two new=C2=A0shades of=C2=A0green.</p></div><div class=3D"m19 m18=
+ m53" style=3Dpadding-top:24px;padding-bottom:68px;text-align:center;font-s=
+ize:17px;font-weight:400;line-height:25px><!----><a href=3D"https://c.apple=
+.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjH=
+A7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2=
+F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%=
+2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y3x9r0M=
+" style=3Dfont-size:17px;font-weight:400;line-height:25px class=3Dm16>Watch=
+ the <span class=3Dm3>event<img alt=3D" " height=3D10 src=3Dhttps://www.app=
+le.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/17_chevron_2997ff_2x=
+.png width=3D12 class=3Dm75></span></a><!----><!----></div></div></div><div=
+ class=3D"m4 m2"><div class=3Dm11><div class=3Dm12><div class=3D"m13 m19"><=
+div class=3Dm60><div class=3Dm19><img alt=3D" " height=3D240 src=3Dhttps://=
+www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/m_studio_2x.j=
+pg width=3D300 class=3Dm40></div></div><div class=3D"m14 m33"><p class=3Dm5=
+>Available 3.18</p></div><div class=3D"m14 m64"><p class=3Dm5>Mac Studio</p=
+></div><div class=3D"m14 m18 m50"><p class=3Dm5>Outrageous performance with=
+ the M1=C2=A0Max or all-new M1=C2=A0Ultra chip. Stunningly compact design. =
+Extensive=C2=A0connectivity.</p></div><div class=3Dm15><div class=3D"m13 z1=
+ m21"><div class=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3D=
+usa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKb=
+ktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17O=
+W14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63W=
+JGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y4l6J1P"><img alt=3D"Order now" h=
+eight=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859=
+EA6ED2DF5/i/btn_order_small_2x.png width=3D125 class=3Dm38></a></div></div>=
+<div class=3D"m13 z2"></div><div class=3D"m13 z1 m20"><div class=3D"m19 m18=
+ m57"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1=
+Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT=
+7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdM=
+PZcz0WSaBrT24%3D&ct=3Dak6y7i5P8v" class=3Dm16>Learn <span class=3Dm3>more<i=
+mg alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A=
+-4458-8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 class=3Dm75><=
+/span></a></div></div></div><div class=3D"m14 m32"><p class=3Dm5>Available =
+3.18</p></div><div class=3D"m14 m63"><p class=3Dm5>Studio Display</p></div>=
+<div class=3D"m14 m18 m46"><p class=3Dm5>Immersive 27-inch 5K Retina displa=
+y. 12MP=C2=A0Ultra=C2=A0Wide camera=C2=A0with Center=C2=A0Stage. Six=C2=A0s=
+peakers and Spatial=C2=A0Audio.</p></div><div class=3Dm15><div class=3D"m13=
+ z1 m21"><div class=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=
+=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9=
+nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy=
+17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j=
+63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y9w0C4C"><img alt=3D"Order now=
+" height=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-=
+859EA6ED2DF5/i/btn_order_small_2x.png width=3D125 class=3Dm38></a></div></d=
+iv><div class=3D"m13 z2"></div><div class=3D"m13 z1 m20"><div class=3D"m19 =
+m18 m55"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bn=
+b8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29=
+VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIc=
+XbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jt=
+cdMPZcz0WSaBrT24%3D&ct=3Dak6U4n7l7N" class=3Dm16>Learn <span class=3Dm3>mor=
+e<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9=
+C5A-4458-8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 class=3Dm7=
+5></span></a></div></div></div></div></div></div></div><div class=3D"m4 m24=
+"><div class=3Dm11><div class=3Dm12><div class=3D"m13 m19"><div class=3Dm61=
+><div class=3Dm19><img alt=3D" " height=3D305 src=3Dhttps://www.apple.com/d=
+m/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/m_ipad_air_2x.jpg width=3D30=
+0 class=3Dm40></div></div><div class=3D"m14 m37"><p class=3Dm5>Order 3.11<b=
+r> Available=C2=A03.18</p></div><div><div class=3Dm19><img alt=3D"iPad Air"=
+ height=3D47 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-8=
+59EA6ED2DF5/i/ipadair_logo_2x.png width=3D154 class=3Dm40></div></div><div =
+class=3D"m14 m18 m51"><p class=3Dm5>Supercharged by the Apple=C2=A0M1=C2=A0=
+chip. 12MP=C2=A0Ultra=C2=A0Wide front camera with Center Stage. Blazing-fas=
+t 5G. Five gorgeous=C2=A0colors.</p></div><div class=3Dm15><div class=3D"m1=
+3 z1 m21"><div class=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&l=
+c=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V=
+9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKy=
+y17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8=
+j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y7B7d7P"><img alt=3D"View pri=
+cing" height=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8=
+B79-859EA6ED2DF5/i/btn_price_dark_small_2x.png width=3D138 class=3Dm38></a>=
+</div></div><div class=3D"m13 z2"></div><div class=3D"m13 z1 m20"><div clas=
+s=3D"m19 m18 m54"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=
+=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQaz=
+RlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14Uk=
+OtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1X=
+ObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y4I2L5h" class=3Dm16>Learn <span class=
+=3Dm3>more<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F=
+931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/17_chevron_2997ff_2x.png width=3D12 c=
+lass=3Dm75></span></a></div></div></div></div></div></div></div><div class=
+=3D"m4 m2"><div class=3Dm11><div class=3Dm12><div class=3D"m13 m19"><div cl=
+ass=3Dm62><div class=3Dm19><img alt=3D" " height=3D140 src=3Dhttps://www.ap=
+ple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/m_iphonese_2x.jpg w=
+idth=3D300 class=3Dm40></div></div><div class=3D"m14 m35"><p class=3Dm5>Pre=
+-order 3.11<br> Available=C2=A03.18</p></div><div><div class=3Dm19><img alt=
+=3D"iPhone SE" height=3D48 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C=
+5A-4458-8B79-859EA6ED2DF5/i/iphonese_logo_2x.png width=3D175 class=3Dm40></=
+div></div><div class=3D"m14 m18 m48"><p class=3Dm5>Superpowerful A15 Bionic=
+ chip.=C2=A0Superstar camera. Big=E2=80=91time battery life. All at an=C2=
+=A0incredible=C2=A0price.</p></div><div class=3Dm15><div class=3D"m13 z1 m2=
+1"><div class=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa=
+&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQ=
+azRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14=
+UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg=
+1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y5q1y2v"><img alt=3D"View pricing" h=
+eight=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859=
+EA6ED2DF5/i/btn_price_small_2x.png width=3D138 class=3Dm38></a></div></div>=
+<div class=3D"m13 z2"></div><div class=3D"m13 z1 m20"><div class=3D"m19 m18=
+ m56"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8H=
+WCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1=
+Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT=
+7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdM=
+PZcz0WSaBrT24%3D&ct=3Dak6U2c8a0Y" class=3Dm16>Learn <span class=3Dm3>more<i=
+mg alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A=
+-4458-8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 class=3Dm75><=
+/span></a></div></div></div></div></div></div></div><div class=3D"m4 m2 m65=
+"><div class=3Dm11><div class=3Dm12><div class=3D"m13 m19"><div class=3D"m1=
+4 m36"><p class=3Dm5>Pre-order in Alpine Green=C2=A0on=C2=A03.11<br> Availa=
+ble=C2=A03.18</p></div><div><div class=3Dm19><img alt=3D"iPhone 13 Pro" hei=
+ght=3D48 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA=
+6ED2DF5/i/iphone13pro_logo_2x.png width=3D239 class=3Dm40></div></div><div =
+class=3D"m14 m18 m52"><p class=3Dm5>Amazing Pro camera system.<br> OLED dis=
+play with ProMotion.<br> The world=E2=80=99s fastest smartphone<br> chip. N=
+ow in Alpine Green.</p></div><div class=3Dm15><div class=3D"m13 z1 m21"><di=
+v class=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz=
+2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzl=
+FqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtdu=
+EFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBg=
+bP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y8I7R0C"><img alt=3DShop height=3D44 src=
+=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/bt=
+n_shop_small_2x.png width=3D84 class=3Dm38></a></div></div><div class=3D"m1=
+3 z2"></div><div class=3D"m13 z1 m20"><div class=3D"m19 m18 m58"><a href=3D=
+"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJ=
+qOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDH=
+US1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U=
+3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D=
+&ct=3Dak6U4c2A7k" class=3Dm16>Learn <span class=3Dm3>more<img alt=3D" " hei=
+ght=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA=
+6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 class=3Dm75></span></a></div>=
+</div></div><div class=3Dm43><div class=3Dm19><img alt=3D" " height=3D295 s=
+rc=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/=
+m_iphone13pro_2x.jpg width=3D300 class=3Dm40></div></div></div></div></div>=
+</div><div class=3D"m4 m2"><div class=3Dm11><div class=3Dm12><div class=3D"=
+m13 m19 m18"><div class=3D"m14 m34"><p class=3Dm5>Pre-order in Green=C2=A0o=
+n=C2=A03.11<br> Available=C2=A03.18</p></div><div><div><img alt=3D"iPhone 1=
+3" height=3D48 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79=
+-859EA6ED2DF5/i/iphone13_logo_2x.png width=3D176 class=3Dm40></div></div><d=
+iv class=3D"m14 m18 m47"><p class=3Dm5>Our most advanced dual-camera system=
+. Lightning-fast A15=C2=A0Bionic chip. A huge leap in battery life. Now in=
+=C2=A0Green.</p></div><div class=3Dm15><div class=3D"m13 z1 m21"><div class=
+=3Dm19><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8=
+HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE=
+1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXb=
+T7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcd=
+MPZcz0WSaBrT24%3D&ct=3Dak6U6a6i5T"><img alt=3DShop height=3D44 src=3Dhttps:=
+//www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/btn_shop_sm=
+all_2x.png width=3D84 class=3Dm38></a></div></div><div class=3D"m13 z2"></d=
+iv><div class=3D"m13 z1 m20"><div class=3D"m19 m18 m59"><a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xb=
+GoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjp=
+jKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B=
+%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6=
+U2I5r8v" class=3Dm16>Learn <span class=3Dm3>more<img alt=3D" " height=3D10 =
+src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i=
+/17_chevron_0066cc_2x.png width=3D12 class=3Dm75></span></a></div></div></d=
+iv><div class=3Dm9><div class=3Dm7><div class=3D"m19 m8"><!----></div></div=
+></div></div></div></div></div></div><table border=3D0 cellpadding=3D0 cell=
+spacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><td><div cl=
+ass=3Dm0><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentat=
+ion width=3D100% align=3Dcenter><tr><td style=3Dtext-align:center align=3Dc=
+enter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation=
+ width=3D100% align=3Dcenter><tr class=3Dm4><td class=3Dm24 style=3Dbackgro=
+und-color:#000 align=3Dcenter><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0 role=3Dpresentation width=3D736 align=3Dcenter style=3Dwidth:736px;tex=
+t-align:center><tr><td class=3Dm19 style=3Dtext-align:center;vertical-align=
+:top;font-size:0;margin:0;line-height:0 align=3Dcenter><picture><source med=
+ia=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D" " height=3D386=
+ src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/=
+i/hero_2x.jpg width=3D736 class=3Dm19 border=3D0 style=3Ddisplay:block></pi=
+cture></td></tr><tr><td class=3Dm14 style=3D"padding:21px 0 29px"><p class=
+=3Dm44 style=3Dfont-size:56px;font-weight:600;line-height:56px;color:#f5f5f=
+7>Peek performance. </p></td></tr><tr><td class=3Dm14 style=3Dpadding:0><p =
+class=3Dm44 style=3Dfont-size:24px;font-weight:600;line-height:26px;color:#=
+f5f5f7>Introducing the all-new Mac=C2=A0Studio and<br> Studio=C2=A0Display,=
+ new iPad=C2=A0Air, new iPhone=C2=A0SE,<br> and iPhone=C2=A013 and iPhone=
+=C2=A013=C2=A0Pro in two<br> new=C2=A0shades of=C2=A0green.</p></td></tr><t=
+r><td style=3Dpadding-top:26px;padding-bottom:83px;font-size:21px;line-heig=
+ht:34px><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb=
+8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29V=
+E1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcX=
+bT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtc=
+dMPZcz0WSaBrT24%3D&ct=3Dak6y6q0y8P" style=3Dfont-size:21px;font-weight:400;=
+line-height:34px;color:#2997ff class=3D"m5 m16">Watch the <span style=3Dwhi=
+te-space:nowrap>event<img alt=3D" " height=3D14 src=3Dhttps://www.apple.com=
+/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/21_chevron_2997ff_2x.png w=
+idth=3D12 border=3D0 style=3Dfont-size:0;display:inline-block;margin:0></sp=
+an></a></td></tr></table></td></tr><tr class=3Dm4><td class=3Dm2 style=3Dba=
+ckground-color:#fff align=3Dcenter><table border=3D0 cellpadding=3D0 cellsp=
+acing=3D0 role=3Dpresentation width=3D712 align=3Dcenter><tr class=3Dm12><t=
+d><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation wid=
+th=3D100% align=3Dcenter><tr><td class=3Dm13 style=3Dpadding-bottom:80px wi=
+dth=3D100%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresent=
+ation width=3D100% class=3Dm13 style=3Dtext-align:center><tr><td class=3Dm1=
+9 style=3Dpadding-top:54px;text-align:center;font-size:0;margin:0;line-heig=
+ht:0 align=3Dcenter><picture><source media=3D"(max-device-width: 568px)" sr=
+cset=3Ddata:><img alt=3D" " height=3D475 src=3Dhttps://www.apple.com/dm/us/=
+22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/studio_2x.jpg width=3D601 class=
+=3Dm19 border=3D0 style=3Ddisplay:block;border-top-left-radius:20px;border-=
+top-right-radius:20px;border-bottom-left-radius:20px;border-bottom-right-ra=
+dius:20px></picture></td></tr><tr><td class=3Dm14 style=3D"padding:31px 0 5=
+px"><p style=3Dcolor:#86868b;font-size:14px;font-weight:400;line-height:17p=
+x>Available 3.18</p></td></tr><tr><td class=3Dm14 style=3Dpadding:0><p clas=
+s=3Dm44 style=3Dfont-size:36px;font-weight:600;line-height:41px;color:#1d1d=
+1f>Mac Studio</p></td></tr><tr><td class=3Dm14 style=3D"padding:10px 0 26px=
+"><p class=3Dm44 style=3Dfont-size:17px;font-weight:600;line-height:21px;co=
+lor:#1d1d1f>Outrageous performance with the M1=C2=A0Max<br> or all-new M1=
+=C2=A0Ultra chip. Stunningly compact<br> design. Extensive=C2=A0connectivit=
+y.</p></td></tr><tr><td align=3Dcenter><table border=3D0 cellpadding=3D0 ce=
+llspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><td class=
+=3Dm13 width=3D50%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=
+=3Dpresentation width=3D100% class=3Dm13><tr><td class=3Dm21 style=3Dtext-a=
+lign:right;line-height:0 align=3Dright><a href=3D"https://c.apple.com/r?v=
+=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf=
+2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOL=
+IyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaO=
+GR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y8c3h6C" style=
+=3Dfont-size:0;color:#06c><picture><source media=3D"(max-device-width: 568p=
+x)" srcset=3Ddata:><img alt=3D"Order now" height=3D44 src=3Dhttps://www.app=
+le.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/btn_order_medium_2x.=
+png width=3D125></picture></a></td></tr></table></td><td class=3Dm13 width=
+=3D0%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation=
+ width=3D100% class=3Dm13></table></td><td class=3Dm13 width=3D50%><table b=
+order=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% =
+class=3Dm13><tr><td style=3Ddisplay:block;padding-left:15px;text-align:left=
+;font-size:17px;line-height:25px><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEq=
+VdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlK=
+mcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh=
+0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y1n1A7M" style=3Dfont-=
+size:17px;font-weight:400;line-height:25px;color:#06c class=3D"m5 m16">Lear=
+n <span style=3Dwhite-space:nowrap>more<img alt=3D" " height=3D10 src=3Dhtt=
+ps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/17_chevr=
+on_0066cc_2x.png width=3D12 border=3D0 style=3Dfont-size:0;display:inline-b=
+lock;margin:0></span></a></td></tr></table></td></tr></table></td></tr><tr>=
+<td class=3Dm14 style=3D"padding:56px 0 5px"><p style=3Dcolor:#86868b;font-=
+size:14px;font-weight:400;line-height:17px>Available 3.18</p></td></tr><tr>=
+<td class=3Dm14 style=3Dpadding:0><p class=3Dm44 style=3Dfont-size:36px;fon=
+t-weight:600;line-height:41px;color:#1d1d1f>Studio Display</p></td></tr><tr=
+><td class=3Dm14 style=3D"padding:10px 0 26px"><p class=3Dm44 style=3Dfont-=
+size:17px;font-weight:600;line-height:21px;color:#1d1d1f>Immersive 27-inch =
+5K Retina display.<br> 12MP=C2=A0Ultra=C2=A0Wide camera with Center=C2=A0St=
+age.<br> Six speakers and Spatial=C2=A0Audio.</p></td></tr><tr><td align=3D=
+center><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentatio=
+n width=3D100% align=3Dcenter><tr><td class=3Dm13 width=3D50%><table border=
+=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=
+=3Dm13><tr><td class=3Dm21 style=3Dtext-align:right;line-height:0 align=3Dr=
+ight><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HW=
+CoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Z=
+v3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7=
+C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMP=
+Zcz0WSaBrT24%3D&ct=3Dak6y2b9g2Y" style=3Dfont-size:0;color:#06c><picture><s=
+ource media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D"Order =
+now" height=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B=
+79-859EA6ED2DF5/i/btn_order_medium_2x.png width=3D125></picture></a></td></=
+tr></table></td><td class=3Dm13 width=3D0%><table border=3D0 cellpadding=3D=
+0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm13></table></td=
+><td class=3Dm13 width=3D50%><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0 role=3Dpresentation width=3D100% class=3Dm13><tr><td style=3Ddisplay:b=
+lock;padding-left:15px;text-align:left;font-size:17px;line-height:25px><a h=
+ref=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtb=
+RYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuT=
+TWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2F=
+qxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBr=
+T24%3D&ct=3Dak6U4b6t5M" style=3Dfont-size:17px;font-weight:400;line-height:=
+25px;color:#06c class=3D"m5 m16">Learn <span style=3Dwhite-space:nowrap>mor=
+e<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9=
+C5A-4458-8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 border=3D0=
+ style=3Dfont-size:0;display:inline-block;margin:0></span></a></td></tr></t=
+able></td></tr></table></td></tr></table></td></tr></table></td></tr></tabl=
+e></td></tr><tr class=3Dm4><td class=3Dm24 style=3Dbackground-color:#000 al=
+ign=3Dcenter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dprese=
+ntation width=3D712 align=3Dcenter><tr class=3Dm12><td><table border=3D0 ce=
+llpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% align=3Dcent=
+er><tr><td class=3Dm13 style=3Dpadding-bottom:80px width=3D100%><table bord=
+er=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% cla=
+ss=3Dm13 style=3Dtext-align:center><tr><td class=3Dm19 style=3Dpadding-top:=
+55px;text-align:center;font-size:0;margin:0;line-height:0 align=3Dcenter><p=
+icture><source media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=
+=3D" " height=3D550 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458=
+-8B79-859EA6ED2DF5/i/ipad_air_2x.jpg width=3D539 class=3Dm19 border=3D0 sty=
+le=3Ddisplay:block;border-top-left-radius:20px;border-top-right-radius:20px=
+;border-bottom-left-radius:20px;border-bottom-right-radius:20px></picture><=
+/td></tr><tr><td class=3Dm14 style=3D"padding:32px 0 2px"><p style=3Dcolor:=
+#86868b;font-size:14px;font-weight:400;line-height:17px>Order 3.11<br> Avai=
+lable 3.18</p></td></tr><tr><td class=3Dm19 style=3Dtext-align:center;font-=
+size:0;margin:0;line-height:0 align=3Dcenter><picture><source media=3D"(max=
+-device-width: 568px)" srcset=3Ddata:><img alt=3D"iPad Air" height=3D47 src=
+=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/ip=
+adair_logo_2x.png width=3D154 class=3Dm19 border=3D0 style=3Ddisplay:block>=
+</picture></td></tr><tr><td class=3Dm14 style=3D"padding:7px 0 26px"><p cla=
+ss=3Dm44 style=3Dfont-size:17px;font-weight:600;line-height:21px;color:#f5f=
+5f7>Supercharged by the Apple=C2=A0M1 chip.<br> 12MP=C2=A0Ultra Wide front =
+camera with Center Stage.<br> Blazing-fast 5G. Five gorgeous=C2=A0colors.</=
+p></td></tr><tr><td align=3Dcenter><table border=3D0 cellpadding=3D0 cellsp=
+acing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr><td class=3Dm=
+13 width=3D50%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpre=
+sentation width=3D100% class=3Dm13><tr><td class=3Dm21 style=3Dtext-align:r=
+ight;line-height:0 align=3Dright><a href=3D"https://c.apple.com/r?v=3D2&la=
+=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEq=
+VdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlK=
+mcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh=
+0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y5n5V9C" style=3Dfont-=
+size:0;color:#2997ff><picture><source media=3D"(max-device-width: 568px)" s=
+rcset=3Ddata:><img alt=3D"View pricing" height=3D44 src=3Dhttps://www.apple=
+.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/btn_price_dark_medium_=
+2x.png width=3D138></picture></a></td></tr></table></td><td class=3Dm13 wid=
+th=3D0%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentati=
+on width=3D100% class=3Dm13></table></td><td class=3Dm13 width=3D50%><table=
+ border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100=
+% class=3Dm13><tr><td style=3Ddisplay:block;padding-left:15px;text-align:le=
+ft;font-size:17px;line-height:25px><a href=3D"https://c.apple.com/r?v=3D2&l=
+a=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugE=
+qVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFl=
+KmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvX=
+h0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y1E0K4k" style=3Dfont=
+-size:17px;font-weight:400;line-height:25px;color:#2997ff class=3D"m5 m16">=
+Learn <span style=3Dwhite-space:nowrap>more<img alt=3D" " height=3D10 src=
+=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/17=
+_chevron_0066cc_2x.png width=3D12 border=3D0 style=3Dfont-size:0;display:in=
+line-block;margin:0></span></a></td></tr></table></td></tr></table></td></t=
+r></table></td></tr></table></td></tr></table></td></tr><tr class=3Dm4><td =
+class=3Dm2 style=3Dbackground-color:#fff align=3Dcenter><table border=3D0 c=
+ellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dcent=
+er><tr class=3Dm12><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 ro=
+le=3Dpresentation width=3D100% align=3Dcenter><tr><td class=3Dm13 style=3Dp=
+adding-bottom:82px width=3D100%><table border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 role=3Dpresentation width=3D100% class=3Dm13 style=3Dtext-align:cent=
+er><tr><td class=3Dm19 style=3Dpadding-top:76px;text-align:center;font-size=
+:0;margin:0;line-height:0 align=3Dcenter><picture><source media=3D"(max-dev=
+ice-width: 568px)" srcset=3Ddata:><img alt=3D" " height=3D269 src=3Dhttps:/=
+/www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/iphonese_2x.=
+jpg width=3D634 class=3Dm19 border=3D0 style=3Ddisplay:block;border-top-lef=
+t-radius:20px;border-top-right-radius:20px;border-bottom-left-radius:20px;b=
+order-bottom-right-radius:20px></picture></td></tr><tr><td class=3Dm14 styl=
+e=3D"padding:32px 0 2px"><p style=3Dcolor:#86868b;font-size:14px;font-weigh=
+t:400;line-height:17px>Pre-order 3.11<br> Available 3.18</p></td></tr><tr><=
+td class=3Dm19 style=3Dtext-align:center;font-size:0;margin:0;line-height:0=
+ align=3Dcenter><picture><source media=3D"(max-device-width: 568px)" srcset=
+=3Ddata:><img alt=3D"iPhone SE" height=3D48 src=3Dhttps://www.apple.com/dm/=
+us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/iphonese_logo_2x.png width=3D1=
+75 class=3Dm19 border=3D0 style=3Ddisplay:block></picture></td></tr><tr><td=
+ class=3Dm14 style=3D"padding:7px 0 26px"><p class=3Dm44 style=3Dfont-size:=
+17px;font-weight:600;line-height:21px;color:#1d1d1f>Superpowerful A15=C2=A0=
+Bionic chip.<br> Superstar camera. Big=E2=80=91time battery life.<br> All a=
+t an incredible=C2=A0price.</p></td></tr><tr><td align=3Dcenter><table bord=
+er=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% ali=
+gn=3Dcenter><tr><td class=3Dm13 width=3D50%><table border=3D0 cellpadding=
+=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm13><tr><td c=
+lass=3Dm21 style=3Dtext-align:right;line-height:0 align=3Dright><a href=3D"=
+https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJq=
+OcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHU=
+S1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3=
+baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&=
+ct=3Dak6U0G0y9C" style=3Dfont-size:0;color:#06c><picture><source media=3D"(=
+max-device-width: 568px)" srcset=3Ddata:><img alt=3D"View pricing" height=
+=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED=
+2DF5/i/btn_price_medium_2x.png width=3D138></picture></a></td></tr></table>=
+</td><td class=3Dm13 width=3D0%><table border=3D0 cellpadding=3D0 cellspaci=
+ng=3D0 role=3Dpresentation width=3D100% class=3Dm13></table></td><td class=
+=3Dm13 width=3D50%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=
+=3Dpresentation width=3D100% class=3Dm13><tr><td style=3Ddisplay:block;padd=
+ing-left:15px;text-align:left;font-size:17px;line-height:25px><a href=3D"ht=
+tps://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOc=
+wA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1=
+wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3ba=
+iuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=
+=3Dak6y3G7q6k" style=3Dfont-size:17px;font-weight:400;line-height:25px;colo=
+r:#06c class=3D"m5 m16">Learn <span style=3Dwhite-space:nowrap>more<img alt=
+=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-=
+8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12 border=3D0 style=3D=
+font-size:0;display:inline-block;margin:0></span></a></td></tr></table></td=
+></tr></table></td></tr></table></td></tr></table></td></tr></table></td></=
+tr><tr class=3Dm4><td class=3Dm2 style=3Dbackground-color:#f5f5f7 align=3Dc=
+enter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation=
+ width=3D712 align=3Dcenter><tr class=3Dm12><td><table border=3D0 cellpaddi=
+ng=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><tr>=
+<td class=3Dm13 width=3D100%><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0 role=3Dpresentation width=3D100% class=3Dm13 style=3Dtext-align:center=
+><tr><td class=3Dm14 style=3D"padding:65px 0 2px"><p style=3Dcolor:#86868b;=
+font-size:14px;font-weight:400;line-height:17px>Pre-order in Alpine Green o=
+n=C2=A03.11<br> Available 3.18</p></td></tr><tr><td class=3Dm19 style=3Dtex=
+t-align:center;font-size:0;margin:0;line-height:0 align=3Dcenter><picture><=
+source media=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D"iPhon=
+e 13 Pro" height=3D48 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-44=
+58-8B79-859EA6ED2DF5/i/iphone13pro_logo_2x.png width=3D239 class=3Dm19 bord=
+er=3D0 style=3Ddisplay:block></picture></td></tr><tr><td class=3Dm14 style=
+=3D"padding:7px 0 26px"><p class=3Dm44 style=3Dfont-size:17px;font-weight:6=
+00;line-height:21px;color:#1d1d1f>Amazing Pro camera system. OLED display<b=
+r> with ProMotion. The world=E2=80=99s fastest<br> smartphone chip. Now in =
+Alpine Green.</p></td></tr><tr><td align=3Dcenter><table border=3D0 cellpad=
+ding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% align=3Dcenter><t=
+r><td class=3Dm13 width=3D50%><table border=3D0 cellpadding=3D0 cellspacing=
+=3D0 role=3Dpresentation width=3D100% class=3Dm13><tr><td class=3Dm21 style=
+=3Dpadding-right:14px;text-align:right;line-height:0 align=3Dright><a href=
+=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYN=
+xEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWS=
+GDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2Fqxx=
+P2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24=
+%3D&ct=3Dak6y5n0v4M" style=3Dfont-size:0;color:#06c><picture><source media=
+=3D"(max-device-width: 568px)" srcset=3Ddata:><img alt=3DShop height=3D44 s=
+rc=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/=
+btn_shop_medium_2x.png width=3D84></picture></a></td></tr></table></td><td =
+class=3Dm13 width=3D0%><table border=3D0 cellpadding=3D0 cellspacing=3D0 ro=
+le=3Dpresentation width=3D100% class=3Dm13></table></td><td class=3Dm13 wid=
+th=3D50%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentat=
+ion width=3D100% class=3Dm13><tr><td style=3Ddisplay:block;padding-left:4px=
+;text-align:left;font-size:17px;line-height:25px><a href=3D"https://c.apple=
+.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjH=
+A7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2=
+F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%=
+2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y7w6j8p=
+" style=3Dfont-size:17px;font-weight:400;line-height:25px;color:#06c class=
+=3D"m5 m16">Learn <span style=3Dwhite-space:nowrap>more<img alt=3D" " heigh=
+t=3D10 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6E=
+D2DF5/i/17_chevron_0066cc_2x.png width=3D12 border=3D0 style=3Dfont-size:0;=
+display:inline-block;margin:0></span></a></td></tr></table></td></tr></tabl=
+e></td></tr><tr><td class=3Dm19 style=3Dpadding-top:25px;text-align:center;=
+font-size:0;margin:0;line-height:0 align=3Dcenter><picture><source media=3D=
+"(max-device-width: 568px)" srcset=3Ddata:><img alt=3D" " height=3D401 src=
+=3Dhttps://www.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/ip=
+hone13pro_2x.jpg width=3D422 class=3Dm19 border=3D0 style=3Ddisplay:block;b=
+order-top-left-radius:20px;border-top-right-radius:20px></picture></td></tr=
+></table></td></tr></table></td></tr></table></td></tr><tr class=3Dm4><td c=
+lass=3Dm2 style=3Dbackground-color:#fff align=3Dcenter><table border=3D0 ce=
+llpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D712 align=3Dcente=
+r><tr class=3Dm12><td><table border=3D0 cellpadding=3D0 cellspacing=3D0 rol=
+e=3Dpresentation width=3D100% align=3Dcenter><tr><td class=3Dm13 width=3D10=
+0%><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation wi=
+dth=3D100% class=3Dm13 style=3Dtext-align:center><tr><td class=3Dm14 style=
+=3D"padding:65px 0 2px"><p style=3Dcolor:#86868b;font-size:14px;font-weight=
+:400;line-height:17px>Pre-order in Green on=C2=A03.11<br> Available 3.18</p=
+></td></tr><tr><td class=3Dm19 style=3Dtext-align:center;font-size:0;margin=
+:0;line-height:0 align=3Dcenter><picture><source media=3D"(max-device-width=
+: 568px)" srcset=3Ddata:><img alt=3D"iPhone 13" height=3D48 src=3Dhttps://w=
+ww.apple.com/dm/us/22/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/iphone13_logo_=
+2x.png width=3D176 class=3Dm19 border=3D0 style=3Ddisplay:block></picture><=
+/td></tr><tr><td class=3Dm14 style=3D"padding:7px 0 26px"><p class=3Dm44 st=
+yle=3Dfont-size:17px;font-weight:600;line-height:21px;color:#1d1d1f>Our mos=
+t advanced dual-camera system.<br> Lightning-fast A15=C2=A0Bionic chip. A h=
+uge<br> leap in battery life. Now in=C2=A0Green.</p></td></tr><tr><td align=
+=3Dcenter><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresenta=
+tion width=3D100% align=3Dcenter><tr><td class=3Dm13 width=3D50%><table bor=
+der=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% cl=
+ass=3Dm13><tr><td class=3Dm21 style=3Dpadding-right:14px;text-align:right;l=
+ine-height:0 align=3Dright><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&l=
+c=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V=
+9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKy=
+y17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8=
+j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6U4q6T8p" style=3Dfont-size:0;=
+color:#06c><picture><source media=3D"(max-device-width: 568px)" srcset=3Dda=
+ta:><img alt=3DShop height=3D44 src=3Dhttps://www.apple.com/dm/us/22/F931D4=
+9C-9C5A-4458-8B79-859EA6ED2DF5/i/btn_shop_medium_2x.png width=3D84></pictur=
+e></a></td></tr></table></td><td class=3Dm13 width=3D0%><table border=3D0 c=
+ellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm13=
+></table></td><td class=3Dm13 width=3D50%><table border=3D0 cellpadding=3D0=
+ cellspacing=3D0 role=3Dpresentation width=3D100% class=3Dm13><tr><td style=
+=3Ddisplay:block;padding-left:4px;text-align:left;font-size:17px;line-heigh=
+t:25px><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8=
+HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE=
+1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcbKHKyy17OW14UkOtduEFoIcXb=
+T7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcd=
+MPZcz0WSaBrT24%3D&ct=3Dak6y7V8p8T" style=3Dfont-size:17px;font-weight:400;l=
+ine-height:25px;color:#06c class=3D"m5 m16">Learn <span style=3Dwhite-space=
+:nowrap>more<img alt=3D" " height=3D10 src=3Dhttps://www.apple.com/dm/us/22=
+/F931D49C-9C5A-4458-8B79-859EA6ED2DF5/i/17_chevron_0066cc_2x.png width=3D12=
+ border=3D0 style=3Dfont-size:0;display:inline-block;margin:0></span></a></=
+td></tr></table></td></tr></table></td></tr><tr><td class=3Dm19 style=3Dpad=
+ding-top:30px;text-align:center;font-size:0;margin:0;line-height:0 align=3D=
+center><picture><source media=3D"(max-device-width: 568px)" srcset=3Ddata:>=
+<img alt=3D" " height=3D334 src=3Dhttps://www.apple.com/dm/us/22/F931D49C-9=
+C5A-4458-8B79-859EA6ED2DF5/i/iphone13_2x.jpg width=3D619 class=3Dm19 border=
+=3D0 style=3Ddisplay:block;border-top-left-radius:20px;border-top-right-rad=
+ius:20px></picture></td></tr></table></td></tr></table></td></tr></table></=
+td></tr></table></td></tr></table></div></td></tr><tr><td><table border=3D0=
+ cellpadding=3D0 cellspacing=3D0 role=3Dpresentation width=3D100% class=3D"=
+m28 m66 m73" style=3Dbackground-color:#1d1d1f bgcolor=3D#1D1D1F><tr class=
+=3Dm4><td class=3Dm69><table border=3D0 cellpadding=3D0 cellspacing=3D0 rol=
+e=3Dpresentation width=3D712 class=3Dm31 style=3Dbackground-color:#1d1d1f b=
+gcolor=3D#1D1D1F align=3Dcenter><tr><td class=3Dm70 style=3D"padding:0 20px=
+"><table border=3D0 cellpadding=3D0 cellspacing=3D0 role=3Dpresentation wid=
+th=3D660 class=3Dm71 bgcolor=3D#1D1D1F align=3Dcenter><tr><td class=3D"m27 =
+m74" style=3D"padding:15px 0 16px;font-size:14px;line-height:18px;border-to=
+p-width:0;border-bottom-width:1px;border-bottom-style:solid;border-bottom-c=
+olor:#424245;color:#d2d2d7" align=3Dcenter><p style=3D"color:#D2D2D7;margin=
+:0 auto;font-size:14px;line-height:18px"><a href=3D"https://c.apple.com/r?v=
+=3D2&la=3Den&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf=
+2E8ugEqVdBJd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOL=
+IyIMFlKmcbKHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaO=
+GR9WvXh0n4kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6U0E8D0T" style=
+=3Dborder:0;outline:0;text-decoration:none;color:#D2D2D7 class=3Dm10>Shop O=
+nline</a><span class=3Dm39 style=3Dcolor:#424245>=C2=A0=C2=A0=C2=A0=C2=A0|=
+=C2=A0=C2=A0=C2=A0=C2=A0</span><a href=3D"https://c.apple.com/r?v=3D2&la=3D=
+en&lc=3Dusa&a=3Dz2%2Bnb8HWCoHziyJtbRYNxEJqOcwA12xbGoofYjHA7%2FpYf2E8ugEqVdB=
+Jd8V9nKbktQazRlzlFqS29VE1Zv3g9h7GuTTWSGDHUS1wpDGjpjKCxb%2F8eD4aOLIyIMFlKmcb=
+KHKyy17OW14UkOtduEFoIcXbT7C96Mde%2FqxxP2U3baiuv87B%2B6Cm%2FcLqdaOGR9WvXh0n4=
+kmg8j63WJGg1XObBgbP6jtcdMPZcz0WSaBrT24%3D&ct=3Dak6y7a3m5v" style=3Dborder:0=
+;outline:0;text-decoration:none;color:#D2D2D7 class=3Dm10>Find a Store</a><=
+span class=3Dm39 style=3Dcolor:#424245>=C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=
+=A0=C2=A0=C2=A0</span><span class=3Dm10 style=3Dborder:0;outline:0;text-dec=
+oration:none>1-800-MY-APPLE</span><span class=3Dm39 style=3Dcolor:#424245>=
+=C2=A0=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0=C2=A0</span><a href=3D"https://=
+c.apple.com/r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2Fdw=
+FlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1eg=
+KAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3Dak6y8a7N3k" style=3Dborder:0;outline:0;t=
+ext-decoration:none;color:#D2D2D7 class=3Dm10>Get=C2=A0the=C2=A0Apple=C2=A0=
+Store=C2=A0App</a><span class=3Dm39 style=3Dcolor:#424245></span></p></td><=
+/tr><!----><tr><td class=3D"m67 m68" style=3D"padding:17px 0 9px;text-align=
+:center"><p style=3Dfont-size:12px;line-height:16px;color:#86868b>TM and =
+=C2=A9 2022 Apple Inc. One Apple Park Way, <span class=3Dm3 style=3Dwhite-s=
+pace:nowrap>MS 96-DM</span>, Cupertino, CA 95014.</p></td></tr><tr><td clas=
+s=3Dm72 style=3D"padding:0 0 9px;font-size:12px;line-height:16px;color:#d2d=
+2d7;text-align:center"><p style=3D"color:#D2D2D7;margin:0 auto;font-size:12=
+px;line-height:16px"><a href=3D"https://c.apple.com/r?v=3D2&la=3Den&lc=3Dus=
+a&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvrGR0OKy1i%2F8Nx0gM=
+4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%2B8Dj3Kqfua&ct=3D=
+ak6y6x2C4T" style=3Dborder:0;outline:0;text-decoration:none;color:#D2D2D7>A=
+ll=C2=A0Rights=C2=A0Reserved</a> =C2=A0=C2=A0=C2=A0<span class=3Dm39 style=
+=3Dcolor:#424245>|</span>=C2=A0=C2=A0 <a href=3D"https://c.apple.com/r?v=3D=
+2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2FZsCvr=
+GR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfikAI5L%=
+2B8Dj3Kqfua&ct=3Dak6y2I3J6h" style=3Dborder:0;outline:0;text-decoration:non=
+e;color:#D2D2D7>Privacy=C2=A0Policy</a> =C2=A0=C2=A0=C2=A0<span class=3Dm39=
+ style=3Dcolor:#424245>|</span>=C2=A0=C2=A0 <a href=3D"https://c.apple.com/=
+r?v=3D2&la=3Den&lc=3Dusa&a=3D5GF8ADtvpReCO2pjCvueY5v6WwPue%2FdwFlCZVXu6xC%2=
+FZsCvrGR0OKy1i%2F8Nx0gM4DcxEz90qAqyePRFKsY3S5VY%2FTB5cDU7v9w1egKAdjIjbFWPfi=
+kAI5L%2B8Dj3Kqfua&ct=3Dak6y2a9W1T" style=3Dborder:0;outline:0;text-decorati=
+on:none;color:#D2D2D7>My=C2=A0Apple=C2=A0ID</a> </p></td></tr><tr><td class=
+=3Dm67 style=3D"padding:0 0 25px;text-align:center"><p style=3Dfont-size:12=
+px;line-height:16px;color:#86868b>If you prefer not to receive commercial e=
+mail from Apple, or if you=E2=80=99ve changed your email address, please <a=
+ href=3Dhttps://mynews.apple.com/subscriptions?v=3D2&la=3Den_us&a=3DZfzcfm%=
+2F%2B1x1wPWs6SzxcpRzpsdtz41WwZjXkHk4fGBjf8hy09%2FmyezRzl4LuRHvtOHTVt1eQatnd=
+VtN8OgfumH9vENMUi1p4KisymDkJQeuLXPmmeEL%2B%2F004LmdE1nzy%2F6htJS7kpyilcna2M=
+gZwUeSRd%2FAI9Iz3ki15SlhZ9rMALg85MeWWSMeMGnDQ9852 style=3Dborder:0;outline:=
+0;text-decoration:none;color:#d2d2d7>click=C2=A0here</a>.</p></td></tr></ta=
+ble></td></tr></table></td></tr></table></td></tr></table> </body></html>
+------=_Part_605381004_1085792895.1646788105410--

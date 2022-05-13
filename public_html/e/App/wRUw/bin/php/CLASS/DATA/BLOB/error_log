@@ -1,0 +1,17 @@
+[31-Jan-2021 10:53:48 UTC] PHP Parse error:  syntax error, unexpected 'Array' (T_ARRAY), expecting identifier (T_STRING) in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/ARRAY.php on line 3
+[31-Jan-2021 10:53:52 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'Data\Type' in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/CSV.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/CSV.php on line 2
+[31-Jan-2021 10:53:54 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/DOCUMENT.php on line 3
+[31-Jan-2021 10:53:54 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/DOCUMENT.php on line 3
+[31-Jan-2021 10:53:54 UTC] PHP Fatal error:  require(): Failed opening required 'cgi-bin/PHP/Traits/Magic_Methods.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/DOCUMENT.php on line 3
+[31-Jan-2021 10:53:56 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/IMAGE.php on line 3
+[31-Jan-2021 10:53:56 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/IMAGE.php on line 3
+[31-Jan-2021 10:53:56 UTC] PHP Fatal error:  require(): Failed opening required 'cgi-bin/PHP/Traits/Magic_Methods.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/IMAGE.php on line 3
+[31-Jan-2021 10:54:02 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/MULTIMEDIA.php on line 3
+[31-Jan-2021 10:54:02 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/MULTIMEDIA.php on line 3
+[31-Jan-2021 10:54:02 UTC] PHP Fatal error:  require(): Failed opening required 'cgi-bin/PHP/Traits/Magic_Methods.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/MULTIMEDIA.php on line 3
+[31-Jan-2021 10:54:07 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/VIDEO.php on line 3
+[31-Jan-2021 10:54:07 UTC] PHP Warning:  require(cgi-bin/PHP/Traits/Magic_Methods.php): failed to open stream: No such file or directory in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/VIDEO.php on line 3
+[31-Jan-2021 10:54:07 UTC] PHP Fatal error:  require(): Failed opening required 'cgi-bin/PHP/Traits/Magic_Methods.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/avexeva/public_html/a/XIO/Language/PHP/CLASS/DATA/BLOB/VIDEO.php on line 3

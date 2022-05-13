@@ -1,0 +1,1053 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202112 will be lost/reset.
+# Last config file used to build this data file was /home/avexeva/tmp/awstats/awstats.avexeva.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2689                
+POS_VISITOR 23742               
+POS_DAY 33779               
+POS_DOMAIN 3639                
+POS_LOGIN 4261                
+POS_ROBOT 4416                
+POS_WORMS 5143                
+POS_EMAILSENDER 5274                
+POS_EMAILRECEIVER 5417                
+POS_SESSION 34598               
+POS_SIDER 34799               
+POS_FILETYPES 5552                
+POS_DOWNLOADS 5712                
+POS_OS 9840                
+POS_BROWSER 10278               
+POS_SCREENSIZE 12160               
+POS_UNKNOWNREFERER 12234               
+POS_UNKNOWNREFERERBROWSER 13083               
+POS_ORIGIN 13732               
+POS_SEREFERRALS 13874               
+POS_PAGEREFS 14076               
+POS_SEARCHWORDS 14302               
+POS_KEYWORDS 14454               
+POS_MISC 2353                
+POS_ERRORS 14513               
+POS_CLUSTER 4117                
+POS_SIDER_404 14610               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220101000007 402 96211 13430384574956
+FirstTime 20211201012425
+LastTime 20211231180224
+LastUpdate 20220101071519 402 0 401 0 0
+TotalVisits 293                 
+TotalUnique 245                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 252                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 9 9 961849 2351 2394 219008157
+1 8 13 860429 2053 2102 201353293
+2 32 38 3348045 3985 4031 299153439
+3 19 24 2037142 1147 1212 92779275
+4 13 18 1394841 1651 1732 72628993
+5 26 38 2049255 1162 1239 71284760
+6 15 15 1710620 866 911 75559749
+7 8 19 759545 1261 1314 78395008
+8 57 141 6104983 737 796 74533063
+9 8 13 860413 612 667 69484795
+10 29 35 3042179 769 834 74773058
+11 14 32 1520611 711 774 74684168
+12 11 23 1198657 741 798 73322579
+13 15 27 1417609 822 891 76046810
+14 18 18 1818131 811 938 70687279
+15 16 16 1711829 627 711 68461147
+16 60 87 6502649 625 694 69463527
+17 26 44 2808654 827 877 100742055
+18 18 20 1847317 616 665 69795871
+19 21 21 2365288 767 845 67546744
+20 5 5 534207 577 634 66799144
+21 17 41 2057634 1777 1864 163378258
+22 16 148 1638402 3152 3255 269347861
+23 13 29 1405469 2561 2625 216707600
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 251 525 26271730
+in 52 118 5362077
+ru 37 55 4087710
+cn 20 26 2148750
+nl 18 18 1637772
+gb 18 21 1939272
+pt 10 10 1068662
+se 10 10 1069737
+ca 8 8 1070171
+fr 7 7 748813
+ir 7 7 760884
+gr 5 5 534867
+id 5 5 534868
+de 3 3 320921
+hu 3 3 320922
+iq 3 15 335285
+il 2 2 213948
+ua 2 2 213948
+ar 2 11 224318
+ma 2 14 234814
+ie 2 2 213947
+kz 2 2 106974
+it 1 1 106877
+rs 1 1 106878
+br 1 1 106973
+jm 1 1 106973
+mx 1 1 107667
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+MJ12bot/ 16331 1036199469 20211231144239 0
+AhrefsBot/ 9178 1084885518 20211231235826 0
+bot[\s_+:,\.\;\/\\-] 4650 526786826 20211231235614 0
+bingbot/ 406 27695011 20211231214257 0
+YandexBot/ 248 27420977 20211231222902 0
+Googlebot/ 60 2475488 20211231031558 0
+no_user_agent 44 4733225 20211231200035 0
+archive\.org_bot 30 2494032 20211231151959 0
+bingpreview 25 134353 20211231055310 0
+Apache\-HttpClient/ 20 2139472 20211216135738 0
+(firefox/)([0-9]\.|[0-1][0]\.) 8 223450 20211220132107 0
+survey 4 213948 20211230234843 0
+urllib 3 320921 20211224211832 0
+SemrushBot/ 2 213943 20211228132804 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+txt 104 7384 0 0
+js 231 225466 0 0
+css 65 113035 0 0
+html 291 29955058 0 0
+php 183 19654815 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 58
+/.well-known/pki-validation/AAD99ACA3DD0982BD7CE7CCBDDDD08AB.txt 16 0 1232
+/.well-known/pki-validation/8110C55643D6D9C34E63AF248C56E89F.txt 8 0 616
+/.well-known/pki-validation/70748173AFEBE6D3E30B6637CBF15E58.txt 8 0 616
+/.well-known/pki-validation/86790DD3DAC9CD9A00800CD84873031B.txt 8 0 616
+/.well-known/pki-validation/82A1C553ED523984E99F3822001F5A41.txt 8 0 616
+/.well-known/pki-validation/A5BC47E5AE69B86D13E1D4CC5430510C.txt 8 0 616
+/.well-known/pki-validation/F89D126D1B24601FE3326F0464603D23.txt 1 0 64
+/.well-known/pki-validation/E43A3F8F1FE0F8E4FC632CCEEAD89E28.txt 1 0 64
+/.well-known/pki-validation/8DE1FA537F640C4441AE07AD74E3A7BC.txt 1 0 64
+/.well-known/pki-validation/ED168968BC41BD8A844A08AD3BCCD750.txt 1 0 64
+/.well-known/pki-validation/3B9BEAFAFB75BC9261A0BFAA283B70B7.txt 1 0 64
+/.well-known/pki-validation/4A5437677A39FAB7505AFE8CA7C681D2.txt 1 0 64
+/.well-known/pki-validation/7AB4C71318DA2F2FC08367EDA6BED27A.txt 1 0 64
+/.well-known/pki-validation/7FE1BFD5CF34765D16D27859C5DBB7E8.txt 1 0 64
+/.well-known/pki-validation/E9B773B5A58F6D729F58D8103E471454.txt 1 0 64
+/.well-known/pki-validation/AF9AEFFFDB26D0DB9081CCF1E56B00F6.txt 1 0 64
+/.well-known/pki-validation/110F18B96F7F74B83432BE9197F3EC96.txt 1 0 64
+/.well-known/pki-validation/17E0FB14608ECC5F5EEF7D73E2C41D8F.txt 1 0 64
+/.well-known/pki-validation/5A109EFCC6F5A5DB93FD147675215342.txt 1 0 64
+/.well-known/pki-validation/D6F23238B06C076A6FE43FA41DAE0871.txt 1 0 64
+/.well-known/pki-validation/8E0A1FFC28E211AE9CC9CC3D6F7CE15C.txt 1 0 64
+/.well-known/pki-validation/3BB95B5C86116A581984866AE3380D45.txt 1 0 64
+/.well-known/pki-validation/D4E45C04363780E451EDD6E4D061F7ED.txt 1 0 64
+/.well-known/pki-validation/C571B13F645A4AE65F1647E4B9BDB5A4.txt 1 0 64
+/.well-known/pki-validation/1014801F208662B55168CDE55F659C67.txt 1 0 64
+/.well-known/pki-validation/0473D98D633C0FF7F039804633A80181.txt 1 0 64
+/.well-known/pki-validation/254B131504C899E1AB52ED37B6534EF3.txt 1 0 64
+/.well-known/pki-validation/E254D62C4FCA669546B4E8D609802408.txt 1 0 64
+/.well-known/pki-validation/1707095660687A54328910B0C39AB8B6.txt 1 0 64
+/.well-known/pki-validation/67A693C5C4E273AEE70D923FD0A68B6C.txt 1 0 64
+/.well-known/pki-validation/22181F90671CDE54740A591D559F335B.txt 1 0 64
+/.well-known/pki-validation/6FB80DFA41E1E571F1B1D1968794E108.txt 1 0 64
+/.well-known/pki-validation/071BD734235392E776695ABD23289BDC.txt 1 0 64
+/.well-known/pki-validation/5182589E0DB73ED9E3F426BE81F579E7.txt 1 0 64
+/.well-known/pki-validation/CA2A1DA51B339AC572683EB22959D220.txt 1 0 64
+/.well-known/pki-validation/7CF4BE68F7302A7D4EB1C044A20377DA.txt 1 0 64
+/a/XIO/Language/PHP/CLASS/CSS/RULE/readme.txt 1 0 85
+/.well-known/pki-validation/694E3C5F2F08A46E0E74312BDE0EBF0C.txt 1 0 64
+/.well-known/pki-validation/C540F41AE3E30C86CAE12FC66589628B.txt 1 0 64
+/.well-known/pki-validation/AF859845EE98B720014BD65E28D43993.txt 1 0 64
+/.well-known/pki-validation/71DD2B27B41351EA0D49B494E4D1C506.txt 1 0 64
+/.well-known/pki-validation/FC39D8C92B388CA7B0C651266E3690E8.txt 1 0 64
+/.well-known/pki-validation/E1F6B9734A7F6F7269CDC60CCA4D2A40.txt 1 0 64
+/.well-known/pki-validation/56C449C1A715ADA2C7D1F60534A8A58E.txt 1 0 64
+/.well-known/pki-validation/BA0F2F2B939A930CE3A6603586C3D125.txt 1 0 64
+/.well-known/pki-validation/B32DFAA69F50773252543340EBDE6988.txt 1 0 64
+/.well-known/pki-validation/4D32C8245D66F40981E98558BD8ECEEF.txt 1 0 64
+/.well-known/pki-validation/088297B8E24FEFB253D34860ABDA5B23.txt 1 0 64
+/.well-known/pki-validation/A070A00A701B26B24D8872E1EE589712.txt 1 0 64
+/.well-known/pki-validation/DFC09284FA36BDA5A91AD711F3A4E000.txt 1 0 64
+/.well-known/pki-validation/FA2B5BB9547B28E62138707AB8943FC4.txt 1 0 64
+/.well-known/pki-validation/23A0C9F10903A068DBAF45A9B9268821.txt 1 0 64
+/.well-known/pki-validation/DA9C2180FB899324F1F687EB0CC49160.txt 1 0 64
+/a/XOR/X7/t.txt 1 0 327
+/.well-known/pki-validation/0A3E22F6BF6BC7FEB3434206C1FE1349.txt 1 0 64
+/.well-known/pki-validation/EDA6DF778A8E3EF63D4229E07219E1DC.txt 1 0 64
+/a/Xt/XJ/New%20Text%20Document.txt 1 0 0
+/a/XIO/Language/PYTHON/Packages/Code/PHP/Class/readme.txt 1 0 22
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 27
+ios_iphone 3 1
+macosx12 2 2
+win8 2 2
+android 15 3
+win8.1 16 16
+macosx13 11 11
+win2003 3 0
+macosx8 4 4
+win7 84 43
+androidoreo 2 2
+macosx15 46 46
+Unknown 143 33
+macosx10 2 2
+winnt 1 1
+androidmarshmallow 3 3
+androidlollipop 2 2
+linuxubuntu 5 5
+androidnougat 1 1
+macosx 12 12
+unix 30 6
+androidpie 2 2
+winlong 12 9
+macosx9 3 3
+winxp 9 9
+macosx14 1 1
+win10 333 168
+linux 127 87
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 86
+chrome95.0.4638.69 3 3
+chrome94.0.4606.97 7 1
+firefox52.0 1 1
+Unknown 130 26
+firefox28.0 1 1
+firefox89.0 2 2
+epiphany 3 0
+chrome76.0.3809.71 21 3
+msie8.0 14 2
+chrome94.0.4606.124 23 5
+chrome85.0.4183.121 5 5
+firefox57.0 7 1
+firefox94.0 1 1
+opera78.0.4093.147 7 1
+chrome96.0.4664.93 115 37
+chrome75.0.3770.80 1 1
+chrome81.0.4044.138 2 2
+chrome96.0.4664.92 15 3
+chrome32.5.2418.44 1 1
+chrome49.0.2623.75 1 1
+msie6.0 7 7
+chrome92.0.4515.159 23 23
+chrome88.0.4324.150 1 1
+safari11.0 1 1
+chrome87.0.4472.114 1 1
+chrome78.0.3904.108 18 18
+chrome73.0.3683.86 2 2
+chrome87.0.4280.88 28 28
+chrome73.0.3683.90 1 1
+chrome22.0.1207.1 7 7
+opera9.50 3 0
+chrome88.0.4324.192 1 1
+chrome60.0.3112.107 1 1
+mozilla 20 11
+chrome94.0.4606.81 30 5
+chrome81.0.4044.129 19 19
+firefox50.0 8 8
+chrome65.0.3325.109 38 38
+chrome86.0.4240.75 1 1
+chrome83.0.4103.97 15 15
+chrome79.0.3945.79 28 4
+chrome65.0.3400.0 2 2
+firefox66.0 1 1
+chrome90.0.4430.85 10 10
+safari14.0.2 3 3
+chrome60.0.3112.90 11 11
+chrome91.0.4472.164 7 1
+chrome91.0.4472.114 22 22
+chrome90.0.4430.72 4 4
+firefox93.0 7 1
+chrome81.0.4044.117 1 1
+msie7.0 1 1
+chrome79.0.3945.88 2 2
+chrome91.0.4472.106 2 2
+chrome71.0.3578.98 3 3
+chrome49.0.2623.112 8 2
+firefox72.0 1 1
+firefox84.0 7 7
+chrome80.0.3987.117 1 1
+chrome89.0.4389.114 9 9
+chrome72.0.3626.109 1 1
+opera10.50 3 0
+firefox58.0 3 3
+chrome80.0.3987.149 3 3
+chrome90.0.4430.212 1 1
+chrome26.0.1410.65 4 4
+firefox81.0 34 34
+chrome55.0.2883.95 2 2
+chrome90.0.4430.93 4 4
+chrome83.0.4103.61 24 4
+chrome88.0.4240.193 13 13
+chrome4.0.213.0 3 0
+chrome78.0.3904.70 7 1
+chrome35.0.1916.47 3 3
+safari14.1.2 3 1
+chrome74.0.3729.169 6 6
+safari4.0.5 3 0
+chrome90.0.4430.86 1 1
+chrome45.0.2454.94 1 1
+chrome84.0.4147.105 3 3
+chrome74.0.3729.157 1 1
+chrome34.0.1847.116 7 7
+firefox59.0 2 2
+chrome76.0.3809.111 1 1
+chrome96.0.4664.55 25 4
+firefox33.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~virustotalcloud) 20211201052513
+panscient.com 20211221220509
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211231180224
+COMODO_DCV 20211224223110
+GRequests/0.10 20211230024541
+PostmanRuntime/7.26.8 20211225035621
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20211226085834
+Mozilla/5.0_(compatible;_Dataprovider.com) 20211221085528
+aria2/1.35.0 20211202073144
+python-requests/2.22.0 20211213031337
+python-requests/2.25.1 20211201063224
+Mozilla/5.0_(compatible;_ips-agent) 20211212185047
+python-requests/2.26.0 20211229181645
+Embarcadero_URI_Client/1.0 20211218124713
+Sectigo_DCV 20211224223128
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+COMODO_DCV 20211224223110
+GRequests/0.10 20211230024541
+panscient.com 20211221220509
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20211231180224
+AppEngine-Google;_(_http://code.google.com/appengine;_appid:_s~virustotalcloud) 20211201052513
+PostmanRuntime/7.26.8 20211225035621
+python-requests/2.22.0 20211213031337
+aria2/1.35.0 20211202073144
+Sectigo_DCV 20211224223128
+Embarcadero_URI_Client/1.0 20211218124713
+python-requests/2.26.0 20211229181645
+python-requests/2.25.1 20211201063224
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 342 470
+From1 3 3
+From2 12 12
+From3 14 14
+From4 103 375
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_bing_com 1 1
+www_google_com 9 9
+www_google_com_ar 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://xn--avexva-68b.com 7 7
+http://avexeva.it 6 6
+http://www.avexeva.it 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+500 288 0
+404 1490 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 292
+/wp2/wp-includes/wlwmanifest.xml 16 -
+/media/images/icons/door_operator.png 2 -
+/media/images/icons/rotor.png 2 -
+/media/images/icons/motor_brush.png 2 -
+/hello.php 1 http://avexeva.com/hello.php
+/media/images/icons/terminal.png 2 -
+/aveXtE/Xt/Xx/Xx 2 -
+/xxx.php 1 http://avexeva.com/xxx.php
+/idotensei.php 1 -
+/old-wp/ 1 -
+/media/images/icons/car_door.png 2 -
+/installs.php 1 http://avexeva.com/installs.php
+/env/.env 1 -
+/media/images/icons/counterweight_frame.png 2 -
+/a/XIO/Language/PHP/CLASS/MAGIC/METHODS/__CONSTRUCTORS.php 1 -
+/media/images/icons/commutator.png 2 -
+/assets/images/moduless.php 1 -
+/media/crisp.jpg 2 -
+/cgi-bin/../../../../../bin/bash 2 -
+/media/images/icons/limit.png 2 -
+/a/XIO/Language/PHP/CLASS/GUI/BUTTON.php 1 -
+/store 1 -
+/media/images/icons/semi_conductor.png 2 -
+/2015/wp-includes/wlwmanifest.xml 1 -
+/media/images/icons/shackle.png 2 -
+/media/images/icons/header.png 2 -
+/new-site/ 1 -
+/media/images/icons/resistor.png 2 -
+/media/images/icons/gfi.png 2 -
+/config/aws.yml 1 -
+/wp-content/ 3 -
+/media/images/icons/ladder.png 2 -
+/media/mask.jpg 2 -
+/media/images/icons/car_top_station.png 2 -
+/news/wp-includes/wlwmanifest.xml 16 -
+/2017/wp-includes/wlwmanifest.xml 1 -
+/sites/default/files/ 3 binance.com
+/media/images/icons/rectifier.png 2 -
+/main/ 1 -
+/media/images/icons/interpole.png 2 -
+/media/images/icons/alarm.png 2 -
+/index3.php 1 -
+/images/ 3 binance.com
+/index.php 4 -
+/~app/.env 2 -
+/setting.php 1 http://avexeva.com/setting.php
+/cgi-bin/menu_settings.php 1 -
+/old-site/ 1 -
+http://www.avexeva.com/index.php 1 -
+/news.php 1 http://avexeva.com/news.php
+/media/images/icons/bank.png 2 -
+//mt/mt-xmlrpc.cgi 1 -
+/wp-includes/wlwmanifest.xml 15 -
+/admin 2 -
+/new.php 1 http://avexeva.com/new.php
+/laravel/.env 1 -
+/errors.php 1 http://avexeva.com/errors.php
+/media/images/icons/edge.png 2 -
+/wp/wp-includes/wlwmanifest.xml 17 -
+/b.php 1 http://avexeva.com/b.php
+/app/etc/local.xml 1 -
+/home/ 1 -
+/admin/.env 1 -
+/media/tea.jpg 2 -
+/a/XIO/Language/PHP/CLASS/APP/USER.php 1 -
+/s_e.php 1 -
+/media/apple.jpg 2 -
+/media/images/icons/sling.png 2 -
+/menus.php 1 http://avexeva.com/menus.php
+/media/images/icons/controller.png 2 -
+/media/images/icons/capacitor.png 2 -
+/media/images/icons/cable.png 2 -
+/media/images/icons/tachometer.png 2 -
+/images/a.png 2 -
+/v1/ 1 -
+/footer.php 1 http://avexeva.com/footer.php
+/api.php 1 http://avexeva.com/api.php
+/robots.txt 611 -
+/media/matrix.jpg 2 -
+/blog/.env 1 -
+/phpinfo 1 -
+/media/images/icons/shaftway.png 2 -
+/test/wp-includes/wlwmanifest.xml 17 -
+/site/ 1 -
+/a/XIO/Language/PHP/CLASS/MAGIC/METHODS/__CONSTRUCT.php 1 -
+/media/images/icons/computer.png 2 -
+/a/XIO/Language/PHP/CLASS/ATLAS/FOOTER.php 1 -
+/media/images/icons/starter.png 2 -
+/a/XIO/Language/PHP/CLASS/DATA/_ALPHANUMERIC.php 1 -
+/v2/ 1 -
+/media/book.png 2 -
+/media/images/icons/saddle.png 2 -
+/media/images/icons/destination_dispatch.png 2 -
+/media/cryptocurrencies.jpg 2 -
+/assets/images/s_ne.php 1 -
+/sito/wp-includes/wlwmanifest.xml 16 -
+/media/catan.jpg 2 -
+/media/images/icons/transformer.png 2 -
+/test/.env 1 -
+/sitemap.xml 3 -
+/media/images/icons/crosshead.png 2 -
+/media/images/icons/selector_tape.png 2 -
+/temp/ 1 -
+/media/tupperware.jpg 2 -
+/media/images/icons/car_operating_panel.png 2 -
+/backup/ 1 -
+/media/images/icons/car.png 2 -
+/media/images/icons/safety_jaw.png 2 -
+/media/images/icons/armature.png 2 -
+/js 1 -
+/media/images/icons/roller_guides.png 2 -
+/bak/ 1 -
+/media/microphone.jpg 2 -
+/adminx.php 1 http://avexeva.com/adminx.php
+/humans.txt 10 -
+/wp1/wp-includes/wlwmanifest.xml 17 -
+/uploads/ 3 binance.com
+/newsleter.php 1 http://avexeva.com/newsleter.php
+/conf1g.php 1 http://avexeva.com/conf1g.php
+/assets/images/s_e.php 1 -
+/bk/ 1 -
+/media/massage.jpg 2 -
+/administrator/index.php 2 -
+/mt6/mt-xmlrpc.cgi 1 -
+/aveXtE/Xt/XF/Loop 1 -
+/media/images/icons/car_top_inspection_station.png 2 -
+/media/art.jpg 2 -
+/media/jacket.jpg 2 -
+/media/images/icons/button.png 2 -
+/aws.yml 1 -
+/media/images/icons/main_line.png 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 -
+/priv.php 1 http://avexeva.com/priv.php
+/_profiler/phpinfo 1 -
+/media/cookbook.jpg 2 -
+/general.php 1 http://avexeva.com/general.php
+/web/ 1 -
+/logs.php 1 http://avexeva.com/logs.php
+/a/XIO/Language/PHP/CLASS/MAGIC/METHODS/INDEX.php 1 -
+/jira/plugins/servlet/oauth/users/icon-uri 1 -
+//mt/DIZ.php 1 -
+/media/images/icons/car_top.png 2 -
+/media/mystery.jpg 2 -
+/media/images/icons/hall_lantern.png 2 -
+/media/images/icons/buffer.png 2 -
+/media/images/icons/contact.png 2 -
+/.env 32 -
+/media/images/icons/platform.png 2 -
+/radio.php 1 http://avexeva.com/radio.php
+/dump.php 1 http://avexeva.com/dump.php
+/xml.php 1 http://avexeva.com/xml.php
+/2018/ 1 -
+/context.php 1 http://avexeva.com/context.php
+/wp-login.php 56 -
+/media/homedepot.png 2 -
+/media/cords.jpg 2 -
+/media/images/icons/selector.png 2 -
+/admin/view/stylesheet/accesson.php 1 -
+/user/register/ 1 -
+/conf.php 1 http://avexeva.com/conf.php
+/a/XIO/Language/PHP/GET/CSV.php 1 -
+/cms/ 1 -
+/license.txt 1 -
+/test/ 1 -
+/bin/Media/Image/Icon/NEI.png 2 -
+/blog/wp-includes/wlwmanifest.xml 17 -
+/a/XIO/Language/PHP/GET/HTML.php 1 -
+/cgi-bin/mt/mt-xmlrpc.cgi 1 -
+/media/images/icons/guide_shoe.png 2 -
+/install/ 1 -
+/js/app.js 1 -
+/cname.php 1 http://avexeva.com/cname.php
+/wp1/ 1 -
+/media/images/icons/buck.png 2 -
+/media/images/icons/lightbulb.png 2 -
+/.aws/credentials 1 -
+/assets/images/wp_wrong_datlib.php 1 -
+/files/ 3 binance.com
+/new/ 1 -
+/blog/ 1 -
+/2016/wp-includes/wlwmanifest.xml 1 -
+/media/images/icons/car_station.png 2 -
+/demo/ 1 -
+/tmp/ 1 -
+/media/images/icons/motor.png 2 -
+/old/ 1 -
+/a/XIO/Language/PHP/FUNCTION/EXISTS.php 1 -
+/media/images/icons/toe_guard.png 2 -
+/media/buddha.jpg 2 -
+/.git/config 1 -
+/wp2/ 1 -
+/wp-admin/css/ 3 binance.com
+/a/XIO/Language/PHP/GET/XML.php 1 -
+/400.php 1 http://avexeva.com/400.php
+/2020/ 1 -
+/aveXtE/Xt/XI/XA 1 -
+/media/images/icons/generator.png 2 -
+/2019/wp-includes/wlwmanifest.xml 15 -
+/media/images/icons/stator.png 2 -
+/info.php 1 -
+/cgi/mt/mt-xmlrpc.cgi 1 -
+/assets/images/utility.php 1 -
+/website/wp-includes/wlwmanifest.xml 16 -
+/local.env 1 -
+/media/images/icons/center_junction_box.png 2 -
+/media/images/icons/elevator.png 2 -
+/.php.php 1 http://avexeva.com/.php.php
+/a/XIO/Language/PHP/GET/INDEX.php 1 -
+/media/images/icons/roller_guide.png 2 -
+/ 12 -
+/a/XIO/Language/PHP/CLASS/APP/INDEX.php 1 -
+/a/XIO/Language/JAVASCRIPT/GUI/INDEX.php 1 -
+/a.php 1 http://avexeva.com/a.php
+/shop 1 -
+/2019/ 1 -
+/media/projector.jpg 2 -
+/dev/ 1 -
+/media/images/icons/floor.png 2 -
+/media/wp-includes/wlwmanifest.xml 8 -
+/media/images/icons/machine_room.png 2 -
+/shop/wp-includes/wlwmanifest.xml 17 -
+/mt/mt-xmlrpc.cgi 1 -
+/wordpress/wp-includes/wlwmanifest.xml 17 -
+/media/cravebox.jpg 2 -
+/media/images/icons/machine.png 2 -
+/_ignition/execute-solution 1 -
+/media/images/icons/door_package.png 2 -
+/media/images/icons/weight.png 2 -
+/media/images/icons/governor.png 2 -
+/cms/.env 1 -
+/media/images/icons/coil.png 2 -
+/media/images/icons/hall_station.png 2 -
+/media/tree.jpg 2 -
+/cms/wp-includes/wlwmanifest.xml 17 -
+/media/images/icons/door_hanger.png 2 -
+/cache/index3.php 1 -
+/media/images/icons/drive.png 2 -
+/media/images/icons/scr.png 2 -
+/media/box.jpg 2 -
+/media/images/icons/sheave.png 2 -
+/media/giftcard.png 2 -
+/media/images/icons/post.png 2 -
+/bak.php 1 http://avexeva.com/bak.php
+/media/images/icons/rope_gripper.png 2 -
+/media/images/icons/cam.png 2 -
+/media/box.png 2 -
+/ads.txt 42 -
+/media/images/icons/relay.png 2 -
+/media/images/icons/cab.png 2 -
+/media/images/icons/fault.png 2 -
+/media/images/icons/encoder.png 2 -
+/xmlrpc.php 21 -
+/Images/Banners/404.png 2 -
+/2020/wp-includes/wlwmanifest.xml 9 -
+/a/XIO/Language/PHP/GET/JSON.php 1 -
+/.well-known/acme-challenge/menu_settings.php 1 -
+/media/hammock.jpg 2 -
+/media/images/icons/pit.png 2 -
+/media/images/icons/traveler.png 2 -
+/feed/ 2 -
+/data.php 1 http://avexeva.com/data.php
+/media/images/icons/secondary.png 2 -
+/media/bestbuy.jpg 2 -
+/2021/wp-includes/wlwmanifest.xml 2 -
+/cgi-bin/mt-xmlrpc.cgi 1 -
+/magmi/conf/magmi.ini 1 -
+/media/images/icons/brake.png 2 -
+/phpinfo.php 1 -
+/media/images/icons/portal.png 2 -
+//DKIZ.php 1 -
+/wp/ 1 -
+/downloader 1 -
+/2018/wp-includes/wlwmanifest.xml 8 -
+/media/images/icons/railing.png 2 -
+/web/wp-includes/wlwmanifest.xml 17 -
+/media/images/icons/selector_machine.png 2 -
+/cgi-bin/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh 3 -
+/wordpress/ 21 -
+/.env.bak 1 -
+/admin/controller/extension/extension/ 3 binance.com
+/index.php%3fFolder=a/XIO 1 -
+/media/images/icons/stop_switch.png 2 -
+/site/wp-includes/wlwmanifest.xml 17 -
+/405.php 1 http://avexeva.com/405.php
+/media/skull.jpg 2 -
+/config.js 1 -
+/media/chocolates.jpg 2 -
+/assets/images/accesson.php 1 -
+/a/XIO/Language/PHP/GET/CODE.php 1 -
+/media/images/icons/board.png 2 -
+/app/.env 2 -
+/media/texas.jpg 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 252
+49.36.237.7 34 100 3721083 20211209085017
+172.12.204.62 19 19 2058881 20211221022010
+23.250.22.92 19 19 2058884 20211230165234
+149.56.160.218 12 12 1288961 20211221085515
+185.250.240.123 8 8 1069271 20211229225242
+54.39.29.64 8 8 855786 20211227160230
+46.101.80.192 7 7 779416 20211227163916
+91.241.19.243 7 7 748811 20211220184220
+72.89.221.100 6 36 675339 20211211215536
+34.98.143.11 6 6 641744 20211201052513
+103.107.198.235 6 6 641842 20211211001315
+188.166.236.12 6 6 641840 20211219012429
+82.102.25.138 6 6 641841 20211207231745
+134.122.46.40 5 5 534867 20211229142538
+175.158.39.1 5 5 534868 20211220031810
+103.142.204.121 5 5 534870 20211221034805
+206.78.197.2 5 23 557219 20211201171608
+42.83.147.34 5 5 534868 20211229143735
+81.28.6.198 4 4 642277 20211224063319
+34.98.143.9 4 4 0 20211201052511
+34.98.143.13 4 4 106878 20211201052513
+159.89.7.139 4 4 642277 20211225211340
+94.46.220.95 4 4 426821 20211213150758
+46.105.35.5 3 3 320918 20211220022638
+161.35.232.216 3 3 319211 20211228182411
+93.158.91.232 1 1 106972 20211208131959
+54.218.102.78 1 1 106974 20211201104938
+167.248.133.116 1 1 106974 20211217093533
+137.184.234.23 2 2 211963 20211228164128
+34.243.214.28 1 1 106973 20211231163521
+130.255.166.69 1 1 106974 20211213204006
+93.158.92.199 1 1 106974 20211209070514
+194.165.16.68 0 6 960 
+167.172.62.217 1 1 106276 20211228132932
+54.171.92.139 1 1 106974 20211213184336
+5.164.172.154 1 7 118159 20211230122008
+34.252.143.92 1 1 106974 20211212034717
+52.19.39.251 1 1 106974 20211230161758
+168.9.26.231 1 7 113352 20211203082330
+52.11.144.224 1 1 106974 20211205104527
+177.241.55.224 1 1 107667 20211215081707
+23.101.130.130 1 1 106974 20211202110640
+3.250.27.71 1 1 106972 20211216161058
+185.191.34.215 2 2 0 20211227070219
+185.195.24.62 1 1 0 20211216024323
+37.112.170.183 1 1 106974 20211228233610
+190.192.166.18 2 11 224318 20211214161309
+195.239.51.72 1 1 106878 20211201061809
+92.118.160.45 1 1 106974 20211219172427
+167.172.62.246 2 2 217249 20211229081431
+52.143.118.157 2 2 106956 20211201063224
+34.247.245.185 1 1 106974 20211209161307
+195.154.61.206 1 1 106974 20211226043601
+34.222.16.23 1 1 106878 20211201062807
+159.223.8.243 1 1 106320 20211225235328
+176.74.192.85 1 1 106973 20211218174400
+93.158.90.67 1 1 106974 20211221160418
+134.209.194.57 2 2 218241 20211217053703
+137.184.42.156 1 1 106876 20211226022446
+34.215.149.88 1 1 106974 20211206102037
+46.51.161.203 1 1 106973 20211211160750
+93.158.92.11 1 1 106974 20211201141650
+85.143.106.77 1 1 106973 20211206213002
+171.109.216.97 1 1 107667 20211216144316
+20.115.166.223 1 1 106974 20211205173713
+54.78.105.165 1 1 106974 20211211231906
+54.171.101.111 1 1 106974 20211220163252
+137.184.37.207 1 1 119752 20211225184846
+85.159.237.75 1 1 106974 20211223090407
+34.252.153.70 1 1 106974 20211213164942
+194.163.153.136 1 1 106973 20211225121509
+137.184.114.214 1 1 108152 20211226081040
+54.217.48.224 1 1 106973 20211212005628
+37.0.10.46 3 3 2568 20211215182959
+67.218.236.29 1 1 106548 20211210124045
+91.199.212.132 0 3 231 
+5.161.54.76 2 2 219499 20211226044438
+178.148.243.26 1 1 106878 20211202073144
+64.246.165.190 1 1 106974 20211204062355
+34.222.230.149 1 1 106974 20211206101408
+74.125.215.1 1 1 106974 20211201052507
+100.26.162.102 1 6 111613 20211213090021
+192.140.51.245 1 1 106974 20211220170819
+92.118.160.17 1 1 106972 20211205214551
+168.197.13.42 1 1 106956 20211230221806
+3.250.158.20 1 1 106974 20211210044503
+51.89.227.251 1 1 106974 20211209225653
+2.56.59.43 2 2 213948 20211222190352
+49.234.47.214 1 1 106974 20211217175042
+52.16.197.103 1 1 106974 20211210175411
+185.5.250.32 1 1 106974 20211216004441
+52.40.157.169 1 1 106974 20211205105104
+45.129.18.199 1 1 0 20211206101330
+206.180.176.155 1 1 106973 20211210061523
+167.172.62.245 2 2 226022 20211228192053
+65.108.150.126 1 1 106973 20211224223741
+39.106.98.188 2 2 213948 20211225025031
+213.108.3.161 1 1 106486 20211224130522
+209.141.41.103 1 1 106878 20211201063336
+54.216.85.23 1 1 106974 20211217164646
+149.56.160.241 1 7 113349 20211221085528
+45.140.205.152 1 1 106880 20211224130517
+93.159.230.89 2 2 213947 20211230045858
+34.245.104.91 1 1 106974 20211202162619
+130.255.166.151 1 1 106974 20211226214358
+52.37.4.200 1 1 106974 20211203103808
+205.169.39.252 2 13 224772 20211201075737
+144.126.218.27 2 2 213948 20211218052748
+51.159.140.206 1 1 106973 20211225035621
+167.114.5.51 1 1 106974 20211218103917
+172.241.250.174 3 3 320921 20211228191758
+42.192.184.76 1 1 106974 20211204222014
+138.68.74.164 2 2 213948 20211228074436
+5.252.194.191 2 2 106974 20211210142640
+156.146.50.75 1 1 106974 20211209102836
+54.39.184.26 2 2 213948 20211202133424
+34.253.233.86 1 1 106974 20211222162450
+92.118.160.5 1 1 106973 20211227071324
+77.34.170.244 1 1 106974 20211227123452
+54.246.43.93 1 1 106974 20211210163222
+52.27.65.110 1 1 106974 20211206101940
+159.223.125.111 1 1 107314 20211228154904
+185.7.145.47 1 1 106974 20211218031853
+52.16.252.70 1 1 106973 20211212105828
+54.170.240.54 1 1 106974 20211229162859
+65.154.226.165 3 21 339863 20211224223323
+105.72.252.27 1 1 106972 20211206164116
+34.214.102.165 1 1 106974 20211204103306
+20.124.91.57 1 1 106974 20211229124318
+35.87.137.44 1 1 106974 20211203103830
+34.250.162.41 1 1 106973 20211213060703
+34.212.11.249 1 1 106974 20211201104856
+128.199.104.255 1 1 106973 20211229181645
+159.223.126.170 2 2 221632 20211228213429
+204.13.201.137 1 8 113415 20211201052507
+81.155.254.139 1 1 106480 20211223194733
+172.58.231.228 1 3 110771 20211207185629
+65.21.206.43 1 1 106973 20211224174426
+34.252.223.60 1 1 106974 20211210090406
+5.161.57.42 1 1 112976 20211228133937
+103.164.62.93 2 2 250428 20211216103810
+159.223.114.90 2 2 213947 20211224113519
+120.52.152.20 1 4 111282 20211208111422
+18.203.126.98 1 1 106973 20211211103904
+37.236.217.10 3 15 335285 20211215115308
+120.79.160.104 1 1 106974 20211210154808
+65.108.1.219 1 1 106974 20211225095746
+167.94.138.44 1 1 106974 20211226085834
+68.183.14.230 2 2 217790 20211228140718
+52.91.175.106 1 6 111613 20211220013619
+34.244.202.219 1 1 106973 20211211194306
+54.190.105.28 2 2 213946 20211224043931
+167.99.209.88 2 2 212546 20211229024617
+77.22.49.76 1 1 106974 20211215083631
+3.249.132.91 1 1 106974 20211211044254
+93.159.230.88 1 1 106972 20211215054542
+54.221.27.173 1 1 106974 20211225065901
+92.118.160.13 1 1 106974 20211231180224
+51.145.92.28 3 3 320920 20211217113730
+65.154.226.220 2 13 224773 20211211235447
+177.221.100.244 1 1 106973 20211219145305
+18.236.8.168 1 1 106974 20211203082330
+164.132.159.220 1 1 106877 20211201064523
+52.48.217.27 1 1 106974 20211207164430
+46.137.63.46 1 1 106974 20211215160814
+77.222.96.231 1 7 118160 20211228125925
+94.130.105.139 1 1 106974 20211224121004
+5.161.57.139 2 2 213945 20211207180025
+45.227.253.70 0 6 10434 
+204.13.201.139 0 1 138 
+62.210.88.24 1 1 106974 20211230203123
+206.189.12.85 3 3 318633 20211228190409
+205.169.39.158 2 13 224773 20211208224715
+18.236.7.105 1 1 106974 20211201170929
+69.160.160.50 1 7 113352 20211207132622
+31.210.20.31 3 3 320922 20211228022939
+137.184.37.173 1 1 107961 20211228153432
+52.214.229.140 1 1 106974 20211213011519
+223.81.144.208 1 1 106974 20211217232139
+167.172.62.209 2 2 213374 20211229004002
+34.252.102.29 1 1 106974 20211223162854
+159.65.242.215 2 2 213947 20211216153018
+147.182.246.72 2 2 221964 20211225205237
+159.89.34.134 3 3 320920 20211220100709
+167.94.138.42 1 1 106974 20211204082338
+54.214.203.64 1 1 106974 20211208104154
+192.71.224.240 1 1 106974 20211202165652
+93.158.91.201 1 1 106974 20211219004838
+212.41.9.227 1 1 106973 20211210000221
+45.129.18.115 1 1 0 20211227083437
+54.202.26.168 1 1 106973 20211210102304
+221.130.37.194 1 1 106957 20211216181359
+137.184.37.203 2 2 213942 20211226064411
+35.85.44.57 1 1 106974 20211204103236
+41.137.43.2 1 1 106974 20211213031337
+34.244.83.161 1 1 106974 20211221160818
+51.91.7.5 1 1 106974 20211205094659
+3.81.4.9 3 3 320922 20211219031507
+34.247.184.52 1 1 106974 20211204182300
+34.244.32.16 1 1 106974 20211227163500
+72.79.44.121 1 1 106974 20211221220509
+52.212.242.191 1 1 106974 20211207233747
+52.42.117.24 1 1 106973 20211208104212
+14.142.243.244 1 1 106974 20211206211409
+34.243.223.23 1 1 106974 20211228160748
+52.51.105.34 1 1 106974 20211211191924
+54.194.220.36 1 1 106973 20211210232023
+123.149.78.156 1 1 106972 20211206052807
+40.115.72.143 3 3 320922 20211213105503
+46.4.33.48 1 1 106974 20211204205205
+45.227.254.4 0 6 10434 
+54.154.187.191 1 1 106973 20211213010014
+54.154.123.123 1 1 106974 20211213115356
+100.25.181.217 1 6 111611 20211213042336
+92.118.160.37 1 1 106974 20211213042243
+185.158.115.77 2 2 213947 20211209124646
+62.4.14.198 1 1 106974 20211226051818
+104.244.228.192 1 1 106973 20211229213523
+65.21.206.44 2 2 213947 20211218121950
+45.129.18.173 1 1 0 20211207130353
+95.132.29.56 1 1 106974 20211220011247
+35.84.178.12 2 2 213947 20211226115950
+54.213.192.92 1 1 106974 20211210101640
+194.62.105.124 1 1 106974 20211218124713
+66.94.115.45 1 1 106973 20211212231924
+106.75.134.236 1 4 111282 20211208111428
+54.229.206.227 1 1 106974 20211208170551
+64.246.165.200 1 1 106973 20211224100626
+204.13.201.138 0 4 6080 
+34.244.26.224 1 1 106973 20211203170410
+35.211.17.242 1 1 106973 20211219155232
+34.200.231.147 1 6 111613 20211227033005
+72.13.46.6 3 3 319558 20211212185047
+193.176.84.130 1 1 106974 20211210134900
+93.158.91.243 1 1 106974 20211226074421
+167.172.62.208 1 1 106878 20211228171934
+34.254.162.106 1 1 106974 20211206161904
+59.175.144.15 3 3 320922 20211230024541
+5.161.55.232 1 1 108152 20211228163811
+212.83.146.233 1 1 106973 20211226045946
+65.21.206.46 1 1 106974 20211213160648
+205.169.39.116 2 13 224773 20211208222047
+35.88.39.8 1 7 113256 20211204164550
+54.74.178.21 1 1 106973 20211214162444
+63.35.212.11 1 1 106974 20211211134126
+34.206.71.52 1 6 111613 20211205231345
+167.172.62.216 1 1 106974 20211225165240
+23.235.204.245 0 101 7153 
+34.252.8.58 1 1 106974 20211212164915
+5.161.53.204 1 1 106312 20211228141410
+164.92.245.223 3 3 320922 20211218175535
+124.126.78.168 1 1 106956 20211214092832
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20211201 36 83 3046786 19
+20211202 6 6 535569 6
+20211203 6 12 648221 6
+20211204 9 15 969046 9
+20211205 6 11 646481 6
+20211206 11 11 1069733 11
+20211207 15 29 1514180 10
+20211208 11 39 1206977 9
+20211209 40 106 4362927 7
+20211210 17 17 1711154 14
+20211211 19 54 1964264 12
+20211212 8 8 854425 6
+20211213 21 37 2148638 16
+20211214 5 14 545221 4
+20211215 9 21 871824 7
+20211216 9 9 892945 7
+20211217 11 17 1187287 8
+20211218 14 14 1497630 9
+20211219 10 26 1070865 6
+20211220 16 43 1727777 8
+20211221 46 68 5174335 10
+20211222 3 19 322050 2
+20211223 3 19 321556 3
+20211224 18 48 2147444 13
+20211225 24 24 2809197 21
+20211226 15 15 1603537 14
+20211227 16 21 1532872 9
+20211228 26 32 2816214 22
+20211229 17 23 1830761 10
+20211230 25 31 2711895 7
+20211231 2 2 213947 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+15mn-30mn 1
+30mn-1h 1
+0s-30s 285
+2mn-5mn 2
+30s-2mn 1
+5mn-15mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/ 288 29952490 220 215
+/index.php 183 19654815 70 75
+/.well-known/ 3 2568 3 3
+END_SIDER
